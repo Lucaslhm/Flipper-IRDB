@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 2F 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 45 00 00 00
+# 
+name: Dwn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 46 00 00 00
+# 
+name: Rt
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 48 00 00 00
+# 
+name: Lft
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 47 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 2D 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4A 00 00 00
+# 
+name: V_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: V_dwn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9012 4462 597 523 600 519 593 1669 566 527 596 523 600 518 594 524 599 525 598 1665 570 1640 595 524 599 1638 597 1640 679 1558 677 1561 601 1642 593 1644 591 1646 600 519 593 525 598 521 591 527 596 522 601 524 599 519 593 525 598 1638 597 1640 595 1643 592 1645 601 1636 599 1640 595 40175 9019 2204 598
+# 
+name: Ch_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Ch_dwn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4F 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1A 00 00 00
+# 
+name: Info
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1B 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
