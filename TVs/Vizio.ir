@@ -13,25 +13,55 @@ protocol: NEC
 address: 04 00 00 00
 command: 2F 00 00 00
 # 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: Ch_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Ch_down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
 name: Up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 45 00 00 00
 # 
-name: Dwn
+name: Down
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 46 00 00 00
 # 
-name: Rt
+name: Right
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 48 00 00 00
 # 
-name: Lft
+name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -48,36 +78,6 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 4A 00 00 00
-# 
-name: V_up
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 02 00 00 00
-# 
-name: V_dwn
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 03 00 00 00
-# 
-name: Ch_up
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 00 00 00 00
-# 
-name: Ch_dwn
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 01 00 00 00
-# 
-name: Mute
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 09 00 00 00
 # 
 name: Menu
 type: parsed
