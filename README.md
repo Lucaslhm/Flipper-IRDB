@@ -1,2 +1,2 @@
 # Flipper-IRDB
-A collective of different IRs for the Flipper
+A **maintained** collective of different IRs for the Flipper
