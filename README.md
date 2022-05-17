@@ -10,10 +10,13 @@ This repo is organized in the following fashion in descending order:
 * Device Series (Where known/applicable)
 
 When adding remotes to this repo, it is helpful to ensure your device name(s) follow the `brand_model.ir` naming scheme. It is also helpful to ensure your model numbers are capitalized, as per the following example:
+<<<<<<< organize/file-structure
+`LG_55UN7300AUD.ir`
+=======
 
 `LG_55UN7300AUD.ir`
 
-## To Install New Remotes On Your Flipper:  
+## To Install New Remotes On Your Flipper:   
 
 1. Git clone this repo to your local PC. Example in Git Bash: `git clone https://github.com/UberGuidoZ/Flipper-IRDB.git`
 2. Open the cloned repository in a File Explorer.
