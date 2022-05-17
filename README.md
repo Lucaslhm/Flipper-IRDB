@@ -15,7 +15,7 @@ When adding remotes to this repo, it is helpful to ensure your device name(s) fo
 
 ## To Install New Remotes On Your Flipper:   
 
-1. Git clone this repo to your local PC. Example in Git Bash: `git clone https://github.com/UberGuidoZ/Flipper-IRDB.git`
+1. Git clone this repo to your local PC. [Multiple options are explained here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 2. Open the cloned repository in a File Explorer.
 3. Connect your Flipper to your PC using a USB-C cable.
 4. Open [QFlipper](https://flipperzero.one/update)
