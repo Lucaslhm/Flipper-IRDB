@@ -10,9 +10,6 @@ This repo is organized in the following fashion in descending order:
 * Device Series (Where known/applicable)
 
 When adding remotes to this repo, it is helpful to ensure your device name(s) follow the `brand_model.ir` naming scheme. It is also helpful to ensure your model numbers are capitalized, as per the following example:
-<<<<<<< organize/file-structure
-`LG_55UN7300AUD.ir`
-=======
 
 `LG_55UN7300AUD.ir`
 
