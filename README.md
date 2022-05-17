@@ -3,7 +3,7 @@
 A collective of different IRs for the Flipper.  
 
 Files are arranged in directories by brand, and named according to the following naming scheme:  
-"<Brand>_<Model>.ir"  
+"Brand_Model.ir"  
 
 ## To Install On Your Flipper:  
 
