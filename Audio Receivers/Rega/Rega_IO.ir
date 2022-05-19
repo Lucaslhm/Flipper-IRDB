@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0D 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 29 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 08 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 23 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 24 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 30 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 32 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 03 00 00 00
