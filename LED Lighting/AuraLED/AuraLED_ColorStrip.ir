@@ -1,0 +1,149 @@
+Filetype: IR signals file
+Version: 1
+# 
+# AuraLED ColorStrip LEDs
+# 
+name: On
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: Off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9227 4492 622 521 603 542 623 522 632 512 632 513 631 514 630 514 630 515 629 1628 630 1629 629 1630 628 1633 604 545 630 1630 628 1631 627 1631 627 518 626 1632 626 519 625 520 624 520 624 521 623 521 603 542 623 1634 624 521 623 1634 624 1633 625 1633 625 1632 605 1652 626 1631 596
+# 
+name: Bright
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9234 4488 626 519 625 520 634 510 634 511 633 512 632 513 631 515 629 516 628 1631 627 1633 635 1625 633 1628 630 518 636 1624 634 1627 631 1631 637 511 633 515 629 519 635 514 630 519 635 513 631 516 638 512 632 1627 631 1631 637 1624 634 1626 632 1628 630 1629 629 1633 625 1634 634 41137 9266 2204 631 96573 9235 2204 631
+# 
+name: Dim
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9349 4519 636 519 635 521 633 522 632 523 611 544 641 514 640 517 606 549 605 1663 636 1631 637 1629 639 1627 631 522 632 1633 635 1629 629 1631 606 1653 625 520 624 521 633 512 632 513 631 514 630 516 628 516 628 518 626 1632 626 1633 625 1634 634 1625 633 1626 632 1626 632 1627 631 41160 9200 2214 631
+# 
+name: Flash
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9203 4523 602 546 598 548 606 539 605 540 604 540 604 540 604 541 603 542 602 1654 604 1656 602 1657 601 1658 600 546 598 1660 598 1661 607 1651 607 1652 606 1654 604 543 601 1656 602 544 600 545 599 545 599 546 598 546 598 546 598 1659 599 546 598 1659 599 1659 599 1659 599 1660 598 41200 9184 2241 605
+# 
+name: Strobe
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9218 4491 633 511 633 511 633 511 633 512 632 512 632 513 631 512 632 512 632 1626 632 1627 631 1627 631 1628 630 515 629 1630 628 1632 626 1633 635 1624 634 1624 634 1624 634 1625 633 513 631 514 630 515 629 515 629 516 628 516 628 517 627 518 626 1633 635 1623 635 1625 633 1625 633 41172 9198 2214 631
+# 
+name: Fade
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+# 
+name: Holiday
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: White
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9223 4493 632 512 632 512 632 512 632 513 631 513 631 513 631 514 630 514 630 1629 629 1629 629 1630 628 1631 627 518 626 1632 626 1633 625 1634 624 1635 633 1625 633 1626 632 513 631 513 631 513 631 512 632 512 632 512 632 512 632 512 622 1635 623 1634 624 1634 624 1633 625 1632 626 41178 9189 2219 627
+# 
+name: NECe_F708
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+# 
+name: NECe_F609
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+# 
+name: NECe_F50A
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+# 
+name: NECe_F30C
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+# 
+name: NECe_F20D
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+# 
+name: NECe_F10E
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+# 
+name: NECe_EF10
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+# 
+name: NECe_EE11
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+# 
+name: NECe_ED12
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+# 
+name: NECe_EB14
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+# 
+name: NECe_EA15
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 15 EA 00 00
+# 
+name: NECe_E916
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 16 E9 00 00
+#
