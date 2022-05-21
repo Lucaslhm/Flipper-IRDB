@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Pelonis PFS40D6ABB AC
+# 
 name: Power
 type: raw
 frequency: 38000

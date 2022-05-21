@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# TaoTronics TT-SK023 Sound Bar
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Volume Up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
+# 
+name: Volume Down
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Optical
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1B 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+# 
+name: Forward
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+# 
+name: Music
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Game
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1D 00 00 00
+# 
+name: Cinema
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1C 00 00 00
