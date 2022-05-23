@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Vivitek 4K Projector
+# 
 name: Off
 type: parsed
 protocol: NEC
