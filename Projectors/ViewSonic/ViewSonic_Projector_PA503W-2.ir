@@ -1,0 +1,172 @@
+Filetype: IR signals file
+Version: 1
+# 
+# ViewSonic Projector PA503W-2
+# 
+name: Power_On
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 4F B0 00 00
+# 
+name: Power_Off
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 4E B1 00 00
+# 
+name: COMP
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 41 BE 00 00
+# 
+name: VIDEO
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 52 AD 00 00
+# 
+name: HDMI
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 58 A7 00 00
+# 
+name: Auto_Sync
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 08 F7 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 40 BF 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 0B F4 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 0F F0 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 0C F3 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 0E F1 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 15 EA 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 30 CF 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 97 68 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 28 D7 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 13 EC 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 03 FC 00 00
+# 
+name: Pattern
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 55 AA 00 00
+# 
+name: Blank
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 07 F8 00 00
+# 
+name: PgUp
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 06 F9 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 82 7D 00 00
+# 
+name: Zoom_In
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 67 98 00 00
+# 
+name: Pg_Down
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 05 FA 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 83 7C 00 00
+# 
+name: Zoom_Out
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 68 97 00 00
+# 
+name: Eco_Mode
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 2B D4 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 14 EB 00 00
+# 
+name: Color_Mode
+type: parsed
+protocol: NECext
+address: 83 F4 00 00
+command: 10 EF 00 00
