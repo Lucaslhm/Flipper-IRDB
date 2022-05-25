@@ -9,6 +9,36 @@ protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
+name: Mute
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: Chan_Up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Chan_Down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 11 00 00 00
+# 
 name: Display
 type: parsed
 protocol: SIRC
@@ -248,39 +278,3 @@ type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 18 00 00 00
-# 
-name: Mute
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 14 00 00 00
-# 
-name: Vol_Up
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 12 00 00 00
-# 
-name: Vol_Down
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 13 00 00 00
-# 
-name: Chan_Up
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 10 00 00 00
-# 
-name: Chan_Down
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 11 00 00 00
-# 
-name: Display
-type: parsed
-protocol: SIRC
-address: 01 00 00 00
-command: 3A 00 00 00
