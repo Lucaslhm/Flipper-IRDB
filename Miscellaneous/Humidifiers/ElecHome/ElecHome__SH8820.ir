@@ -1,0 +1,27 @@
+#ElecHome SH8820 Humidifier
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: MinMax
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+# 
+name: ChildLock
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 57 00 00 00
+# 
+name: HumiLevel
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
