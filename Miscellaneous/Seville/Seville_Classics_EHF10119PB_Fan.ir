@@ -1,5 +1,8 @@
 Filetype: IR signals file
 Version: 1
+#
+# Seville Classics EHF10119P Fan
+# https://www.sevilleclassics.com/products/ehf10119pb
 # 
 name: Power
 type: raw
