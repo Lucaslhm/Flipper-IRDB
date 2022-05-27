@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+#
+# Philips Soundbar HTL2161B/F7 (2015)
+#
+name: Power
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 0C 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 10 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 11 00 00 00
