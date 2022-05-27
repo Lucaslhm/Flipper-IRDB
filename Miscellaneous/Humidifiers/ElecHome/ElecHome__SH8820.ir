@@ -1,6 +1,7 @@
-#ElecHome SH8820 Humidifier
 Filetype: IR signals file
 Version: 1
+# 
+# ElecHome SH8820 Humidifier
 # 
 name: Power
 type: parsed
