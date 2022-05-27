@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Samsung Soundbar
+#
 name: Vol_up
 type: raw
 frequency: 38000
