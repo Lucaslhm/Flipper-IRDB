@@ -1,0 +1,128 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1598 4830 42575
+#
+name: ALT
+type: raw
+frequency: 26743
+duty_cycle: 0.330000
+data: 1608 1608 3216 1608 4824 37729 1608 1608 3216 1608 4824 1045582
+#
+name: 1
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1635 1635 3232 1635 3232 39380 1635 1635 3232 1635 3232 1045770
+#
+name: 2
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1598 1598 1598 4830 39380 1598 1598 1598 1598 4830 1045770
+#
+name: 3
+type: raw
+frequency: 26743
+duty_cycle: 0.330000
+data: 1571 1571 8039 39337
+#
+name: 4
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1635 3195 3195 1635 39380 1635 1635 3195 3195 1635 1045770
+#
+name: 5
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1635 1635 1635 1635 1635 1635 39380 1635 1635 1635 1635 1635 1635 1635 1045770
+#
+name: 6
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1635 4830 1635 1635 39343 1635 1635 4830 1635 1635 1045770
+#
+name: 7
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1635 3232 1635 1635 40978 1635 1635 3232 1635 1635 1045770
+#
+name: 8
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1598 1598 1598 3232 40941 1598 1598 1598 1598 3232 1045770
+#
+name: 9
+type: raw
+frequency: 26743
+duty_cycle: 0.330000
+data: 1571 1571 6432 40945
+#
+name: 0
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1635 1635 1635 1635 42575 1635 1635 1635 1635 1635 1045770
+#
+name: CH+
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1598 1598 1598 1598 1598 3232 37746
+#
+name: CH-
+type: raw
+frequency: 26743
+duty_cycle: 0.330000
+data: 1608 1608 4824 1608 3216 37729
+#
+name: VOL+
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1598 1598 4793 3232 37746
+#
+name: VOL-
+type: raw
+frequency: 26743
+duty_cycle: 0.330000
+data: 1571 1571 3178 3178 3178 37729
+#
+name: MUTE
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1598 3232 44136
+#
+name: NEXT
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1635 3232 4793 1635 37746 1635 1635 3232 4793 1635 1045770
+#
+name: A/B
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1635 1635 1635 1635 3195 1635 37746 1635 1635 1635 1635 1635 3195 1635 1045770
+#
+name: ENTER
+type: raw
+frequency: 26917
+duty_cycle: 0.330000
+data: 1598 1635 4830 3195 1635 37746 1635 1635 4830 3195 1635 1045770
+#
+name: BUY
+type: raw
+frequency: 26743
+duty_cycle: 0.330000
+data: 1571 1571 1571 1571 6432 37729 1571 1571 1571 1571 6432 1045582
