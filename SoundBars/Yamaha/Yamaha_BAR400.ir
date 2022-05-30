@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: CC 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1E 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1F 00 00 00
+# 
+name: Sub_up
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4C 00 00 00
+# 
+name: Sub_dn
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4D 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 9C 00 00 00
