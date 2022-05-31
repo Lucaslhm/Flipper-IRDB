@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Arizer Extreme Q2 Vaporizer
+#
 name: Power
 type: parsed
 protocol: NEC
