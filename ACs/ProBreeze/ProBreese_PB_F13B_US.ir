@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# ProBreeze Remote Oscillating Fan
+#
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8962 4553 506 685 478 660 503 687 486 652 511 705 458 706 457 708 455 762 401 710 453 890 273 1704 560 1783 398 1839 508 1753 511 1727 537 1756 508 682 481 654 509 1732 532 657 506 685 478 713 481 602 530 1784 459 1751 534 1759 505 679 484 1833 431 1805 459 1726 538 1728 536 638 504 42109 9013 2263 531 97142 8988 2268 536 68429 8999 4520 539 704 459 627 536 629 534 682 481 657 506 632 531 660 503 634 539 651 512 623 561 1728 536 1724 509 1729 535 1727 558 1679 565 1702 562 627 536 624 539 1729 535 602 561 628 535 630 533 652 511 1700 554 1733 562 1705 538 621 532 1731 533 1704 612 1650 562 1757 507 589 564
+# 
+name: Rotate
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 87 78 00 00
+# 
+name: Speed_UP
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 81 7E 00 00
+# 
+name: Speed_DOWN
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 82 7D 00 00
+# 
+name: Delay_UP
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 83 7C 00 00
+# 
+name: Delay_DOWN
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 86 79 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 80 7F 00 00
+# 
+name: Lock
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 85 7A 00 00

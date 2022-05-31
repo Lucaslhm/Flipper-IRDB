@@ -1,0 +1,184 @@
+Filetype: IR signals file
+Version: 1
+# 
+# LG BlueRay/Surround Sound
+# 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+# 
+name: Home
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A5 00 00 00
+# 
+name: Function
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 8A 00 00 00
+# 
+name: Vol_UP
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+# 
+name: Vol_DOWN
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A3 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A7 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A6 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A8 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A9 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: AA 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 04 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 05 00 00 00
+# 
+name: FF
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 52 00 00 00
+# 
+name: Rew
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 53 00 00 00
+# 
+name: Back
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A2 00 00 00
+# 
+name: Next_Ch
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 07 00 00 00
+# 
+name: Prev_Ch
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 06 00 00 00
+# 
+name: Disc_Menu
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A4 00 00 00
+# 
+name: Title
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: AF 00 00 00
+# 
+name: Optical
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: B6 00 00 00
+# 
+name: Open_Close
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 9A 00 00 00
+# 
+name: Speaker_Level
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 66 00 00 00
+# 
+name: Sound_Effect
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 2F 00 00 00
+# 
+name: R
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 6C 00 00 00
+# 
+name: G
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 6D 00 00 00
+# 
+name: Y
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 6E 00 00 00
+# 
+name: B
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 6F 00 00 00
