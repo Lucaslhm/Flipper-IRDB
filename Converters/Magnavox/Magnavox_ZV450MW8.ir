@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Magnavox DVD VCR Converter ZV450MW8
+# 
 name: Power
 type: parsed
 protocol: NECext
