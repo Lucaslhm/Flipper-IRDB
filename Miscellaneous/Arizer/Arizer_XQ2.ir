@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Arizer Extreme Q2 Vaporizer
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1B 00 00 00
+# 
+name: Temp_UP
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Temp_DOWN
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: Preset_1
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Preset_2
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: Preset_3
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1F 00 00 00
+# 
+name: Fan_Off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: Fan_Low
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: Fan_Med
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: Fan_High
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: Beep_Level
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: Auto_Off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: LED
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1E 00 00 00
