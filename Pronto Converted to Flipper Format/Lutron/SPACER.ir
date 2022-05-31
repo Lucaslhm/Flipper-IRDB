@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+#
+name: LEFT
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 20550 6833 2261 6833 2261 11356 2261 6833 2261 2261 4547 2261 2261 9144
+#
+name: UPPER-RIGHT
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 20550 6833 2261 6833 2261 11356 2261 6833 2261 6833 2261 11356
+#
+name: LOWER-RIGHT
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 20550 6833 2261 6833 2261 11356 2261 9095 2261 2261 2261 13691
