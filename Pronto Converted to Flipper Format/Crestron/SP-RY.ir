@@ -1,0 +1,122 @@
+Filetype: IR signals file
+Version: 1
+#
+name: RELAY-1-CLOSE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 20353 8152 8125 107707
+#
+name: RELAY-2-CLOSE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 4076 12175 8152 8125 107707
+#
+name: RELAY-3-CLOSE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 8125 4076 8178 8152 8125 107707
+#
+name: RELAY-4-CLOSE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 8152 8099 8152 8125 107707
+#
+name: RELAY-1-OPEN
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 12201 4076 4102 8152 8125 107707
+#
+name: RELAY-2-OPEN
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 4076 4076 4076 4102 8152 8152 107707
+#
+name: RELAY-3-OPEN
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 8125 8152 4102 8152 8125 107707
+#
+name: RELAY-4-OPEN
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 12201 4076 8152 8125 107707
+#
+name: RELAY-1-MOMENTARY
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 16277 12280 8125 107707
+#
+name: RELAY-2-MOMENTARY
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 4076 8125 12254 8125 107707
+#
+name: RELAY-3-MOMENTARY
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 8125 4076 4076 12201 8125 107707
+#
+name: RELAY-4-MOMENTARY
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 8152 4076 12175 8125 107707
+#
+name: RELAY-1-INTERLOCK
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 12201 16356 8125 107707
+#
+name: RELAY-2-INTERLOCK
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 4076 4076 16277 8125 107707
+#
+name: RELAY-3-INTERLOCK
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 8125 20405 8125 107707
+#
+name: RELAY-4-INTERLOCK
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 24481 8125 107707
+#
+name: RELAY-1-TOGGLE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 28452 4076 4076 107707
+#
+name: RELAY-2-TOGGLE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 4076 20300 4076 4076 107707
+#
+name: RELAY-3-TOGGLE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 8125 4076 16277 4076 4076 107707
+#
+name: RELAY-4-TOGGLE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 4076 8152 16251 4076 4076 107707
