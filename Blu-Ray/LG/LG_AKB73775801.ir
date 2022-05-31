@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# LG BlueRay/Surround Sound
+# 
 name: Power
 type: parsed
 protocol: Samsung32
