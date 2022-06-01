@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-#BenQ DLP Projector W1070
+# BenQ DLP Projector W1070
 # 
 name: On
 type: parsed
