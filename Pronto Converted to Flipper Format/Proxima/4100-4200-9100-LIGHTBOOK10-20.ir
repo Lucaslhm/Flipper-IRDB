@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 1729 800 826 2478 1652 31492
+#
+name: INPUT_CYCLE
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 878 3278 1652 826 826 31492
+#
+name: UP
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 800 1652 1652 1652 5214 878 800 1652 1652 1652 5214 878 800 1652 1652 2478 31518 3356 878 878 878 1652 31518
+#
+name: DOWN
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 800 1652 1652 1652 5214 878 800 1652 1652 1652 5214 878 1652 878 1652 2478 31518
+#
+name: LEFT
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 800 1652 1652 1652 5214 903 800 1652 1652 1652 5214 2478 2478 2478 31518
+#
+name: RIGHT
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 800 1652 1652 1652 5214 878 800 1652 1652 1652 5214 878 1652 2478 878 1652 31518
+#
+name: VOL+
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 800 1652 2478 1652 31466
+#
+name: VOL-
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 3356 2478 1652 31492
+#
+name: MUTE
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 2452 852 1626 1652 31492
+#
+name: MENU
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 1626 826 2478 1652 31492
+#
+name: REVERSE
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 2555 3278 1652 31492
+#
+name: FORWARD
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 800 852 3278 1652 31492
+#
+name: PAUSE
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 2555 826 826 826 826 826 826 31492
+#
+name: PROG1
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 826 2478 826 826 826 826 31492
+#
+name: PROG2
+type: raw
+frequency: 39105
+duty_cycle: 0.330000
+data: 895 1637 1662 818 818 818 818 31505
+#
+name: SETUP
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 4182 800 852 800 826 31466
+#
+name: CENTER_PAD
+type: raw
+frequency: 38740
+duty_cycle: 0.330000
+data: 903 800 1704 1704 1704 5214 903 800 1704 1704 1704 5214 1704 4104 1704 8002

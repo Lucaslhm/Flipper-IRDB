@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+#
+name: 0
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 1476 763 6915
+#
+name: 2
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 1476 763 1476
+#
+name: 3
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 3937 763 1476
+#
+name: 4
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 6915 763 1476
+#
+name: 5
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 12082 763 1476
+#
+name: 6
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 1476 763 3937
+#
+name: 7
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 3962 763 3937
+#
+name: 8
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 6939 763 3937
+#
+name: 9
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 12107 763 3937
+#
+name: CH-
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 12082 763 12082
+#
+name: CH+
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 6939 763 12082
+#
+name: MUTE
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 20325 763 6915
+#
+name: VOL-
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 1476 763 12082
+#
+name: VOL+
+type: raw
+frequency: 40639
+duty_cycle: 0.330000
+data: 1501 3962 763 12082
