@@ -1,6 +1,6 @@
 # Flipper-IRDB  
 
-A **maintained** collective of different IRs for the Flipper! _(Maintainers: [ezod](https://github.com/ezod), [UberGuidoZ](https://github.com/UberGuidoZ), [Zecred](https://github.com/bussardrobbie), [Lucaslhm](https://github.com/Lucaslhm), [DedHedZed](https://github.com/dedhedzed), others)_
+A **maintained** collective of different IRs for the Flipper! _(Maintainers: [ezod](https://github.com/ezod), [UberGuidoZ](https://github.com/UberGuidoZ), [Zecred](https://github.com/bussardrobbie), [DedHedZed](https://github.com/dedhedzed), [Lucaslhm](https://github.com/Lucaslhm), and many others)_
 
 ## Organization  
 
