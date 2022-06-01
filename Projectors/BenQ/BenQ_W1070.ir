@@ -1,0 +1,214 @@
+Filetype: IR signals file
+Version: 1
+#
+# BenQ DLP Projector W1070
+# 
+name: On
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4F B0 00 00
+# 
+name: Off
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4E B1 00 00
+# 
+name: HDMI_1
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 58 A7 00 00
+# 
+name: HDMI_2
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 59 A6 00 00
+# 
+name: Wireless
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 86 79 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 52 AD 00 00
+# 
+name: PC
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 41 BE 00 00
+# 
+name: Comp
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 51 AE 00 00
+# 
+name: Menu_Exit
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0F F0 00 00
+# 
+name: EcoBlank
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 07 F8 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 08 F7 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 04 FB 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0B F4 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0C F3 00 00
+# 
+name: Left_VolDwn
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0D F2 00 00
+# 
+name: Right_VolUp
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0E F1 00 00
+# 
+name: Mode_Enter
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 10 EF 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 13 EC 00 00
+# 
+name: PIP
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 1B E4 00 00
+# 
+name: SRS
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 99 66 00 00
+# 
+name: User1
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 75 8A 00 00
+# 
+name: User2
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 76 89 00 00
+# 
+name: User3
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 77 88 00 00
+# 
+name: Contrast
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 11 EE 00 00
+# 
+name: Bright
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 16 E9 00 00
+# 
+name: Sharp
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 7E 81 00 00
+# 
+name: Color
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 79 86 00 00
+# 
+name: ColorTemp
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5F A0 00 00
+# 
+name: Tint
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 7A 85 00 00
+# 
+name: Finetune
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5D A2 00 00
+# 
+name: 3D
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 8D 72 00 00
+# 
+name: Invert
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 9D 62 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 14 EB 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 03 FC 00 00
+# 
+name: Test
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 94 6B 00 00
