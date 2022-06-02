@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Hisense 55K3201GUWUS
+# 
 name: Power
 type: parsed
 protocol: NEC
