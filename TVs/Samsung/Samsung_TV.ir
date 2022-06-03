@@ -13,6 +13,12 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+# 
 name: Vol_up
 type: parsed
 protocol: Samsung32
@@ -25,43 +31,31 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: Mute
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 0F 00 00 00
-# 
-name: Up
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 60 00 00 00
-# 
-name: Down
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 61 00 00 00
-# 
-name: Left
+name: Menu_left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: Right
+name: Menu_up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 60 00 00 00
+# 
+name: Menu_right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 # 
-name: Enter
+name: Menu_down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
-command: 68 00 00 00
+command: 61 00 00 00
 # 
-name: Back
+name: Menu_back
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -72,3 +66,9 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 79 00 00 00
+# 
+name: Menu_enter
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00

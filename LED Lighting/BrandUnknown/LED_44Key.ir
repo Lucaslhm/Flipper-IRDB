@@ -151,37 +151,37 @@ protocol: NEC
 address: 00 00 00 00
 command: 14 00 00 00
 # 
-name: Red DOWN
+name: Green UP
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 15 00 00 00
 # 
-name: Green UP
+name: Blue UP
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: Green DOWN
+name: Quick
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 17 00 00 00
 # 
-name: Blue UP
+name: Red DOWN
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: Blue DOWN
+name: Green DOWN
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: QUICK
+name: Blue DOWN
 type: parsed
 protocol: NEC
 address: 00 00 00 00

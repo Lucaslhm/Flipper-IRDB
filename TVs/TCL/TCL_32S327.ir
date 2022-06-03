@@ -7,13 +7,13 @@ protocol: NECext
 address: EA C7 00 00
 command: 17 E8 00 00
 # 
-name: Vup
+name: Vol_up
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 0F F0 00 00
 # 
-name: Vdwn
+name: Vol_down
 type: parsed
 protocol: NECext
 address: EA C7 00 00
@@ -31,19 +31,19 @@ protocol: NECext
 address: EA C7 00 00
 command: 19 E6 00 00
 # 
-name: Dwn
+name: Down
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 33 CC 00 00
 # 
-name: Rt
+name: Right
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 2D D2 00 00
 # 
-name: Lft
+name: Left
 type: parsed
 protocol: NECext
 address: EA C7 00 00

@@ -1,6 +1,6 @@
 # Flipper-IRDB  
 
-A **maintained** collective of different IRs for the Flipper! _(Maintainers: [ezod](https://github.com/ezod), [UberGuidoZ](https://github.com/UberGuidoZ), others)_
+A **maintained** collective of different IRs for the Flipper! _(Maintainers: [ezod](https://github.com/ezod), [UberGuidoZ](https://github.com/UberGuidoZ), [Zecred](https://github.com/bussardrobbie), [DedHedZed](https://github.com/dedhedzed), [Lucaslhm](https://github.com/Lucaslhm), and many others)_
 
 ## Organization  
 
@@ -27,3 +27,5 @@ When adding remotes to this repo, it is helpful to ensure your device name(s) fo
 8. Select `SD Card`, then navigate to the `infrared` folder by double-clicking its icon.
 9. Drag the .ir files you want on your Flipper from the File Explorer into the QFlipper File Manager.
 10. Disconnect the Flipper from the PC and have fun!
+
+NOTE: If you plan to copy them all, it's highly recommended to [dismount the SD card](https://docs.flipperzero.one/basics/sd-card#g4-removing-the-sd-card) and plug it into the computer directly.
