@@ -1,0 +1,112 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Micca N10 Picture Frame
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: BGM
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: Setup
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: Reverse
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1D 00 00 00
+# 
+name: Foward
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+# 
+name: Rotate
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
