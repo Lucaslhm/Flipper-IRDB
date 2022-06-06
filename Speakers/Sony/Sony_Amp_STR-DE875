@@ -1,0 +1,10 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony Amp STR-DE875
+#
+name: PowerToggle
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
