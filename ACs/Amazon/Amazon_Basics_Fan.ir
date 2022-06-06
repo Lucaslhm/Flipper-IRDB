@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Amazon Basics Fan
+# 
 name: Power
 type: raw
 frequency: 38000
