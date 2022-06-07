@@ -1,0 +1,220 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Viore TV LC37VF72
+#
+name: PowerToggle
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: Vol_Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+# 
+name: Ch_Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+# 
+name: Ch_Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1A 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2D 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+# 
+name: DPad_Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 60 00 00 00
+# 
+name: DPad_Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 61 00 00 00
+# 
+name: DPad_Left
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 65 00 00 00
+# 
+name: DPad_Right
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 62 00 00 00
+# 
+name: Back_Recall
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 13 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+# 
+name: Guide
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4F 00 00 00
+# 
+name: Info
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1F 00 00 00
+# 
+name: ChannelList
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 26 00 00 00
+# 
+name: ClosedCaption
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 25 00 00 00
+# 
+name: Favorite
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 39 00 00 00
+# 
+name: Input_Next
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
+# 
+name: MTS
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 00 00 00 00
+# 
+name: PictureMode
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 21 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 24 00 00 00
+# 
+name: SoundMode
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 22 00 00 00
+# 
+name: 1
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 04 00 00 00
+# 
+name: 2
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 05 00 00 00
+# 
+name: 3
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 06 00 00 00
+# 
+name: 4
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 08 00 00 00
+# 
+name: 5
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 09 00 00 00
+# 
+name: 6
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0A 00 00 00
+# 
+name: 7
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0C 00 00 00
+# 
+name: 8
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0D 00 00 00
+# 
+name: 9
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0E 00 00 00
+# 
+name: 0
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 11 00 00 00
