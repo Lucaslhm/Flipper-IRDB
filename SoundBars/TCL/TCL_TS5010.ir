@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# TCL TS5010 Soundbar
+#
 name: PowerToggle
 type: parsed
 protocol: NECext
