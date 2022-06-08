@@ -1,0 +1,110 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: PowerToggle
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0C 00 00 00
+# 
+name: VolumeUp
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
+# 
+name: VolumeDown
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 05 00 00 00
+# 
+name: VolumeMute
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 08 00 00 00
+# 
+name: ChannelUp
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00
+# 
+name: ChannelDown
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 06 00 00 00
+# 
+name: FM
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 16 00 00 00
+# 
+name: BassUp
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 01 00 00 00
+# 
+name: BassDown
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 04 00 00 00
+# 
+name: InputAux
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 17 00 00 00
+# 
+name: InputBT
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0F 00 00 00
+# 
+name: InputLine
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0A 00 00 00
+# 
+name: Movie
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0B 00 00 00
+# 
+name: Music
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 10 00 00 00
+# 
+name: Scan
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 07 00 00 00
+# 
+name: TrebleUp
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 00 00 00 00
+# 
+name: TrebleDown
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 03 00 00 00
+# 
+name: Voice
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 14 00 00 00
