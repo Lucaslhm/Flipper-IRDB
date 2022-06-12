@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Bose Soundbar 300
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 4C B3 00 00
+# 
+name: Music
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: B3 4C 00 00
+# 
+name: TV
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 0E F1 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 81 7E 00 00
+# 
+name: Volume_Up
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 03 FC 00 00
+# 
+name: Volume_Down
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 02 FD 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 01 FE 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 57 A8 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 55 AA 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 41 BE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 42 BD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 43 BC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 44 BB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 45 BA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 46 B9 00 00
