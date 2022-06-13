@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Craig Electronics Speaker CHT904
+#  
 name: PowerToggle
 type: parsed
 protocol: NEC
