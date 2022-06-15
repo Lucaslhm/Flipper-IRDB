@@ -1,9 +1,10 @@
-#Azulle Byte4 Fanless MiniPC
-#Full remote
-#6/14/2022 - Daseiner0
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Azulle Byte4 Fanless MiniPC Full Remote
+# https://shop.azulle.com/products/byte4
+# 6/14/2022 - Daseiner0
+#
 name: Power
 type: parsed
 protocol: NECext
