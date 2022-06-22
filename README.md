@@ -13,6 +13,17 @@ When adding remotes to this repo, it is helpful to ensure your device name(s) fo
 
 `LG_55UN7300AUD.ir`
 
+Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
+
+`Filetype: IR signals file`<br>
+`Version: 1`<br>
+`#`<br>
+`# Dynex EN-21669D TV` <---<br>
+`#`<br>
+`name: Power`<br>
+
+Make, model, link, or even a short description can be helpful if the name is changed or just in general!
+
 ## To Install New Remotes On Your Flipper:   
 
 1. Git clone this repo to your local PC. [Multiple options are explained here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
