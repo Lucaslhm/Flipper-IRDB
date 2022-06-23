@@ -1,0 +1,89 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Theta GENVIII S2 / S3 DAC
+# https://hometheaterhifi.com/reviews/dac/theta-generation-viii-series-2-digital-to-analog-converterpreamp/
+#
+name: Gen_vii
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 0C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 0D 00 00 00
+# 
+name: In_1
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 01 00 00 00
+# 
+name: In_2
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 02 00 00 00
+# 
+name: In_3
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 03 00 00 00
+# 
+name: In_4
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 04 00 00 00
+# 
+name: In_5
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 05 00 00 00
+# 
+name: Setup
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 0E 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 10 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 11 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 21 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 20 00 00 00
+# 
+name: Display
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 0F 00 00 00
+# 
+name: Phase
+type: parsed
+protocol: RC5
+address: 0D 00 00 00
+command: 0A 00 00 00

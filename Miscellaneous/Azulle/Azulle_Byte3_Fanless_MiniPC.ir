@@ -1,0 +1,77 @@
+Filetype: IR signals file
+Version: 1
+#
+# Azulle Byte3 Fanless Mini PC
+# https://www.amazon.com/dp/B0817JMXTD
+#
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1067 137011 1040
+#
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1143 137066 1044
+#
+name: Tab
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1148 135515 1124
+#
+name: Settings
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1037 137672 1037 136996 1092
+#
+name: Select
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1257 138203 1251
+#
+name: Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1281 136803 1249
+#
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1276 140929 1276 140927 1248
+#
+name: Left
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1200 138234 1176
+#
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1284 135388 1232
+#
+name: Return
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1225 136742 1223
+#
+name: Vol_up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1277 138128 1278 138120 1201 138152 1223 138110 1254 138109 1256
+#
+name: Vol_down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1300 139411 1307

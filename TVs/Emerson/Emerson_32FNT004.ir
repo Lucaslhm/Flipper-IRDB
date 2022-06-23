@@ -1,0 +1,136 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Emerson TV
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 40 BF 00 00
+# 
+name: Ch_UP
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 50 AF 00 00
+# 
+name: Ch_DOWN
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 51 AE 00 00
+# 
+name: Vol_UP
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 60 9F 00 00
+# 
+name: Vol_DOWN
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 61 9E 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 64 9B 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 70 8F 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 73 8C 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 74 8B 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 76 89 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 75 8A 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 77 88 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 78 87 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 9B 64 00 00
+# 
+name: Mode_PicSound
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 83 7C 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 9E 61 00 00
+# 
+name: Picture_Size
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 90 6F 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 22 DD 00 00
+# 
+name: SAP
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 65 9A 00 00
+# 
+name: Prev_Ch
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 57 A8 00 00
+# 
+name: Dot
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 1B E4 00 00

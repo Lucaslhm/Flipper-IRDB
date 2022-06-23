@@ -1,0 +1,119 @@
+Filetype: IR signals file
+#
+# Enseo TV (Hotel)
+#
+Version: 1
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 02 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 06 00 00 00
+#
+name: Vol_down
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0C 00 00 00
+#
+name: Input
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 37 00 00 00
+#
+name: Channel_up
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 08 00 00 00
+#
+name: Channel_down
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0E 00 00 00
+#
+name: Page_up
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 43 00 00 00
+#
+name: Page_down
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 44 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 3A 00 00 00
+#
+name: Exit
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 3B 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 04 00 00 00
+#
+name: Menu
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 18 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 07 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0D 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 09 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0B 00 00 00
+#
+name: OK
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0A 00 00 00
+#
+name: CC
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 30 00 00 00
+#
+name: Guide
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 36 00 00 00

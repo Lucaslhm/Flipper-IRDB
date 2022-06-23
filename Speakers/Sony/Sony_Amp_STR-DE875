@@ -1,0 +1,340 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony Amp STR-DE875
+#
+name: PowerToggle
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
+# 
+name: Power_On
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 2E 00 00 00
+# 
+name: Power_Off
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 2F 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 12 00 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 13 00 00 00
+# 
+name: Vol_Mute
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 14 00 00 00
+# 
+name: ChannelUp
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 10 00 00 00
+# 
+name: ChannelDown
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 11 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 77 00 00 00
+# 
+name: DPad_Up
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 78 00 00 00
+# 
+name: DPad_Down
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 79 00 00 00
+# 
+name: DPad_Left
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 7A 00 00 00
+# 
+name: DPad_Right
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 7B 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
+name: Guide
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
+name: Info
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 79 00 00 00
+# 
+name: 2CH
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 41 00 00 00
+# 
+name: AFD
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 47 00 00 00
+# 
+name: AudioSplit
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 64 00 00 00
+# 
+name: DTuning
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 53 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 0B 00 00 00
+# 
+name: EQ_Tone
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 4C 00 00 00
+# 
+name: InputAM
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 1A 00 00 00
+# 
+name: InputAux
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 1D 00 00 00
+# 
+name: InputSA_CD
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 25 00 00 00
+# 
+name: InputDVD_LD
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 7D 00 00 00
+# 
+name: InputFM
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 18 00 00 00
+# 
+name: InputMD_Tape
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 69 00 00 00
+# 
+name: InputMode
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 30 00 00 00
+# 
+name: InputPhono
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 20 00 00 00
+# 
+name: InputTuner
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 21 00 00 00
+# 
+name: InputTV_Sat
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 6A 00 00 00
+# 
+name: InputVideo1
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 22 00 00 00
+# 
+name: InputVideo2
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 1E 00 00 00
+# 
+name: InputVideo3
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 42 00 00 00
+# 
+name: Mode_Down
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 6F 00 00 00
+# 
+name: Mode_Up
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 6E 00 00 00
+# 
+name: Multi_2CH
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 49 00 00 00
+# 
+name: NightMode
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 20 00 00 00
+# 
+name: OnScreen
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 53 00 00 00
+# 
+name: Presets
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 26 00 00 00
+# 
+name: Shift
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 33 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 60 00 00 00
+# 
+name: TestTone
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 4A 00 00 00
+# 
+name: 1
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 00 00 00 00
+# 
+name: 2
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 01 00 00 00
+# 
+name: 3
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 02 00 00 00
+# 
+name: 4
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 03 00 00 00
+# 
+name: 5
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 04 00 00 00
+# 
+name: 6
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 05 00 00 00
+# 
+name: 7
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 06 00 00 00
+# 
+name: 8
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 07 00 00 00
+# 
+name: 9
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 08 00 00 00
+# 
+name: 0
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 09 00 00 00

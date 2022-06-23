@@ -1,0 +1,29 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Audioengine A5+
+# https://audioengineusa.com/shop/wirelessspeakers/a5-plus-classic-speakers/
+#
+name: Sleep
+type: parsed
+protocol: NECext
+address: 00 FD 00 00
+command: 01 FE 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 FD 00 00
+command: 03 FC 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 FD 00 00
+command: 09 F6 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 00 FD 00 00
+command: 07 F8 00 00
