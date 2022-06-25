@@ -1,0 +1,71 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony RM-AAU130 AV System
+# Used for Sony AV Receiver STR-DH130 or STR-KM7
+#
+name: Power
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 15 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 12 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 13 00 00 00
+# 
+name: Bass_up
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 50 00 00 00
+# 
+name: Bass_dwn
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 51 00 00 00
+# 
+name: Treble_up
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 56 00 00 00
+# 
+name: Treble_dwn
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 57 00 00 00
+# 
+name: Radio_tuner
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 21 00 00 00
+# 
+name: Tune_up
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 2B 00 00 00
+# 
+name: Tune_dwn
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 2C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 14 00 00 00
