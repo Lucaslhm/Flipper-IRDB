@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Craig Electronics Speaker CHT904
+#  
+name: PowerToggle
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00
+# 
+name: VolumeUp
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0E 00 00 00
+# 
+name: VolumeDown
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+# 
+name: VolumeMute
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1F 00 00 00
+# 
+name: ChannelUp
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 11 00 00 00
+# 
+name: ChannelDown
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 01 00 00 00
+# 
+name: ChUp_2
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 17 00 00 00
+# 
+name: ChDown_2
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0F 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 15 00 00 00
+# 
+name: InputNext
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0D 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1B 00 00 00
+# 
+name: SRS
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1D 00 00 00
+# 
+name: Stereo
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 12 00 00 00
+# 
+name: SubUp
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 00 00 00 00
+# 
+name: SubDown
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 03 00 00 00
