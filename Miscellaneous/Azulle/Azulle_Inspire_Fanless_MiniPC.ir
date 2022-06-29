@@ -1,8 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
-# Azulle Byte3 Fanless Mini PC
-# https://www.amazon.com/dp/B0817JMXTD
+# Azulle Inspire Fanless Mini PC
+# https://azulle.com/inspire/
 #
 name: Power
 type: raw
