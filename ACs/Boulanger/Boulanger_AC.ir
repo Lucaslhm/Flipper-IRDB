@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Boulanger AC
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 6B 00 00 00
+# 
+name: Tempup
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 65 00 00 00
+# 
+name: Tempdwn
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 68 00 00 00
+# 
+name: Fanspeed
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 64 00 00 00
+# 
+name: Openangle
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 67 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 69 00 00 00
+# 
+name: M
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 66 00 00 00
+# 
+name: Nightmode
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 6A 00 00 00
+# 
+name: Celsiufarenheight
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 6C 00 00 00
