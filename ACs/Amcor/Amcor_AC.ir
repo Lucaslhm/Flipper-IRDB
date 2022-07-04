@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Amcor AC
+# 
+name: Speed
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 96 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9B 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9F 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9D 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 94 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 95 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9C 00 00 00
