@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# AEG/Electrolux Hood2Hob devices
+# 
+name: Light On
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 718 1472 720 726 1388 752 718 1472 694 750 1390 2994 720 724 720 726 1386
+# 
+name: Light Off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 684 1488 658 778 684 758 686 2278 660 788 628 1532 688 1504 686 786 658
+#
+name: Fan off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 720 1468 722 1470 2114 1472 722 1470 1416 2218 724 1470 724 720 698
+#
+name: Speed_1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1416 1494 722 1570 1974 1510 722 1468 726 718 724 1468 724 2216 696
+#
+name: Speed_2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1440 1472 724 2936 752 2190 3530 2224 2114
+#
+name: Speed_3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 696 2240 2784 2968 2116 750 724 2216 2114
+#
+name: Speed_4
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1416 2244 1418 722 1418 2216 1418 1470 724 2216 722 722 1392
