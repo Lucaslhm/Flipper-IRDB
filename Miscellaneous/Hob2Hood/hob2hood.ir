@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Hood2Hob
+# AEG/Electrolux Hood2Hob devices
 # 
 name: Light On
 type: raw
