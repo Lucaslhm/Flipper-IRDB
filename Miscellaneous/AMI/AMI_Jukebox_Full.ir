@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0C 00 00 00
+# 
+name: Reject
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 36 00 00 00
+# 
+name: Play
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 30 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 35 00 00 00
+# 
+name: Ch1_Vol_Up
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0B 00 00 00
+# 
+name: Ch1_Vol_Dn
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 28 00 00 00
+# 
+name: Ch2_Vol_Up
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 11 00 00 00
+# 
+name: Ch2_Vol_Dn
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 23 00 00 00
+# 
+name: Ch3_Vol_Up
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 10 00 00 00
+# 
+name: Ch3_Vol_Dn
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 22 00 00 00
+# 
+name: Ch4_Vol_Up
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3B 00 00 00
+# 
+name: Ch4_Vol_Dn
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 37 00 00 00
+# 
+name: AP_On
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2B 00 00 00
+# 
+name: AP_Off
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1C 00 00 00
+# 
+name: Future
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2C 00 00 00
+# 
+name: Vid_Sel
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 12 00 00 00
+# 
+name: Input_Sel
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0D 00 00 00
