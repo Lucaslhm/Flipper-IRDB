@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Edifier R1280DB Speaker
+# 
 name: Power
 type: parsed
 protocol: NECext
