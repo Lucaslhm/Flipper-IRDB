@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Amerlife Fireplace TV Stand
+#
+name: Power
+type: parsed
+protocol: NECext
+address: AB CD 00 00
+command: A1 5E 00 00
+# 
+name: Temp
+type: parsed
+protocol: NECext
+address: AB CD 00 00
+command: A3 5C 00 00
+# 
+name: Color_Flame
+type: parsed
+protocol: NECext
+address: AB CD 00 00
+command: A7 58 00 00
+# 
+name: Heater
+type: parsed
+protocol: NECext
+address: AB CD 00 00
+command: A9 56 00 00
+# 
+name: Color_LED
+type: parsed
+protocol: NECext
+address: AB CD 00 00
+command: B4 4B 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: AB CD 00 00
+command: B6 49 00 00
