@@ -1,0 +1,35 @@
+Filetype: IR signals file
+#
+# Edifier Speakers RC31A
+# 
+Version: 1
+#
+name: VolUp
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 01 FE 00 00
+# 
+name: VolDown
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 02 FD 00 00
+# 
+name: PC
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 00 FF 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 09 F6 00 00
+# 
+name: AUX
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 03 FC 00 00
