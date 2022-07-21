@@ -2,6 +2,7 @@ Filetype: IR signals file
 Version: 1
 #
 # iiyama ProLite LE5540UHS Large Format Display / Digital Sign
+# MENU ACCESS by pressing HOME+1668
 #
 name: Power
 type: parsed
