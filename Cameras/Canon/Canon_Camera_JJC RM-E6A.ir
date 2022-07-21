@@ -1,0 +1,17 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Canon Camera JJC RM-E6A
+# Camera needs to be in IR remote control drive mode
+#
+name: Shutter
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 594 7182 593
+# 
+name: 2sec_Shutter
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 566 5044 561
