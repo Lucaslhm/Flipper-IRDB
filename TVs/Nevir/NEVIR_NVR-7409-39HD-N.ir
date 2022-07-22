@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Nevir TV NVR-7409-39HD-N
+#
 name: Standby
 type: parsed
 protocol: NEC
