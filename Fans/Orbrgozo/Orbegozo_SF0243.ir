@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Orbegozo SF0243 Fan
+#
 name: ON_OFF
 type: raw
 frequency: 38000
