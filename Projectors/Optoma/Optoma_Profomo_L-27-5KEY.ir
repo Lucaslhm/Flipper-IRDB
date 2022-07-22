@@ -1,0 +1,161 @@
+Filetype: IR signals file
+#
+# Optoma Profomo Projector L-27-5KEY
+#
+Version: 1
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 02 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 2E 00 00 00
+# 
+name: VolUp
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 11 00 00 00
+# 
+name: VolDown
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 14 00 00 00
+# 
+name: User1
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 36 00 00 00
+# 
+name: User2
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 65 00 00 00
+# 
+name: User3
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 66 00 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 41 00 00 00
+# 
+name: Contrast
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 42 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 05 00 00 00
+# 
+name: Keystone
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 07 00 00 00
+# 
+name: AspectRatio
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 64 00 00 00
+# 
+name: 3D
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 89 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 52 00 00 00
+# 
+name: DB
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 44 00 00 00
+# 
+name: SleepTimer
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 63 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 10 00 00 00
+# 
+name: ReSync
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 12 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 11 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 0E 00 00 00
+# 
+name: HDMI1
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 16 00 00 00
+# 
+name: HDMI2
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 30 00 00 00
+# 
+name: VGA1
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 1B 00 00 00
+# 
+name: VGA2
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 1E 00 00 00
+# 
+name: VIDEO
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 1C 00 00 00
+# 
+name: YPbPr
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 17 00 00 00

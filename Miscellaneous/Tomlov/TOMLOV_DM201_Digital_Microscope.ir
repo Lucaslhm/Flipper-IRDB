@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TOMLOV DM201 Pro HDMI Digital Microscope
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00

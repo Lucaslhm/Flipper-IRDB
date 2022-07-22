@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Roksan Caspian CD player
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 08 F7 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 09 F6 00 00
+# 
+name: Skip_fwd
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 00 FF 00 00
+# 
+name: Skip_bkwd
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 0D F2 00 00
+# 
+name: Trk_1
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 12 ED 00 00
+# 
+name: Trk_2
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 13 EC 00 00
+# 
+name: Trk_3
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 11 EE 00 00
+# 
+name: Trk_4
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 10 EF 00 00
+# 
+name: Trk_5
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 0F F0 00 00
+# 
+name: Trk_6
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 18 E7 00 00
+# 
+name: Trk_7
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 17 E8 00 00
+# 
+name: Trk_8
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 14 EB 00 00
+# 
+name: Trk_9
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 15 EA 00 00
+# 
+name: Trk_0
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 16 E9 00 00

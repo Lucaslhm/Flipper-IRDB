@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Xpelair XPA360CF Fan
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 80 7F 00 00
+# 
+name: Speed
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 85 7A 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 81 7E 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 86 79 00 00
+# 
+name: Rotation
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 82 7D 00 00

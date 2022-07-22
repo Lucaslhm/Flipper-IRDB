@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Prozor HDMI 3-in-1 switch YN-01
+#
+name: 1
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: Pip
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+# 
+name: Sel
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1B 00 00 00
+# 
+name: Enter
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9273 4476 605 534 608 533 608 559 582 528 603 533 608 528 603 533 609 1634 608 1636 606 1638 604 1643 609 1636 606 1637 605 1637 605 1637 605 533 598 1642 600 1643 599 1643 599 1643 599 1643 609 528 603 534 607 556 575 535 606 530 601 536 606 530 601 562 580 1635 607 1636 606 1638 604
+# 
+name: 2_0
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0C 00 00 00
+# 
+name: 5_1
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
+# 
+name: Tv
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9209 4486 605 565 587 528 603 537 605 534 607 529 602 538 614 529 613 1634 608 1639 603 1644 608 1639 603 1645 607 1640 602 1639 603 1639 603 534 607 531 611 1632 610 1636 606 1642 600 539 603 537 604 536 605 535 607 1637 605 536 605 534 608 532 610 1635 607 1639 613 1633 609 1638 604 39886 9104 2219 609
