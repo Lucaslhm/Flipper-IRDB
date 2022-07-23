@@ -1,0 +1,224 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 15 00 00 00
+# 
+name: Up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 35 00 00 00
+# 
+name: Left
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 34 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 5A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 33 00 00 00
+# 
+name: Down
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 36 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 29 00 00 00
+# 
+name: Input
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 57 00 00 00
+# 
+name: Focus
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 64 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 62 00 00 00
+# 
+name: Shift
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 63 00 00 00
+# 
+name: Position
+type: parsed
+protocol: SIRC20
+address: FA 04 00 00
+command: 18 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 7B 00 00 00
+# 
+name: Aspect
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 6E 00 00 00
+# 
+name: Motion_flow
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 05 00 00 00
+# 
+name: 3D
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 3B 00 00 00
+# 
+name: Color_space
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 4B 00 00 00
+# 
+name: Color_temp
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 5C 00 00 00
+# 
+name: Reality_creation
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 4C 00 00 00
+# 
+name: Gamma_correction
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 5E 00 00 00
+# 
+name: Contrast_enhancer
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 07 00 00 00
+# 
+name: Advanced_iris
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 5F 00 00 00
+# 
+name: +Sharpness
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 22 00 00 00
+# 
+name: -Sharpness
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 23 00 00 00
+# 
+name: +Brightness
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 1E 00 00 00
+# 
+name: -Brightness
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 1F 00 00 00
+# 
+name: +Contrast
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 18 00 00 00
+# 
+name: -Contrast
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 19 00 00 00
+# 
+name: Film_1
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 53 00 00 00
+# 
+name: Film_2
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 58 00 00 00
+# 
+name: Ref
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 55 00 00 00
+# 
+name: TV
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 52 00 00 00
+# 
+name: Photo
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 57 00 00 00
+# 
+name: Game
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 56 00 00 00
+# 
+name: Brt_cine
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 59 00 00 00
+# 
+name: Brt_TV
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 51 00 00 00
+# 
+name: User
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 54 00 00 00
