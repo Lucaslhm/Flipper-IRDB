@@ -1,6 +1,7 @@
 Filetype: IR signals file
 Version: 1
-# Mitsubishi MSG-GE10VA
+#
+# Mitsubishi AC MSG-GE10VA
 #
 name: Power On
 type: raw
