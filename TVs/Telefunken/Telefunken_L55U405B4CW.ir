@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Telefunken TV L55U405B4CW
+#
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 11 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 35 00 00 00
+# 
+name: Src
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 38 00 00 00
