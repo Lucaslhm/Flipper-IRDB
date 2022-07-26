@@ -1,0 +1,53 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TESmart KVM Switch
+# https://www.tesmart.com/
+# 
+name: Cycle Displays
+type: parsed
+protocol: NEC
+address: 17 00 00 00
+command: 45 00 00 00
+# 
+name: Display Mode 2
+type: parsed
+protocol: NEC
+address: 17 00 00 00
+command: 47 00 00 00
+# 
+name: PC 1
+type: parsed
+protocol: NEC
+address: 17 00 00 00
+command: 44 00 00 00
+# 
+name: PC 2
+type: parsed
+protocol: NEC
+address: 17 00 00 00
+command: 43 00 00 00
+# 
+name: PC 3
+type: parsed
+protocol: NEC
+address: 17 00 00 00
+command: 07 00 00 00
+# 
+name: PC 4
+type: parsed
+protocol: NEC
+address: 17 00 00 00
+command: 09 00 00 00
+# 
+name: PC 5
+type: parsed
+protocol: NEC
+address: 17 00 00 00
+command: 16 00 00 00
+# 
+name: Previous Display
+type: parsed
+protocol: NEC
+address: 17 00 00 00
+command: 0D 00 00 00

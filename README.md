@@ -1,6 +1,6 @@
 # Flipper-IRDB  
 
-A **maintained** collective of different IRs for the Flipper! _(Maintainers: [ezod](https://github.com/ezod), [UberGuidoZ](https://github.com/UberGuidoZ), [Zecred](https://github.com/bussardrobbie), [DedHedZed](https://github.com/dedhedzed), [Lucaslhm](https://github.com/Lucaslhm), and many others)_
+A **maintained** collective of different IRs for the Flipper! _(Maintainers: [ezod](https://github.com/ezod), [UberGuidoZ](https://github.com/UberGuidoZ), [DedHedZed](https://github.com/dedhedzed), [E_Surge](https://github.com/ESurge), [Zecred](https://github.com/bussardrobbie), [SkeletonMan](https://github.com/SkeletonMan03/), [Lucaslhm](https://github.com/Lucaslhm), and many others)_
 
 ## Organization  
 
@@ -12,6 +12,17 @@ This repo is organized in the following fashion in descending order:
 When adding remotes to this repo, it is helpful to ensure your device name(s) follow the `brand_model.ir` naming scheme. It is also helpful to ensure your model numbers are capitalized, as per the following example:
 
 `LG_55UN7300AUD.ir`
+
+Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
+
+`Filetype: IR signals file`<br>
+`Version: 1`<br>
+`#`<br>
+`# Dynex EN-21669D TV` <---<br>
+`#`<br>
+`name: Power`<br>
+
+Make, model, link, or even a short description can be helpful if the name is changed or just in general!
 
 ## To Install New Remotes On Your Flipper:   
 

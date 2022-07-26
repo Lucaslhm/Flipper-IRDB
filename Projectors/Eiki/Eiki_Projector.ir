@@ -1,0 +1,118 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Eiki Projector
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 00 FF 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 38 C7 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 05 FA 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 1C E3 00 00
+# 
+name: Keystone
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 5B A4 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 8C 73 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 8D 72 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 1E E1 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 1D E2 00 00
+# 
+name: Select
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 0F F0 00 00
+# 
+name: D_zoom_Up
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 01 FE 00 00
+# 
+name: D_zoom_down
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 02 FD 00 00
+# 
+name: Auto_PC
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 89 76 00 00
+# 
+name: Image
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 0C F3 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 43 BC 00 00
+# 
+name: P_Timer
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 8A 75 00 00
+# 
+name: No_Show
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 43 BC 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 0B F4 00 00
+# 
+name: Lamp_Control
+type: parsed
+protocol: NECext
+address: 33 00 00 00
+command: 18 E7 00 00

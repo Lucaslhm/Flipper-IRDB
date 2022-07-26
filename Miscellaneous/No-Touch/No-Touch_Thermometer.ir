@@ -1,0 +1,10 @@
+Filetype: IR signals file
+Version: 1
+# 
+# No-Touch Thermometer 
+#
+name: Take_Temp
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 182 50235 180

@@ -1,0 +1,68 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 12 ED 00 00
+# 
+name: TempUp
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 1A E5 00 00
+# 
+name: TempDown
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 13 EC 00 00
+# 
+name: FanFaster
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0E F1 00 00
+# 
+name: FanSlower
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 4E B1 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 02 FD 00 00
+# 
+name: Eco
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 4F B0 00 00
+# 
+name: Light
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 66 99 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0A F5 00 00
+# 
+name: Remote
+type: parsed
+protocol: NECext
+address: 01 0F 00 00
+command: 6D 5B 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 1B E4 00 00

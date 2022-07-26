@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Meaco MeacoFan 1056 P
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 92 00 00 00
+#
+name: Faster
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 89 00 00 00
+# 
+name: Slower
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9F 00 00 00
+# 
+name: Osc_Vert
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 8A 00 00 00
+# 
+name: Osc_Hor
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 87 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 81 00 00 00
+# 
+name: Pre_On
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 82 00 00 00
+# 
+name: Pre_Off
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 83 00 00 00
+# 
+name: Light
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9E 00 00 00

@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Steljes Desktop Speakers
+#
+name: On_off
+type: parsed
+protocol: NECext
+address: 85 23 00 00
+command: 99 66 00 00
+# 
+name: Vol_plus
+type: parsed
+protocol: NECext
+address: 85 23 00 00
+command: 57 A8 00 00
+# 
+name: Vol_minus
+type: parsed
+protocol: NECext
+address: 85 23 00 00
+command: 47 B8 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 85 23 00 00
+command: 97 68 00 00

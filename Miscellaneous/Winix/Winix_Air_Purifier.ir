@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Winix Air Purifier
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 13 00 00 00
+# 
+name: Turbo
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 12 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 16 00 00 00
+# 
+name: Fan_slow
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 10 00 00 00
+# 
+name: Fan_fast
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 11 00 00 00

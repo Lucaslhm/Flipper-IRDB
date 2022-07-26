@@ -1,0 +1,166 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TCL TS5010 Soundbar
+#
+name: PowerToggle
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1C E3 00 00
+# 
+name: VolUp
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 21 DE 00 00
+# 
+name: VolDown
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2B D4 00 00
+# 
+name: VolMute
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1D E2 00 00
+# 
+name: ChannelUp
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 21 DE 00 00
+# 
+name: ChannelDown
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2B D4 00 00
+# 
+name: DPad_Up
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 21 DE 00 00
+# 
+name: DPad_Down
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2B D4 00 00
+# 
+name: DPad_Left
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 13 EC 00 00
+# 
+name: DPad_Right
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 14 EB 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 13 EC 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00
+# 
+name: FastForward
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 14 EB 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00
+# 
+name: Skip_Back
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 13 EC 00 00
+# 
+name: Skip_Forward
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 14 EB 00 00
+# 
+name: Guide
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2B D4 00 00
+# 
+name: InputAux
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 10 EF 00 00
+# 
+name: InputBluetooth
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1B E4 00 00
+# 
+name: InputOptical
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 12 ED 00 00
+# 
+name: InputUSB
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 29 D6 00 00
+# 
+name: Movie
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2C D3 00 00
+# 
+name: Music
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 27 D8 00 00
+# 
+name: News
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2D D2 00 00
+# 
+name: Pair
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00

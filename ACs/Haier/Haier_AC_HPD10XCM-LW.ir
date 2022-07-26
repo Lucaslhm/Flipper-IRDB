@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Haier HPD10XCM-LW 10,000-BTU Room Portable Air Conditioner
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
+# 
+name: Temp_Up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0A 00 00 00
+# 
+name: Temp_Down
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 11 00 00 00
+# 
+name: Fan_Sp
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 19 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00

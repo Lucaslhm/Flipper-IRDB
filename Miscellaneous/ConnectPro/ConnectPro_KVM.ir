@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+name: 1
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 02 FD 00 00
+name: 2
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 05 FA 00 00
+name: 3
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 08 F7 00 00
+name: 4
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 1B E4 00 00
+name: 1_KVM
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 01 FE 00 00
+name: 2_KVM
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 04 FB 00 00
+name: 3_KVM
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 07 F8 00 00
+name: 4_KVM
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 0A F5 00 00
+name: 1_Audio
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 03 FC 00 00
+name: 2_Audio
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 06 F9 00 00
+name: 3_Audio
+type: parsed
+protocol: NECext
+address: 86 6B 00 00
+command: 09 F6 00 00
+name: 4_Audio
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9011 4450 596 534 595 1665 573 1662 565 565 575 529 589 541 567 563 1675 1667 1664 595 1640 598 532 597 1663 575 529 589 1671 566 1668 569 560 569 1665 573 1662 597 1638 600 1660 567 1667 592 539 569 561 568 536 593 537 571 559 570 534 595 534 574 557 572 1661 566 1668 591 1644 594 39786 9006 2221 597
