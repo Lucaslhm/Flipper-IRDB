@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Big Ass Fans Haiku
+# 
+name: Fan_Power
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 03 FC 00 00
+# 
+name: Light_Power
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 43 BC 00 00
+# 
+name: Speed_Up
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 50 AF 00 00
+# 
+name: Speed_Down
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 41 BE 00 00
+# 
+name: Light_Up
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 42 BD 00 00
+# 
+name: Light_Down
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 51 AE 00 00
+# 
+name: Whoosh
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 04 FB 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 40 BF 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 53 AC 00 00
+# 
+name: Clear
+type: parsed
+protocol: NECext
+address: BA F0 00 00
+command: 1F E0 00 00
