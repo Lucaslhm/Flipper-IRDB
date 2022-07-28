@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# Power
+# 
+# LG Soundbar
+# 
 name: Power
 type: parsed
 protocol: Samsung32
