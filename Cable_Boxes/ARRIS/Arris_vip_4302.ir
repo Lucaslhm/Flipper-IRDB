@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# ARRIS Cable Box VIP 4302
+# 
 name: Power
 type: raw
 frequency: 38000
