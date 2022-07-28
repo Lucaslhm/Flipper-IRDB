@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# ARRIS Cable Box VIP 4302
+# ARRIS Cable Box VIP 4302 (Orange and other ISPs)
 # 
 name: Power
 type: raw
