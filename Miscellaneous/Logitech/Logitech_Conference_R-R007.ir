@@ -1,0 +1,107 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Logitech Remote R-R0007
+# Group Conference Webcam CC3000
+#
+name: Answer
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: E6 00 00 00
+# 
+name: End
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: F6 00 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 6A 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: AA 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: EA 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: A6 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: B6 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: AE 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: BE 00 00 00
+# 
+name: Zoom_Out
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: E3 00 00 00
+# 
+name: Zoom_In
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: A3 00 00 00
+# 
+name: Far_End_Control
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: FA 00 00 00
+# 
+name: 1
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: AC 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 6C 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: EC 00 00 00
+# 
+name: 4
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 4C 00 00 00
+# 
+name: 5
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 2C 00 00 00
