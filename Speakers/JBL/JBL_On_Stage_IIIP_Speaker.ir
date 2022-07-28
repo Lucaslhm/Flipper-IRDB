@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# JBL On Stage IIIP Speaker
+# 
 name: Plus
 type: parsed
 protocol: NECext
