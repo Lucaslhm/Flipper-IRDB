@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# JBL On Stage IIIP Speaker
+# 
+name: Plus
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 03 FC 00 00
+# 
+name: Minus
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 01 FE 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 19 E6 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 02 FD 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 12 ED 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 05 FA 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 1E E1 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 0F F0 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 1A E5 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 40 AF 00 00
+command: 06 F9 00 00
