@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# LG Soundbar
+# 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+# 
+name: Source
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 8A 00 00 00
+# 
+name: Volume_up
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+# 
+name: Volume_down
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+# 
+name: Sound_efect
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 2F 00 00 00
+# 
+name: Auto_volume
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1C 00 00 00
+# 
+name: Woofer_level
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 66 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
