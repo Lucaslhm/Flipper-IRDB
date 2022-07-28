@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Roland SC-55 (Sound Canvas) and SB-55 (Sound Brush) remote
+# Roland SC-55 (Sound Canvas) and SB-55 (Sound Brush) MIDI remote
 # 
 name: Power
 type: raw
