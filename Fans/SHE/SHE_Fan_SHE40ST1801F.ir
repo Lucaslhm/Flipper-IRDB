@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# SHE Fan SHE40ST1801F 
+#
 name: Off
 type: raw
 frequency: 38000
