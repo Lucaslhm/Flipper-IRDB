@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Dyson AC HP04
+# Dyson Fan HP04
 #
 name: Power
 type: raw
