@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+#
+# Yamaha generic audio receivers and amplifiers.
+# The remote model is RAS5 / WV50010, it has buttons
+# for controlling receivers, tuners and players.
+#
+# Tested with Yamaha A-S500.
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 7E 81 00 00
+command: 2A D4 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 1A E4 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 1B E5 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 1C E2 00 00
+# 
+name: CD
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 15 EB 00 00
+# 
+name: Tuner
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 16 E8 00 00
+# 
+name: Line1
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: C1 3F 00 00
+# 
+name: Line2
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 18 E6 00 00
+# 
+name: Line3
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 19 E7 00 00
+# 
+name: Phono
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 14 EA 00 00
+# 
+name: Dock
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 4A B4 00 00
