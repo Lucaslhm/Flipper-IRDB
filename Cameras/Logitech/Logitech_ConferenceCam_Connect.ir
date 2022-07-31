@@ -1,0 +1,71 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Logitech ConferenceCam Connect
+# https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/connect-conferencecam.960-001013.html
+#
+name: Logitech_konf
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: EB 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 6B 00 00 00
+# 
+name: Vol_dwn
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: AB 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: A7 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: B7 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: AF 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: BF 00 00 00
+# 
+name: Zoom_out
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: E4 00 00 00
+# 
+name: Zoom_in
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: A4 00 00 00
+# 
+name: Accept_call
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: E7 00 00 00
+# 
+name: Deny_call
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: F7 00 00 00
