@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+#
+# Rowenta Mosquito Silence VU6410FD
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+name: Oscillation
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+#
+name: Strength
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: Silent
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+#
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Moustic
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
