@@ -13,6 +13,25 @@ When adding remotes to this repo, it is helpful to ensure your device name(s) fo
 
 `LG_55UN7300AUD.ir`
 
+Please use this naming scheme for buttons.
+
+**FOR TV**
+
+POWER
+MUTE
+VOL+
+CH+
+VOL-
+CH-
+
+**FOR AC**
+
+POWER
+TEMP+
+TEMP-
+MODE
+SWING
+
 Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
 
 `Filetype: IR signals file`<br>
