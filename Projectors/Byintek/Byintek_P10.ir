@@ -1,0 +1,101 @@
+Filetype: IR signals file
+Version: 1
+#
+# Byintek P10 Projector
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+#
+name: UP
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 03 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+#
+name: OK
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 25 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 27 00 00 00
+# 
+name: Volume UP
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 28 00 00 00
+# 
+name: Volume DOWN
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 29 00 00 00
+# 
+name: Background
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: Settings
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 12 00 00 00
+ 
+name: Mouse Mode
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 33 00 00 00
+# 
+name: Keystone DOWN
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: Keystone UP
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 26 00 00 00
+# 
