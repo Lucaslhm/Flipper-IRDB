@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# Enido Flickering Flameless battery powered candles
+#
+# Enido LED Flickering Flameless battery powered candle
+#
 name: On
 type: parsed
 protocol: NEC
