@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Honeywell MN10CESS AC
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
+#
+name: TEMP+
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0A 00 00 00
+#
+name: TEMP-
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 11 00 00 00
+#
+name: SPEED
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+#
+name: TIMER
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 19 00 00 00
+#
+name: MODE
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00
