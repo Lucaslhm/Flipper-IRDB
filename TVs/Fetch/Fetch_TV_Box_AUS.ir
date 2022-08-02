@@ -28,7 +28,7 @@ protocol: NECext
 address: 64 46 00 00
 command: DE 21 00 00
 # 
-name: Ch_down
+name: CH-
 type: parsed
 protocol: NECext
 address: 64 46 00 00

@@ -739,7 +739,7 @@ protocol: NECext
 address: 04 03 00 00
 command: 3CC 00 00 00
 #
-name: ZONE2_TUNER_PRESET_CH_DOWN
+name: ZONE2_TUNER_PRESET_CH-
 type: parsed
 protocol: NECext
 address: 04 03 00 00

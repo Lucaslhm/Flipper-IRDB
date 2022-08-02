@@ -39,7 +39,7 @@ protocol: NEC
 address: 38 00 00 00
 command: 0A 00 00 00
 # 
-name: Ch_down
+name: CH-
 type: parsed
 protocol: NEC
 address: 38 00 00 00

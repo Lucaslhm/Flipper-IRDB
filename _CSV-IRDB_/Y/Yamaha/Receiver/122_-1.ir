@@ -679,7 +679,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 11 00 00 00
 #
-name: TUNER_PRESET_CH_DOWN
+name: TUNER_PRESET_CH-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -5293,13 +5293,13 @@ protocol: NECext
 address: 7A 00 00 00
 command: 6A 00 00 00
 #
-name: XM_PRESET_CH_DOWN
+name: XM_PRESET_CH-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 6B 00 00 00
 #
-name: XM:_PRE/CH_DOWN
+name: XM:_PRE/CH-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00

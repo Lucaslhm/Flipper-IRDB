@@ -175,7 +175,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 4C 00 00 00
 # 
-name: Ch_Down
+name: CH-
 type: parsed
 protocol: RC6
 address: 00 00 00 00

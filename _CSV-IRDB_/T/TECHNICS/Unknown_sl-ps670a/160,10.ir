@@ -13,7 +13,7 @@ protocol: NECext
 address: A0 0A 00 00
 command: 01 00 00 00
 #
-name: search_down
+name: searCH-
 type: parsed
 protocol: NECext
 address: A0 0A 00 00

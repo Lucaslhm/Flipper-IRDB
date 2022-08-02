@@ -25,7 +25,7 @@ protocol: NECext
 address: D2 11 00 00
 command: 00 00 00 00
 #
-name: NET_TUNE_CH_DOWN
+name: NET_TUNE_CH-
 type: parsed
 protocol: NECext
 address: D2 11 00 00

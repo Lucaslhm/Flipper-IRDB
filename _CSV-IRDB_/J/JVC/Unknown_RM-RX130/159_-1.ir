@@ -145,7 +145,7 @@ protocol: NECext
 address: 9F 00 00 00
 command: 3D 00 00 00
 #
-name: SEARCH_DOWN
+name: SEARCH-
 type: parsed
 protocol: NECext
 address: 9F 00 00 00
