@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# JBL Cinema CB150
+#
+name: On_off
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1B E4 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00
+# 
+name: Volume_up
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 14 EB 00 00
+# 
+name: Volume_down
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 13 EC 00 00
+# 
+name: Bass_up
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 28 D7 00 00
+# 
+name: Bass_down
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 22 DD 00 00
