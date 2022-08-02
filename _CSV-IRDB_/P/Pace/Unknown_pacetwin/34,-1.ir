@@ -145,7 +145,7 @@ protocol: NECext
 address: 22 00 00 00
 command: 35 00 00 00
 #
-name: ch_down
+name: CH-
 type: parsed
 protocol: NECext
 address: 22 00 00 00
@@ -277,7 +277,7 @@ protocol: NECext
 address: 22 00 00 00
 command: 5D 00 00 00
 #
-name: ch_down_2
+name: CH-_2
 type: parsed
 protocol: NECext
 address: 22 00 00 00

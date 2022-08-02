@@ -217,7 +217,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 1F E0 00 00
 # 
-name: CH_Down
+name: CH-
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

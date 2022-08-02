@@ -21,7 +21,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 0A F5 00 00
 # 
-name: Ch_DOWN
+name: CH-
 type: parsed
 protocol: NECext
 address: 86 05 00 00
