@@ -19,13 +19,13 @@ protocol: NECext
 address: 40 00 00 00
 command: 12 00 00 00
 #
-name: VCR_VOLUME_+
+name: VCR_VOL+
 type: parsed
 protocol: NECext
 address: 40 00 00 00
 command: 1A 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 40 00 00 00
@@ -37,13 +37,13 @@ protocol: NECext
 address: 40 00 00 00
 command: 1B 00 00 00
 #
-name: VCR_VOLUME_-
+name: VCR_VOL-
 type: parsed
 protocol: NECext
 address: 40 00 00 00
 command: 1E 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 40 00 00 00

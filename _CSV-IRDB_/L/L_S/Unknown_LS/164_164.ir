@@ -7,7 +7,7 @@ protocol: NECext
 address: A4 A4 00 00
 command: 04 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: A4 A4 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: A4 A4 00 00
 command: 0D 00 00 00
 #
-name: KEY_PLAYPAUSE
+name: PLAYPAUSE
 type: parsed
 protocol: NECext
 address: A4 A4 00 00
@@ -49,13 +49,13 @@ protocol: NECext
 address: A4 A4 00 00
 command: 15 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: A4 A4 00 00
 command: 16 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: A4 A4 00 00
@@ -67,19 +67,19 @@ protocol: NECext
 address: A4 A4 00 00
 command: 1C 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: A4 A4 00 00
 command: 20 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: A4 A4 00 00
 command: 60 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: A4 A4 00 00

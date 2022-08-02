@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 81 6A 00 00
@@ -13,13 +13,13 @@ protocol: NECext
 address: 81 6A 00 00
 command: 14 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 81 6A 00 00
 command: 19 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: 81 6A 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: 81 6A 00 00
 command: 1C 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 81 6A 00 00

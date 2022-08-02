@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -19,7 +19,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 07 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 11 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 5D 00 00 00
 #
-name: KEY_4X
+name: 4X
 type: parsed
 protocol: NECext
 address: 18 E9 00 00

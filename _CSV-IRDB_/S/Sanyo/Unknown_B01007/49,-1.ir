@@ -1,37 +1,37 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_KPPLUS
+name: KPPLUS
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 01 00 00 00
 #
-name: KEY_KPMINUS
+name: KPMINUS
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 02 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 04 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 05 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 06 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 31 00 00 00
@@ -43,31 +43,31 @@ protocol: NECext
 address: 31 00 00 00
 command: 08 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 0D 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 0E 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 31 00 00 00
@@ -79,43 +79,43 @@ protocol: NECext
 address: 31 00 00 00
 command: 11 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 12 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 13 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 14 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 15 00 00 00
 #
-name: KEY_SLOW
+name: SLOW
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 1A 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 31 00 00 00
 command: 1C 00 00 00
 #
-name: KEY_0/AV
+name: 0/AV
 type: parsed
 protocol: NECext
 address: 31 00 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 31 00 00 00
 command: 44 00 00 00
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: 31 00 00 00
@@ -151,7 +151,7 @@ protocol: NECext
 address: 31 00 00 00
 command: 4C 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 31 00 00 00

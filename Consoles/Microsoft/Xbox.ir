@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Xbox_power
+name: Xbox_POWER
 type: parsed
 protocol: NECext
 address: 80 D8 00 00

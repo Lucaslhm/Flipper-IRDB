@@ -7,19 +7,19 @@ protocol: NECext
 address: 70 08 00 00
 command: 00 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 70 08 00 00
 command: 02 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 70 08 00 00
 command: 02 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 70 08 00 00
@@ -31,19 +31,19 @@ protocol: NECext
 address: 70 08 00 00
 command: 03 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 70 08 00 00
 command: 0A 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 70 08 00 00
 command: 0A 00 00 00
 #
-name: KEY_T
+name: T
 type: parsed
 protocol: NECext
 address: 70 08 00 00
@@ -55,13 +55,13 @@ protocol: NECext
 address: 70 08 00 00
 command: 62 00 00 00
 #
-name: KEY_W
+name: W
 type: parsed
 protocol: NECext
 address: 70 08 00 00
 command: 63 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 70 08 00 00

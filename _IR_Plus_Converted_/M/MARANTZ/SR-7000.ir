@@ -10,7 +10,7 @@ frequency: 38000
 duty_cycle: 0.33
 data: 888 888 888 888 888 888 1803 888 888 888 888 888 888 888 888 888 888 1803 888 888 1803 888 888 90526
 #
-name: ON
+POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.33

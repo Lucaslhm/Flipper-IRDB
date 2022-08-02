@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: 83 33 00 00
@@ -31,49 +31,49 @@ protocol: NECext
 address: 83 33 00 00
 command: 45 00 00 00
 #
-name: KEY_RED
+name: RED
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 46 00 00 00
 #
-name: KEY_GREEN
+name: GREEN
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 47 00 00 00
 #
-name: KEY_YELLOW
+name: YELLOW
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 48 00 00 00
 #
-name: KEY_BLUE
+name: BLUE
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 49 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 50 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 51 00 00 00
 #
-name: KEY_TEXT
+name: TEXT
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 52 00 00 00
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 83 33 00 00
@@ -85,115 +85,115 @@ protocol: NECext
 address: 83 33 00 00
 command: 54 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 55 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 56 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 57 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 58 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 59 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 60 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 61 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 62 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 63 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 64 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 65 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 66 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 67 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 68 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 69 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 70 00 00 00
 #
-name: KEY_LIST
+name: LIST
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 71 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 83 33 00 00
 command: 72 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 83 33 00 00

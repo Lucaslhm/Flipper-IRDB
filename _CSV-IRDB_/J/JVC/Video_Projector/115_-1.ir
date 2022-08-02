@@ -73,7 +73,7 @@ protocol: NECext
 address: 73 00 00 00
 command: 05 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 73 00 00 00

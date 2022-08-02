@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_DVD
+name: DVD
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 03 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 04 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -43,85 +43,85 @@ protocol: NECext
 address: 2C 2C 00 00
 command: 13 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 16 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 17 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 1E 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 1F 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 41 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 42 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 43 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 44 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 45 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 46 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 47 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 48 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 49 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -133,7 +133,7 @@ protocol: NECext
 address: 2C 2C 00 00
 command: 4D 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -169,7 +169,7 @@ protocol: NECext
 address: 2C 2C 00 00
 command: 6A 00 00 00
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -181,7 +181,7 @@ protocol: NECext
 address: 2C 2C 00 00
 command: 7A 00 00 00
 #
-name: KEY_TEXT
+name: TEXT
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -193,19 +193,19 @@ protocol: NECext
 address: 2C 2C 00 00
 command: 82 00 00 00
 #
-name: KEY_AUX
+name: AUX
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 8A 00 00 00
 #
-name: KEY_OPEN
+name: OPEN
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: 9A 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -217,7 +217,7 @@ protocol: NECext
 address: 2C 2C 00 00
 command: A1 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -229,13 +229,13 @@ protocol: NECext
 address: 2C 2C 00 00
 command: A3 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: A4 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -253,19 +253,19 @@ protocol: NECext
 address: 2C 2C 00 00
 command: AD 00 00 00
 #
-name: KEY_ZOOM
+name: ZOOM
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: AE 00 00 00
 #
-name: KEY_DVD
+name: DVD
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
 command: AF 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -283,7 +283,7 @@ protocol: NECext
 address: 2C 2C 00 00
 command: B2 00 00 00
 #
-name: KEY_SEARCH
+name: SEARCH
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00
@@ -295,7 +295,7 @@ protocol: NECext
 address: 2C 2C 00 00
 command: B4 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 2C 2C 00 00

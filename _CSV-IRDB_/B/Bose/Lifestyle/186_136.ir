@@ -13,7 +13,7 @@ protocol: NECext
 address: BA 88 00 00
 command: 01 00 00 00
 #
-name: VOLUME_-_ZONE_#1
+name: VOL-_ZONE_#1
 type: parsed
 protocol: NECext
 address: BA 88 00 00
@@ -25,7 +25,7 @@ protocol: NECext
 address: BA 88 00 00
 command: 02 00 00 00
 #
-name: VOLUME_+_ZONE_#1
+name: VOL+_ZONE_#1
 type: parsed
 protocol: NECext
 address: BA 88 00 00

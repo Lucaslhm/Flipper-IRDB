@@ -3,7 +3,7 @@ Version: 1
 # 
 # Vizio TV
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -15,7 +15,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 2F 00 00 00
 # 
-name: Ch_UP
+name: CH+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -27,13 +27,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: Vol_UP
+name: VOL+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_DOWN
+name: VOL-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -93,7 +93,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 49 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 04 00 00 00

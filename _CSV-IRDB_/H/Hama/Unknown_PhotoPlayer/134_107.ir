@@ -1,145 +1,145 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_DELETE
+name: DELETE
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 00 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 01 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 02 00 00 00
 #
-name: KEY_PAGEUP
+name: PAGEUP
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 03 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 04 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 05 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 06 00 00 00
 #
-name: KEY_ESC
+name: ESC
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 07 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 08 00 00 00
 #
-name: KEY_PAGEDOWN
+name: PAGEDOWN
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 09 00 00 00
 #
-name: KEY_F4
+name: F4
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 0C 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 0F 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 10 00 00 00
 #
-name: KEY_SELECT
+name: SELECT
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 11 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 12 00 00 00
 #
-name: KEY_F1
+name: F1
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 13 00 00 00
 #
-name: KEY_REPLY
+name: REPLY
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 14 00 00 00
 #
-name: KEY_F2
+name: F2
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 16 00 00 00
 #
-name: KEY_F5
+name: F5
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 17 00 00 00
 #
-name: KEY_F3
+name: F3
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 18 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 1A 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 1B 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 1E 00 00 00
 #
-name: KEY_ZOOM
+name: ZOOM
 type: parsed
 protocol: NECext
 address: 86 6B 00 00

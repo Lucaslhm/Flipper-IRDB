@@ -19,19 +19,19 @@ protocol: NECext
 address: B8 00 00 00
 command: 90 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: 91 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: 92 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -49,7 +49,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 95 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -61,31 +61,31 @@ protocol: NECext
 address: B8 00 00 00
 command: 99 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: 9A 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: 9B 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: 9D 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: C9 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -103,67 +103,67 @@ protocol: NECext
 address: B8 00 00 00
 command: CF 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: D0 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: D1 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: D2 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: D3 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: D5 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: D8 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: D9 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: DA 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: DB 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: B8 00 00 00
 command: DD 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: B8 00 00 00

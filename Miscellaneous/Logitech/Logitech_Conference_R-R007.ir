@@ -16,19 +16,19 @@ protocol: NEC
 address: 02 00 00 00
 command: F6 00 00 00
 # 
-name: Vol_Down
+name: VOL-
 type: parsed
 protocol: NEC
 address: 02 00 00 00
 command: 6A 00 00 00
 # 
-name: Vol_Up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 02 00 00 00
 command: AA 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 02 00 00 00

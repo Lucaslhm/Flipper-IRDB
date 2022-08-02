@@ -3,7 +3,7 @@ Version: 1
 # 
 # Winix Air Filter
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 12 00 00 00

@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: Power
+name: POWER
 type: raw
 frequency: 40244
 duty_cycle: 0.330000
@@ -247,7 +247,7 @@ frequency: 40244
 duty_cycle: 0.330000
 data: 2385 596 596 596 596 596 1193 596 596 596 1193 596 1193 596 1193 596 596 596 596 596 1193 596 1193 596 596 24451
 #
-name: Mute
+name: MUTE
 type: raw
 frequency: 40244
 duty_cycle: 0.330000

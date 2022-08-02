@@ -19,7 +19,7 @@ protocol: NECext
 address: 0B 4F 00 00
 command: 02 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 0B 4F 00 00
@@ -181,13 +181,13 @@ protocol: NECext
 address: 0B 4F 00 00
 command: 20 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 0B 4F 00 00
 command: 23 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 0B 4F 00 00

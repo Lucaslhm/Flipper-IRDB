@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
@@ -13,19 +13,19 @@ protocol: NECext
 address: 40 AF 00 00
 command: 02 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 03 00 00 00
 #
-name: KEY_BACK
+name: BACK
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 05 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
@@ -43,7 +43,7 @@ protocol: NECext
 address: 40 AF 00 00
 command: 12 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 40 AF 00 00

@@ -19,31 +19,31 @@ protocol: NECext
 address: 30 00 00 00
 command: 04 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 05 00 00 00
 #
-name: KEY_AUX
+name: AUX
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 06 00 00 00
 #
-name: KEY_TV
+name: TV
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 09 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -55,19 +55,19 @@ protocol: NECext
 address: 30 00 00 00
 command: 11 00 00 00
 #
-name: X_KEY_1EXT
+name: X_1EXT
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 13 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 15 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 30 00 00 00
 command: 56 00 00 00
 #
-name: KEY_DVD
+name: DVD
 type: parsed
 protocol: NECext
 address: 30 00 00 00

@@ -19,7 +19,7 @@ protocol: NECext
 address: 07 00 00 00
 command: 02 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -67,13 +67,13 @@ protocol: NECext
 address: 07 00 00 00
 command: 12 00 00 00
 #
-name: KEY_BLUE
+name: BLUE
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 15 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -85,37 +85,37 @@ protocol: NECext
 address: 07 00 00 00
 command: 1E 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 29 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 2A 00 00 00
 #
-name: KEY_YELLOW
+name: YELLOW
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 38 00 00 00
 #
-name: KEY_RED
+name: RED
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 39 00 00 00
 #
-name: KEY_GREEN
+name: GREEN
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 3B 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 07 00 00 00

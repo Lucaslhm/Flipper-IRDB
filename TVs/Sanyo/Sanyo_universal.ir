@@ -3,7 +3,7 @@ Version: 1
 # 
 # Sanyo Universal TV Remote
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 38 00 00 00
@@ -15,7 +15,7 @@ protocol: NEC
 address: 38 00 00 00
 command: 54 00 00 00
 # 
-name: V_up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 38 00 00 00
@@ -27,13 +27,13 @@ protocol: NEC
 address: 38 00 00 00
 command: 0F 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 18 00 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: NEC
 address: 38 00 00 00

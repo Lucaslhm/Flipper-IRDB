@@ -1,37 +1,37 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 04 00 00 00
 command: 00 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 04 00 00 00
 command: 01 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: 04 00 00 00
 command: 02 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: 04 00 00 00
 command: 03 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 04 00 00 00
 command: 04 00 00 00
 #
-name: KEY_PLAYPAUSE
+name: PLAYPAUSE
 type: parsed
 protocol: NECext
 address: 04 00 00 00
@@ -49,19 +49,19 @@ protocol: NECext
 address: 04 00 00 00
 command: 09 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 04 00 00 00
 command: 0A 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 04 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 04 00 00 00
@@ -73,7 +73,7 @@ protocol: NECext
 address: 04 00 00 00
 command: 10 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 04 00 00 00
@@ -91,7 +91,7 @@ protocol: NECext
 address: 04 00 00 00
 command: 19 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 04 00 00 00
@@ -127,7 +127,7 @@ protocol: NECext
 address: 04 00 00 00
 command: 33 00 00 00
 #
-name: Timer(on/off)
+name: Timer(POWER)
 type: parsed
 protocol: NECext
 address: 04 00 00 00

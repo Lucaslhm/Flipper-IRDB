@@ -3,13 +3,13 @@ Version: 1
 # 
 # Element 100 series TV
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 46 B9 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -75,25 +75,25 @@ protocol: NECext
 address: 02 7D 00 00
 command: 4F B0 00 00
 # 
-name: Channel_up
+name: CH+
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0F F0 00 00
 # 
-name: Channel_down
+name: CH-
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 5A A5 00 00
 # 
-name: Volume_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0C F3 00 00
 # 
-name: Volume_down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

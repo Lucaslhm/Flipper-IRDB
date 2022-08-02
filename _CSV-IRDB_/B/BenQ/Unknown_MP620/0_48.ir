@@ -1,31 +1,31 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 02 00 00 00
 #
-name: KEY_PLAYPAUSE
+name: PLAYPAUSE
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 03 00 00 00
 #
-name: KEY_CYCLEWINDOWS
+name: CYCLEWINDOWS
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 04 00 00 00
 #
-name: KEY_PAGEUP
+name: PAGEUP
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 05 00 00 00
 #
-name: KEY_PAGEDOWN
+name: PAGEDOWN
 type: parsed
 protocol: NECext
 address: 00 30 00 00
@@ -55,31 +55,31 @@ protocol: NECext
 address: 00 30 00 00
 command: 0A 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0B 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0C 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0D 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0E 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 00 30 00 00

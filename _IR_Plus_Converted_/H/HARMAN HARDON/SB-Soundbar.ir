@@ -29,7 +29,7 @@ protocol: NECext
 address: 0E 01 00 00
 command: 1C E3 00 00
 #
-name: DOLBY VOLUME
+name: DOLBY VOL+
 protocol: NECext
 address: 0E 01 00 00
 command: 0A F5 00 00

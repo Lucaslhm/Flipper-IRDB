@@ -5,13 +5,13 @@ Version: 1
 # https://shop.azulle.com/products/byte4
 # 6/14/2022 - Daseiner0
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 9F 00 00
 command: 57 A8 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 9F 00 00
@@ -59,13 +59,13 @@ protocol: NECext
 address: 00 9F 00 00
 command: 47 B8 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 9F 00 00
 command: 00 FF 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 9F 00 00

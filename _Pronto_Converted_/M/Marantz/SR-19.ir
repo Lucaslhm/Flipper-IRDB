@@ -121,7 +121,7 @@ frequency: 36045
 duty_cycle: 0.330000
 data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 89749
 #
-name: Mute
+name: MUTE
 type: raw
 frequency: 36045
 duty_cycle: 0.330000

@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 00 EF 00 00
 command: 00 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 EF 00 00
 command: 01 00 00 00
 #
-name: KEY_F11
+name: F11
 type: parsed
 protocol: NECext
 address: 00 EF 00 00
@@ -25,7 +25,7 @@ protocol: NECext
 address: 00 EF 00 00
 command: 08 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 00 EF 00 00
@@ -37,7 +37,7 @@ protocol: NECext
 address: 00 EF 00 00
 command: 0A 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 EF 00 00
@@ -49,19 +49,19 @@ protocol: NECext
 address: 00 EF 00 00
 command: 0C 00 00 00
 #
-name: KEY_PLAYPAUSE
+name: PLAYPAUSE
 type: parsed
 protocol: NECext
 address: 00 EF 00 00
 command: 0D 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 EF 00 00
 command: 0E 00 00 00
 #
-name: quick_power
+name: quick_POWER
 type: parsed
 protocol: NECext
 address: 00 EF 00 00

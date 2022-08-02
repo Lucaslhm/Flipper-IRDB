@@ -1,67 +1,67 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 00 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 01 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 02 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 03 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 04 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 05 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 06 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 07 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 08 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 09 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -79,19 +79,19 @@ protocol: NECext
 address: 07 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 0D 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 0E 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -109,19 +109,19 @@ protocol: NECext
 address: 07 00 00 00
 command: 11 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 12 00 00 00
 #
-name: KEY_1-
+name: 1-
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 13 00 00 00
 #
-name: KEY_2-
+name: 2-
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -175,13 +175,13 @@ protocol: NECext
 address: 07 00 00 00
 command: 1C 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 1D 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -193,25 +193,25 @@ protocol: NECext
 address: 07 00 00 00
 command: 1F 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 20 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 21 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 22 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -223,67 +223,67 @@ protocol: NECext
 address: 07 00 00 00
 command: 24 00 00 00
 #
-name: KEY_3PLAY
+name: 3PLAY
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 25 00 00 00
 #
-name: KEY_A
+name: A
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 26 00 00 00
 #
-name: KEY_B
+name: B
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 27 00 00 00
 #
-name: KEY_C
+name: C
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 28 00 00 00
 #
-name: KEY_D
+name: D
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 29 00 00 00
 #
-name: KEY_ZOOM
+name: ZOOM
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 2A 00 00 00
 #
-name: KEY_E
+name: E
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 2B 00 00 00
 #
-name: KEY_F
+name: F
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 2C 00 00 00
 #
-name: KEY_G
+name: G
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 2D 00 00 00
 #
-name: KEY_H
+name: H
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 2E 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 07 00 00 00

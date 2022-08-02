@@ -7,19 +7,19 @@ protocol: NECext
 address: C8 00 00 00
 command: 0D 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: C8 00 00 00
 command: 0D 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: C8 00 00 00
 command: 10 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: C8 00 00 00

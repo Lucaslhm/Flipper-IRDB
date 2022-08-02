@@ -3,13 +3,13 @@ Version: 1
 # 
 # Edifier R1280DB Speaker
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 10 E7 00 00
 command: 01 FE 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 10 E7 00 00

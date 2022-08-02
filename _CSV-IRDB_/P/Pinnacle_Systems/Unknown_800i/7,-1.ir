@@ -1,37 +1,37 @@
 Filetype: IR signals file
 Version: 1
 #
-name: key_mute
+name: mute
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 00 00 00 00
 #
-name: key_menu
+name: menu
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 01 00 00 00
 #
-name: key_volumeup
+name: VOL+
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 03 00 00 00
 #
-name: key_channelup
+name: channelup
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 06 00 00 00
 #
-name: key_volumedown
+name: VOL-
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 09 00 00 00
 #
-name: key_channeldown
+name: channeldown
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -91,7 +91,7 @@ protocol: NECext
 address: 07 00 00 00
 command: 21 00 00 00
 #
-name: key_screen
+name: screen
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -103,49 +103,49 @@ protocol: NECext
 address: 07 00 00 00
 command: 27 00 00 00
 #
-name: key_t
+name: t
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 2A 00 00 00
 #
-name: key_rewind
+name: rewind
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 2D 00 00 00
 #
-name: key_playpause
+name: playpause
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 30 00 00 00
 #
-name: key_fastforward
+name: fastforward
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 33 00 00 00
 #
-name: key_record
+name: record
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 36 00 00 00
 #
-name: key_power
+name: POWER
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 39 00 00 00
 #
-name: key_stop
+name: stop
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 3C 00 00 00
 #
-name: key_question
+name: question
 type: parsed
 protocol: NECext
 address: 07 00 00 00

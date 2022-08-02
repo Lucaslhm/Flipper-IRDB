@@ -61,7 +61,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 00 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -85,7 +85,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 00 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -217,13 +217,13 @@ protocol: NECext
 address: D2 6D 00 00
 command: 01 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 02 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -235,7 +235,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 02 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -259,13 +259,13 @@ protocol: NECext
 address: D2 6D 00 00
 command: 02 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 03 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -307,7 +307,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 04 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -1831,7 +1831,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: CC 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -1891,7 +1891,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: CC 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -1963,7 +1963,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: CC 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -1987,7 +1987,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: CC 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -2089,13 +2089,13 @@ protocol: NECext
 address: D2 6D 00 00
 command: CC 00 00 00
 #
-name: ZONE_2_VOLUME_-
+name: ZONE_2_VOL-
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: CC 00 00 00
 #
-name: ZONE_2_VOLUME_+
+name: ZONE_2_VOL+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00

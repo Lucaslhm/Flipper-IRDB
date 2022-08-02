@@ -583,13 +583,13 @@ protocol: NECext
 address: 1B 4E 00 00
 command: 22 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 1B 4E 00 00
 command: 23 00 00 00
 #
-name: 00_VOLUME_-
+name: 00_VOL-
 type: parsed
 protocol: NECext
 address: 1B 4E 00 00
@@ -607,13 +607,13 @@ protocol: NECext
 address: 1B 4E 00 00
 command: 23 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 1B 4E 00 00
 command: 24 00 00 00
 #
-name: 00_VOLUME_+
+name: 00_VOL+
 type: parsed
 protocol: NECext
 address: 1B 4E 00 00

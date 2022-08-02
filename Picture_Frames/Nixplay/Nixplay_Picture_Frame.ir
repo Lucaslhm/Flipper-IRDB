@@ -4,7 +4,7 @@ Version: 1
 # Nixplay Picture Frame Remote
 # https://www.nixplay.com
 # 
-name: On_Off
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 88 00 00

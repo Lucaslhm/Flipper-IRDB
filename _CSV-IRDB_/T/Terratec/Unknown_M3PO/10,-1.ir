@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 46 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
@@ -19,25 +19,25 @@ protocol: NECext
 address: 0A 00 00 00
 command: 50 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 51 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 52 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 53 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
@@ -49,19 +49,19 @@ protocol: NECext
 address: 0A 00 00 00
 command: 56 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 57 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 61 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
@@ -73,37 +73,37 @@ protocol: NECext
 address: 0A 00 00 00
 command: 6B 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 6C 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 6D 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 6E 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 6F 00 00 00
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 0A 00 00 00
 command: 70 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 0A 00 00 00

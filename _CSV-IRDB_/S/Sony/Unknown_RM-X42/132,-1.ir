@@ -13,19 +13,19 @@ protocol: NECext
 address: 84 00 00 00
 command: 11 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 12 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 13 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 84 00 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: 84 00 00 00
 command: 31 00 00 00
 #
-name: KEY_CYCLEWINDOWS
+name: CYCLEWINDOWS
 type: parsed
 protocol: NECext
 address: 84 00 00 00

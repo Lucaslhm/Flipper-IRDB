@@ -25,7 +25,7 @@ protocol: NECext
 address: 0C FB 00 00
 command: 02 00 00 00
 #
-name: CHAN_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 0C FB 00 00
@@ -553,7 +553,7 @@ protocol: NECext
 address: 0C FB 00 00
 command: 49 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 0C FB 00 00

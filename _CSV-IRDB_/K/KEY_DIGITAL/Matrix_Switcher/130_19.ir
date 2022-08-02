@@ -517,7 +517,7 @@ protocol: NECext
 address: 82 13 00 00
 command: AB 00 00 00
 #
-name: VOLUME
+name: VOL+
 type: parsed
 protocol: NECext
 address: 82 13 00 00

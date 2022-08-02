@@ -1,37 +1,37 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 01 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 09 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 11 00 00 00
 #
-name: X_KEY_3dMidi
+name: X_3dMidi
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 19 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 1E 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -49,49 +49,49 @@ protocol: NECext
 address: C1 44 00 00
 command: 31 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 3E 00 00 00
 #
-name: KEY_OPTION
+name: OPTION
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 41 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 46 00 00 00
 #
-name: X_KEY_4bit_Up
+name: X_4bit_Up
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 49 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 4E 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 51 00 00 00
 #
-name: X_KEY_3dMidi_Down
+name: X_3dMidi_Down
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 59 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -109,31 +109,31 @@ protocol: NECext
 address: C1 44 00 00
 command: 6E 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 71 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 76 00 00 00
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 81 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 86 00 00 00
 #
-name: X_KEY_4bit
+name: X_4bit
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -145,25 +145,25 @@ protocol: NECext
 address: C1 44 00 00
 command: 8E 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 91 00 00 00
 #
-name: X_KEY_3dMidi_Up
+name: X_3dMidi_Up
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 99 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 9E 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -175,67 +175,67 @@ protocol: NECext
 address: C1 44 00 00
 command: A9 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: AE 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: B1 00 00 00
 #
-name: KEY_SLOW
+name: SLOW
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: BE 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: C1 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: C6 00 00 00
 #
-name: X_KEY_4bit_Down
+name: X_4bit_Down
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: C9 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: CE 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: D1 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: D6 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: DE 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -247,19 +247,19 @@ protocol: NECext
 address: C1 44 00 00
 command: E9 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: EE 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: F1 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: C1 44 00 00

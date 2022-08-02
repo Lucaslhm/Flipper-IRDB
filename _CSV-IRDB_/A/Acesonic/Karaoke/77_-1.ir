@@ -55,7 +55,7 @@ protocol: NECext
 address: 4D 00 00 00
 command: 41 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 4D 00 00 00
@@ -73,7 +73,7 @@ protocol: NECext
 address: 4D 00 00 00
 command: 48 00 00 00
 #
-name: KEY_DWN
+name: DWN
 type: parsed
 protocol: NECext
 address: 4D 00 00 00

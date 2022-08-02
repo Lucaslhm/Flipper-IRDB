@@ -829,7 +829,7 @@ protocol: NECext
 address: 79 00 00 00
 command: 60 00 00 00
 #
-name: STANDBY/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 79 00 00 00

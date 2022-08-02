@@ -277,7 +277,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 52 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -301,7 +301,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 56 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00

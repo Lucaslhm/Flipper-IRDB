@@ -1,181 +1,181 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 00 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 01 00 00 00
 #
-name: KEY_1_symbols
+name: 1_symbols
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 01 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 02 00 00 00
 #
-name: KEY_2_abc
+name: 2_abc
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 02 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 03 00 00 00
 #
-name: KEY_3_def
+name: 3_def
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 03 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 04 00 00 00
 #
-name: KEY_4_ghi
+name: 4_ghi
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 04 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 05 00 00 00
 #
-name: KEY_5_jkl
+name: 5_jkl
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 05 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 06 00 00 00
 #
-name: KEY_6_mno
+name: 6_mno
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 06 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 07 00 00 00
 #
-name: KEY_7_pqrs
+name: 7_pqrs
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 07 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 08 00 00 00
 #
-name: KEY_8_tuv
+name: 8_tuv
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 08 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 09 00 00 00
 #
-name: KEY_9_wxyz
+name: 9_wxyz
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 09 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0A 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0B 00 00 00
 #
-name: KEY_PAGEUP
+name: PAGEUP
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0B 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_PAGEDOWN
+name: PAGEDOWN
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0D 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0E 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 11 00 00 00
 #
-name: KEY_EXIT
+name: EXIT
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 12 00 00 00
 #
-name: KEY_LAST
+name: LAST
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -199,7 +199,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 15 00 00 00
 #
-name: KEY_FAVORITES
+name: FAVORITES
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -217,13 +217,13 @@ protocol: NECext
 address: 00 00 00 00
 command: 17 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 19 00 00 00
 #
-name: KEY_NUMERIC_STAR
+name: NUMERIC_STAR
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -235,7 +235,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 1A 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -319,7 +319,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 29 00 00 00
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -331,7 +331,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 31 00 00 00
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -397,13 +397,13 @@ protocol: NECext
 address: 00 00 00 00
 command: 40 00 00 00
 #
-name: KEY_OPTION
+name: OPTION
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 42 00 00 00
 #
-name: KEY_KPPLUS
+name: KPPLUS
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -421,7 +421,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 43 00 00 00
 #
-name: KEY_KPASTERISK
+name: KPASTERISK
 type: parsed
 protocol: NECext
 address: 00 00 00 00

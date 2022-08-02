@@ -61,13 +61,13 @@ protocol: NECext
 address: 80 7B 00 00
 command: 09 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
 command: 0A 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
@@ -97,7 +97,7 @@ protocol: NECext
 address: 80 7B 00 00
 command: 12 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
@@ -109,31 +109,31 @@ protocol: NECext
 address: 80 7B 00 00
 command: 14 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
 command: 15 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
 command: 16 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
 command: 17 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
 command: 18 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
@@ -157,13 +157,13 @@ protocol: NECext
 address: 80 7B 00 00
 command: 1E 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
 command: 45 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
@@ -181,7 +181,7 @@ protocol: NECext
 address: 80 7B 00 00
 command: 4C 00 00 00
 #
-name: KEY_EJECTCD
+name: EJECTCD
 type: parsed
 protocol: NECext
 address: 80 7B 00 00
@@ -193,7 +193,7 @@ protocol: NECext
 address: 80 7B 00 00
 command: 4F 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 80 7B 00 00

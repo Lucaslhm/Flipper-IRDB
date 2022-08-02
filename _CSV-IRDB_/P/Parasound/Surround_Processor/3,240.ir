@@ -97,7 +97,7 @@ protocol: NECext
 address: 03 F0 00 00
 command: 9C 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 03 F0 00 00
@@ -109,13 +109,13 @@ protocol: NECext
 address: 03 F0 00 00
 command: C8 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 F0 00 00
 command: CB 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 F0 00 00

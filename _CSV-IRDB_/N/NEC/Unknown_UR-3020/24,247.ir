@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_R
+name: R
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 00 00 00 00
 #
-name: KEY_G
+name: G
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 01 00 00 00
 #
-name: KEY_B
+name: B
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 02 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
@@ -49,7 +49,7 @@ protocol: NECext
 address: 18 F7 00 00
 command: 12 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
@@ -67,67 +67,67 @@ protocol: NECext
 address: 18 F7 00 00
 command: 16 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 17 00 00 00
 #
-name: KEY_1/ABC
+name: 1/ABC
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 18 00 00 00
 #
-name: KEY_2/DEF
+name: 2/DEF
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 19 00 00 00
 #
-name: KEY_3/GHI
+name: 3/GHI
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 1A 00 00 00
 #
-name: KEY_4/JKL
+name: 4/JKL
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 1B 00 00 00
 #
-name: KEY_5/MNO
+name: 5/MNO
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 1C 00 00 00
 #
-name: KEY_6/PQR
+name: 6/PQR
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 1D 00 00 00
 #
-name: KEY_7/STU
+name: 7/STU
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 1E 00 00 00
 #
-name: KEY_8/VWX
+name: 8/VWX
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 1F 00 00 00
 #
-name: KEY_9/YZ-
+name: 9/YZ-
 type: parsed
 protocol: NECext
 address: 18 F7 00 00
 command: 40 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 18 F7 00 00

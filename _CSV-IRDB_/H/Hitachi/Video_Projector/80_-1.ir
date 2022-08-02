@@ -31,7 +31,7 @@ protocol: NECext
 address: 50 00 00 00
 command: 15 00 00 00
 #
-name: STANDBY/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 50 00 00 00

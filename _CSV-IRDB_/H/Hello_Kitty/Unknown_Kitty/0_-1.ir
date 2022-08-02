@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 80 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 81 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 82 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 84 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -43,25 +43,25 @@ protocol: NECext
 address: 00 00 00 00
 command: 88 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 8C 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 8D 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 8F 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -73,7 +73,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 91 00 00 00
 #
-name: KEY_SEARCH
+name: SEARCH
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -91,109 +91,109 @@ protocol: NECext
 address: 00 00 00 00
 command: 94 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 96 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C0 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C1 00 00 00
 #
-name: KEY_ANGLE
+name: ANGLE
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C2 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C4 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C5 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C6 00 00 00
 #
-name: KEY_OPEN
+name: OPEN
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C7 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C8 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: C9 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: CC 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: CD 00 00 00
 #
-name: KEY_ZOOM
+name: ZOOM
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: CE 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: D0 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: D1 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: D2 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: D3 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 00 00 00 00

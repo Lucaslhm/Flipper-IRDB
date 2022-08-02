@@ -163,13 +163,13 @@ protocol: NECext
 address: 01 00 00 00
 command: 40 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 41 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 01 00 00 00

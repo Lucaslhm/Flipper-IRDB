@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_A
+name: A
 type: parsed
 protocol: NECext
 address: 03 01 00 00
 command: 20 00 00 00
 #
-name: KEY_B
+name: B
 type: parsed
 protocol: NECext
 address: 03 01 00 00

@@ -145,7 +145,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 15 00 00 00
 #
-name: OFF/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 00 00 00

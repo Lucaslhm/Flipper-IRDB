@@ -31,7 +31,7 @@ protocol: NECext
 address: 07 07 00 00
 command: 06 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 07 07 00 00
@@ -55,7 +55,7 @@ protocol: NECext
 address: 07 07 00 00
 command: 0A 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 07 07 00 00
@@ -157,7 +157,7 @@ protocol: NECext
 address: 07 07 00 00
 command: 25 00 00 00
 #
-name: KEY_EXIT
+name: EXIT
 type: parsed
 protocol: NECext
 address: 07 07 00 00

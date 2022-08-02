@@ -67,7 +67,7 @@ protocol: NECext
 address: B7 00 00 00
 command: 0B 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: B7 00 00 00

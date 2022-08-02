@@ -7,19 +7,19 @@ protocol: NECext
 address: 0F 00 00 00
 command: 27 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 0F 00 00 00
 command: 2A 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 0F 00 00 00
 command: 2C 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 0F 00 00 00
@@ -37,19 +37,19 @@ protocol: NECext
 address: 0F 00 00 00
 command: 2F 00 00 00
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 0F 00 00 00
 command: 3C 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 0F 00 00 00
 command: 3F 00 00 00
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: 0F 00 00 00

@@ -7,49 +7,49 @@ protocol: NECext
 address: 40 AF 00 00
 command: 01 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 02 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 03 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 05 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 06 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 0E 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 0F 00 00 00
 #
-name: KEY_SELECT
+name: SELECT
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
 command: 12 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 40 AF 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: 40 AF 00 00
 command: 1A 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 40 AF 00 00

@@ -67,7 +67,7 @@ protocol: NECext
 address: 07 00 00 00
 command: 21 00 00 00
 #
-name: ON/OFF
+name: POWER
 type: parsed
 protocol: NECext
 address: 07 00 00 00

@@ -13,43 +13,43 @@ protocol: NECext
 address: 80 26 00 00
 command: 81 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 82 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 84 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 85 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 86 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 87 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 88 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 80 26 00 00
@@ -61,31 +61,31 @@ protocol: NECext
 address: 80 26 00 00
 command: 8A 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 8B 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 8C 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 8D 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 8E 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 80 26 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: 80 26 00 00
 command: 92 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 80 26 00 00
@@ -121,7 +121,7 @@ protocol: NECext
 address: 80 26 00 00
 command: 96 00 00 00
 #
-name: KEY_RADIO
+name: RADIO
 type: parsed
 protocol: NECext
 address: 80 26 00 00
@@ -133,7 +133,7 @@ protocol: NECext
 address: 80 26 00 00
 command: 98 00 00 00
 #
-name: KEY_FAVORITES
+name: FAVORITES
 type: parsed
 protocol: NECext
 address: 80 26 00 00
@@ -151,25 +151,25 @@ protocol: NECext
 address: 80 26 00 00
 command: 9B 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 9C 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 9D 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 80 26 00 00
 command: 9E 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 80 26 00 00

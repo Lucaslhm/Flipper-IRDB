@@ -25,13 +25,13 @@ protocol: NECext
 address: EE 87 00 00
 command: 04 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: EE 87 00 00
 command: 05 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: EE 87 00 00

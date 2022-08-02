@@ -9,7 +9,7 @@ protocol: NEC
 address: 31 00 00 00
 command: 91 00 00 00
 # 
-name: On
+POWER
 type: parsed
 protocol: NEC
 address: 31 00 00 00
@@ -117,7 +117,7 @@ protocol: NEC
 address: 31 00 00 00
 command: 86 00 00 00
 # 
-name: Volume
+name: VOL+
 type: parsed
 protocol: NEC
 address: 31 00 00 00
@@ -135,7 +135,7 @@ protocol: NEC
 address: 31 00 00 00
 command: 99 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 31 00 00 00

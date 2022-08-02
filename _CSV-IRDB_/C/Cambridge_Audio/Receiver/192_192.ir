@@ -13,7 +13,7 @@ protocol: NECext
 address: C0 C0 00 00
 command: 02 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: C0 C0 00 00
@@ -145,7 +145,7 @@ protocol: NECext
 address: C0 C0 00 00
 command: 1E 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: C0 C0 00 00

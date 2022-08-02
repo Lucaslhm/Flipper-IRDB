@@ -19,31 +19,31 @@ protocol: NECext
 address: 00 00 00 00
 command: 82 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 83 00 00 00
 #
-name: KEY_R
+name: R
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 84 00 00 00
 #
-name: KEY_G
+name: G
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 85 00 00 00
 #
-name: KEY_B
+name: B
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 86 00 00 00
 #
-name: KEY_W
+name: W
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -97,13 +97,13 @@ protocol: NECext
 address: 00 00 00 00
 command: 8F 00 00 00
 #
-name: KEY_YELLOW
+name: YELLOW
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 90 00 00 00
 #
-name: KEY_LIGHTS_TOGGLE
+name: LIGHTS_TOGGLE
 type: parsed
 protocol: NECext
 address: 00 00 00 00

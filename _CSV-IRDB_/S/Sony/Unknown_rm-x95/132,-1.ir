@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 84 00 00 00
@@ -19,13 +19,13 @@ protocol: NECext
 address: 84 00 00 00
 command: 10 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 12 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 84 00 00 00
@@ -37,7 +37,7 @@ protocol: NECext
 address: 84 00 00 00
 command: 14 00 00 00
 #
-name: KEY_LIST
+name: LIST
 type: parsed
 protocol: NECext
 address: 84 00 00 00
@@ -49,7 +49,7 @@ protocol: NECext
 address: 84 00 00 00
 command: 28 00 00 00
 #
-name: KEY_OPEN
+name: OPEN
 type: parsed
 protocol: NECext
 address: 84 00 00 00
@@ -79,13 +79,13 @@ protocol: NECext
 address: 84 00 00 00
 command: 35 00 00 00
 #
-name: KEY_CYCLEWINDOWS
+name: CYCLEWINDOWS
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 46 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: 84 00 00 00
@@ -97,7 +97,7 @@ protocol: NECext
 address: 84 00 00 00
 command: 4A 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 84 00 00 00

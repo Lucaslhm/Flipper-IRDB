@@ -61,13 +61,13 @@ protocol: NECext
 address: 01 00 00 00
 command: 0A 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 11 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -79,19 +79,19 @@ protocol: NECext
 address: 01 00 00 00
 command: 13 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 14 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 15 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 17 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -175,25 +175,25 @@ protocol: NECext
 address: 01 00 00 00
 command: 41 00 00 00
 #
-name: KEY_RED
+name: RED
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 48 00 00 00
 #
-name: KEY_GREEN
+name: GREEN
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 49 00 00 00
 #
-name: KEY_YELLOW
+name: YELLOW
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 4A 00 00 00
 #
-name: KEY_BLUE
+name: BLUE
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -205,19 +205,19 @@ protocol: NECext
 address: 01 00 00 00
 command: 4C 00 00 00
 #
-name: KEY_F
+name: F
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 5F 00 00 00
 #
-name: KEY_P
+name: P
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 60 00 00 00
 #
-name: KEY_S
+name: S
 type: parsed
 protocol: NECext
 address: 01 00 00 00

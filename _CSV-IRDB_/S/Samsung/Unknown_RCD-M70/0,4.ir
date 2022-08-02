@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 04 00 00
@@ -13,7 +13,7 @@ protocol: NECext
 address: 00 04 00 00
 command: 02 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 00 04 00 00
@@ -25,19 +25,19 @@ protocol: NECext
 address: 00 04 00 00
 command: 12 00 00 00
 #
-name: KEY_RADIO
+name: RADIO
 type: parsed
 protocol: NECext
 address: 00 04 00 00
 command: 13 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 04 00 00
 command: 20 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 00 04 00 00
@@ -49,13 +49,13 @@ protocol: NECext
 address: 00 04 00 00
 command: 22 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 00 04 00 00
 command: 25 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 04 00 00
@@ -85,7 +85,7 @@ protocol: NECext
 address: 00 04 00 00
 command: 53 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 00 04 00 00

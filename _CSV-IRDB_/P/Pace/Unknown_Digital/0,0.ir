@@ -61,7 +61,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 09 00 00 00
 #
-name: power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 00 00 00

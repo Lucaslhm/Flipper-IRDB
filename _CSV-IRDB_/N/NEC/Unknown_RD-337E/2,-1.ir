@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 02 00 00 00

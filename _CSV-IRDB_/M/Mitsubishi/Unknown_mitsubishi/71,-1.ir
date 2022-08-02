@@ -1,37 +1,37 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 00 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 01 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 02 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 08 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 09 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 47 00 00 00
@@ -43,13 +43,13 @@ protocol: NECext
 address: 47 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 10 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 47 00 00 00
@@ -61,61 +61,61 @@ protocol: NECext
 address: 47 00 00 00
 command: 17 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 18 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 20 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 22 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 28 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 2A 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 30 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 32 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 35 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 47 00 00 00
 command: 38 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 47 00 00 00
@@ -133,7 +133,7 @@ protocol: NECext
 address: 47 00 00 00
 command: 49 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: 47 00 00 00

@@ -4,7 +4,7 @@ Version: 1
 # Standard remote for hotel rooms
 # Lodgenet LRC3220
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 85 7C 00 00
@@ -70,7 +70,7 @@ protocol: NECext
 address: 85 7C 00 00
 command: 9A 65 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: NECext
 address: 85 7C 00 00
@@ -82,7 +82,7 @@ protocol: NECext
 address: 85 7C 00 00
 command: 91 6E 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 85 7C 00 00

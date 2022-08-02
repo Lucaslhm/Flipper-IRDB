@@ -79,7 +79,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 57 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -115,7 +115,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 87 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -127,7 +127,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 89 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -145,7 +145,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 91 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 87 7C 00 00

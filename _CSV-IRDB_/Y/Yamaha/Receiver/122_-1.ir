@@ -607,7 +607,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 10 00 00 00
 #
-name: TUN_PRES/CH_UP
+name: TUN_PRES/CH+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -1669,7 +1669,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 1A 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -1687,7 +1687,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 1A 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -1711,7 +1711,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 1A 00 00 00
 #
-name: MZ:_VOLUME_+
+name: MZ:_VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -1771,7 +1771,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 1B 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -1789,7 +1789,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 1B 00 00 00
 #
-name: VOL_DOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -1813,7 +1813,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 1B 00 00 00
 #
-name: MZ:_VOLUME_-
+name: MZ:_VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -2035,7 +2035,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 1D 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -5233,7 +5233,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 6A 00 00 00
 #
-name: XM:_PRE/CH_UP
+name: XM:_PRE/CH+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -12841,7 +12841,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: DA 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -12859,7 +12859,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: DA 00 00 00
 #
-name: Z2:_VOLUME_+
+name: Z2:_VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -12913,7 +12913,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: DB 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -12931,7 +12931,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: DB 00 00 00
 #
-name: Z2:_VOLUME_-
+name: Z2:_VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -14881,7 +14881,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: FD 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -14893,7 +14893,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: FD 00 00 00
 #
-name: Z3:_VOLUME_+
+name: Z3:_VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -14917,7 +14917,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: FE 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -14929,7 +14929,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: FE 00 00 00
 #
-name: Z3:_VOLUME_-
+name: Z3:_VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00

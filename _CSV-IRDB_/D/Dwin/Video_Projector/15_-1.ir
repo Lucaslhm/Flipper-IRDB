@@ -73,7 +73,7 @@ protocol: NECext
 address: 0F 00 00 00
 command: 2A 00 00 00
 #
-name: OFF/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 0F 00 00 00
@@ -373,7 +373,7 @@ protocol: NECext
 address: 0F 00 00 00
 command: 76 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 0F 00 00 00

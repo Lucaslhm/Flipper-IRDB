@@ -3,7 +3,7 @@ Version: 1
 # 
 # America Lighting LEDs
 # 
-name: On
+POWER
 type: parsed
 protocol: NECext
 address: 00 EF 00 00

@@ -1,235 +1,235 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 41 00 00 00
 #
-name: KEY_AB
+name: AB
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 43 00 00 00
 #
-name: X_KEY_OPENCLOSE
+name: X_OPENCLOSE
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 44 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 45 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 46 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 47 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 48 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 49 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 4A 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 4B 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 4C 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 4D 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 4E 00 00 00
 #
-name: X_KEY_REPEAT
+name: X_REPEAT
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 50 00 00 00
 #
-name: X_KEY_PLUSTEN
+name: X_PLUSTEN
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 51 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 52 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 53 00 00 00
 #
-name: KEY_DISPLAY
+name: DISPLAY
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 55 00 00 00
 #
-name: X_KEY_SEARCHMODE
+name: X_SEARCHMODE
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 57 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 58 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 5B 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 5C 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 5D 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 5E 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 5F 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 60 00 00 00
 #
-name: X_KEY_TOPMENU
+name: X_TOPMENU
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 70 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 71 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 72 00 00 00
 #
-name: X_KEY_RETURN
+name: X_RETURN
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 73 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 74 00 00 00
 #
-name: X_KEY_LEFTARROW
+name: X_LEFTARROW
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 75 00 00 00
 #
-name: X_KEY_RIGHTARROW
+name: X_RIGHTARROW
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 76 00 00 00
 #
-name: X_KEY_UPARROW
+name: X_UPARROW
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 77 00 00 00
 #
-name: X_KEY_DOWNARROW
+name: X_DOWNARROW
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 78 00 00 00
 #
-name: KEY_ANGLE
+name: ANGLE
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 79 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 7A 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 7B 00 00 00
 #
-name: X_KEY_VSURR
+name: X_VSURR
 type: parsed
 protocol: NECext
 address: 87 22 00 00

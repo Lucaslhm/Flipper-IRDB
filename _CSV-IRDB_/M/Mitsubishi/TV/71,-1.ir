@@ -367,7 +367,7 @@ protocol: NECext
 address: 47 00 00 00
 command: 20 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 47 00 00 00
@@ -409,7 +409,7 @@ protocol: NECext
 address: 47 00 00 00
 command: 28 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 47 00 00 00
@@ -655,7 +655,7 @@ protocol: NECext
 address: 47 00 00 00
 command: 41 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 47 00 00 00

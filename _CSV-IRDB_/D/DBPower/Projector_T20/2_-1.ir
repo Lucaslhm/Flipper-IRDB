@@ -7,7 +7,7 @@ protocol: NECext
 address: 02 00 00 00
 command: 01 00 00 00
 #
-name: mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 02 00 00 00
@@ -43,19 +43,19 @@ protocol: NECext
 address: 02 00 00 00
 command: 0D 00 00 00
 #
-name: vol_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 11 00 00 00
 #
-name: vol_down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 15 00 00 00
 #
-name: power_on_off_toggle
+name: POWER_on_off_toggle
 type: parsed
 protocol: NECext
 address: 02 00 00 00

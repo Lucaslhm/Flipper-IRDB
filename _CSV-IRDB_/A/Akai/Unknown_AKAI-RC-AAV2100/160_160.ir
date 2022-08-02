@@ -13,25 +13,25 @@ protocol: NECext
 address: A0 A0 00 00
 command: 02 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
 command: 03 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
 command: 04 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
 command: 05 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
@@ -49,7 +49,7 @@ protocol: NECext
 address: A0 A0 00 00
 command: 09 00 00 00
 #
-name: KEY_DVD
+name: DVD
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: A0 A0 00 00
 command: 0B 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
@@ -79,13 +79,13 @@ protocol: NECext
 address: A0 A0 00 00
 command: 0E 00 00 00
 #
-name: KEY_AUX
+name: AUX
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
 command: 0F 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
@@ -109,7 +109,7 @@ protocol: NECext
 address: A0 A0 00 00
 command: 14 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
@@ -121,7 +121,7 @@ protocol: NECext
 address: A0 A0 00 00
 command: 16 00 00 00
 #
-name: X_KEY_2Ch
+name: X_2Ch
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
@@ -157,19 +157,19 @@ protocol: NECext
 address: A0 A0 00 00
 command: 1E 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
 command: 1F 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: A0 A0 00 00
 command: 60 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: A0 A0 00 00

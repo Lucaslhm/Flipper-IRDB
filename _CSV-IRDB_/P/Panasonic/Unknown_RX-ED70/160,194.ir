@@ -85,13 +85,13 @@ protocol: NECext
 address: A0 C2 00 00
 command: AF 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: B0 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
@@ -103,13 +103,13 @@ protocol: NECext
 address: A0 C2 00 00
 command: B8 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: BC 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: A0 C2 00 00

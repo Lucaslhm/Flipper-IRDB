@@ -1,73 +1,73 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 00 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 01 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 02 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 03 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 04 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 05 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 06 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 07 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 08 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 09 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
@@ -79,31 +79,31 @@ protocol: NECext
 address: 1C 00 00 00
 command: 0E 00 00 00
 #
-name: KEY_I
+name: I
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 10 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 11 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 20 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
@@ -115,79 +115,79 @@ protocol: NECext
 address: 1C 00 00 00
 command: 22 00 00 00
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 29 00 00 00
 #
-name: KEY_EPG
+name: EPG
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 2D 00 00 00
 #
-name: KEY_YELLOW
+name: YELLOW
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 32 00 00 00
 #
-name: KEY_BLUE
+name: BLUE
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 34 00 00 00
 #
-name: KEY_GREEN
+name: GREEN
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 36 00 00 00
 #
-name: KEY_RED
+name: RED
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 37 00 00 00
 #
-name: KEY_EXIT
+name: EXIT
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 3C 00 00 00
 #
-name: KEY_RADIO
+name: RADIO
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 48 00 00 00
 #
-name: KEY_F1
+name: F1
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 5C 00 00 00
 #
-name: KEY_F2
+name: F2
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 5D 00 00 00
 #
-name: KEY_F3
+name: F3
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 5E 00 00 00
 #
-name: KEY_F4
+name: F4
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 5F 00 00 00
 #
-name: KEY_LIST
+name: LIST
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
@@ -205,7 +205,7 @@ protocol: NECext
 address: 1C 00 00 00
 command: 74 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 1C 00 00 00

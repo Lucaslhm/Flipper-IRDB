@@ -139,7 +139,7 @@ protocol: NECext
 address: 15 00 00 00
 command: 16 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 15 00 00 00

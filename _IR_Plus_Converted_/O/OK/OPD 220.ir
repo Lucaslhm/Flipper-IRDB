@@ -9,7 +9,7 @@ protocol: NECext
 address: FE 01 00 00
 command: 3F C0 00 00
 #
-name: Mute
+name: MUTE
 protocol: NECext
 address: FE 01 00 00
 command: C5 3A 00 00
