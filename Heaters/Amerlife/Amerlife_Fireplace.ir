@@ -3,7 +3,7 @@ Version: 1
 # 
 # Amerlife Fireplace TV Stand
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: AB CD 00 00

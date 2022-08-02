@@ -67,7 +67,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 0C 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -79,7 +79,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 11 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 10 00 00 00

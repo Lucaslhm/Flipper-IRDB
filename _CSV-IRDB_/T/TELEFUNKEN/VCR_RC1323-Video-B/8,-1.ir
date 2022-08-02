@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 00 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 01 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 02 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 08 00 00 00
@@ -31,13 +31,13 @@ protocol: NECext
 address: 08 00 00 00
 command: 06 00 00 00
 #
-name: KEY_YELLOW
+name: YELLOW
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 07 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 08 00 00 00
@@ -55,25 +55,25 @@ protocol: NECext
 address: 08 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 10 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 11 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 12 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 08 00 00 00
@@ -85,7 +85,7 @@ protocol: NECext
 address: 08 00 00 00
 command: 15 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 08 00 00 00
@@ -103,25 +103,25 @@ protocol: NECext
 address: 08 00 00 00
 command: 1F 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 20 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 21 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 22 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 08 00 00 00
@@ -133,7 +133,7 @@ protocol: NECext
 address: 08 00 00 00
 command: 25 00 00 00
 #
-name: KEY_RED
+name: RED
 type: parsed
 protocol: NECext
 address: 08 00 00 00
@@ -145,7 +145,7 @@ protocol: NECext
 address: 08 00 00 00
 command: 28 00 00 00
 #
-name: KEY_BLUE
+name: BLUE
 type: parsed
 protocol: NECext
 address: 08 00 00 00
@@ -169,7 +169,7 @@ protocol: NECext
 address: 08 00 00 00
 command: 2F 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 08 00 00 00
@@ -181,13 +181,13 @@ protocol: NECext
 address: 08 00 00 00
 command: 35 00 00 00
 #
-name: KEY_GREEN
+name: GREEN
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 37 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 08 00 00 00

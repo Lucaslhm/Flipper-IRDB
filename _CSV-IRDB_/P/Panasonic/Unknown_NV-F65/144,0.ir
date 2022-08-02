@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 90 00 00 00
@@ -13,7 +13,7 @@ protocol: NECext
 address: 90 00 00 00
 command: 06 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 90 00 00 00
@@ -31,73 +31,73 @@ protocol: NECext
 address: 90 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_SEARCH
+name: SEARCH
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 10 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 11 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 12 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 13 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 14 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 15 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 16 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 17 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 18 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 19 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 90 00 00 00
@@ -133,19 +133,19 @@ protocol: NECext
 address: 90 00 00 00
 command: 54 00 00 00
 #
-name: KEY_TIME
+name: TIME
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 56 00 00 00
 #
-name: KEY_KPPLUS
+name: KPPLUS
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: 8E 00 00 00
 #
-name: KEY_KPMINUS
+name: KPMINUS
 type: parsed
 protocol: NECext
 address: 90 00 00 00
@@ -157,7 +157,7 @@ protocol: NECext
 address: 90 00 00 00
 command: 91 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 90 00 00 00
@@ -169,13 +169,13 @@ protocol: NECext
 address: 90 00 00 00
 command: F1 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 90 00 00 00
 command: F2 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 90 00 00 00

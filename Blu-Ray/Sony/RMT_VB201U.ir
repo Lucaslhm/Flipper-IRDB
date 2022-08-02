@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: SIRC20
 address: 5A 1C 00 00
 command: 15 00 00 00
 # 
-name: TV_Power
+name: TV_POWER
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

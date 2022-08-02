@@ -3,7 +3,7 @@ Version: 1
 # 
 # GE Window AC
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 98 6F 00 00

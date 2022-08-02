@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -13,19 +13,19 @@ protocol: NECext
 address: C1 44 00 00
 command: 29 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 3E 00 00 00
 #
-name: KEY_OPTION
+name: OPTION
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 41 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -37,19 +37,19 @@ protocol: NECext
 address: C1 44 00 00
 command: 49 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 4E 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 5E 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -61,13 +61,13 @@ protocol: NECext
 address: C1 44 00 00
 command: 76 00 00 00
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: 81 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -85,7 +85,7 @@ protocol: NECext
 address: C1 44 00 00
 command: 8E 00 00 00
 #
-name: KEY_PLAYPAUSE
+name: PLAYPAUSE
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -103,13 +103,13 @@ protocol: NECext
 address: C1 44 00 00
 command: A9 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: B1 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: C1 44 00 00
@@ -121,25 +121,25 @@ protocol: NECext
 address: C1 44 00 00
 command: C9 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: CE 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: D6 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: C1 44 00 00
 command: DE 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: C1 44 00 00

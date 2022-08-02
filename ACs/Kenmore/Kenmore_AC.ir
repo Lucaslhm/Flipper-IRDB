@@ -3,7 +3,7 @@ Version: 1
 # 
 # Kenmore Window AC
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 08 F5 00 00
@@ -63,7 +63,7 @@ protocol: NECext
 address: 08 F5 00 00
 command: 07 F8 00 00
 # 
-name: Power Saver
+name: POWER Saver
 type: parsed
 protocol: NECext
 address: 08 F5 00 00

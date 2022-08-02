@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: STANDBY/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 78 00 00 00
@@ -79,13 +79,13 @@ protocol: NECext
 address: 78 00 00 00
 command: 1C 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 78 00 00 00
 command: 1E 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 78 00 00 00

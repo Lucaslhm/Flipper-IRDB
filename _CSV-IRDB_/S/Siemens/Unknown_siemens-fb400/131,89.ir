@@ -7,7 +7,7 @@ protocol: NECext
 address: 83 59 00 00
 command: 00 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -19,19 +19,19 @@ protocol: NECext
 address: 83 59 00 00
 command: 03 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 07 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 08 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -43,7 +43,7 @@ protocol: NECext
 address: 83 59 00 00
 command: 0A 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -55,55 +55,55 @@ protocol: NECext
 address: 83 59 00 00
 command: 0E 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 0F 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 11 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 12 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 14 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 15 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 16 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 17 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 18 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -115,13 +115,13 @@ protocol: NECext
 address: 83 59 00 00
 command: 1A 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 1B 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -133,7 +133,7 @@ protocol: NECext
 address: 83 59 00 00
 command: 1E 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -169,7 +169,7 @@ protocol: NECext
 address: 83 59 00 00
 command: 46 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -181,13 +181,13 @@ protocol: NECext
 address: 83 59 00 00
 command: 4A 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 4C 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -199,19 +199,19 @@ protocol: NECext
 address: 83 59 00 00
 command: 4E 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 50 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: 83 59 00 00
 command: 51 00 00 00
 #
-name: KEY_BACK
+name: BACK
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -223,7 +223,7 @@ protocol: NECext
 address: 83 59 00 00
 command: 54 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 83 59 00 00
@@ -241,7 +241,7 @@ protocol: NECext
 address: 83 59 00 00
 command: 59 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 83 59 00 00

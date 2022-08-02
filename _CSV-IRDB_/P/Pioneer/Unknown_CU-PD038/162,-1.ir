@@ -61,13 +61,13 @@ protocol: NECext
 address: A2 00 00 00
 command: 09 00 00 00
 #
-name: KEY_KPPLUS
+name: KPPLUS
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 0A 00 00 00
 #
-name: KEY_KPMINUS
+name: KPMINUS
 type: parsed
 protocol: NECext
 address: A2 00 00 00
@@ -79,43 +79,43 @@ protocol: NECext
 address: A2 00 00 00
 command: 0D 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 0E 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 10 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 11 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 16 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 17 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: A2 00 00 00
@@ -127,7 +127,7 @@ protocol: NECext
 address: A2 00 00 00
 command: 4A 00 00 00
 #
-name: KEY_EDIT
+name: EDIT
 type: parsed
 protocol: NECext
 address: A2 00 00 00

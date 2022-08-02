@@ -3,7 +3,7 @@ Version: 1
 # 
 # Haier HPD10XCM-LW 10,000-BTU Room Portable Air Conditioner
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 20 00 00 00

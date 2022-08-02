@@ -439,13 +439,13 @@ protocol: NECext
 address: 10 00 00 00
 command: 0E 00 00 00
 #
-name: VOLUME_+_A
+name: VOL+_A
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 10 00 00 00
 #
-name: VOLUME_+_B
+name: VOL+_B
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -463,7 +463,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 10 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -475,13 +475,13 @@ protocol: NECext
 address: 10 00 00 00
 command: 10 00 00 00
 #
-name: VOLUME_-_A
+name: VOL-_A
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 11 00 00 00
 #
-name: VOLUME_-_B
+name: VOL-_B
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -499,7 +499,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 11 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -1183,7 +1183,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 78 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 10 00 00 00

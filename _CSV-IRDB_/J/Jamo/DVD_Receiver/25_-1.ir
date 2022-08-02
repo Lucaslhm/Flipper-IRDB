@@ -133,13 +133,13 @@ protocol: NECext
 address: 19 00 00 00
 command: 0C 00 00 00
 #
-name: VOLUME_+_A
+name: VOL+_A
 type: parsed
 protocol: NECext
 address: 19 00 00 00
 command: 11 00 00 00
 #
-name: VOLUME_+_B
+name: VOL+_B
 type: parsed
 protocol: NECext
 address: 19 00 00 00
@@ -253,13 +253,13 @@ protocol: NECext
 address: 19 00 00 00
 command: 49 00 00 00
 #
-name: VOLUME_-_A
+name: VOL-_A
 type: parsed
 protocol: NECext
 address: 19 00 00 00
 command: 4C 00 00 00
 #
-name: VOLUME_-_B
+name: VOL-_B
 type: parsed
 protocol: NECext
 address: 19 00 00 00

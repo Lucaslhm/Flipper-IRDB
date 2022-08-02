@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 81 66 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: 81 66 00 00
 command: 99 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: 81 66 00 00

@@ -7,7 +7,7 @@ protocol: NECext
 address: 3B 4C 00 00
 command: 01 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 3B 4C 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: 3B 4C 00 00
 command: 23 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 3B 4C 00 00

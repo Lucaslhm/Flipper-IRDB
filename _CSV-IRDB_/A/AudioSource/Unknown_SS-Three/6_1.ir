@@ -73,19 +73,19 @@ protocol: NECext
 address: 06 00 00 00
 command: 22 00 00 00
 #
-name: vol+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 06 01 00 00
 command: 40 00 00 00
 #
-name: power
+name: POWER
 type: parsed
 protocol: NECext
 address: 06 00 00 00
 command: 41 00 00 00
 #
-name: vol-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 06 01 00 00

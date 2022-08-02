@@ -109,7 +109,7 @@ protocol: NECext
 address: F3 00 00 00
 command: AA 00 00 00
 #
-name: KEY_LOCK
+name: LOCK
 type: parsed
 protocol: NECext
 address: F3 00 00 00

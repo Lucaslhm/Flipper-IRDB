@@ -3,7 +3,7 @@ Version: 1
 # 
 # Dynex EN-21669D TV
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 86 05 00 00
@@ -15,7 +15,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 1D E2 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 86 05 00 00
@@ -165,19 +165,19 @@ protocol: NECext
 address: 86 05 00 00
 command: 18 E7 00 00
 # 
-name: Vol_Up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 0C F3 00 00
 # 
-name: Vol_Down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 0D F2 00 00
 # 
-name: Ch_Up
+name: CH+
 type: parsed
 protocol: NECext
 address: 86 05 00 00

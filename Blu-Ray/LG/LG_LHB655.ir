@@ -3,7 +3,7 @@ Version: 1
 # 
 # LG Blueray LHB655
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: Samsung32
 address: 2C 00 00 00
@@ -153,7 +153,7 @@ protocol: Samsung32
 address: 2C 00 00 00
 command: B6 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: Samsung32
 address: 2C 00 00 00

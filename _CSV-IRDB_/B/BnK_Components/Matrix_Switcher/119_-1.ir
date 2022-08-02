@@ -115,7 +115,7 @@ protocol: NECext
 address: 77 00 00 00
 command: 1C 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 77 00 00 00
@@ -127,7 +127,7 @@ protocol: NECext
 address: 77 00 00 00
 command: 23 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 77 00 00 00

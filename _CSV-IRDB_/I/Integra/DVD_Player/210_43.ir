@@ -13,7 +13,7 @@ protocol: NECext
 address: D2 2B 00 00
 command: 04 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: D2 2B 00 00
@@ -931,7 +931,7 @@ protocol: NECext
 address: D2 2B 00 00
 command: 99 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: D2 2B 00 00

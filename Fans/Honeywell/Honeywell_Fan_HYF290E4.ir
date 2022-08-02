@@ -3,7 +3,7 @@ Version: 1
 # 
 # Honeywell HYF290E4 Fan
 # 
-name: Power
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

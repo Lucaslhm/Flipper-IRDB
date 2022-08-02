@@ -43,13 +43,13 @@ protocol: NECext
 address: 7A 00 00 00
 command: 18 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 1A 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00

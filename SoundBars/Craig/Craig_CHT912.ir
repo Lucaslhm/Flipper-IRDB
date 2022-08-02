@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: PowerToggle
+name: POWERToggle
 type: parsed
 protocol: NEC
 address: 20 00 00 00
@@ -13,7 +13,7 @@ protocol: NEC
 address: 20 00 00 00
 command: 02 00 00 00
 # 
-name: VolumeDown
+name: VOL-
 type: parsed
 protocol: NEC
 address: 20 00 00 00

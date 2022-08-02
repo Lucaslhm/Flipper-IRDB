@@ -3,7 +3,7 @@ Version: 1
 # 
 # Osram 24 Button LED Remote
 #
-name: On
+POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

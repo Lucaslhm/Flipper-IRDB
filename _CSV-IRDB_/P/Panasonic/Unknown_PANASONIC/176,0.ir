@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 00 00 00 00
 #
-name: KEY_OPEN
+name: OPEN
 type: parsed
 protocol: NECext
 address: B0 00 00 00
@@ -25,13 +25,13 @@ protocol: NECext
 address: B0 00 00 00
 command: 05 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 06 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: B0 00 00 00
@@ -67,43 +67,43 @@ protocol: NECext
 address: B0 00 00 00
 command: 14 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 15 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 16 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 17 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 18 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 19 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 33 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: B0 00 00 00
@@ -139,25 +139,25 @@ protocol: NECext
 address: B0 00 00 00
 command: 4D 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 80 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 81 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 82 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: B0 00 00 00
@@ -193,7 +193,7 @@ protocol: NECext
 address: B0 00 00 00
 command: 88 00 00 00
 #
-name: X_KEY_0+
+name: X_0+
 type: parsed
 protocol: NECext
 address: B0 00 00 00
@@ -211,19 +211,19 @@ protocol: NECext
 address: B0 00 00 00
 command: 8B 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 8C 00 00 00
 #
-name: KEY_ANGLE
+name: ANGLE
 type: parsed
 protocol: NECext
 address: B0 00 00 00
 command: 90 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: B0 00 00 00
@@ -235,7 +235,7 @@ protocol: NECext
 address: B0 00 00 00
 command: 92 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: B0 00 00 00
@@ -289,7 +289,7 @@ protocol: NECext
 address: B0 00 00 00
 command: D5 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: B0 00 00 00

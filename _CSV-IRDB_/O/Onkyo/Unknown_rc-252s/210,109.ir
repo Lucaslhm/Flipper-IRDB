@@ -13,19 +13,19 @@ protocol: NECext
 address: D2 6D 00 00
 command: 01 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 02 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 03 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -235,7 +235,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 5C 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: D2 6D 00 00

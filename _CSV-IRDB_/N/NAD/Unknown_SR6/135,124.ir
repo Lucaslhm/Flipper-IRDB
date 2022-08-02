@@ -121,7 +121,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 16 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 35 00 00 00
 #
-name: tuner-fm-mute
+name: tuner-fm-MUTE
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -169,13 +169,13 @@ protocol: NECext
 address: 87 7C 00 00
 command: 4D 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 85 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -199,7 +199,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 8B 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -241,7 +241,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 93 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -265,25 +265,25 @@ protocol: NECext
 address: 87 7C 00 00
 command: 98 00 00 00
 #
-name: KEY_AUX
+name: AUX
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 9B 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: C0 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: C1 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -343,7 +343,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: D4 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: 87 7C 00 00

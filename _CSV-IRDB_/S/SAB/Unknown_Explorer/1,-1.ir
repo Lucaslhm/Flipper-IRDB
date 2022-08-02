@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -25,7 +25,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 18 00 00 00
 #
-name: KEY_EPG
+name: EPG
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -37,7 +37,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 1B 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -61,13 +61,13 @@ protocol: NECext
 address: 01 00 00 00
 command: 41 00 00 00
 #
-name: KEY_BACK
+name: BACK
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 42 00 00 00
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -85,7 +85,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 49 00 00 00
 #
-name: KEY_EXIT
+name: EXIT
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -109,7 +109,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 56 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 5E 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 00 00 00

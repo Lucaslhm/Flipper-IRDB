@@ -19,19 +19,19 @@ protocol: NECext
 address: 84 00 00 00
 command: 11 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 12 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 13 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 84 00 00 00
@@ -55,25 +55,25 @@ protocol: NECext
 address: 84 00 00 00
 command: 28 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 30 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 31 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: 84 00 00 00
 command: 37 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 84 00 00 00

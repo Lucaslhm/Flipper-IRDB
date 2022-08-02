@@ -4,7 +4,7 @@ Version: 1
 # artika Europa 21 in Chrome LED Lighting
 # Model #CL-ERR-HD2
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 EF 00 00

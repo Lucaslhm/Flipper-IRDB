@@ -67,13 +67,13 @@ protocol: NECext
 address: 38 00 00 00
 command: 0A 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 38 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 38 00 00 00
@@ -97,19 +97,19 @@ protocol: NECext
 address: 38 00 00 00
 command: 15 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 38 00 00 00
 command: 16 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 38 00 00 00
 command: 17 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 38 00 00 00
@@ -127,7 +127,7 @@ protocol: NECext
 address: 38 00 00 00
 command: 1A 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 38 00 00 00
@@ -151,13 +151,13 @@ protocol: NECext
 address: 38 00 00 00
 command: 46 00 00 00
 #
-name: KEY_RED
+name: RED
 type: parsed
 protocol: NECext
 address: 38 00 00 00
 command: 49 00 00 00
 #
-name: KEY_GREEN
+name: GREEN
 type: parsed
 protocol: NECext
 address: 38 00 00 00

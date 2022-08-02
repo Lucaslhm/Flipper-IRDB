@@ -39,7 +39,7 @@ Lastly, it's helpful to add further information as a comment directly into the I
 `#`<br>
 `# Dynex EN-21669D TV` <---<br>
 `#`<br>
-`name: Power`<br>
+`name: POWER`<br>
 
 Make, model, link, or even a short description can be helpful if the name is changed or just in general!
 

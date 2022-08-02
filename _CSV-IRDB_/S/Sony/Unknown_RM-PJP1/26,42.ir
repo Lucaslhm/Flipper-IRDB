@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 1A 2A 00 00
 command: 7B 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 1A 2A 00 00
 command: 7C 00 00 00
 #
-name: KEY_B
+name: B
 type: parsed
 protocol: NECext
 address: 1A 2A 00 00

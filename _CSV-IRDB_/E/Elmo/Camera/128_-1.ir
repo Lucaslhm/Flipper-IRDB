@@ -19,7 +19,7 @@ protocol: NECext
 address: 80 00 00 00
 command: 02 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 80 00 00 00

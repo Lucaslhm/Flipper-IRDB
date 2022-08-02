@@ -295,7 +295,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 9A 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -307,7 +307,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 9B 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: B8 00 00 00

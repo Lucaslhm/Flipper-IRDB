@@ -4,7 +4,7 @@ Version: 1
 # Corlitec Portable AC
 # 'Corlitec' is rebadge, the same unit is sold under a dozen brand names
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 10 E7 00 00

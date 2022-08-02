@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 46 B9 00 00
 # 
-name: V_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0C F3 00 00
 # 
-name: V_dwn
+name: VOL-
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -55,7 +55,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 0D F2 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -73,13 +73,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 45 BA 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0F F0 00 00
 # 
-name: Ch_dwn
+name: CH-
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

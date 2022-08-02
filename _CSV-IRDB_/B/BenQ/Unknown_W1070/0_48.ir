@@ -25,37 +25,37 @@ protocol: NECext
 address: 00 30 00 00
 command: 08 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0B 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0C 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0D 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0E 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 0F 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 00 30 00 00
@@ -73,7 +73,7 @@ protocol: NECext
 address: 00 30 00 00
 command: 13 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 30 00 00
@@ -97,7 +97,7 @@ protocol: NECext
 address: 00 30 00 00
 command: 41 00 00 00
 #
-name: KEY_SUSPEND
+name: SUSPEND
 type: parsed
 protocol: NECext
 address: 00 30 00 00
@@ -109,13 +109,13 @@ protocol: NECext
 address: 00 30 00 00
 command: 4E 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 30 00 00
 command: 4F 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 00 30 00 00

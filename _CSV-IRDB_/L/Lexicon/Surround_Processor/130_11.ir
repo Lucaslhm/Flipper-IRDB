@@ -355,31 +355,31 @@ protocol: NECext
 address: 82 0B 00 00
 command: 15 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 16 00 00 00
 #
-name: MAIN:_VOLUME_-1DB
+name: MAIN:_VOL-1DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 16 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 17 00 00 00
 #
-name: MAIN:_VOLUME_+1DB
+name: MAIN:_VOL+1DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 17 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
@@ -811,25 +811,25 @@ protocol: NECext
 address: 82 0B 00 00
 command: 55 00 00 00
 #
-name: Z-2_VOLUME_-
+name: Z-2_VOL-
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 56 00 00 00
 #
-name: ZONE:_VOLUME_-1DB
+name: ZONE:_VOL-1DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 56 00 00 00
 #
-name: Z-2_VOLUME_+
+name: Z-2_VOL+
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 57 00 00 00
 #
-name: ZONE:_VOLUME_+1DB
+name: ZONE:_VOL+1DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
@@ -1243,13 +1243,13 @@ protocol: NECext
 address: 82 0B 00 00
 command: 96 00 00 00
 #
-name: VOLUME_-5_DB
+name: VOL-5_DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 96 00 00 00
 #
-name: MAIN:_VOLUME_-3DB
+name: MAIN:_VOL-3DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
@@ -1261,13 +1261,13 @@ protocol: NECext
 address: 82 0B 00 00
 command: 97 00 00 00
 #
-name: VOLUME_+5_DB
+name: VOL+5_DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: 97 00 00 00
 #
-name: MAIN:_VOLUME_+3DB
+name: MAIN:_VOL+3DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
@@ -1507,13 +1507,13 @@ protocol: NECext
 address: 82 0B 00 00
 command: D5 00 00 00
 #
-name: REC:_VOLUME_-1DB
+name: REC:_VOL-1DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00
 command: D6 00 00 00
 #
-name: REC:_VOLUME_+1DB
+name: REC:_VOL+1DB
 type: parsed
 protocol: NECext
 address: 82 0B 00 00

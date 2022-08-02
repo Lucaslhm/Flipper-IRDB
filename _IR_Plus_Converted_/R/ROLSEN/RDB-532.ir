@@ -94,7 +94,7 @@ protocol: NECext
 address: FF 00 00 00
 command: 5F A0 00 00
 #
-name: vol-
+name: VOL-
 protocol: NECext
 address: FF 00 00 00
 command: 25 DA 00 00
@@ -104,7 +104,7 @@ protocol: NECext
 address: FF 00 00 00
 command: A7 58 00 00
 #
-name: vol+
+name: VOL+
 protocol: NECext
 address: FF 00 00 00
 command: 27 D8 00 00

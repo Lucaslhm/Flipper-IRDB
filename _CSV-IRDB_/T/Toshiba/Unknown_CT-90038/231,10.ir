@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
@@ -13,25 +13,25 @@ protocol: NECext
 address: E7 0A 00 00
 command: 0D 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 11 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 12 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 13 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
@@ -49,31 +49,31 @@ protocol: NECext
 address: E7 0A 00 00
 command: 1F 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 40 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 41 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 42 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
 command: 43 00 00 00
 #
-name: KEY_KPPLUS
+name: KPPLUS
 type: parsed
 protocol: NECext
 address: E7 0A 00 00
@@ -85,7 +85,7 @@ protocol: NECext
 address: E7 0A 00 00
 command: 45 00 00 00
 #
-name: KEY_KPMINUS
+name: KPMINUS
 type: parsed
 protocol: NECext
 address: E7 0A 00 00

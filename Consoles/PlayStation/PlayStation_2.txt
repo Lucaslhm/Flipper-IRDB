@@ -4,7 +4,7 @@ Version: 1
 # PlayStation 2 Multimedia Remote
 # Works directly with PS2 Slim (certain fat models need IR adapter) 
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: SIRC20
 address: 5A 1B 00 00

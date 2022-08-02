@@ -9,7 +9,7 @@ protocol: NECext
 address: FF 00 00 00
 command: 87 78 00 00
 #
-name: ON
+POWER
 protocol: NECext
 address: FF 00 00 00
 command: 07 F8 00 00

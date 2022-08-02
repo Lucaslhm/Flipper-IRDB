@@ -1,31 +1,31 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 57 00 00 00
 command: 02 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 57 00 00 00
 command: 04 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 57 00 00 00
 command: 0A 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 57 00 00 00
 command: 0B 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -49,7 +49,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 13 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -79,7 +79,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 16 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -91,7 +91,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 1B 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 1F 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -121,19 +121,19 @@ protocol: NECext
 address: 57 00 00 00
 command: 2B 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 57 00 00 00
 command: 2C 00 00 00
 #
-name: KEY_SELECT
+name: SELECT
 type: parsed
 protocol: NECext
 address: 57 00 00 00
 command: 33 00 00 00
 #
-name: KEY_SLOW
+name: SLOW
 type: parsed
 protocol: NECext
 address: 57 00 00 00

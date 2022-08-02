@@ -13,7 +13,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 01 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

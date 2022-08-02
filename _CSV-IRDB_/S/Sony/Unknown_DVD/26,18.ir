@@ -61,37 +61,37 @@ protocol: NECext
 address: 1A 12 00 00
 command: 09 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
 command: 0B 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
 command: 0E 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
 command: 0F 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
 command: 15 00 00 00
 #
-name: KEY_TITLE
+name: TITLE
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
 command: 1A 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
@@ -121,7 +121,7 @@ protocol: NECext
 address: 1A 12 00 00
 command: 28 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 1A 12 00 00
 command: 31 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
@@ -151,13 +151,13 @@ protocol: NECext
 address: 1A 12 00 00
 command: 35 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
 command: 38 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
@@ -169,19 +169,19 @@ protocol: NECext
 address: 1A 12 00 00
 command: 54 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
 command: 63 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 1A 12 00 00
 command: 64 00 00 00
 #
-name: KEY_ANGLE
+name: ANGLE
 type: parsed
 protocol: NECext
 address: 1A 12 00 00

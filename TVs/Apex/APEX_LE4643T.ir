@@ -63,7 +63,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 1A E5 00 00
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

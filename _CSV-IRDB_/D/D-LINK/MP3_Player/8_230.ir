@@ -145,7 +145,7 @@ protocol: NECext
 address: 08 E6 00 00
 command: 4A 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 08 E6 00 00

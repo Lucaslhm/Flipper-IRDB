@@ -13,19 +13,19 @@ protocol: NECext
 address: 00 00 00 00
 command: 01 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 04 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 05 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -37,7 +37,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 08 00 00 00
 #
-name: KEY_BACK
+name: BACK
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -55,7 +55,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 0C 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 00 00 00 00

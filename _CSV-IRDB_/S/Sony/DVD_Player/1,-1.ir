@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 12 00 00 00
 #
-name: VOL_DOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 01 00 00 00

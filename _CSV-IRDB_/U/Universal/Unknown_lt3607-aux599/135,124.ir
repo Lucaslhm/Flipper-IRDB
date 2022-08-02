@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 01 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 02 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -31,13 +31,13 @@ protocol: NECext
 address: 87 7C 00 00
 command: 06 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 07 00 00 00
 #
-name: KEY_TEXT
+name: TEXT
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -49,91 +49,91 @@ protocol: NECext
 address: 87 7C 00 00
 command: 85 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 88 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 8A 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 8B 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 8C 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 8E 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 8F 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 92 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 93 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 94 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 96 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 97 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 98 00 00 00
 #
-name: KEY_102ND
+name: 102ND
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: C5 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: C7 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 87 7C 00 00

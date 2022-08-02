@@ -19,7 +19,7 @@ protocol: NECext
 address: FE 00 00 00
 command: 5D A2 00 00
 #
-name: TIMER ON/OFF
+name: TIMER POWER
 protocol: NECext
 address: FE 00 00 00
 command: 65 9A 00 00

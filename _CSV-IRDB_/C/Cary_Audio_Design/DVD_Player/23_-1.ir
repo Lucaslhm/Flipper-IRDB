@@ -199,13 +199,13 @@ protocol: NECext
 address: 17 00 00 00
 command: 22 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 17 00 00 00
 command: 23 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 17 00 00 00

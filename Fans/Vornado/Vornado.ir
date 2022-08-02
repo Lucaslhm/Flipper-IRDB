@@ -4,7 +4,7 @@ Version: 1
 # Vornado 184 Tower Fan
 # https://a.co/d/3xtrJK9
 # 
-name: Power
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

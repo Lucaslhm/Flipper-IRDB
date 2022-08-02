@@ -73,7 +73,7 @@ protocol: NECext
 address: 87 45 00 00
 command: 16 00 00 00
 #
-name: STANDBY/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 87 45 00 00
@@ -235,7 +235,7 @@ protocol: NECext
 address: 87 45 00 00
 command: 41 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 87 45 00 00
@@ -247,7 +247,7 @@ protocol: NECext
 address: 87 45 00 00
 command: 50 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 87 45 00 00
@@ -277,7 +277,7 @@ protocol: NECext
 address: 87 45 00 00
 command: 53 00 00 00
 #
-name: VOLUME
+name: VOL+
 type: parsed
 protocol: NECext
 address: 87 45 00 00

@@ -49,13 +49,13 @@ protocol: NECext
 address: 18 E9 00 00
 command: 47 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 48 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 18 E9 00 00

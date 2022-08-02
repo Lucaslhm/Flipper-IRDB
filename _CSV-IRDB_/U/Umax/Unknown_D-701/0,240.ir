@@ -7,7 +7,7 @@ protocol: NECext
 address: 00 F0 00 00
 command: 01 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
@@ -19,19 +19,19 @@ protocol: NECext
 address: 00 F0 00 00
 command: 06 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
 command: 07 00 00 00
 #
-name: KEY_AUX
+name: AUX
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
 command: 09 00 00 00
 #
-name: KEY_MAX
+name: MAX
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
@@ -43,7 +43,7 @@ protocol: NECext
 address: 00 F0 00 00
 command: 0B 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
@@ -61,13 +61,13 @@ protocol: NECext
 address: 00 F0 00 00
 command: 0E 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
 command: 0F 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
@@ -85,13 +85,13 @@ protocol: NECext
 address: 00 F0 00 00
 command: 12 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
 command: 13 00 00 00
 #
-name: KEY_2ch-out
+name: 2ch-out
 type: parsed
 protocol: NECext
 address: 00 F0 00 00
@@ -121,7 +121,7 @@ protocol: NECext
 address: 00 F0 00 00
 command: 1B 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: 00 F0 00 00

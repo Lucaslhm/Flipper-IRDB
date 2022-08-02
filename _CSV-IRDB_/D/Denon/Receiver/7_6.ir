@@ -7,7 +7,7 @@ protocol: NECext
 address: 07 06 00 00
 command: 02 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 07 06 00 00
@@ -337,13 +337,13 @@ protocol: NECext
 address: 07 06 00 00
 command: 103 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 07 06 00 00
 command: 110 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 07 06 00 00

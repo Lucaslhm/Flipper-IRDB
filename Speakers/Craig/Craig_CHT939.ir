@@ -3,7 +3,7 @@ Version: 1
 # 
 # Craig Electronics Speaker CHT939
 # 
-name: PowerToggle
+name: POWERToggle
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -15,7 +15,7 @@ protocol: NEC
 address: 00 00 00 00
 command: 1F 00 00 00
 # 
-name: VolumeDown
+name: VOL-
 type: parsed
 protocol: NEC
 address: 00 00 00 00

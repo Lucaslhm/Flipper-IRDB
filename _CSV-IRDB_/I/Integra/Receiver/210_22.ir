@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: Z3_VOLUME_+_(2)
+name: Z3_VOL+_(2)
 type: parsed
 protocol: NECext
 address: D2 16 00 00
 command: 42 00 00 00
 #
-name: Z3_VOLUME_-_(2)
+name: Z3_VOL-_(2)
 type: parsed
 protocol: NECext
 address: D2 16 00 00
@@ -91,7 +91,7 @@ protocol: NECext
 address: D2 16 00 00
 command: CB 00 00 00
 #
-name: STANDBY/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: D2 16 00 00

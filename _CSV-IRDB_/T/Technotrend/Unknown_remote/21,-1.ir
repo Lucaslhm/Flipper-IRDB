@@ -139,55 +139,55 @@ protocol: NECext
 address: 15 00 00 00
 command: 18 00 00 00
 #
-name: KEY_TEXT
+name: TEXT
 type: parsed
 protocol: NECext
 address: 15 00 00 00
 command: 19 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 15 00 00 00
 command: 1A 00 00 00
 #
-name: KEY_OPTION
+name: OPTION
 type: parsed
 protocol: NECext
 address: 15 00 00 00
 command: 21 00 00 00
 #
-name: KEY_EPG
+name: EPG
 type: parsed
 protocol: NECext
 address: 15 00 00 00
 command: 22 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 15 00 00 00
 command: 23 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 15 00 00 00
 command: 24 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 15 00 00 00
 command: 25 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 15 00 00 00
 command: 26 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: 15 00 00 00

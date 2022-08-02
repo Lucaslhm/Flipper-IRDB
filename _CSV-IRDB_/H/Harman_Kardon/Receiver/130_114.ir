@@ -601,7 +601,7 @@ protocol: NECext
 address: 82 72 00 00
 command: 57 00 00 00
 #
-name: CHAN_DOWN
+name: CH-
 type: parsed
 protocol: NECext
 address: 82 72 00 00

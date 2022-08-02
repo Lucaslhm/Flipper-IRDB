@@ -187,7 +187,7 @@ protocol: NECext
 address: D2 2C 00 00
 command: 5F 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: D2 2C 00 00

@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_ESC
+name: ESC
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 84 00 00 00
 #
-name: KEY_SELECT
+name: SELECT
 type: parsed
 protocol: NECext
 address: 83 55 00 00
@@ -31,31 +31,31 @@ protocol: NECext
 address: 83 55 00 00
 command: 8F 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 90 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 92 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 93 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 9A 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 83 55 00 00
@@ -73,25 +73,25 @@ protocol: NECext
 address: 83 55 00 00
 command: 9E 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: B0 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: B1 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: B2 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 83 55 00 00

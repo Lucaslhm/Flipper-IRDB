@@ -151,7 +151,7 @@ frequency: 38381
 duty_cycle: 0.330000
 data: 4429 4429 547 547 547 95751
 #
-name: tv_power
+name: tv_POWER
 type: raw
 frequency: 38381
 duty_cycle: 0.330000

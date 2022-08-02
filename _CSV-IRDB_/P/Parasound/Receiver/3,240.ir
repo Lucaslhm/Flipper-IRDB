@@ -61,19 +61,19 @@ protocol: NECext
 address: 03 F0 00 00
 command: 89 00 00 00
 #
-name: ON/OFF
+name: POWER
 type: parsed
 protocol: NECext
 address: 03 F0 00 00
 command: 8A 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 F0 00 00
 command: 8D 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 F0 00 00
@@ -169,7 +169,7 @@ protocol: NECext
 address: 03 F0 00 00
 command: 9F 00 00 00
 #
-name: ON
+POWER
 type: parsed
 protocol: NECext
 address: 03 F0 00 00
@@ -181,13 +181,13 @@ protocol: NECext
 address: 03 F0 00 00
 command: C1 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 F0 00 00
 command: C2 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 F0 00 00

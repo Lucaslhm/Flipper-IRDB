@@ -193,25 +193,25 @@ protocol: NECext
 address: 04 0F 00 00
 command: 0F 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 04 0F 00 00
 command: 10 00 00 00
 #
-name: VOLUME_+_B
+name: VOL+_B
 type: parsed
 protocol: NECext
 address: 04 0F 00 00
 command: 10 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 04 0F 00 00
 command: 11 00 00 00
 #
-name: VOLUME_-_B
+name: VOL-_B
 type: parsed
 protocol: NECext
 address: 04 0F 00 00

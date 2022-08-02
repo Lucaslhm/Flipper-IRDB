@@ -1,103 +1,103 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 84 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 85 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 86 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 87 00 00 00
 #
-name: KEY_FAVORITES
+name: FAVORITES
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 88 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 89 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 8A 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 8B 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 8D 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 8E 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 8F 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 91 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 92 00 00 00
 #
-name: KEY_FAVORITES
+name: FAVORITES
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 93 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 95 00 00 00
 #
-name: KEY_LAST
+name: LAST
 type: parsed
 protocol: NECext
 address: 85 7B 00 00
 command: 96 00 00 00
 #
-name: KEY_FAVORITES
+name: FAVORITES
 type: parsed
 protocol: NECext
 address: 85 7B 00 00

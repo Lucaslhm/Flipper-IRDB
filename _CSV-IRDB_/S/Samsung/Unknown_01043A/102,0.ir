@@ -7,43 +7,43 @@ protocol: NECext
 address: 66 00 00 00
 command: 8F 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 66 00 00 00
 command: 91 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 66 00 00 00
 command: 94 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 66 00 00 00
 command: 97 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 66 00 00 00
 command: 98 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 66 00 00 00
 command: 99 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 66 00 00 00
 command: 9A 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 66 00 00 00
@@ -55,7 +55,7 @@ protocol: NECext
 address: 66 00 00 00
 command: 9F 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 66 00 00 00
@@ -67,7 +67,7 @@ protocol: NECext
 address: 66 00 00 00
 command: A1 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 66 00 00 00

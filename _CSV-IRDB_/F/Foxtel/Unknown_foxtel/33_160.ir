@@ -61,13 +61,13 @@ protocol: NECext
 address: 21 A0 00 00
 command: 09 00 00 00
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 21 A0 00 00
 command: 0C 00 00 00
 #
-name: mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 21 A0 00 00
@@ -79,13 +79,13 @@ protocol: NECext
 address: 21 A0 00 00
 command: 0F 00 00 00
 #
-name: vol+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 21 A0 00 00
 command: 10 00 00 00
 #
-name: vol-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 21 A0 00 00
