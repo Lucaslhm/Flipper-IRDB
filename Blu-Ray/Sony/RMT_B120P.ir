@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# Sony BDP-S185 Blu-ray Player
+#
 name: Open_Close
 type: parsed
 protocol: SIRC20
