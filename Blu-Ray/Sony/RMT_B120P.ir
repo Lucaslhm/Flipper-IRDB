@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Sony BDP-S185 Blu-ray Player
+# Sony BDP-S185 / RMT-B120P Blu-ray Player
 #
 name: Open_Close
 type: parsed
