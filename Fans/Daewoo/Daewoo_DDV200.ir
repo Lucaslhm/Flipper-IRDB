@@ -1,33 +1,33 @@
 Filetype: IR signals file
 Version: 1
 # 
-#Daewoo DDV200 vertical fan
+# Daewoo DDV200 vertical fan
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 45 00 00 00
 # 
-name: Speed
+name: SPEED
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 47 00 00 00
 # 
-name: Wind
+name: WIND
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 40 00 00 00
 # 
-name: Timer
+name: TIMER
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 19 00 00 00
 # 
-name: Osc
+name: OSC
 type: parsed
 protocol: NEC
 address: 00 00 00 00
