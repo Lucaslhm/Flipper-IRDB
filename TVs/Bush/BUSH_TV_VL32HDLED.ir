@@ -32,6 +32,12 @@ type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 86 00 00 00
+#
+name: SHUFFLE_CH
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: DD 00 00 00
 # 
 name: SOURCE
 type: parsed
