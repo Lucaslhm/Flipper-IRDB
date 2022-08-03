@@ -181,7 +181,7 @@ protocol: NECext
 address: 83 55 00 00
 command: 90 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 83 55 00 00

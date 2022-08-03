@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-POWER
+name: POWER
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

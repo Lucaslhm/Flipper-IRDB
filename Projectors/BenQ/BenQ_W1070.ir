@@ -3,7 +3,7 @@ Version: 1
 #
 # BenQ DLP Projector W1070
 # 
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 30 00 00

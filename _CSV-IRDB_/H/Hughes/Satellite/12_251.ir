@@ -559,7 +559,7 @@ protocol: NECext
 address: 0C FB 00 00
 command: 49 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 0C FB 00 00
@@ -589,7 +589,7 @@ protocol: NECext
 address: 0C FB 00 00
 command: 73 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 0C FB 00 00

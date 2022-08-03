@@ -403,7 +403,7 @@ protocol: NECext
 address: 54 00 00 00
 command: 2E 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 54 00 00 00

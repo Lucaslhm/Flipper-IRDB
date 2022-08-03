@@ -1183,7 +1183,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 78 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 10 00 00 00

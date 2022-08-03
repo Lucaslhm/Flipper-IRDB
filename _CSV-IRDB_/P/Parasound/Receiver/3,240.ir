@@ -169,7 +169,7 @@ protocol: NECext
 address: 03 F0 00 00
 command: 9F 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 03 F0 00 00

@@ -307,7 +307,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 04 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -1891,7 +1891,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: CC 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -1987,7 +1987,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: CC 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: D2 6D 00 00

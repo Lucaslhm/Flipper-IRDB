@@ -655,7 +655,7 @@ protocol: NECext
 address: 47 00 00 00
 command: 41 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 47 00 00 00

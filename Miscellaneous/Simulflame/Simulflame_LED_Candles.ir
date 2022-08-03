@@ -3,7 +3,7 @@ Version: 1
 # 
 # Simulflame LED Candles
 #
-POWER
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

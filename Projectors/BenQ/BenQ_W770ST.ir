@@ -3,7 +3,7 @@ Version: 1
 # 
 # BenQ Projector W770ST
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 30 00 00

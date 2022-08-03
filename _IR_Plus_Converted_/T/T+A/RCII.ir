@@ -10,7 +10,7 @@ frequency: 38000
 duty_cycle: 0.33
 data: 498 2490 996 498 498 498 498 498 498 498 498 498 996 996 498 498 498 498 498 103290
 #
-POWER
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.33

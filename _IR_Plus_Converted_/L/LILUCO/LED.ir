@@ -19,7 +19,7 @@ protocol: NECext
 address: F7 00 00 00
 command: BF 40 00 00
 #
-POWER
+name: POWER
 protocol: NECext
 address: F7 00 00 00
 command: 3F C0 00 00

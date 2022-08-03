@@ -5797,7 +5797,7 @@ protocol: NECext
 address: 7E 00 00 00
 command: 7E 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 7E 00 00 00
@@ -9721,7 +9721,7 @@ protocol: NECext
 address: 7E 00 00 00
 command: BA 00 00 00
 #
-POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 7E 00 00 00
