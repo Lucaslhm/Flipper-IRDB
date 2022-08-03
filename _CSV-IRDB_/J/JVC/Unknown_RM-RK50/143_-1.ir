@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 8F 00 00 00
 command: 84 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 8F 00 00 00
 command: 85 00 00 00
 #
-name: KEY_CYCLEWINDOWS
+name: CYCLEWINDOWS
 type: parsed
 protocol: NECext
 address: 8F 00 00 00

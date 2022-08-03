@@ -10,25 +10,25 @@ protocol: NECext
 address: 64 46 00 00
 command: E0 1F 00 00
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 64 46 00 00
 command: 5D A2 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 10 00 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: NECext
 address: 64 46 00 00
 command: DE 21 00 00
 # 
-name: Ch_down
+name: CH-
 type: parsed
 protocol: NECext
 address: 64 46 00 00

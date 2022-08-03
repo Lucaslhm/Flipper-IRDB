@@ -7,7 +7,7 @@ frequency: 40244
 duty_cycle: 0.330000
 data: 2385 596 596 596 1193 596 1193 596 596 596 1193 596 596 596 596 596 596 596 1193 596 1193 596 596 596 596 24973
 #
-name: Power
+name: POWER
 type: raw
 frequency: 40244
 duty_cycle: 0.330000
@@ -205,7 +205,7 @@ frequency: 40244
 duty_cycle: 0.330000
 data: 2385 596 1193 596 596 596 1193 596 596 596 596 596 1193 596 596 596 1193 596 596 596 596 596 596 596 596 25569
 #
-name: Tv-power
+name: Tv-POWER
 type: raw
 frequency: 40244
 duty_cycle: 0.330000

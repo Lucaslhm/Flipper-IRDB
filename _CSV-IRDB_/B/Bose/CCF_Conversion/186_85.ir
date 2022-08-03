@@ -7,13 +7,13 @@ protocol: NECext
 address: BA 55 00 00
 command: 01 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: BA 55 00 00
 command: 02 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: BA 55 00 00
@@ -37,25 +37,25 @@ protocol: NECext
 address: BA 55 00 00
 command: 06 00 00 00
 #
-name: CENTER_VOLUME_-
+name: CENTER_VOL-
 type: parsed
 protocol: NECext
 address: BA 55 00 00
 command: 08 00 00 00
 #
-name: CENTER_VOLUME_+
+name: CENTER_VOL+
 type: parsed
 protocol: NECext
 address: BA 55 00 00
 command: 09 00 00 00
 #
-name: SURROUND_VOLUME_-
+name: SURROUND_VOL-
 type: parsed
 protocol: NECext
 address: BA 55 00 00
 command: 0A 00 00 00
 #
-name: SURROUND_VOLUME_+
+name: SURROUND_VOL+
 type: parsed
 protocol: NECext
 address: BA 55 00 00

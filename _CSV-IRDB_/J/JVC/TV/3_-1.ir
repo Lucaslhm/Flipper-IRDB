@@ -217,7 +217,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 18 00 00 00
 #
-name: CHAN_DOWN
+name: CH-
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -247,7 +247,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 19 00 00 00
 #
-name: CHAN_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -319,13 +319,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 1E 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 1E 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -355,13 +355,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 1F 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 1F 00 00 00
 #
-name: VOL_DOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00

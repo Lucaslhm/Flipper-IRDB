@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: Satellite-power
+name: Satellite-POWER
 type: raw
 frequency: 40244
 duty_cycle: 0.330000

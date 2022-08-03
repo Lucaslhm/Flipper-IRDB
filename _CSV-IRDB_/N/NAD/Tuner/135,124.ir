@@ -97,7 +97,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 85 00 00 00
 #
-name: MASTER_VOLUME_+
+name: MASTER_VOL+
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -109,7 +109,7 @@ protocol: NECext
 address: 87 7C 00 00
 command: 89 00 00 00
 #
-name: MASTER_VOLUME_-
+name: MASTER_VOL-
 type: parsed
 protocol: NECext
 address: 87 7C 00 00

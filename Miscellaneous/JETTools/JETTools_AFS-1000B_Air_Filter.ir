@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: On_off
+name: POWER
 type: parsed
 protocol: NEC
 address: 01 00 00 00

@@ -1081,7 +1081,7 @@ protocol: NECext
 address: 80 70 00 00
 command: 9C 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 80 70 00 00
@@ -1273,7 +1273,7 @@ protocol: NECext
 address: 80 70 00 00
 command: C0 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 80 70 00 00
@@ -1369,7 +1369,7 @@ protocol: NECext
 address: 80 70 00 00
 command: C6 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 80 70 00 00
@@ -1411,7 +1411,7 @@ protocol: NECext
 address: 80 70 00 00
 command: C7 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 80 70 00 00
@@ -1855,7 +1855,7 @@ protocol: NECext
 address: 80 70 00 00
 command: DB 00 00 00
 #
-name: CHAN_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 80 70 00 00

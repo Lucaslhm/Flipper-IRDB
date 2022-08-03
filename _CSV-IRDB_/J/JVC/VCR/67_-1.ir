@@ -925,7 +925,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 14 00 00 00
 #
-name: TV_VOLUME_+
+name: TV_VOL+
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -1129,7 +1129,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 15 00 00 00
 #
-name: TV_VOLUME_--
+name: TV_VOL--
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -1249,7 +1249,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 18 00 00 00
 #
-name: CH_DOWN
+name: CH-
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -1321,7 +1321,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 18 00 00 00
 #
-name: CH_DWN
+name: CH-
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -1489,7 +1489,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 19 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -1549,7 +1549,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 19 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 43 00 00 00

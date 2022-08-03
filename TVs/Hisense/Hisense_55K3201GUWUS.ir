@@ -3,25 +3,25 @@ Version: 1
 # 
 # Hisense 55K3201GUWUS
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: Vol_Up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_Down
+name: VOL-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -33,13 +33,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 0B 00 00 00
 # 
-name: CH_Up
+name: CH+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH_Down
+name: CH-
 type: parsed
 protocol: NEC
 address: 04 00 00 00

@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 81 81 00 00
 command: 01 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 81 81 00 00
 command: 02 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 81 81 00 00
 command: 09 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 81 81 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: 81 81 00 00
 command: 12 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 81 81 00 00

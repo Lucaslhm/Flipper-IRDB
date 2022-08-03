@@ -4,7 +4,7 @@ Version: 1
 # Seville Classics EHF10119P Fan
 # https://www.sevilleclassics.com/products/ehf10119pb
 # 
-name: Power
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

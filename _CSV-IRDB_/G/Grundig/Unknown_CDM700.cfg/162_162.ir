@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 01 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 02 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
@@ -31,31 +31,31 @@ protocol: NECext
 address: A2 A2 00 00
 command: 05 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 06 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 07 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 09 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 0A 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
@@ -79,25 +79,25 @@ protocol: NECext
 address: A2 A2 00 00
 command: 0E 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 0F 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 11 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 12 00 00 00
 #
-name: KEY_PLAYPAUSE
+name: PLAYPAUSE
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
@@ -115,19 +115,19 @@ protocol: NECext
 address: A2 A2 00 00
 command: 15 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 19 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 1A 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
@@ -139,31 +139,31 @@ protocol: NECext
 address: A2 A2 00 00
 command: 1C 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 1E 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 20 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 60 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: A0 00 00 00
 #
-name: KEY_10CHANNELSUP
+name: 10CHANNELSUP
 type: parsed
 protocol: NECext
 address: A2 A2 00 00

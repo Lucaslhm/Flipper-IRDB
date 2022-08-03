@@ -4,7 +4,7 @@ Version: 1
 # Woozoo Fan
 # https://www.irisusainc.com/collections/woozoo-2
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 80 DE 00 00

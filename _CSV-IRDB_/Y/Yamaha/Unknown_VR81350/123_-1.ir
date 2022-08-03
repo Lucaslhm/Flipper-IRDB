@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 7B 00 00 00
 command: 80 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7B 00 00 00
 command: 82 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7B 00 00 00
@@ -31,13 +31,13 @@ protocol: NECext
 address: 7B 00 00 00
 command: 8D 00 00 00
 #
-name: KEY_VCR
+name: VCR
 type: parsed
 protocol: NECext
 address: 7B 00 00 00
 command: 8E 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: 7B 00 00 00
@@ -67,7 +67,7 @@ protocol: NECext
 address: 7B 00 00 00
 command: 97 00 00 00
 #
-name: KEY_NUMERIC_POUND
+name: NUMERIC_POUND
 type: parsed
 protocol: NECext
 address: 7B 00 00 00
@@ -109,7 +109,7 @@ protocol: NECext
 address: 7B 00 00 00
 command: D9 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 7B 00 00 00

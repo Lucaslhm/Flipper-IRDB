@@ -37,13 +37,13 @@ protocol: NECext
 address: 02 00 00 00
 command: 4B 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 4C 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 02 00 00 00

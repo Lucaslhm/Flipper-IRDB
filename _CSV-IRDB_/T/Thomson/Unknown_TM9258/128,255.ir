@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_CYCLEWINDOWS
+name: CYCLEWINDOWS
 type: parsed
 protocol: NECext
 address: 80 FF 00 00
 command: 80 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 80 FF 00 00
 command: 84 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 80 FF 00 00
@@ -25,7 +25,7 @@ protocol: NECext
 address: 80 FF 00 00
 command: 8C 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 80 FF 00 00
@@ -37,7 +37,7 @@ protocol: NECext
 address: 80 FF 00 00
 command: 90 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 80 FF 00 00
@@ -55,13 +55,13 @@ protocol: NECext
 address: 80 FF 00 00
 command: 94 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: 80 FF 00 00
 command: 95 00 00 00
 #
-name: KEY_SELECT
+name: SELECT
 type: parsed
 protocol: NECext
 address: 80 FF 00 00

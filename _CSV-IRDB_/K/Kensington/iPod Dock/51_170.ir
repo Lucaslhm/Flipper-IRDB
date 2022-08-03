@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 33 AA 00 00
 command: 00 00 00 00
 #
-name: 1_VOLUME_-
+name: 1_VOL-
 type: parsed
 protocol: NECext
 address: 33 AA 00 00
@@ -49,13 +49,13 @@ protocol: NECext
 address: 33 AA 00 00
 command: 0C 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 33 AA 00 00
 command: 17 00 00 00
 #
-name: 1_VOLUME_+
+name: 1_VOL+
 type: parsed
 protocol: NECext
 address: 33 AA 00 00

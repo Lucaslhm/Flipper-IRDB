@@ -3,7 +3,7 @@ Version: 1
 # 
 # Onkyo TX NR686
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: D2 6C 00 00

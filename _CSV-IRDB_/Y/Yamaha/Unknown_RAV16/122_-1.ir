@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_VCR
+name: VCR
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -25,37 +25,37 @@ protocol: NECext
 address: 7A 00 00 00
 command: 12 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 15 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 16 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 1A 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 1B 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 1C 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -91,19 +91,19 @@ protocol: NECext
 address: 7A 00 00 00
 command: 56 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 57 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 58 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -121,7 +121,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 86 00 00 00
 #
-name: KEY_6chIN
+name: 6chIN
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 95 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -163,7 +163,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 9C 00 00 00
 #
-name: KEY_DVD
+name: DVD
 type: parsed
 protocol: NECext
 address: 7A 00 00 00

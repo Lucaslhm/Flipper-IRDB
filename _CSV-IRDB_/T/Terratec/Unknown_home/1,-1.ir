@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 00 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -25,25 +25,25 @@ protocol: NECext
 address: 01 00 00 00
 command: 03 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 04 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 05 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 06 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: 01 00 00 00

@@ -7,13 +7,13 @@ protocol: NECext
 address: 08 00 00 00
 command: 16 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 19 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 08 00 00 00

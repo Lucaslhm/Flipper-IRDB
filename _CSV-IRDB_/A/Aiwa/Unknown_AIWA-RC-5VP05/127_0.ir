@@ -1,55 +1,55 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 00 00 00 00
 #
-name: KEY_SLOW
+name: SLOW
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 11 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 12 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 15 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 17 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 1A 00 00 00
 #
-name: KEY_KPPLUS
+name: KPPLUS
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 46 00 00 00
 #
-name: KEY_KPMINUS
+name: KPMINUS
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
@@ -61,13 +61,13 @@ protocol: NECext
 address: 7F 00 00 00
 command: 5C 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 7F 00 00 00
 command: 5F 00 00 00
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 7F 00 00 00

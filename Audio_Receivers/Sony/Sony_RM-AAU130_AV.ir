@@ -4,19 +4,19 @@ Version: 1
 # Sony RM-AAU130 AV System
 # Used for Sony AV Receiver STR-DH130 or STR-KM7
 #
-name: Power
+name: POWER
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 15 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 12 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
@@ -64,7 +64,7 @@ protocol: SIRC15
 address: B0 00 00 00
 command: 2C 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00

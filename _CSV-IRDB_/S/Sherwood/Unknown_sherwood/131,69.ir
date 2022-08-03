@@ -7,7 +7,7 @@ protocol: NECext
 address: 83 45 00 00
 command: 00 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -19,7 +19,7 @@ protocol: NECext
 address: 83 45 00 00
 command: 02 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -49,7 +49,7 @@ protocol: NECext
 address: 83 45 00 00
 command: 08 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -61,19 +61,19 @@ protocol: NECext
 address: 83 45 00 00
 command: 0A 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 83 45 00 00
 command: 0B 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 83 45 00 00
 command: 0C 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -91,13 +91,13 @@ protocol: NECext
 address: 83 45 00 00
 command: 0F 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 83 45 00 00
 command: 10 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -133,19 +133,19 @@ protocol: NECext
 address: 83 45 00 00
 command: 16 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 83 45 00 00
 command: 17 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 83 45 00 00
 command: 18 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -187,25 +187,25 @@ protocol: NECext
 address: 83 45 00 00
 command: 1F 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 83 45 00 00
 command: 40 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 83 45 00 00
 command: 41 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 83 45 00 00
 command: 42 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -229,7 +229,7 @@ protocol: NECext
 address: 83 45 00 00
 command: 46 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -253,7 +253,7 @@ protocol: NECext
 address: 83 45 00 00
 command: 4A 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 83 45 00 00
@@ -277,7 +277,7 @@ protocol: NECext
 address: 83 45 00 00
 command: 4E 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 83 45 00 00

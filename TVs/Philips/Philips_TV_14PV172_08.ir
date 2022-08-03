@@ -4,31 +4,31 @@ Version: 1
 # Philips 14PV172/08 CRT TV with VCR
 # To enter the service menu hold STOP on remote and PLAY on the tv for 5 seconds
 #
-name: Power
+name: POWER
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: Prog_up
+name: CH+
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: Prog_down
+name: CH-
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
@@ -46,7 +46,7 @@ protocol: RC5
 address: 05 00 00 00
 command: 36 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: RC5
 address: 00 00 00 00

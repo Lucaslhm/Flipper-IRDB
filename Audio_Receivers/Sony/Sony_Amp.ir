@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 15 00 00 00
 # 
-name: Vol_UP
+name: VOL+
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 12 00 00 00
 # 
-name: Vol_Down
+name: VOL-
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 13 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00

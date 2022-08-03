@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_R
+name: R
 type: parsed
 protocol: NECext
 address: 40 00 00 00
 command: 01 00 00 00
 #
-name: KEY_G
+name: G
 type: parsed
 protocol: NECext
 address: 40 00 00 00
 command: 02 00 00 00
 #
-name: KEY_B
+name: B
 type: parsed
 protocol: NECext
 address: 40 00 00 00
@@ -67,7 +67,7 @@ protocol: NECext
 address: 40 00 00 00
 command: 0B 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: 40 00 00 00
@@ -121,13 +121,13 @@ protocol: NECext
 address: 40 00 00 00
 command: 17 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: 40 00 00 00
 command: 18 00 00 00
 #
-name: KEY_W
+name: W
 type: parsed
 protocol: NECext
 address: 40 00 00 00
@@ -145,7 +145,7 @@ protocol: NECext
 address: 40 00 00 00
 command: 1B 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 40 00 00 00

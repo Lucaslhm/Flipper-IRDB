@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -13,13 +13,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 02 00 00 00
 #
-name: KEY_F11
+name: F11
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 03 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -43,7 +43,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 07 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -67,7 +67,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 0B 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -97,7 +97,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 10 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -109,13 +109,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 12 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 13 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -145,19 +145,19 @@ protocol: NECext
 address: 03 00 00 00
 command: 1B 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 1E 00 00 00
 #
-name: KEY_TEXT
+name: TEXT
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 1F 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -169,19 +169,19 @@ protocol: NECext
 address: 03 00 00 00
 command: 41 00 00 00
 #
-name: KEY_BACK
+name: BACK
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 42 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 43 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -193,13 +193,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 45 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 46 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -223,25 +223,25 @@ protocol: NECext
 address: 03 00 00 00
 command: 4A 00 00 00
 #
-name: KEY_RED
+name: RED
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 4B 00 00 00
 #
-name: KEY_GREEN
+name: GREEN
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 4C 00 00 00
 #
-name: KEY_YELLOW
+name: YELLOW
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 4D 00 00 00
 #
-name: KEY_BLUE
+name: BLUE
 type: parsed
 protocol: NECext
 address: 03 00 00 00

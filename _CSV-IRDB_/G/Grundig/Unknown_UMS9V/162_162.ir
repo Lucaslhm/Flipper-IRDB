@@ -13,13 +13,13 @@ protocol: NECext
 address: A2 A2 00 00
 command: 05 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 06 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
@@ -43,13 +43,13 @@ protocol: NECext
 address: A2 A2 00 00
 command: 0E 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 0F 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
@@ -67,13 +67,13 @@ protocol: NECext
 address: A2 A2 00 00
 command: 15 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 17 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
@@ -91,7 +91,7 @@ protocol: NECext
 address: A2 A2 00 00
 command: 1D 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
@@ -103,13 +103,13 @@ protocol: NECext
 address: A2 A2 00 00
 command: 1F 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: A2 A2 00 00
 command: 20 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: A2 A2 00 00

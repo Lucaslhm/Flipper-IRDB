@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -25,7 +25,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 06 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -55,25 +55,25 @@ protocol: NECext
 address: 18 E9 00 00
 command: 16 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 17 00 00 00
 #
-name: KEY_EXIT
+name: EXIT
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 25 00 00 00
 #
-name: KEY_PAGEUP
+name: PAGEUP
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 2A 00 00 00
 #
-name: KEY_PAGEDOWN
+name: PAGEDOWN
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -91,25 +91,25 @@ protocol: NECext
 address: 18 E9 00 00
 command: 2D 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 46 00 00 00
 #
-name: Pic-Mute
+name: Pic-MUTE
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 47 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
 command: 48 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -121,7 +121,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 4C 00 00 00
 #
-name: KEY_HELP
+name: HELP
 type: parsed
 protocol: NECext
 address: 18 E9 00 00

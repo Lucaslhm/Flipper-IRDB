@@ -19,7 +19,7 @@ protocol: NECext
 address: 5C 00 00 00
 command: 02 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 5C 00 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: 5C 00 00 00
 command: 03 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 5C 00 00 00

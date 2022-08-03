@@ -1,37 +1,37 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 00 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 02 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 03 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 06 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 08 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 02 00 00 00
@@ -49,19 +49,19 @@ protocol: NECext
 address: 02 00 00 00
 command: 0E 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 20 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 02 00 00 00
 command: 22 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 02 00 00 00

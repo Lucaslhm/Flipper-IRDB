@@ -4,13 +4,13 @@ Version: 1
 # Azulle Inspire Fanless Mini PC
 # https://azulle.com/inspire/
 #
-name: Power
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1067 137011 1040
 #
-name: Mute
+name: MUTE
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -64,13 +64,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1225 136742 1223
 #
-name: Vol_up
+name: VOL+
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1277 138128 1278 138120 1201 138152 1223 138110 1254 138109 1256
 #
-name: Vol_down
+name: VOL-
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

@@ -133,13 +133,13 @@ protocol: NECext
 address: 85 53 00 00
 command: 8C 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 85 53 00 00
 command: 8D 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 85 53 00 00
@@ -175,7 +175,7 @@ protocol: NECext
 address: 85 53 00 00
 command: 95 00 00 00
 #
-name: CH_DOWN
+name: CH-
 type: parsed
 protocol: NECext
 address: 85 53 00 00
@@ -187,7 +187,7 @@ protocol: NECext
 address: 85 53 00 00
 command: 96 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 85 53 00 00

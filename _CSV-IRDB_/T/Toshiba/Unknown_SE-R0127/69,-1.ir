@@ -7,19 +7,19 @@ protocol: NECext
 address: 45 00 00 00
 command: 00 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 45 00 00 00
 command: 12 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 45 00 00 00
 command: 13 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 45 00 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: 45 00 00 00
 command: 19 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 45 00 00 00
@@ -49,37 +49,37 @@ protocol: NECext
 address: 45 00 00 00
 command: 24 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 45 00 00 00
 command: 27 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: 45 00 00 00
 command: 28 00 00 00
 #
-name: KEY_ANGLE
+name: ANGLE
 type: parsed
 protocol: NECext
 address: 45 00 00 00
 command: 29 00 00 00
 #
-name: KEY_ANGLE
+name: ANGLE
 type: parsed
 protocol: NECext
 address: 45 00 00 00
 command: 29 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 45 00 00 00
 command: EF 00 00 00
 #
-name: KEY_OPEN
+name: OPEN
 type: parsed
 protocol: NECext
 address: 45 00 00 00

@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
@@ -13,85 +13,85 @@ protocol: NECext
 address: 21 AC 00 00
 command: 10 00 00 00
 #
-name: KEY_ZOOM
+name: ZOOM
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 18 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 20 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 28 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 30 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 40 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 48 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 50 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 60 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 68 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 70 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 80 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 88 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: 90 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
@@ -103,43 +103,43 @@ protocol: NECext
 address: 21 AC 00 00
 command: A8 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: B0 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: C0 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: C8 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: D0 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: E0 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 21 AC 00 00
 command: E8 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 21 AC 00 00

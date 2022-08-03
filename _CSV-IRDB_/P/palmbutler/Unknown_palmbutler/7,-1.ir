@@ -67,19 +67,19 @@ protocol: NECext
 address: 07 00 00 00
 command: 0C 00 00 00
 #
-name: mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 0D 00 00 00
 #
-name: vol+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 10 00 00 00
 #
-name: vol-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 07 00 00 00

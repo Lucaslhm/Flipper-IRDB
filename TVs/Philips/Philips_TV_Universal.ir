@@ -3,7 +3,7 @@ Version: 1
 # 
 # Universal Philips TV Remote
 #
-name: Power
+name: POWER
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -177,31 +177,31 @@ protocol: RC6
 address: 00 00 00 00
 command: 76 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: Vol_UP
+name: VOL+
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: Vol_DOWN
+name: VOL-
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: CH_UP
+name: CH+
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: CH_DOWN
+name: CH-
 type: parsed
 protocol: RC6
 address: 00 00 00 00

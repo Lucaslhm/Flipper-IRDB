@@ -157,7 +157,7 @@ protocol: NECext
 address: 0C 00 00 00
 command: D5 00 00 00
 #
-name: PRESET_CH_DOWN
+name: PRESET_CH-
 type: parsed
 protocol: NECext
 address: 0C 00 00 00
@@ -175,7 +175,7 @@ protocol: NECext
 address: 0C 00 00 00
 command: D6 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 0C 00 00 00

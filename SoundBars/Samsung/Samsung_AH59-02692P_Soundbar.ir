@@ -3,7 +3,7 @@ Version: 1
 # 
 # Samsung AH59-02692P Soundbar
 # 
-name: On_off
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

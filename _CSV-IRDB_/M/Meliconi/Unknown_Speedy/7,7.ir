@@ -7,37 +7,37 @@ protocol: NECext
 address: 07 07 00 00
 command: 01 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 07 07 00 00
 command: 02 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 07 07 00 00
 command: 07 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 07 07 00 00
 command: 0B 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 07 07 00 00
 command: 0F 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 07 07 00 00
 command: 10 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 07 07 00 00

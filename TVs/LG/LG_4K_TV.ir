@@ -9,19 +9,19 @@ protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_dwn
+name: VOL-
 type: parsed
 protocol: NEC
 address: 04 00 00 00

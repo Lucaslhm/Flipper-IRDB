@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -25,7 +25,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 0E 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 00 00 00

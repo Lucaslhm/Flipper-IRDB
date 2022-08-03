@@ -7,7 +7,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 03 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: 01 00 00 00
 command: 18 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 01 00 00 00

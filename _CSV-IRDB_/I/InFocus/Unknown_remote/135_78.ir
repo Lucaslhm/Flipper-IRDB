@@ -13,7 +13,7 @@ protocol: NECext
 address: 87 4E 00 00
 command: 03 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 87 4E 00 00
@@ -25,13 +25,13 @@ protocol: NECext
 address: 87 4E 00 00
 command: 07 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 87 4E 00 00
 command: 08 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 87 4E 00 00
@@ -43,7 +43,7 @@ protocol: NECext
 address: 87 4E 00 00
 command: 0E 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 87 4E 00 00
@@ -55,7 +55,7 @@ protocol: NECext
 address: 87 4E 00 00
 command: 19 00 00 00
 #
-name: KEY_VIDEO
+name: VIDEO
 type: parsed
 protocol: NECext
 address: 87 4E 00 00

@@ -151,13 +151,13 @@ protocol: NECext
 address: 63 00 00 00
 command: EC 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 63 00 00 00
 command: ED 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 63 00 00 00

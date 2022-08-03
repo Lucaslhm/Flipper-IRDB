@@ -3,7 +3,7 @@ Version: 1
 # 
 # AuraLED ColorStrip LEDs
 # 
-name: On
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 EF 00 00

@@ -1,55 +1,55 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 00 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 01 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 02 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 03 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 04 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 05 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 06 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 07 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 11 00 00 00
@@ -67,19 +67,19 @@ protocol: NECext
 address: 11 00 00 00
 command: 11 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 12 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 13 00 00 00
 #
-name: KEY_OPEN
+name: OPEN
 type: parsed
 protocol: NECext
 address: 11 00 00 00
@@ -163,25 +163,25 @@ protocol: NECext
 address: 11 00 00 00
 command: 2A 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 2C 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 30 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 31 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 11 00 00 00
@@ -193,7 +193,7 @@ protocol: NECext
 address: 11 00 00 00
 command: 33 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 11 00 00 00
@@ -217,13 +217,13 @@ protocol: NECext
 address: 11 00 00 00
 command: 37 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 11 00 00 00
 command: 38 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 11 00 00 00

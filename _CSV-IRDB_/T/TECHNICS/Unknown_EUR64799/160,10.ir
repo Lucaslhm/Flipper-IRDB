@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: A0 0A 00 00
 command: 00 00 00 00
 #
-name: KEY_OPEN
+name: OPEN
 type: parsed
 protocol: NECext
 address: A0 0A 00 00
@@ -25,13 +25,13 @@ protocol: NECext
 address: A0 0A 00 00
 command: 03 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: A0 0A 00 00
 command: 06 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: A0 0A 00 00
@@ -109,7 +109,7 @@ protocol: NECext
 address: A0 0A 00 00
 command: 21 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: A0 0A 00 00
@@ -121,13 +121,13 @@ protocol: NECext
 address: A0 0A 00 00
 command: 48 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: A0 0A 00 00
 command: 49 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: A0 0A 00 00
@@ -145,13 +145,13 @@ protocol: NECext
 address: A0 0A 00 00
 command: 55 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: A0 0A 00 00
 command: 80 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: A0 0A 00 00

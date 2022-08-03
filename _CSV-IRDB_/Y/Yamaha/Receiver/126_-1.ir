@@ -757,7 +757,7 @@ protocol: NECext
 address: 7E 00 00 00
 command: 24 00 00 00
 #
-name: VOLUME_+_ALL_ZONES
+name: VOL+_ALL_ZONES
 type: parsed
 protocol: NECext
 address: 7E 00 00 00
@@ -817,7 +817,7 @@ protocol: NECext
 address: 7E 00 00 00
 command: 25 00 00 00
 #
-name: VOLUME_-_ALL_ZONES
+name: VOL-_ALL_ZONES
 type: parsed
 protocol: NECext
 address: 7E 00 00 00
@@ -5797,7 +5797,7 @@ protocol: NECext
 address: 7E 00 00 00
 command: 7E 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 7E 00 00 00
@@ -9721,7 +9721,7 @@ protocol: NECext
 address: 7E 00 00 00
 command: BA 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 7E 00 00 00

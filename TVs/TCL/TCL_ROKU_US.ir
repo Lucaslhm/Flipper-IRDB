@@ -3,7 +3,7 @@ Version: 1
 #
 # TCL Roku TV Remote US by socks
 #
-name: Power_tcl
+name: POWER_tcl
 type: parsed
 protocol: NECext
 address: EA C7 00 00

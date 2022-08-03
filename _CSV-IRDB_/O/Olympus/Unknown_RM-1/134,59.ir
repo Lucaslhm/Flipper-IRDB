@@ -7,25 +7,25 @@ protocol: NECext
 address: 86 3B 00 00
 command: 01 00 00 00
 #
-name: KEY_W
+name: W
 type: parsed
 protocol: NECext
 address: 86 3B 00 00
 command: 02 00 00 00
 #
-name: KEY_T
+name: T
 type: parsed
 protocol: NECext
 address: 86 3B 00 00
 command: 03 00 00 00
 #
-name: KEY_KPMINUS
+name: KPMINUS
 type: parsed
 protocol: NECext
 address: 86 3B 00 00
 command: 04 00 00 00
 #
-name: KEY_KPPLUS
+name: KPPLUS
 type: parsed
 protocol: NECext
 address: 86 3B 00 00

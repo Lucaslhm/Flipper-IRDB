@@ -145,13 +145,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 25 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 2B 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00

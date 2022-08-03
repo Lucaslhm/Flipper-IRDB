@@ -13,43 +13,43 @@ protocol: NECext
 address: 82 78 00 00
 command: 0C 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 82 78 00 00
 command: 10 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 82 78 00 00
 command: 11 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 82 78 00 00
 command: 12 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 82 78 00 00
 command: 13 00 00 00
 #
-name: KEY_BACK
+name: BACK
 type: parsed
 protocol: NECext
 address: 82 78 00 00
 command: 15 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 82 78 00 00
 command: 16 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 82 78 00 00

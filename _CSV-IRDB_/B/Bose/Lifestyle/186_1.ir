@@ -151,7 +151,7 @@ protocol: NECext
 address: BA 01 00 00
 command: 49 00 00 00
 #
-name: ON/OFF
+name: POWER
 type: parsed
 protocol: NECext
 address: BA 01 00 00

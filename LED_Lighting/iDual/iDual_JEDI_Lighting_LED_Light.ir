@@ -3,7 +3,7 @@ Version: 1
 # 
 # iDual JEDI Lighting LED Light
 # 
-name: On
+name: POWER
 type: parsed
 protocol: NECext
 address: 02 FE 00 00

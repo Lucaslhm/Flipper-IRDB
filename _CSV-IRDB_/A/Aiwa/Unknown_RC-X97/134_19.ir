@@ -7,13 +7,13 @@ protocol: NECext
 address: 86 13 00 00
 command: 00 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 86 13 00 00
 command: 0F 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 86 13 00 00
@@ -37,7 +37,7 @@ protocol: NECext
 address: 86 13 00 00
 command: 13 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: 86 13 00 00
@@ -49,13 +49,13 @@ protocol: NECext
 address: 86 13 00 00
 command: 16 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 86 13 00 00
 command: 17 00 00 00
 #
-name: KEY_PLAYPAUSE
+name: PLAYPAUSE
 type: parsed
 protocol: NECext
 address: 86 13 00 00

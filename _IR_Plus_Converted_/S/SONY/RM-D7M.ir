@@ -10,7 +10,7 @@ frequency: 40000
 duty_cycle: 0.33
 data: 2400 600 1200 600 600 600 1200 600 600 600 1200 600 600 600 600 600 1200 600 1200 600 1200 600 1200 600 600
 #
-name: ON
+name: POWER
 type: raw
 frequency: 40000
 duty_cycle: 0.33

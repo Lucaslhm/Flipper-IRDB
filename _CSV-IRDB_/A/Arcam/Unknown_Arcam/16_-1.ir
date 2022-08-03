@@ -1,61 +1,61 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_SAT
+name: SAT
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 00 00 00 00
 #
-name: KEY_DVD
+name: DVD
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 04 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 05 00 00 00
 #
-name: KEY_VCR
+name: VCR
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 06 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 07 00 00 00
 #
-name: KEY_AUX
+name: AUX
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 08 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 0D 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 10 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 11 00 00 00
 #
-name: KEY_MODE
+name: MODE
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -73,7 +73,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 34 00 00 00
 #
-name: KEY_RADIO
+name: RADIO
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -85,19 +85,19 @@ protocol: NECext
 address: 10 00 00 00
 command: 36 00 00 00
 #
-name: KEY_INFO
+name: INFO
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 37 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 10 00 00 00
 command: 38 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -109,7 +109,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 3E 00 00 00
 #
-name: KEY_OK
+name: OK
 type: parsed
 protocol: NECext
 address: 10 00 00 00

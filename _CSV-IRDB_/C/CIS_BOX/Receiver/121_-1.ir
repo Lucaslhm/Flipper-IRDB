@@ -25,7 +25,7 @@ protocol: NECext
 address: 79 00 00 00
 command: 11 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 79 00 00 00

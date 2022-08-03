@@ -265,7 +265,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 10 00 00 00
 #
-name: VCR_10KEY_PRGM
+name: VCR_10PRGM
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -313,7 +313,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 18 00 00 00
 #
-name: VCR_10KEY_CONTINUE
+name: VCR_10CONTINUE
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -367,7 +367,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 20 00 00 00
 #
-name: VCR_10KEY_1
+name: VCR_101
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -385,7 +385,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 21 00 00 00
 #
-name: VCR_10KEY_2
+name: VCR_102
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -403,7 +403,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 22 00 00 00
 #
-name: VCR_10KEY_3
+name: VCR_103
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -421,7 +421,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 23 00 00 00
 #
-name: VCR_10KEY_4
+name: VCR_104
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -439,7 +439,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 24 00 00 00
 #
-name: VCR_10KEY_5
+name: VCR_105
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -457,7 +457,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 25 00 00 00
 #
-name: VCR_10KEY_6
+name: VCR_106
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -475,13 +475,13 @@ protocol: NECext
 address: 43 00 00 00
 command: 26 00 00 00
 #
-name: VCR_10KEY_7/P
+name: VCR_107/P
 type: parsed
 protocol: NECext
 address: 43 00 00 00
 command: 27 00 00 00
 #
-name: VCR_10KEY_7
+name: VCR_107
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -505,7 +505,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 27 00 00 00
 #
-name: VCR_10KEY_8
+name: VCR_108
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -523,7 +523,7 @@ protocol: NECext
 address: 43 00 00 00
 command: 28 00 00 00
 #
-name: VCR_10KEY_9
+name: VCR_109
 type: parsed
 protocol: NECext
 address: 43 00 00 00
@@ -541,13 +541,13 @@ protocol: NECext
 address: 43 00 00 00
 command: 29 00 00 00
 #
-name: VCR_10KEY_0
+name: VCR_100
 type: parsed
 protocol: NECext
 address: 43 00 00 00
 command: 33 00 00 00
 #
-name: VCR_10KEY_10
+name: VCR_1010
 type: parsed
 protocol: NECext
 address: 43 00 00 00

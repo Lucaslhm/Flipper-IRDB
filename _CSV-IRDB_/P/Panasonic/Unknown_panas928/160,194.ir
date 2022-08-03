@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: +vol
+name: +VOL
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: B0 00 00 00
 #
-name: -vol
+name: -VOL
 type: parsed
 protocol: NECext
 address: A0 C2 00 00

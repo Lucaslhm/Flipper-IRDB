@@ -3,7 +3,7 @@ Version: 1
 # 
 # ProBreeze Remote Oscillating Fan
 #
-name: Power
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

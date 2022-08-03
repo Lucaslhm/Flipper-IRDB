@@ -13,31 +13,31 @@ protocol: NECext
 address: 01 00 00 00
 command: 0E 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 10 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 10 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 18 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 18 00 00 00
 #
-name: KEY_PLAYPAUSE
+name: PLAYPAUSE
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -55,43 +55,43 @@ protocol: NECext
 address: 01 00 00 00
 command: 24 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 24 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 2A 00 00 00
 #
-name: KEY_MUTE
+name: MUTE
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 2A 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 30 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 32 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 40 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -103,19 +103,19 @@ protocol: NECext
 address: 01 00 00 00
 command: 44 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 50 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 50 00 00 00
 #
-name: X_KEY_EJECT_CD
+name: X_EJECT_CD
 type: parsed
 protocol: NECext
 address: 01 00 00 00
@@ -133,19 +133,19 @@ protocol: NECext
 address: 01 00 00 00
 command: 60 00 00 00
 #
-name: KEY_CD
+name: CD
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 60 00 00 00
 #
-name: KEY_AUX
+name: AUX
 type: parsed
 protocol: NECext
 address: 01 00 00 00
 command: 60 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 01 00 00 00
