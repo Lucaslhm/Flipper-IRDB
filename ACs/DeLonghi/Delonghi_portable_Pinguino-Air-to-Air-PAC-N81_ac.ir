@@ -3,7 +3,7 @@ Version: 1
 # 
 # DeLonghi Pinguino Air-to-Air PAC N81 by JEREMYNO
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 48 12 00 00

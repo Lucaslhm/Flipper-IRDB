@@ -79,19 +79,19 @@ protocol: NECext
 address: 00 00 00 00
 command: 0C 00 00 00
 #
-name: tv-mute
+name: tv-MUTE
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 0D 00 00 00
 #
-name: tv-vol-up
+name: tv-VOL-up
 type: parsed
 protocol: NECext
 address: 00 00 00 00
 command: 10 00 00 00
 #
-name: tv-vol-down
+name: tv-VOL-down
 type: parsed
 protocol: NECext
 address: 00 00 00 00

@@ -19,25 +19,25 @@ protocol: NECext
 address: 14 00 00 00
 command: 11 00 00 00
 #
-name: mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 14 00 00 00
 command: 12 00 00 00
 #
-name: vol+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 14 00 00 00
 command: 13 00 00 00
 #
-name: vol-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 14 00 00 00
 command: 14 00 00 00
 #
-name: power
+name: POWER
 type: parsed
 protocol: NECext
 address: 14 00 00 00

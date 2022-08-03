@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 4D 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 4E 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 51 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: D2 6D 00 00

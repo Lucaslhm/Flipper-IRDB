@@ -55,13 +55,13 @@ protocol: NECext
 address: 0C 00 00 00
 command: 09 00 00 00
 #
-name: chan_up
+name: CH+
 type: parsed
 protocol: NECext
 address: 0C 00 00 00
 command: 0D 00 00 00
 #
-name: chan_down
+name: CH-
 type: parsed
 protocol: NECext
 address: 0C 00 00 00
@@ -73,7 +73,7 @@ protocol: NECext
 address: 0C 00 00 00
 command: 0F 00 00 00
 #
-name: power
+name: POWER
 type: parsed
 protocol: NECext
 address: 0C 00 00 00

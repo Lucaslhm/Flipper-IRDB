@@ -439,7 +439,7 @@ protocol: NECext
 address: B0 00 00 00
 command: 92 00 00 00
 #
-name: OFF/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: B0 00 00 00

@@ -4,7 +4,7 @@ Version: 1
 # 
 # Black & Decker BFSR16W Fan
 #
-name: Power ON/OFF
+name: POWER POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

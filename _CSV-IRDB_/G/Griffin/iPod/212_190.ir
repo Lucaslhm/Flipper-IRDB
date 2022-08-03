@@ -7,7 +7,7 @@ protocol: NECext
 address: D4 BE 00 00
 command: 00 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: D4 BE 00 00
@@ -55,7 +55,7 @@ protocol: NECext
 address: D4 BE 00 00
 command: 09 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: D4 BE 00 00

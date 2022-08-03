@@ -229,13 +229,13 @@ protocol: NECext
 address: 07 08 00 00
 command: 86 00 00 00
 #
-name: Z3_VOLUME_+
+name: Z3_VOL+
 type: parsed
 protocol: NECext
 address: 07 08 00 00
 command: 110 00 00 00
 #
-name: Z3_VOLUME_-
+name: Z3_VOL-
 type: parsed
 protocol: NECext
 address: 07 08 00 00

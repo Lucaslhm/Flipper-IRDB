@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -25,13 +25,13 @@ protocol: NECext
 address: 07 00 00 00
 command: 04 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 07 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -43,7 +43,7 @@ protocol: NECext
 address: 07 00 00 00
 command: 0F 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -55,13 +55,13 @@ protocol: NECext
 address: 07 00 00 00
 command: 12 00 00 00
 #
-name: KEY_CHANNELDOWN
+name: CHANNELDOWN
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 18 00 00 00
 #
-name: KEY_CHANNELUP
+name: CHANNELUP
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 07 00 00 00
 command: 26 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -151,13 +151,13 @@ protocol: NECext
 address: 07 00 00 00
 command: 27 00 00 00
 #
-name: KEY_BACK
+name: BACK
 type: parsed
 protocol: NECext
 address: 07 00 00 00
 command: 32 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 07 00 00 00
@@ -169,7 +169,7 @@ protocol: NECext
 address: 07 00 00 00
 command: 34 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 07 00 00 00

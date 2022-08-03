@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # TaoTronics TT-SK023 Sound Bar
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 80 00 00 00
@@ -19,7 +19,7 @@ protocol: NEC
 address: 80 00 00 00
 command: 08 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 80 00 00 00

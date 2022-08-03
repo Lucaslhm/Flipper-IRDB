@@ -3,7 +3,7 @@ Version: 1
 # 
 # Admiral AC
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 20 00 00 00

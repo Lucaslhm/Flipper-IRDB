@@ -2,8 +2,8 @@
 # Used with Toshiba Air Conditioner RAC-PD0812CRRU
 Filetype: IR signals file
 Version: 1
-# Power
-name: Power
+# POWER
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

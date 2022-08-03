@@ -253,7 +253,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 60 00 00 00
 #
-name: CD_10KEY_0
+name: CD_100
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -277,7 +277,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 61 00 00 00
 #
-name: CD_10KEY_1
+name: CD_101
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -307,7 +307,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 62 00 00 00
 #
-name: CD_10KEY_2
+name: CD_102
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -337,7 +337,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 63 00 00 00
 #
-name: CD_10KEY_3
+name: CD_103
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -367,7 +367,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 64 00 00 00
 #
-name: CD_10KEY_4
+name: CD_104
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -397,7 +397,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 65 00 00 00
 #
-name: CD_10KEY_5
+name: CD_105
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -427,7 +427,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 66 00 00 00
 #
-name: CD_10KEY_6
+name: CD_106
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -457,7 +457,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 67 00 00 00
 #
-name: CD_10KEY_7/P
+name: CD_107/P
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -493,7 +493,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 68 00 00 00
 #
-name: CD_10KEY_8
+name: CD_108
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -523,7 +523,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 69 00 00 00
 #
-name: CD_10KEY_9
+name: CD_109
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -553,7 +553,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 6E 00 00 00
 #
-name: CD_10KEY_10
+name: CD_1010
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -589,7 +589,7 @@ protocol: NECext
 address: B3 00 00 00
 command: 6F 00 00 00
 #
-name: CD_10KEY_+10
+name: CD_10+10
 type: parsed
 protocol: NECext
 address: B3 00 00 00

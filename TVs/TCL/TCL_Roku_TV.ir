@@ -4,13 +4,13 @@ Version: 1
 # TCL Roku TV Remote (Netflix, Hulu, Roku Channel, ESPN+) - Noah
 # https://www.tcl.com/us/en/products/home-theater/5-series/tcl-65-class-5-series-4k-uhd-dolby-vision-hdr-roku-smart-tv-65s525
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 97 68 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: EA C7 00 00
@@ -22,7 +22,7 @@ protocol: NECext
 address: EA C7 00 00
 command: 10 EF 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: EA C7 00 00

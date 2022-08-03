@@ -244,7 +244,7 @@ protocol: NECext
 address: A1 5E 00 00
 command: 76 89 00 00
 #
-name: DSP-EFFECT ON/OFF
+name: DSP-EFFECT POWER
 protocol: NECext
 address: A1 5E 00 00
 command: 95 6A 00 00

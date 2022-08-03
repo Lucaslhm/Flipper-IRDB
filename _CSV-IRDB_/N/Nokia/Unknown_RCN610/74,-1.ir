@@ -61,7 +61,7 @@ protocol: NECext
 address: 4A 00 00 00
 command: 09 00 00 00
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 4A 00 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: 4A 00 00 00
 command: 23 00 00 00
 #
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 4A 00 00 00

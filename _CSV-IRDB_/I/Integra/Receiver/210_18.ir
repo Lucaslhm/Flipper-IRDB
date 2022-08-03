@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: Z2_VOLUME_+_(2)
+name: Z2_VOL+_(2)
 type: parsed
 protocol: NECext
 address: D2 12 00 00
@@ -13,7 +13,7 @@ protocol: NECext
 address: D2 12 00 00
 command: 42 00 00 00
 #
-name: Z2_VOLUME_-_(2)
+name: Z2_VOL-_(2)
 type: parsed
 protocol: NECext
 address: D2 12 00 00

@@ -67,25 +67,25 @@ protocol: RCA
 address: 0F 00 00 00
 command: 2A 00 00 00
 #
-name: CHANNEL_DOWN
+name: CH-
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 2C 00 00 00
 #
-name: CHANNEL_UP
+name: CH+
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 2D 00 00 00
 #
-name: VOLUME_DOWN
+name: VOL-
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 2E 00 00 00
 #
-name: VOLUME_UP
+name: VOL+
 type: parsed
 protocol: RCA
 address: 0F 00 00 00

@@ -85,13 +85,13 @@ protocol: NECext
 address: A4 00 00 00
 command: 4D 00 00 00
 #
-name: FREQ/CH_UP
+name: FREQ/CH+
 type: parsed
 protocol: NECext
 address: A4 00 00 00
 command: 56 00 00 00
 #
-name: FREQ/CH_DOWN
+name: FREQ/CH-
 type: parsed
 protocol: NECext
 address: A4 00 00 00

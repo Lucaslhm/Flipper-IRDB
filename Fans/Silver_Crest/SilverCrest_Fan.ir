@@ -3,7 +3,7 @@ Version: 1
 # 
 # Silver Crest Fan 
 #
-name: On
+name: POWER
 type: parsed
 protocol: NEC
 address: 00 00 00 00

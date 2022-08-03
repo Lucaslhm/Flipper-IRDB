@@ -55,7 +55,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 08 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -301,7 +301,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 43 00 00 00
 #
-name: KEY_LOCK
+name: LOCK
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -349,7 +349,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 48 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -361,7 +361,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: 49 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 18 E9 00 00
@@ -673,7 +673,7 @@ protocol: NECext
 address: 18 E9 00 00
 command: C3 00 00 00
 #
-name: CTL_KEY_LOCK
+name: CTL_LOCK
 type: parsed
 protocol: NECext
 address: 18 E9 00 00

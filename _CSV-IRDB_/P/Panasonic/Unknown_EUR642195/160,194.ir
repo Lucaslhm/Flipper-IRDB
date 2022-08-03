@@ -7,7 +7,7 @@ protocol: NECext
 address: A0 C2 00 00
 command: 80 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
@@ -19,13 +19,13 @@ protocol: NECext
 address: A0 C2 00 00
 command: 82 00 00 00
 #
-name: KEY_BACK
+name: BACK
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 84 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
@@ -43,7 +43,7 @@ protocol: NECext
 address: A0 C2 00 00
 command: 8B 00 00 00
 #
-name: KEY_CANCEL
+name: CANCEL
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
@@ -55,67 +55,67 @@ protocol: NECext
 address: A0 C2 00 00
 command: 8F 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 90 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 91 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 92 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 93 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 94 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 95 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 96 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 97 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 98 00 00 00
 #
-name: KEY_10CHANNELSUP
+name: 10CHANNELSUP
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: 9F 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
@@ -127,13 +127,13 @@ protocol: NECext
 address: A0 C2 00 00
 command: A0 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: A2 00 00 00
 #
-name: KEY_FASTFORWARD
+name: FASTFORWARD
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
@@ -163,13 +163,13 @@ protocol: NECext
 address: A0 C2 00 00
 command: AF 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: B0 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
@@ -181,19 +181,19 @@ protocol: NECext
 address: A0 C2 00 00
 command: B8 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: BC 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: A0 C2 00 00
 command: BF 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: A0 C2 00 00

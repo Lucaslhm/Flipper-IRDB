@@ -157,25 +157,25 @@ protocol: NECext
 address: 7D 00 00 00
 command: 6F 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
 command: 70 00 00 00
 #
-name: Z2_VOLUME_+
+name: Z2_VOL+
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
 command: 70 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
 command: 71 00 00 00
 #
-name: Z2_VOLUME_-
+name: Z2_VOL-
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
@@ -319,13 +319,13 @@ protocol: NECext
 address: 7D 00 00 00
 command: 8C 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
 command: 8D 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
@@ -727,7 +727,7 @@ protocol: NECext
 address: 7D 00 00 00
 command: DB 00 00 00
 #
-name: STANDBY/ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
@@ -757,7 +757,7 @@ protocol: NECext
 address: 7D 00 00 00
 command: E3 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
@@ -769,7 +769,7 @@ protocol: NECext
 address: 7D 00 00 00
 command: E4 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7D 00 00 00
@@ -895,7 +895,7 @@ protocol: NECext
 address: 7D 00 00 00
 command: F5 00 00 00
 #
-name: TUNER_PRESET/CH_UP
+name: TUNER_PRESET/CH+
 type: parsed
 protocol: NECext
 address: 7D 00 00 00

@@ -19,7 +19,7 @@ protocol: SIRC15
 address: 10 00 00 00
 command: 27 00 00 00
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: SIRC15
 address: 10 00 00 00

@@ -259,13 +259,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 1E 00 00 00
 #
-name: (TV)_VOLUME_+
+name: (TV)_VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 1E 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -283,7 +283,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 1E 00 00 00
 #
-name: TV_VOLUME_+
+name: TV_VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -295,7 +295,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 1E 00 00 00
 #
-name: VCR_VOLUME_+
+name: VCR_VOL+
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -325,13 +325,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 1F 00 00 00
 #
-name: (TV)_VOLUME_-
+name: (TV)_VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 1F 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -349,7 +349,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 1F 00 00 00
 #
-name: TV_VOLUME_-
+name: TV_VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00
@@ -367,7 +367,7 @@ protocol: NECext
 address: 03 00 00 00
 command: 1F 00 00 00
 #
-name: VCR_VOLUME_-
+name: VCR_VOL-
 type: parsed
 protocol: NECext
 address: 03 00 00 00

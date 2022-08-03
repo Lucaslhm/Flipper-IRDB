@@ -73,19 +73,19 @@ protocol: NECext
 address: B3 00 00 00
 command: 5B 00 00 00
 #
-name: CD_10_KEY_1
+name: CD_10_1
 type: parsed
 protocol: NECext
 address: B3 00 00 00
 command: 61 00 00 00
 #
-name: CD_10_KEY_2
+name: CD_10_2
 type: parsed
 protocol: NECext
 address: B3 00 00 00
 command: 62 00 00 00
 #
-name: CD_10_KEY_3
+name: CD_10_3
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -97,37 +97,37 @@ protocol: NECext
 address: B3 00 00 00
 command: 63 00 00 00
 #
-name: CD_10_KEY_4
+name: CD_10_4
 type: parsed
 protocol: NECext
 address: B3 00 00 00
 command: 64 00 00 00
 #
-name: CD_10_KEY_5
+name: CD_10_5
 type: parsed
 protocol: NECext
 address: B3 00 00 00
 command: 65 00 00 00
 #
-name: CD_10_KEY_6
+name: CD_10_6
 type: parsed
 protocol: NECext
 address: B3 00 00 00
 command: 66 00 00 00
 #
-name: CD_10_KEY_7
+name: CD_10_7
 type: parsed
 protocol: NECext
 address: B3 00 00 00
 command: 67 00 00 00
 #
-name: CD_10_KEY_8
+name: CD_10_8
 type: parsed
 protocol: NECext
 address: B3 00 00 00
 command: 68 00 00 00
 #
-name: CD_10_KEY_9
+name: CD_10_9
 type: parsed
 protocol: NECext
 address: B3 00 00 00
@@ -157,13 +157,13 @@ protocol: NECext
 address: B3 00 00 00
 command: 6D 00 00 00
 #
-name: CD_10_KEY_10
+name: CD_10_10
 type: parsed
 protocol: NECext
 address: B3 00 00 00
 command: 6E 00 00 00
 #
-name: CD_10_KEY_+10
+name: CD_10_+10
 type: parsed
 protocol: NECext
 address: B3 00 00 00

@@ -55,13 +55,13 @@ frequency: 40244
 duty_cycle: 0.330000
 data: 2361 596 1193 596 596 596 596 596 1193 596 1193 596 1193 596 596 596 1193 596 596 596 596 596 596 596 1193 24351
 #
-name: On-screen--On/off
+name: On-screen--POWER
 type: raw
 frequency: 40244
 duty_cycle: 0.330000
 data: 2361 596 1193 596 1193 596 596 596 596 596 1193 596 596 596 1193 596 596 596 596 596 596 596 596 596 1193 24948
 #
-name: Titler-on/off
+name: Titler-POWER
 type: raw
 frequency: 40244
 duty_cycle: 0.330000
@@ -133,7 +133,7 @@ frequency: 40244
 duty_cycle: 0.330000
 data: 2361 596 1193 596 596 596 1193 596 596 596 1193 596 596 596 1193 596 596 596 1193 596 596 596 596 596 1193 24351
 #
-name: On/off
+name: POWER
 type: raw
 frequency: 40244
 duty_cycle: 0.330000
@@ -151,7 +151,7 @@ frequency: 40244
 duty_cycle: 0.330000
 data: 2361 596 596 596 1193 596 596 596 1193 596 596 596 596 596 1193 596 596 596 1193 596 596 596 596 596 1193 24948
 #
-name: EQ-On/Off
+name: EQ-POWER
 type: raw
 frequency: 40244
 duty_cycle: 0.330000
@@ -229,7 +229,7 @@ frequency: 40244
 duty_cycle: 0.330000
 data: 2361 596 596 596 596 596 1193 596 596 596 596 596 596 596 1193 596 596 596 596 596 596 596 596 596 1193 26141
 #
-name: Mute
+name: MUTE
 type: raw
 frequency: 40244
 duty_cycle: 0.330000

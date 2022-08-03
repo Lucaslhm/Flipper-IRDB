@@ -133,7 +133,7 @@ protocol: NECext
 address: 02 FF 00 00
 command: 17 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 02 FF 00 00

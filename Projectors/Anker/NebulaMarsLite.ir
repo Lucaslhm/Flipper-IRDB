@@ -3,7 +3,7 @@ Version: 1
 # 
 # Anker Nebula Mars Lite Projector
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 80 19 00 00
@@ -63,13 +63,13 @@ protocol: NECext
 address: 80 19 00 00
 command: 19 E6 00 00
 # 
-name: Vol_Up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 80 19 00 00
 command: 1C E3 00 00
 # 
-name: Vol_Down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 80 19 00 00

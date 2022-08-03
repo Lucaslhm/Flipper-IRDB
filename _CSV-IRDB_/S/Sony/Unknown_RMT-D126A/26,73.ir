@@ -1,43 +1,43 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 0B 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 0E 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 0F 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 15 00 00 00
 #
-name: KEY_OPEN
+name: OPEN
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 16 00 00 00
 #
-name: KEY_TITLE
+name: TITLE
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 1A 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -49,13 +49,13 @@ protocol: NECext
 address: 1A 49 00 00
 command: 1F 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 22 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -73,25 +73,25 @@ protocol: NECext
 address: 1A 49 00 00
 command: 2A 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 2C 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 30 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 31 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -103,13 +103,13 @@ protocol: NECext
 address: 1A 49 00 00
 command: 35 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 38 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -121,13 +121,13 @@ protocol: NECext
 address: 1A 49 00 00
 command: 48 00 00 00
 #
-name: KEY_SEARCH
+name: SEARCH
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 4B 00 00 00
 #
-name: KEY_SETUP
+name: SETUP
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -151,43 +151,43 @@ protocol: NECext
 address: 1A 49 00 00
 command: 5C 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 63 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 64 00 00 00
 #
-name: KEY_ANGLE
+name: ANGLE
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 65 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 79 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 7A 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
 command: 7B 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 1A 49 00 00

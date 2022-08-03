@@ -43,7 +43,7 @@ protocol: NECext
 address: 19 6B 00 00
 command: 25 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 19 6B 00 00

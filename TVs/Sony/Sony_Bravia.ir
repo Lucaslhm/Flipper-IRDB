@@ -1,31 +1,31 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: Chan_up
+name: CH+
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 8958 4449 510 4475 515 4444 515 2213 508 4477 513 2215 516 2212 509 2219 512 2217 514 2214 517 2211 540 2214 517 2211 510 4449 510 2218 513 4472 507 2220 511 30572 8960 2218 513 87698 8966 2211 510 87701 8963 2214 568
 # 
-name: Chan_down
+name: CH-
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -73,7 +73,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

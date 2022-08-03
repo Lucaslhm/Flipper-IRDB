@@ -4,7 +4,7 @@ Version: 1
 # Samsung Smart Remote used on The Frame TVs
 # Usually the remote connects to the OneConnect via bluetooth, but can also detect IR.
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -52,31 +52,31 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1222 1189 432 591 434 890 438 2385 439 585 440 1483 431 2092 439 1484 441 583 432 2092 439 884 434 2390 435 86917 331 925 330 373 338 642 331
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: CH_up
+name: CH+
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1253 1157 464 560 465 858 460 2364 460 563 462 1462 463 1761 467 1156 465 1159 462 2661 467 1456 469 1155 466 86886 331 925 330 373 328 652 331
 # 
-name: CH_down
+name: CH-
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

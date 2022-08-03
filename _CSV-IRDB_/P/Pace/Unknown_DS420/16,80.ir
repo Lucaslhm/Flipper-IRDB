@@ -25,13 +25,13 @@ protocol: NECext
 address: 10 50 00 00
 command: 00 00 00 00
 #
-name: vol+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 10 50 00 00
 command: 00 00 00 00
 #
-name: vol-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 10 50 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: 10 50 00 00
 command: 06 00 00 00
 #
-name: mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 10 50 00 00

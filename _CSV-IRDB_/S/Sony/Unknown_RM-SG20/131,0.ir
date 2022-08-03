@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 00 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 02 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 03 00 00 00
 #
-name: KEY_TAPE
+name: TAPE
 type: parsed
 protocol: NECext
 address: 83 00 00 00
@@ -49,7 +49,7 @@ protocol: NECext
 address: 83 00 00 00
 command: 4D 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 83 00 00 00
@@ -67,7 +67,7 @@ protocol: NECext
 address: 83 00 00 00
 command: 55 00 00 00
 #
-name: KEY_TIME
+name: TIME
 type: parsed
 protocol: NECext
 address: 83 00 00 00
@@ -91,43 +91,43 @@ protocol: NECext
 address: 83 00 00 00
 command: 8E 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 92 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 93 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 94 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 95 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 9A 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 83 00 00 00
 command: 9B 00 00 00
 #
-name: KEY_TIME
+name: TIME
 type: parsed
 protocol: NECext
 address: 83 00 00 00

@@ -7,7 +7,7 @@ protocol: NECext
 address: 74 0F 00 00
 command: 0C 00 00 00
 #
-name: ON/OFF
+name: POWER
 type: parsed
 protocol: NECext
 address: 74 0F 00 00
@@ -43,7 +43,7 @@ protocol: NECext
 address: 74 0F 00 00
 command: 12 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 74 0F 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: 74 0F 00 00
 command: 13 00 00 00
 #
-name: CH_DOWN
+name: CH-
 type: parsed
 protocol: NECext
 address: 74 0F 00 00

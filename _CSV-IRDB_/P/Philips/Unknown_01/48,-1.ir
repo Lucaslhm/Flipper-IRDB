@@ -1,67 +1,67 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 00 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 01 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 02 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 03 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 04 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 05 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 06 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 07 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 08 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 09 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -79,7 +79,7 @@ protocol: NECext
 address: 30 00 00 00
 command: 13 00 00 00
 #
-name: KEY_AGAIN
+name: AGAIN
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -97,31 +97,31 @@ protocol: NECext
 address: 30 00 00 00
 command: 1F 00 00 00
 #
-name: KEY_NEXT
+name: NEXT
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 20 00 00 00
 #
-name: KEY_PREVIOUS
+name: PREVIOUS
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 21 00 00 00
 #
-name: KEY_SLOW
+name: SLOW
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 22 00 00 00
 #
-name: KEY_FORWARD
+name: FORWARD
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 28 00 00 00
 #
-name: KEY_REWIND
+name: REWIND
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -133,25 +133,25 @@ protocol: NECext
 address: 30 00 00 00
 command: 2A 00 00 00
 #
-name: KEY_PLAY
+name: PLAY
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 2C 00 00 00
 #
-name: KEY_PAUSE
+name: PAUSE
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 30 00 00 00
 #
-name: KEY_STOP
+name: STOP
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 31 00 00 00
 #
-name: KEY_RECORD
+name: RECORD
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -163,7 +163,7 @@ protocol: NECext
 address: 30 00 00 00
 command: 3B 00 00 00
 #
-name: KEY_CLEAR
+name: CLEAR
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -175,13 +175,13 @@ protocol: NECext
 address: 30 00 00 00
 command: 43 00 00 00
 #
-name: KEY_SUBTITLE
+name: SUBTITLE
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 4B 00 00 00
 #
-name: KEY_AUDIO
+name: AUDIO
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -193,31 +193,31 @@ protocol: NECext
 address: 30 00 00 00
 command: 54 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 58 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 59 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 5A 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: 5B 00 00 00
 #
-name: KEY_ANGLE
+name: ANGLE
 type: parsed
 protocol: NECext
 address: 30 00 00 00
@@ -229,25 +229,25 @@ protocol: NECext
 address: 30 00 00 00
 command: C8 00 00 00
 #
-name: KEY_EDIT
+name: EDIT
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: CF 00 00 00
 #
-name: KEY_TUNER
+name: TUNER
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: EE 00 00 00
 #
-name: KEY_ZOOM
+name: ZOOM
 type: parsed
 protocol: NECext
 address: 30 00 00 00
 command: F7 00 00 00
 #
-name: KEY_SELECT
+name: SELECT
 type: parsed
 protocol: NECext
 address: 30 00 00 00

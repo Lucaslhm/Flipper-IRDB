@@ -4,7 +4,7 @@ Filetype: IR signals file
 #
 Version: 1
 #
-name: On
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 EF 00 00

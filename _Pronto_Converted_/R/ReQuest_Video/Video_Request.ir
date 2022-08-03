@@ -13,7 +13,7 @@ frequency: 38740
 duty_cycle: 0.330000
 data: 1626 800 4956 1626 800 800 1626 1626 2452 2452 800 1626 4956 2452 3304 1626 2452 2452
 #
-name: Power
+name: POWER
 type: raw
 frequency: 38740
 duty_cycle: 0.330000

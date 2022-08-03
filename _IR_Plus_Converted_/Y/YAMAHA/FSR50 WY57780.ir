@@ -9,7 +9,7 @@ protocol: NECext
 address: E1 1E 00 00
 command: CC 33 00 00
 #
-name: ON
+name: POWER
 protocol: NECext
 address: E1 1E 00 00
 command: 81 7E 00 00
@@ -79,7 +79,7 @@ protocol: NECext
 address: E1 1E 00 00
 command: C1 3E 00 00
 #
-name: UNIV VOLUME
+name: UNIV VOL+
 protocol: NECext
 address: E1 1E 00 00
 command: AE 51 00 00

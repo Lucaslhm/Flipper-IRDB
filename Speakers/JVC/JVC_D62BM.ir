@@ -4,7 +4,7 @@ Version: 1
 
 # 
 
-name: Power
+name: POWER
 
 type: parsed
 
@@ -16,7 +16,7 @@ command: 53 AC 00 00
 
 # 
 
-name: Mute
+name: MUTE
 
 type: parsed
 
@@ -28,7 +28,7 @@ command: AD 52 00 00
 
 # 
 
-name: Vol_up
+name: VOL+
 
 type: parsed
 
@@ -40,7 +40,7 @@ command: 26 D9 00 00
 
 # 
 
-name: Vol_down
+name: VOL-
 
 type: parsed
 

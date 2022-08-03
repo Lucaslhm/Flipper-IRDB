@@ -3,13 +3,13 @@ Version: 1
 # 
 # JXD 021 AOC Monitor
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 12 ED 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

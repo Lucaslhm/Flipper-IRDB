@@ -79,13 +79,13 @@ protocol: NECext
 address: 1C 00 00 00
 command: 56 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
 command: 57 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
@@ -97,7 +97,7 @@ protocol: NECext
 address: 1C 00 00 00
 command: 83 00 00 00
 #
-name: ON/OFF
+name: POWER
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
@@ -109,7 +109,7 @@ protocol: NECext
 address: 1C 00 00 00
 command: 87 00 00 00
 #
-name: ON/OFF-SIMPLE_REMOTE
+name: POWER-SIMPLE_REMOTE
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
@@ -379,7 +379,7 @@ protocol: NECext
 address: 1C 00 00 00
 command: D0 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 1C 00 00 00
@@ -409,7 +409,7 @@ protocol: NECext
 address: 1C 00 00 00
 command: D7 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 1C 00 00 00

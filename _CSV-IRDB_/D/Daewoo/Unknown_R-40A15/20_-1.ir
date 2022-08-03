@@ -61,13 +61,13 @@ protocol: NECext
 address: 14 00 00 00
 command: 09 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 14 00 00 00
 command: 13 00 00 00
 #
-name: VOL_DOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 14 00 00 00
@@ -85,13 +85,13 @@ protocol: NECext
 address: 14 00 00 00
 command: 16 00 00 00
 #
-name: CH_UP
+name: CH+
 type: parsed
 protocol: NECext
 address: 14 00 00 00
 command: 17 00 00 00
 #
-name: CH_DOWN
+name: CH-
 type: parsed
 protocol: NECext
 address: 14 00 00 00

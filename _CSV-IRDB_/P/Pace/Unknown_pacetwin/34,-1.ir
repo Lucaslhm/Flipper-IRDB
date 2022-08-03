@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: power
+name: POWER
 type: parsed
 protocol: NECext
 address: 22 00 00 00
 command: 00 00 00 00
 #
-name: mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 22 00 00 00
@@ -127,7 +127,7 @@ protocol: NECext
 address: 22 00 00 00
 command: 32 00 00 00
 #
-name: ch_up
+name: CH+
 type: parsed
 protocol: NECext
 address: 22 00 00 00
@@ -139,13 +139,13 @@ protocol: NECext
 address: 22 00 00 00
 command: 34 00 00 00
 #
-name: vol_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 22 00 00 00
 command: 35 00 00 00
 #
-name: ch_down
+name: CH-
 type: parsed
 protocol: NECext
 address: 22 00 00 00
@@ -157,7 +157,7 @@ protocol: NECext
 address: 22 00 00 00
 command: 37 00 00 00
 #
-name: vol_down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 22 00 00 00
@@ -277,7 +277,7 @@ protocol: NECext
 address: 22 00 00 00
 command: 5D 00 00 00
 #
-name: ch_down_2
+name: CH-_2
 type: parsed
 protocol: NECext
 address: 22 00 00 00

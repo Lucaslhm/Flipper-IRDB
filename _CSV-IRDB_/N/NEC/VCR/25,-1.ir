@@ -727,13 +727,13 @@ protocol: NECext
 address: 19 00 00 00
 command: 92 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 19 00 00 00
 command: 93 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 19 00 00 00

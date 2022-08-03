@@ -73,13 +73,13 @@ protocol: NECext
 address: 1A 00 00 00
 command: 08 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 1A 00 00 00
 command: 09 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 1A 00 00 00

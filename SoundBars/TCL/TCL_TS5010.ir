@@ -3,7 +3,7 @@ Version: 1
 # 
 # TCL TS5010 Soundbar
 #
-name: PowerToggle
+name: POWERToggle
 type: parsed
 protocol: NECext
 address: 86 FF 00 00

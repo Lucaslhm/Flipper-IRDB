@@ -7,7 +7,7 @@ protocol: NECext
 address: 8B 47 00 00
 command: 01 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 8B 47 00 00
@@ -103,13 +103,13 @@ protocol: NECext
 address: 8B 47 00 00
 command: 20 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 8B 47 00 00
 command: 23 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 8B 47 00 00

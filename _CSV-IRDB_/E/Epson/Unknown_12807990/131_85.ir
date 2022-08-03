@@ -1,127 +1,127 @@
 Filetype: IR signals file
 Version: 1
 #
-name: KEY_ESC
+name: ESC
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 84 00 00 00
 #
-name: KEY_ENTER
+name: ENTER
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 85 00 00 00
 #
-name: KEY_PAGEUP
+name: PAGEUP
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 86 00 00 00
 #
-name: KEY_PAGEDOWN
+name: PAGEDOWN
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 87 00 00 00
 #
-name: KEY_ZOOMIN
+name: ZOOMIN
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 88 00 00 00
 #
-name: KEY_ZOOMOUT
+name: ZOOMOUT
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 89 00 00 00
 #
-name: KEY_3
+name: 3
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 8A 00 00 00
 #
-name: KEY_SEARCH
+name: SEARCH
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 8C 00 00 00
 #
-name: KEY_6
+name: 6
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 8F 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 90 00 00 00
 #
-name: KEY_9
+name: 9
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 92 00 00 00
 #
-name: KEY_8
+name: 8
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 93 00 00 00
 #
-name: KEY_4
+name: 4
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 94 00 00 00
 #
-name: KEY_5
+name: 5
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 95 00 00 00
 #
-name: KEY_2
+name: 2
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 96 00 00 00
 #
-name: KEY_1
+name: 1
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 97 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 98 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 99 00 00 00
 #
-name: KEY_MENU
+name: MENU
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 9A 00 00 00
 #
-name: KEY_7
+name: 7
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: 9B 00 00 00
 #
-name: KEY_0
+name: 0
 type: parsed
 protocol: NECext
 address: 83 55 00 00
@@ -133,25 +133,25 @@ protocol: NECext
 address: 83 55 00 00
 command: 9F 00 00 00
 #
-name: KEY_UP
+name: UP
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: B0 00 00 00
 #
-name: KEY_RIGHT
+name: RIGHT
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: B1 00 00 00
 #
-name: KEY_DOWN
+name: DOWN
 type: parsed
 protocol: NECext
 address: 83 55 00 00
 command: B2 00 00 00
 #
-name: KEY_LEFT
+name: LEFT
 type: parsed
 protocol: NECext
 address: 83 55 00 00

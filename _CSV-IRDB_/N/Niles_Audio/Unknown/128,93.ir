@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 80 5D 00 00

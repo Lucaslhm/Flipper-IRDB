@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: RC5
 address: 10 00 00 00
 command: 10 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: RC5
 address: 10 00 00 00
 command: 11 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: RC5
 address: 10 00 00 00

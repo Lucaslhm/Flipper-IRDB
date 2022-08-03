@@ -3,7 +3,7 @@ Version: 1
 # 
 # Steljes Desktop Speakers
 #
-name: On_off
+name: POWER
 type: parsed
 protocol: NECext
 address: 85 23 00 00
@@ -21,7 +21,7 @@ protocol: NECext
 address: 85 23 00 00
 command: 47 B8 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 85 23 00 00

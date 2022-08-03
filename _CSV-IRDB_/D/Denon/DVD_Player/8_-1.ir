@@ -895,7 +895,7 @@ protocol: NECext
 address: 08 00 00 00
 command: B1 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: 08 00 00 00

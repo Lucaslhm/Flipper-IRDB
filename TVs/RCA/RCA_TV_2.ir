@@ -3,13 +3,13 @@ Version: 1
 # 
 # RCA TV
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 5F 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -39,13 +39,13 @@ protocol: NEC
 address: A0 00 00 00
 command: 14 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 40 00 00 00
 # 
-name: Vol_dwn
+name: VOL-
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -75,7 +75,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 10 00 00 00
 # 
-name: Chan_up
+name: CH+
 type: parsed
 protocol: NEC
 address: A0 00 00 00

@@ -25,7 +25,7 @@ protocol: NECext
 address: F3 C0 00 00
 command: 01 00 00 00
 #
-name: ON
+name: POWER
 type: parsed
 protocol: NECext
 address: F3 C0 00 00
@@ -235,19 +235,19 @@ protocol: NECext
 address: F3 C0 00 00
 command: 23 00 00 00
 #
-name: 016_VOLUME_-
+name: 016_VOL-
 type: parsed
 protocol: NECext
 address: F3 C0 00 00
 command: 23 00 00 00
 #
-name: VOLUME_-
+name: VOL-
 type: parsed
 protocol: NECext
 address: F3 C0 00 00
 command: 23 00 00 00
 #
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: F3 C0 00 00
@@ -259,13 +259,13 @@ protocol: NECext
 address: F3 C0 00 00
 command: 24 00 00 00
 #
-name: 016_VOLUME_+
+name: 016_VOL+
 type: parsed
 protocol: NECext
 address: F3 C0 00 00
 command: 24 00 00 00
 #
-name: VOLUME_+
+name: VOL+
 type: parsed
 protocol: NECext
 address: F3 C0 00 00

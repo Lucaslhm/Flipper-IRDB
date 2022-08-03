@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: ON/OFF
+name: POWER
 type: raw
 frequency: 38381
 duty_cycle: 0.330000

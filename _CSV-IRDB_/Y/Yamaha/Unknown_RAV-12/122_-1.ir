@@ -127,19 +127,19 @@ protocol: NECext
 address: 7A 00 00 00
 command: 18 00 00 00
 #
-name: KEY_VOLUMEUP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 1A 00 00 00
 #
-name: KEY_VOLUMEDOWN
+name: VOL-
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
 command: 1B 00 00 00
 #
-name: KEY_POWER
+name: POWER
 type: parsed
 protocol: NECext
 address: 7A 00 00 00
@@ -187,7 +187,7 @@ protocol: NECext
 address: 7A 00 00 00
 command: 55 00 00 00
 #
-name: KEY_SLEEP
+name: SLEEP
 type: parsed
 protocol: NECext
 address: 7A 00 00 00

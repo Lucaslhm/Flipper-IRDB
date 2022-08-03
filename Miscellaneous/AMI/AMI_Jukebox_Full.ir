@@ -3,7 +3,7 @@ Version: 1
 # 
 # AMI Jukebox
 #
-name: Power
+name: POWER
 type: parsed
 protocol: RC5
 address: 14 00 00 00

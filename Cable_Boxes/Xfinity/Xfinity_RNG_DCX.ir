@@ -4,7 +4,7 @@ Version: 1
 # Xfinity Cable Box (Old Style) RNG DCX
 # 3 DEVICE UNIVERSAL COMCAST XFINITY REMOTE CONTROL RNG DCX
 # 
-name: Power
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
