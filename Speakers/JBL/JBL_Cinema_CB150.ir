@@ -3,25 +3,25 @@ Version: 1
 # 
 # JBL Cinema CB150
 #
-name: On_off
+name: POWER
 type: parsed
 protocol: NECext
 address: 86 FF 00 00
 command: 1B E4 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 86 FF 00 00
 command: 2A D5 00 00
 # 
-name: Volume_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 86 FF 00 00
 command: 14 EB 00 00
 # 
-name: Volume_down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 86 FF 00 00

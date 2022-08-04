@@ -9,13 +9,13 @@ protocol: NECext
 address: 48 12 00 00
 command: 88 08 00 00
 # 
-name: Temp_up
+name: TEMP+
 type: parsed
 protocol: NECext
 address: 48 12 00 00
 command: 88 09 00 00
 # 
-name: Temp_down
+name: TEMP-
 type: parsed
 protocol: NECext
 address: 48 12 00 00

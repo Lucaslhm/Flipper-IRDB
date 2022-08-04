@@ -3,7 +3,7 @@ Version: 1
 #
 # Ciatronic AC
 #
-name: Temp_down
+name: TEMP-
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
