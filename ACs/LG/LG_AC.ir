@@ -7,13 +7,13 @@ protocol: NECext
 address: 81 66 00 00
 command: 81 7E 00 00
 # 
-name: Temp Down
+name: TEMP-
 type: parsed
 protocol: NECext
 address: 81 66 00 00
 command: 8A 75 00 00
 # 
-name: Temp Up
+name: TEMP+
 type: parsed
 protocol: NECext
 address: 81 66 00 00
