@@ -13,13 +13,13 @@ protocol: NECext
 address: 01 FF 00 00
 command: 02 FD 00 00
 # 
-name: Minus
+name: TEMP-
 type: parsed
 protocol: NECext
 address: 01 FF 00 00
 command: 13 EC 00 00
 # 
-name: Plus
+name: TEMP+
 type: parsed
 protocol: NECext
 address: 01 FF 00 00

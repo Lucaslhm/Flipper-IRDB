@@ -9,7 +9,7 @@ protocol: NECext
 address: AB CD 00 00
 command: A1 5E 00 00
 # 
-name: Temp
+name: TEMP
 type: parsed
 protocol: NECext
 address: AB CD 00 00

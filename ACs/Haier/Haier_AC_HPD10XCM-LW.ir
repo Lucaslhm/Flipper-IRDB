@@ -9,13 +9,13 @@ protocol: NEC
 address: 20 00 00 00
 command: 02 00 00 00
 # 
-name: Temp_Up
+name: TEMP+
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 0A 00 00 00
 # 
-name: Temp_Down
+name: TEMP-
 type: parsed
 protocol: NEC
 address: 20 00 00 00
