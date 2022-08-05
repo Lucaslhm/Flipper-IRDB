@@ -1,0 +1,148 @@
+Filetype: IR signals file
+Version: 1
+# 
+# RGB LED Lightbulb (Chinese generic)
+#
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: Brighter
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Darker
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: R
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9054 4465 597 566 571 537 600 535 602 532 595 567 570 538 599 535 602 533 594 1649 595 1649 595 1649 595 1649 678 1566 594 1650 594 1650 594 1650 594 1651 603 559 568 541 596 1646 598 564 573 536 601 534 593 568 569 539 598 1644 600 1643 601 561 576 1640 604 1640 604 1641 603 1640 604
+# 
+name: G
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9046 4474 599 564 573 535 602 533 594 541 596 539 598 537 600 535 602 532 595 1649 595 1649 678 1567 604 1641 603 1642 602 1643 601 1644 600 1645 599 564 573 536 601 534 593 1651 603 559 568 541 596 539 598 537 600 1643 601 1645 599 1645 599 564 573 1644 600 1645 599 1647 597 1648 596 39826 9048 2232 596
+# 
+name: B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: W
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: R1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: R2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: R3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: R4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: G1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: G2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: G3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: G4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: B1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: B2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: B3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: B4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: Flash
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: Strobe
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Fade
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: Smooth
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
