@@ -1,0 +1,41 @@
+Filetype: IR signals file
+Version: 1
+# 
+# BenQ W105 Home Cinema Projector
+# https://www.benq.com/en-ap/projector/cinehome-home-cinema/w1050.html
+#
+name: On
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4F B0 00 00
+# 
+name: Off
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4E B1 00 00
+# 
+name: Hdmi_1
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 58 A7 00 00
+# 
+name: Hdmi_2
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 59 A6 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0E F1 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0D F2 00 00
