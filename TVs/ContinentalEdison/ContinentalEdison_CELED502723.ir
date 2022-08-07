@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Continental Edison CELED502723
+# Continental Edison CELED502723 TV
 #
 name: POWER
 type: parsed
