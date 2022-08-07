@@ -1,73 +1,75 @@
 Filetype: IR signals file
 Version: 1
-# ON/OFF
+#
+# Power Lighting Meteor VI LED light machine
+#
 name: On_Off
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 45 00 00 00
-# AUTO
+#
 name: Auto
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 40 00 00 00
-# MUSIC 1
+#
 name: Music_1
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 07 00 00 00
-# MUSIC 2
+#
 name: Music_2
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 15 00 00 00
-# MUSIC 3
+# 
 name: Music_3
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 09 00 00 00
-# STROBE
+#
 name: Strobe
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 19 00 00 00
-# PRO LIGHT -
-name: ProLght_Min
+#
+name: ProLght-
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 0C 00 00 00
-# PRO LIGHT +
-name: ProLght_Plus
+#
+name: ProLght+
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 5E 00 00 00
-# SPEED/SEN -
-name: SpdSen_Min
+#
+name: SpeedSen-
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 08 00 00 00
-# SPEED/SEN +
-name: SpdSen_Plus
+#
+name: SpeedSen+
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 5A 00 00 00
-# SPEED/STROBE -
-name: SpdStrb_Min
+#
+name: SpeedStrobe-
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 42 00 00 00
-# SPEED/STROBE -
-name: SpdStrb_Plus
+#
+name: SpeedStrobe+
 type: parsed
 protocol: NEC
 address: 00 00 00 00
