@@ -163,7 +163,7 @@ name: RIGHT
 type: parsed
 protocol: RC5
 address: 01 00 00 00
-command: 16 00 00 
+command: 16 00 00 00
 # 
 name: DOWN
 type: parsed
@@ -171,7 +171,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: ARROW_EARTH?
+name: ARROW_EARTH
 type: parsed
 protocol: RC5
 address: 01 00 00 00
