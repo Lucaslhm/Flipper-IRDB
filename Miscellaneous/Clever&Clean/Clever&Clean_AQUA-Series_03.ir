@@ -1,0 +1,67 @@
+Filetype: IR signals file
+Version: 1
+#
+# Clever&Clean AQUA-Series 03 robot vacuum. It has a remote for manual driving and basic operation mode changes
+# https://cleverclean.ru/catalog.php#!/%D0%9F%D0%94%D0%A3-AQUA-Series/p/58375149/category=66165395
+# there is a center key on remote as well, but Flipper does not record anything, and it does not do anything to vacuum. Or my remote has broken key =)
+# timings are measured around 5 times per signal, then averaged and rounded
+# currently manual drive is jerky, while with original remote it is smooth
+# be careful not to burn motors on manual drive
+# any improvements are welcome
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+# 3000 1000 seems to be preamble, 1500 and 750 to be bits
+data: 3000 1000 750 1500 1500 750 1500 750 1500 750 750 1500 1500 750 750 1500 1500
+#
+name: Left
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+# message is repeated all the time button is pressed, original capture has 35000 pause before next repeat, but not at the end
+# like this 3000 1000 x x x 35000 3000 1000 x x x 35000 3000 1000 x x x
+data: 3000 1000 750 1500 1500 750 750 1500 750 1500 750 1500 1500 750 750 1500 1500
+#
+name: Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3000 1000 750 1500 1500 750 750 1500 750 1500 750 1500 750 1500 750 1500 1500
+#
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3000 1000 750 1500 1500 750 750 1500 750 1500 750 1500 1500 750 1500 750 1500
+#
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3000 1000 750 1500 1500 750 750 1500 750 1500 750 1500 750 1500 1500 750 1500
+# I love when robot vacuum parks
+name: Home
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+# original recording has 3 repeats with 5200 pauses between 1-2 and 2-3 repeats
+# repeats removed because vacuum drives OK from single command
+data: 3000 1000 750 1500 1500 750 750 1500 1500 750 750 1500 750 1500 1500 750 1500
+#
+name: Mode
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+# original recording has 3 repeats without any pause
+# repeats removed because vacuum seems to jump 3 modes
+data: 3000 1000 750 1500 1500 750 750 1500 750 1500 1500 750 750 1500 1500 750 1500 750
+#
+name: Max
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+# original recording has 3 repeats with 6500 pauses between 1-2 and 2-3 repeats
+# repeats removed because vacuum drives OK from single command
+data: 3000 1000 750 1500 1500 750 750 1500 750 1500 1500 750 750 1500 1500 750 750
