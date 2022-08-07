@@ -1,0 +1,182 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 0F 00 00 00
+# 
+name: Portable
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: DF 00 00 00
+# 
+name: CD
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4A 00 00 00
+# 
+name: IPod
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: D0 00 00 00
+# 
+name: USB
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 29 00 00 00
+# 
+name: PresetL
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1C 00 00 00
+# 
+name: PresetR
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1B 00 00 00
+# 
+name: Tuner
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4B 00 00 00
+# 
+name: TuningL
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: A9 00 00 00
+# 
+name: TuningR
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: AA 00 00 00
+# 
+name: Memory
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: B2 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 8E 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 8F 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 9F 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: C1 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 02 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 04 00 00 00
+# 
+name: Forward
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 03 00 00 00
+# 
+name: Setup
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 9D 00 00 00
+# 
+name: FolderDn
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 28 00 00 00
+# 
+name: FolderUp
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 27 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 01 00 00 00
+# 
+name: Shuffle
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 07 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 0C 00 00 00
+# 
+name: Display
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 0A 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: A0 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4F 00 00 00
+# 
+name: VolumeUp
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1E 00 00 00
+# 
+name: VolumeDn
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1F 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 9C 00 00 00
