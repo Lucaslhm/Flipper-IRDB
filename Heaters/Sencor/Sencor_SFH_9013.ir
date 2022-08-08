@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Sencor SFH 9013 Heater
+#
 name: Power
 type: parsed
 protocol: NECext
