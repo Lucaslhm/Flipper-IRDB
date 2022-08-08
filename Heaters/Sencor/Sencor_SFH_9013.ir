@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sencor SFH 9013 Heater
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 84 7B 00 00
+# 
+name: 1300_2500
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 82 7D 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 86 79 00 00
+# 
+name: Oscilate
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 87 78 00 00
