@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sennheiser Ambeo Soundbar
+#
+name: Power
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 0B 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 0D 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 0E 00 00 00
+# 
+name: Source_up
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 11 00 00 00
+# 
+name: Source_down
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 12 00 00 00
+# 
+name: Night
+type: parsed
+protocol: RC5X
+address: 13 00 00 00
+command: 20 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 0C 00 00 00
+# 
+name: Neutral
+type: parsed
+protocol: RC5X
+address: 13 00 00 00
+command: 1F 00 00 00
+# 
+name: News
+type: parsed
+protocol: RC5X
+address: 13 00 00 00
+command: 1D 00 00 00
+# 
+name: Movie
+type: parsed
+protocol: RC5X
+address: 13 00 00 00
+command: 1B 00 00 00
+# 
+name: Music
+type: parsed
+protocol: RC5X
+address: 13 00 00 00
+command: 1C 00 00 00
+# 
+name: Sport
+type: parsed
+protocol: RC5X
+address: 13 00 00 00
+command: 1E 00 00 00
+# 
+name: Ambeo
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 14 00 00 00
+# 
+name: Record
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 35 00 00 00
