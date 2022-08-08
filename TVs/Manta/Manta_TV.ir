@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Manta TV
+#
+name: On
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 00 FF 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 48 B7 00 00
+# 
+name: Vol_dwn
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 49 B6 00 00
+# 
+name: Prog_up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4A B5 00 00
+# 
+name: Prog_dwn
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4B B4 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 01 FE 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 16 E9 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 10 EF 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 13 EC 00 00
+# 
+name: Dwn
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 14 EB 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 12 ED 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 11 EE 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 64 9B 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 40 BF 00 00
