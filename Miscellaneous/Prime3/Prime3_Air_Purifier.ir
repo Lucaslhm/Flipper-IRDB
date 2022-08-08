@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Prime3 Air Purifier
+#
+name: On
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 00 00 00 00
+# 
+name: Speed
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: Plus
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: Minus
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: Steralise
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Anion
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 03 00 00 00
