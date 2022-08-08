@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+# 
+# V-TAC VT5050 LED Strip
+#
+name: On
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+# 
+name: Off
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+# 
+name: Bright_Up
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Bright_Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6611 147 2428 4472 605 535 610 529 606 532 603 532 603 532 603 531 604 530 605 529 606 1632 596 1640 599 1639 600 1639 600 538 607 1632 607 1632 607 1632 607 1633 606 532 603 533 602 535 600 536 599 537 598 539 606 529 606 530 605 1633 606 1633 606 1633 606 1633 606 1633 606 1633 606 1632 607 40787 9187 2210 607
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: White
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
