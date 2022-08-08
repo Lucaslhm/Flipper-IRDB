@@ -39,7 +39,7 @@ protocol: NEC
 address: 81 00 00 00
 command: 69 00 00 00
 # 
-name: M
+name: MODE
 type: parsed
 protocol: NEC
 address: 81 00 00 00
