@@ -3,7 +3,7 @@ Version: 1
 #
 # Toshiba RAS-13SKV2-E
 # 
-name: POWER_On
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
