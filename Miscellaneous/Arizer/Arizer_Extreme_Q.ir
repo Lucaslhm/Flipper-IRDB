@@ -1,0 +1,112 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Arizer Extreme Q Vaporizer
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+#
+name: Timer 0h
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+#
+name: Timer 2h
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+#
+name: Timer 4h
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+#
+name: Audio
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+#
+name: Light
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+#
+name: +
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1B 00 00 00
+#
+name: -
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
+#
+name: Fan 1
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+#
+name: Fan 2
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+#
+name: Fan 3
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+#
+name: Fan OFF
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
+#
+name: 50 °C
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 07 00 00 00
+#
+name: 100 °C
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 09 00 00 00
+#
+name: 200 °C
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+#
+name: 210 °C
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+#
+name: 220 °C
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0C 00 00 00
+#
+name: 230 °C
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0E 00 00 00
