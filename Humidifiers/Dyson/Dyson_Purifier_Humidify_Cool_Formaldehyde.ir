@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Dyson Purifier/Humidifier
+# https://www.dyson.com/air-treatment/air-purifier-humidifiers/purifier-humidify-cool-formaldehyde-ph04/white-gold
+#
 name: POWER
 type: raw
 frequency: 38000
