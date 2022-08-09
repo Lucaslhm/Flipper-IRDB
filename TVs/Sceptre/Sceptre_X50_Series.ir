@@ -1,0 +1,268 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sceptre C1TV53DG TV
+#
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: Channel_Up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Channel_Down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 11 00 00 00
+# 
+name: Source
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 25 00 00 00
+# 
+name: Up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 74 00 00 00
+# 
+name: Down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 75 00 00 00
+# 
+name: Left
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 34 00 00 00
+# 
+name: Right
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 33 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 0B 00 00 00
+# 
+name: 1
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 00 00 00 00
+# 
+name: 2
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: 3
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: 4
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 03 00 00 00
+# 
+name: 5
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: 6
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: 7
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: 8
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: 9
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: 0
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: _
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 20 00 00 00
+# 
+name: R
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3B 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 60 00 00 00
+# 
+name: Guide
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 65 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 16 00 00 00
+# 
+name: CC
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 23 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: Info
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3C 00 00 00
+# 
+name: Fav
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 18 00 00 00
+# 
+name: F_ADD_DEL
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 24 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 36 00 00 00
+# 
+name: USB
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 63 00 00 00
+# 
+name: YPbPr
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 45 00 00 00
+# 
+name: HDMI
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 39 00 00 00
+# 
+name: AUX_Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 6D 00 00 00
+# 
+name: AUX_Vol_Up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 72 00 00 00
+# 
+name: AUX_Vol_Down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 73 00 00 00
+# 
+name: AUX_Mode
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 71 00 00 00
+# 
+name: AUX_Source
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 70 00 00 00
+# 
+name: A_Red
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 7A 00 00 00
+# 
+name: B_Green
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 7B 00 00 00
+# 
+name: C_Yellow
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 7C 00 00 00
+# 
+name: D_Blue
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 7D 00 00 00
