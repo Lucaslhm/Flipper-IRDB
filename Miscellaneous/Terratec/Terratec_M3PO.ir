@@ -1,0 +1,112 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Terratec M3PO MP3 Player
+#
+name: Info
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 30 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 2F 00 00 00
+# 
+name: |<
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 12 00 00 00
+# 
+name: Play
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 31 00 00 00
+# 
+name: >|
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 13 00 00 00
+# 
+name: <<
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 21 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 0F 00 00 00
+# 
+name: >>
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 2A 00 00 00
+# 
+name: Speed -
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 10 00 00 00
+# 
+name: Normal
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 16 00 00 00
+# 
+name: Speed +
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 2B 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 2C 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 2D 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 2E 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 11 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 15 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 06 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC5X
+address: 0A 00 00 00
+command: 17 00 00 00
