@@ -9,25 +9,25 @@ protocol: NECext
 address: 00 BF 00 00
 command: 00 FF 00 00
 # 
-name: Vol_up
+name: Vol+
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 48 B7 00 00
 # 
-name: Vol_dwn
+name: Vol-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 49 B6 00 00
 # 
-name: Prog_up
+name: Ch+
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: Prog_dwn
+name: Ch-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -57,17 +57,11 @@ protocol: NECext
 address: 00 BF 00 00
 command: 13 EC 00 00
 # 
-name: Dwn
+name: Down
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 14 EB 00 00
-# 
-name: Right
-type: parsed
-protocol: NECext
-address: 00 BF 00 00
-command: 12 ED 00 00
 # 
 name: Left
 type: parsed
@@ -75,11 +69,11 @@ protocol: NECext
 address: 00 BF 00 00
 command: 11 EE 00 00
 # 
-name: Exit
+name: Right
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
-command: 15 EA 00 00
+command: 12 ED 00 00
 # 
 name: Aspect
 type: parsed
@@ -92,3 +86,9 @@ type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 40 BF 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
