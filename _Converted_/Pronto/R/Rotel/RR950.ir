@@ -1,0 +1,140 @@
+Filetype: IR signals file
+Version: 1
+#
+name: TUNER
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 9913 131 15146 131 9913 131 9913 131 30187
+#
+name: FAV_STA
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 15146 131 9913 131 9913 131 9913 131 30187
+#
+name: CHAN_DWN
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 15146 131 15146 131 9913 131 15146 131 30187
+#
+name: CH+
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 15146 131 15146 131 15146 131 9913 131 30187
+#
+name: CD
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 9913 131 15146 131 15146 131 9913 131 30187
+#
+name: RANDOM
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 15146 131 9913 131 15146 131 9913 131 30187
+#
+name: DISK
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 15146 131 15146 131 9913 131 9913 131 30187
+#
+name: CD_PLAY
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 15146 131 9913 131 9913 131 9913 131 30187
+#
+name: TAPE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 9913 131 15146 131 9913 131 15146 131 30187
+#
+name: TAPE_PSE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 9913 131 15146 131 15146 131 9913 131 30187
+#
+name: REW
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 15146 131 9913 131 9913 131 15146 131 30187
+#
+name: FFWD
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 15146 131 9913 131 9913 131 15146 131 30187
+#
+name: LD
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 15146 131 15146 131 9913 131 15146 131 30187
+#
+name: LD_PAUSE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 9913 131 9913 131 15146 131 15146 131 30187
+#
+name: LD_BACK
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 9913 131 9913 131 9913 131 15146 131 30187
+#
+name: LD_FWD
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 9913 131 9913 131 15146 131 9913 131 30187
+#
+name: <<SEARCH
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 15146 131 15146 131 9913 131 15146 131 15146 131 30187
+#
+name: SEARCH>>
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 15146 131 15146 131 15146 131 9913 131 30187
+#
+name: X
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 15146 131 9913 131 15146 131 9913 131 30187
+#
+name: MUTE
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 9913 131 15146 131 9913 131 9913 131 30187
+#
+name: VOL-
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 9913 131 9913 131 15146 131 15146 131 30187
+#
+name: VOL+
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 15146 131 9913 131 15146 131 15146 131 30187
+#
+name: STBY
+type: raw
+frequency: 38029
+duty_cycle: 0.330000
+data: 131 9913 131 9913 131 15146 131 15146 131 15146 131 30187

@@ -1,0 +1,248 @@
+Filetype: IR signals file
+Version: 1
+#
+name: 0
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 00 00 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 01 00 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 02 00 00 00
+#
+name: 3
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 03 00 00 00
+#
+name: 4
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 04 00 00 00
+#
+name: 5
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 05 00 00 00
+#
+name: 6
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 06 00 00 00
+#
+name: 7
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 07 00 00 00
+#
+name: 8
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 08 00 00 00
+#
+name: 9
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 09 00 00 00
+#
+name: 102ND
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 0A 00 00 00
+#
+name: MENU
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 0B 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: STOP
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 0E 00 00 00
+#
+name: INFO
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 0F 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 10 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 11 00 00 00
+#
+name: CHANNELUP
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 20 00 00 00
+#
+name: CHANNELDOWN
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 21 00 00 00
+#
+name: MONO
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 23 00 00 00
+#
+name: PS
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 24 00 00 00
+#
+name: TIMER
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 26 00 00 00
+#
+name: STORE
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 27 00 00 00
+#
+name: HOLD
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 29 00 00 00
+#
+name: TIME
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 2A 00 00 00
+#
+name: DOUBLE
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 2B 00 00 00
+#
+name: REVEAL
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 2C 00 00 00
+#
+name: UPDATE
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 2D 00 00 00
+#
+name: MIX
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 2E 00 00 00
+#
+name: STEREO
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 2F 00 00 00
+#
+name: YELLOW
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 32 00 00 00
+#
+name: BLUE
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 34 00 00 00
+#
+name: P100
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 35 00 00 00
+#
+name: GREEN
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 36 00 00 00
+#
+name: RED
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 37 00 00 00
+#
+name: AV
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 38 00 00 00
+#
+name: SELECT
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 3B 00 00 00
+#
+name: TX
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 3C 00 00 00
+#
+name: SYST
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 3D 00 00 00
+#
+name: TV
+type: parsed
+protocol: NECext
+address: 00 00 00 00
+command: 3F 00 00 00
