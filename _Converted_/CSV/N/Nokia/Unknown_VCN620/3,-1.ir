@@ -1,0 +1,170 @@
+Filetype: IR signals file
+Version: 1
+#
+name: 1
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 01 00 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 02 00 00 00
+#
+name: 3
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 03 00 00 00
+#
+name: 4
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 04 00 00 00
+#
+name: 5
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 05 00 00 00
+#
+name: 6
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 06 00 00 00
+#
+name: 7
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 07 00 00 00
+#
+name: 8
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 08 00 00 00
+#
+name: 9
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 09 00 00 00
+#
+name: 0
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 0A 00 00 00
+#
+name: TIME
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 0E 00 00 00
+#
+name: CHANNELUP
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 11 00 00 00
+#
+name: CHANNELDOWN
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 12 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 16 00 00 00
+#
+name: TIMER
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 19 00 00 00
+#
+name: CLEAR
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 20 00 00 00
+#
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 21 00 00 00
+#
+name: UP
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 22 00 00 00
+#
+name: LEFT
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 23 00 00 00
+#
+name: GREEN
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 25 00 00 00
+#
+name: DOWN
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 27 00 00 00
+#
+name: RECORD
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 28 00 00 00
+#
+name: RED
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 29 00 00 00
+#
+name: BLUE
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 2F 00 00 00
+#
+name: YELLOW
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 30 00 00 00
+#
+name: PIP
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 8C 00 00 00
+#
+name: PROG
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 98 00 00 00
+#
+name: OK
+type: parsed
+protocol: NECext
+address: 03 00 00 00
+command: 9A 00 00 00

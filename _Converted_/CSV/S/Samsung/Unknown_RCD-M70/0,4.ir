@@ -1,0 +1,92 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 00 00 00 00
+#
+name: band
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 02 00 00 00
+#
+name: STOP
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 05 00 00 00
+#
+name: program
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 12 00 00 00
+#
+name: RADIO
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 13 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 20 00 00 00
+#
+name: PLAY
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 21 00 00 00
+#
+name: tuning_right
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 22 00 00 00
+#
+name: CD
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 25 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 30 00 00 00
+#
+name: preset
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 31 00 00 00
+#
+name: tuning_left
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 32 00 00 00
+#
+name: sound
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 52 00 00 00
+#
+name: eq
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 53 00 00 00
+#
+name: SLEEP
+type: parsed
+protocol: NECext
+address: 00 04 00 00
+command: 67 00 00 00

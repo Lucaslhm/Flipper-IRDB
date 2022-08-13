@@ -1,0 +1,92 @@
+Filetype: IR signals file
+Version: 1
+#
+name: PLAYPAUSE
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 01 00 00 00
+#
+name: REPEAT/M-UP
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 02 00 00 00
+#
+name: SNOOZE
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 03 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 04 00 00 00
+#
+name: STOP/BAND
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 09 00 00 00
+#
+name: TIMER
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 0B 00 00 00
+#
+name: PRESET_EQ
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 0C 00 00 00
+#
+name: SKIP_+
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 11 00 00 00
+#
+name: RANDOM
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 12 00 00 00
+#
+name: SLEEP
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 13 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 17 00 00 00
+#
+name: SKIP_-
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 19 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 1F 00 00 00
+#
+name: FUNCTION
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: 60 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 81 81 00 00
+command: E0 00 00 00

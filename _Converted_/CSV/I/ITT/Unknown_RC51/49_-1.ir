@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+#
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 01 00 00 00
+#
+name: LEFT
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 02 00 00 00
+#
+name: STOP
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 10 00 00 00
+#
+name: PAUSE
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 11 00 00 00
+#
+name: REWIND
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 12 00 00 00
+#
+name: FORWARD
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 13 00 00 00
+#
+name: PLAY
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 14 00 00 00
+#
+name: RECORD
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 15 00 00 00
+#
+name: index
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 16 00 00 00
+#
+name: cycle
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 43 00 00 00
+#
+name: reset
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 44 00 00 00
+#
+name: program
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 46 00 00 00
+#
+name: M
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 4B 00 00 00
+#
+name: vps
+type: parsed
+protocol: NECext
+address: 31 00 00 00
+command: 4F 00 00 00

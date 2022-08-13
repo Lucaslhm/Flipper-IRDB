@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 81 6A 00 00
+command: 12 00 00 00
+#
+name: ATT
+type: parsed
+protocol: NECext
+address: 81 6A 00 00
+command: 14 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 81 6A 00 00
+command: 19 00 00 00
+#
+name: MODE
+type: parsed
+protocol: NECext
+address: 81 6A 00 00
+command: 1A 00 00 00
+#
+name: PRG
+type: parsed
+protocol: NECext
+address: 81 6A 00 00
+command: 1C 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 81 6A 00 00
+command: 1D 00 00 00
+#
+name: Tune/Track_Down
+type: parsed
+protocol: NECext
+address: 81 6A 00 00
+command: 1E 00 00 00
+#
+name: Tune/Track_Up
+type: parsed
+protocol: NECext
+address: 81 6A 00 00
+command: 1F 00 00 00
