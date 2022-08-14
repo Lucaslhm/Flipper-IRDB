@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Eufy 30C Robovac
+#
 name: Start_stop
 type: raw
 frequency: 38000
