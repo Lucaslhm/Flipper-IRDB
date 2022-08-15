@@ -9,4 +9,4 @@ See demo video here: https://github.com/danielweidman/flipper-pixmob-ir-codes
 2. `PixMob_all_colors.ir`: Codes to set bracelets to every possible color (with what reverse-engineering has found so far), but without the fade effects
 3. `PixMob_special.ir`: Special codes to do things like random colors, enter motion sensitive mode on very old PixMob bracelets, and more. It is easy to mess up bracelets using these codes because some have persistent effects. I don't recommend using this unless you are willing to mess up your bracelet and require a difficult reset.
 
-I reccomend `PixMob_main.ir` as a starting place.
+I recommend `PixMob_main.ir` as a starting place.
