@@ -1,0 +1,112 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Polk Audio Soundbar MagniFi Mini. Remote: POLK-RE9641
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 00 FF 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 20 DF 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 1E E1 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 1F E0 00 00
+# 
+name: Night_Effect
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 71 8E 00 00
+# 
+name: Bass_Up
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 5C A3 00 00
+# 
+name: Bass_Down
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 5D A2 00 00
+# 
+name: Voice_Up
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 6A 95 00 00
+# 
+name: Voice_Down
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 6B 94 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 21 DE 00 00
+# 
+name: Track_back
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 26 D9 00 00
+# 
+name: Track_fwd
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 24 DB 00 00
+# 
+name: SRC_TV_ARC
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 0F F0 00 00
+# 
+name: SRC_OPTICAL
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 0E F1 00 00
+# 
+name: SRC_AUX
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 0D F2 00 00
+# 
+name: Movie_mode
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 77 88 00 00
+# 
+name: Sports_mode
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 79 86 00 00
+# 
+name: Music_mode
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 78 87 00 00

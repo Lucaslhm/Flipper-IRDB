@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Klipsch Speakers R-15PM
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0A 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0D 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1C 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 07 00 00 00
+# 
+name: Phono
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 01 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 09 00 00 00
+# 
+name: Opt
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 00 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 5C 00 00 00
+# 
+name: Usb
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 48 00 00 00
+# 
+name: Skip_back
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 02 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1E 00 00 00
+# 
+name: Skip_forward
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 05 00 00 00
+# 
+name: Sub_up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0C 00 00 00
+# 
+name: Sub_down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 04 00 00 00
+# 
+name: Sub_reset
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 03 00 00 00
