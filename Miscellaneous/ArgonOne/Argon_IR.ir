@@ -1,0 +1,70 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Argon ONE V2 and Argon ONE M.2 Pi4/Kodi Box Remote
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9C 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CA 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D2 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 99 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C1 00 00 00
+# 
+name: Select
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CE 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9D 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CB 00 00 00
+# 
+name: Return
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 90 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 80 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 81 00 00 00
