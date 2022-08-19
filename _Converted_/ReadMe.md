@@ -26,9 +26,10 @@ NOTE: If you plan to copy them all, it's highly recommended to [dismount the SD 
 
 ## To Install power_all Remote On Your Flipper:  
 
-1. Backup your current tv.ir asset from /ext/infrared/assets/tv.ir
-2. Rename power_all.ir to tv.ir
-3. Then open "Universal TV Remote" on your Flipper and press "POWER" button.
+1. Backup your current `tv.ir` asset from `/ext/infrared/assets/tv.ir` in [QFlipper](https://flipperzero.one/update)
+2. Rename `power_all.ir` to `tv.ir`
+3. Drag and Drop in [QFlipper](https://flipperzero.one/update) the new `tv.ir` inside the `/ext/infrared/assets` folder
+4. Then open "Universal TV Remote" on your Flipper and press "POWER" button.
 
 **NOTES:**
 USE THIS WITH CAUTION!! This has the power functions for MULTIPLE DEVICES
