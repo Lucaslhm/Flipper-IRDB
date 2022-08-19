@@ -31,7 +31,8 @@ NOTE: If you plan to copy them all, it's highly recommended to [dismount the SD 
 3. Then open "Universal TV Remote" on your Flipper and press "POWER" button.
 
 **NOTES:**
+USE THIS WITH CAUTION!! This has the power functions for MULTIPLE DEVICES
 
 This is a BIG file with around 26,000 lines so this will take a while to run.
+
 Pressing anything other than the Power button will probably give you an error. (CH+/-, MUTE, VOL+/- WILL NOT WORK WITH power_all.ir!)
-USE THIS WITH CAUTION!! This has the power functions for MULTIPLE DEVICES
