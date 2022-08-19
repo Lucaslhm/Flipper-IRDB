@@ -23,3 +23,15 @@ The files within the "Converted" section are only organized by manufacturer name
 10. Disconnect the Flipper from the PC and have fun!
 
 NOTE: If you plan to copy them all, it's highly recommended to [dismount the SD card](https://docs.flipperzero.one/basics/sd-card#g4-removing-the-sd-card) and plug it into the computer directly.
+
+## To Install power_all Remote On Your Flipper:  
+
+1. Backup your current tv.ir asset from /ext/infrared/assets/tv.ir
+2. Rename power_all.ir to tv.ir
+3. Then open "Universal TV Remote" on your Flipper and press "POWER" button.
+
+**NOTES:**
+
+This is a BIG file with around 26,000 lines so this will take a while to run.
+Pressing anything other than the Power button will probably give you an error. (CH+/-, MUTE, VOL+/- WILL NOT WORK WITH power_all.ir!)
+USE THIS WITH CAUTION!! This has the power functions for MULTIPLE DEVICES
