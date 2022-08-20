@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Urevo 2 in 1 Under Desk Folding Treadmill ‎UR9TM0011
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 01 00 00 00
+# 
+name: SPEED+
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 02 00 00 00
+# 
+name: SPEED-
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 03 00 00 00
