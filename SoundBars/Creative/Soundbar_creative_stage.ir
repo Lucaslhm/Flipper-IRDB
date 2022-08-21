@@ -1,0 +1,118 @@
+Filetype: IR signals file
+Version: 1
+# 
+# For Creative Stage 2.1 SoundBars
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 06 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 07 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1E 00 00 00
+# 
+name: Bass_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0E 00 00 00
+# 
+name: Bass_down
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0D 00 00 00
+# 
+name: Treble_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 00 00 00 00
+# 
+name: Treble_down
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 03 00 00 00
+# 
+name: Music
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1D 00 00 00
+# 
+name: Cinema
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 19 00 00 00
+# 
+name: Concert
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 15 00 00 00
+# 
+name: Gaming
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 12 00 00 00
+# 
+name: Bt_pair
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 01 00 00 00
+# 
+name: Bt_stop
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1F 00 00 00
+# 
+name: Bt_play_pause
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1B 00 00 00
+# 
+name: Bt_next
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 17 00 00 00
+# 
+name: Bt_back
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0F 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 11 00 00 00
