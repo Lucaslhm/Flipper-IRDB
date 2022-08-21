@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# For Samsung AC AR12K
+# For Samsung AC AR12K Remote DB93 
 # 
 name: POWER
 type: raw
