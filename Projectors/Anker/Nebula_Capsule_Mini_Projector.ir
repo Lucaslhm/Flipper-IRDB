@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Nebula Capsule Smart Wi-Fi Mini Projector 100 Model: D4111
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 51 00 00 00
+# 
+name: Mouse
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 52 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 26 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 28 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 25 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 27 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 49 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1B 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 53 00 00 00
+# 
+name: Minus
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 56 00 00 00
+# 
+name: Plus
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 4E 00 00 00
