@@ -1,0 +1,253 @@
+Filetype: IR signals file
+Version: 1
+#
+# EVO4 IP.TV SETOP BOX
+# Comon used by ORANGE or O2 ISP
+#
+# by JEREMYNO
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 55 AA 00 00
+# 
+name: ZOOM
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 4B B4 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 51 AE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 12 ED 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 13 EC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 4D B2 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 0E F1 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 0F F0 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 49 B6 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 0A F5 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 0B F4 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 06 F9 00 00
+# 
+name: TV
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 02 FD 00 00
+# 
+name: EPG
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 1D E2 00 00
+# 
+name: MENU
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 53 AC 00 00
+# 
+name: RECORD
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 43 BC 00 00
+# 
+name: PLAY
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 42 BD 00 00
+# 
+name: INFO
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 5F A0 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 19 E6 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 5A A5 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 18 E7 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 5B A4 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 5E A1 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 07 F8 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 03 FC 00 00
+# 
+name: BACK
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 1C E3 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 56 A9 00 00
+# 
+name: CH+
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 45 BA 00 00
+# 
+name: CH-
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 41 BE 00 00
+# 
+name: REW
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 47 B8 00 00
+# 
+name: PLAY
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 42 BD 00 00
+# 
+name: STOP
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 01 FE 00 00
+# 
+name: FWD
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 46 B9 00 00
+# 
+name: PREW
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 05 FA 00 00
+# 
+name: TXT
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 10 EF 00 00
+# 
+name: AUDIO
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 11 EE 00 00
+# 
+name: NEXT
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 04 FB 00 00
+# 
+name: RED
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 4F B0 00 00
+# 
+name: GREEN
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 4E B1 00 00
+# 
+name: ORANGE
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 0D F2 00 00
+# 
+name: BLUE
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 0C F3 00 00
