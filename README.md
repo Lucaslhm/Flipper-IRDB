@@ -33,6 +33,13 @@ TEMP-
 MODE
 SWING
 
+**FOR AUDIO**
+
+POWER
+VOL+
+VOL-
+MUTE
+
 Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
 
 `Filetype: IR signals file`<br>
