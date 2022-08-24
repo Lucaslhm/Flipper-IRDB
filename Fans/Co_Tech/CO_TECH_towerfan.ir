@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 97 00 00 00
+#
+name: MODE
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 87 00 00 00
+#
+name: Speed
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 86 00 00 00
+#
+name: Timer
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 9C 00 00 00
+#
+name: OSC
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 95 00 00 00
