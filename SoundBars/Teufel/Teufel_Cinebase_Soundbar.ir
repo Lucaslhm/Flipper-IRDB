@@ -1,0 +1,100 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Teufel Cinibase Soundbar
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 25 DA 00 00
+# 
+name: SONIC 1
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 45 BA 00 00
+# 
+name: SONIC 2
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 46 B9 00 00
+# 
+name: SONIC 3
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 47 B8 00 00
+# 
+name: SONIC OFF
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 48 B7 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 14 EB 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 13 EC 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 28 D7 00 00
+# 
+name: BASSdwn
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 24 DB 00 00
+# 
+name: BASSup
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 23 DC 00 00
+# 
+name: HDMI
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 5E A1 00 00
+# 
+name: OPTICAL
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 41 BE 00 00
+# 
+name: BT pairing
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 43 BC 00 00
+# 
+name: ANALOG
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 5F A0 00 00
+# 
+name: BLUETOOTH
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 42 BD 00 00
+# 
+name: HDMI TV
+type: parsed
+protocol: NECext
+address: EF 01 00 00
+command: 44 BB 00 00
