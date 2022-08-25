@@ -2,7 +2,6 @@ Filetype: IR signals file
 Version: 1
 #
 name: CSP-LIR-USB
-1.013.1846
 type: raw
 frequency: 38381
 duty_cycle: 0.330000
