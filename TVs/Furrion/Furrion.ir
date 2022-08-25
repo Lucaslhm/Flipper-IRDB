@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 52 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 20 00 00 00
@@ -205,25 +205,25 @@ protocol: NEC
 address: 20 00 00 00
 command: 4A 00 00 00
 # 
-name: CH_Up
+name: CH+
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 02 00 00 00
 # 
-name: CH_Dn
+name: CH-
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 09 00 00 00
 # 
-name: Vol_Up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 03 00 00 00
 # 
-name: Vol_Dn
+name: VOL-
 type: parsed
 protocol: NEC
 address: 20 00 00 00
