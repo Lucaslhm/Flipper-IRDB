@@ -1,6 +1,6 @@
 # Flipper-IRDB  
 
-A **maintained** collective of different IR filess for the Flipper!
+A **maintained** collective of different IR filess for the Flipper! We'd love to have your additions! [See here.](https://github.com/UberGuidoZ/Flipper-IRDB/blob/main/README.md#organization)
 
 Maintainers/Major contributors include:
 * [Lucaslhm](https://github.com/Lucaslhm)
@@ -30,26 +30,26 @@ Please use this naming scheme for buttons.
 
 **FOR TV**
 
-POWER
-MUTE
-VOL+
-CH+
-VOL-
+POWER<br>
+MUTE<br>
+VOL+<br>
+CH+<br>
+VOL-<br>
 CH-
 
 **FOR AC**
 
-POWER
-TEMP+
-TEMP-
-MODE
+POWER<br>
+TEMP+<br>
+TEMP-<br>
+MODE<br>
 SWING
 
 **FOR AUDIO**
 
-POWER
-VOL+
-VOL-
+POWER<br>
+VOL+<br>
+VOL-<br>
 MUTE
 
 Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
@@ -61,7 +61,7 @@ Lastly, it's helpful to add further information as a comment directly into the I
 `#`<br>
 `name: POWER`<br>
 
-Make, model, link, or even a short description can be helpful if the name is changed or just in general!
+Make, model, link, or even a short description can be helpful if the name is changed (or just in general)!
 
 ## To Install New Remotes On Your Flipper:   
 
