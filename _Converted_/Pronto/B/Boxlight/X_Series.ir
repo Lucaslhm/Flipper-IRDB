@@ -2,7 +2,6 @@ Filetype: IR signals file
 Version: 1
 #
 name: BPC-HPLIR
-0.034.1612
 type: raw
 frequency: 38029
 duty_cycle: 0.330000
