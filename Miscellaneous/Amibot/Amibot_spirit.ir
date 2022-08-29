@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Amibot Spirit Vacuum
+#
+name: Clean
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 44 BB 00 00
+# 
+name: Max
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 66 99 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: AA 55 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: CC 33 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 22 DD 00 00
+# 
+name: Plan
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9069 4505 600 558 569 561 566 565 572 557 570 560 567 563 564 1697 568 562 565 592 545 1716 538 592 545 1715 539 592 546 1715 539 592 545 1716 570 561 566 1697 568 563 564 567 570 561 566 1695 570 1692 573 558 569 1716 538 567 570 1692 573 1716 538 1699 566 592 545 585 542 1719 546 585 542 590 537 594 543 588 539 592 566 565 562 1700 565 1671 594 1693 572 559 568 1694 571 1691 574 1715 539 591 547 584 543 588 539
+# 
+name: Clock
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9093 4507 597 560 567 564 563 567 570 560 567 564 563 567 570 1692 573 557 570 587 540 1696 569 588 539 1698 567 590 547 1689 565 592 545 1691 595 560 567 1669 596 560 567 565 572 558 569 1667 598 1663 591 565 572 1661 593 564 573 1660 594 1695 570 1692 573 584 543 588 539 1696 569 1691 595 561 566 565 562 569 568 562 565 564 563 1673 592 1668 597 1662 592 564 573 1660 594 1667 598 1694 571 586 541 590 537 1699 566
+# 
+name: Whirl
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: EE 11 00 00
+# 
+name: Home_station
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 11 EE 00 00
+# 
+name: Full_room
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 99 66 00 00
