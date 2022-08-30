@@ -1,0 +1,238 @@
+Filetype: IR signals file
+Version: 1
+#
+# FINLUX TV iR by JEREMYNO
+# 
+name: POWER
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+# 
+name: SOURCE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 38 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 690 894 1771 890 921 890 890 894 896 887 893 1826 1714 918 892 891 889 894 896 1824 831 893 887 89510 608 843 1771 918 943 839 941 842 938 844 946 1827 1652 926 935 847 943 839 941 1805 799 898 882 81235 195
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 00 00 00 00
+# 
+name: LANGUAGE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0F 00 00 00
+# 
+name: TXT
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 3C 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 11 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0D 00 00 00
+# 
+name: HOME
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 30 00 00 00
+# 
+name: CH+
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 20 00 00 00
+# 
+name: CH-
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 21 00 00 00
+# 
+name: GUIDE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 2F 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 16 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: OK
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 35 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: EXIT
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 25 00 00 00
+# 
+name: Rew
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 1B 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 31 00 00 00
+# 
+name: Fw
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 1C 00 00 00
+# 
+name: Rec
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 33 00 00 00
+# 
+name: Play
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 19 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 18 00 00 00
+# 
+name: RED
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 37 00 00 00
+# 
+name: GREEN
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 36 00 00 00
+# 
+name: YELOW
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 32 00 00 00
+# 
+name: BLUE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 34 00 00 00
