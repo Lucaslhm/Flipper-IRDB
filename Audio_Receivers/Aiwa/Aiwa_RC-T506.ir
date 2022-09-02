@@ -2,6 +2,7 @@ Filetype: IR signals file
 Version: 1
 # 
 # For Aiwa XR H100, NSXA909U, NSXMT70U, RC7ASO8 and other; Remote: RC-T506
+#
 name: POWER
 type: parsed
 protocol: NEC42
