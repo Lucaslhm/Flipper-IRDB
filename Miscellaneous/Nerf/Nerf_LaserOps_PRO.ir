@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Nerf LaserOps PRO
+#
 name: Shoot
 type: raw
 frequency: 38000
