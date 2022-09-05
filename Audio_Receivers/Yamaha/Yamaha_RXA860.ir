@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Yamaha RX-A860 Audio Receiver
+#
+name: Vol_Up
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1A 00 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1B 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1C 00 00 00
+# 
+name: HDMI_1
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 47 38 00 00
+# 
+name: HDMI_2
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 4A 35 00 00
+# 
+name: HDMI_3
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 4D 32 00 00
+# 
+name: HDMI_4
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 50 2F 00 00
+# 
+name: HDMI_5
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 70 0F 00 00
+# 
+name: HDMI_6
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 73 0C 00 00
+# 
+name: HDMI_7
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 98 E7 00 00
+# 
+name: V_AUX
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 55 00 00 00
+# 
+name: AV_1
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 53 2C 00 00
+# 
+name: AV_2
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 56 29 00 00
+# 
+name: Phono
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 14 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 7E 00 00 00
+command: 2A 00 00 00
