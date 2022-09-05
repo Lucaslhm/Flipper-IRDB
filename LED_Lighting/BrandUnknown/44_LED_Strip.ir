@@ -1,0 +1,269 @@
+Filetype: IR signals file
+Version: 1
+# 
+# 44-button generic LED strip
+# Includes Flash, Jump, Meteor,Roll, Auto
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Step
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 41 00 00 00
+# 
+name: Brighter
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5C 00 00 00
+# 
+name: Dimmer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5D 00 00 00
+# 
+name: Red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 58 00 00 00
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 59 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: White
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Red_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 54 00 00 00
+# 
+name: Red_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 50 00 00 00
+# 
+name: Red_3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
+name: Green_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 55 00 00 00
+# 
+name: Green_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 51 00 00 00
+# 
+name: Green_3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1D 00 00 00
+# 
+name: Blue_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 49 00 00 00
+# 
+name: Blue_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+# 
+name: Blue_3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+# 
+name: Blue_4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+# 
+name: Blue_5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4C 00 00 00
+# 
+name: Blue_6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: Red_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: Red_Dwn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: Green_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: Green_Dwn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Blue_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Blue_Dwn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: DIY_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: DIY_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Flash
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Jump
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: Meteor
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Roll
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: A
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: C
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: D
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: E
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: F
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: G
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: H
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: I
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: J
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: K
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
