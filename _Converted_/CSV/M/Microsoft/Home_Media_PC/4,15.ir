@@ -199,7 +199,7 @@ protocol: NECext
 address: 04 0F 00 00
 command: 22 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 04 0F 00 00

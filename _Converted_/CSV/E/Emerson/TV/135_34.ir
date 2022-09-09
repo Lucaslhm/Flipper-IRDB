@@ -139,7 +139,7 @@ protocol: NECext
 address: 87 22 00 00
 command: CB 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 87 22 00 00
@@ -151,7 +151,7 @@ protocol: NECext
 address: 87 22 00 00
 command: CD 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 87 22 00 00

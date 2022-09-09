@@ -7,7 +7,7 @@ protocol: NECext
 address: 4F 0B 00 00
 command: 01 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 4F 0B 00 00
@@ -19,7 +19,7 @@ protocol: NECext
 address: 4F 0B 00 00
 command: 02 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 4F 0B 00 00

@@ -187,7 +187,7 @@ protocol: NECext
 address: 0E 00 00 00
 command: 16 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0E 00 00 00
@@ -259,7 +259,7 @@ protocol: NECext
 address: 0E 00 00 00
 command: 20 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0E 00 00 00
@@ -343,7 +343,7 @@ protocol: NECext
 address: 0E 00 00 00
 command: 2A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0E 00 00 00
@@ -361,7 +361,7 @@ protocol: NECext
 address: 0E 00 00 00
 command: 2D 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0E 00 00 00

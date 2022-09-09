@@ -187,7 +187,7 @@ protocol: NECext
 address: EF 01 00 00
 command: 3A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: EF 01 00 00
@@ -211,7 +211,7 @@ protocol: NECext
 address: EF 01 00 00
 command: 3F 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: EF 01 00 00
@@ -271,7 +271,7 @@ protocol: NECext
 address: EF 01 00 00
 command: C6 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: EF 01 00 00

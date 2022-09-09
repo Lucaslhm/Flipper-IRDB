@@ -67,7 +67,7 @@ protocol: NECext
 address: 78 00 00 00
 command: 8E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 78 00 00 00

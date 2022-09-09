@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A5 00 00 00
 command: 04 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A5 00 00 00
 command: 07 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A5 00 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: A5 00 00 00
 command: 5E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A5 00 00 00
@@ -163,19 +163,19 @@ protocol: NECext
 address: A5 00 00 00
 command: 9F 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A5 00 00 00
 command: C0 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A5 00 00 00
 command: D1 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A5 00 00 00

@@ -451,7 +451,7 @@ protocol: NECext
 address: D2 2B 00 00
 command: 1E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 2B 00 00
@@ -655,7 +655,7 @@ protocol: NECext
 address: D2 2B 00 00
 command: 51 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 2B 00 00
@@ -733,7 +733,7 @@ protocol: NECext
 address: D2 2B 00 00
 command: 53 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 2B 00 00
@@ -907,7 +907,7 @@ protocol: NECext
 address: D2 2B 00 00
 command: 96 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 2B 00 00

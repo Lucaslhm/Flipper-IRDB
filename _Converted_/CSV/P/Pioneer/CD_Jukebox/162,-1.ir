@@ -361,55 +361,55 @@ protocol: NECext
 address: A2 00 00 00
 command: 5E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 81 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 82 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 83 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 92 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 93 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 94 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 95 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
 command: 9B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
@@ -427,7 +427,7 @@ protocol: NECext
 address: A2 00 00 00
 command: C0 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
@@ -451,7 +451,7 @@ protocol: NECext
 address: A2 00 00 00
 command: C1 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00
@@ -487,7 +487,7 @@ protocol: NECext
 address: A2 00 00 00
 command: C2 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A2 00 00 00

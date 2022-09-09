@@ -73,7 +73,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 03 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -403,7 +403,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 28 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -655,7 +655,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 39 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -1021,7 +1021,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 72 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -1057,7 +1057,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 73 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -1105,7 +1105,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 79 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -1141,7 +1141,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 7A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -1177,7 +1177,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 7B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00
@@ -1213,7 +1213,7 @@ protocol: NECext
 address: 1A 49 00 00
 command: 7C 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 49 00 00

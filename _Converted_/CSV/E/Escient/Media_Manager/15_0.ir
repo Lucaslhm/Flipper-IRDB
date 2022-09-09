@@ -121,7 +121,7 @@ protocol: NECext
 address: 0F 00 00 00
 command: 12 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0F 00 00 00
@@ -409,13 +409,13 @@ protocol: NECext
 address: 0F 00 00 00
 command: AE 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0F 00 00 00
 command: AE 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0F 00 00 00

@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 5D 00 00 00
 command: EE 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 5D 00 00 00

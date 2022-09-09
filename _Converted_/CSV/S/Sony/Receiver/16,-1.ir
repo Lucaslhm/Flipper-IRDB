@@ -199,7 +199,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 22 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -271,7 +271,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 25 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -289,7 +289,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 2E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 10 00 00 00
@@ -505,7 +505,7 @@ protocol: NECext
 address: 10 00 00 00
 command: 72 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 10 00 00 00
