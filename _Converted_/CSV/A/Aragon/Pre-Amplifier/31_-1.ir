@@ -361,7 +361,7 @@ protocol: NECext
 address: 1F 00 00 00
 command: 36 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1F 00 00 00
@@ -373,7 +373,7 @@ protocol: NECext
 address: 1F 00 00 00
 command: 37 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1F 00 00 00
@@ -385,7 +385,7 @@ protocol: NECext
 address: 1F 00 00 00
 command: 38 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1F 00 00 00
@@ -397,7 +397,7 @@ protocol: NECext
 address: 1F 00 00 00
 command: 39 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1F 00 00 00
@@ -409,7 +409,7 @@ protocol: NECext
 address: 1F 00 00 00
 command: 3A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1F 00 00 00
@@ -421,7 +421,7 @@ protocol: NECext
 address: 1F 00 00 00
 command: 3B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1F 00 00 00
@@ -433,7 +433,7 @@ protocol: NECext
 address: 1F 00 00 00
 command: 3C 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1F 00 00 00

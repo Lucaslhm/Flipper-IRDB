@@ -565,7 +565,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 41 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -703,7 +703,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 56 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -715,7 +715,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 5B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -733,7 +733,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 5E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -745,7 +745,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 6B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -757,7 +757,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 73 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00

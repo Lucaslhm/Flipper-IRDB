@@ -247,7 +247,7 @@ protocol: NECext
 address: 04 00 00 00
 command: 31 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 04 00 00 00
@@ -793,7 +793,7 @@ protocol: NECext
 address: 04 00 00 00
 command: F7 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 04 00 00 00
@@ -805,7 +805,7 @@ protocol: NECext
 address: 04 00 00 00
 command: FF 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 04 00 00 00

@@ -19,7 +19,7 @@ protocol: NECext
 address: 01 DE 00 00
 command: 07 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 01 DE 00 00
@@ -127,7 +127,7 @@ protocol: NECext
 address: 01 DE 00 00
 command: 1F 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 01 DE 00 00

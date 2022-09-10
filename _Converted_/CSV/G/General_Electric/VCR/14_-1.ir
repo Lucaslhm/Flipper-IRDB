@@ -43,7 +43,7 @@ protocol: NECext
 address: 0E 00 00 00
 command: 1C 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0E 00 00 00
@@ -55,7 +55,7 @@ protocol: NECext
 address: 0E 00 00 00
 command: 1F 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0E 00 00 00
@@ -67,7 +67,7 @@ protocol: NECext
 address: 0E 00 00 00
 command: 27 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0E 00 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 0E 00 00 00
 command: 3C 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0E 00 00 00

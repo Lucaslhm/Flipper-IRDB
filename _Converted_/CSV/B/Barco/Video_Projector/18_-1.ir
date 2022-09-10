@@ -109,7 +109,7 @@ protocol: NECext
 address: 12 00 00 00
 command: 10 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 12 00 00 00
@@ -139,7 +139,7 @@ protocol: NECext
 address: 12 00 00 00
 command: 14 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 12 00 00 00
@@ -157,7 +157,7 @@ protocol: NECext
 address: 12 00 00 00
 command: 16 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 12 00 00 00
@@ -175,7 +175,7 @@ protocol: NECext
 address: 12 00 00 00
 command: 18 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 12 00 00 00

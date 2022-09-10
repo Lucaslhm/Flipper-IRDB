@@ -79,7 +79,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 07 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 09 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -115,7 +115,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 0A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -133,7 +133,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 0D 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
@@ -157,7 +157,7 @@ protocol: NECext
 address: D2 6D 00 00
 command: 0E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: D2 6D 00 00

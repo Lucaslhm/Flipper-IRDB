@@ -325,7 +325,7 @@ protocol: NECext
 address: 28 00 00 00
 command: 1C 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 28 00 00 00

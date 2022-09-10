@@ -19,7 +19,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 03 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -37,7 +37,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 06 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -55,7 +55,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 09 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -151,7 +151,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 2F 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -175,7 +175,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 32 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -193,7 +193,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 35 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -217,7 +217,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 39 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -235,7 +235,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 3B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -265,7 +265,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 4A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00
@@ -295,7 +295,7 @@ protocol: NECext
 address: 6C 39 00 00
 command: 76 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 6C 39 00 00

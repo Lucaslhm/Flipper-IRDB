@@ -61,7 +61,7 @@ protocol: NECext
 address: 19 00 00 00
 command: 09 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 19 00 00 00

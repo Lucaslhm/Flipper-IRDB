@@ -259,7 +259,7 @@ protocol: NECext
 address: 0F 00 00 00
 command: 38 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0F 00 00 00

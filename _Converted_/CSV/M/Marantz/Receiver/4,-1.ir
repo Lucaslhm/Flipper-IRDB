@@ -43,7 +43,7 @@ protocol: NECext
 address: 04 00 00 00
 command: 4B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 04 00 00 00
