@@ -4,7 +4,7 @@ Version: 1
 # Telefunken TV L55U405B4CW , JMB JT0122005B/01, Bush DLED32265HDDVDB
 # Remote: RC4875
 #
-# On JMB/Bush non Smart TV’s 
+# On JMB/Bush non Smart TV's 
 # SMART_HOME will not work.
 # 
 name: POWER

@@ -7,7 +7,7 @@ protocol: NECext
 address: 90 01 00 00
 command: 01 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 90 01 00 00
@@ -25,7 +25,7 @@ protocol: NECext
 address: 90 01 00 00
 command: 03 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 90 01 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: 90 01 00 00
 command: 5D 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 90 01 00 00

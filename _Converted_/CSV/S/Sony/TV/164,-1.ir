@@ -91,7 +91,7 @@ protocol: NECext
 address: A4 00 00 00
 command: 3B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A4 00 00 00

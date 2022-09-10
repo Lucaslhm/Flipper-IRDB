@@ -103,7 +103,7 @@ protocol: NECext
 address: 27 8D 00 00
 command: 29 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 27 8D 00 00
@@ -145,7 +145,7 @@ protocol: NECext
 address: 27 8D 00 00
 command: 36 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 27 8D 00 00
@@ -175,7 +175,7 @@ protocol: NECext
 address: 27 8D 00 00
 command: 3B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 27 8D 00 00
@@ -205,7 +205,7 @@ protocol: NECext
 address: 27 8D 00 00
 command: 6E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 27 8D 00 00

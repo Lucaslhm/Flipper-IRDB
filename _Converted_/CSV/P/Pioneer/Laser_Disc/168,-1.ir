@@ -331,13 +331,13 @@ protocol: NECext
 address: A8 00 00 00
 command: 28 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A8 00 00 00
 command: 29 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A8 00 00 00
@@ -349,13 +349,13 @@ protocol: NECext
 address: A8 00 00 00
 command: 2C 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A8 00 00 00
 command: 2D 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A8 00 00 00

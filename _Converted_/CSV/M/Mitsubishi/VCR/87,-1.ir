@@ -1723,7 +1723,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 42 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -1969,7 +1969,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 5A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -2017,7 +2017,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 6B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -2059,7 +2059,7 @@ protocol: NECext
 address: 57 00 00 00
 command: 73 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00
@@ -2737,7 +2737,7 @@ protocol: NECext
 address: 57 00 00 00
 command: C2 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 57 00 00 00

@@ -133,7 +133,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 17 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 86 05 00 00

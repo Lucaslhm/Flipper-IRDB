@@ -169,7 +169,7 @@ protocol: NECext
 address: C0 F3 00 00
 command: 36 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: C0 F3 00 00
@@ -211,7 +211,7 @@ protocol: NECext
 address: C0 F3 00 00
 command: 3F 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: C0 F3 00 00

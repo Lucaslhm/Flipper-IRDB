@@ -139,7 +139,7 @@ protocol: NECext
 address: 1A 00 00 00
 command: 2E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 1A 00 00 00

@@ -31,7 +31,7 @@ protocol: NECext
 address: 8B 47 00 00
 command: 06 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 8B 47 00 00

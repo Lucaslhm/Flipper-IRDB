@@ -211,7 +211,7 @@ protocol: NECext
 address: 84 42 00 00
 command: 55 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 84 42 00 00

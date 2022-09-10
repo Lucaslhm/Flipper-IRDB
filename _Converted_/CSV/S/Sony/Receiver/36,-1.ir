@@ -13,7 +13,7 @@ protocol: NECext
 address: 24 00 00 00
 command: 60 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 24 00 00 00

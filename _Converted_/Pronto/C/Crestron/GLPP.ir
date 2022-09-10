@@ -7,7 +7,7 @@ frequency: 38381
 duty_cycle: 0.330000
 data: 834 834 1667 1667 834 834 834 834 1667 1667 1667 834 834 834 834 834 834 834 834 834 834 84625
 #
-name: 	
+name: Unknown
 type: raw
 frequency: 38381
 duty_cycle: 0.330000

@@ -7,7 +7,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 01 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -61,7 +61,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 0D 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -85,7 +85,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 18 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -115,7 +115,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 24 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -151,7 +151,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 33 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -163,7 +163,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 35 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -175,7 +175,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 36 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -199,7 +199,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 3A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -211,7 +211,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 3B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00
@@ -223,7 +223,7 @@ protocol: NECext
 address: A7 85 00 00
 command: 3E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: A7 85 00 00

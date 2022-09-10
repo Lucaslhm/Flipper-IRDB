@@ -19,7 +19,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 02 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -85,7 +85,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 80 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -151,7 +151,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 80 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -181,7 +181,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 81 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -193,7 +193,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 82 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -211,7 +211,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 83 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -223,7 +223,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 84 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -241,7 +241,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 85 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -253,7 +253,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 86 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -265,7 +265,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 87 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
@@ -277,7 +277,7 @@ protocol: NECext
 address: B8 00 00 00
 command: 88 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 00 00 00
