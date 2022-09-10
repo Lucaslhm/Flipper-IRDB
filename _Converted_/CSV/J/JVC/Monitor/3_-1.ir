@@ -283,13 +283,13 @@ protocol: NECext
 address: 03 00 00 00
 command: 42 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 03 00 00 00
 command: 4C 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 03 00 00 00

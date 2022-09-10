@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 60 9E 00 00

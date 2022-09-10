@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 02 00 00 00
@@ -19,7 +19,7 @@ protocol: NECext
 address: 02 00 00 00
 command: 05 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 02 00 00 00

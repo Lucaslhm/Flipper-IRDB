@@ -31,7 +31,7 @@ protocol: NECext
 address: 9F 06 00 00
 command: 06 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 9F 06 00 00
@@ -181,7 +181,7 @@ protocol: NECext
 address: 9F 06 00 00
 command: 37 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 9F 06 00 00
@@ -223,7 +223,7 @@ protocol: NECext
 address: 9F 06 00 00
 command: 4A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 9F 06 00 00
@@ -235,7 +235,7 @@ protocol: NECext
 address: 9F 06 00 00
 command: 5A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 9F 06 00 00

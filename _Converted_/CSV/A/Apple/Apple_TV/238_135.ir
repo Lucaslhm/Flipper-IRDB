@@ -55,7 +55,7 @@ protocol: NECext
 address: EE 87 00 00
 command: 02 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: EE 87 00 00

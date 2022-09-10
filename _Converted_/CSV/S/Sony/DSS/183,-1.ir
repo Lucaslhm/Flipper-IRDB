@@ -31,7 +31,7 @@ protocol: NECext
 address: B7 00 00 00
 command: 04 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B7 00 00 00
@@ -259,7 +259,7 @@ protocol: NECext
 address: B7 00 00 00
 command: 32 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B7 00 00 00

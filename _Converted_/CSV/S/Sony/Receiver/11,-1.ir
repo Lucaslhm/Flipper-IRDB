@@ -7,13 +7,13 @@ protocol: NECext
 address: 0B 00 00 00
 command: 15 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0B 00 00 00
 command: 2E 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 0B 00 00 00

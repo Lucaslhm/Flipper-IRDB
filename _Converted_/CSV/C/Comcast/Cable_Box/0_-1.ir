@@ -7,7 +7,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 00 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -103,7 +103,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 09 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 00 00 00 00
@@ -163,7 +163,7 @@ protocol: NECext
 address: 00 00 00 00
 command: 11 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: 00 00 00 00

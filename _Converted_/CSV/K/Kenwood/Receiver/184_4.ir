@@ -43,73 +43,73 @@ protocol: NECext
 address: B8 04 00 00
 command: 07 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 16 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 17 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 18 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 18 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 18 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 1B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 1B 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 49 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 49 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 4A 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
 command: 83 00 00 00
 #
-name: 
+name: Unknown
 type: parsed
 protocol: NECext
 address: B8 04 00 00
