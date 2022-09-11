@@ -1,0 +1,178 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Dream Aurora Bluetooth Speaker and LED Projector, Model AC6923
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: Light_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Light_down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Speed_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Speed_down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Micro
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 57 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+# 
+name: Previous_track
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Next_track
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: Red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: White
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Wave_pwr
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Star_pwr
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Moon_pwr
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Wave1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Wave2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: Star1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: Star2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
+name: Moon1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
+# 
+name: Moon2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+# 
+name: No_timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+# 
+name: 1h_timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 52 00 00 00
+# 
+name: 2h_timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
