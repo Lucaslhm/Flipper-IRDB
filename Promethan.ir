@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Promethan Whiteboard
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 33 FF 00 00
+command: 00 FF 00 00
+# 
+name: MENU
+type: parsed
+protocol: NECext
+address: 33 FF 00 00
+command: 1C E3 00 00
+# 
+name: FREZE
+type: parsed
+protocol: NECext
+address: 33 FF 00 00
+command: 43 BC 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: 33 FF 00 00
+command: 8C 73 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NECext
+address: 33 FF 00 00
+command: 1E E1 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 33 FF 00 00
+command: 1D E2 00 00
