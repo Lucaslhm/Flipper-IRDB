@@ -1,0 +1,106 @@
+Filetype: IR signals file
+Version: 1
+# 
+# LG SJ4
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+# 
+name: Source
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 8A 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+# 
+name: Skip_Forward
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 07 00 00 00
+# 
+name: Skip_Back
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 06 00 00 00
+# 
+name: Woofer_Up
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: CA 00 00 00
+# 
+name: Woofer_Down
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: C9 00 00 00
+# 
+name: Night_mode_On
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 9C 00 00 00
+# 
+name: Night_mode_Off
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 9B 00 00 00
+# 
+name: Autopower_On
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: C7 00 00 00
+# 
+name: Autopower_Off
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: C8 00 00 00
+# 
+name: Cinema_Mode
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 90 00 00 00
+# 
+name: Standard_Mode
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 36 00 00 00
+# 
+name: ASC_Mode
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 96 00 00 00
