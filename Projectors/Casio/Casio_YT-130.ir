@@ -31,6 +31,12 @@ protocol: NECext
 address: 84 F4 00 00
 command: 1A E5 00 00
 # 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 3B C4 00 00
+# 
 name: Focus_up
 type: parsed
 protocol: NECext
