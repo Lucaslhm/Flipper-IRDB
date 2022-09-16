@@ -266,4 +266,3 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: C3 00 00 00
-

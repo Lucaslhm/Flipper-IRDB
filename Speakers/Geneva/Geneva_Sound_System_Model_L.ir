@@ -140,4 +140,3 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 16 00 00 00
-
