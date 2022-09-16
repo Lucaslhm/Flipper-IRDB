@@ -70,5 +70,3 @@ type: parsed
 protocol: NECext
 address: A0 B7 00 00
 command: A0 5F 00 00
-
-

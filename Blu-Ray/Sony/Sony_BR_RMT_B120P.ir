@@ -128,7 +128,6 @@ type: parsed
 protocol: SIRC20
 address: 5A 1C 00 00
 command: 68 00 00 00
-
 # 
 name: Yellow
 type: parsed
@@ -171,7 +170,6 @@ type: parsed
 protocol: SIRC20
 address: 5A 1C 00 00
 command: 3D 00 00 00
-
 # 
 name: Top_Menu
 type: parsed
@@ -202,9 +200,6 @@ type: parsed
 protocol: SIRC20
 address: 5A 1C 00 00
 command: 42 00 00 00
-
-
-
 #
 name: Rewind
 type: parsed
