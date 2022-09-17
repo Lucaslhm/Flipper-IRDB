@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# For Bose TV
+# 
+name: On_off
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 4C B3 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 03 FC 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 02 FD 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 01 FE 00 00
