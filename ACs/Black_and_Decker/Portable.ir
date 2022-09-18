@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Black and Decker Portable AC
+#
 name: PWR OFF
 type: raw
 frequency: 38000
