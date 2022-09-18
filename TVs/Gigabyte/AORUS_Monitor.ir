@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Gigabyte AORUS TV Monitor
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 33 00 00 00
