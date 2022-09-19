@@ -195,7 +195,7 @@ protocol: NECext
 address: 86 61 00 00
 command: 15 EA 00 00
 #
-name:0
+name: 0
 type: parsed
 protocol: NECext
 address: 86 61 00 00

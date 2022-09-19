@@ -1,0 +1,100 @@
+Filetype: IR signals file
+Version: 1
+# 
+# For Vitec (Exterity) IPTV
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B5 4A 00 00
+# 
+name: TV
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: C9 36 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: CA 35 00 00
+# 
+name: Guide
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: CB 34 00 00
+# 
+name: Text
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: AB 54 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: BA 45 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: BB 44 00 00
+# 
+name: CH+
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B0 4F 00 00
+# 
+name: CH-
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B1 4E 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: C5 3A 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: A5 5A 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B2 4D 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B4 4B 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: A9 56 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: BD 42 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B3 4C 00 00
