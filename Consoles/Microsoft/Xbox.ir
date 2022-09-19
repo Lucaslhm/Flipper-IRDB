@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Xbox One confirmed
+#
 name: Xbox_POWER
 type: parsed
 protocol: NECext
