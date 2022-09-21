@@ -1,0 +1,16 @@
+Filetype: IR signals file
+Version: 1
+# 
+# For Varytech Fog Machine Model F-80B
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
