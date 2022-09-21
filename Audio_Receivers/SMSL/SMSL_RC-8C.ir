@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# SMSL M500 MKII Audio Receiver
+#
 name: Power
 type: parsed
 protocol: NECext
