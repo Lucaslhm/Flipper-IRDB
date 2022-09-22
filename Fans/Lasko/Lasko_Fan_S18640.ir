@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Lasko Fan 5-button
+# Lasko Fan 5-button S18640
 #
 name: Lasko_power
 type: raw
