@@ -1,0 +1,148 @@
+Filetype: IR signals file
+Version: 1
+#
+# FOr Piaozoo LED Fairy Lights
+#
+name: Plus
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+#
+name: Minus
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+#
+name: R
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+#
+name: G
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+#
+name: B
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+#
+name: W
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+#
+name: Bright1
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+#
+name: Bright2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+#
+name: Bright3
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+#
+name: 1h
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+#
+name: 4h
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+#
+name: 8h
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+#
+name: Mode1
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+#
+name: Mode2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+#
+name: Mode3
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+#
+name: Mode4
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+#
+name: Mode5
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 7490 79 1399 4464 599 525 586 536 596 525 596 526 595 527 594 528 593 530 591 531 590 1657 597 1651 592 1656 598 1649 594 530 591 1651 592 1655 599 1649 594 1652 591 532 589 1656 598 526 595 1650 593 532 589 533 588 532 589 533 588 1656 598 527 594 1650 593 530 591 1651 592 1655 599 1649 594 40782 3690 105 5137 2227 593
+#
+name: Shuffle
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1586 107 7231 4461 592 531 590 533 620 499 591 564 568 525 596 524 597 525 596 525 596 1653 590 1661 593 1660 593 1662 592 533 588 1658 596 1679 564 1658 595 529 592 1655 598 1676 567 532 589 1658 595 528 593 531 590 532 589 1657 596 527 594 529 592 1654 589 534 598 1649 594 1681 572 1676 567 40649 8955 2226 594
+#
+name: Music1
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+#
+name: Music2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+#
+name: Music3
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00

@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+#
+# For KERNOWO Brand LED Solar Powered Outdoor Light
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Mode1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Mode2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9204 4469 600 564 600 564 626 540 624 541 623 544 620 571 593 572 593 572 593 1649 593 1649 593 1649 593 1649 593 1649 593 1649 593 1649 593 1649 593 1649 593 572 593 1649 593 572 593 1649 593 572 593 572 593 572 593 572 593 1649 593 572 593 1649 593 572 593 1649 593 1649 593 1649 593 39370 9196 2218 592 95848 9195 2217 593
+# 
+name: Mode3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Mode4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
