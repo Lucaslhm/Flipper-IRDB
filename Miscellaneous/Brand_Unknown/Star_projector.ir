@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# For Starlight Projector, Brand Unknown
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Switch
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: Color_option
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+# 
+name: Cloud_speed
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+# 
+name: Bright
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: Sound_control
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
