@@ -1,68 +1,79 @@
 Filetype: IR signals file
 Version: 1
 #
+# DECK_A [raw] {11110010-101100}
 name: DECK_A
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 1776 1776 888 888 1776 888 888 90720
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2C 00 00 00
 #
+# DECK_B [raw] {11110010-101110}
 name: DECK_B
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 1776 1776 888 888 888 888 1776 90720
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2E 00 00 00
 #
+# REVERSE [raw] {11110010-101111}
 name: REVERSE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 1776 1776 888 888 888 888 888 888 888 89832
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2F 00 00 00
 #
+# PAUSE [raw] {11110010-110000}
 name: PAUSE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 888 888 888 888 888 888 90720
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 30 00 00 00
 #
+# PLAY [raw] {11110010-110101}
 name: PLAY
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 1776 1776 1776 888 89832
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 35 00 00 00
 #
+# FFWD [raw] {11110010-110100}
 name: FFWD
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 1776 1776 888 888 90720
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 34 00 00 00
 #
+# STOP [raw] {11110010-110110}
 name: STOP
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 1776 888 888 1776 90720
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 36 00 00 00
 #
+# REW [raw] {11110010-110010}
 name: REW
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 888 888 1776 1776 90720
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 32 00 00 00
 #
+# RECORD [raw] {11110010-110111}
 name: RECORD
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 1776 888 888 888 888 888 89832
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 37 00 00 00
 #
+# RESET [raw] {11110010-110001}
 name: RESET
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 888 888 888 888 1776 888 89388
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 31 00 00 00
 #
+# RECORD_MUTE [raw] {11110010-101010}
 name: RECORD_MUTE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 1776 1776 1776 1776 1776 90276
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2A 00 00 00

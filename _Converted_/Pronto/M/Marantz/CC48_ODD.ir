@@ -1,74 +1,86 @@
 Filetype: IR signals file
 Version: 1
 #
+# R_TRK [raw] {11010100-100000}
 name: R_TRK
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 1776 1776 888 888 888 888 888 888 888 888 90526
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 20 00 00 00
 #
+# PLAY [raw] {11010100-110101}
 name: PLAY
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 1776 888 888 1776 1776 1776 1776 888 89638
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 35 00 00 00
 #
+# F_TRK [raw] {11010100-100001}
 name: F_TRK
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 1776 1776 888 888 888 888 888 888 1776 888 89638
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 21 00 00 00
 #
+# PAUSE [raw] {11010100-110000}
 name: PAUSE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 1776 888 888 1776 888 888 888 888 888 888 90526
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 30 00 00 00
 #
+# SHUFFLE [raw] {11010100-011100}
 name: SHUFFLE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 888 888 1776 888 888 888 888 1776 888 888 90526
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1C 00 00 00
 #
+# STOP [raw] {11010100-110110}
 name: STOP
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 1776 888 888 1776 1776 888 888 1776 90526
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 36 00 00 00
 #
+# DISC [raw] {11010100-011110}
 name: DISC
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 888 888 1776 888 888 888 888 888 888 1776 90526
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1E 00 00 00
 #
+# SCAN [raw] {11010100-101011}
 name: SCAN
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 1776 1776 1776 1776 1776 888 888 888 89638
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2B 00 00 00
 #
+# TIME [raw] {11010100-001011}
 name: TIME
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 888 888 888 888 1776 1776 1776 888 888 888 89638
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0B 00 00 00
 #
+# OPEN/CLOSE [raw] {11010100-101101}
 name: OPEN/CLOSE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 1776 1776 1776 888 888 1776 1776 888 89638
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2D 00 00 00
 #
+# VOL+ [raw] {11010100-010000}
 name: VOL+
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 888 888 1776 1776 888 888 888 888 888 888 90526
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 10 00 00 00
 #
+# VOL- [raw] {11010100-010001}
 name: VOL-
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 888 888 1776 1776 888 888 888 888 1776 888 89638
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 11 00 00 00
