@@ -1,17 +1,18 @@
 # Flipper-IRDB  
 
-A **maintained** collective of different IR filess for the Flipper! Maintainers/Major contributors include:
-* [Lucaslhm](https://github.com/Lucaslhm)
-* [UberGuidoZ](https://github.com/UberGuidoZ)
+Maintainers/Major contributors include:
+* [Lucaslhm](https://github.com/Lucaslhm) (*[Maintained Repo](https://github.com/Lucaslhm/Flipper-IRDB)*)
+* [UberGuidoZ](https://github.com/UberGuidoZ) (*[Maintained Fork](https://github.com/UberGuidoZ/Flipper-IRDB)*)
+* [ezod](https://github.com/ezod) (*[Maintained Fork](https://github.com/logickworkshop/Flipper-IRDB)*)
 * [DedHedZed](https://github.com/dedhedzed)
-* [Amec0e](https://github.com/amec0e)
-* [E_Surge](https://github.com/ESurge)
-* [Zecred](https://github.com/bussardrobbie)
 * [SkeletonMan](https://github.com/SkeletonMan03/)
 * [jaroslavmraz](https://github.com/jaroslavmraz)
-* [FalsePhilosopher](https://github.com/FalsePhilosopher)
-* [ezod](https://github.com/ezod)
-* ... and many others!
+* [amec0e](https://github.com/amec0e)
+* [darmiel](https://github.com/darmiel)
+* [E_Surge](https://github.com/ESurge)
+* [Zecred](https://github.com/bussardrobbie)
+* [wdoekes](https://github.com/wdoekes)
+* ... plus MANY others!
 
 ## Organization  
 
