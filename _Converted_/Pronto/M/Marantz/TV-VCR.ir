@@ -1,122 +1,142 @@
 Filetype: IR signals file
 Version: 1
 #
+# POWER [raw] {11110111-000110}
 name: POWER
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 896 896 1791 1791 896 896 896 896 1791 896 896 896 896 1791 896 896 1791 90446
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 06 00 00 00
 #
+# VOL+ [raw] {11010111-110000}
 name: VOL+
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 1791 1791 1791 1791 896 896 896 896 896 896 896 896 1791 896 896 896 896 896 896 90446
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 30 00 00 00
 #
+# VOL- [raw] {11010111-111110}
 name: VOL-
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 1791 1791 1791 1791 896 896 896 896 896 896 896 896 896 896 896 896 896 896 1791 90446
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 3E 00 00 00
 #
+# MUTE [raw] {11010111-100000}
 name: MUTE
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 1791 1791 1791 1791 896 896 896 896 896 896 1791 896 896 896 896 896 896 896 896 90446
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 20 00 00 00
 #
+# 1 [raw] {11000101-000001}
 name: 1
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 1791 896 896 896 896 1791 1791 1791 1791 896 896 896 896 896 896 896 896 1791 896 89579
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 01 00 00 00
 #
+# 2 [raw] {11100101-000010}
 name: 2
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 896 896 896 896 1791 1791 90446
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 02 00 00 00
 #
+# 3 [raw] {11100101-000011}
 name: 3
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 896 896 896 896 1791 896 896 896 89579
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 03 00 00 00
 #
+# 4 [raw] {11100101-000100}
 name: 4
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 896 896 1791 1791 896 896 90446
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 04 00 00 00
 #
+# 5 [raw] {11100101-000101}
 name: 5
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 896 896 1791 1791 1791 896 89579
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 05 00 00 00
 #
+# 6 [raw] {11100101-000110}
 name: 6
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 896 896 1791 896 896 1791 90446
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 06 00 00 00
 #
+# 7 [raw] {11100101-000111}
 name: 7
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 896 896 1791 896 896 896 896 896 89579
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 07 00 00 00
 #
+# 8 [raw] {11100101-001000}
 name: 8
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 1791 1791 896 896 896 896 90446
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 08 00 00 00
 #
+# 9 [raw] {11100101-001001}
 name: 9
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 1791 1791 896 896 1791 896 89579
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 09 00 00 00
 #
+# 0 [raw] {11100101-000000}
 name: 0
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 896 896 896 896 896 896 896 896 90446
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 00 00 00 00
 #
+# 100 [raw] {11100101-001010}
 name: 100
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 1791 896 896 1791 1791 1791 1791 90446
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 0A 00 00 00
 #
+# CH+ [raw] {11010111-110011}
 name: CH+
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 1791 1791 1791 1791 896 896 896 896 896 896 896 896 1791 896 896 1791 896 896 896 89579
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 33 00 00 00
 #
+# CH- [raw] {11110111-110110}
 name: CH-
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 896 896 1791 1791 896 896 896 896 896 896 896 896 1791 1791 896 896 1791 90446
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 36 00 00 00
 #
+# AUDIO [raw] {11100101-100011}
 name: AUDIO
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 896 896 1791 896 896 896 896 1791 896 896 896 89579
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 23 00 00 00
 #
+# PIC_CONTROL [raw] {10100101-000110}
 name: PIC_CONTROL
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 1791 1791 1791 896 896 1791 1791 1791 1791 896 896 896 896 1791 896 896 1791 90446
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 46 00 00 00
 #
+# VCR/TV [raw] {11100101-111110}
 name: VCR/TV
-type: raw
-frequency: 35734
-duty_cycle: 0.330000
-data: 896 896 896 896 1791 896 896 1791 1791 1791 896 896 896 896 896 896 896 896 896 896 1791 90446
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 3E 00 00 00

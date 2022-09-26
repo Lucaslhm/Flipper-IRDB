@@ -1,11 +1,12 @@
 Filetype: IR signals file
 Version: 1
 #
+# TV [raw] {11000000-111111}
 name: TV
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 3F 00 00 00
 #
 name: DVD
 type: raw
@@ -13,41 +14,47 @@ frequency: 36045
 duty_cycle: 0.330000
 data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 4439 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 1776 75711
 #
+# VCR1 [raw] {11000101-111111}
 name: VCR1
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 3F 00 00 00
 #
+# TUNER [raw] {11110001-111111}
 name: TUNER
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 3F 00 00 00
 #
+# CD [raw] {11010100-111111}
 name: CD
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 1776 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3F 00 00 00
 #
+# CDR [raw] {11111010-111111}
 name: CDR
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 888 888 1776 1776 1776 1776 888 888 888 888 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 3F 00 00 00
 #
+# MD [raw] {11010111-111111}
 name: MD
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 3F 00 00 00
 #
+# TAPE [raw] {11110010-111111}
 name: TAPE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 3F 00 00 00
 #
 name: AUX1
 type: raw
@@ -61,17 +68,19 @@ frequency: 36045
 duty_cycle: 0.330000
 data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 4439 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 74601
 #
+# DSS [raw] {11000110-111111}
 name: DSS
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 1776 888 888 1776 1776 888 888 888 888 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 06 00 00 00
+command: 3F 00 00 00
 #
+# POWER [raw] {11110000-001100}
 name: POWER
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 1776 888 888 89943
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0C 00 00 00
 #
 name: POWER_ON
 type: raw
@@ -103,11 +112,12 @@ frequency: 36045
 duty_cycle: 0.330000
 data: 888 888 1776 1776 1776 888 888 888 888 888 888 4439 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 888 888 1776 888 888 888 74823
 #
+# SLEEP [raw] {11110000-100110}
 name: SLEEP
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 1776 1776 888 888 1776 888 888 1776 89943
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 26 00 00 00
 #
 name: AUDIO
 type: raw
@@ -175,17 +185,19 @@ frequency: 36045
 duty_cycle: 0.330000
 data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 5327 1776 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 74851
 #
+# 0 [raw] {11010000-100101}
 name: 0
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 888 888 1776 1776 888 888 1776 1776 1776 888 89055
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 25 00 00 00
 #
+# CLEAR [raw] {11110000-100010}
 name: CLEAR
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 1776 89943
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 22 00 00 00
 #
 name: +10
 type: raw
@@ -199,107 +211,124 @@ frequency: 36045
 duty_cycle: 0.330000
 data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 4439 888 888 888 1776 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 75711
 #
+# INPUT [raw] {11000000-111000}
 name: INPUT
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 888 888 888 888 89915
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 38 00 00 00
 #
+# MUTE [raw] {11010000-001101}
 name: MUTE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 1776 1776 888 89055
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0D 00 00 00
 #
+# CH+ [raw] {11100000-100000}
 name: CH+
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 888 888 888 888 89915
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
 #
+# CH- [raw] {11000000-100001}
 name: CH-
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 888 888 1776 888 89028
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
 #
+# DECK_A_BASS [raw] {11110000-010110}
 name: DECK_A_BASS
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 1776 888 888 1776 89943
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 16 00 00 00
 #
+# DECK_B_BASS [raw] {11010000-010111}
 name: DECK_B_BASS
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 1776 1776 1776 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 17 00 00 00
 #
+# DECK_A_TREBLE [raw] {11110000-011000}
 name: DECK_A_TREBLE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 888 888 1776 888 888 888 888 89943
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 18 00 00 00
 #
+# DECK_B_TREBLE [raw] {11010000-011001}
 name: DECK_B_TREBLE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 1776 888 888 1776 888 888 1776 888 89055
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 19 00 00 00
 #
+# VOL+ [raw] {11110000-010000}
 name: VOL+
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 888 888 89915
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
 #
+# VOL- [raw] {11010000-010001}
 name: VOL-
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 88778
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
 #
+# OSD [raw] {11010000-001111}
 name: OSD
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0F 00 00 00
 #
+# UP [raw] {10110000-010000}
 name: UP
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 1776 1776 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 888 888 89915
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 50 00 00 00
 #
+# LEFT [raw] {10010000-010101}
 name: LEFT
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 1776 888 888 1776 1776 888 888 888 888 888 888 888 888 1776 1776 1776 1776 1776 888 88778
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 55 00 00 00
 #
+# ENTER [raw] {10110000-010010}
 name: ENTER
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 1776 1776 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 1776 1776 89915
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 52 00 00 00
 #
+# RIGHT [raw] {10010000-010110}
 name: RIGHT
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 1776 888 888 1776 1776 888 888 888 888 888 888 888 888 1776 1776 1776 888 888 1776 89915
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 56 00 00 00
 #
+# DOWN [raw] {10110000-010001}
 name: DOWN
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 1776 1776 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 89028
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 51 00 00 00
 #
+# SETUP [raw] {10010000-010010}
 name: SETUP
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 1776 888 888 1776 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 1776 1776 89915
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 52 00 00 00
 #
 name: CH_SEL
 type: raw
@@ -313,17 +342,19 @@ frequency: 36045
 duty_cycle: 0.330000
 data: 888 888 1776 1776 1776 888 888 888 888 888 888 5327 1776 888 888 1776 1776 1776 1776 1776 1776 1776 1776 1776 888 74851
 #
+# EXIT [raw] {10110000-010011}
 name: EXIT
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 1776 1776 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 1776 888 888 888 89055
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 53 00 00 00
 #
+# SPEAKER-A/B [raw] {11010000-011101}
 name: SPEAKER-A/B
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 1776 888 89055
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 1D 00 00 00
 #
 name: ATT
 type: raw

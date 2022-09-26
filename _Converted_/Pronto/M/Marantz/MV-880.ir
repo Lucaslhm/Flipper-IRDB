@@ -1,62 +1,72 @@
 Filetype: IR signals file
 Version: 1
 #
+# PLAY [raw] {11000101-110101}
 name: PLAY
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 1776 1776 1776 888 888 888 888 1776 1776 1776 1776 888 89749
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 35 00 00 00
 #
+# PAUSE [raw] {11100101-101001}
 name: PAUSE
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 1776 1776 888 888 1776 888 89749
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 29 00 00 00
 #
+# STOP [raw] {11000101-110110}
 name: STOP
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 1776 1776 1776 888 888 888 888 1776 1776 888 888 1776 90637
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 36 00 00 00
 #
+# REW [raw] {11100101-110010}
 name: REW
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 1776 1776 1776 888 888 888 888 1776 888 888 1776 1776 90637
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 32 00 00 00
 #
+# FFWD [raw] {11000101-110100}
 name: FFWD
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 1776 1776 1776 888 888 888 888 1776 1776 1776 888 888 90637
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 34 00 00 00
 #
+# VOL+ [raw] {11110000-010000}
 name: VOL+
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 888 888 90637
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
 #
+# VOL- [raw] {11010000-010001}
 name: VOL-
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 1776 1776 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 89749
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
 #
+# RECORD [raw] {11100101-110111}
 name: RECORD
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 1776 1776 1776 888 888 888 888 1776 1776 888 888 888 888 888 89749
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 37 00 00 00
 #
+# CH+ [raw] {11000101-100000}
 name: CH+
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 1776 888 888 888 888 1776 1776 1776 888 888 1776 888 888 888 888 888 888 888 888 90637
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 20 00 00 00
 #
+# CH- [raw] {11100101-100001}
 name: CH-
-type: raw
-frequency: 36045
-duty_cycle: 0.330000
-data: 888 888 888 888 1776 888 888 1776 1776 1776 888 888 1776 888 888 888 888 888 888 1776 888 89749
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 21 00 00 00
