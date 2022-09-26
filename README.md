@@ -13,6 +13,7 @@ Maintainers/Major contributors include:
 * [darmiel](https://github.com/darmiel)
 * [E_Surge](https://github.com/ESurge)
 * [Zecred](https://github.com/bussardrobbie)
+* [wdoekes](https://github.com/wdoekes)
 * ... plus MANY others!
 
 ## Organization  
