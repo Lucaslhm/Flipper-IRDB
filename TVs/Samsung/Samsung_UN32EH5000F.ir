@@ -1,5 +1,7 @@
 Filetype: IR signals file
 Version: 1
+#
+# Samsung UN32EH5000F
 # 
 name: Power
 type: parsed
@@ -7,20 +9,44 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_up
-type: parsed
-protocol: Samsung32
-address: 07 00 00 00
-command: 07 00 00 00
-# 
-name: Vol_down
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 4589 4350 687 1533 688 1532 689 1533 687 437 684 441 632 490 633 491 633 490 634 1588 633 1588 662 1559 661 462 661 487 636 487 635 488 634 489 633 1588 632 1590 631 492 631 1590 631 493 630 493 630 494 630 493 630 494 630 493 630 1591 630 494 629 1592 629 1592 629 1592 629 1591 630
-# 
 name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: Channel+
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+# 
+name: Channel-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+# 
+name: Source
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 03 00 00 00
