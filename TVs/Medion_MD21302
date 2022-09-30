@@ -1,0 +1,70 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Medion TV MD21302 CH-A
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 18 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 56 00 00 00
+# 
+name: VOL +
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 4F 00 00 00
+# 
+name: VOL -
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 0D 00 00 00
+# 
+name: CHAN +
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 4C 00 00 00
+# 
+name: CHAN -
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 0F 00 00 00
+# 
+name: INPUT
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8984 4458 653 1570 595 537 566 513 590 1633 595 1655 573 507 596 537 566 525 599 533 570 1653 564 1633 595 511 592 540 574 1624 593 1630 598 1664 574 506 597 1652 565 541 572 1624 593 539 564 515 599 507 596 550 564 1632 596 537 566 1657 570 536 567 1629 599 1652 565 1632 596 1628 599
+# 
+name: INFO
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 1A 00 00 00
+# 
+name: EXIT
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 12 00 00 00
+# 
+name: PLAY/PAUSE
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 46 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 07 00 00 00
