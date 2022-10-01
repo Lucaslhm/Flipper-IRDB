@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony MHC-EC69 Audio
+#
+name: POWER
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 12 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 13 00 00 00
