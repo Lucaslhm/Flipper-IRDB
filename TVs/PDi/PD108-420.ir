@@ -61,13 +61,13 @@ protocol: RC5
 address: 00 00 00 00
 command: 21 00 00 00
 # 
-name: VOL-_DownArrow
+name: VOL-_LeftArrow
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: VOL+_UpArrow
+name: VOL+_RightArrow
 type: parsed
 protocol: RC5
 address: 00 00 00 00
