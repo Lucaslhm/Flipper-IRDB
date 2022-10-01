@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# FireTV 4K Max
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 1D 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4E B1 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 11 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 15 00 00 00
