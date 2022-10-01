@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# For Acorn StairLift
+# Acorn Stairlift (https://www.acornstairlifts.com/)
 # 
 name: Up_stair
 type: raw
