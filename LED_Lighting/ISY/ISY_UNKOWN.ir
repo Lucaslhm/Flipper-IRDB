@@ -1,0 +1,146 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: FLASH
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: STROBE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: FADE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: SMOOTH
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: BRIGHTNES-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: BRIGHTNES+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: WHITE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: RED
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: GREEN
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: BLUE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: LIGHT_RED
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: LIGHT_GREEN
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: LIGHT_BLUE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9144 4440 608 530 503 664 421 689 580 559 608 529 582 587 547 535 635 529 609 1615 609 1671 607 1722 395 1802 554 1668 610 1642 611 1694 527 1670 582 556 608 1642 609 1641 611 1640 633 506 581 586 580 532 607 555 582 1616 633 587 552 531 607 556 554 1697 555 1670 609 1669 551 1699 582 39942 9039 2322 500 96415 9122 2187 636 96369 9143 2189 635 96411 9093 2188 637 96406 9009 2269 608 96435 9118 2214 449 96570 9065 2186 635 96402 9066 2214 637 96436 9064 2188 608 96410 9123 2182 641 96365 9154 2156 669 96360 9153 2180 644 96370 9153 2184 641 96367 9150 2184 641 96374 9151 2184 640 96357 9149 2184 640 96358 9151 2184 641 96362 9150 2183 641 96359 9150 2184 641 96371 9151 2183 641
+# 
+name: ORANGE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: LIGHT_CYAN
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: DARK_PURPLE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: LIGHT_ORANGE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: CYAN
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: PURPLE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: YELLOW
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: DARK_CYAN
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: PINK
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
