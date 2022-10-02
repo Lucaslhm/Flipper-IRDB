@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: POWER_LED
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: POWER_LASER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: POWER_MUSIC
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: RED
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: GREEN
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9139 4369 697 458 645 483 646 483 646 483 646 483 645 484 644 484 644 485 643 1608 641 1610 640 1610 640 1611 640 1611 640 1611 640 1611 639 1611 640 1611 640 1611 639 1611 639 489 640 489 640 490 639 1612 639 490 639 490 639 489 640 489 640 1611 639 1612 639 1611 640 490 639 1612 639 40047 9084 2173 640
+# 
+name: BLUE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9142 4368 700 430 699 431 696 433 671 459 670 460 669 460 668 485 643 486 642 1609 641 1610 640 1611 640 1611 640 1612 639 1612 639 1612 639 1612 639 1612 639 490 639 490 639 1612 639 1612 639 490 639 491 638 490 639 491 638 1613 638 1612 639 490 639 491 638 1612 639 1612 639 1612 639 40065 9086 2174 640
+# 
+name: WHITE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: LED_BRIGHTNESS
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
+# 
+name: LASER_BRIGHTNESS
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+# 
+name: 1H_TIMER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 52 00 00 00
+# 
+name: 2H_TIMER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+# 
+name: FADE_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: FADE_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
+name: S+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9142 4367 699 431 696 434 670 459 670 483 646 483 646 484 644 484 644 485 643 1609 642 1610 641 1610 641 1611 640 1611 640 1612 640 1611 640 1611 640 489 640 489 640 1612 640 1612 639 490 639 490 639 490 640 489 640 1612 640 1612 639 490 639 490 639 1612 640 1612 639 1612 639 1612 639 40090 9088 2174 639
+# 
+name: S-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
