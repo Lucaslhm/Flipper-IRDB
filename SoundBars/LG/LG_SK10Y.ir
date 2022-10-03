@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+# 
+name: V_up
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+# 
+name: V_dwn
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+# 
+name: Function
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 8A 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+# 
+name: SkipForward
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 07 00 00 00
+# 
+name: SkipBack
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 06 00 00 00
+# 
+name: SoundEffect
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 2F 00 00 00
+# 
+name: EQ
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 98 00 00 00
+# 
+name: AV_Sync
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: D9 00 00 00
+# 
+name: AutoVol
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1C 00 00 00
+# 
+name: Auto_Power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 93 00 00 00
+# 
+name: Info
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A3 00 00 00

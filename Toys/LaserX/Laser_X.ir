@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Red
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6138 505 508 499 1538 503 531 476 1540 501 532 501 502 530 1517 499 504
+# 
+name: Blue
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6264 514 509 517 1571 512 511 516 1572 510 534 493 540 514 519 508 1570
+# 
+name: Custom
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6234 515 539 514 1574 507 516 511 1567 516 517 510 544 484 1573 509 1569
