@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+#
+# VibroShaper - VibroLegs
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 00 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 03 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: M
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: P
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
