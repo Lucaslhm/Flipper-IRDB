@@ -75,37 +75,37 @@ protocol: NEC
 address: 80 00 00 00
 command: 08 00 00 00
 #
-name: 50 °C
+name: 50 C
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 07 00 00 00
 #
-name: 100 °C
+name: 100 C
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 09 00 00 00
 #
-name: 200 °C
+name: 200 C
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 0A 00 00 00
 #
-name: 210 °C
+name: 210 C
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 1F 00 00 00
 #
-name: 220 °C
+name: 220 C
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 0C 00 00 00
 #
-name: 230 °C
+name: 230 C
 type: parsed
 protocol: NEC
 address: 80 00 00 00

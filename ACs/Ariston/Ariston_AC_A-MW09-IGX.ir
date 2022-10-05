@@ -2,7 +2,7 @@ Filetype: IR signals file
 Version: 1
 # 
 # Ariston AC A-MW09-IGX
-# On and Off buttons set to 26 C° cool
+# On and Off buttons set to 26C cool
 #
 name: POWER
 type: raw
