@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-#8BitDo-Media Remote for Xbox-short edition
+# 8BitDo-Media Remote for Xbox-short edition
 #
 name: Xbox_Button
 type: parsed
