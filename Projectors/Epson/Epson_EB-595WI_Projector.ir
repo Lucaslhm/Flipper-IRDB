@@ -2,7 +2,6 @@ Filetype: IR signals file
 Version: 1
 # 
 # Epson EB-595WI Projector
-# Added by ロワイヤル#.6167 (Discord)
 #
 name: POWER
 type: parsed
