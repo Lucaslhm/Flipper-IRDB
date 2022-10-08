@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# RM-88E Universal TV Remote
+# Chunghop RM-88E Universal TV Remote
 # 
 name: POWER
 type: parsed
