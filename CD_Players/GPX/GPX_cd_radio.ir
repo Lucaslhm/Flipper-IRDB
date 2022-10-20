@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# GPX CD/Radio remote
+#
 name: Stop
 type: parsed
 protocol: Samsung32
