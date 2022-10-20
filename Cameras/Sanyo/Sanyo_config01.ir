@@ -1,0 +1,8 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Shutter
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 81 7E 00 00
