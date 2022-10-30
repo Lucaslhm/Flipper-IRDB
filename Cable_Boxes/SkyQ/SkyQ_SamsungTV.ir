@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Skyq
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Skyqvolup
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+# 
+name: Voldown
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
