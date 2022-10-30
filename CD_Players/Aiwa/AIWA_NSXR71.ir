@@ -1,7 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Aiwa NSX-R71
+# Aiwa NSX-R71 CD Player
+# No MUTE button
 #
 name: POWER
 type: parsed
