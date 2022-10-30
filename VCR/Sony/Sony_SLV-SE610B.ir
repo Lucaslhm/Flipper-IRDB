@@ -1,0 +1,230 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 15 00 00 00
+# 
+name: Eject
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 16 00 00 00
+# 
+name: Choix son
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 17 00 00 00
+# 
+name: Wide
+type: parsed
+protocol: SIRC15
+address: A4 00 00 00
+command: 3D 00 00 00
+# 
+name: Compt_Duree rest
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 41 00 00 00
+# 
+name: Ralenti
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 23 00 00 00
+# 
+name: X2
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 14 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 57 00 00 00
+# 
+name: Next
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 56 00 00 00
+# 
+name: Affich
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 5A 00 00 00
+# 
+name: SP_LP
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 58 00 00 00
+# 
+name: Cancel_0
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 63 00 00 00
+# 
+name: TV_Magn
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 2A 00 00 00
+# 
+name: 1
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 00 00 00 00
+# 
+name: 2
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 01 00 00 00
+# 
+name: 3
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 02 00 00 00
+# 
+name: 4
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 03 00 00 00
+# 
+name: 5
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 04 00 00 00
+# 
+name: 6
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 05 00 00 00
+# 
+name: 7
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 06 00 00 00
+# 
+name: 8
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 07 00 00 00
+# 
+name: 9
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 08 00 00 00
+# 
+name: 0
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 09 00 00 00
+# 
+name: _l__
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 0A 00 00 00
+# 
+name: Input choice
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 4F 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: CH-
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 11 00 00 00
+# 
+name: CH+
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 10 00 00 00
+# 
+name: REC
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 1D 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 60 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 4D 00 00 00
+# 
+name: Smart access
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 1C 00 00 00
+# 
+name: Up_pause
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 0E 00 00 00
+# 
+name: Down_Stop
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 0F 00 00 00
+# 
+name: Left_Rwd
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 10 00 00 00
+# 
+name: Right_Fwd
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 11 00 00 00
+# 
+name: OK_Play
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 18 00 00 00

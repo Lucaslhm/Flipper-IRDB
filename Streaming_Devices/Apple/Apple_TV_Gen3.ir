@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 02 0C 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5E 0C 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0B 0C 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0D 0C 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 08 0C 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 07 0C 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5D 0C 00 00
