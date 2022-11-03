@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Devola DVPH1200B Patio Heater
+#
 name: On/Off
 type: parsed
 protocol: NEC
