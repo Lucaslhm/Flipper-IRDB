@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: ON_Speed
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 84 7B 00 00
+# 
+name: OFF
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 80 7F 00 00
+# 
+name: Mode_1
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 85 7A 00 00
+# 
+name: Swing_2
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 81 7E 00 00
+# 
+name: Timer_3
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 86 79 00 00
+# 
+name: Shift
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 82 7D 00 00
