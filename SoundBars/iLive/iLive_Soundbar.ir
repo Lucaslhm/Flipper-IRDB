@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9028 3517 173 801 573 559 573 559 573 557 575 583 539 565 567 1676 568 590 542 563 569 1674 570 1675 569 1676 568 1677 567 1678 576 556 566 1679 575 1669 575 557 575 556 566 1678 576 1696 548 557 575 556 566 565 567 564 568 1675 569 1676 568 564 568 563 569 1674 570 1702 542 1703 541 1678 576 40469 9030 2232 568 96806 9035 2229 571 96799 9033 2230 570
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 14 00 00 00
+# 
+name: Vol_dwn
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 10 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0A 00 00 00
+# 
+name: Optical
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 16 00 00 00
+# 
+name: BT
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0F 00 00 00
