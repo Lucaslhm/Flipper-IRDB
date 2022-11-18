@@ -1,0 +1,137 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Nexillumi LED lights
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: White
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Red
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9266 4443 660 533 632 537 656 510 628 537 627 536 628 536 627 537 625 538 624 1665 623 1668 621 1670 620 1670 620 1671 619 1670 618 1671 617 1670 618 544 617 544 617 544 618 1671 617 1671 617 544 617 1671 617 544 617 1671 617 1671 617 1671 617 544 617 544 617 1671 617 544 617 1671 615 39236 9118 2204 588 95940 9137 2203 588
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 59 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Brighter
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5C 00 00 00
+# 
+name: Dimmer
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9251 4440 662 532 629 535 652 509 626 535 626 535 626 535 626 536 625 537 623 1663 623 1665 621 1667 619 1668 619 1668 618 1668 618 1669 618 1668 618 1668 618 542 618 1668 618 1668 618 1668 618 542 618 1669 617 542 618 542 618 1669 617 542 617 542 617 543 616 1669 616 542 617 1668 616 39216 9090 2201 589
+
+# 
+name: Orange
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 54 00 00 00
+# 
+name: Lime
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9237 4446 659 534 629 536 629 536 654 510 628 536 628 536 628 536 627 537 626 1666 624 1668 623 1670 621 1671 620 1671 620 1671 620 1671 619 1671 620 1671 620 543 620 1672 619 543 619 1671 619 543 619 1672 618 543 619 544 618 1672 618 544 618 1672 618 544 618 1672 618 544 618 1672 618 39277 9139 2203 592
+# 
+name: Cyan
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 49 00 00 00
+# 
+name: DIY_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: DIY_2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9219 4417 653 535 622 536 623 536 624 535 624 536 623 536 623 537 623 537 623 1664 623 1665 621 1666 620 1668 620 1667 621 1668 622 1667 622 1667 619 1667 619 541 620 1667 619 1668 619 541 619 541 618 542 618 542 617 542 617 1669 616 542 617 542 617 1669 616 1669 617 1669 616 1669 617 39298 9097 2203 588
+# 
+name: DIY_3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: DIY_4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: DIY_5
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9210 4449 649 536 625 538 625 539 623 540 622 540 623 540 623 540 622 540 621 1667 620 1667 620 1667 619 1667 619 1667 619 1667 619 1667 618 1667 618 1668 618 541 618 540 619 1668 617 541 617 540 619 540 618 540 618 540 618 1667 618 1667 618 540 617 1668 617 1668 617 1667 618 1667 617 39249 9096 2200 591
+# 
+name: DIY_6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: R+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: R-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: G+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: G-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: B+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: B-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
