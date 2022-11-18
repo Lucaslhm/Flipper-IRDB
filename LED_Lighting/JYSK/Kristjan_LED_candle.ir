@@ -1,0 +1,53 @@
+Filetype: IR signals file
+Version: 1
+#
+# JYSK KRISTJAN LED candle
+# https://jysk.com.mt/product/pillar-candle-kristjan-3pcs-pk-w-led/
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+# 
+name: Timer 4h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: Timer 8h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+# 
+name: Candle mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: Light mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Brightness-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Brightness+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
