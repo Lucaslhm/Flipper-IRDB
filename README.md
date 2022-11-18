@@ -6,15 +6,19 @@ Maintainers/Major contributors include:
 * [Lucaslhm](https://github.com/Lucaslhm) (*[Maintained Repo](https://github.com/Lucaslhm/Flipper-IRDB)*)
 * [UberGuidoZ](https://github.com/UberGuidoZ) (*[Maintained Fork](https://github.com/UberGuidoZ/Flipper-IRDB)*)
 * [ezod](https://github.com/ezod) (*[Maintained Fork](https://github.com/logickworkshop/Flipper-IRDB)*)
+* [amec0e](https://github.com/amec0e)
 * [DedHedZed](https://github.com/dedhedzed)
 * [SkeletonMan](https://github.com/SkeletonMan03/)
 * [jaroslavmraz](https://github.com/jaroslavmraz)
-* [amec0e](https://github.com/amec0e)
 * [darmiel](https://github.com/darmiel)
 * [E_Surge](https://github.com/ESurge)
 * [Zecred](https://github.com/bussardrobbie)
 * [wdoekes](https://github.com/wdoekes)
 * ... plus MANY others!
+
+## Make your own manually!
+
+Did you know IR files are plain text files? If a remote is missing, you might be able to [make it manually](https://github.com/RandomDebugError/irdb).
 
 ## Organization  
 
