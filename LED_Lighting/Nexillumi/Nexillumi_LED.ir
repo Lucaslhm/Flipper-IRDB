@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Nexillumi LED lights
+#
 name: POWER
 type: parsed
 protocol: NEC
