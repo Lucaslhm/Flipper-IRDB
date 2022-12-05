@@ -1,0 +1,128 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 10 EF 00 00
+# 
+name: Return
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 11 EE 00 00
+# 
+name: 12_24
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 12 ED 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 13 EC 00 00
+# 
+name: Set
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 14 EB 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 15 EA 00 00
+# 
+name: Date
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 16 E9 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 17 E8 00 00
+# 
+name: Alarm
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 18 E7 00 00
+# 
+name: Temp
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 19 E6 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 00 FF 00 00
+# 
+name: Light
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 20 DF 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 01 FE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 02 FD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 03 FC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 04 FB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 05 FA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 06 F9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 07 F8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 08 F7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 7B 43 00 00
+command: 09 F6 00 00

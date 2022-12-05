@@ -1,0 +1,95 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Aiwa NSX-R71 CD Player
+# No MUTE button
+#
+name: POWER
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 00 00 00 00
+# 
+name: VOL_up
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 4D 00 00 00
+# 
+name: VOL_down
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 4E 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 40 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 44 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 41 00 00 00
+# 
+name: FVD
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 42 00 00 00
+# 
+name: BVD
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 43 00 00 00
+# 
+name: Present_up
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 86 00 00 00
+# 
+name: Present_down
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 85 00 00 00
+# 
+name: GEQ
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 57 00 00 00
+# 
+name: Sound
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 47 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 73 00 00 00
+# 
+name: FUNCTION
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 1E 00 00 00
+# 
+name: Deck_1_2
+type: parsed
+protocol: NEC42
+address: 6E 00 00 00
+command: 1B 00 00 00

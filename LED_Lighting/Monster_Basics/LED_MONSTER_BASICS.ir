@@ -1,0 +1,122 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Off
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+# 
+name: Dimmer_up
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: Dimmer_down
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+# 
+name: Pink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+# 
+name: Orange
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+# 
+name: White
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+# 
+name: Teal
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+# 
+name: Light_blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+# 
+name: Dark_blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+# 
+name: Night_light
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+# 
+name: Purple
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+# 
+name: Hot_pink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+# 
+name: Flash
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+# 
+name: Strobe
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 15 EA 00 00
+# 
+name: Fade
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 16 E9 00 00
+# 
+name: Smooth
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00

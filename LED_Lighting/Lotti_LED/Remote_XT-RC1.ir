@@ -1,0 +1,18 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote XT-RC1, compatible with LED candles with MOVING FLAME effect
+# Italian distributor "Lotti Importex srl"
+# https://orders.lottiitaly.com/EN/item/3626
+#
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00

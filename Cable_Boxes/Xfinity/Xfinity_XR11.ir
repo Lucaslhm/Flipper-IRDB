@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+# 
+name: Tv_Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+# 
+name: Volume_Up
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0C F3 00 00
+# 
+name: Volume_Down
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0D F2 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0E F1 00 00
+# 
+name: Tv_Input
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 1D E2 00 00

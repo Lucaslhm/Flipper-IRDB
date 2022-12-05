@@ -1,0 +1,11 @@
+Filetype: IR signals file
+Version: 1
+#
+# BenQ TRY01 Projector
+# https://www.benq.com/en-us/business/ifp/try01.html
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 04 B1 00 00
+command: 58 A7 00 00
