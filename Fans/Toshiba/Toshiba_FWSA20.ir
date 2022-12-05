@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+#
+# Toshiba F-WSA20 Fan
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 4B 14 00 00
+command: 80 7F 00 00
+# 
+name: MODE
+type: parsed
+protocol: NECext
+address: 4B 14 00 00
+command: 20 DF 00 00
+# 
+name: SWING
+type: parsed
+protocol: NECext
+address: 4B 14 00 00
+command: C0 3F 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NECext
+address: 4B 14 00 00
+command: A0 5F 00 00
