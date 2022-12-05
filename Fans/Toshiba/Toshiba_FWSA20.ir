@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Toshiba F-WSA20 Fan <---
+# Toshiba F-WSA20 Fan
 #
 name: POWER
 type: parsed
