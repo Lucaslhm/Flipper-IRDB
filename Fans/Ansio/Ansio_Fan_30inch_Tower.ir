@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# MainStays Tower Fan FZ10-19JR (aka Ansio)
+# Ansio Tower Fan 30" (aka MainStays Tower Fan FZ10-19JR)
 # 
 name: POWERToggle
 type: raw
