@@ -1,0 +1,164 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+# 
+name: Audio_Setup
+type: parsed
+protocol: Kaseikyo
+address: 84 02 20 02
+command: F0 02 00 00
+# 
+name: Position
+type: parsed
+protocol: Kaseikyo
+address: 84 02 20 03
+command: 50 02 00 00
+# 
+name: Picure
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 60 00 00 00
+# 
+name: Imput
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 00 00 00
+# 
+name: Setup
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 20 01 00 00
+# 
+name: Sound
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 70 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: A0 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: B0 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: E0 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: F0 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 90 00 00 00
+# 
+name: Default
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: C0 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 70 02 00 00
+# 
+name: Recall
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 90 03 00 00
+# 
+name: Return
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 03
+command: 40 01 00 00
+# 
+name: Aspect
+type: parsed
+protocol: Kaseikyo
+address: 84 02 20 03
+command: E0 01 00 00
+# 
+name: Off_Timer
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: F0 00 00 00
+# 
+name: Function
+type: parsed
+protocol: Kaseikyo
+address: 8A 02 20 00
+command: 00 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 30 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 01 00 00

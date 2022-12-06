@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Source_1
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Source_2
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+# 
+name: Source_3
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Next_Source
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
+# 
+name: Prev_Source
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1B 00 00 00

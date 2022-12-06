@@ -1,0 +1,182 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: SourceSRC
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8C 73 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 94 6B 00 00
+# 
+name: HDMI/ANAL
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 70 8F 00 00
+# 
+name: USBPC
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 76 89 00 00
+# 
+name: LAN
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 74 8B 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 3F C0 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 23 DC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 43 BC 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 41 BE 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 60 9F 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9E 61 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8A 75 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8F 70 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: AB 54 00 00
+# 
+name: ID
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 31 CE 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9A 65 00 00
+# 
+name: ESC
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 84 7B 00 00
+# 
+name: User
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9F 60 00 00
+# 
+name: Pointer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9B 64 00 00
+# 
+name: PGUP
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 86 79 00 00
+# 
+name: PGDWN
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 87 78 00 00
+# 
+name: ZOOMIN
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 88 77 00 00
+# 
+name: ZOOMOUT
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 89 76 00 00
+# 
+name: VOLUP
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 98 67 00 00
+# 
+name: VOLDWN
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+# 
+name: MUTESRC
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 93 6C 00 00
+# 
+name: SPLIT
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 82 7D 00 00
+# 
+name: FREEZE
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: HOME
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 95 6A 00 00

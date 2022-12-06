@@ -1,0 +1,194 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: TV_Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+# 
+name: VCR_Power
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: D0 03 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 01
+command: 60 01 00 00
+# 
+name: VCR/TV
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 60 03 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: CH_Up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 03 00 00
+# 
+name: CH_Down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
+# 
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 60 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: A0 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 00 00 00 00
+# 
+name: Slow
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: F0 00 00 00
+# 
+name: FastForward
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 30 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 20 00 00 00
+# 
+name: Speed
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: A0 00 00 00
+# 
+name: Rec/Time
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 80 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 50 00 00 00
+# 
+name: R-Tune
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 80 03 00 00
+# 
+name: CH_Preset_Up
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 40 03 00 00
+# 
+name: Ch_Preset_Down
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 50 03 00 00
+# 
+name: Prog
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 10 00 00 00
+# 
+name: Rotate_Up
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 20 00 00 00
+# 
+name: Rotate_Dwn
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 30 00 00 00
+# 
+name: Push2Set
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 40 00 00 00
+# 
+name: Display
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 90 03 00 00
+# 
+name: Add/DLT
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 10 03 00 00
+# 
+name: All_Ch_Up
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 03
+command: 30 03 00 00
+# 
+name: All_Ch_Down
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 03
+command: 30 03 00 00
+# 
+name: Counter_Reset
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 01
+command: 40 01 00 00
+# 
+name: ZeroSearch
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 03
+command: 50 03 00 00
+# 
+name: Tracking_Up
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 02
+command: 10 03 00 00
+# 
+name: Tracking_Dwn
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 02
+command: 10 03 00 00

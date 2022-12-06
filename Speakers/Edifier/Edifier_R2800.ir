@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 09 F6 00 00
+# 
+name: Vol_UP
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 01 FE 00 00
+# 
+name: Vol_DWN
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 02 FD 00 00
+# 
+name: PC_AUX
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 00 FF 00 00
+# 
+name: OPT_COX
+type: parsed
+protocol: NECext
+address: 78 0E 00 00
+command: 03 FC 00 00
