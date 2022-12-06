@@ -145,7 +145,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 6F 00 00 00
 # 
-name:Blue 
+name: Blue
 type: parsed
 protocol: RC6
 address: 00 00 00 00
