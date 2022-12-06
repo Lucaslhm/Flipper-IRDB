@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On/Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+# 
+name: USB/SD
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: UP
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Pause/Play
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Volume_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: Volume_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: Fastforward
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: Skip_forward
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: Skip_backwards
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
