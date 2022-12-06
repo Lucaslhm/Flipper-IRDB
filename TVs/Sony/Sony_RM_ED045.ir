@@ -294,7 +294,6 @@ type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 28 00 00 00
-
 # 
 name: Audio
 type: parsed
