@@ -1,0 +1,116 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On_Off
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 40 BF 00 00
+# 
+name: Bulb
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 4D B2 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 41 BE 00 00
+# 
+name: USB
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 4C B3 00 00
+# 
+name: AUX_in
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 11 EE 00 00
+# 
+name: Option_in
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 10 EF 00 00
+# 
+name: WiFi
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 19 E6 00 00
+# 
+name: BT
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 18 E7 00 00
+# 
+name: Bass_P
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 4E B1 00 00
+# 
+name: Bass_M
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 4A B5 00 00
+# 
+name: Treble_P
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 0D F2 00 00
+# 
+name: Treble_M
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 09 F6 00 00
+# 
+name: Flat
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 0C F3 00 00
+# 
+name: D_Bass
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 08 F7 00 00
+# 
+name: Up_Plus
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 16 E9 00 00
+# 
+name: Down_Minus
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 1A E5 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 51 AE 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 50 AF 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 89 89 00 00
+command: 13 EC 00 00

@@ -16,7 +16,7 @@ protocol: SIRC15
 address: 44 00 00 00
 command: 60 00 00 00
 # 
-name: FUNCTION 
+name: FUNCTION
 type: parsed
 protocol: SIRC15
 address: 44 00 00 00
@@ -124,7 +124,7 @@ protocol: SIRC15
 address: 64 00 00 00
 command: 6F 00 00 00
 # 
-name: REPEAT 
+name: REPEAT
 type: parsed
 protocol: SIRC15
 address: 64 00 00 00
@@ -154,7 +154,7 @@ protocol: SIRC15
 address: 64 00 00 00
 command: 3A 00 00 00
 # 
-name: FORWARD 
+name: FORWARD
 type: parsed
 protocol: SIRC15
 address: 64 00 00 00
