@@ -1,0 +1,311 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Telefunken TV D40F294R4CW
+# Remote: Unknown
+# 
+name: POWER
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 11 00 00 00
+# 
+name: CH+
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 20 00 00 00
+# 
+name: CH-
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 21 00 00 00
+# 
+name: UP
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 16 00 00 00
+# 
+name: OK
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 35 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: EXIT
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 25 00 00 00
+# 
+name: SMART_HOME
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 2E 00 00 00
+# 
+name: SOURCE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 38 00 00 00
+# 
+name: YOUTUBE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 29 00 00 00
+# 
+name: NETFLIX
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 27 00 00 00
+# 
+name: FILES
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 28 00 00 00
+# 
+name: TELETEXT
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 3C 00 00 00
+# 
+name: MENU
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 30 00 00 00
+# 
+name: Q-MENU
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 2B 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0D 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 00 00 00 00
+# 
+name: CH_LIST
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 26 00 00 00
+# 
+name: PREV_CH
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 22 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: USB
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 39 00 00 00
+# 
+name: P_GUIDE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 2F 00 00 00
+# 
+name: 1ST_CH
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 3B 00 00 00
+# 
+name: CH_NET_TYPE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 1A 00 00 00
+# 
+name: LANG
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0F 00 00 00
+# 
+name: SUBTITLE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 1F 00 00 00
+# 
+name: ASPECT
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0B 00 00 00
+# 
+name: REWIND
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 1B 00 00 00
+# 
+name: PAUSE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 31 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 19 00 00 00
+# 
+name: F_FORWARD
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 1C 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 18 00 00 00
+# 
+name: RECORD
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 33 00 00 00
+# 
+name: RED
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 37 00 00 00
+# 
+name: GREEN
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 36 00 00 00
+# 
+name: YELLOW
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 32 00 00 00
+# 
+name: BLUE
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 34 00 00 00

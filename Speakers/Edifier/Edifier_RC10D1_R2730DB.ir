@@ -1,0 +1,60 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Edifier RC10D1 remote
+# shipped with R2730DB
+# 
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 01 FE 00 00
+# 
+name: On/Off
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 00 FF 00 00
+# 
+name: -
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0C F3 00 00
+# 
+name: +
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 09 F6 00 00
+# 
+name: Line1
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0A F5 00 00
+# 
+name: Line2
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 15 EA 00 00
+# 
+name: Optical
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0D F2 00 00
+# 
+name: COAX
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 16 E9 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0E F1 00 00

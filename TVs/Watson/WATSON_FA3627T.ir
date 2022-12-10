@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Watson TV FA-3627-T
+#
+name: MUTE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: CH_up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
+# 
+name: CH_down
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: AV
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 38 00 00 00
+# 
+name: TV
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 3F 00 00 00
+# 
+name: VOL_up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: VOL_down
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: POWER
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00

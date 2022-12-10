@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On/Off
+type: parsed
+protocol: NECext
+address: 4C 4D 00 00
+command: 47 B8 00 00
+# 
+name: Fire_On
+type: parsed
+protocol: NECext
+address: 4C 4D 00 00
+command: 45 BA 00 00
+# 
+name: Light_On
+type: parsed
+protocol: NECext
+address: 4C 4D 00 00
+command: 16 E9 00 00
+# 
+name: Light_Mode
+type: parsed
+protocol: NECext
+address: 4C 4D 00 00
+command: 02 FD 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 4C 4D 00 00
+command: 17 E8 00 00

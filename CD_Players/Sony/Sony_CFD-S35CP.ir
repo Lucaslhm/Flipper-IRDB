@@ -1,0 +1,185 @@
+Filetype: IR signals file
+Version: 1
+#
+# Model: Sony CFD-S35CP CD Radio Cassette-Corder
+# Remote: Sony RMT-CF15CPAD
+# 
+name: OPERATE
+type: parsed
+protocol: SIRC15
+address: 44 00 00 00
+command: 15 00 00 00
+# 
+name: SLEEP
+type: parsed
+protocol: SIRC15
+address: 44 00 00 00
+command: 60 00 00 00
+# 
+name: FUNCTION
+type: parsed
+protocol: SIRC15
+address: 44 00 00 00
+command: 47 00 00 00
+# 
+name: 1
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 00 00 00 00
+# 
+name: 2
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 01 00 00 00
+# 
+name: 3
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 02 00 00 00
+# 
+name: 4
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 03 00 00 00
+# 
+name: 5
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 04 00 00 00
+# 
+name: 6
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 05 00 00 00
+# 
+name: 7
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 06 00 00 00
+# 
+name: 8
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 07 00 00 00
+# 
+name: 9
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 08 00 00 00
+# 
+name: 0/10
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 0C 00 00 00
+# 
+name: >10
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 0D 00 00 00
+# 
+name: MODE
+type: parsed
+protocol: SIRC15
+address: 44 00 00 00
+command: 11 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: SIRC15
+address: 44 00 00 00
+command: 12 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: SIRC15
+address: 44 00 00 00
+command: 13 00 00 00
+# 
+name: TUNE+
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 73 00 00 00
+# 
+name: TUNE-
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 74 00 00 00
+# 
+name: BAND
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 6F 00 00 00
+# 
+name: REPEAT
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 2C 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 32 00 00 00
+# 
+name: PAUSE
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 39 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 38 00 00 00
+# 
+name: REWIND
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 3A 00 00 00
+# 
+name: FORWARD
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 3B 00 00 00
+# 
+name: FOLDER+
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 3E 00 00 00
+# 
+name: FOLDER-
+type: parsed
+protocol: SIRC15
+address: 64 00 00 00
+command: 3F 00 00 00
+# 
+name: SOUND
+type: parsed
+protocol: SIRC15
+address: 44 00 00 00
+command: 30 00 00 00
+# 
+name: MEGA BASS
+type: parsed
+protocol: SIRC15
+address: 44 00 00 00
+command: 3F 00 00 00

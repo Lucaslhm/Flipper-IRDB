@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sonos ARC, Beam, Playbar, and Playbase
+#
+name: VolumeUp
+type: parsed
+protocol: NECext
+address: 80 D9 00 00
+command: 8A 75 00 00
+# 
+name: VolumeDown
+type: parsed
+protocol: NECext
+address: 80 D9 00 00
+command: 88 77 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 80 D9 00 00
+command: 8C 73 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 80 D9 00 00
+command: 86 79 00 00

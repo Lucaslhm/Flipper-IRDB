@@ -1,0 +1,77 @@
+Filetype: IR signals file
+Version: 1
+#
+# Century LED floodlight with solar panel mod.SRSOL-509040
+# https://www.century-italia.it/en/prodotti/apparecchio-proiettori-sirio-solare-2-50w-4000k-srsol-509040/
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: Plus
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: Minus
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: Wake_up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: 3h
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 40 00 00 00
+# 
+name: 5h
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 48 00 00 00
+# 
+name: 8h
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 44 00 00 00
+# 
+name: M
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
