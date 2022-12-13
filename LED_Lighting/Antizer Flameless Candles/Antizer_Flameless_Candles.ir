@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Antizer Flameless Candles
+#
 name: On
 type: parsed
 protocol: NECext
