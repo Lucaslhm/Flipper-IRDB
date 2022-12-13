@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Fujitsu AC ASU18RLF
+#
 name: On_fan
 type: raw
 frequency: 38000
