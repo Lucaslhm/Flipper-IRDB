@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Koopower HG4011 LED Light String
+#
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Dim
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: Brighten
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+# 
+name: Mode_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Mode_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Mode_3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Mode_4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Mode_5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Mode_6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Mode_7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Mode_8
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
