@@ -1,7 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Used with Sony MDS-JE480 MiniDisc deck
+# Used with Sony MDS-JE480 MiniDisc Deck
+#
 name: POWER
 type: parsed
 protocol: SIRC
