@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Vornado 6303DC Air Circulator
+#
 name: POWER
 type: raw
 frequency: 38000
