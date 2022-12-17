@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Sony STRDH590
+# Sony STRDH590 audio receiver
 #
 name: POWER
 type: parsed
