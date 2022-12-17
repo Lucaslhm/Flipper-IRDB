@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+# 
+# WeWatch v10 Projector
+#
+name: Start
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 00 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 03 00 00 00
+# 
+name: Return
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0B 00 00 00
+# 
+name: Volume_down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 40 00 00 00
+# 
+name: Volume_up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 48 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 44 00 00 00
