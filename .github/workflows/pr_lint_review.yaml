@@ -26,6 +26,10 @@ jobs:
         uses: tj-actions/changed-files@v29.0.7
         with:
           files: "**/*.ir"
+          separator: "\n"
+          
+      - name: Save changed file names to file
+        run: echo '${{ steps.changed-files.outputs.all_changed_files }}' > changed_file_list.txt
       
       - uses: actions/setup-python@v4
         with:
@@ -36,7 +40,7 @@ jobs:
         id: run
         continue-on-error: true
         with:
-          run: python fff-ir-lint/main.py github2 ${{ steps.changed-files.outputs.all_changed_files }}
+          run: python fff-ir-lint/main.py github2 file:changed_file_list.txt
 
       - uses: ntsd/auto-request-changes-action@v2
         name: "❌ Request Changes"
