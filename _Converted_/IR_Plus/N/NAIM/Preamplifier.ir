@@ -220,7 +220,7 @@ protocol: RC5
 address: 14 00 00 00
 command: 12 00 00 00
 #
-name: Display down  (statement only)
+name: Display down (statement only)
 type: parsed
 protocol: RC5
 address: 14 00 00 00

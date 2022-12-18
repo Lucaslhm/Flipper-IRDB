@@ -178,25 +178,25 @@ protocol: NECext
 address: 08 00 00 00
 command: 4F B0 00 00
 #
-name: VIDEO     MyTV
+name: VIDEO MyTV
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: C7 38 00 00
 #
-name: RADIO     Favourite
+name: RADIO Favourite
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: 47 B8 00 00
 #
-name: MUSIC     HD TV
+name: MUSIC HD TV
 type: parsed
 protocol: NECext
 address: 08 00 00 00
 command: A7 58 00 00
 #
-name: PHOTO     Genre
+name: PHOTO Genre
 type: parsed
 protocol: NECext
 address: 08 00 00 00
