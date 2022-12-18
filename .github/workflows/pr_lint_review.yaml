@@ -42,24 +42,20 @@ jobs:
         with:
           run: python fff-ir-lint/main.py github2 file:changed_file_list.txt
 
-      - uses: ntsd/auto-request-changes-action@v2
-        name: "❌ Request Changes"
+      - name: Request Changes
+        uses: thollander/actions-comment-pull-request@v2
         if: ${{ steps.run.outputs.stderr }}
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-          comment-body: |
+          message: |
+            ❌ Found Issues
             ${{ steps.run.outputs.stdout }}
-            
-      # optional: auto approve PRs with valid .ir files
-      - uses: hmarr/auto-approve-action@v2
-        name: "✅ Approve Changes"
+
+      - name: Request Changes
+        uses: thollander/actions-comment-pull-request@v2
         if: ${{ ! steps.run.outputs.stderr }}
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-          review-message: |
-            > **Note**: This approval was *auto-generated*
-            
-            LGTM! 😊
+          message: |
+            LGTM! 😊 No issues found.
 
       - name: Fail Pipeline
         if: ${{ steps.run.outputs.stderr }}
