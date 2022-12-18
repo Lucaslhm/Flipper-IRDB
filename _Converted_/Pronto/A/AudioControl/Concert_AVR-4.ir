@@ -7,8 +7,7 @@ frequency: 36683
 duty_cycle: 0.330000
 data: 872 872 1745 1745 1745 872 872 872 872 872 872 872 872 872 872 1745 872 872 1745 872 872 67797
 #
-name: 	
- !"#$%&'()*+,-./0123456789: ;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnop
+name: Unknown
 type: raw
 frequency: 36683
 duty_cycle: 0.330000

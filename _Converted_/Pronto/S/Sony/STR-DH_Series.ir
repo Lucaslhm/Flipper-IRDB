@@ -7,8 +7,7 @@ frequency: 40639
 duty_cycle: 0.330000
 data: 2362 591 591 591 1181 591 1181 591 1181 591 591 591 1181 591 591 591 591 591 591 591 591 591 591 591 1181 591 1181 591 591 591 591 23032
 #
-name: 	
- !"#$%&'()*+,-./0123456789: ;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+name: Unknown
 type: raw
 frequency: 40639
 duty_cycle: 0.330000
