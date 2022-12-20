@@ -1,0 +1,128 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: C7 00 00 00
+# 
+name: Eject
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 42 00 00 00
+# 
+name: Home
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 92 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: D1 00 00 00
+# 
+name: Options
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 82 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5C 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 59 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 58 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5B 00 00 00
+# 
+name: Back
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 83 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 31 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 2C 00 00 00
+# 
+name: Forward
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 20 00 00 00
+# 
+name: Backward
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 21 00 00 00
+# 
+name: Subtitle
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 4B 00 00 00
+# 
+name: Goto
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: D0 00 00 00
+# 
+name: Audio
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 4E 00 00 00
+# 
+name: ___
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: F7 00 00 00
+# 
+name: Volume
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: A0 00 00 00
+# 
+name: Repeat_AB
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 1D 00 00 00

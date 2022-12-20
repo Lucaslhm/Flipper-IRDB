@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Allume
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: Zoom_Plus
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 88 77 00 00
+# 
+name: Zoom_Moins
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 89 76 00 00
