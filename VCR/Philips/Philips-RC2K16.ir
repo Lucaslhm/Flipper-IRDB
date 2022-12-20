@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Philips RC2K16 VCR
+#
 name: POWER
 type: parsed
 protocol: RC6
