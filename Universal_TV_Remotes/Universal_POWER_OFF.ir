@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Multiple Power OFF Buttons
+#
 name: SAMSUNG
 type: parsed
 protocol: Samsung32
