@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Sony MiniDisk Player
+#
 name: EJECT
 type: parsed
 protocol: SIRC
