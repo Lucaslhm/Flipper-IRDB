@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# LG VCR 6711R1P073B
+#
 name: POWER
 type: parsed
 protocol: NEC
