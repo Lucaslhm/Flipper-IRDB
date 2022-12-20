@@ -1,0 +1,16 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Octagon Cable Box
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 01 04 00 00
+command: 0A F5 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 01 04 00 00
+command: 0C F3 00 00
