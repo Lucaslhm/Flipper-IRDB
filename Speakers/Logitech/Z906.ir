@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+#
+# Logitech Z906
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 80 7F 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: AA 55 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 6A 95 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: EA 15 00 00
+#
+name: Input
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 08 F7 00 00
+#
+name: SpeakerLevel
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 0A F5 00 00
+#
+name: Effect
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 0E F1 00 00
+#
+name: Input1
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 04 FB 00 00
+#
+name: Input2
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 82 7D 00 00
+#
+name: Input3
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 0C F3 00 00
+#
+name: Input4
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 8C 73 00 00
+#
+name: Input5
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 02 FD 00 00
+#
+name: InputAUX
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 42 BD 00 00
+#
+name: SpeakerTest
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 01 FE 00 00
