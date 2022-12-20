@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Northerns Light Chain LED
+#
 name: Led
 type: parsed
 protocol: NECext
