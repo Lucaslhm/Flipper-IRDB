@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Rusta Christmas Tree Candle LED
+#
 name: On
 type: raw
 frequency: 38000
