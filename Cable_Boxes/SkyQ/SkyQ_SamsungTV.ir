@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# Samsung SkyQ TV
+#
 name: Power_BOX
 type: raw
 frequency: 38000
@@ -13,7 +15,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: Skyqvolup_TV
+name: Vvolup_TV
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
