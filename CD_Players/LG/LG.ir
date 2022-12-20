@@ -81,8 +81,7 @@ protocol: Samsung32
 address: 10 00 00 00
 command: 06 00 00 00
 # 
-name: Skip 
-
+name: Skip
 type: parsed
 protocol: Samsung32
 address: 10 00 00 00
