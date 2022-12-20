@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Humax Cable Box
+#
 name: Power
 type: parsed
 protocol: NECext
