@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Pioneer CD Player CU-SX109
+#
 name: Power receiver
 type: raw
 frequency: 38000
