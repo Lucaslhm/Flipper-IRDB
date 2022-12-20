@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Rayfoto Projector
+#
 name: Power
 type: parsed
 protocol: NEC
