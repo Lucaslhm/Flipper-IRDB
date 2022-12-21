@@ -52,8 +52,13 @@ jobs:
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           comment-body: |
-            ${{ steps.run.outputs.stdout }}
+            <details>
+              <summary>🐛 Linter Result</summary>
+              
+              ${{ steps.run.outputs.stdout }}
+              
+            </details>
 
-      - name: Fail Pipeline
-        if: ${{ steps.run.outputs.stderr }}
-        run: exit 1
+      # - name: Fail Pipeline
+      #   if: ${{ steps.run.outputs.stderr }}
+      #   run: exit 1
