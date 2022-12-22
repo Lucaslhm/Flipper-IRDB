@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Neewer NW22B LED
+#
 name: C1_on
 type: raw
 frequency: 38000
