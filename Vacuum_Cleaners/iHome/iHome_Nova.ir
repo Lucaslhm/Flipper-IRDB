@@ -1,5 +1,7 @@
 Filetype: IR signals file
 Version: 1
+#
+# Model: iHRV6
 # 
 name: Home
 type: parsed
