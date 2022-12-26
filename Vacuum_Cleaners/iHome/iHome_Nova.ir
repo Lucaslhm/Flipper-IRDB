@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+#
+# Model: iHRV6
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0A F5 00 00
+# 
+name: Foward
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0B F4 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 10 EF 00 00
+# 
+name: Reverse
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0E F1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 11 EE 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0D F2 00 00
+# 
+name: Spot_clean
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 16 E9 00 00
+# 
+name: PwrMop
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 37 C8 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 40 BF 00 00
+# 
+name: Dec_Pwr
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 1C E3 00 00
+# 
+name: Inc_Pwr
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 15 EA 00 00
+# 
+name: Hyperdrive
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: BF 40 00 00
