@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Marantz RC042SR remote 
+# Marantz RC042SR Audio Receiver 
 #
 name: Power
 type: parsed
