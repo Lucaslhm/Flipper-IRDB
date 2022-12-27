@@ -1,0 +1,35 @@
+Filetype: IR signals file
+Version: 1
+#
+# Multiple Power Off Buttons
+# 
+name: POWER Samsung
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: POWER Sony
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+#  
+name: POWER Phillips
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: POWER Denver
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+# 
+name: POWER Lg
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+# 

@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power_on_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 81 00 00 00
+# 
+name: Fire_toggle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 82 00 00 00
+# 
+name: Heat_toggle
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9105 4479 619 575 565 576 543 572 567 574 566 575 544 570 569 572 567 573 546 1685 594 1639 682 1629 568 1690 600 1634 677 1634 573 1685 595 1639 672 495 593 574 545 1686 593 575 544 1688 591 576 543 1689 601 1632 679 1632 575 1683 597 572 547 1684 595 573 546 1686 593 574 545 570 569 40267 9103 2248 601 97067 9081 2244 595
+# 
+name: Temp_down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 94 00 00 00
+# 
+name: Temp_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 95 00 00 00
+# 
+name: Eco_toggle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 83 00 00 00
+# 
+name: Pwr_level_toggle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 96 00 00 00
+# 
+name: Light_toggle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C0 00 00 00
+# 
+name: Light_level_toggle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 97 00 00 00
+# 
+name: Timer_toggle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 80 00 00 00
