@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# Edifier Speaker RC17A
+#
 name: POWER
 type: parsed
 protocol: NECext
