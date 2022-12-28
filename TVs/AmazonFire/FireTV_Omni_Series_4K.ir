@@ -152,7 +152,7 @@ type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 96 69 00 00
-
+#
 name: MAGNIFIER
 type: parsed
 protocol: NECext
@@ -164,7 +164,6 @@ type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: C0 3F 00 00
-
 #
 name: BLUETOOTH
 type: parsed
@@ -177,7 +176,6 @@ type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: CE 31 00 00
-
 #
 name: NETWORKING
 type: parsed
@@ -202,10 +200,3 @@ type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: a0 5f 00 00
-
-
-
-
-
-
-
