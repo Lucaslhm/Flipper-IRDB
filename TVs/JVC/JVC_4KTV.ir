@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# JVC 4K TV
+#
 name: POWER
 type: parsed
 protocol: RC5
