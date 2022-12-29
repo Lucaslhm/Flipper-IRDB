@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Hovvida LED Light
+#
 name: On
 type: parsed
 protocol: NEC
