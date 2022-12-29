@@ -1,0 +1,202 @@
+Filetype: IR signals file
+Version: 1
+#
+# FireTV_Omni_Series_4K
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+#
+name: HOME
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 9f 60 00 00
+# 
+name: MENU
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 45 BA 00 00
+# 
+name: BACK
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 0D F2 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 0C F3 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 19 E6 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4C B3 00 00
+#
+name: UP
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 48 b7 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4D B2 00 00
+#
+name: LEFT
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4e b1 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 49 B6 00 00
+#
+name: SELECT
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4a b5 00 00
+# 
+name: REWIND
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 16 E9 00 00
+# 
+name: PLAY PAUSE
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 5B A4 00 00
+# 
+name: FAST FORWARD
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 17 E8 00 00
+# 
+name: GUIDE
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 14 EB 00 00
+# 
+name: CH+
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 0F F0 00 00
+#
+name: CH-
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 5A A5 00 00
+# 
+name: RECENT APPS
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: b1 4e 00 00
+#
+name: DISNEY PLUS
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: a2 5d 00 00
+#
+name: FREEVIE
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: d2 2d 00 00
+#
+name: NETFLIX
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 5f a0 00 00
+#
+name: PRIME VIDEO
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: a1 5e 00 00
+#
+name: HULU
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: a5 5a 00 00
+#
+name: SETTINGS
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 96 69 00 00
+#
+name: MAGNIFIER
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: c8 37 00 00
+#
+name: VOICE VIEW
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: C0 3F 00 00
+#
+name: BLUETOOTH
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: A6 59 00 00
+#
+name: RESOLUTION
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: CE 31 00 00
+#
+name: NETWORKING
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: cf 30 00 00
+#
+name: REBOOT
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: ca 35 00 00
+#
+name: FACTORY RESET
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: c9 36 00 00
+#
+name: ALEXA
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: a0 5f 00 00
