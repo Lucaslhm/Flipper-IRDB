@@ -1,6 +1,10 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Samsung Service Menu.
+# Turn off the Device and send the commands one after the other
+# to open hidden service menu. 1.Info 2.Menu 3.MUTE 4.POWER
+#
 name: Info
 type: parsed
 protocol: Samsung32
