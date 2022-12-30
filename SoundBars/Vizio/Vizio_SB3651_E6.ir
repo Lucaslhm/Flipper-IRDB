@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Vizio SB3651 E6 Sound Bar
+#
 name: Power
 type: parsed
 protocol: NEC
