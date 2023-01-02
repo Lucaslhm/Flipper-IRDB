@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# UFO Sunset Lamp LED
+#
 name: Off
 type: parsed
 protocol: NECext
