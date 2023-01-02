@@ -1,0 +1,106 @@
+Filetype: IR signals file
+Version: 1
+# 
+# America Lighting LEDs
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+#
+name: Off
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+#
+name: White
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+#
+name: R_W_B
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+#
+name: Halloween
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8981 4163 177 127 595 531 591 534 588 537 596 529 593 532 590 535 587 537 596 529 593 1659 596 1656 589 1664 591 1661 594 531 591 1661 594 1658 597 1655 590 1663 592 534 588 536 597 1655 590 536 597 528 594 531 591 533 589 535 587 1665 590 1662 593 532 590 1662 593 1658 597 1656 589 1664 591 40721 8965 2235 592
+#
+name: Xmas
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+#
+name: Fade
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+#
+name: Quick
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+#
+name: Pick_Color
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+#
+name: 3_Colors
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+#
+name: 7_Colors
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+#
+name: 16_Colors
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+#
+name: Chase_Rt
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+#
+name: Chase_Lt
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+#
+name: Single_Rt
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+#
+name: Single_Lt
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+#
+name: Random
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00
