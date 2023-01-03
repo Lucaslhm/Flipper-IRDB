@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Volume_up
+name: Volume Up
 type: parsed
 protocol: NECext
 address: BA A0 00 00
 command: 03 FC 00 00
 # 
-name: Volume_down
+name: Volume Down
 type: parsed
 protocol: NECext
 address: BA A0 00 00
 command: 02 FD 00 00
 # 
-name: Mode_aux
+name: AUX
 type: parsed
 protocol: NECext
 address: BA A0 00 00
 command: 0D F2 00 00
 # 
-name: Mode_bt
+name: Bluetooth
 type: parsed
 protocol: NECext
 address: BA A0 00 00
@@ -30,3 +30,57 @@ type: parsed
 protocol: NECext
 address: BA A0 00 00
 command: 4C B3 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 55 AA 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 56 A9 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 5A A5 00 00
+# 
+name: Previous
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 59 A6 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 1A E5 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 01 FE 00 00
+# 
+name: Bass
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 82 7D 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 58 A7 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 57 A8 00 00
