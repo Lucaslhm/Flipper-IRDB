@@ -1,0 +1,166 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Yamaha Amplifier AX-396
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1F 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1A 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1B 00 00 00
+#
+name: MD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 19 00 00 00
+# 
+name: TAPE
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 18 00 00 00
+# 
+name: CD_DVD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 15 00 00 00
+# 
+name: AUX
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 17 00 00 00
+# 
+name: PHONO
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 14 00 00 00
+# 
+name: TUNER
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 16 00 00 00
+# 
+name: TAPE - Record/Pause
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 04 00 00 00
+# 
+name: TAPE DECK A/B
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 06 00 00 00
+# 
+name: TAPE RWD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 01 00 00 00
+# 
+name: TAPE PLAY
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 00 00 00 00
+# 
+name: TAPE FFWD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 02 00 00 00
+# 
+name: TAPE DIR A
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 07 00 00 00
+# 
+name: TAPE STOP
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 03 00 00 00
+# 
+name: TAPE DIR B
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 40 00 00 00
+# 
+name: CD DISC SKIP
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 4F 00 00 00
+# 
+name: CD BACK
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 0B 00 00 00
+# 
+name: CD PLAY
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 08 00 00 00
+# 
+name: CD FWD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 0A 00 00 00
+# 
+name: CD REWIND
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 0D 00 00 00
+# 
+name: CD STOP/PAUSE
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 09 00 00 00
+# 
+name: CD FFWD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 0C 00 00 00
+# 
+name: TUNER PRESET-
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 11 00 00 00
+# 
+name: TUNER PRESET+
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 10 00 00 00
+# 
+name: TUNER A/B/C/D/E
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 12 00 00 00
