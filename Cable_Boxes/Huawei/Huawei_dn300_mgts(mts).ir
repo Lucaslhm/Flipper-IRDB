@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Huawei DN300 MGTS Cable Box
+# https://cache3.youla.io/files/images/720_720_out/5c/5f/5c5f2a2eaaab2862d173cbef.jpg
+#
 name: Power
 type: parsed
 protocol: NECext
