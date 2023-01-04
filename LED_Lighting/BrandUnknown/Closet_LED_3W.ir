@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Closet LED 3W
+#
 name: ON
 type: raw
 frequency: 38000
