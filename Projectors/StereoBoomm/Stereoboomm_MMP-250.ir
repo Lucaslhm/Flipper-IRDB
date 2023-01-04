@@ -1,0 +1,92 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 0C F3 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 0D F2 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 1D E2 00 00
+# 
+name: Fast Rewind
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 1C E3 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 18 E7 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 12 ED 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 11 EE 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 13 EC 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 10 EF 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 14 EB 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 0E F1 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 16 E9 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 17 E8 00 00
+# 
+name: Volume Down
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 1E E1 00 00
+# 
+name: Volume Up
+type: parsed
+protocol: NECext
+address: B8 57 00 00
+command: 1F E0 00 00
