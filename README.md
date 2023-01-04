@@ -20,6 +20,10 @@ Maintainers/Major contributors include:
 
 Did you know IR files are plain text files? If a remote is missing, you might be able to [make it manually](https://github.com/RandomDebugError/irdb).
 
+## Universal Remotes
+
+The maintainers (mostly amec0e) add individual additions to the various Universal Remotes in Unleashed, which are adapted by many other firmware options. If you would like to contribute to the Universal Remotes, please make sure to follow the naming convention below. For ACs, [this is an important read](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/UniversalRemotes.md).
+
 ## Organization  
 
 This repo is organized in the following fashion in descending order:  
