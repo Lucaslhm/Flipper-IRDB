@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On_off
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 40 BF 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 59 A6 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 45 BA 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 58 A7 00 00
+# 
+name: Orange
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 54 AB 00 00
+# 
+name: Purp
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 1E E1 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 18 E7 00 00
+# 
+name: Slow
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 13 EC 00 00
+# 
+name: White
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 44 BB 00 00
+# 
+name: Dark_green
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 1D E2 00 00
+# 
+name: Up_light
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 5C A3 00 00
+# 
+name: Down_light
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 5D A2 00 00
+# 
+name: Flash
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 0B F4 00 00
+# 
+name: Quik
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 0F F0 00 00
