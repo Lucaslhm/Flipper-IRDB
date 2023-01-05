@@ -1,0 +1,435 @@
+Filetype: IR signals file
+Version: 1
+#
+# SOURCE_ON [16 12 0] {110-10000--001100-000000}
+name: SOURCE_ON (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 1778 889 889 1778 889 889 889 889 889 889 889 889 889 889 889 889 889 889 76440
+#
+# POWER_ON [raw] {11110000-001100}
+name: POWER_ON
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0C 00 00 00
+#
+# SLEEP [raw] {11110000-100110}
+name: SLEEP
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 26 00 00 00
+#
+# TV [raw] {11100000-111111}
+name: TV
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 3F 00 00 00
+#
+# LD [raw] {11101100-111111}
+name: LD
+type: parsed
+protocol: RC5
+address: 0C 00 00 00
+command: 3F 00 00 00
+#
+# VCR1 [16 0 5] {110-10000--000000-000101}
+name: VCR1 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 1778 1778 1778 889 75551
+#
+# AUX [16 0 6] {110-10000--000000-000110}
+name: AUX (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 1778 889 889 1778 76440
+#
+# TUNER [raw] {11110001-111111}
+name: TUNER
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 3F 00 00 00
+#
+# CD [raw] {11110100-111111}
+name: CD
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3F 00 00 00
+#
+# ACR1 [raw] {11110010-111111}
+name: ACR1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 3F 00 00 00
+#
+# ACR2 [raw] {11110111-111111}
+name: ACR2
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 3F 00 00 00
+#
+# MUTE [raw] {11110000-001101}
+name: MUTE
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0D 00 00 00
+#
+# VOL+ [raw] {11110000-010000}
+name: VOL+
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
+#
+# VOL- [raw] {11110000-010001}
+name: VOL-
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
+#
+# TV_MUTE [raw] {11100000-001101}
+name: TV_MUTE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+# TV_VOL+ [raw] {11100000-010000}
+name: TV_VOL+
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 10 00 00 00
+#
+# TV_VOL- [raw] {11100000-010001}
+name: TV_VOL-
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+#
+# DISP [16 15 0] {110-10000--001111-000000}
+name: DISP (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 1778 889 889 889 889 889 889 1778 889 889 889 889 889 889 889 889 889 889 76440
+#
+name: CH_SEL
+type: raw
+frequency: 36045
+duty_cycle: 0.330000
+data: 888 860 860 860 860 860 1776 860 860 860 860 860 860 5354 1776 860 860 1776 1776 1776 860 860 1776 860 860 860 860 860 860 1776 860 75517 860 860 860 860 860 860 1776 860 860 860 860 860 860 5354 1776 860 860 1776 1776 1776 860 860 1776 860 860 860 860 860 860 1776 860 75517 860 860 860 860 860 860 1776 860 860 860 860 860 860 5354 1776 860 860 1776 1776 1776 860 860 1776 860 860 860 860 860 860 1776 860 75517 860 860 860 860 860 860 1776 860 860 860 860 860 860 5354 1776 860 860 1776 1776 1776 860 860 1776 860 860 860 860 860 860 1776 860 87141 860 860 1776 1776 1776 860 860 860 860 860 860 5354 1776 860 860 1776 1776 1776 860 860 1776 860 860 860 860 860 860 1776 860 511305
+#
+# TEST [16 37 21] {110-10000--100101-010101}
+name: TEST (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 1778 1778 1778 1778 1778 1778 889 75551
+#
+# TUNE+ [16 37 34] {110-10000--100101-100010}
+name: TUNE+ (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 1778 889 889 889 889 1778 1778 76440
+#
+# TUNE- [16 37 35] {110-10000--100101-100011}
+name: TUNE- (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 1778 889 889 889 889 1778 889 889 889 75551
+#
+# 1 [raw] {11100000-000001}
+name: 1
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 01 00 00 00
+#
+# 2 [raw] {11100000-000010}
+name: 2
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 02 00 00 00
+#
+# 3 [raw] {11100000-000011}
+name: 3
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 03 00 00 00
+#
+# 4 [raw] {11100000-000100}
+name: 4
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 04 00 00 00
+#
+# 5 [raw] {11100000-000101}
+name: 5
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 05 00 00 00
+#
+# 6 [raw] {11100000-000110}
+name: 6
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 06 00 00 00
+#
+# 7 [raw] {11100000-000111}
+name: 7
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 07 00 00 00
+#
+# 8 [raw] {11100000-001000}
+name: 8
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 08 00 00 00
+#
+# 9 [raw] {11100000-001001}
+name: 9
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 09 00 00 00
+#
+# 0 [raw] {11100000-000000}
+name: 0
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 00 00 00 00
+#
+# CD_F_SRCH [raw] {11010100-100000}
+name: CD_F_SRCH
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 20 00 00 00
+#
+# CD_R_SRCH [raw] {11010100-100001}
+name: CD_R_SRCH
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 21 00 00 00
+#
+# CD_F_SCAN [raw] {11010100-110100}
+name: CD_F_SCAN
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 34 00 00 00
+#
+# CD_R_SCAN [raw] {11010100-110010}
+name: CD_R_SCAN
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 32 00 00 00
+#
+# CD_PLAY [raw] {11010100-110101}
+name: CD_PLAY
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 35 00 00 00
+#
+# CD_STOP [raw] {11010100-110110}
+name: CD_STOP
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 36 00 00 00
+#
+# CD_PAUSE [raw] {11010100-110000}
+name: CD_PAUSE
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 30 00 00 00
+#
+# VCR1_PLAY [raw] {11100101-110101}
+name: VCR1_PLAY
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 35 00 00 00
+#
+# VCR1_STOP [raw] {11100101-110110}
+name: VCR1_STOP
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 36 00 00 00
+#
+# VCR1_PAUSE [raw] {11100101-101001}
+name: VCR1_PAUSE
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 29 00 00 00
+#
+# VCR1_FFWD [raw] {11100101-100000}
+name: VCR1_FFWD
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 20 00 00 00
+#
+# VCR1_REW [raw] {11100101-100001}
+name: VCR1_REW
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 21 00 00 00
+#
+# VCR1_F_SRCH [raw] {11100101-110100}
+name: VCR1_F_SRCH
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 34 00 00 00
+#
+# VCR1_R_SRCH [raw] {11100101-110010}
+name: VCR1_R_SRCH
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 32 00 00 00
+#
+# VCR1_REC [raw] {11100101-011101}
+name: VCR1_REC
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 1D 00 00 00
+#
+# ACR_PLAY [raw] {11010010-110101}
+name: ACR_PLAY
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 35 00 00 00
+#
+# ACR_STOP [raw] {11010010-110110}
+name: ACR_STOP
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 36 00 00 00
+#
+# ACR_PAUSE [raw] {11100101-101001}
+name: ACR_PAUSE
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 29 00 00 00
+#
+# ACR_FFWD [raw] {11010010-100000}
+name: ACR_FFWD
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 20 00 00 00
+#
+# ACR_REW [raw] {11010010-100001}
+name: ACR_REW
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 21 00 00 00
+#
+# ACR_REC [raw] {11110010-110111}
+name: ACR_REC
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 37 00 00 00
+#
+# LD [16 0 7] {110-10000--000000-000111}
+name: LD (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 1778 889 889 889 889 889 75551
+#
+# AFP [raw] {10101100-110011}
+name: AFP
+type: parsed
+protocol: RC5
+address: 0C 00 00 00
+command: 73 00 00 00
+#
+# B-- [raw] {10101100-110010}
+name: B--
+type: parsed
+protocol: RC5
+address: 0C 00 00 00
+command: 72 00 00 00
+#
+# CH+ [raw] {11100000-100000}
+name: CH+
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
+#
+# CH- [raw] {11100000-100001}
+name: CH-
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
+#
+# MODE+ [raw] {11100000-100011}
+name: MODE+
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 23 00 00 00
+#
+# MEMO [raw] {11100000-101001}
+name: MEMO
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 29 00 00 00
+#
+# TEXT [raw] {11100000-111100}
+name: TEXT
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 3C 00 00 00
+#
+# TIME [raw] {11100000-101010}
+name: TIME
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2A 00 00 00

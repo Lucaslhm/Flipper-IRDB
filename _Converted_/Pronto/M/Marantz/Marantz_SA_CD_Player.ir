@@ -1,0 +1,322 @@
+Filetype: IR signals file
+Version: 1
+#
+#
+# 0 [raw] {11010100-000000}
+name: 0
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 00 00 00 00
+#
+#
+# 1 [raw] {11110100-000001}
+name: 1
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 01 00 00 00
+#
+#
+# 2 [raw] {11010100-000010}
+name: 2
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 02 00 00 00
+#
+#
+# 3 [raw] {11110100-000011}
+name: 3
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 03 00 00 00
+#
+#
+# 4 [raw] {11010100-000100}
+name: 4
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 04 00 00 00
+#
+#
+# 5 [raw] {11110100-000101}
+name: 5
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 05 00 00 00
+#
+#
+# 6 [raw] {11010100-000110}
+name: 6
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 06 00 00 00
+#
+#
+# 7 [raw] {11110100-000111}
+name: 7
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 07 00 00 00
+#
+#
+# 8 [raw] {11010100-001000}
+name: 8
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 08 00 00 00
+#
+#
+# 9 [raw] {11110100-001001}
+name: 9
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 09 00 00 00
+#
+#
+# R_SRCH [raw] {11010100-110010}
+name: R_SRCH
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 32 00 00 00
+#
+#
+# F_SRCH [raw] {11110100-110100}
+name: F_SRCH
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 34 00 00 00
+#
+#
+# PAUSE [raw] {11010100-110000}
+name: PAUSE
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 30 00 00 00
+#
+#
+# PLAY [raw] {11110100-110101}
+name: PLAY
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 35 00 00 00
+#
+#
+# STOP [raw] {11010100-110110}
+name: STOP
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 36 00 00 00
+#
+#
+# ENTER [raw] {10110100-010111}
+name: ENTER
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 57 00 00 00
+#
+#
+# FSCAN [raw] {11110100-100000}
+name: FSCAN
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 20 00 00 00
+#
+#
+# RSCAN [raw] {11010100-100001}
+name: RSCAN
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 21 00 00 00
+#
+#
+# SOUND_MODE [raw] {10110100-000010}
+name: SOUND_MODE
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 42 00 00 00
+#
+#
+# EJECT [raw] {11010100-101101}
+name: EJECT
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2D 00 00 00
+#
+#
+# QCK_REPLAY [20 53 4] {110-10100--110101-000100}
+name: QCK_REPLAY (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 5334 889 889 1778 1778 1778 1778 1778 889 889 889 889 1778 1778 889 889 76440
+#
+#
+# AMS [raw] {11110100-101011}
+name: AMS
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2B 00 00 00
+#
+#
+# A-B [raw] {11010100-111011}
+name: A-B
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3B 00 00 00
+#
+#
+# REPEAT_ALL [raw] {11010100-011101}
+name: REPEAT_ALL
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1D 00 00 00
+#
+#
+# PRG [raw] {11110100-101001}
+name: PRG
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 29 00 00 00
+#
+#
+# CANCEL [raw] {11010100-110001}
+name: CANCEL
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 31 00 00 00
+#
+#
+# RANDOM [raw] {11110100-011100}
+name: RANDOM
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1C 00 00 00
+#
+#
+# DISPLAY [raw] {10110100-000111}
+name: DISPLAY
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 47 00 00 00
+#
+#
+# TIME [raw] {11110100-001011}
+name: TIME
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0B 00 00 00
+#
+#
+# TEXT [raw] {10010100-011000}
+name: TEXT
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 58 00 00 00
+#
+#
+# MENU [raw] {10110100-010010}
+name: MENU
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 52 00 00 00
+#
+#
+# RECALL_SCROLL [raw] {11010100-001111}
+name: RECALL_SCROLL
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0F 00 00 00
+#
+#
+# INPUT_UP [16 0 13] {110-10000--000000-001101}
+name: INPUT_UP (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 1778 889 889 1778 1778 889 75551
+#
+#
+# INPUT_DWN [16 0 14] {110-10000--000000-001110}
+name: INPUT_DWN (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 1778 889 889 889 889 1778 76440
+#
+#
+# VOL+ [raw] {11110000-010000}
+name: VOL+
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
+#
+#
+# VOL- [raw] {11010000-010001}
+name: VOL-
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
+#
+#
+# NOISE_SHARPER [20 77 6] {100-10100--001101-000110}
+name: NOISE_SHARPER (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 1778 889 889 1778 1778 1778 1778 889 889 4445 889 889 889 1778 889 889 1778 1778 1778 889 889 889 889 1778 889 889 1778 76440
+#
+#
+# DC_FILTER [20 77 8] {100-10100--001101-001000}
+name: DC_FILTER (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 1778 889 889 1778 1778 1778 1778 889 889 4445 889 889 889 1778 889 889 1778 1778 1778 889 889 1778 1778 889 889 889 889 76440
+#
+#
+# FILTER [20 77 5] {100-10100--001101-000101}
+name: FILTER (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 1778 889 889 1778 1778 1778 1778 889 889 4445 889 889 889 1778 889 889 1778 1778 1778 889 889 889 889 1778 1778 1778 889 75551
+#
+#
+# DIG_OUT_OFF [20 63 13] {110-10100--111111-001101}
+name: DIG_OUT_OFF (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 5334 889 889 889 889 889 889 889 889 889 889 1778 889 889 1778 889 889 1778 1778 889 75551

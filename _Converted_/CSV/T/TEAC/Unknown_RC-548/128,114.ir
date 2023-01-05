@@ -1,0 +1,140 @@
+Filetype: IR signals file
+Version: 1
+#
+name: NEXT
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 00 00 00 00
+#
+name: PREVIOUS
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 04 00 00 00
+#
+name: REWIND
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 06 00 00 00
+#
+name: FORWARD
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 07 00 00 00
+#
+name: PLAYPAUSE
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 08 00 00 00
+#
+name: STOP
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 09 00 00 00
+#
+name: TIME
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 0A 00 00 00
+#
+name: X_1/all
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 0C 00 00 00
+#
+name: OPEN
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 0D 00 00 00
+#
+name: A-B
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 0E 00 00 00
+#
+name: 5
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 0F 00 00 00
+#
+name: 4
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 10 00 00 00
+#
+name: 3
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 11 00 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 12 00 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 13 00 00 00
+#
+name: 8
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 14 00 00 00
+#
+name: 9
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 15 00 00 00
+#
+name: 0
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 16 00 00 00
+#
+name: 7
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 17 00 00 00
+#
+name: 6
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 18 00 00 00
+#
+name: CLEAR
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 19 00 00 00
+#
+name: Program
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 1A 00 00 00
+#
+name: 10CHANNELSUP
+type: parsed
+protocol: NECext
+address: 80 72 00 00
+command: 1C 00 00 00

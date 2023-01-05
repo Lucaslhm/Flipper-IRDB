@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER2
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 80 00 00 00
+#
+name: AUX
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 82 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 84 00 00 00
+#
+name: MODE
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 85 00 00 00
+#
+name: SLEEP
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 86 00 00 00
+#
+name: SLOW
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 87 00 00 00

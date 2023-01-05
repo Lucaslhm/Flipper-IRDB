@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+#
+name: STOP
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 03 00 00 00
+#
+name: F.FWD
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 06 00 00 00
+#
+name: REWIND
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 07 00 00 00
+#
+name: PLAY
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 0C 00 00 00
+#
+name: PAUSE
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 0D 00 00 00
+#
+name: SEARCH
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 0E 00 00 00
+#
+name: VISUAL
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 0F 00 00 00
+#
+name: F.ADV
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 16 00 00 00
+#
+name: CHANNELUP
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 19 00 00 00
+#
+name: CHANNELDOWN
+type: parsed
+protocol: NECext
+address: 01 00 00 00
+command: 1A 00 00 00

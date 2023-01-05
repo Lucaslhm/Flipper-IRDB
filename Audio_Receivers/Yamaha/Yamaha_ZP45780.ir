@@ -1,0 +1,278 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 7E 00 00 00
+command: 2A 00 00 00
+# 
+name: BD_DVD
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 00 7F 00 00
+# 
+name: TV
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 03 7C 00 00
+# 
+name: NET
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 06 79 00 00
+# 
+name: Radio
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 09 76 00 00
+# 
+name: Straight
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 56 00 00 00
+# 
+name: Direct
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: DD 00 00 00
+# 
+name: Enchancer
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 94 00 00 00
+# 
+name: Bass
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: BD C2 00 00
+# 
+name: Prog L
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 59 00 00 00
+# 
+name: Prog R
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 58 00 00 00
+# 
+name: FM/AM
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 16 00 00 00
+# 
+name: USB
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 72 0D 00 00
+# 
+name: Network
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 3F C0 00 00
+# 
+name: BT
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: BE C1 00 00
+# 
+name: Input +
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 1F 60 00 00
+# 
+name: Input -
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 23 5C 00 00
+# 
+name: Vol +
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1A 00 00 00
+# 
+name: Vol -
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1B 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1C 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9D 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9C 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9F 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9E 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: DE 00 00 00
+# 
+name: Setup
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 84 00 00 00
+# 
+name: Option
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 6B 14 00 00
+# 
+name: Display
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 60 9F 00 00
+# 
+name: Return
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: AA 00 00 00
+# 
+name: Top Menu
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: A0 DF 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 66 99 00 00
+# 
+name: Pop-up Menu
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: A4 DB 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: C0 BF 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: C1 BE 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: C2 BD 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: C3 BC 00 00
+# 
+name: Track Bck
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 6C 93 00 00
+# 
+name: Track Fwd
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 6D 92 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 6A 95 00 00
+# 
+name: Forward
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 6B 94 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 68 97 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 67 98 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 69 96 00 00
+# 
+name: Preset L
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 5E 21 00 00
+# 
+name: Preset R
+type: parsed
+protocol: NECext
+address: 7F 01 00 00
+command: 5B 24 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 30 00 00 00

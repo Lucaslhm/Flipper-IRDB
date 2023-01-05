@@ -1,0 +1,142 @@
+Filetype: IR signals file
+Version: 1
+#
+# Geneva Sound System Model L
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+#
+name: Bass+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+# 
+name: Bass-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: Treble+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: Treble-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+#  
+name: IPod
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: CD
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: FM
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Air
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: LineIn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Eject
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: P
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: R
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: E
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: S
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: E
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: T
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00

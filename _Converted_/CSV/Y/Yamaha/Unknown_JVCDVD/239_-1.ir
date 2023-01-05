@@ -1,0 +1,158 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 40 00 00 00
+#
+name: STOP
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 43 00 00 00
+#
+name: PLAY
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 4C 00 00 00
+#
+name: PAUSE
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 4D 00 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 61 00 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 62 00 00 00
+#
+name: 3
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 63 00 00 00
+#
+name: 4
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 64 00 00 00
+#
+name: 5
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 65 00 00 00
+#
+name: 6
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 66 00 00 00
+#
+name: 7
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 67 00 00 00
+#
+name: 8
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 68 00 00 00
+#
+name: 9
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 69 00 00 00
+#
+name: 0
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 6E 00 00 00
+#
+name: 10CHANNELSUP
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: 6F 00 00 00
+#
+name: FORWARD
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: B0 00 00 00
+#
+name: BACK
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: B1 00 00 00
+#
+name: DISPLAY
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: C0 00 00 00
+#
+name: MENU
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: C1 00 00 00
+#
+name: TITLE
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: C2 00 00 00
+#
+name: UP
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: D0 00 00 00
+#
+name: DOWN
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: D1 00 00 00
+#
+name: LEFT
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: D2 00 00 00
+#
+name: RIGHT
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: D3 00 00 00
+#
+name: SELECT
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: D4 00 00 00
+#
+name: ENTER
+type: parsed
+protocol: NECext
+address: EF 00 00 00
+command: D5 00 00 00

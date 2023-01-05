@@ -1,0 +1,98 @@
+Filetype: IR signals file
+Version: 1
+#
+name: vmute
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: 86 00 00 00
+#
+name: SELECT
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: 90 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: 97 00 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: A1 00 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: A2 00 00 00
+#
+name: 3
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: A3 00 00 00
+#
+name: 4
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: A4 00 00 00
+#
+name: 5
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: A5 00 00 00
+#
+name: 6
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: A6 00 00 00
+#
+name: 7
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: A7 00 00 00
+#
+name: loop
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: A8 00 00 00
+#
+name: dual
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: AA 00 00 00
+#
+name: lock
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: AB 00 00 00
+#
+name: VIDEO
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: AC 00 00 00
+#
+name: AUDIO
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: AD 00 00 00
+#
+name: AUX
+type: parsed
+protocol: NECext
+address: F3 00 00 00
+command: AE 00 00 00

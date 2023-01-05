@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Rusta Christmas Tree Candle LED
+#
+name: On
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9174 4018 678 433 557 521 560 519 617 435 642 437 584 495 1071 1116 1069 1119 550
+# 
+name: Off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9212 4018 643 436 558 519 536 542 594 459 1131 1079 1106 1079 591 461 587 493 557
+# 
+name: Plus
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9207 4021 561 518 557 520 535 543 593 460 1104 1107 536 544 1076 1110 559 521 505
+# 
+name: _
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9163 4066 566 512 563 514 540 538 568 483 1109 1102 568 511 1081 1106 1050 1136 509
+# 
+name: Flickering
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9190 4034 599 512 539 539 540 538 569 482 1109 1101 1083 1103 1080 1083 559 544 510
+# 
+name: Timer
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9186 4070 565 514 561 516 539 539 540 511 1109 1102 1082 1103 567 486 590 516 533

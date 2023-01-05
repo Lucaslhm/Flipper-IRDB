@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+# 
+# iHome iPod player
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1D 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0D 00 00 00
+# 
+name: Presets
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 18 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0E 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0C 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: Fwd
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 16 00 00 00
+# 
+name: Equalizer
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: Snooze
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: Minus
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Plus
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 12 00 00 00

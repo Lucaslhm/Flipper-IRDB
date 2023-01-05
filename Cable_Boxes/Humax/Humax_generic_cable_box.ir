@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Humax Cable Box
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 10 00 00
+command: 00 FF 00 00
+# 
+name: Tv_radio
+type: parsed
+protocol: NECext
+address: 00 10 00 00
+command: 0D F2 00 00
+# 
+name: Souce
+type: parsed
+protocol: NECext
+address: 00 10 00 00
+command: 02 FD 00 00
+# 
+name: V_up
+type: parsed
+protocol: NECext
+address: 00 10 00 00
+command: 1F E0 00 00
+# 
+name: C_up
+type: parsed
+protocol: NECext
+address: 00 10 00 00
+command: 10 EF 00 00
+# 
+name: V_down
+type: parsed
+protocol: NECext
+address: 00 10 00 00
+command: 40 BF 00 00
+# 
+name: C_down
+type: parsed
+protocol: NECext
+address: 00 10 00 00
+command: 0F F0 00 00

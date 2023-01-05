@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+#
+name: REWIND
+type: parsed
+protocol: NECext
+address: A4 A4 00 00
+command: 04 00 00 00
+#
+name: FASTFORWARD
+type: parsed
+protocol: NECext
+address: A4 A4 00 00
+command: 0C 00 00 00
+#
+name: PLAY
+type: parsed
+protocol: NECext
+address: A4 A4 00 00
+command: 13 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: A4 A4 00 00
+command: 16 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: A4 A4 00 00
+command: 17 00 00 00
+#
+name: STOP
+type: parsed
+protocol: NECext
+address: A4 A4 00 00
+command: 1B 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: A4 A4 00 00
+command: 20 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: A4 A4 00 00
+command: 60 00 00 00

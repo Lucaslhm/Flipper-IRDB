@@ -1,0 +1,8 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Shutter
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 12728 3095 987 1035 980 1040 985 1035 980 1040 985 1067 979 1041 984

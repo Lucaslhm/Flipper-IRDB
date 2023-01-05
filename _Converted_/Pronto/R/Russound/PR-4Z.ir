@@ -1,0 +1,110 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER_ON
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 5268 1789 1789 1789 19407
+#
+name: POWER_OFF
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 1789 3628 1789 1789 21146
+#
+name: VCR1
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 1789 1789 1789 1789 22885
+#
+name: VCR2
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 1789 1789 1789 1789 1789 1789 19382
+#
+name: CD
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 1764 1814 3528 1814 21146
+#
+name: ACR1
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 1764 1814 3578 3578 19382
+#
+name: TUNER
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 1764 1814 5268 1814 19382
+#
+name: AUX1
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 1789 1789 1789 3628 21146
+#
+name: VOL+
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 3528 3628 22885
+#
+name: VOL-
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 3528 3628 1789 1789 19382
+#
+name: PRESET
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 1789 1789 1789 5467 19382
+#
+name: BASS+
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 3528 1814 24625
+#
+name: BASS-
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 3528 1814 3528 1814 19382
+#
+name: TREBLE+
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 3528 1789 1789 1789 21146
+#
+name: TREBLE-
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1789 3528 1789 1789 3628 19382
+#
+name: LOUD
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 3528 5467 21146
+#
+name: ALL_ZONE_ON
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 5268 3628 21146
+#
+name: ALL_ZONE_OFF
+type: raw
+frequency: 40244
+duty_cycle: 0.330000
+data: 5442 2733 1814 5268 5467 19382

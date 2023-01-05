@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+#
+# Apple TV Gen 3 v2
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 02 2E 00 00
+#
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5E 2E 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0B 2E 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0D 2E 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 08 2E 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 07 2E 00 00
+#
+name: Center
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5D 2E 00 00

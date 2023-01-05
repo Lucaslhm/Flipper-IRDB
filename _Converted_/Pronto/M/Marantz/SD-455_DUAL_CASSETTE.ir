@@ -1,0 +1,107 @@
+Filetype: IR signals file
+Version: 1
+#
+# A_PLAY [raw] {11110010-110101}
+name: A_PLAY
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 35 00 00 00
+#
+# A_REW [raw] {11110010-110010}
+name: A_REW
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 32 00 00 00
+#
+# A_FFWD [raw] {11110010-110100}
+name: A_FFWD
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 34 00 00 00
+#
+# A_STOP [raw] {11110010-110110}
+name: A_STOP
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 36 00 00 00
+#
+# A_PAUSE [raw] {11110010-110000}
+name: A_PAUSE
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 30 00 00 00
+#
+# A_RECORD [raw] {11110010-110111}
+name: A_RECORD
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 37 00 00 00
+#
+# A_REV [raw] {11110010-101111}
+name: A_REV
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2F 00 00 00
+#
+# A_SELECT [raw] {11110010-111111}
+name: A_SELECT
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 3F 00 00 00
+#
+# B_PLAY [raw] {11010111-110101}
+name: B_PLAY
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 35 00 00 00
+#
+# B_REW [raw] {11010111-110010}
+name: B_REW
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 32 00 00 00
+#
+# B_FFWD [raw] {11010111-110100}
+name: B_FFWD
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 34 00 00 00
+#
+# B_STOP [raw] {11010111-110110}
+name: B_STOP
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 36 00 00 00
+#
+# B_PAUSE [raw] {11010010-110000}
+name: B_PAUSE
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 30 00 00 00
+#
+# B_REV [raw] {11010111-101111}
+name: B_REV
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 2F 00 00 00
+#
+# B_SELECT [raw] {11010111-111111}
+name: B_SELECT
+type: parsed
+protocol: RC5
+address: 17 00 00 00
+command: 3F 00 00 00

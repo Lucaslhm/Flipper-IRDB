@@ -1,0 +1,311 @@
+Filetype: IR signals file
+Version: 1
+#
+# Model: LG 32LF650V Smart TV
+# Remote: LG AKB74455403
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+# 
+name: INPUT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00
+# 
+name: Q.MENU
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: AA 00 00 00
+# 
+name: HELP
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7A 00 00 00
+# 
+name: 1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 11 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 12 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 13 00 00 00
+# 
+name: 4
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 14 00 00 00
+# 
+name: 5
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 15 00 00 00
+# 
+name: 6
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 16 00 00 00
+# 
+name: 7
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 17 00 00 00
+# 
+name: 8
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 18 00 00 00
+# 
+name: 9
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 19 00 00 00
+# 
+name: 0
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 10 00 00 00
+# 
+name: GUIDE
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: AB 00 00 00
+# 
+name: Q.VIEW
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1A 00 00 00
+# 
+name: FAV
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1E 00 00 00
+# 
+name: 3D
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: DC 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: CH+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: CH-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: RECENT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B5 00 00 00
+# 
+name: HOME
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7C 00 00 00
+# 
+name: MY APPS
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 42 00 00 00
+# 
+name: UP
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 41 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 07 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 28 00 00 00
+# 
+name: LIVE MENU
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 9E 00 00 00
+# 
+name: EXIT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5B 00 00 00
+# 
+name: RED
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 72 00 00 00
+# 
+name: GREEN
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 71 00 00 00
+# 
+name: YELLOW
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+# 
+name: BLUE
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+# 
+name: TEXT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 20 00 00 00
+# 
+name: T.OPT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 21 00 00 00
+# 
+name: APP/*
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 9F 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B1 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B0 00 00 00
+# 
+name: PAUSE
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BA 00 00 00
+# 
+name: REWIND
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 8F 00 00 00
+# 
+name: FORWARD
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 8E 00 00 00
+# 
+name: REC/*
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BD 00 00 00
+# 
+name: SUBTITLE
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 39 00 00 00
+# 
+name: AD
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 91 00 00 00
+# 
+name: TV/RAD
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F0 00 00 00

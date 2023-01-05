@@ -1,0 +1,182 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 08 F7 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 05 FA 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 09 F6 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 0D F2 00 00
+# 
+name: Fastforward
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 0C F3 00 00
+# 
+name: MusicSkip_Forwared
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 00 FF 00 00
+# 
+name: MusicSkip_Back
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 04 FB 00 00
+# 
+name: Shuffle
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 06 F9 00 00
+# 
+name: Time
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 0A F5 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 0E F1 00 00
+# 
+name: Intro_Check
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 07 F8 00 00
+# 
+name: Memorey_Check
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 1A E5 00 00
+# 
+name: Clear
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 19 E6 00 00
+# 
+name: Memory
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 0B F4 00 00
+# 
+name: Disc1
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 1B E4 00 00
+# 
+name: Disc2
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 1C E3 00 00
+# 
+name: Disc3
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 1D E2 00 00
+# 
+name: Disc4
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 1E E1 00 00
+# 
+name: Disc5
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 1F E0 00 00
+# 
+name: Disc_Skip
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 02 FD 00 00
+# 
+name: Tape1
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 12 ED 00 00
+#
+name: Tape2
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 13 EC 00 00
+# 
+name: Tape3
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 11 EE 00 00
+# 
+name: Tape4
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 10 EF 00 00
+# 
+name: Tape5
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 0F F0 00 00
+# 
+name: Tape6
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 18 E7 00 00
+# 
+name: Tape7
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 17 E8 00 00
+# 
+name: Tape8
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 14 EB 00 00
+# 
+name: Tape9
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 15 EA 00 00
+# 
+name: Tape0
+type: parsed
+protocol: NECext
+address: 86 61 00 00
+command: 16 E9 00 00

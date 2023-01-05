@@ -1,7 +1,28 @@
 # Flipper-IRDB  
 
-A **maintained** collective of different IR filess for the Flipper!<br>
-_(Maintainers/Major contributors include: [Lucaslhm](https://github.com/Lucaslhm), [UberGuidoZ](https://github.com/UberGuidoZ), [DedHedZed](https://github.com/dedhedzed), [ezod](https://github.com/ezod), [E_Surge](https://github.com/ESurge), [Zecred](https://github.com/bussardrobbie), [SkeletonMan](https://github.com/SkeletonMan03/), [jaroslavmraz](https://github.com/jaroslavmraz), and many others)_
+A **maintained** collective of different IR files for the Flipper! We'd love to have your additions! [See here.](https://github.com/UberGuidoZ/Flipper-IRDB/blob/main/README.md#organization)
+
+Maintainers/Major contributors include:
+* [Lucaslhm](https://github.com/Lucaslhm) (*[Maintained Repo](https://github.com/Lucaslhm/Flipper-IRDB)*)
+* [UberGuidoZ](https://github.com/UberGuidoZ) (*[Maintained Fork](https://github.com/UberGuidoZ/Flipper-IRDB)*)
+* [ezod](https://github.com/ezod) (*[Maintained Fork](https://github.com/logickworkshop/Flipper-IRDB)*)
+* [amec0e](https://github.com/amec0e)
+* [darmiel](https://github.com/darmiel)
+* [DedHedZed](https://github.com/dedhedzed)
+* [SkeletonMan](https://github.com/SkeletonMan03/)
+* [jaroslavmraz](https://github.com/jaroslavmraz)
+* [E_Surge](https://github.com/ESurge)
+* [Zecred](https://github.com/bussardrobbie)
+* [wdoekes](https://github.com/wdoekes)
+* ... plus MANY others!
+
+## Make your own manually!
+
+Did you know IR files are plain text files? If a remote is missing, you might be able to [make it manually](https://github.com/RandomDebugError/irdb).
+
+## Universal Remotes
+
+The maintainers (mostly amec0e) add individual additions to the various Universal Remotes in Unleashed, which are adapted by many other firmware options. If you would like to contribute to the Universal Remotes, please make sure to follow the naming convention below. For ACs, [this is an important read](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/UniversalRemotes.md).
 
 ## Organization  
 
@@ -18,20 +39,27 @@ Please use this naming scheme for buttons.
 
 **FOR TV**
 
-POWER
-MUTE
-VOL+
-CH+
-VOL-
+POWER<br>
+MUTE<br>
+VOL+<br>
+CH+<br>
+VOL-<br>
 CH-
 
 **FOR AC**
 
-POWER
-TEMP+
-TEMP-
-MODE
+POWER<br>
+TEMP+<br>
+TEMP-<br>
+MODE<br>
 SWING
+
+**FOR AUDIO**
+
+POWER<br>
+VOL+<br>
+VOL-<br>
+MUTE
 
 Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
 
@@ -42,7 +70,7 @@ Lastly, it's helpful to add further information as a comment directly into the I
 `#`<br>
 `name: POWER`<br>
 
-Make, model, link, or even a short description can be helpful if the name is changed or just in general!
+Make, model, link, or even a short description can be helpful if the name is changed (or just in general)!
 
 ## To Install New Remotes On Your Flipper:   
 

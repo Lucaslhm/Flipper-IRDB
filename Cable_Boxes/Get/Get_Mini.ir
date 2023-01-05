@@ -1,0 +1,203 @@
+Filetype: IR signals file
+Version: 1
+###
+# Get - Mini - Remote - Decoder
+# This remoted is used in many homes in Norway.
+###
+name: On/Off
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 0C F3 00 00
+# 
+name: UP_Volume
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 13 EC 00 00
+# 
+name: DOWN_Volume
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 14 EB 00 00
+# 
+name: UP_Channel
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9065 4432 616 495 617 494 617 494 617 1635 616 495 616 496 616 1635 616 495 616 495 616 495 616 1634 617 -522 495 616 1636 615 495 617 496 615 1635 616 1635 615 1635 616 496 616 1635 615 496 616 496 616 496 616 496 615 495 616 496 616 1635 615 496 615 1635 616 1635 615 1635 616 44642 9069 2181 616
+# 
+name: DOWN_Channel
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 18 E7 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 1F E0 00 00
+# 
+name: UP_Arrow
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 1A E5 00 00
+# 
+name: BACK_Arrow
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 1B E4 00 00
+# 
+name: LEFT_Arrow
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 1D E2 00 00
+# 
+name: RIGHT_Arrow
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 1C E3 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 12 ED 00 00
+# 
+name: Guide
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 25 DA 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 0A F5 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 19 E6 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 0D F2 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 00 FF 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 01 FE 00 00
+# 
+name: 2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9064 4432 616 495 617 494 617 496 615 1635 615 497 614 496 616 1634 615 496 616 496 615 494 618 1634 616 495 616 495 616 1635 616 497 614 497 615 495 616 1634 616 498 614 498 614 613 496 615 498 615 494 617 1633 617 497 614 1635 616 1636 614 1635 589 1661 614 1637 613 1636 615 44641 9067 2181 616
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 03 FC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 04 FB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 05 FA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 06 F9 00 00
+# 
+name: 7
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9042 4432 616 494 618 494 617 496 615 1634 616 521 591 495 616 1634 615 -522 497 521 591 496 614 1635 616 522 589 495 617 1635 589 524 613 497 615 1635 616 1635 613 1637 615 494 617 496 614 497 615 496 615 496 615 496 616 496 615 497 614 1636 615 1636 614 1636 614 1636 614 1636 614 44630 9067 2182 616
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 08 F7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 09 F6 00 00
+# 
+name: Help
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 11 EE 00 00
+# 
+name: Radio
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 26 D9 00 00
+# 
+name: Txt
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 28 D7 00 00
+# 
+name: HD_Channels
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 20 DF 00 00
+# 
+name: My_Channels
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 0E F1 00 00
+# 
+name: Get_TV
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 27 D8 00 00
+# 
+name: My_Archive
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 0B F4 00 00
+# 
+name: Movie
+type: parsed
+protocol: NECext
+address: 48 24 00 00
+command: 29 D6 00 00

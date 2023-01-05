@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+#
+# Rolsen RTH-2778RT Heater
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 84 7B 00 00
+#
+name: Heater
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 80 7F 00 00
+#
+name: ECO
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 85 7A 00 00
+#
+name: SET
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 82 7D 00 00
+#
+name: +
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 86 79 00 00
+#
+name: -
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 87 78 00 00
+#
+name: OSC
+type: parsed
+protocol: NECext
+address: 00 FC 00 00
+command: 83 7C 00 00

@@ -1,0 +1,408 @@
+Filetype: IR signals file
+Version: 1
+#
+# <>-1 [raw] {11110010-101111}
+name: <>-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2F 00 00 00
+#
+# DECK_A-1 [raw] {11010010-101100}
+name: DECK_A-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2C 00 00 00
+#
+# DECK_B-1 [raw] {11110010-101110}
+name: DECK_B-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2E 00 00 00
+#
+# CONT-1 [raw] {11010010-100100}
+name: CONT-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 24 00 00 00
+#
+# R_MODE-1 [raw] {11110010-011101}
+name: R_MODE-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 1D 00 00 00
+#
+# UP_ARROW-1 [raw] {11010010-010000}
+name: UP_ARROW-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 10 00 00 00
+#
+# DN_ARROW-1 [raw] {11110010-010001}
+name: DN_ARROW-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 11 00 00 00
+#
+# MEMO-1 [raw] {11010010-101001}
+name: MEMO-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 29 00 00 00
+#
+# AMS-1 [raw] {11110010-101011}
+name: AMS-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2B 00 00 00
+#
+# COUNTER-1 [raw] {11010010-001111}
+name: COUNTER-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 0F 00 00 00
+#
+# ()-1 [raw] {11110010-101010}
+name: ()-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2A 00 00 00
+#
+# 0-1 [raw] {11010010-000000}
+name: 0-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 00 00 00 00
+#
+# 1-1 [raw] {11110010-000001}
+name: 1-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 01 00 00 00
+#
+# 2-1 [raw] {11010010-000010}
+name: 2-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 02 00 00 00
+#
+# 3-1 [raw] {11110010-000011}
+name: 3-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 03 00 00 00
+#
+# 4-1 [raw] {11010010-000100}
+name: 4-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 04 00 00 00
+#
+# 5-1 [raw] {11010010-000101}
+name: 5-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 05 00 00 00
+#
+# 6-1 [raw] {11110010-000110}
+name: 6-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 06 00 00 00
+#
+# 7-1 [raw] {11010010-000111}
+name: 7-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 07 00 00 00
+#
+# 8-1 [raw] {11110010-001000}
+name: 8-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 08 00 00 00
+#
+# 9-1 [raw] {11010010-001001}
+name: 9-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 09 00 00 00
+#
+# |<<-1 [raw] {11110010-100001}
+name: |<<-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 21 00 00 00
+#
+# >>|-1 [raw] {11010010-100000}
+name: >>|-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 20 00 00 00
+#
+# <<-1 [raw] {11110010-110010}
+name: <<-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 32 00 00 00
+#
+# >>-1 [raw] {11010010-110100}
+name: >>-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 34 00 00 00
+#
+# >-1 [raw] {11110010-110101}
+name: >-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 35 00 00 00
+#
+# ||-1 [raw] {11010010-110000}
+name: ||-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 30 00 00 00
+#
+# []-1 [raw] {11110010-110110}
+name: []-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 36 00 00 00
+#
+# *-1 [raw] {11010010-110111}
+name: *-1
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 37 00 00 00
+#
+# <>-2 [raw] {11010010-101111}
+name: <>-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2F 00 00 00
+#
+# DECK_A-2 [raw] {11110010-101100}
+name: DECK_A-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2C 00 00 00
+#
+# DECK_B-2 [raw] {11010010-101110}
+name: DECK_B-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2E 00 00 00
+#
+# CONT-2 [raw] {11110010-100100}
+name: CONT-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 24 00 00 00
+#
+# R_MODE-2 [raw] {11010010-011101}
+name: R_MODE-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 1D 00 00 00
+#
+# UP_ARROW-2 [raw] {11110010-010000}
+name: UP_ARROW-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 10 00 00 00
+#
+# DN_ARROW-2 [raw] {11010010-010001}
+name: DN_ARROW-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 11 00 00 00
+#
+# MEMO-2 [raw] {11110010-101001}
+name: MEMO-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 29 00 00 00
+#
+# AMS-2 [raw] {11010010-101011}
+name: AMS-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2B 00 00 00
+#
+# COUNTER-2 [raw] {11110010-001111}
+name: COUNTER-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 0F 00 00 00
+#
+# ()-2 [raw] {11010010-101010}
+name: ()-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2A 00 00 00
+#
+# 0-2 [raw] {11110010-000000}
+name: 0-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 00 00 00 00
+#
+# 1-2 [raw] {11010010-000001}
+name: 1-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 01 00 00 00
+#
+# 2-2 [raw] {11110010-000010}
+name: 2-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 02 00 00 00
+#
+# 3-2 [raw] {11010010-000011}
+name: 3-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 03 00 00 00
+#
+# 4-2 [raw] {11110010-000100}
+name: 4-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 04 00 00 00
+#
+# 5-2 [raw] {11110010-000101}
+name: 5-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 05 00 00 00
+#
+# 6-2 [raw] {11010010-000110}
+name: 6-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 06 00 00 00
+#
+# 7-2 [raw] {11110010-000111}
+name: 7-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 07 00 00 00
+#
+# 8-2 [raw] {11010010-001000}
+name: 8-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 08 00 00 00
+#
+# 9-2 [raw] {11110010-001001}
+name: 9-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 09 00 00 00
+#
+# |<<-2 [raw] {11010010-100001}
+name: |<<-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 21 00 00 00
+#
+# >>|-2 [raw] {11110010-100000}
+name: >>|-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 20 00 00 00
+#
+# <<-2 [raw] {11010010-110010}
+name: <<-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 32 00 00 00
+#
+# >>-2 [raw] {11110010-110100}
+name: >>-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 34 00 00 00
+#
+# >-2 [raw] {11010010-110101}
+name: >-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 35 00 00 00
+#
+# ||-2 [raw] {11110010-110000}
+name: ||-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 30 00 00 00
+#
+# []-2 [raw] {11010010-110110}
+name: []-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 36 00 00 00
+#
+# *-2 [raw] {11110010-110111}
+name: *-2
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 37 00 00 00

@@ -1,0 +1,71 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Logitech BCC950 All-In-One Webcam and Speakerphone
+# https://www.logitech.com/en-us/products/video-conferencing/conference-cameras/bcc950-conferencecam.960-000866.html
+#
+name: Green_call
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 78 00 00 00
+# 
+name: Red_call
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: F8 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: EC 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: AC 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 6C 00 00 00
+# 
+name: Zoom_in
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: A2 00 00 00
+# 
+name: Zoom_out
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: E2 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: B4 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: BC 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: FC 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: F4 00 00 00

@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Feron AL5000 Starlight Chandelier
+#
+name: power
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: E9 16 00 00
+# 
+name: bright_up
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: AB 54 00 00
+# 
+name: bright_down
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: BC 43 00 00

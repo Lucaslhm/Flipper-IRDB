@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Toshiba SE-R0420 DVD / Blu-Ray Player
+#
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9072 4364 664 1566 664 451 663 1567 663 453 661 454 660 478 636 1594 636 479 635 1595 635 480 635 1596 634 481 634 1597 633 1597 634 482 633 1598 632 482 633 482 633 482 633 482 633 482 633 482 633 1597 633 1598 632 1598 632 1598 632 1598 632 1598 632 1598 632 1598 632 482 633 482 633 39968 9043 2203 634 95675 9067 2203 634 95675 9067 2203 634
+# 
+name: SETUP
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 20 DF 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 80 7F 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 4D B2 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 81 7E 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 51 AE 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 21 DE 00 00
+# 
+name: RETURN
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 22 DD 00 00
+# 
+name: PLAY_PAUSE
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: C2 3D 00 00
+# 
+name: CLEAR
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9039 4398 632 1623 578 512 631 1574 630 513 629 483 605 510 605 1653 577 510 632 1624 578 511 634 1599 602 510 632 1598 606 1626 629 509 607 1602 627 1600 605 1626 740 1514 605 1601 576 538 630 1600 629 1600 630 1628 573 541 607 483 605 509 659 455 633 1625 605 485 631 508 606 510 607 40008 9016 2208 600
+# 
+name: FAST_FORWARD
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 13 EC 00 00
+# 
+name: REWIND
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 19 E6 00 00
+# 
+name: SUB_TITLE
+type: parsed
+protocol: NECext
+address: 45 B5 00 00
+command: 28 D7 00 00

@@ -1,0 +1,366 @@
+Filetype: IR signals file
+Version: 1
+#
+# POWER [raw] {11010100-001100}
+name: POWER
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0C 00 00 00
+#
+# R_TRK [raw] {11010100-100001}
+name: R_TRK
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 21 00 00 00
+#
+# PLAY [raw] {11010100-110101}
+name: PLAY
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 35 00 00 00
+#
+# F_TRK [raw] {11010100-100000}
+name: F_TRK
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 20 00 00 00
+#
+# R_SRCH [raw] {11010100-110010}
+name: R_SRCH
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 32 00 00 00
+#
+# PAUSE [raw] {11010100-110000}
+name: PAUSE
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 30 00 00 00
+#
+# F_SRCH [raw] {11010100-110100}
+name: F_SRCH
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 34 00 00 00
+#
+# STOP [raw] {11010100-110110}
+name: STOP
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 36 00 00 00
+#
+# VOL+ [raw] {11010100-010000}
+name: VOL+
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 10 00 00 00
+#
+# VOL- [raw] {11010100-010001}
+name: VOL-
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 11 00 00 00
+#
+# 1 [raw] {11010100-000001}
+name: 1
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 01 00 00 00
+#
+# 2 [raw] {11010100-000010}
+name: 2
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 02 00 00 00
+#
+# 3 [raw] {11010100-000011}
+name: 3
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 03 00 00 00
+#
+# 4 [raw] {11010100-000100}
+name: 4
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 04 00 00 00
+#
+# 5 [raw] {11010100-000101}
+name: 5
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 05 00 00 00
+#
+# 6 [raw] {11010100-000110}
+name: 6
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 06 00 00 00
+#
+# 7 [raw] {11010100-000111}
+name: 7
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 07 00 00 00
+#
+# 8 [raw] {11010100-001000}
+name: 8
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 08 00 00 00
+#
+# 9 [raw] {11010100-001001}
+name: 9
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 09 00 00 00
+#
+# 0 [raw] {11010100-000000}
+name: 0
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 00 00 00 00
+#
+# CANCEL [raw] {11010100-110001}
+name: CANCEL
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 31 00 00 00
+#
+# PROGRAM [raw] {11010100-101001}
+name: PROGRAM
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 29 00 00 00
+#
+# A/B [raw] {11010100-111011}
+name: A/B
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3B 00 00 00
+#
+# AMS [raw] {11010100-101011}
+name: AMS
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2B 00 00 00
+#
+# RANDOM [raw] {11010100-011100}
+name: RANDOM
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1C 00 00 00
+#
+# RECALL [raw] {11010100-001111}
+name: RECALL
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0F 00 00 00
+#
+# REPEAT [raw] {11010100-011101}
+name: REPEAT
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1D 00 00 00
+#
+# TIME [raw] {11010100-001011}
+name: TIME
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0B 00 00 00
+#
+# EDIT [raw] {10010100-101000}
+name: EDIT
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 68 00 00 00
+#
+# OPEN/CLOSE [raw] {11010100-101101}
+name: OPEN/CLOSE
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2D 00 00 00
+#
+# DIMMER [raw] {10010100-000111}
+name: DIMMER
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 47 00 00 00
+#
+# DISC_UP/OR_DISC [raw] {11010100-011110}
+name: DISC_UP/OR_DISC
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1E 00 00 00
+#
+# DISC_DN [raw] {11010100-011111}
+name: DISC_DN
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1F 00 00 00
+#
+# TRACK [20 32 0] {110-10100--100000-000000}
+name: TRACK (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 5334 1778 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 76440
+#
+# -10 [20 0 11] {110-10100--000000-001011}
+name: -10 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 4445 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 1778 1778 1778 889 889 889 75551
+#
+# +10 [20 0 10] {110-10100--000000-001010}
+name: +10 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 4445 889 889 889 889 889 889 889 889 889 889 889 889 889 889 889 1778 1778 1778 1778 76440
+#
+# ENTER [20 41 10] {110-10100--101001-001010}
+name: ENTER (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 5334 1778 1778 1778 889 889 1778 1778 889 889 1778 1778 1778 1778 76440
+#
+# STORE [20 41 11] {110-10100--101001-001011}
+name: STORE (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 5334 1778 1778 1778 889 889 1778 1778 889 889 1778 1778 1778 889 889 889 75551
+#
+# PLAY_MODE [20 36 10] {110-10100--100100-001010}
+name: PLAY_MODE (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 5334 1778 889 889 1778 1778 889 889 889 889 889 889 1778 1778 1778 1778 76440
+#
+# NEXT [20 36 11] {110-10100--100100-001011}
+name: NEXT (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 5334 1778 889 889 1778 1778 889 889 889 889 889 889 1778 1778 1778 889 889 889 75551
+#
+# PROGRAM [raw] {11010100-101001}
+name: PROGRAM
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 29 00 00 00
+#
+# TIME [raw] {11010100-001011}
+name: TIME
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0B 00 00 00
+#
+# CATEGORY [raw] {10010100-011100}
+name: CATEGORY
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 5C 00 00 00
+#
+# TITLE [raw] {10010100-101101}
+name: TITLE
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 6D 00 00 00
+#
+# TITLE_SEARCH [20 109 10] {100-10100--101101-001010}
+name: TITLE_SEARCH (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 1778 889 889 1778 1778 1778 1778 889 889 5334 1778 1778 889 889 1778 1778 1778 889 889 1778 1778 1778 1778 76440
+#
+# STOCK_INFO [20 15 0] {110-10100--001111-000000}
+name: STOCK_INFO (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 4445 889 889 889 1778 889 889 889 889 889 889 1778 889 889 889 889 889 889 889 889 889 889 76440
+#
+# CLEAR [raw] {11010100-111010}
+name: CLEAR
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3A 00 00 00
+#
+# DISC1 [20 1 0] {110-10100--000001-000000}
+name: DISC1 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 4445 889 889 889 889 889 889 889 889 889 1778 1778 889 889 889 889 889 889 889 889 889 889 76440
+#
+# DISC2 [20 2 0] {110-10100--000010-000000}
+name: DISC2 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 4445 889 889 889 889 889 889 889 1778 1778 889 889 889 889 889 889 889 889 889 889 889 889 76440
+#
+# DISC3 [20 3 0] {110-10100--000011-000000}
+name: DISC3 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 4445 889 889 889 889 889 889 889 1778 889 889 1778 889 889 889 889 889 889 889 889 889 889 76440
+#
+# DISC4 [20 4 0] {110-10100--000100-000000}
+name: DISC4 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 4445 889 889 889 889 889 1778 1778 889 889 889 889 889 889 889 889 889 889 889 889 889 889 76440
+#
+# DISC5 [20 5 0] {110-10100--000101-000000}
+name: DISC5 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 4445 889 889 889 889 889 1778 1778 1778 1778 889 889 889 889 889 889 889 889 889 889 76440

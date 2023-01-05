@@ -34,6 +34,12 @@ protocol: RC5X
 address: 00 00 00 00
 command: 15 00 00 00
 # 
+name: SOURCE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 38 00 00 00
+# 
 name: Play
 type: parsed
 protocol: RC5

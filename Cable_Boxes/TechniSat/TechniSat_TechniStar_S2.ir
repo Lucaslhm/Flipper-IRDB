@@ -1,0 +1,226 @@
+Filetype: IR signals file
+Version: 1
+# 
+#TechniSat - TechniStar S2
+#
+name: Mute
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 0D 00 00 00
+# 
+name: Power
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 0C 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 09 00 00 00
+# 
+name: REC
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 37 00 00 00
+# 
+name: 0 / AV
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 00 00 00 00
+# 
+name: OPT
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 0A 00 00 00
+# 
+name: RED / BW
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 2B 00 00 00
+# 
+name: GREEN / STOP
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 2C 00 00 00
+# 
+name: YELLOW / PLAY-PAUSE
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 2D 00 00 00
+# 
+name: BLUE / FF
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 2E 00 00 00
+# 
+name: UP
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 10 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 11 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 15 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 16 00 00 00
+# 
+name: OK
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 17 00 00 00
+# 
+name: SFI / EPG
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 2F 00 00 00
+# 
+name: REF / EXIT
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 22 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 0F 00 00 00
+# 
+name: CH+
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 20 00 00 00
+# 
+name: CH-
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 21 00 00 00
+# 
+name: TV / RADIO
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 13 00 00 00
+# 
+name: MENU
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 12 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 10 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 11 00 00 00
+# 
+name: TXT
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 3C 00 00 00
+# 
+name: STILL
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 29 00 00 00
+# 
+name: PIP
+type: parsed
+protocol: RC5X
+address: 08 00 00 00
+command: 18 00 00 00
+# 
+name: SOUND
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 23 00 00 00
+# 
+name: SLEEP
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 26 00 00 00

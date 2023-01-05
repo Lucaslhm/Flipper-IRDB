@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+#
+# For Adstra WA215 Wall & Ceiling Speaker Set
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Music
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: FM
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: VF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Aux_in
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 41 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 49 00 00 00
+# 
+name: AV
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00

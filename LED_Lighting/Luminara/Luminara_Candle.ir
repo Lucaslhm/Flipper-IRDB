@@ -1,0 +1,16 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Luminara Flameless Candle
+#
+name: Power_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Power_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00

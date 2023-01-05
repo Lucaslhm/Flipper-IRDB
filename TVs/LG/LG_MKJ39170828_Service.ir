@@ -1,0 +1,410 @@
+Filetype: IR signals file
+Version: 1
+#
+# LG MKJ39170828 Service Remote
+#
+# IN START and numbers at the top due to being the main thing needed to get
+# into an LG's service menu. The TV's bundled remote will work after pressing
+# IN START.
+#
+# After pressing IN START, enter one of the following codes:
+# 
+#    0413, 0000, 7777, 8743, 8878, 8741
+#
+# Note that IN STOP will factory reset your TV.
+#
+name: IN START
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FB 00 00 00
+#
+name: EXIT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5B 00 00 00
+#
+name: 0
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 10 00 00 00
+#
+name: 1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 11 00 00 00
+#
+name: 2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 12 00 00 00
+#
+name: 3
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 13 00 00 00
+#
+name: 4
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 14 00 00 00
+#
+name: 5
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 15 00 00 00
+#
+name: 6
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 16 00 00 00
+#
+name: 7
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 17 00 00 00
+#
+name: 8
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 18 00 00 00
+#
+name: 9
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 19 00 00 00
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+#
+name: P-ONLY
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FE 00 00 00
+#
+name: INPUT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00
+#
+name: ARC
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 79 00 00 00
+#
+name: PSM
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4D 00 00 00
+#
+name: P-CHECK
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FC 00 00 00
+#
+name: CHECK-S
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FD 00 00 00
+#
+name: SSM
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 52 00 00 00
+#
+name: PIP
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 60 00 00 00
+#
+name: TEXT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 20 00 00 00
+#
+name: CAP
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 39 00 00 00
+#
+name: MPX
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0A 00 00 00
+#
+name: INFO
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: AA 00 00 00
+#
+name: STILL
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 65 00 00 00
+#
+name: HDMI HOT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: A6 00 00 00
+#
+name: USB HOT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EE 00 00 00
+#
+name: PIP PR-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 72 00 00 00
+#
+name: PIP PR+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 71 00 00 00
+#
+name: SWAP
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+#
+name: PIP INPUT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+#
+name: SIMPLINK
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7E 00 00 00
+#
+name: Play
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B0 00 00 00
+#
+name: Pause
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BA 00 00 00
+#
+name: TILT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F9 00 00 00
+#
+name: EYE
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 95 00 00 00
+#
+name: Previous
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B2 00 00 00
+#
+name: Next
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B3 00 00 00
+#
+name: B-TOOTH
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1F 00 00 00
+#
+name: ADJ
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FF 00 00 00
+#
+name: XSTUDIO
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7C 00 00 00
+#
+name: MENU
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+#
+name: EXIT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5B 00 00 00
+#
+name: UP
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+#
+name: DOWN
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 41 00 00 00
+#
+name: LEFT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 07 00 00 00
+#
+name: RIGHT
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+#
+name: OK
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+#
+name: RGB
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: D5 00 00 00
+#
+name: TV
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: D6 00 00 00
+#
+name: AV1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5A 00 00 00
+#
+name: AV2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: D0 00 00 00
+#
+name: AV3
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: D1 00 00 00
+#
+name: COMP1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BF 00 00 00
+#
+name: COMP2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: D4 00 00 00
+#
+name: HDMI1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: CE 00 00 00
+#
+name: HDMI2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: CC 00 00 00
+#
+name: HDMI3
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: E9 00 00 00
+#
+name: HDMI4
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: DA 00 00 00
+#
+name: IN STOP
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FA 00 00 00

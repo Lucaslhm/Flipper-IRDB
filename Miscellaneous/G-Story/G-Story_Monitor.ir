@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# G-Story Portable Gaming Monitor
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 46 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 58 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 5C 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0E 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0D 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 48 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 4D 00 00 00
+# 
+name: Left VolDwn
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 4E 00 00 00
+# 
+name: Right VolUP
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 49 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 4A 00 00 00

@@ -1,0 +1,110 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony RM-SCU37 Stereo Receiver
+#
+# Compatible with: CMT-BX30R, CMT-BX5, CMT-BX5BT, CMT-EH25
+#                  CMT-EH26, CMT-FX205, CMT-NEZ50, HCD-CBX5
+#                  HCD-EX600, MHC-EX600, MHC-EX700, MHC-EX900
+# 
+name: POWER
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 60 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 32 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 39 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 38 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 7C 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 12 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 13 00 00 00
+# 
+name: |<<
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 30 00 00 00
+# 
+name: >>|
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 31 00 00 00
+# 
+name: <<
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 33 00 00 00
+# 
+name: >>
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 34 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 0F 00 00 00
+# 
+name: EQ
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 63 00 00 00
+# 
+name: Dir-
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2E 00 00 00
+# 
+name: Dir+
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2F 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 4B 00 00 00

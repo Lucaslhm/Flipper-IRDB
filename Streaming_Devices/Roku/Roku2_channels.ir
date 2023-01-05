@@ -1,0 +1,182 @@
+Filetype: IR signals file
+Version: 1
+#
+name: Vudu
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 0F F0 00 00
+#
+name: Amazon_Video
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 10 EF 00 00
+#
+name: Disney+
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 11 EE 00 00
+#
+name: HBO_Max
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 13 EC 00 00
+#
+name: AppleTV
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 16 E9 00 00
+#
+name: LiveTV
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 1C E3 00 00
+#
+name: Sling
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 27 D8 00 00
+#
+name: Discovery+
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 35 CA 00 00
+#
+name: ViX
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 36 C9 00 00
+#
+name: Rdio
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 40 BF 00 00
+#
+name: YouTube
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 42 BD 00 00
+#
+name: Netflix
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 4B B4 00 00
+#
+name: Hulu
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 4D B2 00 00
+#
+name: HBO_Max
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 4E B1 00 00
+#
+name: Showtime
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 4F B0 00 00
+#
+name: Red_Bull_TV
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 50 AF 00 00
+#
+name: Spotify
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 51 AE 00 00
+#
+name: Pandora
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 52 AD 00 00
+#
+name: TED
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 53 AC 00 00
+#
+name: Playstation_Vue
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 57 A8 00 00
+#
+name: STARZ
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 59 A6 00 00
+#
+name: Store
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 5A A5 00 00
+#
+name: NBA
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 60 9F 00 00
+#
+name: DIRECTV
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 65 9A 00 00
+#
+name: YuppTV
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 68 97 00 00
+#
+name: Roku_Channel
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 69 96 00 00
+#
+name: Paramount+
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 6A 95 00 00
+#
+name: HappyKids
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 7A 85 00 00
+#
+name: ESPN
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 7C 83 00 00
+#
+name: Crackle
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 7F 80 00 00

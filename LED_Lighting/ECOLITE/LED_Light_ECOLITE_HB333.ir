@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Night
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+# 
+name: Ct_plus
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Ct_minus
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Bulb
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: FF 00 00 00
+# 
+name: Auxiliary
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00

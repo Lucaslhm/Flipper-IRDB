@@ -1,0 +1,130 @@
+Filetype: IR signals file
+Version: 1
+# 
+# BL-XK01 Bluetooth Speaker and LED Projector Unknown brand
+# 
+name: Led
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Laser
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: R
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: G
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: B
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: W
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Music
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: V_pluse
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: V_min
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Skip
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Mic
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: S_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: S__down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: Fade1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: Fade2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
+name: Bright
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
+# 
+name: Laser_fade
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+# 
+name: Timer_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+# 
+name: 1h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 52 00 00 00
+# 
+name: 2h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00

@@ -1,0 +1,219 @@
+Filetype: IR signals file
+Version: 1
+#
+# POWER [raw] {11110100-001100}
+name: POWER
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0C 00 00 00
+#
+# CD [raw] {11110100-111111}
+name: CD
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3F 00 00 00
+#
+# TRAY [raw] {11110100-101101}
+name: TRAY
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2D 00 00 00
+#
+# 1 [raw] {11110100-000001}
+name: 1
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 01 00 00 00
+#
+# 2 [raw] {11110100-000010}
+name: 2
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 02 00 00 00
+#
+# 3 [raw] {11110100-000011}
+name: 3
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 03 00 00 00
+#
+# 4 [raw] {11110100-000100}
+name: 4
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 04 00 00 00
+#
+# 5 [raw] {11110100-000101}
+name: 5
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 05 00 00 00
+#
+# 6 [raw] {11110100-000110}
+name: 6
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 06 00 00 00
+#
+# 7 [raw] {11110100-000111}
+name: 7
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 07 00 00 00
+#
+# 8 [raw] {11110100-001000}
+name: 8
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 08 00 00 00
+#
+# 9 [raw] {11110100-001001}
+name: 9
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 09 00 00 00
+#
+# CD* [raw] {11110100-000000}
+name: CD*
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 00 00 00 00
+#
+# R_TRK [raw] {11010100-100001}
+name: R_TRK
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 21 00 00 00
+#
+# F_TRK [raw] {11010100-100000}
+name: F_TRK
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 20 00 00 00
+#
+# PLAY [raw] {11010100-110101}
+name: PLAY
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 35 00 00 00
+#
+# <> [raw] {11010010-101111}
+name: <>
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 2F 00 00 00
+#
+# R_SCAN [raw] {11010100-110010}
+name: R_SCAN
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 32 00 00 00
+#
+# F_SCAN [raw] {11010100-110100}
+name: F_SCAN
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 34 00 00 00
+#
+# STOP [raw] {11010100-110110}
+name: STOP
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 36 00 00 00
+#
+# PAUSE [raw] {11010100-110000}
+name: PAUSE
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 30 00 00 00
+#
+# >> [raw] {11010100-110100}
+name: >>
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 34 00 00 00
+#
+# AMS [raw] {11010100-101011}
+name: AMS
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2B 00 00 00
+#
+# DISPLAY [raw] {11010100-001011}
+name: DISPLAY
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0B 00 00 00
+#
+# MEMO [raw] {11010010-101001}
+name: MEMO
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 29 00 00 00
+#
+# RANDOM [raw] {11010100-011100}
+name: RANDOM
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1C 00 00 00
+#
+# PROG [raw] {11010100-101001}
+name: PROG
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 29 00 00 00
+#
+# RECALL [raw] {11010100-001111}
+name: RECALL
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0F 00 00 00
+#
+# CANCEL [raw] {11010100-110001}
+name: CANCEL
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 31 00 00 00
+#
+# REPEAT [raw] {11010100-011101}
+name: REPEAT
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1D 00 00 00
+#
+# DOOR [20 45 10] {110-10100--101101-001010}
+name: DOOR (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 1778 1778 889 889 5334 1778 1778 889 889 1778 1778 1778 889 889 1778 1778 1778 1778 76440

@@ -1,0 +1,247 @@
+Filetype: IR signals file
+Version: 1
+#
+# POWER [raw] {11010000-001100}
+name: POWER
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0C 00 00 00
+#
+# POWER_ON [16 12 1] {110-10000--001100-000001}
+name: POWER_ON (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 1778 889 889 1778 889 889 889 889 889 889 889 889 889 889 889 889 1778 889 75551
+#
+# POWER_OFF [16 12 2] {110-10000--001100-000010}
+name: POWER_OFF (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 1778 889 889 1778 889 889 889 889 889 889 889 889 889 889 1778 1778 76440
+#
+# A/D [16 1 1] {110-10000--000001-000001}
+name: A/D (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 889 889 889 889 889 889 1778 1778 889 889 889 889 889 889 889 889 1778 889 75551
+#
+# ATT [16 37 43] {110-10000--100101-101011}
+name: ATT (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 1778 1778 1778 1778 889 889 889 75551
+#
+# NIGHT [16 37 42] {110-10000--100101-101010}
+name: NIGHT (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 1778 1778 1778 1778 1778 76440
+#
+# MR-ON [16 29 3] {110-10000--011101-000011}
+name: MR-ON (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 1778 889 889 889 889 1778 1778 1778 889 889 889 889 889 889 1778 889 889 889 75551
+#
+# MR-OFF [16 29 4] {110-10000--011101-000100}
+name: MR-OFF (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 1778 889 889 889 889 1778 1778 1778 889 889 889 889 1778 1778 889 889 76440
+#
+# 7-DIR [16 1 3] {110-10000--000001-000011}
+name: 7-DIR (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 4445 889 889 889 889 889 889 889 889 889 1778 1778 889 889 889 889 889 889 1778 889 889 889 75551
+#
+# TREBLE+ [raw] {11110000-011000}
+name: TREBLE+
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 18 00 00 00
+#
+# TREBLE- [raw] {11010000-011001}
+name: TREBLE-
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 19 00 00 00
+#
+# BASS+ [raw] {11110000-010110}
+name: BASS+
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 16 00 00 00
+#
+# BASS- [raw] {11010000-010111}
+name: BASS-
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 17 00 00 00
+#
+# CH+ [raw] {11100000-100000}
+name: CH+
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
+#
+# CH- [raw] {11000000-100001}
+name: CH-
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
+#
+# UP [raw] {10110000-010000}
+name: UP
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 50 00 00 00
+#
+# LEFT [raw] {10010000-010101}
+name: LEFT
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 55 00 00 00
+#
+# OK [raw] {10110000-010010}
+name: OK
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 52 00 00 00
+#
+# RIGHT [raw] {10010000-010110}
+name: RIGHT
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 56 00 00 00
+#
+# DOWN [raw] {10110000-010001}
+name: DOWN
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 51 00 00 00
+#
+# VOL+ [raw] {11010000-010000}
+name: VOL+
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
+#
+# VOL- [raw] {11110000-010001}
+name: VOL-
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
+#
+# CLEAR [raw] {11010001-111010}
+name: CLEAR
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 3A 00 00 00
+#
+# MEMO [raw] {11110001-101001}
+name: MEMO
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 29 00 00 00
+#
+# MUTE [raw] {11010000-001101}
+name: MUTE
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0D 00 00 00
+#
+# 1 [16 37 45] {110-10000--100101-101101}
+name: 1 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 1778 1778 889 889 1778 1778 889 75551
+#
+# 2 [16 37 0] {110-10000--100101-000000}
+name: 2 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 1778 889 889 889 889 889 889 889 889 889 889 76440
+#
+# 3 [16 37 46] {110-10000--100101-101110}
+name: 3 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 1778 1778 889 889 889 889 1778 76440
+#
+# 4 [16 37 62] {110-10000--100101-111110}
+name: 4 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 889 889 889 889 889 889 889 889 1778 76440
+#
+# 5 [16 37 61] {110-10000--100101-111101}
+name: 5 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 889 889 889 889 889 889 1778 1778 889 75551
+#
+# 6 [16 37 63] {110-10000--100101-111111}
+name: 6 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 889 889 889 889 889 889 889 889 889 889 889 75551
+#
+# 7 [16 37 57] {110-10000--100101-111001}
+name: 7 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 889 889 889 889 889 889 1778 889 889 1778 889 75551
+#
+# 8 [16 37 30] {110-10000--100101-011110}
+name: 8 (raw)
+type: raw
+frequency: 36000
+duty_cycle: 0.25
+data: 889 889 1778 1778 1778 889 889 889 889 889 889 5334 1778 889 889 1778 1778 1778 1778 1778 889 889 889 889 889 889 1778 76440
+#
+# 9 [raw] {11110000-001111}
+name: 9
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0F 00 00 00
+#
+# 0 [raw] {11010000-100110}
+name: 0
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 26 00 00 00

@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# For Majority Soundbar K2, Model: K2_BAR_BLK
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 41 00 00 00
+# 
+name: MODE
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 50 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 42 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 43 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4F 00 00 00
+# 
+name: Pause_mute
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1B 00 00 00
+# 
+name: Bass_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 14 00 00 00
+# 
+name: Bass_down
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 56 00 00 00
+# 
+name: Treble_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4D 00 00 00
+# 
+name: Treble_down
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 51 00 00 00
+# 
+name: Eq
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 5A 00 00 00

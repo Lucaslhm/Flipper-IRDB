@@ -1,0 +1,8 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Shutter
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 4B 00 00 00
