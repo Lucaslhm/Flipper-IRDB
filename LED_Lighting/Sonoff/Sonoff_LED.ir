@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Sonoff LED Lightstrip RGB L1
+#
 name: On
 type: raw
 frequency: 38000
