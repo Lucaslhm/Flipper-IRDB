@@ -4,31 +4,31 @@ Version: 1
 # Hitachi CP-X2011 Projector
 # https://www.projectorcentral.com/Hitachi-CP-X2011.htm
 #
-name: Pwr
+name: POWER
 type: parsed
 protocol: NECext
 address: 87 45 00 00
 command: 17 E8 00 00
 # 
-name: Freeze
+name: FREEZE
 type: parsed
 protocol: NECext
 address: 87 45 00 00
 command: B4 4B 00 00
 # 
-name: Vup
+name: V+
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9064 4354 666 1559 666 1562 662 1586 638 475 636 477 635 477 635 478 635 1590 635 1591 634 478 635 1591 634 478 634 478 635 478 634 1591 635 478 634 1591 634 478 635 478 634 478 635 1591 634 478 634 1591 635 478 634 478 634 1591 634 1591 635 1591 634 478 635 1591 634 478 634 1591 635 40957 9035 2144 634 95483 9047 2155 632 95484 9048 2153 633
 # 
-name: Vdwn
+name: V-
 type: parsed
 protocol: NECext
 address: 87 45 00 00
 command: 50 AF 00 00
 # 
-name: Mute
+name: MUTE
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
