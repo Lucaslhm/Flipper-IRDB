@@ -2,9 +2,9 @@ Filetype: IR signals file
 Version: 1
 #
 # Used with RCA F20566AK (CTC156C chassis) ColorTrak TV - CRK50A remote model
-# Codes are synthetic based on tech specs at https://www.sbprojects.net/knowledge/ir/rca.php and decoding/reconstructing codes from real remote buttons
-# (also all tested working)
-# Reddit: https://www.reddit.com/r/flipperzero/comments/zy1tvu/comment/j30e4cm/?utm_source=reddit&utm_medium=web2x&context=3
+# Codes are synthetic based on tech specs at https://www.sbprojects.net/knowledge/ir/rca.php
+# and decoding/reconstructing codes from real remote buttons (all tested working).
+# Reddit: https://www.reddit.com/r/flipperzero/comments/zy1tvu/comment/j30e4cm/
 #
 name: POWER
 type: raw
