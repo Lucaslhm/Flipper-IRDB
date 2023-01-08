@@ -1,7 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: On_off
+# Samsung TV UE32F4000AW
+#
+name: POWER
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -13,13 +15,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: Vol_down
+name: VOL-n
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -102,3 +104,87 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 68 00 00 00
+# 
+name: Red
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 6C 00 00 00
+# 
+name: Green
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 14 00 00 00
+# 
+name: Yellow
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 15 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 16 00 00 00
+# 
+name: 1
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 04 00 00 00
+# 
+name: 2
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 05 00 00 00
+# 
+name: 3
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 06 00 00 00
+# 
+name: 4
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 08 00 00 00
+# 
+name: 5
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 09 00 00 00
+# 
+name: 6
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0A 00 00 00
+# 
+name: 7
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0C 00 00 00
+# 
+name: 8
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0D 00 00 00
+# 
+name: 9
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0E 00 00 00
+# 
+name: 0
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 11 00 00 00
