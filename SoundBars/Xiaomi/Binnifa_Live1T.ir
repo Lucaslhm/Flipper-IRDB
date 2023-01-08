@@ -1,7 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: On_Off
+# Xiaomi Binnifa Tive1T Soundbar
+#
+name: POWER
 type: parsed
 protocol: NEC
 address: 20 00 00 00
@@ -13,13 +15,13 @@ protocol: NEC
 address: 20 00 00 00
 command: 50 00 00 00
 # 
-name: Vol+
+name: VOL+
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 42 00 00 00
 # 
-name: Vol-
+name: VOL-
 type: parsed
 protocol: NEC
 address: 20 00 00 00
