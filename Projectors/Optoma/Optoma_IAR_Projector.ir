@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Optoma IAR Projector
+#
+name: Power
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: E8 17 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: EC 13 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: BD 42 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: F2 0D 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: EB 14 00 00
+# 
+name: HDMI_1
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: E5 1A 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: FF FF 00 00
+command: FF 00 00 00
