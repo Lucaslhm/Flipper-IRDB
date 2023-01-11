@@ -82,7 +82,7 @@ protocol: SIRC15
 address: B0 00 00 00
 command: 7B 00 00 00
 # 
-name: Select
+name: Center
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
