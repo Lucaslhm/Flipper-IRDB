@@ -196,7 +196,7 @@ protocol: SIRC15
 address: 77 00 00 00
 command: 76 00 00 00
 # 
-name: Iplus
+name: i+
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -256,7 +256,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 3D 00 00 00
 # 
-name: Imanual
+name: i-manual
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
