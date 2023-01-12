@@ -7,13 +7,13 @@ protocol: SIRC15
 address: 30 00 00 00
 command: 15 00 00 00
 # 
-name: Bd
+name: BD
 type: parsed
 protocol: SIRC20
 address: 10 05 00 00
 command: 16 00 00 00
 # 
-name: Dvd
+name: DVD
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
@@ -55,13 +55,13 @@ protocol: SIRC15
 address: 30 00 00 00
 command: 14 00 00 00
 # 
-name: Volume_up
+name: VOL+
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 12 00 00 00
 # 
-name: Volume_down
+name: VOL-
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00

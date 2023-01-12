@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
+#
 # Sony RM-SGS3 (for MHC-GS300AV)
+#
 name: Sleep
 type: parsed
 protocol: SIRC15
@@ -103,13 +105,13 @@ protocol: SIRC15
 address: 10 00 00 00
 command: 7A 00 00 00
 # 
-name: Vol +
+name: VOL+
 type: parsed
 protocol: SIRC15
 address: 10 00 00 00
 command: 12 00 00 00
 # 
-name: Vol -
+name: VOL-
 type: parsed
 protocol: SIRC15
 address: 10 00 00 00
