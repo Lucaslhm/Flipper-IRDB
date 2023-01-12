@@ -182,3 +182,117 @@ type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 24 00 00 00
+# 
+name: Heart
+type: parsed
+protocol: SIRC15
+address: 77 00 00 00
+command: 76 00 00 00
+# 
+name: i+
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3A 00 00 00
+# 
+name: Audio
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 17 00 00 00
+# 
+name: Theatre
+type: parsed
+protocol: SIRC15
+address: 77 00 00 00
+command: 60 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 1B 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 1A 00 00 00
+# 
+name: FastForward
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 1C 00 00 00
+# 
+name: SyncMenu
+type: parsed
+protocol: SIRC15
+address: 1A 00 00 00
+command: 58 00 00 00
+# 
+name: SkipBack
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 3C 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 18 00 00 00
+# 
+name: Skip
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 3D 00 00 00
+# 
+name: i-manual
+type: parsed
+protocol: SIRC15
+address: 1A 00 00 00
+command: 7B 00 00 00
+# 
+name: Scene
+type: parsed
+protocol: SIRC15
+address: 1A 00 00 00
+command: 78 00 00 00
+# 
+name: ScreenSize
+type: parsed
+protocol: SIRC15
+address: A4 00 00 00
+command: 3D 00 00 00
+# 
+name: DigitalAnalog
+type: parsed
+protocol: SIRC15
+address: 77 00 00 00
+command: 0D 00 00 00
+# 
+name: InternetVideo
+type: parsed
+protocol: SIRC15
+address: 1A 00 00 00
+command: 79 00 00 00
+# 
+name: ActivePicture
+type: parsed
+protocol: SIRC15
+address: A4 00 00 00
+command: 77 00 00 00
+# 
+name: Subs
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 28 00 00 00
+# 
+name: Info
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3F 00 00 00
