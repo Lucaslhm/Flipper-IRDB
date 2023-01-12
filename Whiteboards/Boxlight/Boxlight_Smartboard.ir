@@ -1,7 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: NEC_52
+# Boxlight Smartboard
+#
+name: POWER
 type: parsed
 protocol: NEC
 address: 20 00 00 00
