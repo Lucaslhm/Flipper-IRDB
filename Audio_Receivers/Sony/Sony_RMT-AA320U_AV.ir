@@ -2,7 +2,6 @@ Filetype: IR signals file
 Version: 1
 #
 # Sony RMT-AA320U AV
-# Remote from sealldeveloper
 # 
 name: POWER
 type: parsed
@@ -82,7 +81,7 @@ protocol: SIRC15
 address: B0 00 00 00
 command: 7B 00 00 00
 # 
-name: Center
+name: Center Select
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00

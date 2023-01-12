@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Prowise Newline touchscreen display
+#
+name: Newline
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 0B F4 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 15 EA 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 76 89 00 00
+# 
+name: Power_extern
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: F2 0D 00 00
+# 
+name: Vol_extern_up
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: F3 0C 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 13 EC 00 00
