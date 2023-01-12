@@ -3,13 +3,13 @@ Version: 1
 # 
 # Promethean Digital Whiteboard
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 31 00 00 00
 command: 81 00 00 00
 # 
-name: Freez
+name: Freeze
 type: parsed
 protocol: NEC
 address: 31 00 00 00
@@ -33,7 +33,7 @@ protocol: NEC
 address: 31 00 00 00
 command: C1 00 00 00
 # 
-name: Dwn
+name: Down
 type: parsed
 protocol: NEC
 address: 31 00 00 00
@@ -56,3 +56,33 @@ type: parsed
 protocol: NEC
 address: 31 00 00 00
 command: 8B 00 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8D 00 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8A 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 83 00 00 00
+# 
+name: Page_up
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CB 00 00 00
+# 
+name: Page_down
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CC 00 00 00
