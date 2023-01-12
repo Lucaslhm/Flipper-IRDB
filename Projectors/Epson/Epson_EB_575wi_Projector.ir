@@ -1,0 +1,10 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Epson EB-575wi Projector
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
