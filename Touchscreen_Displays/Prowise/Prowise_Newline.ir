@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Prowise Newline touchscreen display
+#
 name: Newline
 type: parsed
 protocol: NECext
