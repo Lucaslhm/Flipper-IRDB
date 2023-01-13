@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 4D B2 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 43 BC 00 00
+# 
+name: Pair
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 1C E3 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 1D E2 00 00
+# 
+name: Reset
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 112 21251 113 5728 97 4743 328 2589 326 23026 329 34586 327 642 111 32382 162
+# 
+name: Music
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 45 BA 00 00
+# 
+name: News
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 4E B1 00 00
+# 
+name: Movie
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 47 B8 00 00
+# 
+name: 3D
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 4C B3 00 00
+# 
+name: Treb_Up
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 1A E5 00 00
+# 
+name: Treb_Down
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 42 BD 00 00
+# 
+name: Bass_up
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 17 E8 00 00
+# 
+name: Bass_Down
+type: parsed
+protocol: NECext
+address: 83 B6 00 00
+command: 18 E7 00 00
