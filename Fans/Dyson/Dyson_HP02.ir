@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Dyson Fan HP02
+#
 name: Power
 type: raw
 frequency: 38000
