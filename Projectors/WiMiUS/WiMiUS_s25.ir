@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# WIMIUS Projector S25
+# WiMiUS Projector S25
 #
 name: Power
 type: parsed
