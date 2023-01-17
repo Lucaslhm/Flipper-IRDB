@@ -1,0 +1,10 @@
+Filetype: IR signals file
+Version: 1
+# 
+# ViewSonic ViewBoard
+#
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
