@@ -1,6 +1,16 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Philips TV 50PUS7956 12
+#
+# Likely also compatible with: 
+# 43PUS7956
+# 50PUS7956
+# 55PUS7956
+# 65PUS7956
+# 70PUS7956
+# 
+But it is create with the "Philips 50PUS7956 12
 name: POWER
 type: parsed
 protocol: RC6
