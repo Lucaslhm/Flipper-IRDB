@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Recorded with a PEPEO RAJA DC 122 remote
+# PEPEO RAJA DC 122 Fan
 #
 name: fan_OFF
 type: parsed
