@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# KEF LSX Speakers
+# https://assets.kef.com/pdf_doc/LSX/LSX-manual-EN.pdf (Sec 5.3)
+#
 name: Power
 type: parsed
 protocol: NEC
