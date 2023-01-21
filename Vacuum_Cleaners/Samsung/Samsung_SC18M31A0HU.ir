@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Samsung SC18M31A0HU Vacuum
+#
 name: POWER
 type: parsed
 protocol: NEC
