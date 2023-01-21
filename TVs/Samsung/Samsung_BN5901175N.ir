@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Samsung BN5901175N TV
+#
 name: POWER
 type: parsed
 protocol: Samsung32
