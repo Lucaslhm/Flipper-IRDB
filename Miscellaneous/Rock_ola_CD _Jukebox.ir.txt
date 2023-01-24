@@ -1,9 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
-#Rock-Ola CD Jukebox
+# Rock-Ola CD Jukebox - Nostalgic
 #
-name: Pwr
+name: POWER
 type: parsed
 protocol: NEC
 address: 4D 00 00 00
