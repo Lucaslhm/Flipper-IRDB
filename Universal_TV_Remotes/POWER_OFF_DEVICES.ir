@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Universal Power Off
+#
 name: SAMSUNG
 type: parsed
 protocol: Samsung32
