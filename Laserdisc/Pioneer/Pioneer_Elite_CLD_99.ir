@@ -1,0 +1,36 @@
+Filetype: IR signals file
+Version: 1
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 1C 00 00 00
+
+#
+name: PLAY
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 17 00 00 00
+
+#
+name: PAUSE
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 18 00 00 00
+
+#
+name: SKIP FORWARD
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 52 00 00 00
+
+#
+name: SKIP BACKWARD
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 53 00 00 00
