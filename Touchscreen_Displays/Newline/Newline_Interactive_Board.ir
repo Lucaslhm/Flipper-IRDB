@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Newline Interactive Board: Education/Q-Series
+#
 name: Power
 type: parsed
 protocol: NECext
