@@ -22,14 +22,14 @@ address: A8 00 00 00
 command: 18 00 00 00
 
 #
-name: SKIP FORWARD
+name: NEXT CHAPTER
 type: parsed
 protocol: NEC
 address: A8 00 00 00
 command: 52 00 00 00
 
 #
-name: SKIP BACKWARD
+name: PREV CHAPTER
 type: parsed
 protocol: NEC
 address: A8 00 00 00
