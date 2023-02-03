@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Gym/HIIT Wall Clock GX-IR03
+# https://www.aliexpress.us/item/2255799914300348.html
+#
 name: Power
 type: parsed
 protocol: NEC
