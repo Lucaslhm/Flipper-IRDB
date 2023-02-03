@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Dell Projector
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 02 FD 00 00
+# 
+name: MENU
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 11 EE 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 08 F7 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0B F4 00 00
