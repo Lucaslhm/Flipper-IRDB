@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Honeywell CL152 Evaporative Aircooler Fan
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1D 00 00 00
+# 
+name: SPEED
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1A 00 00 00
+# 
+name: SWING
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 18 00 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0D 00 00 00
+# 
+name: COOLING
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: BREEZE
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: IONIZER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
