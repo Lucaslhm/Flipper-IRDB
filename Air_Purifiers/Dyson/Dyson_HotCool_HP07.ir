@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Dyson Hot+Cool HP07 Air Purifier
+#
 name: POWER
 type: raw
 frequency: 38000
