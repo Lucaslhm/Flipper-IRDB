@@ -27,6 +27,12 @@ protocol: Samsung32
 address: 2C 00 00 00
 command: 1F 00 00 00
 #
+name: Input source
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 8A 00 00 00
+# 
 name: Standard
 type: parsed
 protocol: Samsung32
