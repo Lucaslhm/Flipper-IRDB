@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Dell Projector
+#
 name: POWER
 type: parsed
 protocol: NECext
