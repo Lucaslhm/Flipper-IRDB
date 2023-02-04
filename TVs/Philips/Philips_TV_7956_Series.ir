@@ -10,7 +10,6 @@ Version: 1
 # 65PUS7956
 # 70PUS7956
 # 
-But it is create with the "Philips 50PUS7956 12
 name: POWER
 type: parsed
 protocol: RC6

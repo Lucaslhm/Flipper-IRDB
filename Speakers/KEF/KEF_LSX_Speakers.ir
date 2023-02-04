@@ -1,0 +1,53 @@
+Filetype: IR signals file
+Version: 1
+# 
+# KEF LSX Speakers
+# https://assets.kef.com/pdf_doc/LSX/LSX-manual-EN.pdf (Sec 5.3)
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Minus
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+# 
+name: Plus
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 18 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 4B 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 4A 00 00 00

@@ -1,0 +1,262 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Samsung BN5901175N TV
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: SOURCE
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+# 
+name: SMART HUB
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 79 00 00 00
+# 
+name: CH+
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+# 
+name: CH-
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+# 
+name: CH LIST
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 6B 00 00 00
+# 
+name: GUIDE
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4F 00 00 00
+# 
+name: TOOLS
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4B 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1F 00 00 00
+# 
+name: UP
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 60 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 61 00 00 00
+# 
+name: ENTER
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 65 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 62 00 00 00
+# 
+name: RETURN
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 58 00 00 00
+# 
+name: EXIT
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2D 00 00 00
+# 
+name: A
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 6C 00 00 00
+# 
+name: B
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 14 00 00 00
+# 
+name: C
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 15 00 00 00
+# 
+name: D
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 16 00 00 00
+# 
+name: REC
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 49 00 00 00
+# 
+name: E-MANUAL
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3F 00 00 00
+# 
+name: AD/SUBT
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 25 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+# 
+name: REWIND
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 45 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 47 00 00 00
+# 
+name: PAUSE
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4A 00 00 00
+# 
+name: FAST_FORWRD
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 48 00 00 00
+# 
+name: 1
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 04 00 00 00
+# 
+name: 2
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 05 00 00 00
+# 
+name: 3
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 06 00 00 00
+# 
+name: 4
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 08 00 00 00
+# 
+name: 5
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 09 00 00 00
+# 
+name: 6
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0A 00 00 00
+# 
+name: 7
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0C 00 00 00
+# 
+name: 8
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0D 00 00 00
+# 
+name: 9
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0E 00 00 00
+# 
+name: 0
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 11 00 00 00
+# 
+name: TT_MIX
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2C 00 00 00
+# 
+name: PRE_CH
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 13 00 00 00

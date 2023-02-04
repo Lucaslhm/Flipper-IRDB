@@ -1,0 +1,158 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Off_on
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: Source_Search
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8C 73 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 94 6B 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 70 8F 00 00
+# 
+name: USB
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 76 89 00 00
+# 
+name: AV_Mute
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 93 6C 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: User
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9F 60 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9E 61 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8A 75 00 00
+# 
+name: Color_Mode
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8F 70 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 86 79 00 00
+# 
+name: +
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 88 77 00 00
+# 
+name: Pointer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9B 64 00 00
+# 
+name: Help
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 95 6A 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 87 78 00 00
+# 
+name: -
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 89 76 00 00
+# 
+name: Volume_down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+# 
+name: Volume_up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 98 67 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9A 65 00 00
+# 
+name: Esc
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 84 7B 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B0 4F 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B3 4C 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 85 7A 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B1 4E 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B2 4D 00 00

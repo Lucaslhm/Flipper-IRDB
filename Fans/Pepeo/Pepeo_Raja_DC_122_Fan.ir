@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# PEPEO RAJA DC 122 Fan
+#
+name: fan_OFF
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 05 FA 00 00
+# 
+name: speed_1
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 51 AE 00 00
+# 
+name: speed_2
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 44 BB 00 00
+# 
+name: speed_3
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 50 AF 00 00
+# 
+name: speed_4
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 4C B3 00 00
+# 
+name: speed_5
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 40 BF 00 00
+# 
+name: reverse
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 4D B2 00 00
+# 
+name: sleep
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 41 BE 00 00
+# 
+name: led_toggle
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 0A F5 00 00
+# 
+name: led_color
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 45 BA 00 00
+# 
+name: led+
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 01 FE 00 00
+# 
+name: led-
+type: parsed
+protocol: NECext
+address: 41 59 00 00
+command: 0D F2 00 00

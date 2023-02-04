@@ -1,0 +1,54 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Neuhaus Lightning Group (written on remote)
+# Leuchten Direkt ceiling led lamp sparkle white round
+# https://www.lightkontor.de/Leuchten_Direkt_14673-16-O_Deckenleuchte_Sparkle_weiss_rund.html
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 04 AC 00 00
+command: 4A B5 00 00
+# 
+name: Brighter
+type: parsed
+protocol: NECext
+address: 04 AC 00 00
+command: 15 EA 00 00
+# 
+name: Darker
+type: parsed
+protocol: NECext
+address: 04 AC 00 00
+command: 4F B0 00 00
+# 
+name: Cooler
+type: parsed
+protocol: NECext
+address: 04 AC 00 00
+command: 4E B1 00 00
+# 
+name: Warmer
+type: parsed
+protocol: NECext
+address: 04 AC 00 00
+command: 55 AA 00 00
+# 
+name: K-Toggle
+type: parsed
+protocol: NECext
+address: 04 AC 00 00
+command: 1E E1 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 04 AC 00 00
+command: 02 FD 00 00
+# 
+name: Nightmode
+type: parsed
+protocol: NECext
+address: 04 AC 00 00
+command: 1F E0 00 00
