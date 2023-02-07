@@ -10,6 +10,7 @@ Maintainers/Major contributors include:
 * [darmiel](https://github.com/darmiel)
 * [DedHedZed](https://github.com/dedhedzed)
 * [SkeletonMan](https://github.com/SkeletonMan03/)
+* [Seall.DEV](https://github.com/sealldeveloper)
 * [jaroslavmraz](https://github.com/jaroslavmraz)
 * [E_Surge](https://github.com/ESurge)
 * [Zecred](https://github.com/bussardrobbie)
