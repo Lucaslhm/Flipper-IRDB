@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# AVer COMVREMOT IR Remote Control for Video-Conferencing Systems
+# https://www.bhphotovideo.com/c/product/1578195-REG/aver_comvremot_remote_control_for_video.html
+# 
 name: LEFT
 type: parsed
 protocol: NECext
