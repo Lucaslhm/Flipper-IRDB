@@ -3,8 +3,6 @@ Version: 1
 # 
 # Sony RMSC30 Audio Receiver
 # by sealldeveloper
-Filetype: IR signals file
-Version: 1
 #
 name: POWER
 type: parsed
