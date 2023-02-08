@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: White
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: rgb_cycle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: brighter
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: dimmer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
