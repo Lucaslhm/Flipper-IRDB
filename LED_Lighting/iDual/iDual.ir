@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Ein
+name: On
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
 command: 01 FE 00 00
 # 
-name: Aus
+name: Off
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
@@ -25,7 +25,7 @@ protocol: NECext
 address: 02 FE 00 00
 command: 09 F6 00 00
 # 
-name: Candel
+name: Candle
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -49,13 +49,13 @@ protocol: NECext
 address: 02 FE 00 00
 command: 03 FC 00 00
 # 
-name: Child_Night light
+name: Child Nightlight
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
 command: 12 ED 00 00
 # 
-name: Slepp_Timer
+name: Sleep Timer
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
@@ -73,19 +73,19 @@ protocol: NECext
 address: 02 FE 00 00
 command: 04 FB 00 00
 # 
-name: Morning_Mode
+name: Morning
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
 command: 13 EC 00 00
 # 
-name: Collermode_1
+name: Colour Mode 1
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
 command: 18 E7 00 00
 # 
-name: Collermode_2
+name: Colour mode 2
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
@@ -97,7 +97,7 @@ protocol: NECext
 address: 02 FE 00 00
 command: 05 FA 00 00
 # 
-name: Forrest
+name: Forest
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
@@ -109,13 +109,13 @@ protocol: NECext
 address: 02 FE 00 00
 command: 19 E6 00 00
 # 
-name: Flamme
+name: Fire
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
 command: 0D F2 00 00
 # 
-name: Hearth
+name: Heart
 type: parsed
 protocol: NECext
 address: 02 FE 00 00
