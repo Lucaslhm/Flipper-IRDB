@@ -1,0 +1,214 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sony RMT-AA320U AV
+# 
+name: POWER
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 15 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 12 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 13 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 14 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 3A 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 38 00 00 00
+# 
+name: FastForward
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 31 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 30 00 00 00
+# 
+name: Home
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 53 00 00 00
+# 
+name: Up
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 78 00 00 00
+# 
+name: Left
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7A 00 00 00
+# 
+name: Down
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 79 00 00 00
+# 
+name: Right
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7B 00 00 00
+# 
+name: Center Select
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 0C 00 00 00
+# 
+name: Back
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 7D 00 00 00
+# 
+name: Options
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 73 00 00 00
+# 
+name: Game
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 7C 00 00 00
+# 
+name: TV
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 6A 00 00 00
+# 
+name: SAT_CATV
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 03 00 00 00
+# 
+name: BD_DVD
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 16 00 00 00
+# 
+name: SACD_CD
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 25 00 00 00
+# 
+name: USB
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 17 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 4B 00 00 00
+# 
+name: Amp_Menu
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 77 00 00 00
+# 
+name: Watch
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 6E 00 00 00
+# 
+name: Listen
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 6F 00 00 00
+# 
+name: FM
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 18 00 00 00
+# 
+name: CustomPreset1
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 58 00 00 00
+# 
+name: MusicService
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 1D 00 00 00
+# 
+name: BluetoothRXTX
+type: parsed
+protocol: SIRC20
+address: 10 0D 00 00
+command: 6A 00 00 00
+# 
+name: FrontSurround
+type: parsed
+protocol: SIRC20
+address: 10 0D 00 00
+command: 39 00 00 00
+# 
+name: 2CH_Multi
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 47 00 00 00
+# 
+name: Movie
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 43 00 00 00
+# 
+name: Music
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 49 00 00 00
+# 
+name: DSDNative
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 7C 00 00 00

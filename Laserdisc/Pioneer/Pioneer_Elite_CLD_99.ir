@@ -1,0 +1,59 @@
+Filetype: IR signals file
+Version: 1
+#
+# Pioneer CLD-99 Laserdisc Player
+# Inspired by: github.com/RandomDebugError/irdb/blob/master/codes/Pioneer/Laser Disc/168,-1.csv
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 1C 00 00 00
+#
+name: PLAY
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 17 00 00 00
+#
+name: PAUSE
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 18 00 00 00
+#
+name: NEXT CHAPTER
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 52 00 00 00
+#
+name: PREV CHAPTER
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 53 00 00 00
+#
+name: NEXT FRAME
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 54 00 00 00
+#
+name: PREV FRAME
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 50 00 00 00
+#
+name: SIDE A
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 4D 00 00 00
+#
+name: SIDE B
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 4E 00 00 00

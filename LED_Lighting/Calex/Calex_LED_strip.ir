@@ -1,0 +1,110 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9097 4410 646 516 617 492 642 516 617 517 617 517 616 518 615 520 613 521 612 1632 610 1634 609 1634 608 1634 608 1635 607 1635 607 1635 608 1635 607 1635 608 527 607 1636 580 1662 607 528 606 527 607 527 607 528 606 529 605 1663 579 556 579 527 607 1635 608 1635 607 1634 608 1634 608 39756 9063 2205 608 96015 9090 2205 608
+# 
+name: Light_down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1D 00 00 00
+# 
+name: Light_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Cold_white
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Warm_white
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+# 
+name: Red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Dark_orange
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Orange
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Bright_orange
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
+name: Azure
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: Bright_blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+# 
+name: Purple
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Indigo
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: Pink
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: Return
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00

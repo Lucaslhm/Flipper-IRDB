@@ -1,0 +1,10 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Vivitek2 Projector
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 81 00 00 00

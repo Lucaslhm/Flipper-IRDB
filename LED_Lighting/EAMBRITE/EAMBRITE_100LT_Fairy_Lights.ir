@@ -1,0 +1,215 @@
+Filetype: IR signals file
+Version: 1
+#
+# EAMBRITE 100LT 36 button remote RGB fairy lights
+# https://www.amazon.com/gp/product/B08JJ6GPGB
+#
+name: On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+#
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+#
+name: Brighter
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 58 00 00 00
+#
+name: Dimmer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 59 00 00 00
+#
+name: White
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+#
+name: Red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 54 00 00 00
+#
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 55 00 00 00
+#
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 49 00 00 00
+#
+name: Red_orange
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 50 00 00 00
+#
+name: Orange_yellow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+name: Violet
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+#
+name: Magenta
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: Pink
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+#
+name: Dark_green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 51 00 00 00
+#
+name: Light_green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1D 00 00 00
+#
+name: Yellow_green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: Dark_blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+#
+name: Light_blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+#
+name: Cyan
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+#
+name: Fade
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4C 00 00 00
+#
+name: Jump
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+#
+name: Flash
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+#
+name: Chase
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+#
+name: Timer_6h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+#
+name: Timer_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+#
+name: Reset
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+#
+name: Steady_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+#
+name: In_waves
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+#
+name: Sequential
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+#
+name: Slow_glow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: Chasing
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: Slow_fade
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+#
+name: Fast_flash
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+#
+name: Breathing
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+#
+name: Combination
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00

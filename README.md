@@ -10,6 +10,7 @@ Maintainers/Major contributors include:
 * [darmiel](https://github.com/darmiel)
 * [DedHedZed](https://github.com/dedhedzed)
 * [SkeletonMan](https://github.com/SkeletonMan03/)
+* [Seall.DEV](https://github.com/sealldeveloper)
 * [jaroslavmraz](https://github.com/jaroslavmraz)
 * [E_Surge](https://github.com/ESurge)
 * [Zecred](https://github.com/bussardrobbie)
@@ -19,6 +20,10 @@ Maintainers/Major contributors include:
 ## Make your own manually!
 
 Did you know IR files are plain text files? If a remote is missing, you might be able to [make it manually](https://github.com/RandomDebugError/irdb).
+
+## Universal Remotes
+
+The maintainers (mostly amec0e) add individual additions to the various Universal Remotes in Unleashed, which are adapted by many other firmware options. If you would like to contribute to the Universal Remotes, please make sure to follow the naming convention below. For ACs, [this is an important read](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/UniversalRemotes.md).
 
 ## Organization  
 

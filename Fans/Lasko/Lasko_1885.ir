@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 83 00 00 00
+# 
+name: Speed
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 87 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 8B 00 00 00

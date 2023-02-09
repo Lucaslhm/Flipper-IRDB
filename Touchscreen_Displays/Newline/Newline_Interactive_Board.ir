@@ -1,0 +1,106 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Newline Interactive Board: Education/Q-Series
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 0B F4 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 14 EB 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 13 EC 00 00
+# 
+name: Vol_dwn
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 12 ED 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 22 DD 00 00
+# 
+name: Note
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 25 DA 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 1C E3 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 15 EA 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2B D4 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2D D2 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2C D3 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2E D1 00 00
+# 
+name: Select
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2F D0 00 00
+# 
+name: Brightness+
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 39 C6 00 00
+# 
+name: Brightness-
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 3A C5 00 00
+# 
+name: Apps
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 3D C2 00 00
+# 
+name: Settings
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 45 BA 00 00

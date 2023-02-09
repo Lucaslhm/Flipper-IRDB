@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Xiaomi Binnifa Tive1T Soundbar
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 41 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 50 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 42 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 43 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1B 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+# 
+name: Skip
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4F 00 00 00
+# 
+name: BT_pair
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9092 4308 681 429 570 539 571 540 570 539 626 484 626 1587 626 484 626 487 571 1643 571 1642 572 1642 572 1642 572 1641 572 537 573 1641 572 1644 573 537 573 537 573 1641 572 538 596 1618 596 514 596 514 596 518 595 1619 595 1619 595 515 595 1619 595 516 594 1619 594 1619 594 1620 594 40068 8986 2194 571 94260 8984 2193 572 94257 9006 2171 596 94207 9029 2176 594 94223 9026 2178 592 94212 9027 2176 593
+# 
+name: Input_choice
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4D 00 00 00
+# 
+name: EQ_News
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 56 00 00 00
+# 
+name: EQ_Movie
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 5A 00 00 00
+# 
+name: EQ_Music
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 51 00 00 00

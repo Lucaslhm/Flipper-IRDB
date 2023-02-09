@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# SMART Technologies Board MX
+#
+name: Power
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: D7 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: D1 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: 9B 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: 92 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: D8 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: 9F 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: DC 00 00 00
+# 
+name: Option
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: C3 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: D3 00 00 00
+# 
+name: Remote
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: A3 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: DB 00 00 00
+# 
+name: Screen_Shade
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: 8B 00 00 00
+# 
+name: Volume_Down
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: 86 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: DF 00 00 00
+# 
+name: Volume_Up
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: 83 00 00 00

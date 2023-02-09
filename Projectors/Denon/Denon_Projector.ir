@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Denon Projector
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 41 54 32 00
+command: 05 00 00 00
+# 
+name: Volume_p
+type: parsed
+protocol: Kaseikyo
+address: 41 54 32 00
+command: 70 01 00 00
+# 
+name: Volume_m
+type: parsed
+protocol: Kaseikyo
+address: 41 54 32 00
+command: 71 01 00 00

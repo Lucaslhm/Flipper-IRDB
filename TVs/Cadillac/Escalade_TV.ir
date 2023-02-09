@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Escalade_TV_Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 176 67152 1091
+# 
+name: Play_Pause
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 415 4426 210
+# 
+name: Media
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1062 135490 388
+# 
+name: Skip_FWD
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 181 1120 131 1539 561
+# 
+name: Skip_BCK
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 235 132206 1116
+# 
+name: Menu
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 330 666 288
+# 
+name: Back
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 206 3069 232
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 21 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 4D 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 51 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 80 00 00 00
+# 
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1061 57464 176
