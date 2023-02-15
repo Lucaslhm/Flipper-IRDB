@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Flame_height
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Flame_speed
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Temp
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 07 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 09 00 00 00
