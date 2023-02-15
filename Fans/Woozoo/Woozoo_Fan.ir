@@ -1,0 +1,59 @@
+Filetype: IR signals file
+Version: 1
+#
+# Woozoo Fan
+# https://www.irisusainc.com/collections/woozoo-2
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 00 FF 00 00
+#
+name: Faster
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 08 F7 00 00
+#
+name: Slower
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 10 EF 00 00
+#
+name: Vertical
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 16 E9 00 00
+#
+name: Horizontal
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 15 EA 00 00
+#
+name: Timer_1
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 12 ED 00 00
+# 
+name: Timer_2
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0E F1 00 00
+# 
+name: Timer_4
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0A F5 00 00
+# 
+name: Breeze
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 09 F6 00 00
