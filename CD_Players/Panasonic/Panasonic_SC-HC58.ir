@@ -1,0 +1,124 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Panasonic SC-HC58 Audio System
+#
+name: POWER
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: D1 03 00 00
+# 
+name: VOL+
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
+# 
+name: VOL-
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+# 
+name: MUTE
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00
+# 
+name: PLAY / PAUSE
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 61 00 00 00
+# 
+name: SKIP
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: A1 00 00 00
+# 
+name: SKIP BACK
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 91 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 01 00 00 00
+# 
+name: ALBUM DOWN
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 03
+command: D1 03 00 00
+# 
+name: ALBUM UP
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 03
+command: C1 03 00 00
+# 
+name: ALBUM OK
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 03
+command: B1 03 00 00
+# 
+name: EJECT CD
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 11 00 00 00
+# 
+name: EJECT IPOD
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 01 03 00 00
+# 
+name: IPOD / USB
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 81 03 00 00
+# 
+name: CD / RADIO
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: A0 00 00 00
+# 
+name: BLUETOOTH
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 01 02 00 00
+# 
+name: SETUP
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 51 03 00 00
+# 
+name: IPOD MENU DISPLAY
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 51 01 00 00
+# 
+name: SOUND
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: 01 03 00 00
+# 
+name: PLAY MENU
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: B1 03 00 00

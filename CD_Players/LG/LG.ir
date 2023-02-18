@@ -1,0 +1,148 @@
+Filetype: IR signals file
+Version: 1
+# 
+# LG CD Player
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 1E 00 00 00
+# 
+name: Eject
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 9A 00 00 00
+# 
+name: VOL +
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 17 00 00 00
+# 
+name: VOL -
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 16 00 00 00
+# 
+name: Function
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 03 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 1F 00 00 00
+# 
+name: PF +
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 13 00 00 00
+# 
+name: PF -
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 12 00 00 00
+# 
+name: Memory
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 4D 00 00 00
+# 
+name: Repeat
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4536 4442 617 519 618 519 618 520 617 518 619 1658 589 520 618 520 617 521 618 522 671 492 645 492 645 492 645 1602 644 494 588 548 589 550 589 548 589 1658 589 1658 615 1632 615 522 615 523 614 1633 613 525 614 1634 613 524 613 525 612 525 612 1635 612 1635 612 526 611 1636 612
+# 
+name: Delete
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: B0 00 00 00
+# 
+name: Sound Effect
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4534 4470 588 548 589 518 619 520 617 518 619 1629 618 548 589 520 617 521 673 492 646 491 646 491 646 491 646 1601 589 548 589 548 589 550 589 548 589 548 615 522 615 522 615 522 614 523 614 1633 613 526 612 1634 613 1635 612 1635 612 1635 612 1635 612 1635 612 525 612 1636 612 51305 4528 4447 613 1635 613 95919 4556 4446 613 1634 613
+# 
+name: Skip Back
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 06 00 00 00
+# 
+name: Skip
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 04 00 00 00
+# 
+name: Play / Pause
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 07 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 05 00 00 00
+# 
+name: Info
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 77 00 00 00
+# 
+name: Dimmer
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 5E 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: C2 00 00 00
+# 
+name: Clock
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
+name: Alarm
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 0D 00 00 00
+# 
+name: RDS / SET
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4499 4451 610 525 612 525 612 525 612 527 610 1635 611 526 611 525 612 526 612 524 612 523 667 469 614 522 670 1576 670 467 727 411 725 415 723 440 614 523 614 523 614 524 613 525 612 1635 612 1635 612 527 612 1636 611 1636 611 1636 611 1636 611 1636 611 526 611 526 611 1637 610 51298 4527 4448 612 1635 612 95920 4554 4446 613 1635 612
+# 
+name: USB REC
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4529 4446 615 521 616 522 615 521 616 521 616 1632 615 522 615 521 616 523 749 388 615 522 615 522 615 523 614 1660 587 549 588 550 587 551 588 1660 613 523 614 1633 614 524 613 1634 613 525 612 525 612 527 612 526 611 1636 611 526 611 1636 611 526 611 1636 611 1636 611 1637 610 51301 4528 4447 612 1635 612
+# 
+name: PTY
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 71 00 00 00

@@ -1,0 +1,53 @@
+Filetype: IR signals file
+Version: 1
+# 
+# LG LAP340 4.1-Channel 120W SoundPlate with Built-in Subwoofer and Bluetooth Connectivity
+# Recroded on Flipper0 from OEM remote
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+# 
+name: Cinema Sound
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 90 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
+# 
+name: Optical
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: B6 00 00 00
+# 
+name: LG TV
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: D1 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 32 00 00 00

@@ -1,0 +1,191 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Maxell MC-WU5503 Projector
+# by sealldeveloper
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 17 E8 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 08 F7 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 28 D7 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2C D3 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2E D1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2A D5 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 21 DE 00 00
+# 
+name: Esc
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: D4 2B 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 20 DF 00 00
+# 
+name: OsdMsg
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: BC 43 00 00
+# 
+name: Reset
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 22 DD 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 7A 85 00 00
+# 
+name: PbyP
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B5 4A 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 24 DB 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B4 4B 00 00
+# 
+name: MagnifyOn
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B0 4F 00 00
+# 
+name: MagnifyOff
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B3 4C 00 00
+# 
+name: Focus+
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 62 9D 00 00
+# 
+name: Focus-
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 63 9C 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 60 9F 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 61 9E 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 51 AE 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 50 AF 00 00
+# 
+name: PageUp
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: D0 2F 00 00
+# 
+name: PageDown
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: D1 2E 00 00
+# 
+name: Geometry
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B6 49 00 00
+# 
+name: Picture
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: CD 32 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 52 AD 00 00
+# 
+name: Interactive
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 34 CB 00 00
+# 
+name: Network
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 4D B2 00 00
+# 
+name: Blank
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 41 BE 00 00

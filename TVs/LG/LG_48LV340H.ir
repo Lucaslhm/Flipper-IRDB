@@ -32,8 +32,3 @@ type: parsed
 protocol: NEC
 address: D3 00 00 00
 command: 01 00 00 00
-#
-name: Info
-type: parsed
-protocol: NEC
-address: 04

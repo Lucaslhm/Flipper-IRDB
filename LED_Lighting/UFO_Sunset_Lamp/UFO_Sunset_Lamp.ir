@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# UFO Sunset Lamp LED
+#
+name: Off
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+# 
+name: On
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+# 
+name: Flash
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: Strobe
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9206 4353 650 512 622 512 647 486 649 485 649 485 649 485 648 486 647 487 646 1596 645 1597 644 1597 645 1597 645 489 645 1597 645 1597 645 1597 645 1597 645 1598 644 1597 645 1598 644 490 644 490 644 490 644 490 644 490 644 490 644 490 644 490 644 1598 644 1598 644 1598 644 1598 644 40917 9123 2174 646
+# 
+name: Fade
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+# 
+name: Smooth
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00

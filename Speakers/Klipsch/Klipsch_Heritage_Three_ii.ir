@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Volume_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 21 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0E 00 00 00
+# 
+name: Usb
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Phono
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0F 00 00 00
+# 
+name: Led
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00

@@ -1,0 +1,64 @@
+name: "🧐 Checking IR Files"
+
+on:
+  pull_request_target:
+    paths: '**.ir'
+
+jobs:
+  lint:
+    name: "🐛 Looking for issues"
+    runs-on: ubuntu-latest
+    steps:
+      # checkout IRDB
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      # checkout Linter
+      - name: Clean Script Directory
+        run: rm -rf fff-ir-lint
+      - uses: actions/checkout@v3
+        with:
+          repository: 'darmiel/fff-ir-lint'
+          path: fff-ir-lint
+      
+      # only check files changed in the PR
+      - name: Get Changed Files
+        id: changed-files
+        uses: tj-actions/changed-files@v29.0.7
+        with:
+          files: "**/*.ir"
+          separator: "\n"
+          sha: ${{ github.event.pull_request.head.sha }}
+          
+      - name: Save changed file names to file
+        run: echo '${{ steps.changed-files.outputs.all_changed_files }}' > changed_file_list.txt
+      
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10' 
+
+      - name: Run Linter if at least 1 IR File Changed
+        uses: mathiasvr/command-output@v1.1.0
+        id: run
+        continue-on-error: true
+        with:
+          run: python fff-ir-lint/main.py github2 file:changed_file_list.txt
+
+      - uses: ntsd/auto-request-changes-action@v2
+        name: "Request Changes"
+        if: ${{ steps.run.outputs.stderr }}
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          comment-body: |
+            <details>
+              <summary>🐛 Linter Result</summary>
+              
+              ${{ steps.run.outputs.stdout }}
+              
+            </details>
+
+      # - name: Fail Pipeline
+      #   if: ${{ steps.run.outputs.stderr }}
+      #   run: exit 1

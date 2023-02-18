@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Samsung SR8875 Vacuum Robot
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 00 00 00 00
+# 
+name: Recharge
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 01 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 02 00 00 00
+# 
+name: Spot
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 03 00 00 00
+# 
+name: Max
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 04 00 00 00
+# 
+name: Start
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 08 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 05 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 06 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 07 00 00 00
+#
+name: Manual
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 09 00 00 00
+# 
+name: Turbo
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0A 00 00 00
+# 
+name: Edge
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0B 00 00 00
+# 
+name: Delay
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0C 00 00 00
+# 
+name: Clock
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0D 00 00 00
+# 
+name: Smart_Control
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0E 00 00 00

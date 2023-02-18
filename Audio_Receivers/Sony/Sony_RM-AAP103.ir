@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 15 00 00 00
+# 
+name: BD
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 16 00 00 00
+# 
+name: DVD
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 7D 00 00 00
+# 
+name: Game
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 7C 00 00 00
+# 
+name: Sat_catv
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 03 00 00 00
+# 
+name: Video_1
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 22 00 00 00
+# 
+name: Video_2
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 1E 00 00 00
+# 
+name: Video_3
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 42 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 14 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 12 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 13 00 00 00
+# 
+name: Home
+type: parsed
+protocol: SIRC
+address: 02 00 00 00
+command: 4D 00 00 00

@@ -244,19 +244,19 @@ protocol: NECext
 address: A1 5E 00 00
 command: D7 28 00 00
 #
-name: VOL  MAIN
+name: VOL MAIN
 type: parsed
 protocol: NECext
 address: A1 5E 00 00
 command: A7 58 00 00
 #
-name: VOL  ZONE2
+name: VOL ZONE2
 type: parsed
 protocol: NECext
 address: A1 5E 00 00
 command: A4 5B 00 00
 #
-name: VOL  ZONE3
+name: VOL ZONE3
 type: parsed
 protocol: NECext
 address: A1 5E 00 00
@@ -280,19 +280,19 @@ protocol: NECext
 address: A1 5E 00 00
 command: 00 FF 00 00
 #
-name: VOL  MAIN
+name: VOL MAIN
 type: parsed
 protocol: NECext
 address: A1 5E 00 00
 command: 27 D8 00 00
 #
-name: VOL  ZONE2
+name: VOL ZONE2
 type: parsed
 protocol: NECext
 address: A1 5E 00 00
 command: 24 DB 00 00
 #
-name: VOL  ZONE3
+name: VOL ZONE3
 type: parsed
 protocol: NECext
 address: A1 5E 00 00

@@ -1,0 +1,124 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Bestisan 7020 Soundbar
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 7F 80 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 9B 64 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 9E 61 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 9F 60 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 9D 62 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 9C 63 00 00
+# 
+name: PlayPause
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 9A 65 00 00
+# 
+name: Opt
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: A8 57 00 00
+# 
+name: Coax
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: A9 56 00 00
+# 
+name: BT
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: CD 32 00 00
+# 
+name: USB
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: CE 31 00 00
+# 
+name: Aux
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: AB 54 00 00
+# 
+name: Movie
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 2A D5 00 00
+# 
+name: Music
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 2B D4 00 00
+# 
+name: Dialog
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: BB 44 00 00
+# 
+name: Treb+
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: AD 52 00 00
+# 
+name: Treb-
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: AE 51 00 00
+# 
+name: Bass+
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: AF 50 00 00
+# 
+name: Bass-
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: BC 43 00 00
+# 
+name: Reset
+type: parsed
+protocol: NECext
+address: 29 A1 00 00
+command: 2C D3 00 00

@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Amazon Basics TV Remote
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 9F 60 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 48 B7 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4D B2 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4E B1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 49 B6 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 0C F3 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 19 E6 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4C B3 00 00
+# 
+name: Select
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4A B5 00 00

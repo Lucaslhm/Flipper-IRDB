@@ -1,0 +1,209 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Epson EB-735f Projector
+# by sealldeveloper
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: SourceSearch
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: HDMI
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: USB
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: LAN
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Center
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Esc
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: User
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Default
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: ColorMode
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8F 70 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Ezoom+
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Ezoom-
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+# 
+name: AVMute
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 93 6C 00 00
+# 
+name: Split
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 21 DE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00

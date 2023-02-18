@@ -1,0 +1,178 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Optoma DH 1011 DLP Projector
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 81 00 00 00
+# 
+name: SWITCH
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9037 4426 609 506 609 1622 609 507 609 506 609 1623 608 1622 609 507 609 506 610 1622 609 507 608 1622 609 1623 608 507 608 507 609 1623 608 1623 608 507 609 1622 609 1622 609 1622 609 1623 608 1623 609 507 609 506 610 1622 639 478 637 478 637 478 637 478 664 451 664 1566 635 1596 609 39921 9065 2155 637
+# 
+name: SOURCE
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C3 00 00 00
+# 
+name: RESYNC
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C4 00 00 00
+# 
+name: L
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: CB 00 00 00
+# 
+name: R
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: CC 00 00 00
+# 
+name: UP_DPAD
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C6 00 00 00
+# 
+name: LEFT_DPAD
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C8 00 00 00
+# 
+name: RIGHT_DPAD
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C9 00 00 00
+# 
+name: DOWN_DPAD
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C7 00 00 00
+# 
+name: ENTER_DPAD
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C5 00 00 00
+# 
+name: PAGE-
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C2 00 00 00
+# 
+name: PAGE+
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C1 00 00 00
+# 
+name: KEYSTONE-
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 84 00 00 00
+# 
+name: KEYSTONE+
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 85 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8F 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8C 00 00 00
+# 
+name: BRIGHTNESS
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 87 00 00 00
+# 
+name: MENU
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9065 4430 608 507 609 1623 608 507 609 477 639 1622 609 1622 697 419 696 419 696 1536 695 421 694 1537 694 1537 609 507 609 506 610 1622 609 1622 609 507 609 506 610 507 639 1592 694 422 637 478 636 479 585 1646 586 1645 586 1645 586 1645 586 528 587 1645 586 1645 586 1645 586 530 585 40182 9015 2207 584 95980 9040 2206 584
+# 
+name: ZOOM
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 89 00 00 00
+# 
+name: HDMI_1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9065 4399 637 478 665 1567 665 451 637 478 663 1569 637 1594 610 506 610 506 610 1621 610 505 611 1621 611 1621 611 505 611 505 611 1621 610 1621 610 505 611 1620 612 1620 611 505 611 504 612 504 612 504 612 1620 611 1621 610 505 610 505 611 1622 586 1645 586 1646 585 1646 585 531 585
+# 
+name: FREEZE
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8B 00 00 00
+# 
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9066 4428 608 507 609 1622 609 507 609 507 609 1623 608 1623 609 507 609 506 610 1623 609 507 609 1622 610 1623 608 507 609 506 610 1622 609 1623 609 506 610 1622 610 506 610 1623 637 478 690 425 638 478 637 1594 637 1594 664 451 636 1594 610 506 610 1621 611 1621 610 1621 610 505 611 40183 9065 2156 637 95953 9037 2185 608
+# 
+name: HDMI_2
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 9B 00 00 00
+# 
+name: VGA_1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9037 4428 608 507 609 1623 609 507 609 507 609 1622 610 1623 608 507 609 506 610 1623 608 508 608 1623 608 1622 610 507 609 507 609 1623 608 1623 609 506 610 1623 608 1622 610 1623 609 507 609 507 609 507 608 1623 609 1623 609 507 609 507 609 507 609 1622 610 1622 638 1595 692 423 638 40109 9012 2207 585
+# 
+name: VIDEO
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8D 00 00 00
+# 
+name: DYNAMIC_BLACK
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 96 00 00 00
+# 
+name: VGA_2
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 9A 00 00 00
+# 
+name: 3D
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9064 4424 609 506 609 1623 608 507 609 508 608 1624 607 1624 607 509 607 509 607 1625 606 510 606 1627 604 1627 604 512 604 536 580 1653 578 1653 578 1654 577 1655 576 540 576 565 550 1681 550 566 549 567 549 1684 522 619 497 619 496 1737 494 1764 467 648 468 1816 414 43536 9037 2184 606 95958 9065 2182 608 95957 9064 2182 608

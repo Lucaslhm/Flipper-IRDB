@@ -1,0 +1,226 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony STRDH590 audio receiver
+#
+name: POWER
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 15 00 00 00
+# 
+name: SLEEP
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 60 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 18 00 00 00
+# 
+name: BLUETOOTH
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 71 00 00 00
+# 
+name: MEDIA_BOX
+type: parsed
+protocol: SIRC20
+address: 10 0D 00 00
+command: 40 00 00 00
+# 
+name: BD_DVD
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 16 00 00 00
+# 
+name: SAT_CATV
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 03 00 00 00
+# 
+name: GAME
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 7C 00 00 00
+# 
+name: SA-CD_CD
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 25 00 00 00
+# 
+name: TV
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 6A 00 00 00
+# 
+name: FM
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 18 00 00 00
+# 
+name: PAIRING
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 77 00 00 00
+# 
+name: 2CH_MULTI
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 47 00 00 00
+# 
+name: MOVIE
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 43 00 00 00
+# 
+name: PURE_DIRECT
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 79 00 00 00
+# 
+name: FRONT_SUR
+type: parsed
+protocol: SIRC20
+address: 10 0D 00 00
+command: 39 00 00 00
+# 
+name: NIGHT_MODE
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 20 00 00 00
+# 
+name: DIMMER
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 4D 00 00 00
+# 
+name: UP
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 78 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 79 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7A 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7B 00 00 00
+# 
+name: OK
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 0C 00 00 00
+# 
+name: HOME
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 53 00 00 00
+# 
+name: DISPLAY
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 4B 00 00 00
+# 
+name: AMP_MENU
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 77 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 7D 00 00 00
+# 
+name: OPTION
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 73 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 12 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 13 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 14 00 00 00
+# 
+name: REWIND
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 33 00 00 00
+# 
+name: PLAY_PAUSE
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 3A 00 00 00
+# 
+name: FASTFORWARD
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 34 00 00 00
+# 
+name: SKIP_BACK
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 30 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 38 00 00 00
+# 
+name: SKIP_FORWARD
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 31 00 00 00

@@ -1,0 +1,146 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 01 FE 00 00
+# 
+name: Off
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 02 FD 00 00
+# 
+name: Lower
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 2597 769 839 789 449 705 504 605 737 626 208 7936 553 921 142 1941 360 4248 292 1886 393 1885 392 6502 162 4156 393 851 266 1886 446 8685 384 1891 119 4415 333 3088 336 1843 388
+# 
+name: Higher
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 09 F6 00 00
+# 
+name: Candle
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8998 4474 503 615 553 1750 529 533 582 741 422 589 501 665 528 559 559 580 556 558 527 1750 528 1727 528 1723 529 1777 502 1751 476 1748 503 1778 474 1751 504 636 504 638 502 743 421 1727 476 716 502 642 419 772 424 612 531 1749 501 1722 505 1725 528 612 449 1805 554 1777 449 1724 556 40270 9056 2242 526
+# 
+name: Warm light
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 16 E9 00 00
+# 
+name: Normal
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 0A F5 00 00
+# 
+name: Cold light
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 03 FC 00 00
+# 
+name: Child Nightlight
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 12 ED 00 00
+# 
+name: Sleep Timer
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 17 E8 00 00
+# 
+name: Reading light
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 0B F4 00 00
+# 
+name: Meditation light
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 04 FB 00 00
+# 
+name: Morning
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 13 EC 00 00
+# 
+name: Colour Mode 1
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 18 E7 00 00
+# 
+name: Colour mode 2
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 0C F3 00 00
+# 
+name: Sunset
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 05 FA 00 00
+# 
+name: Forest
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 14 EB 00 00
+# 
+name: Ocean
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 19 E6 00 00
+# 
+name: Fire
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 0D F2 00 00
+# 
+name: Heart
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 06 F9 00 00
+# 
+name: Pink
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 0E F1 00 00
+# 
+name: Orange
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 07 F8 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 08 F7 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 02 FE 00 00
+command: 15 EA 00 00
