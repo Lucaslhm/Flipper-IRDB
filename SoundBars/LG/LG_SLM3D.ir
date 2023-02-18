@@ -1,0 +1,89 @@
+Filetype: IR signals file
+Version: 1
+#
+# LG SLM3D Soundbar
+#
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+# 
+name: VOL +
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+# 
+name: VOL -
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
+#
+name: Input source
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 8A 00 00 00
+# 
+name: Standard
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 36 00 00 00
+# 
+name: Cinema
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 90 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 06 00 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+# 
+name: Forward
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 07 00 00 00
+# 
+name: Night ON
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 9C 00 00 00
+# 
+name: Night OFF
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 9B 00 00 00
+#
+name: Woofer +
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4546 4449 632 534 602 534 602 1657 602 1657 601 534 602 1658 600 536 711 425 577 559 578 559 577 1682 577 1682 576 559 599 1659 600 536 600 535 601 535 601 1658 601 535 601 1658 600 536 600 537 599 1660 575 1684 574 1685 574 563 573 1686 573 588 548 1711 548 1689 570 589 547 589 547 46498 4571 4457 595 1663 596
+# 
+name: Woofer -
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4576 4480 601 535 714 422 712 1548 578 1682 577 559 577 1682 577 559 576 559 600 536 600 535 601 1658 601 1657 601 535 601 1658 601 535 601 535 602 1658 601 535 601 535 601 1659 600 536 600 536 600 1660 599 1660 599 538 598 1661 598 1663 596 540 596 1662 597 1662 597 539 597 539 597 46478 4547 4480 601 1657 601 96263 4570 4456 574 1685 573 96287 4571 4456 573 1686 572 96292 4570 4455 598 1661 597
+#

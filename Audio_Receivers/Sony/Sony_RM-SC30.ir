@@ -1,0 +1,137 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony RMSC30 Audio Receiver
+# by sealldeveloper
+#
+name: POWER
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 12 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 13 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 60 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 4B 00 00 00
+# 
+name: Select (Clock/Timer)
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 62 00 00 00
+# 
+name: Set (Clock/Timer)
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 65 00 00 00
+# 
+name: TunerMemory
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0E 00 00 00
+# 
+name: PlayMode/TuningMode
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 28 00 00 00
+# 
+name: Repeat/FMMode
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2D 00 00 00
+# 
+name: Tape
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 23 00 00 00
+# 
+name: CD
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 25 00 00 00
+# 
+name: Tuner
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0F 00 00 00
+# 
+name: Function
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 69 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 32 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 39 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 38 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 0F 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 7C 00 00 00
+# 
+name: EQ
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 63 00 00 00
+# 
+name: Folder+
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2F 00 00 00
+# 
+name: Folder-
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2E 00 00 00

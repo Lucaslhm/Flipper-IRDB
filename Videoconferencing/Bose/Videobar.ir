@@ -1,0 +1,83 @@
+Filetype: IR signals file
+Version: 1
+#
+# Bose Videobar Remote
+# https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/videobars/bose_videobar_vb1/downloads/manuals/og_vb1_en.pdf
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: D0 2F 00 00
+#
+name: LEFT
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: C0 3F 00 00
+#
+name: RIGHT
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: C1 3E 00 00
+#
+name: UP
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: C3 3C 00 00
+#
+name: DOWN
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: C2 3D 00 00
+#
+name: HOME
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9050 4381 658 469 682 1591 659 467 659 1591 658 1592 657 1592 657 469 657 1593 657 1593 657 1592 658 469 657 1593 657 469 657 469 657 1593 657 469 657 1593 657 469 657 469 657 469 657 469 657 469 657 1593 657 469 657 469 657 1593 657 1593 657 1593 657 1593 657 1593 657 469 657 1594 657
+#
+name: 1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9045 4384 682 444 681 1592 657 468 657 1593 656 1594 656 1594 656 470 656 1594 656 1594 656 1594 656 470 656 1594 656 470 656 470 656 1594 656 470 656 470 656 1594 656 470 656 470 656 470 656 470 656 1594 656 470 656 1594 656 470 656 1594 656 1594 656 1594 656 1594 656 470 656 1595 656
+#
+name: 2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9049 4380 658 468 683 1569 681 467 659 1591 658 1592 657 1592 657 469 657 1593 657 1593 657 1593 657 469 657 1593 657 469 657 469 657 1593 657 469 657 1593 657 1593 656 469 657 469 657 469 657 469 657 1593 657 469 657 469 657 469 657 1593 657 1593 657 1593 657 1593 657 469 657 1594 657
+#
+name: AUTOFRAME
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 44 BB 00 00
+#
+name: VOL+
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 03 FC 00 00
+#
+name: VOL-
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 02 FD 00 00
+#
+name: ZOOM+
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: C5 3A 00 00
+#
+name: ZOOM-
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: C4 3B 00 00

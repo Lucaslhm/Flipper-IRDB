@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 46 B9 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 41 BE 00 00
+# 
+name: Vol- L
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 47 B8 00 00
+# 
+name: Vol- R
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 49 B6 00 00
+# 
+name: Vol+ L
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 05 FA 00 00
+# 
+name: Vol+ R
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 06 F9 00 00
+# 
+name: PC
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 07 F8 00 00
+# 
+name: AUX
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 09 F6 00 00
+# 
+name: OPT
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 45 BA 00 00
+# 
+name: COX
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 03 FC 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 5C A3 00 00
+# 
+name: Previous
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 1E E1 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 5E A1 00 00
+# 
+name: FF
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 02 FD 00 00

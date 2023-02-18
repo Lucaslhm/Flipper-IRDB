@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# PIONEER DVD PLAYER VXX2702
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: AF 00 00 00
+command: BC 00 00 00
+# 
+name: EJECT
+type: parsed
+protocol: NEC
+address: AF 00 00 00
+command: B6 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: NEC
+address: AF 00 00 00
+command: 9E 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: NEC
+address: AF 00 00 00
+command: 98 00 00 00

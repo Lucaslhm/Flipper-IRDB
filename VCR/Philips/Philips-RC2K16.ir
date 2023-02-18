@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Philips RC2K16 VCR
+#
+name: POWER
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 0C 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 2C 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 31 00 00 00
+# 
+name: ZOOM
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: F7 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 0D 00 00 00

@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Promethean Digital Whiteboard
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 81 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8E 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 87 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C5 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C1 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C2 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C3 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C4 00 00 00
+# 
+name: Blank
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8B 00 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8D 00 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8A 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 83 00 00 00
+# 
+name: Page_up
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CB 00 00 00
+# 
+name: Page_down
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CC 00 00 00

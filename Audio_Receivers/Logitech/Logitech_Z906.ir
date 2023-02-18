@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 80 7F 00 00
+# 
+name: Plus
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: AA 55 00 00
+# 
+name: Minus
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 6A 95 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: EA 15 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 08 F7 00 00
+# 
+name: Effect
+type: parsed
+protocol: NECext
+address: 02 A0 00 00
+command: 0E F1 00 00

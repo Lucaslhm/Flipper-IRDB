@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 73 8C 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 56 A9 00 00
+# 
+name: Vol_dwn
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 57 A8 00 00
+# 
+name: Ch_up
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 58 A7 00 00
+# 
+name: Ch_dwn
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 59 A6 00 00
+# 
+name: Elisa_viihde
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 96 69 00 00
+# 
+name: Netflix
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 82 7D 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 42 BD 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 43 BC 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 44 BB 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 45 BA 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 41 BE 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 95 6A 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 83 33 00 00
+command: 94 6B 00 00

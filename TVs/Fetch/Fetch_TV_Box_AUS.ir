@@ -16,6 +16,18 @@ protocol: NECext
 address: 64 46 00 00
 command: 5D A2 00 00
 # 
+name: VOL+
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+# 
 name: MUTE
 type: parsed
 protocol: NEC
@@ -33,6 +45,12 @@ type: parsed
 protocol: NECext
 address: 64 46 00 00
 command: DB 24 00 00
+# 
+name: TV_POWER
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
 # 
 name: Up
 type: parsed
@@ -58,7 +76,7 @@ protocol: NECext
 address: 64 46 00 00
 command: C3 3C 00 00
 # 
-name: Ctr
+name: Center
 type: parsed
 protocol: NECext
 address: 64 46 00 00
@@ -87,3 +105,141 @@ type: parsed
 protocol: NECext
 address: 64 46 00 00
 command: D5 2A 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: E4 1B 00 00
+#
+# name: Exit
+# type: raw
+# frequency: 38000
+# duty_cycle: 0.330000
+# data: 9212 4462 635 505 664 502 638 1646 638 502 638 478 662 1646 637 1647 637 517 637 503 636 1648 635 1649 634 506 634 506 633 507 633 1652 632 522 632 491 659 481 632 1652 632 508 632 508 632 1652 632 1652 632 1666 631 1652 632 1653 631 509 631 1653 631 1653 632 508 632 508 632 508 631
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: CE 31 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: C9 36 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: C7 38 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: C8 37 00 00
+# 
+name: Apps
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 33 CC 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: D9 26 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 02 FD 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 03 FC 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 04 FB 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 05 FA 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 06 F9 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 07 F8 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 08 F7 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 09 F6 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 0A F5 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 0B F4 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: CD 32 00 00
+# 
+name: Record
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: D2 2D 00 00
+# 
+name: AV
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 25 00 00 00
+# 
+name: Text
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: E6 19 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: D1 2E 00 00

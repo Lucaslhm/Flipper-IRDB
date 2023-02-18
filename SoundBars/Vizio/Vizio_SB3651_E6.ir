@@ -1,0 +1,274 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Vizio SB3651 E6 Sound Bar
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 41 00 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8E 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8B 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8A 00 00 00
+# 
+name: Src_Dig_Audio
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C9 00 00 00
+# 
+name: Src_Optical
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C8 00 00 00
+# 
+name: Src_HDMI_In
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AB 00 00 00
+# 
+name: Src_ARC
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9A 00 00 00
+# 
+name: Src_BT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+# 
+name: Src_USB
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: A1 00 00 00
+# 
+name: Src_Aux
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B1 00 00 00
+# 
+name: Bass_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6B 00 00 00
+# 
+name: Bass_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6A 00 00 00
+# 
+name: Treble_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 69 00 00 00
+# 
+name: Treble_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 68 00 00 00
+# 
+name: Center_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 70 00 00 00
+# 
+name: Center_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6E 00 00 00
+# 
+name: Surr_On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 23 00 00 00
+# 
+name: Surr_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 24 00 00 00
+# 
+name: Surr_Vol_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6D 00 00 00
+# 
+name: Surr_Vol_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6C 00 00 00
+# 
+name: Surr_Bal_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B3 00 00 00
+# 
+name: Surr_Bal_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B4 00 00 00
+# 
+name: Subwf_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+# 
+name: Subwf_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 51 00 00 00
+# 
+name: EQ_Music
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 66 00 00 00
+# 
+name: EQ_Direct
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+# 
+name: EQ_Movie
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 67 00 00 00
+# 
+name: TrueVol_On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 28 00 00 00
+# 
+name: TrueVol_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+# 
+name: Night_On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 61 00 00 00
+# 
+name: Night_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 62 00 00 00
+# 
+name: AVDelay_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D6 00 00 00
+# 
+name: AVDelay_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 71 00 00 00
+# 
+name: VZTVRem_On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+# 
+name: VZTVRem_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: Eco_On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 26 00 00 00
+# 
+name: Eco_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 27 00 00 00
+# 
+name: Spkr_Test
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AC 00 00 00
+# 
+name: BT_Pair
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6F 00 00 00
+# 
+name: Link_Enable
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 87 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 63 00 00 00

@@ -1,0 +1,16 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Briloner Leuchten LED
+#
+name: ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00

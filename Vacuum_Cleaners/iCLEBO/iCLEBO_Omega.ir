@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+#
+# iCLEBO Omega YCR-M07-10 Gold
+#
+name: On/Off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
+# 
+name: Base
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 02 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: Max
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0E 00 00 00
+# 
+name: Spot
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0D 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0C 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0B 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: Clock
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+# 
+name: Climb
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 03 00 00 00
+# 
+name: Turbo
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0F 00 00 00
+# 
+name: Start/Pause
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00

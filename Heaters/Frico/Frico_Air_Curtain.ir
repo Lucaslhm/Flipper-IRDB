@@ -1,0 +1,23 @@
+Filetype: IR signals file
+Version: 1
+#
+# Frico Air Curtain PA2510E08
+# https://shop.frico.net/nl-NL/pa2510e08--luchtgordijn/p99704
+#
+name: On_off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 272 76189 1130 2004 1129 2008 2141 2008 1127 966 1125 967 2138 992 1094 999 2101 1004 1085
+#
+name: Fan_speed
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1093 2040 1094 2044 2082 1022 1067 1025 2079 1021 2108 996 1089 2078 2069 1036 2068
+#
+name: Heat
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 343 76184 1130 2003 1131 2007 2146 959 1129 2039 1098 992 2112 990 1095 2044 2100 2080 1055

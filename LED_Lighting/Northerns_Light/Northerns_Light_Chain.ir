@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Northerns Light Chain LED
+#
+name: Led
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 1C E3 00 00
+# 
+name: Off
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 1D E2 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 1E E1 00 00
+# 
+name: Speed
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 1F E0 00 00
+# 
+name: Fade
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: Jump
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+# 
+name: Asyn_fade
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Grenn
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00

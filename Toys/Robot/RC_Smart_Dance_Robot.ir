@@ -1,0 +1,95 @@
+Filetype: IR signals file
+Version: 1
+#
+# RC Smart Robot Toy (Dancing & Music)
+# https://www.amazon.com/dp/B07KLPPNLJ
+# 
+name: Fwd
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6213 556 1618 658 624 1642 1618 658 625 1642 1620 657 1645 633 625 1645 624
+# 
+name: Rev
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6212 557 1617 658 625 1642 1672 605 651 1617 1642 635 648 1622 647 1622 646
+# 
+name: Left
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6249 555 1618 658 623 1643 1618 657 626 1642 1620 657 625 1642 1620 657 626
+# 
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6273 522 1675 575 683 1586 1675 628 654 1614 1646 631 1645 632 1645 633 649
+# 
+name: Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6272 521 1650 600 682 1586 1675 628 653 1615 653 1616 651 1617 651 1617 1645
+# 
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6244 526 1674 601 682 1586 1675 603 679 1615 652 1615 1644 633 649 1618 1643
+# 
+name: Stop
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6216 557 625 1644 625 1642 1619 655 1647 630 1646 632 651 1618 1644 634 649
+# 
+name: Vol_Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6245 526 653 1614 682 1586 1676 600 1675 604 1669 630 1645 633 649 1619 649
+# 
+name: Vol_Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6243 526 680 1586 682 1585 1676 600 1674 628 1645 631 1644 633 1643 634 648
+# 
+name: Prog
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6297 498 653 1586 1676 601 1674 605 677 1613 1647 630 1646 632 650 1618 650
+# 
+name: Dance
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6248 554 627 1641 1619 655 1622 656 627 1642 627 1641 1623 656 627 1640 1623
+# 
+name: Demo
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6247 555 626 1642 627 1641 1619 655 1622 656 627 1641 1622 656 627 1641 1622
+# 
+name: Patrol
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6247 553 655 1613 655 1613 1622 654 1647 628 1647 631 651 1618 651 1619 650
+# 
+name: Music
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6302 495 680 1560 1679 599 1677 627 655 1613 1649 630 652 1618 651 1618 651
+# 
+name: Zig
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6301 495 656 1584 1679 625 1651 627 655 1613 1649 629 1648 630 1647 632 651

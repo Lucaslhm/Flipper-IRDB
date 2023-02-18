@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Atomberg Fan
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 91 6E 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 8B 74 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 90 6F 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 8A 75 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 93 6C 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 88 77 00 00
+# 
+name: BOOST
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 8F 70 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 96 69 00 00
+# 
+name: LED
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 97 68 00 00
+# 
+name: SLEEP
+type: parsed
+protocol: NECext
+address: 00 F3 00 00
+command: 8E 71 00 00
