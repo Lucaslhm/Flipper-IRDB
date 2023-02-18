@@ -1,3 +1,8 @@
+Filetype: IR signals file
+Version: 1
+# 
+# LG MR21GC Magic Remote
+# 
 # 
 name: POWER
 type: parsed
