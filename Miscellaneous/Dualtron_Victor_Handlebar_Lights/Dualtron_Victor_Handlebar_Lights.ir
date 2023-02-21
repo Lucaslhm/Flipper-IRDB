@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: UP_Light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Down_Light
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9277 4470 601 532 602 531 599 532 624 507 623 509 621 510 620 511 620 514 617 1668 594 1644 618 1668 594 1668 594 1668 594 1645 617 1644 621 1645 622 513 595 538 623 1644 619 513 618 513 618 513 618 513 617 513 618 1644 618 1645 617 513 618 1668 594 1668 594 1668 594 1668 594 1668 594 39676 9051 2211 620
+# 
+name: Move_Light_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: Move_Light_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
