@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 00 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 02 00 00 00
+# 
+name: Mode
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9150 4409 670 487 671 1559 617 540 617 540 617 539 619 539 618 538 619 538 619 1611 619 539 643 1588 642 1589 641 1616 614 1617 613 1618 612 1618 613 1618 613 545 613 545 612 545 613 545 613 545 613 546 612 546 612 545 613 1618 613 1618 612 1618 612 1619 611 1618 613 1618 612 1619 611 39195 9145 2187 612 95453 9142 2186 613
+# 
+name: 1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9154 4402 698 488 669 1562 617 541 617 540 617 540 618 539 619 539 619 538 619 1611 619 538 619 1612 643 1587 643 1588 642 1589 641 1591 639 1617 613 544 613 544 613 1618 613 544 613 544 614 544 613 544 614 545 613 1617 613 1618 612 545 613 1617 614 1617 613 1618 612 1618 613 1617 613 39194 9144 2184 613 95455 9142 2184 613
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 06 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 08 00 00 00
+# 
+name: 4
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0A 00 00 00
+# 
+name: 5
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0C 00 00 00
+# 
+name: 6
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0E 00 00 00
+# 
+name: 7
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 10 00 00 00
+# 
+name: 8
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 396 2233 168
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 14 00 00 00
+# 
+name: Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9200 4348 645 540 616 1613 617 541 616 540 617 540 617 539 618 539 618 538 619 1611 619 538 619 1612 618 1612 642 1588 642 1589 641 1590 639 1591 639 519 638 1593 637 1593 637 521 636 1617 613 544 613 544 613 544 613 1617 613 544 613 544 613 1617 613 545 612 1617 613 1617 613 1618 612
