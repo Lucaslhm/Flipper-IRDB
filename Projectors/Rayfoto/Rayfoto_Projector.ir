@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Rayfoto Projector
+# Rayfoto Projector, Also works for Wimius K1 Projector.
 #
 name: Power
 type: parsed
