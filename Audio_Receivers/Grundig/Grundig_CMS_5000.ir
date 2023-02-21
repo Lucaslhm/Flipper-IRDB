@@ -1,0 +1,272 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 10 EF 00 00
+# 
+name: Eject
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 4A B5 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 06 F9 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 18 E7 00 00
+# 
+name: Moon ZZZ
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 03 FC 00 00
+# 
+name: Snooze
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 07 F8 00 00
+# 
+name: BT Pair
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 58 A7 00 00
+# 
+name: Alarm 1
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 47 B8 00 00
+# 
+name: Alarm 2
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 57 A8 00 00
+# 
+name: Dimmer
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 01 FE 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 02 FD 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 05 FA 00 00
+# 
+name: Folder Down
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 14 EB 00 00
+# 
+name: Folder Up
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 0F F0 00 00
+# 
+name: Skip Backwards
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 11 EE 00 00
+# 
+name: Fast Backwards
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 0A F5 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 50 AF 00 00
+# 
+name: Skip Forward
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 13 EC 00 00
+# 
+name: Shuffle
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 0B F4 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 0E F1 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 12 ED 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 40 BF 00 00
+# 
+name: OK_Scan
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 4C B3 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 04 FB 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 1E E1 00 00
+# 
+name: EQ
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 1A E5 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 0C F3 00 00
+# 
+name: Bass Up
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 41 BE 00 00
+# 
+name: Bass Down
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 42 BD 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 0D F2 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 17 E8 00 00
+# 
+name: Treble Up
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 43 BC 00 00
+# 
+name: Treble Down
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 44 BB 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 09 F6 00 00
+# 
+name: 2 ABC
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 1D E2 00 00
+# 
+name: 3 DEF
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 1F E0 00 00
+# 
+name: 4 GHI
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 19 E6 00 00
+# 
+name: 5 JKL
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 1B E4 00 00
+# 
+name: 6 MNO
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 4D B2 00 00
+# 
+name: 7 PQRS
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 00 FF 00 00
+# 
+name: 8 TUV
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 48 B7 00 00
+# 
+name: 9 WXYZ
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 54 AB 00 00
+# 
+name: Favorites
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 16 E9 00 00
+# 
+name: 10_0
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 15 EA 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 30 FC 00 00
+command: 55 AA 00 00
