@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 98 67 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B0 4F 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B3 4C 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B2 4D 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B1 4E 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 85 7A 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9A 65 00 00
