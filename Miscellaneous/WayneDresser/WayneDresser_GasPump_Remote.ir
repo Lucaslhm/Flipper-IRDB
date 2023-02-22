@@ -1,8 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Wayne-Dresser gasoline dispenser technician programming controller ****** USE WITH CAUTION!!!! ****** Manuals can be found online, However if you dont know, id recommend not using it.
-# WILL ONLY WORK if the gasoline dispenser has been left enabled for remote control, technicians often forget to disable this function, passcode is sometimes changed as well.)
+# Wayne-Dresser gasoline dispenser technician programming controller ****** USE WITH CAUTION!!!! ****** Manuals can be found online, However if you dont know, I'd recommend not using it.
+# (WILL ONLY WORK if the gasoline dispenser has been left enabled for remote control, technicians often forget to disable this function, passcode is sometimes changed as well.)
 #
 name: ENTER
 type: parsed
