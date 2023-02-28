@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# TU-1200
+# X4 Tech TU-1200 Audio Receiver
 # 
 name: Power
 type: parsed
