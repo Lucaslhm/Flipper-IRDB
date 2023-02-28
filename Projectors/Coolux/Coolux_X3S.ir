@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Coolux X3S Projector
+#
 name: POWER
 type: parsed
 protocol: NEC
