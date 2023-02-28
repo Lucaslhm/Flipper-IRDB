@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Pioneer_CU_P0045
+# Pioneer CU-P0045 CD Player
 # 
 name: Power
 type: raw
