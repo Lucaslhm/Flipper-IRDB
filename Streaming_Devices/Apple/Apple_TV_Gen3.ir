@@ -42,3 +42,9 @@ type: parsed
 protocol: NECext
 address: EE 87 00 00
 command: 5D 0C 00 00
+# 
+name: Reboot
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 18 37 00 00
