@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Apple TV Gen 2
+#
 name: Menu
 type: parsed
 protocol: NECext
@@ -43,7 +45,7 @@ protocol: NECext
 address: EE 87 00 00
 command: 04 8B 00 00
 # 
-name: Reset
+name: Reboot
 type: parsed
 protocol: NECext
 address: EE 87 00 00
