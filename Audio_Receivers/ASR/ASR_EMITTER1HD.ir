@@ -44,4 +44,3 @@ type: parsed
 protocol: RC5
 address: 10 00 00 00
 command: 24 00 00 00
-
