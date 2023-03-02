@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# For ASR Emitter 1 HD
+# ASR Emitter 1 HD Audio Receiver
 # 
 name: POWER
 type: parsed
