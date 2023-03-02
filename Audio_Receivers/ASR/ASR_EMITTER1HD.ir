@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# ASR Emitter 1 HD Audio Receiver
+# 
+name: POWER
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0D 00 00 00
+# 
+name: SRC+
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 20 00 00 00
+# 
+name: SRC-
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 21 00 00 00
+# 
+name: SET
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 24 00 00 00
