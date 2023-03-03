@@ -1,99 +1,99 @@
 Filetype: IR signals file
 Version: 1
-# 
-# Rayfoto Projector, Also works for Wimius K1 Projector.
 #
-name: Power
+# For Wimius K1 Projector, Also works for Rayfoto Projectors.
+# 
+name: POWER
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 0B 00 00 00
 # 
-name: Rotate
+name: input
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 0C 00 00 00
 # 
-name: Souce
+name: rotate
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 0F 00 00 00
 # 
-name: Up
+name: up
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 50 00 00 00
 # 
-name: Left
-type: parsed
-protocol: NEC
-address: 08 00 00 00
-command: 51 00 00 00
-# 
-name: Ok
-type: parsed
-protocol: NEC
-address: 08 00 00 00
-command: 1C 00 00 00
-# 
-name: Right
-type: parsed
-protocol: NEC
-address: 08 00 00 00
-command: 52 00 00 00
-# 
-name: Down
+name: down
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 53 00 00 00
 # 
-name: Menu
+name: left
 type: parsed
 protocol: NEC
 address: 08 00 00 00
-command: 17 00 00 00
+command: 51 00 00 00
 # 
-name: Return
+name: right
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 52 00 00 00
+# 
+name: ok
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 1C 00 00 00
+# 
+name: home
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 1A 00 00 00
 # 
-name: Home
+name: return
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 15 00 00 00
 # 
-name: VOL +
+name: menu
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 17 00 00 00
+# 
+name: VOL+
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 48 00 00 00
 # 
-name: VOL -
+name: VOL-
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 49 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 14 00 00 00
 # 
-name: Skip
+name: rewind
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 4A 00 00 00
 # 
-name: Skipbackwards
+name: fastforward
 type: parsed
 protocol: NEC
 address: 08 00 00 00

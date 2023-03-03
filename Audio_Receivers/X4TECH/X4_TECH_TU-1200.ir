@@ -1,0 +1,16 @@
+Filetype: IR signals file
+Version: 1
+# 
+# X4 Tech TU-1200 Audio Receiver
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: VolUP
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00

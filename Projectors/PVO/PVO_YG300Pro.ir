@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+# 
+# PVO Mini Projector YG300Pro
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 40 00 00 00
+# 
+name: SETTINGS
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: SOURCE
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 18 00 00 00
+# 
+name: UP
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 16 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1A 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 51 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 50 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: PLAY_PAUSE
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 19 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 4C 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 11 00 00 00
+# 
+name: MUTE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9107 4376 681 1573 681 472 655 472 654 474 652 475 652 476 651 476 652 476 651 476 651 1604 651 1604 651 1604 651 1603 652 1604 651 1604 651 1604 651 1604 650 476 651 477 650 477 650 476 651 477 651 1604 650 476 651 477 650 1604 651 1604 650 1604 651 1604 650 1604 651 477 650 1604 650 39498 9079 2178 651

@@ -38,3 +38,39 @@ type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0D 00 00 00
+# 
+name: INPUT
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 38 00 00 00
+# 
+name: UP
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: ENTER
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 35 00 00 00

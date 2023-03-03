@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Coolux X3S Projector
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 00 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0D 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 11 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0E 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0C 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1A 00 00 00
+# 
+name: 3D
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 41 00 00 00
