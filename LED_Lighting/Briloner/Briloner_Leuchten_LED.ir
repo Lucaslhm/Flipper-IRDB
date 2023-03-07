@@ -61,5 +61,3 @@ protocol: NEC
 address: 00 00 00 00
 command: 15 00 00 00
 # 
-
-
