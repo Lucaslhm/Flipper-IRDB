@@ -1,0 +1,29 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Rinnai Space Heater
+# by sealldeveloper
+#
+name: On
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1078 59695 1055 59690 1055 59679 1086 59654 1060
+# 
+name: Off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1113 59654 1087 59667 1087
+# 
+name: Temp+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1135 59703 1088 59656 1117
+# 
+name: Temp-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1134 59686 1080 59699 1080
