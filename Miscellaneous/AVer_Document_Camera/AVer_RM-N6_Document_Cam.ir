@@ -1,0 +1,152 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 00 FF 00 00
+# 
+name: Cam
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 4A B5 00 00
+# 
+name: Playback
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 0B F4 00 00
+# 
+name: Pc_1_2
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 21 DE 00 00
+# 
+name: Capture
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 0D F2 00 00
+# 
+name: Record
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 0A F5 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 0C F3 00 00
+# 
+name: Visor
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 03 FC 00 00
+# 
+name: Spotlight
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 02 FD 00 00
+# 
+name: Splitscreen
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 05 FA 00 00
+# 
+name: Rotate
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 07 F8 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 08 F7 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 04 FB 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 0E F1 00 00
+# 
+name: Autofocus
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 0F F0 00 00
+# 
+name: Zoom_in
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 17 E8 00 00
+# 
+name: Zoom_in
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 4B B4 00 00
+# 
+name: Lamp
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 01 FE 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 12 ED 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 16 E9 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 13 EC 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 15 EA 00 00
+# 
+name: Select
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 14 EB 00 00
+# 
+name: Bright_up
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 18 E7 00 00
+# 
+name: Bright_down
+type: parsed
+protocol: NECext
+address: 03 F8 00 00
+command: 4C B3 00 00
