@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Artlii YG300 Projector
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1D 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 09 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 01 00 00 00
+#
+name: OK
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0B 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 08 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0A 00 00 00
+#
+name: Settings
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1E 00 00 00
+#
+name: Exit
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0D 00 00 00
+#
+name: Sources
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1F 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 02 00 00 00
+#
+name: Vol+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9032 4462 598 501 627 1604 627 530 598 531 677 423 706 422 706 421 707 451 677 1554 677 451 598 1633 598 1634 597 1634 598 1634 598 1634 625 1606 681 1550 626 502 598 530 599 529 600 1632 600 528 600 528 601 528 601 528 601 1631 600 1631 625 1607 625 504 625 1607 624 1608 624 1608 623
+#
+name: Vol-
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 15 00 00 00
