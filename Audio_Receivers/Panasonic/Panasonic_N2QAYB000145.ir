@@ -1,0 +1,110 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: D1 03 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: A0 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 01 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+# 
+name: Next
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: A1 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 91 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 71 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 31 02 00 00
+# 
+name: Play_Mode
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: B1 03 00 00
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00
+# 
+name: Music_Port
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: A0 01 00 00
+# 
+name: Tuner_Band
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: 40 02 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 61 01 00 00
+# 
+name: Bass
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 03
+command: 70 01 00 00
+# 
+name: Album_Next
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 03
+command: C0 03 00 00
+# 
+name: Album_Prev
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 03
+command: D0 03 00 00
+# 
+name: Clock
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 51 01 00 00
