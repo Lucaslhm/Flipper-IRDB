@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# For Edifier R1700BT
+# Edifier R1700BT Audio Receiver
 # 
 name: Power
 type: parsed
