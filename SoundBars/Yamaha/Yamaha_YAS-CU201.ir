@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Yamaha Soundbar YAS-CU201
+#
 name: POWER
 type: parsed
 protocol: NEC
