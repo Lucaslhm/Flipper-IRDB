@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Yamaha Soundbar YAS-CU201
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: CC 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1E 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1F 00 00 00
+# 
+name: SUB+
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4C 00 00 00
+# 
+name: SUB-
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4D 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 9C 00 00 00
+# 
+name: CLEAR_VOICE
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 5C 00 00 00
+# 
+name: SURROUND
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: B4 00 00 00
+# 
+name: STEREO
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 50 00 00 00
+# 
+name: TV
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: DF 00 00 00
+# 
+name: DB-DVD
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4A 00 00 00
+# 
+name: YIT
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 29 00 00 00
