@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Sanyo TV FW40R49FC
+#
 name: POWER
 type: parsed
 protocol: NECext
