@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Creative Z5400 Speaker
+#
 name: POWER
 type: parsed
 protocol: NEC
