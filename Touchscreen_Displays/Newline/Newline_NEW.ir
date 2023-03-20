@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 0B F4 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 15 EA 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 14 EB 00 00
+# 
+name: Screenshot
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 1A E5 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 76 89 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 13 EC 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 12 ED 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 2B D4 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 2D D2 00 00
+# 
+name: Righ
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 2E D1 00 00
+# 
+name: Confirm
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 2F D0 00 00
+# 
+name: Ex_power
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: F2 0D 00 00
+# 
+name: Task_mgr
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 70 8F 00 00
+# 
+name: Return
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 24 DB 00 00
+# 
+name: Settings
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 61 9E 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 73 8C 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 03 FF 00 00
+command: 2C D3 00 00
