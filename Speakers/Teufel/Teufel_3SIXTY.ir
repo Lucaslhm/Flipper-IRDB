@@ -1,0 +1,94 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Teufel 3SIXTY Speakers
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: E2 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: E1 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: E7 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: B9 00 00 00
+# 
+name: Reverse
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: BA 00 00 00
+# 
+name: Forward
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: EA 00 00 00
+# 
+name: Play Pause
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: BD 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: FC 00 00 00
+# 
+name: Link
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: FD 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: AE 00 00 00
+# 
+name: 1
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: FB 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: BB 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: EB 00 00 00
+# 
+name: 4
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: AB 00 00 00
+# 
+name: Favorite
+type: parsed
+protocol: NEC
+address: FD 00 00 00
+command: ED 00 00 00

@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Philips SWV948b HDMI Switch
+#
+name: 1
+type: parsed
+protocol: NECext
+address: 82 FF 00 00
+command: 05 FA 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 82 FF 00 00
+command: 07 F8 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 82 FF 00 00
+command: 1B E4 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 82 FF 00 00
+command: 09 F6 00 00
