@@ -1,0 +1,118 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Roku SoundBridge (Sampled from a SoundBridge M1001 remote)
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 17 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 40 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 41 00 00 00
+# 
+name: Bright
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 42 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 12 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 13 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 10 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 11 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 19 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 1B 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 1A 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 14 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 1C 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 17 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 15 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 1F 00 00 00
+# 
+name: Shuffle
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 1E 00 00 00
+# 
+name: Search
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 18 00 00 00
+# 
+name: Plus
+type: parsed
+protocol: NEC
+address: 6F 00 00 00
+command: 1D 00 00 00
