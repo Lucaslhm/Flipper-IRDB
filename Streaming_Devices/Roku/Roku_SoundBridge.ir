@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Roku SoundBridge (Sampled from a SoundBridge M1001 remote)
+#
 name: POWER
 type: parsed
 protocol: NEC
