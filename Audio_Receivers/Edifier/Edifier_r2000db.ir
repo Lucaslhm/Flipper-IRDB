@@ -1,6 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Edifier R2000DB Audio Receiver
+#
+name: PWR
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 00 FF 00 00
 name: CLASSIC
 type: parsed
 protocol: NECext
@@ -12,12 +19,6 @@ type: parsed
 protocol: NECext
 address: 10 E7 00 00
 command: 14 EB 00 00
-# 
-name: PWR
-type: parsed
-protocol: NECext
-address: 10 E7 00 00
-command: 00 FF 00 00
 # 
 name: VOL-
 type: parsed
