@@ -113,4 +113,4 @@ name: Plus
 type: parsed
 protocol: NEC
 address: 6F 00 00 00
-command: 1D 00 00 00 
+command: 1D 00 00 00
