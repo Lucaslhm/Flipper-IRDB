@@ -31,7 +31,7 @@ protocol: NECext
 address: 10 E7 00 00
 command: 01 FE 00 00
 # 
-name: VOL_PL
+name: VOL+
 type: parsed
 protocol: NECext
 address: 10 E7 00 00
