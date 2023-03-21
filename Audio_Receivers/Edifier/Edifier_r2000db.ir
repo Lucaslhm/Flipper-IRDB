@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Edifier R2000DB Audio Receiver
+#
+name: PWR
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 00 FF 00 00
+#
+name: CLASSIC
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0E F1 00 00
+# 
+name: DYNAMIC
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 14 EB 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0C F3 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 09 F6 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 01 FE 00 00
+# 
+name: LINE1
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0D F2 00 00
+# 
+name: LINE2
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 16 E9 00 00
+# 
+name: BT
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 15 EA 00 00
+# 
+name: OPTIC
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0A F5 00 00
