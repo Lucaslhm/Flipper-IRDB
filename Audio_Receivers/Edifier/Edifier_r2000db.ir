@@ -8,6 +8,7 @@ type: parsed
 protocol: NECext
 address: 10 E7 00 00
 command: 00 FF 00 00
+#
 name: CLASSIC
 type: parsed
 protocol: NECext
@@ -26,17 +27,17 @@ protocol: NECext
 address: 10 E7 00 00
 command: 0C F3 00 00
 # 
-name: MUTE
-type: parsed
-protocol: NECext
-address: 10 E7 00 00
-command: 01 FE 00 00
-# 
 name: VOL+
 type: parsed
 protocol: NECext
 address: 10 E7 00 00
 command: 09 F6 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 01 FE 00 00
 # 
 name: LINE1
 type: parsed
