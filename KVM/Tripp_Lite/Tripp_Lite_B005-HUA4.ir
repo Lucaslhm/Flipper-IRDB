@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Tripp Lite KVM B005-HUA4
+#
 name: Channel 1
 type: raw
 frequency: 38000
