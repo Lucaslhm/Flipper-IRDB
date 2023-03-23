@@ -3,37 +3,37 @@ Version: 1
 # 
 # Cranker TV (Generic)
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0E 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9225 4476 586 1675 613 527 612 529 610 530 609 532 607 558 581 558 582 559 581 559 581 1681 581 1681 581 1681 581 1681 581 1681 581 1681 581 1681 581 1683 581 1681 581 1681 581 1681 581 559 581 559 581 558 582 559 580 559 581 559 581 559 581 559 581 1681 581 1681 581 1682 580 1682 581
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: Ch_down
+name: CH-
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0D 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 01 00 00 00

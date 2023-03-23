@@ -145,13 +145,13 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: 30 03 00 00
 # 
-name: VOL_UP
+name: VOL+
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
 # 
-name: VOL_DOWN
+name: VOL-
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
@@ -163,13 +163,13 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
 # 
-name: CH_UP
+name: CH+
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
 # 
-name: CH_DOWN
+name: CH-
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00

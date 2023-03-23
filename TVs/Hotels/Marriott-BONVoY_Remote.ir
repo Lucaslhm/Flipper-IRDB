@@ -5,7 +5,7 @@ Version: 1
 # Captured 2023/09/23
 # Image: https://i.imgur.com/mNXB47y.jpeg
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -101,19 +101,19 @@ protocol: NEC
 address: 04 00 00 00
 command: 0C 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: Vol+
+name: VOL+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol-
+name: VOL-
 type: parsed
 protocol: NEC
 address: 04 00 00 00

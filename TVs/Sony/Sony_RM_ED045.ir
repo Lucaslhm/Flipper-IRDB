@@ -25,7 +25,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

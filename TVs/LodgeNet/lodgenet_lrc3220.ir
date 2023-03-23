@@ -34,13 +34,13 @@ protocol: NECext
 address: 85 7C 00 00
 command: 90 6F 00 00
 #
-name: VolUp
+name: VOL+
 type: parsed
 protocol: NECext
 address: 85 7C 00 00
 command: 8F 70 00 00
 # 
-name: Voldwn
+name: VOL-
 type: parsed
 protocol: NECext
 address: 85 7C 00 00

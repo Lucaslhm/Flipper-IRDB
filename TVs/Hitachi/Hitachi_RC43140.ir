@@ -7,37 +7,37 @@ Version: 1
 # 43HL8000 49HL8000 55HL8000K 43HL8000K 43HE4000 40HE4001 49HE4000 40HE4000 32HE4500 43HK6000
 # 43HK6001 32HE4500K 55HL8000 24HE2001 65HL7000 43F501HK6000 55HL9000G 49HL7000 49HK6000
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 0C 00 00 00
 # 
-name: Vol_Up
+name: VOL+
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 10 00 00 00
 # 
-name: Vol_Down
+name: VOL-
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 11 00 00 00
 # 
-name: CH_Up
+name: CH+
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 20 00 00 00
 # 
-name: CH_Down
+name: CH-
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 21 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: RC5
 address: 03 00 00 00

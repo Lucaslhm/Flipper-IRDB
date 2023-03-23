@@ -13,7 +13,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: Channel_dn
+name: CH-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -25,7 +25,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_dn
+name: VOL-
 type: parsed
 protocol: NEC
 address: 04 00 00 00

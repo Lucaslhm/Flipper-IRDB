@@ -3,7 +3,7 @@ Version: 1
 # 
 # Royal Caribbean TV (Samsung)
 #
-name: Power
+name: POWER
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -111,13 +111,13 @@ protocol: SIRC20
 address: 5A 0E 00 00
 command: 5F 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -129,19 +129,19 @@ protocol: SIRC20
 address: 5A 0E 00 00
 command: 6C 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: SIRC20
 address: 5A 0E 00 00
 command: 10 00 00 00
 # 
-name: Ch_dn
+name: CH-
 type: parsed
 protocol: SIRC20
 address: 5A 0E 00 00
