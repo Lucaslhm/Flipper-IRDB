@@ -159,13 +159,13 @@ protocol: RC6
 address: 00 00 00 00
 command: 70 00 00 00
 # 
-name: Vol Up
+name: VOL+
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: Vol Down
+name: VOL-
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -177,19 +177,19 @@ protocol: RC6
 address: 00 00 00 00
 command: 9F 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: Ch Up
+name: CH+
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: Ch Down
+name: CH-
 type: parsed
 protocol: RC6
 address: 00 00 00 00

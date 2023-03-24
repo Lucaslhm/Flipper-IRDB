@@ -19,7 +19,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 0C F3 00 00
 # 
-name: Vol_dn
+name: VOL-
 type: parsed
 protocol: NECext
 address: 86 05 00 00
@@ -31,7 +31,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 0A F5 00 00
 # 
-name: Ch_dn
+name: CH-
 type: parsed
 protocol: NECext
 address: 86 05 00 00

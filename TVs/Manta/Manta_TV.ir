@@ -9,31 +9,31 @@ protocol: NECext
 address: 00 BF 00 00
 command: 00 FF 00 00
 # 
-name: Vol+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 48 B7 00 00
 # 
-name: Vol-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 49 B6 00 00
 # 
-name: Ch+
+name: CH+
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: Ch-
+name: CH-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4B B4 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

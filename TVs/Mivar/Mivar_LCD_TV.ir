@@ -3,31 +3,31 @@ Version: 1
 # 
 # Mivar TV
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 FB 00 00
 command: 0A F5 00 00
 # 
-name: Vol_Up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 FB 00 00
 command: 58 A7 00 00
 # 
-name: Vol_Down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 FB 00 00
 command: 4B B4 00 00
 # 
-name: Ch_Up
+name: CH+
 type: parsed
 protocol: NECext
 address: 00 FB 00 00
 command: 1F E0 00 00
 # 
-name: Ch_Down
+name: CH-
 type: parsed
 protocol: NECext
 address: 00 FB 00 00
@@ -81,7 +81,7 @@ protocol: NECext
 address: 00 FB 00 00
 command: 4A B5 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 FB 00 00

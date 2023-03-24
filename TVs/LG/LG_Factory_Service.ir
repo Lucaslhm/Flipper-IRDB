@@ -21,25 +21,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 # 
-name: Ch up
+name: CH+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: Ch down
+name: CH-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: Vol up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol down
+name: VOL-
 type: parsed
 protocol: NEC
 address: 04 00 00 00

@@ -109,25 +109,25 @@ protocol: NECext
 address: 02 7D 00 00
 command: 41 BE 00 00
 # 
-name: Volume Up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0C F3 00 00
 # 
-name: Volume Down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 19 E6 00 00
 # 
-name: Channel Up
+name: CH+
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0F F0 00 00
 # 
-name: Channel Down
+name: CH-
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

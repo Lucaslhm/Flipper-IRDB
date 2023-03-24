@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -67,13 +67,13 @@ protocol: RC6
 address: 00 00 00 00
 command: 54 00 00 00
 # 
-name: VolUp
+name: VOL+
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VolDown
+name: VOL-
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -85,19 +85,19 @@ protocol: RC6
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: ChanUp
+name: CH+
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: ChanDown
+name: CH-
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 21 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: RC6
 address: 00 00 00 00

@@ -21,7 +21,7 @@ protocol: NECext
 address: BA A0 00 00
 command: 02 FD 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: BA A0 00 00

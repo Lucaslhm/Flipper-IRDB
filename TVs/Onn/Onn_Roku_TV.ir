@@ -19,13 +19,13 @@ protocol: NECext
 address: EA C7 00 00
 command: 03 FC 00 00
 # 
-name: Volume Up
+name: VOL+
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 0F F0 00 00
 # 
-name: Volume Down
+name: VOL-
 type: parsed
 protocol: NECext
 address: EA C7 00 00

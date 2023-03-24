@@ -4,7 +4,7 @@ Version: 1
 # EliteLux L32HD1000
 # by sealldeveloper
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

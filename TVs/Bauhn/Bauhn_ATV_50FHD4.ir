@@ -4,7 +4,7 @@ Version: 1
 # Bauhn TV ATV_50HD4
 # by sealldeveloper
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -70,31 +70,31 @@ protocol: NECext
 address: 01 72 00 00
 command: 19 E6 00 00
 # 
-name: Vol+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 0A F5 00 00
 # 
-name: Vol-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 06 F9 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 5C A3 00 00
 # 
-name: Ch+
+name: CH+
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 48 B7 00 00
 # 
-name: Ch-
+name: CH-
 type: parsed
 protocol: NECext
 address: 01 72 00 00

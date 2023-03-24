@@ -3,37 +3,37 @@ Version: 1
 #
 # Panasonic TX-42AS650E
 #
-name: Power
+name: POWER
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 #
-name: Mute
+name: MUTE
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
 #
-name: Vol+
+name: VOL+
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
 #
-name: Vol-
+name: VOL-
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
 #
-name: Ch+
+name: CH+
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
 #
-name: Ch-
+name: CH-
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00

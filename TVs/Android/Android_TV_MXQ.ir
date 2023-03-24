@@ -27,13 +27,13 @@ protocol: NEC
 address: 01 00 00 00
 command: 0F 00 00 00
 # 
-name: Vol_min
+name: VOL-
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: Vol_max
+name: VOL+
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -117,7 +117,7 @@ protocol: NEC
 address: 01 00 00 00
 command: 4C 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 01 00 00 00

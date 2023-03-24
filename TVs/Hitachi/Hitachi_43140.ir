@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: RC5
 address: 03 00 00 00
@@ -13,31 +13,31 @@ protocol: RC5
 address: 03 00 00 00
 command: 38 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 10 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 11 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 0D 00 00 00
 # 
-name: Chan_up
+name: CH+
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 20 00 00 00
 # 
-name: Chan_down
+name: CH-
 type: parsed
 protocol: RC5
 address: 03 00 00 00
