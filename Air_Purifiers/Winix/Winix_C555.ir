@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+#
+# Winix C555 Air Purifier
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 13 00 00 00
+# 
+name: FAN+
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 11 00 00 00
+# 
+name: FAN-
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 10 00 00 00
+# 
+name: AUTO
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 16 00 00 00
+# 
+name: TURBO
+type: parsed
+protocol: NEC
+address: 12 00 00 00
+command: 12 00 00 00
