@@ -39,6 +39,12 @@ protocol: NEC
 address: 20 00 00 00
 command: 4B 00 00 00
 # 
+name: Home
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 48 00 00 00
+# 
 name: HDMI
 type: parsed
 protocol: NEC

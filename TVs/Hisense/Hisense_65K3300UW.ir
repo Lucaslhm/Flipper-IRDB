@@ -4,7 +4,7 @@ Version: 1
 # Hisense 65K3300UW
 # by sealldeveloper
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -22,7 +22,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 43 BC 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

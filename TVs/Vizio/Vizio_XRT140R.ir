@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -25,19 +25,19 @@ protocol: NEC
 address: 04 00 00 00
 command: 2D 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: Vol_Up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_Down
+name: VOL-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -49,13 +49,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 8992 4433 602 512 602 511 683 1546 630 484 630 483 630 484 629 486 627 493 626 1629 600 1629 600 514 600 1630 599 1631 599 1631 598 1631 599 1636 599 1631 599 515 599 515 599 1631 598 1631 599 1631 599 516 598 521 599 516 598 1631 598 1631 599 516 598 516 598 516 598 1631 598 1632 599 40001 9017 2192 600
 # 
-name: CH_up
+name: CH+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH_Down
+name: CH-
 type: parsed
 protocol: NEC
 address: 04 00 00 00

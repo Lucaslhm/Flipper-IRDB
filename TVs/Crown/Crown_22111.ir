@@ -7,31 +7,31 @@ protocol: NEC
 address: 20 00 00 00
 command: 52 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 53 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 09 00 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 03 00 00 00
 # 
-name: Ch_down
+name: CH-
 type: parsed
 protocol: NEC
 address: 20 00 00 00

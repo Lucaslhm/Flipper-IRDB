@@ -1,31 +1,31 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: Ch+
+name: CH+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: Ch-
+name: CH-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: Vol+
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: Vol-
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -37,7 +37,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 98 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

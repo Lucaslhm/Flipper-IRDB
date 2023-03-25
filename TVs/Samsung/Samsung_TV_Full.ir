@@ -127,13 +127,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0f 00 00 00
 # 
-name: Channel+
+name: CH+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: Channel-
+name: CH-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

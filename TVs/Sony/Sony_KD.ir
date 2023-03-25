@@ -13,7 +13,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: Vol_dn
+name: VOL-
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

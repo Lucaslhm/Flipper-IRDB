@@ -4,7 +4,7 @@ Version: 1
 # Platinum TV PT2020LED
 # by sealldeveloper
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -22,7 +22,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 1A E5 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

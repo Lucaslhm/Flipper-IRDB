@@ -45,25 +45,25 @@ protocol: NEC
 address: 01 00 00 00
 command: 1A 00 00 00
 # 
-name: VolUp
+name: VOL+
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0E 00 00 00
 # 
-name: VolDown
+name: VOL-
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0F 00 00 00
 # 
-name: ChUp
+name: CH+
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: ChDown
+name: CH-
 type: parsed
 protocol: NEC
 address: 01 00 00 00

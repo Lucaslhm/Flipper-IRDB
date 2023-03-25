@@ -3,7 +3,7 @@ Version: 1
 # 
 # DUAL DL-32HD-002 TV
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -13,7 +13,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -49,13 +49,13 @@ protocol: SIRC
 address: 01 00 00 00
 command: 33 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
