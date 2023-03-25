@@ -3,7 +3,7 @@ Version: 1
 # 
 # Medion Smart TV MD31802
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -75,7 +75,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -87,25 +87,25 @@ protocol: RC5
 address: 01 00 00 00
 command: 30 00 00 00
 # 
-name: Vol+
+name: VOL+
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: Vol-
+name: VOL-
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: Ch+
+name: CH+
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 20 00 00 00
 # 
-name: Ch-
+name: CH-
 type: parsed
 protocol: RC5
 address: 01 00 00 00

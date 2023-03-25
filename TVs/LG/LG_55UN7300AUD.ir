@@ -21,7 +21,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: VolumeUp
+name: VOL+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -75,13 +75,13 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: ChanUp
+name: CH+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: ChanDown
+name: CH-
 type: parsed
 protocol: NEC
 address: 04 00 00 00

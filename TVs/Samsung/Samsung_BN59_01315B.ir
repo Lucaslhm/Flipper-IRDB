@@ -3,7 +3,7 @@ Version: 1
 # 
 # Samsung BN59-01315B TV
 #
-name: Power
+name: POWER
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -75,31 +75,31 @@ protocol: Samsung32
 address: 07 00 00 00
 command: F4 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: Ch_down
+name: CH-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

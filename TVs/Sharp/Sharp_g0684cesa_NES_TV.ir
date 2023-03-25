@@ -40,7 +40,7 @@ protocol: NEC
 address: 28 00 00 00
 command: 0F 00 00 00
 # Pg2 - Others
-name: Mute
+name: MUTE
 type: parsed
 protocol: NEC
 address: 28 00 00 00

@@ -67,25 +67,25 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: VolUp
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VolDown
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: ChanUp
+name: CH+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: ChanDown
+name: CH-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

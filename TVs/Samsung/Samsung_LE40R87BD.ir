@@ -3,7 +3,7 @@ Version: 1
 # 
 # Samsung TV LE40R87BD
 #
-name: Power
+name: POWER
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -15,13 +15,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: Vol_min
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: Vol_max
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -111,7 +111,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 13 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

@@ -4,7 +4,7 @@ Version: 1
 # Hisense TV 32A4HAU
 # by sealldeveloper
 #
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -46,25 +46,25 @@ protocol: NECext
 address: 00 BF 00 00
 command: 15 EA 00 00
 # 
-name: Vol+
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 44 BB 00 00
 # 
-name: Vol-
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 43 BC 00 00
 # 
-name: Ch+
+name: CH+
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: Ch-
+name: CH-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -76,7 +76,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 20 DF 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

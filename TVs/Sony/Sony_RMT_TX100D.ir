@@ -3,7 +3,7 @@ Version: 1
 # 
 #Sony - RMT-TX100D
 #
-name: Power
+name: POWER
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -231,7 +231,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 3B 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

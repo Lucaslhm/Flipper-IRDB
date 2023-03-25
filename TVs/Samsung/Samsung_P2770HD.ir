@@ -13,13 +13,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1B 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -37,7 +37,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

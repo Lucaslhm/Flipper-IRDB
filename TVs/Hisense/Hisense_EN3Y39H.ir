@@ -3,7 +3,7 @@ Version: 1
 # 
 # Hisense EN3Y39H TV
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -15,25 +15,25 @@ protocol: NECext
 address: 00 BF 00 00
 command: 12 ED 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 44 BB 00 00
 # 
-name: Vol_dn
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 43 BC 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: Ch_dn
+name: CH-
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -153,7 +153,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 00 FF 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
