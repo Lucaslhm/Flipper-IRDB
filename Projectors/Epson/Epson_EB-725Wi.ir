@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Epson BrightLink 725Wi Projector (EB-725Wi)
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: FREEZE
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: HOME
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: ENTER
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 81 03 00 00
+command: F0 0F 00 00
