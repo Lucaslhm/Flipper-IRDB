@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Epson BrightLink 725Wi Projector (EB-725Wi)
+#
 name: POWER
 type: parsed
 protocol: NECext
