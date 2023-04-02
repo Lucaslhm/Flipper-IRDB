@@ -1,0 +1,136 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Casio YT-150 Projector
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 0B F4 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 0A F5 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 0C F3 00 00
+# 
+name: ESC
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 0E F1 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 4C B3 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 4D B2 00 00
+# 
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1073741327 490 1615 1073741331 496 627 495 627 495 627 1619 627 496 627 495 628 1619 627 495 627 1619 627 1618 627 1618 627 1619 626 496 626 1619 626 1619 627 1619 626 496 627 496 626 1619 627 496 627 1620 626 496 626 496 627 496 626 1619 627 1620 626 497 626 1619 626
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 4A B5 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 4B B4 00 00
+# 
+name: Blank
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 3A C5 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 3B C4 00 00
+# 
+name: Eco
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 3C C3 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 5A A5 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 5B A4 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 5C A3 00 00
+# 
+name: Func
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 5D A2 00 00
+# 
+name: Keystone_up
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 2A D5 00 00
+# 
+name: Keystone_down
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 2D D2 00 00
+# 
+name: Zoom_up
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 2B D4 00 00
+# 
+name: Zoom_down
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 2E D1 00 00
+# 
+name: Volume_up
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 2C D3 00 00
+# 
+name: Volume_down
+type: parsed
+protocol: NECext
+address: 84 F4 00 00
+command: 2F D0 00 00
