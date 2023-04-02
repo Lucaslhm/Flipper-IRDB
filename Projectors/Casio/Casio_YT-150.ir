@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Casio YT-150 Projector
+#
 name: Power
 type: parsed
 protocol: NECext
