@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Tefal Essential VF3910F0
+# Tefal Essential VF3910F0 Fan
 #
 name: POWER
 type: raw
