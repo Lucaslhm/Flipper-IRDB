@@ -1,11 +1,11 @@
 Filetype: IR signals file
 Version: 1
 # 
-#	  Originally for OMERIL LED Mini Disco Party Light
-#	  Presumably a generic/OEM product with many 
-#	  different brand names all over Amazon. 
-#	  Most have model number LD-090
-# 	Has sound activated modes, motorised rotation of  
+#   Originally for OMERIL LED Mini Disco Party Light
+#   Presumably a generic/OEM product with many 
+#   different brand names all over Amazon. 
+#   Most have model number LD-090
+#   Has sound activated modes, motorised rotation of  
 #   LEDs, comes with 15 button remote. 
 #
 name: Power_OnOff
