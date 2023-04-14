@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote Panasonic N2QAJB000088 for Panasonic VCR NV-HV-61EF
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: D0 03 00 00
+# 
+name: Vol Up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+# 
+name: Vol Down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 01
+command: 60 01 00 00
+# 
+name: Exit
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 01
+command: 60 02 00 00
+# 
+name: Enter
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 01
+command: 80 01 00 00
+# 
+name: Play / Up
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: A0 00 00 00
+# 
+name: Stop / Down
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 00 00 00 00
+# 
+name: Backward / Left
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 20 00 00 00
+# 
+name: Forward / Right
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 30 00 00 00
+# 
+name: Pause / Slow
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 60 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 01
+command: 90 00 00 00
+# 
+name: Next
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 01
+command: A0 00 00 00
