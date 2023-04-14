@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Ecovacs Deebot Slim 2 Vacuum
+#
 name: Stop_start
 type: parsed
 protocol: NEC
