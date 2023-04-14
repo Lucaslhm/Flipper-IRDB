@@ -2,7 +2,6 @@ Filetype: IR signals file
 Version: 1
 #
 # Tested On the DVD Player DVD507 From Strato
-#
 # 
 name: POWER
 type: parsed
