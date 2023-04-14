@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Ecovacs Deebot Slim 2 Vacuum
+#
+name: Stop_start
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: Charge
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: Spot_clean
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: Edge_clean
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: Foward
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Reverse
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
