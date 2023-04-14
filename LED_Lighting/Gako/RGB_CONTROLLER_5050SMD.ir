@@ -1,6 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
+# Gako Aquarium Lights (Maybe 5050SMD?)
 # https://www.youtube.com/watch?v=O290RLjS2Fo
 # 
 name: On
