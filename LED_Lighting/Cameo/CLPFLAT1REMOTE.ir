@@ -1,0 +1,126 @@
+Filetype: IR signals file
+Version: 1
+#
+# Tested on CLPFLAT1RGBWIR 
+# Shoud work with the whole CLPFLAT1 and ROOT Series
+# Cameo is a brand of the Adam Hall Group
+# 
+name: On/off
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Speed
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+# 
+name: Flash
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: R
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+# 
+name: G
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: B
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: W
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: A
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+# 
+name: Uv
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+# 
+name: Cw
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+# 
+name: Ww
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: Ju
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+# 
+name: Fa
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+# 
+name: Au
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+# 
+name: Su
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+# 
+name: Cm+
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+# 
+name: Cm-
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+# 
+name: Pr+
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+# 
+name: Pr-
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
