@@ -1,0 +1,142 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Optoma HD-65 Projector
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 02 FD 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 03 FC 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 11 EE 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 13 EC 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 14 EB 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 16 E9 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 15 EA 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 17 E8 00 00
+# 
+name: HDMI
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 19 E6 00 00
+# 
+name: D-sub
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 1B E4 00 00
+# 
+name: YPbPr
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 1C E3 00 00
+# 
+name: S-Video
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 1D E2 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 1E E1 00 00
+# 
+name: Source Lock
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 1A E5 00 00
+# 
+name: 4:3
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 04 FB 00 00
+# 
+name: 16:9
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 06 F9 00 00
+# 
+name: LBX
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 07 F8 00 00
+# 
+name: Native
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 09 F6 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0A F5 00 00
+# 
+name: EdgeMask
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0D F2 00 00
+# 
+name: V Keystone
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0B F4 00 00
+# 
+name: Overscan
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0E F1 00 00
+# 
+name: Contrast
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0C F3 00 00
