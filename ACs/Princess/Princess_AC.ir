@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Princess AC
+#
 name: Power
 type: parsed
 protocol: NEC
