@@ -2,7 +2,6 @@ Filetype: IR signals file
 Version: 1
 #
 # TESTED on Denon DHT-S316
-#
 # 
 name: POWER
 type: parsed
