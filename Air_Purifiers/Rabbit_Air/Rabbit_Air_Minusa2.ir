@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Rabbit Air Minusa2 Air Purifier
+#
 name: Power
 type: raw
 frequency: 38000
