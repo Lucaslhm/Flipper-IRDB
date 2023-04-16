@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# TCL 55in Roku TV -- Model#: 55S405 -- Hardware ID#: 7105X
+#
 name: POWER
 type: parsed
 protocol: NECext

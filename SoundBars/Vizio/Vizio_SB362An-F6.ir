@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Vizio 36in Soundbar -- Model#: SB362An-F6 -- FCC ID:XN6-SB3621F6 -- IC:8819A-SB3621F6
+#
 name: Vol+
 type: parsed
 protocol: NEC
