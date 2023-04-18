@@ -101,6 +101,12 @@ protocol: NECext
 address: EA C7 00 00
 command: 55 AA 00 00
 # 
+name: Prime
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 4B B4 00 00
+# 
 name: Disney+
 type: parsed
 protocol: NECext
@@ -130,3 +136,9 @@ type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 6E 91 00 00
+# 
+name: Youtube
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 56 A9 00 00
