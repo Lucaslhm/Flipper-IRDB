@@ -8,7 +8,7 @@ Version: 1
 #   Has sound activated modes, motorised rotation of  
 #   LEDs, comes with 15 button remote. 
 #
-name: Power_OnOff
+name: POWER
 type: parsed
 protocol: NEC
 address: 00 00 00 00
