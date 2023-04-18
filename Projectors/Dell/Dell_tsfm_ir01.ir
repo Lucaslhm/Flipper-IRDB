@@ -100,13 +100,13 @@ protocol: NECext
 address: 4F 50 00 00
 command: 0C F3 00 00
 # 
-name: Keystone adjustment up
+name: Keystone+
 type: parsed
 protocol: NECext
 address: 4F 50 00 00
 command: 09 F6 00 00
 # 
-name: Keystone adjustment down
+name: Keystone-
 type: parsed
 protocol: NECext
 address: 4F 50 00 00
