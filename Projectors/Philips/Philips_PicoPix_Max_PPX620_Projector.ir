@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+#
+# Philips PicoPix Max PPX620 Projector
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 12 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 44 00 00 00
+# 
+name: UP
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1F 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 41 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 09 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0F 00 00 00
+# 
+name: HOME
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 02 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 06 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 00 00 00 00
+# 
+name: AUTOFOCUS
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 03 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 50 00 00 00
+# 
+name: LIST
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 13 00 00 00
