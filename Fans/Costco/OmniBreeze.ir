@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Costco OmniBreeze Fan
+#
 name: Power
 type: parsed
 protocol: NEC
