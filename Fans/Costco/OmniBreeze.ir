@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Costco OmniBreeze Fan
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Speed
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Timer
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9215 4421 664 475 664 500 638 500 638 501 662 476 662 477 661 478 661 1588 659 1589 658 1614 633 1615 632 1615 606 1640 606 1641 629 1618 630 508 631 1616 631 1616 632 1616 632 507 632 507 633 482 657 481 658 481 658 480 659 480 659 480 659 1589 658 1589 658 1589 658 1589 658 1589 658 39821 9206 2163 659
+# 
+name: Oscillate
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 09 00 00 00
