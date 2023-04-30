@@ -142,3 +142,9 @@ type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 56 A9 00 00
+# 
+name: Apple TV
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 77 88 00 00
