@@ -97,4 +97,4 @@ name: VIDEO_MODE
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: 5A 00 00 00 
+command: 5A 00 00 00
