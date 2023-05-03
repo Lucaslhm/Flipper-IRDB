@@ -1,0 +1,148 @@
+Filetype: IR signals file
+Version: 1
+# 
+# SiriusXM Onyx EZR Audio Receiver
+#
+name: Power
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 0C 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 20 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 21 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 31 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 30 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 3F 00 00 00
+# 
+name: Center
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 23 00 00 00
+# 
+name: t-mix
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 26 00 00 00
+# 
+name: t-scn
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 27 00 00 00
+# 
+name: fm
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 1B 00 00 00
+# 
+name: mute
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 0D 00 00 00
+# 
+name: direct
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 25 00 00 00
+# 
+name: twx
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 3E 00 00 00
+# 
+name: bank
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 2C 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 00 00 00 00
