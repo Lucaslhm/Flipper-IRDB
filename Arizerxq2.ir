@@ -3,7 +3,7 @@ Version: 1
 # 
 # Model: Arizer XQ2
 ## https://arizer.com/xq2/
-
+#
 name: Power
 type: parsed
 protocol: NEC
