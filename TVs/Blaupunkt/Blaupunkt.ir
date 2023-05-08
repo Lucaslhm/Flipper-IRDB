@@ -1,43 +1,43 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Power
+name: POWER
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 0A F5 00 00
 # 
-name: Mute
+name: MUTE
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 50 AF 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1E E1 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 5F A0 00 00
 # 
-name: Ch_up
+name: CH+
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1F E0 00 00
 # 
-name: Ch_down
+name: CH-
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 5C A3 00 00
 # 
-name: Dtv
+name: DTV
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -49,19 +49,19 @@ protocol: NECext
 address: 00 7F 00 00
 command: 00 FF 00 00
 # 
-name: Usb
+name: USB
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 04 FB 00 00
 # 
-name: Dvd
+name: DVD
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 05 FA 00 00
 # 
-name: Tv_guide
+name: TV_Guide
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
