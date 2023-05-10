@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+#
+# Emotiva BasX PT-100 and TA-100
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 79 00 00
+command: 80 7F 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 00 79 00 00
+command: DB 24 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 00 79 00 00
+command: 9D 62 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 00 79 00 00
+command: 98 67 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 00 79 00 00
+command: DA 25 00 00
+#
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 79 00 00
+command: 99 66 00 00
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 79 00 00
+command: DE 21 00 00
+#
+name: StereoMono
+type: parsed
+protocol: NECext
+address: 00 79 00 00
+command: 8E 71 00 00
