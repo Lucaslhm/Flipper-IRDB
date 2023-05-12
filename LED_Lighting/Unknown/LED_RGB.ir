@@ -1,0 +1,150 @@
+Filetype: IR signals file
+Version: 1
+#
+# Generic LED RGB
+# Codes for RGB strips mounted to desks.
+# Most often standard Chinese RGB LED strips.
+#
+name: On
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: Off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9068 4355 700 451 647 477 647 478 646 478 646 478 645 479 644 480 643 482 642 1612 641 1612 642 1613 641 1613 641 484 641 1613 641 1613 641 1613 641 484 641 1613 641 484 641 484 641 484 641 484 641 484 641 484 641 1613 640 484 641 1613 640 1613 641 1613 640 1613 641 1613 641 1613 640 40687 9010 2181 641
+# 
+name: More_light
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Less_light
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: White
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: Orange
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+# 
+name: Green_2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+# 
+name: Purple_blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+# 
+name: Yellow
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9106 4333 725 400 725 400 725 400 725 400 724 402 723 401 724 402 722 402 722 1532 721 1532 721 1533 616 1637 617 508 617 1637 616 1637 617 1637 617 508 616 508 617 1637 617 1636 617 508 616 508 616 508 616 508 617 1637 616 1637 616 508 617 507 617 1636 617 1637 617 1636 617 1636 617 40720 8989 2209 617
+# 
+name: Ocean
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+# 
+name: Purple
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+# 
+name: Yellow_2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+# 
+name: Ocean_2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+# 
+name: Purple_pink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+# 
+name: Yellow_3
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+# 
+name: Azure
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 15 EA 00 00
+# 
+name: Pink
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9050 4388 725 400 726 399 726 400 725 400 725 401 724 400 725 401 724 402 723 1531 669 1585 669 1586 668 1586 617 508 617 1636 618 1637 618 1636 618 507 618 1636 618 1635 619 506 619 1635 619 506 620 505 620 505 620 1634 646 480 645 481 643 1611 643 483 642 1613 641 1613 641 1614 640
+# 
+name: Flash
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: Strobe
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+# 
+name: Fade
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+# 
+name: Smooth
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00
