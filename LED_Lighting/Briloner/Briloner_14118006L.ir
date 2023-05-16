@@ -1,0 +1,143 @@
+Filetype: IR signals file
+Version: 1
+#
+# Briloner Leuchten
+# Typ: 14118006L
+#
+name: ON
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: Light+
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Light-
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: White
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: Pink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+# 
+name: Green 2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+# 
+name: Blue 2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+# 
+name: Flash
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+# 
+name: Ocean
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+# 
+name: Blue 3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9104 4375 675 455 677 457 674 432 673 454 678 430 702 429 676 483 648 430 702 1562 675 1562 675 1563 700 1560 677 430 701 1564 673 1563 674 1589 674 429 676 1562 757 1533 704 1533 704 428 703 402 729 402 703 428 703 1509 728 429 702 403 729 403 702 1535 728 1510 672 1566 671 1591 672 40896 9130 2083 729 95856 9054 2214 596
+# 
+name: Strobe
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9044 4402 624 537 594 511 674 456 649 483 649 456 675 456 649 483 649 428 704 1560 732 1507 730 1506 758 1506 731 373 758 1505 732 1506 731 1533 730 1534 703 1534 703 1535 729 1534 702 403 728 403 702 430 646 433 697 460 595 536 596 510 622 509 595 1642 621 1642 595 1642 595 1642 621 40948 9045 2192 620
+# 
+name: Yellow 2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9074 4373 676 456 731 401 730 375 729 429 702 403 728 404 646 485 595 510 622 1642 595 1642 595 1642 621 1642 594 510 621 1642 595 1642 595 1642 621 510 595 536 595 510 621 510 595 1642 622 509 596 535 596 509 622 1641 596 1641 596 1641 622 1641 596 509 623 1640 597 1640 597 1640 623
+# 
+name: Ocean 2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+# 
+name: Blue 4
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9075 4372 677 483 648 428 704 427 678 456 675 427 704 456 649 454 678 430 701 1561 676 1588 649 1588 676 1560 677 431 701 1588 649 1561 676 1562 757 374 731 1504 759 377 728 401 730 1507 730 427 704 375 756 401 704 1534 730 402 703 1509 755 1534 703 402 729 1509 728 1535 701 1536 728
+# 
+name: Fade
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9105 4401 648 455 677 429 703 429 676 482 649 429 703 456 704 428 703 401 730 1507 729 1535 701 1511 697 1591 596 510 622 1642 595 1641 596 1641 622 1642 595 1642 595 536 595 510 622 1641 596 509 622 509 596 536 595 509 622 509 596 1642 621 1641 596 510 622 1641 596 1642 595 1642 622 40947 9026 2214 597
+# 
+name: Yellow 3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9105 4401 618 512 619 488 674 456 649 483 649 458 729 401 703 428 704 401 675 1589 702 1534 703 1533 730 1533 704 402 729 1506 731 1534 702 1508 755 405 596 535 597 1641 597 536 596 1640 597 535 596 508 623 508 597 1639 650 1614 623 482 649 1615 621 485 646 1618 619 1619 618 1620 643 40920 9049 2193 619
+# 
+name: Ocean 3
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 15 EA 00 00
+# 
+name: Blue 5
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 16 E9 00 00
+# 
+name: Smooth
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00
