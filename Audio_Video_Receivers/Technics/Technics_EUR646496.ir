@@ -1,0 +1,266 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+# 
+name: Tv
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: F0 01 00 00
+# 
+name: VCR
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: E0 01 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: A0 00 00 00
+# 
+name: Tape
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 60 01 00 00
+# 
+name: CD
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 40 01 00 00
+# 
+name: Tuner_Band
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 20 01 00 00
+# 
+name: Forward
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 01
+command: A0 00 00 00
+# 
+name: Reverse
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 01
+command: 90 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: 00 00 00 00
+# 
+name: DVD
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 30 02 00 00
+# 
+name: Title
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: B0 01 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 00 00 00 00
+# 
+name: Display
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 01 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 50 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 60 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 80 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 70 00 00 00
+# 
+name: Stereo
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 00
+command: 01 03 00 00
+# 
+name: Surround
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 20 03 00 00
+# 
+name: Sfc
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 00
+command: 11 03 00 00
+# 
+name: Test
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 03
+command: 61 03 00 00
+# 
+name: Delay
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: F1 03 00 00
+# 
+name: Level
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: E1 03 00 00
+# 
+name: Minus
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: D1 03 00 00
+# 
+name: Plus
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: C1 03 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 10 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 20 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 70 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 80 01 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 90 01 00 00
+# 
+name: Ch_Dwn
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 00
+command: 50 03 00 00
+# 
+name: Ch_Up
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 00
+command: 40 03 00 00
+# 
+name: 10_Enter
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 90 00 00 00
+# 
+name: Tv_Video
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 00 00 00
+# 
+name: Disc_Deck
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 02
+command: 40 02 00 00
+# 
+name: Muteing
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00
+# 
+name: Vol_Dwn
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
