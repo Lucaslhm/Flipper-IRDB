@@ -1,0 +1,99 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote brand: SMART Technologies
+# Remote model number: 03-00131-20
+# Brand website: https://www.smarttech.com/
+# 
+# Compatible Projectors:
+# SLR60wi
+# SLR60wi2
+# U100/U100W
+# UF55/UF55w
+# UF65/UF65w
+# UF75/UF75w
+# UF70/UF70w
+# UX60/UX80
+# V25
+# V30
+# SBP-10X
+# SBP-15X
+# SBP-20W
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 12 ED 00 00
+# 
+name: INPUT
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 14 EB 00 00
+# 
+name: MENU
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 1B E4 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 44 BB 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 46 B9 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 11 EE 00 00
+# 
+name: HIDE
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 15 EA 00 00
+# 
+name: MODE
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 45 BA 00 00
+# 
+name: ENTER
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 13 EC 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 40 BF 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 41 BE 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 42 BD 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 8B CA 00 00
+command: 43 BC 00 00
