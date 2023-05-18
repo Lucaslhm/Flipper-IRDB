@@ -1,8 +1,9 @@
 Filetype: IR signals file
 Version: 1
 #
-# Remote control to TV-box MAG 256 https://wiki.infomir.eu/eng/set-top-box/stb-linux-webkit/mag256/software-update-mag256
+# Remote control to TV-box MAG 256
 # Compatible with other MAG 2**, 3**, 4** models
+# https://wiki.infomir.eu/eng/set-top-box/stb-linux-webkit/mag256/software-update-mag256
 #
 name: POWER
 type: parsed
