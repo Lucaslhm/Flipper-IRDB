@@ -1,0 +1,340 @@
+Filetype: IR signals file
+Version: 1
+#
+# Vizio V51-H6 SoundBar
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8E 00 00 00
+# 
+name: PAUSE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8E 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 41 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+# 
+name: PREV
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8A 00 00 00
+# 
+name: NEXT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8B 00 00 00
+# 
+name: INPUT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+# 
+name: HDMI_ARC
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9A 00 00 00
+# 
+name: OPTICAL
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C8 00 00 00
+# 
+name: AUX_VA
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B2 00 00 00
+# 
+name: AUX
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B1 00 00 00
+# 
+name: USB
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: A1 00 00 00
+# 
+name: BLUETOOTH
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+# 
+name: EQ_DIRECT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+# 
+name: EQ_MOVIE
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 67 00 00 00
+# 
+name: EQ_MUSIC
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 66 00 00 00
+# 
+name: EQ_GAME
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: E1 00 00 00
+# 
+name: BASS+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6B 00 00 00
+# 
+name: BASS-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6A 00 00 00
+# 
+name: TREBLE+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 69 00 00 00
+# 
+name: TREBLE-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 68 00 00 00
+# 
+name: DIALOGUE+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: DF 00 00 00
+# 
+name: DIALOGUE-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: E0 00 00 00
+# 
+name: CENTER+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 70 00 00 00
+# 
+name: CENTER-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6E 00 00 00
+# 
+name: SUBWOOF+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+# 
+name: SUBWOOF-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 51 00 00 00
+# 
+name: SURRLVL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6D 00 00 00
+# 
+name: SURRLVL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6C 00 00 00
+# 
+name: SURRBAL+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B3 00 00 00
+# 
+name: SURRBAL-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B4 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: INPUT_SRCH
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: EA 00 00 00
+# 
+name: SPKR_TEST
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AC 00 00 00
+# 
+name: SRND_ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 23 00 00 00
+# 
+name: SRND_OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 24 00 00 00
+# 
+name: SRND_FRNT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: E2 00 00 00
+# 
+name: SRND_DUAL
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9B 00 00 00
+# 
+name: VRTX_ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 85 00 00 00
+# 
+name: VRTX_OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: A3 00 00 00
+# 
+name: TRUVOL_ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 28 00 00 00
+# 
+name: TRUVOL_OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+# 
+name: NIGHT_ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 61 00 00 00
+# 
+name: NIGHT_OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 62 00 00 00
+# 
+name: ECOPWR_ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 26 00 00 00
+# 
+name: ECOPWR_OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 27 00 00 00
+# 
+name: PWRLED_ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 20 00 00 00
+# 
+name: PWRLED_OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: AV_DELAY+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D6 00 00 00
+# 
+name: AV_DELAY-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 71 00 00 00
+# 
+name: VZTV_ON
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+# 
+name: VZTV_OFF
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: RST_AUDIO
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 80 00 00 00
+# 
+name: RESET_ALL
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 63 00 00 00
