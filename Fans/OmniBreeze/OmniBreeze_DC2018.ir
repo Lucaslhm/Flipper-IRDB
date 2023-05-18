@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# OmniBreeze DC2018
+# OmniBreeze DC2018 Fan
 # 
 name: POWER
 type: parsed
