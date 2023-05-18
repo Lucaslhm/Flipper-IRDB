@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# For Revo SuperConnect (FCC ID: BZAWDFB0315H2)
+#
+# Revo SuperConnect (FCC ID: BZAWDFB0315H2)
+# https://revo-audio.de/products/superconnect/
 # 
 name: POWER
 type: parsed
