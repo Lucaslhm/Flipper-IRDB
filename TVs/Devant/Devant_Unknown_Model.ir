@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 44 BB 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 43 BC 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0E F1 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 16 E9 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 17 E8 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 19 E6 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 18 E7 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+# 
+name: Return
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 48 B7 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 89 76 00 00
+# 
+name: YouTube
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: AA 55 00 00
+# 
+name: NETFLIX
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 2D D2 00 00
