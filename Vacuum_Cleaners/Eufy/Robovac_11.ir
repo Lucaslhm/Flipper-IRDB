@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Eufy RoboVac 11
+#
 name: Home
 type: raw
 frequency: 38000
