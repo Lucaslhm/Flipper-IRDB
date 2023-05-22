@@ -53,7 +53,7 @@ name: Down
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
-command: 75 00 00 00 
+command: 75 00 00 00
 # 
 name: Enter
 type: parsed
@@ -83,7 +83,7 @@ name: VOL-
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
-command: 13 00 00 00 
+command: 13 00 00 00
 # 
 name: CH+
 type: parsed
