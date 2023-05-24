@@ -2108,7 +2108,7 @@ address: 11 00 00 00
 command: 3F 00 00 00
 #
 #  [17 47 1] {110-10001--101111-000001}
-name: 
+name: band 2
 type: raw
 frequency: 36000
 duty_cycle: 0.25
