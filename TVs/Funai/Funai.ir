@@ -1,0 +1,269 @@
+Filetype: IR signals file
+Version: 1
+#
+# LED LCD TV
+# MODEL: 29FL553/10
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+# 
+name: Source
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9103 4350 689 440 635 466 634 1592 636 467 632 468 631 469 630 471 628 1601 627 500 601 500 601 500 601 500 601 500 601 1628 601 1628 601 1628 601 500 601 500 601 500 601 500 601 500 601 500 601 1628 601 500 601 1628 601 1628 601 1628 601 1628 601 1628 601 1628 601 500 601 1628 601 43367 9046 2158 626 95445 9046 2156 628 95420 9071 2155 628 95417 9073 2155 628 95443 9046 2183 601
+# 
+name: Sleep
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 22 DD 00 00
+# 
+name: Picture
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 81 7E 00 00
+# 
+name: Sound
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 82 7D 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 01 FE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 02 FD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 03 FC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 04 FB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 05 FA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 06 F9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 07 F8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 08 F7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 09 F6 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 00 FF 00 00
+# 
+name: Fav+
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 59 A6 00 00
+# 
+name: Fav-
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 5A A5 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 79 86 00 00
+# 
+name: Fav
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 58 A7 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 73 8C 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 76 89 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 75 8A 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 77 88 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 74 8B 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 70 8F 00 00
+# 
+name: Epg
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: B0 4F 00 00
+# 
+name: Audio
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 65 9A 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 60 9F 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 61 9E 00 00
+# 
+name: CH+
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 50 AF 00 00
+# 
+name: CH-
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 51 AE 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 64 9B 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 7A 85 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 7B 84 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 7D 82 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 7C 83 00 00
+# 
+name: Previous
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: ED 12 00 00
+# 
+name: Play Pause
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: EE 11 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: EF 10 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: E2 1D 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: E6 19 00 00
+# 
+name: Forward
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: E3 1C 00 00
+# 
+name: Display
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 9B 64 00 00
+# 
+name: Rec
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: E4 1B 00 00
