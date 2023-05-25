@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Klipsch Speakers R-41PM
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: OPT
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0C 00 00 00
+# 
+name: USB
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: AUX
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0E 00 00 00
+# 
+name: PHONO
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0F 00 00 00
+# 
+name: LED
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+# 
+name: SUB-
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 3D 00 00 00
+# 
+name: SUB+
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: SUB_RESET
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 3E 00 00 00
+# 
+name: PLAY_PAUSE
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 21 00 00 00
+# 
+name: BLUETOOTH
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
