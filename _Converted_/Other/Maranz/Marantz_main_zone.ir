@@ -2108,7 +2108,7 @@ address: 11 00 00 00
 command: 3F 00 00 00
 #
 #  [17 47 1] {110-10001--101111-000001}
-name: 
+name: band 2
 type: raw
 frequency: 36000
 duty_cycle: 0.25
@@ -2415,15 +2415,15 @@ frequency: 36000
 duty_cycle: 0.25
 data: 889 889 1778 1778 1778 889 889 889 889 1778 889 3556 889 1778 889 889 889 889 889 889 889 889 1778 889 889 1778 1778 1778 1778 76440
 #
-# PTY　(For Europe Model) [17 120]
-name: pty　(for europe model)
+# PTY (For Europe Model) [17 120]
+name: pty (for europe model)
 type: parsed
 protocol: RC5
 address: 11 00 00 00
 command: 78 00 00 00
 #
-# RT　(For Europe Model) [17 120 40] {100-10001--111000-101000}
-name: rt　(for europe model)
+# RT (For Europe Model) [17 120 40] {100-10001--111000-101000}
+name: rt (for europe model)
 type: raw
 frequency: 36000
 duty_cycle: 0.25
