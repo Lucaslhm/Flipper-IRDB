@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# Winix C535 Air Purifier
+# Winix C555 Air Purifier
 # Winix 5500-2 Air Purifier 
 # 
 name: POWER
