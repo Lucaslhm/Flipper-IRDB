@@ -1,0 +1,220 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Hauppauge Remote R-005 for WinTV-HVR-1265 Model 1196 PCIe TV Tuner Board
+# 
+name: HOME
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 3B 00 00 00
+# 
+name: POWER
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 3D 00 00 00
+# 
+name: BACK
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 1F 00 00 00
+# 
+name: TV
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 1C 00 00 00
+# 
+name: UP
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 14 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 15 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 16 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 17 00 00 00
+# 
+name: OK
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 25 00 00 00
+# 
+name: MENU
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 0D 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 10 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 11 00 00 00
+# 
+name: CH+
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 20 00 00 00
+# 
+name: CH-
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 21 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 0F 00 00 00
+# 
+name: PREV_CH
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 12 00 00 00
+# 
+name: STOP
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 36 00 00 00
+# 
+name: REC
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 37 00 00 00
+# 
+name: PREV
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 24 00 00 00
+# 
+name: NEXT
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 1E 00 00 00
+# 
+name: RW
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 32 00 00 00
+# 
+name: FF
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 34 00 00 00
+# 
+name: PLAY
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 35 00 00 00
+# 
+name: PAUSE
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 30 00 00 00
+# 
+name: TEXT
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 0A 00 00 00
+# 
+name: CC
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 0E 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 00 00 00 00
