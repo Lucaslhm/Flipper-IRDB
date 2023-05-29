@@ -1,0 +1,178 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Yamaha_RAV203_V473170_US
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1F 00 00 00
+# 
+name: 1_CD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 15 00 00 00
+# 
+name: 2_TUNER
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 16 00 00 00
+# 
+name: 3_TAPE/MD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 18 00 00 00
+# 
+name: 4_DVD/LD
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 17 00 00 00
+# 
+name: 5_SAT/D-TV
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 54 00 00 00
+# 
+name: 6_VCR
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 0F 00 00 00
+# 
+name: 7_PHONO
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 14 00 00 00
+# 
+name: 8_V-AUX
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 55 00 00 00
+# 
+name: 9_EXT_DEC
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 87 00 00 00
+# 
+name: 0
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 85 00 00 00
+# 
+name: Enter_+10
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 12 00 00 00
+# 
+name: Clear_+100
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 56 00 00 00
+# 
+name: CH-
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 11 00 00 00
+# 
+name: Ch+
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 10 00 00 00
+# 
+name: UP
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1B 00 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1A 00 00 00
+# 
+name: DOWN
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: VCR_REC
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 37 00 00 00
+# 
+name: TV_INPUT
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 28 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 29 00 00 00
+# 
+name: FF_Left
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 53 00 00 00
+# 
+name: FF_Right
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 52 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 59 00 00 00
+# 
+name: Play
+type: parsed
+protocol: RC5
+address: 05 00 00 00
+command: 35 00 00 00
+# 
+name: Title
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 86 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9C 00 00 00
