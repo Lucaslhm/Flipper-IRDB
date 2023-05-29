@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Neuhaus Leuchten Direkt LOLA
+# https://www.paul-neuhaus.de/lola-smart
+# 
 name: On
 type: raw
 frequency: 38000

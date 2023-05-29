@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Portta Toslink Audio Switcher
+# https://www.amazon.de/gp/product/B00PXSIFWY
+# 
 name: On/Off
 type: parsed
 protocol: NEC

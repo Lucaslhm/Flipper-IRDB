@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# OK. OAC 7020 Mobile Air Condition
+# https://www.mediamarkt.de/de/product/_ok-oac-7020-b-2615795.html
+#
 name: ON
 type: raw
 frequency: 38000
