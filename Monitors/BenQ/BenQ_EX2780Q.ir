@@ -63,13 +63,13 @@ protocol: NECext
 address: 60 30 00 00
 command: 06 F9 00 00
 # 
-name: Low_Blue_Light
+name: Low Blue Light
 type: parsed
 protocol: NECext
 address: 60 30 00 00
 command: 04 FB 00 00
 # 
-name: Audio_Cenario
+name: Audio Scenario
 type: parsed
 protocol: NECext
 address: 60 30 00 00
@@ -81,13 +81,13 @@ protocol: NECext
 address: 60 30 00 00
 command: 16 E9 00 00
 # 
-name: V_Down
+name: VOL-
 type: parsed
 protocol: NECext
 address: 60 30 00 00
 command: 15 EA 00 00
 # 
-name: V_UP
+name: VOL+
 type: parsed
 protocol: NECext
 address: 60 30 00 00
