@@ -9,37 +9,37 @@ protocol: Samsung32
 address: 2C 00 00 00
 command: 1E 00 00 00
 # 
-name: Source
+name: SOURCE
 type: parsed
 protocol: Samsung32
 address: 2C 00 00 00
 command: 8A 00 00 00
 # 
-name: Volume_up
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 2C 00 00 00
 command: 17 00 00 00
 # 
-name: Volume_down
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 2C 00 00 00
 command: 16 00 00 00
 # 
-name: Sound_efect
+name: SOUND_EFECT
 type: parsed
 protocol: Samsung32
 address: 2C 00 00 00
 command: 2F 00 00 00
 # 
-name: Auto_volume
+name: AUTO_VOLUME
 type: parsed
 protocol: Samsung32
 address: 2C 00 00 00
 command: 1C 00 00 00
 # 
-name: Woofer_level
+name: WOOFER_LEVEL
 type: parsed
 protocol: Samsung32
 address: 2C 00 00 00
