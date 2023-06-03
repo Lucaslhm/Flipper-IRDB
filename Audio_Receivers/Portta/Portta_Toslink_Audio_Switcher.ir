@@ -1,0 +1,23 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Portta Toslink Audio Switcher
+# https://www.amazon.de/gp/product/B00PXSIFWY
+# 
+name: On/Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Line_01
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5D 00 00 00
+# 
+name: Line_02
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
