@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# LG AKB75675311 TV
+#
 name: Power
 type: parsed
 protocol: NEC
