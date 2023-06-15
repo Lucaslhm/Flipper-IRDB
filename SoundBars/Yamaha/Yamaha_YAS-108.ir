@@ -1,0 +1,113 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Yamaha Soundbar YAS-108
+# Remote Model Number VAF7640
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: CC 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1E 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 1F 00 00 00
+# 
+name: SUB+
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4C 00 00 00
+# 
+name: SUB-
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4D 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 9C 00 00 00
+#
+name: 3D_SURROUND
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: C9 00 00 00
+#
+name: INFO
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4E 00 00 00
+# 
+name: CLEAR_VOICE
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 5C 00 00 00
+# 
+name: SURROUND
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: B4 00 00 00
+# 
+name: STEREO
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 50 00 00 00
+#
+name: HDMI
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 4A 00 00 00
+#
+name: TV
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: DF 00 00 00
+# 
+name: ANALOG
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: D1 00 00 00
+#
+name: BLUETOOTH
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 29 00 00 00
+#
+name: BLUETOOTH_STANDBY
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 34 00 00 00
+#
+name: DIMMER
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: BA 00 00 00
+#
+name: BASE_EXTENSION
+type: parsed
+protocol: NEC
+address: 78 00 00 00
+command: 8B 00 00 00
