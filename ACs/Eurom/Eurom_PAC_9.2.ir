@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Eurom PAC 9.2 AC
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 04 00 00 00
+# 
+name: Speed
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 05 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0D 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
