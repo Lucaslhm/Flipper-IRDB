@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 01 FE 00 00
+# 
+name: Up Keystone
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 50 AF 00 00
+# 
+name: Down Keystone
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 51 AE 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 57 A8 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 58 A7 00 00
+# 
+name: Pause/Play
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 5F A0 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 04 FB 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0A F5 00 00
+# 
+name: Return
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 54 AB 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0B F4 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0F F0 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 4A B5 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 49 B6 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0D F2 00 00
+# 
+name: VOL-
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 10 EF 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 0C F3 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 6A 95 00 00
