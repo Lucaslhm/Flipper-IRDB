@@ -1,7 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
-# Igenix DF0035TBL https://www.amazon.co.uk/gp/product/B09TBK1T9F/
+# Igenix DF0035TBL Fan
+# https://www.amazon.co.uk/gp/product/B09TBK1T9F/
 #
 name: Off
 type: raw
