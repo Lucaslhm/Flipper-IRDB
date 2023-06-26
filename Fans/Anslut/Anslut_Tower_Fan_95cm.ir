@@ -1,6 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
+# Anslut Tower Fan
 # Seems to be the same as SUNTEC CoolBreeze 9000 / Khind FD-301R
 # 
 name: Power
