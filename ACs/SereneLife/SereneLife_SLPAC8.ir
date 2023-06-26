@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# SereneLife SLPAC8 AC
+#
 name: POWER
 type: parsed
 protocol: NECext
