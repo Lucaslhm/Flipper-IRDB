@@ -9,63 +9,261 @@ type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 15 00 00 00
-# 
+#
 name: VOL+
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 12 00 00 00
-# 
+#
 name: VOL-
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 13 00 00 00
 # 
-name: Bass_up
-type: parsed
-protocol: SIRC15
-address: B0 00 00 00
-command: 50 00 00 00
-# 
-name: Bass_dwn
-type: parsed
-protocol: SIRC15
-address: B0 00 00 00
-command: 51 00 00 00
-# 
-name: Treble_up
-type: parsed
-protocol: SIRC15
-address: B0 00 00 00
-command: 56 00 00 00
-# 
-name: Treble_dwn
-type: parsed
-protocol: SIRC15
-address: B0 00 00 00
-command: 57 00 00 00
-# 
-name: Radio_tuner
-type: parsed
-protocol: SIRC15
-address: 30 00 00 00
-command: 21 00 00 00
-# 
-name: Tune_up
-type: parsed
-protocol: SIRC15
-address: B0 00 00 00
-command: 2B 00 00 00
-# 
-name: Tune_dwn
-type: parsed
-protocol: SIRC15
-address: B0 00 00 00
-command: 2C 00 00 00
-# 
 name: MUTE
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 14 00 00 00
+# 
+name: BASS+
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 50 00 00 00
+#
+name: BASS-
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 51 00 00 00
+#
+name: TREBLE+
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 56 00 00 00
+#
+name: TREBLE-
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 57 00 00 00
+#
+name: FM TUNER
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 18 00 00 00
+#
+name: AM TUNER
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 1A 00 00 00
+#
+name: VIDEO
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 22 00 00 00
+#
+name: MD/TAPE
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 23 00 00 00
+#
+name: SA-CD/CD
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 25 00 00 00
+#
+name: MD/TAPE
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 69 00 00 00
+# 
+name: PORTABLE
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 75 00 00 00
+# 
+name: BD/DVD INPUT
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 7D 00 00 00
+# 
+name: SAT/CBL
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 03 00 00 00
+#
+name: TOGGLE AM/FM
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 21 00 00 00
+#
+name: MEMORY
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 0E 00 00 00
+#
+name: PRESET+
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 10 00 00 00
+#
+name: PRESET-
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 11 00 00 00
+#
+name: POWER ON
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 2E 00 00 00
+#
+name: POWER OFF
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 2F 00 00 00
+#
+name: DISPLAY
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 48 00 00 00
+# 
+name: SLEEP
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 60 00 00 00
+#
+name: BALANCE
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 13 00 00 00
+#
+name: DIRECT TUNE
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 28 00 00 00
+# 
+name: TUNE-
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 2B 00 00 00
+#
+name: TUNE+
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 2C 00 00 00
+#
+name: MENU
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 77 00 00 00
+# 
+name: ENTER
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 0C 00 00 00
+#
+name: DOWN
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 79 00 00 00
+#
+name: LEFT
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7A 00 00 00
+#
+name: RIGHT
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7B 00 00 00
+#
+name: 1
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 00 00 00 00
+#
+name: 2
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 01 00 00 00
+#
+name: 3
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 02 00 00 00
+#
+name: 4
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 03 00 00 00
+#
+name: 5
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 04 00 00 00
+#
+name: 6
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 05 00 00 00
+#
+name: 7
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 06 00 00 00
+#
+name: 8
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 07 00 00 00
+#
+name: 9
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 08 00 00 00
+#
+name: 0
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 09 00 00 00
