@@ -187,6 +187,12 @@ protocol: NEC
 address: 08 00 00 00
 command: 2E 00 00 00
 # 
+name: Ok
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 2F 00 00 00
+# 
 name: Home
 type: parsed
 protocol: NEC
