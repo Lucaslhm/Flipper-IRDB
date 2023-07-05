@@ -2,6 +2,7 @@ Filetype: IR signals file
 Version: 1
 # 
 # SereneLife SLPAC8 AC
+# Created By: EvanVS 
 #
 name: POWER
 type: parsed
@@ -15,7 +16,7 @@ protocol: NECext
 address: 10 E7 00 00
 command: 15 EA 00 00
 # 
-name: Temp-
+name: TEMP-
 type: parsed
 protocol: NECext
 address: 10 E7 00 00
