@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# OneScreen Touchscreen Display
+#
 name: Red_pwr
 type: parsed
 protocol: NEC
