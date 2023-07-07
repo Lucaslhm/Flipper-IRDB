@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Lasko 18" Oscillating 4-Speed Large Room Pedestal Fan with Remote Control, S18612
+#
 name: Power
 type: raw
 frequency: 38000
