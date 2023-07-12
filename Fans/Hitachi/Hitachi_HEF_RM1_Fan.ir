@@ -1,0 +1,55 @@
+Filetype: IR signals file
+Version: 1
+#
+# Hitachi HEF-RM1 remote (Fan)
+# https://store.kadenfan.hitachi.co.jp/store/g/gHEF-90R-007/
+#
+# Suitable for Hitachi HEF-90R, HEF-DC90, HEF-RM1
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 82 21 00 00
+command: 1F E0 00 00
+# 
+name: On_timer
+type: parsed
+protocol: NECext
+address: 82 21 00 00
+command: 07 F8 00 00
+# 
+name: Off_timer
+type: parsed
+protocol: NECext
+address: 82 21 00 00
+command: 13 EC 00 00
+# 
+name: Ok_timer
+type: parsed
+protocol: NECext
+address: 82 21 00 00
+command: 03 FC 00 00
+# 
+name: Rythm
+type: parsed
+protocol: NECext
+address: 82 21 00 00
+command: 0B F4 00 00
+# 
+name: Sleep_mode
+type: parsed
+protocol: NECext
+address: 82 21 00 00
+command: 17 E8 00 00
+# 
+name: Fan_power
+type: parsed
+protocol: NECext
+address: 82 21 00 00
+command: 1B E4 00 00
+# 
+name: Osc_horiz
+type: parsed
+protocol: NECext
+address: 82 21 00 00
+command: 0F F0 00 00
