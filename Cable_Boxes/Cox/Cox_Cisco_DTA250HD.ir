@@ -1,0 +1,154 @@
+Filetype: IR signals file
+Version: 1
+#
+# Cox Cisco DTA250HD Cable Box
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 42 BD 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 51 AE 00 00
+# 
+name: Guide
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 31 CE 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 36 C9 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 46 B9 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 48 B7 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 45 BA 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 49 B6 00 00
+# 
+name: Sel
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 47 B8 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 52 AD 00 00
+# 
+name: CC
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 43 BC 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 44 BB 00 00
+# 
+name: ChUp
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 34 CB 00 00
+# 
+name: ChDn
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 35 CA 00 00
+# 
+name: Last
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 28 D7 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 11 EE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 12 ED 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 13 EC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 14 EB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 15 EA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 16 E9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 17 E8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 18 E7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 19 E6 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: AF 60 00 00
+command: 10 EF 00 00
