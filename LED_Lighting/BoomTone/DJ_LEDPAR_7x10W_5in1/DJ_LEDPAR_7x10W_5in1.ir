@@ -1,0 +1,101 @@
+Filetype: IR signals file
+Version: 1
+# 
+# BoomTone DJ - LEDPAR 7x10W 5in1
+# Scanned & Tested by Foul (2023)
+#
+name: ON/OFF
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: DMX
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Jump
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: Fade
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+# 
+name: Strobe
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: Sound
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
+# 
+name: RED
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+# 
+name: GREEN
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1B 00 00 00
+# 
+name: BLUE
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+# 
+name: ROSE
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0C 00 00 00
+# 
+name: AMBER
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
+# 
+name: CYAN
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0E 00 00 00
+# 
+name: WHITE
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 00 00 00 00
+# 
+name: SPEED -
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0F 00 00 00
+# 
+name: SPEED +
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 19 00 00 00

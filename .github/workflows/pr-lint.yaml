@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # checkout IRDB
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
@@ -26,7 +26,7 @@ jobs:
       # only check files changed in the PR
       - name: Get Changed Files
         id: changed-files
-        uses: tj-actions/changed-files@v29.0.7
+        uses: tj-actions/changed-files@v37.1.1
         with:
           files: "**/*.ir"
           separator: "\n"
@@ -40,7 +40,7 @@ jobs:
           python-version: '3.10' 
 
       - name: Run Linter if at least 1 IR File Changed
-        uses: mathiasvr/command-output@v1.1.0
+        uses: mathiasvr/command-output@v2.0.0
         id: run
         continue-on-error: true
         with:
