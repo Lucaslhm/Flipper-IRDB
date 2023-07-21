@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+#
+# Delonghi Pinguino PAC EL275HGRKC-1AWH AC By Bluefire8889
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 82 00 00 00
+command: 6B 00 00 00
+# 
+name: MODE
+type: parsed
+protocol: NEC
+address: 82 00 00 00
+command: 66 00 00 00
+# 
+name: TEMP+
+type: parsed
+protocol: NEC
+address: 82 00 00 00
+command: 65 00 00 00
+# 
+name: TEMP-
+type: parsed
+protocol: NEC
+address: 82 00 00 00
+command: 68 00 00 00
+# 
+name: FAN+
+type: parsed
+protocol: NEC
+address: 82 00 00 00
+command: 6C 00 00 00
+# 
+name: FAN-
+type: parsed
+protocol: NEC
+address: 82 00 00 00
+command: 6A 00 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 82 00 00 00
+command: 69 00 00 00
