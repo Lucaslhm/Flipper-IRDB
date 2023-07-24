@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Acer H6517ST
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 87 78 00 00
+# 
+name: 3D
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8A 75 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8C 73 00 00
+# 
+name: Setup
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 3B C4 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 80 7F 00 00
+# 
+name: Hide
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8F 70 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8B 74 00 00
+# 
+name: Ratio
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 60 9F 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8E 71 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 84 7B 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 82 7D 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 85 7A 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 83 7C 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 81 7E 00 00
