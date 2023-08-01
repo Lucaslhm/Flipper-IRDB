@@ -28,3 +28,15 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
+#
+name: FACTORY
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3B 00 00 00
+#
+name: 3SPEED
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3C 00 00 00
