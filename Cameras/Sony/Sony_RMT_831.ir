@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Sony RMT-831 for 2000's Camcorders
+#
 name: Start_stop
 type: parsed
 protocol: SIRC15
