@@ -1,0 +1,118 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony RMT-831 for 2000's Camcorders
+#
+name: Start_stop
+type: parsed
+protocol: SIRC15
+address: B9 00 00 00
+command: 19 00 00 00
+# 
+name: Tele
+type: parsed
+protocol: SIRC15
+address: D9 00 00 00
+command: 1A 00 00 00
+# 
+name: Wide
+type: parsed
+protocol: SIRC15
+address: D9 00 00 00
+command: 1B 00 00 00
+# 
+name: Photo
+type: parsed
+protocol: SIRC15
+address: B9 00 00 00
+command: 15 00 00 00
+# 
+name: Index
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 20 00 00 00
+# 
+name: Mem_min
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 2B 00 00 00
+# 
+name: Mem_plus
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 2C 00 00 00
+# 
+name: Search
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 57 00 00 00
+# 
+name: Play_mem
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 2A 00 00 00
+# 
+name: Skip_back
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 57 00 00 00
+# 
+name: Skip_fwd
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 56 00 00 00
+# 
+name: Rew
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 1B 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 1A 00 00 00
+# 
+name: Fast_fwd
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 1C 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 19 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 18 00 00 00
+# 
+name: Slow
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 23 00 00 00
+# 
+name: Zerosetmem
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 47 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 5A 00 00 00
