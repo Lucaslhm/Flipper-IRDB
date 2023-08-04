@@ -6,15 +6,154 @@ type: parsed
 protocol: SIRC20
 address: 3A 1E 00 00
 command: 2D 00 00 00
-# 
+#
+# Hidden - The previous takes 1 photo, even in continuous mode. This will allow for continuous shooting.
+name: Continuous Photo
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 65 00 00 00
+#
 name: Photo_2s
 type: parsed
 protocol: SIRC20
 address: 3A 1E 00 00
 command: 37 00 00 00
-# 
+#
 name: Rec
 type: parsed
 protocol: SIRC20
 address: 3A 1E 00 00
 command: 48 00 00 00
+#
+name: Scale Up (+)
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 4A 00 00 00
+#
+name: Scale Down (-)
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 4B 00 00 00
+#
+name: Menu
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 38 00 00 00
+#
+name: Up
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 3A 00 00 00
+#
+name: Down
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 3B 00 00 00
+#
+name: Left
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 3E 00 00 00
+#
+name: Right
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 3F 00 00 00
+#
+name: Enter
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 39 00 00 00
+#
+name: Playback
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 3C 00 00 00
+#
+name: Delete
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 3D 00 00 00
+#
+name: Rotate
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 32 00 00 00
+#
+name: Display
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 14 00 00 00
+#
+name: Index
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 20 00 00 00
+#
+name: Histogram
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 1B 00 00 00
+#
+name: Slideshow
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 47 00 00 00
+#
+# This button is used to activate a PictBridge printer
+name: Print
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 11 00 00 00
+#
+# Hidden:
+name: Focus
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 29 00 00 00
+#
+# Hidden
+name: Scale Up (+)
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 4C 00 00 00
+#
+# Hidden
+name: Scale Down (-)
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 4D 00 00 00
+#
+# Hidden - This takes 1 photo, and will not allow another until shutter-unlock is sent
+name: Shutter-Lock
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 66 00 00 00
+#
+# Hidden
+name: Shutter-Unlock
+type: parsed
+protocol: SIRC20
+address: 3A 1E 00 00
+command: 67 00 00 00
