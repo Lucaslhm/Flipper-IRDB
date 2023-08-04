@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Domo Fan
+#
 name: PWR
 type: raw
 frequency: 38000
