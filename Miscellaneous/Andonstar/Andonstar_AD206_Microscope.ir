@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Andonstar microscope remote
+# Andonstar microscope remote (AD206 tested, likely works with all others.)
 # 
 name: Capture
 type: parsed
