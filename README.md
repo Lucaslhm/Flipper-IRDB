@@ -61,7 +61,11 @@ Dh
 Power<br>
 Vol_up<br>
 Vol_dn<br>
-Mute
+Mute<br>
+Next<br>
+Prev<br>
+Play<br>
+Pause
 
 Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
 
