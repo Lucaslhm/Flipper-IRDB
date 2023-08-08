@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Mecool KM6
+# Mecool KM6 Streaming Device
 #
 name: Power
 type: parsed
