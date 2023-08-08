@@ -40,27 +40,32 @@ Please use this naming scheme for buttons.
 
 **FOR TV**
 
-POWER<br>
-MUTE<br>
-VOL+<br>
-CH+<br>
-VOL-<br>
-CH-
+Power<br>
+Mute<br>
+Vol_up<br>
+Ch_next<br>
+Vol_dn<br>
+Ch_prev
 
 **FOR AC**
 
-POWER<br>
-TEMP+<br>
-TEMP-<br>
-MODE<br>
-SWING
+Off<br>
+Cool_hi<br>
+Cool_lo<br>
+Heat_hi<br>
+Heat_lo<br>
+Dh
 
 **FOR AUDIO**
 
-POWER<br>
-VOL+<br>
-VOL-<br>
-MUTE
+Power<br>
+Vol_up<br>
+Vol_dn<br>
+Mute<br>
+Next<br>
+Prev<br>
+Play<br>
+Pause
 
 Lastly, it's helpful to add further information as a comment directly into the IR file if possible. Example:
 
@@ -69,7 +74,7 @@ Lastly, it's helpful to add further information as a comment directly into the I
 `#`<br>
 `# Dynex EN-21669D TV` <---<br>
 `#`<br>
-`name: POWER`<br>
+`name: Power`<br>
 
 Make, model, link, or even a short description can be helpful if the name is changed (or just in general)!
 
