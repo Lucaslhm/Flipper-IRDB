@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Kendo CP20M36VT TV
+\#
 name: OFF
 type: parsed
 protocol: RC5
