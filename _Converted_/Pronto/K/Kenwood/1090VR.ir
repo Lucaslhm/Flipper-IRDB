@@ -27,85 +27,85 @@ data: 8941 4444 579 579 579 579 579 579 579 1657 579 1657 579 1657 579 579 579 1
 #
 name: AM/FM
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 2727 400 4290 400 2727 400 4290 400 4290 400 9241
 #
 name: 1
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 4290 400 2727 400 4290 400 4290 400 9241
 #
 name: 2
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 4290 400 2727 400 4290 400 2727 400 9241
 #
 name: 3
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 4290 400 2727 400 2727 400 4290 400 9241
 #
 name: 4
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 2727 400 4290 400 4290 400 4290 400 9241
 #
 name: 5
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 2727 400 4290 400 4290 400 2727 400 9241
 #
 name: 6
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 2727 400 4290 400 2727 400 4290 400 9241
 #
 name: 7
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 2727 400 2727 400 4290 400 4290 400 9241
 #
 name: 8
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 2727 400 2727 400 4290 400 2727 400 9241
 #
 name: 9
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 2727 400 2727 400 2727 400 4290 400 9241
 #
 name: 0
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 2727 400 4290 400 4290 400 4290 400 2727 400 9241
 #
 name: LEFT
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 2727 400 2727 400 2727 400 4290 400 4290 400 9241
 #
 name: RIGHT
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 2727 400 2727 400 4290 400 4290 400 4290 400 9241
 #
 name: GUIDE
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 2727 400 2727 400 4290 400 2727 400 2727 400 9241
 #
@@ -165,13 +165,13 @@ data: 8941 4444 579 579 579 579 579 579 579 1657 579 1657 579 1657 579 579 579 1
 #
 name: TV/SAT/VID
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 4290 400 4290 400 4290 400 4290 400 4290 400 9241
 #
 name: ALT_AUD
 type: raw
-frequency: 57571
+frequency: 56000
 duty_cycle: 0.330000
 data: 400 2727 400 4290 400 2727 400 4290 400 2727 400 9241
 #
