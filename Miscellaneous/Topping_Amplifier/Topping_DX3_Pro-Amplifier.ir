@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 18 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 06 00 00 00
+# 
+name: Volume_Up
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 46 00 00 00
+# 
+name: Volume_Down
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 16 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 47 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 15 00 00 00
+# 
+name: HeadLine
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 55 00 00 00
+# 
+name: Headphone
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 04 00 00 00
+# 
+name: Line
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 40 00 00 00
+# 
+name: Filter
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 54 00 00 00
+# 
+name: Gain
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 50 00 00 00
+# 
+name: AutoSleep
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 46 00 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 14 00 00 00
