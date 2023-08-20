@@ -22,7 +22,6 @@ jobs:
         with:
           repository: 'darmiel/fff-ir-lint'
           path: fff-ir-lint
-          ref: 'feat/name-check'
       
       # only check files changed in the PR
       - name: Get Changed Files
