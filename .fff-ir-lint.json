@@ -2,11 +2,18 @@
     "name-check": {
       "$path-prefix": "",
       "$groups": {
-        "power": [
-          "power",
-          "pwr",
-          "/^((power|pwr)[_\\s]*)?(toggle|on|off)$/",
-          "/^(turn[_\\s]*)?(on|off)$/"
+        "power-toggle": [
+          "/^((power|pwr)[_\\s]*)?(toggle)?$/",
+          "/^((power|pwr)[_\\s]*)?((on[_\\/\\s]*off)|(off[_\\/\\s]*on)|toggle)$/",
+          "/^(turn[_\\s]*)?((on[_\\/\\s]*off)|(off[_\\/\\s]*on))$/"
+        ],
+        "power-off": [
+          "/^((power|pwr)[_\\s]*)?off$/",
+          "/^(turn[_\\s]*)?(off)$/"
+        ],
+        "power-on": [
+          "/^((power|pwr)[_\\s]*)?on$/",
+          "/^(turn[_\\s]*)?(on)$/"
         ],
         "vol_up": [
           "/^vol(ume)?[_\\s]*(up|[\\^+])$/"
@@ -28,9 +35,13 @@
       },
       "TVs/*": {
         "Power": [
-          "$group:power",
-          "off",
-          "on"
+          "$group:power-toggle"
+        ],
+        "Power_off": [
+          "$group:power-off"
+        ],
+        "Power_on": [
+          "$group:power-on"
         ],
         "Vol_up": [
           "$group:vol_up"
@@ -50,13 +61,18 @@
       },
       "ACs/*": {
         "Off": [
-          "off",
-          "/^((power|pwr)[_\\s]*)?off$/"
+          "$group:power-off"
         ]
       },
       "Audio_Receivers/*,SoundBars/*,Speakers/*": {
         "Power": [
-          "$group:power"
+          "$group:power-toggle"
+        ],
+        "Power_off": [
+          "$group:power-off"
+        ],
+        "Power_on": [
+          "$group:power-on"
         ],
         "Vol_up": [
           "$group:vol_up"
