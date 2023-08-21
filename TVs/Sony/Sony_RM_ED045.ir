@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -13,37 +13,37 @@ protocol: SIRC
 address: 01 00 00 00
 command: 25 00 00 00
 #
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: Track ID
+name: Track_id
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
@@ -67,7 +67,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 3D 00 00 00
 # 
-name: i-Manual
+name: I-manual
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
@@ -91,7 +91,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 1C 00 00 00
 # 
-name: Screen Mode
+name: Screen_mode
 type: parsed
 protocol: SIRC15
 address: A4 00 00 00
@@ -109,7 +109,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 20 00 00 00
 # 
-name: Digital/Analog
+name: Digital/analog
 type: parsed
 protocol: SIRC15
 address: 77 00 00 00
@@ -127,13 +127,13 @@ protocol: SIRC15
 address: 1A 00 00 00
 command: 78 00 00 00
 # 
-name: Internet video
+name: Internet_video
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
 command: 79 00 00 00
 # 
-name: Sync Menu
+name: Sync_menu
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
@@ -145,7 +145,7 @@ protocol: SIRC15
 address: A4 00 00 00
 command: 5B 00 00 00
 # 
-name: Return/Back
+name: Return/back
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
@@ -193,7 +193,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 33 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

@@ -3,115 +3,115 @@ Version: 1
 # 
 # Samsung BN5901175N TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: SMART HUB
+name: Smart_hub
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 79 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: CH LIST
+name: Ch_list
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 6B 00 00 00
 # 
-name: GUIDE
+name: Guide
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 4F 00 00 00
 # 
-name: TOOLS
+name: Tools
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 4B 00 00 00
 # 
-name: INFO
+name: Info
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1F 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 60 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 # 
-name: ENTER
+name: Enter
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 68 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 # 
-name: RETURN
+name: Return
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 58 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -141,49 +141,49 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 16 00 00 00
 # 
-name: REC
+name: Rec
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 49 00 00 00
 # 
-name: E-MANUAL
+name: E-manual
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 3F 00 00 00
 # 
-name: AD/SUBT
+name: Ad/subt
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 25 00 00 00
 # 
-name: STOP
+name: Stop
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 46 00 00 00
 # 
-name: REWIND
+name: Rewind
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 45 00 00 00
 # 
-name: PLAY
+name: Play
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 47 00 00 00
 # 
-name: PAUSE
+name: Pause
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 4A 00 00 00
 # 
-name: FAST_FORWRD
+name: Fast_forwrd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -249,13 +249,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 11 00 00 00
 # 
-name: TT_MIX
+name: Tt_mix
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 2C 00 00 00
 # 
-name: PRE_CH
+name: Pre_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

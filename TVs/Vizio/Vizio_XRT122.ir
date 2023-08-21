@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -25,7 +25,7 @@ protocol: NEC
 address: 04 00 00 00
 command: EB 00 00 00
 # 
-name: IHeart_Radio
+name: Iheart_radio
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -67,7 +67,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 34 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -133,25 +133,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 1C 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -175,7 +175,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 1A 00 00 00
 # 
-name: PIC
+name: Pic
 type: parsed
 protocol: NEC
 address: 04 00 00 00

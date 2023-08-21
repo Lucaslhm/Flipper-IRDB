@@ -3,7 +3,7 @@ Version: 1
 # 
 # GuestTek Captured from Marriot Hotel
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -57,13 +57,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 # 
-name: TV_Guide
+name: Tv_guide
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -117,31 +117,31 @@ protocol: NEC
 address: 04 00 00 00
 command: 1A 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -207,7 +207,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 10 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -243,25 +243,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 0A 00 00 00
 # 
-name: A_Red
+name: A_red
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: C1 00 00 00
 # 
-name: B_Green
+name: B_green
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: C0 00 00 00
 # 
-name: C_Yellow
+name: C_yellow
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: C2 00 00 00
 # 
-name: D_Blue
+name: D_blue
 type: parsed
 protocol: NEC
 address: 04 00 00 00

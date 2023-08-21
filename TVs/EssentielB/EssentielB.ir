@@ -4,7 +4,7 @@ Version: 1
 # TV LED ESSENTIELB Android TV
 # Essentiel B is Boulanger's distributor brand
 #
-name: POWER
+name: Power
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
@@ -16,25 +16,25 @@ protocol: RCA
 address: 0F 00 00 00
 command: FC 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: B4 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 34 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: F4 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RCA
 address: 0F 00 00 00

@@ -3,103 +3,103 @@ Version: 1
 # 
 # Samsung LN46C650L1F TV
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1A 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 60 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 # 
-name: ENTER
+name: Enter
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 68 00 00 00
 # 
-name: BACK
+name: Back
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 58 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: TOOLS
+name: Tools
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 4B 00 00 00
 # 
-name: CH_LIST
+name: Ch_list
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

@@ -3,37 +3,37 @@ Version: 1
 # 
 # SAMSUNG LCD TV UE26C4000PW Remote: AA59-00508A
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -45,7 +45,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: HDMI
+name: Hdmi
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -111,7 +111,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 11 00 00 00
 # 
-name: TTX_mix
+name: Ttx_mix
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -123,13 +123,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 13 00 00 00
 # 
-name: CH_list
+name: Ch_list
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 6B 00 00 00
 # 
-name: Media_P
+name: Media_p
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -243,7 +243,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 00 00 00 00
 # 
-name: AD
+name: Ad
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -279,7 +279,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 48 00 00 00
 # 
-name: REC
+name: Rec
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

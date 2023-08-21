@@ -3,13 +3,13 @@ Version: 1
 # 
 # Samsung TV Universal Remote BN59-01178W
 # 
-name: TV_On/Off
+name: Tv_on/off
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: STB_On/Off
+name: Stb_on/off
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -87,43 +87,43 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 23 00 00 00
 # 
-name: Prev_Ch
+name: Prev_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 13 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: Ch_List
+name: Ch_list
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -135,7 +135,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1A 00 00 00
 # 
-name: Smart_Hub
+name: Smart_hub
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -159,37 +159,37 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1F 00 00 00
 # 
-name: Arrow_Up
+name: Arrow_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 60 00 00 00
 # 
-name: Arrow_Left
+name: Arrow_left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: Arrow_Right
+name: Arrow_right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 # 
-name: Arrow_Down
+name: Arrow_down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 # 
-name: Enter/Middle
+name: Enter/middle
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 68 00 00 00
 # 
-name: Return/Back
+name: Return/back
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -201,31 +201,31 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
 # 
-name: A(Red)
+name: A(red)
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 6C 00 00 00
 # 
-name: B(Green)
+name: B(green)
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 14 00 00 00
 # 
-name: C(Yellow)
+name: C(yellow)
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 15 00 00 00
 # 
-name: D(Blue)
+name: D(blue)
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 16 00 00 00
 # 
-name: E-Manual
+name: E-manual
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -243,19 +243,19 @@ protocol: Samsung32
 address: 07 00 00 00
 command: D2 00 00 00
 # 
-name: P.Size
+name: P.size
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 3E 00 00 00
 # 
-name: MTS
+name: Mts
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 00 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

@@ -4,7 +4,7 @@ Version: 1
 # LED LCD TV
 # MODEL: 29FL553/10
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
@@ -166,31 +166,31 @@ protocol: NECext
 address: 84 E0 00 00
 command: 65 9A 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 60 9F 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 61 9E 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 50 AF 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 51 AE 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
@@ -226,7 +226,7 @@ protocol: NECext
 address: 84 E0 00 00
 command: ED 12 00 00
 # 
-name: Play Pause
+name: Play_pause
 type: parsed
 protocol: NECext
 address: 84 E0 00 00

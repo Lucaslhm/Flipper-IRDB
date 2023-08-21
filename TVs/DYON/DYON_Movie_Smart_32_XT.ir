@@ -3,43 +3,43 @@ Version: 1
 # 
 # DYON Movie Smart 32 XT
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 40 40 00 00
 command: 0A F5 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 40 40 00 00
 command: 0F F0 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 40 40 00 00
 command: 15 EA 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 40 40 00 00
 command: 1C E3 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 40 40 00 00
 command: 1F E0 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 40 40 00 00
 command: 1E E1 00 00
 # 
-name: Ch List
+name: Ch_list
 type: parsed
 protocol: NECext
 address: 40 40 00 00

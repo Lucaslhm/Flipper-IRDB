@@ -5,25 +5,25 @@ Version: 1
 #
 # by JEREMYNO
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -89,61 +89,61 @@ protocol: NEC
 address: 04 00 00 00
 command: 10 00 00 00
 # 
-name: BACK
+name: Back
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 28 00 00 00
 # 
-name: TXT
+name: Txt
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 20 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
-name: YELOW
+name: Yelow
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 41 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -155,19 +155,19 @@ protocol: NEC
 address: 04 00 00 00
 command: AA 00 00 00
 # 
-name: TV
+name: Tv
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 174 119830 169
 # 
-name: AV
+name: Av
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 0B 00 00 00
 # 
-name: DTT
+name: Dtt
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

@@ -3,7 +3,7 @@ Version: 1
 #
 # Hitachi LE46H508 TV
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 50 00 00 00
@@ -87,7 +87,7 @@ protocol: NEC
 address: 50 00 00 00
 command: 11 00 00 00
 # 
-name: Last_CH
+name: Last_ch
 type: parsed
 protocol: NEC
 address: 50 00 00 00
@@ -141,31 +141,31 @@ protocol: NEC
 address: 50 00 00 00
 command: 7E 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 0B 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 15 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 19 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 50 00 00 00
@@ -189,31 +189,31 @@ protocol: NEC
 address: 50 00 00 00
 command: 61 00 00 00
 # 
-name: SkipBack
+name: Skipback
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 50 00 00 00
 # 
-name: SkipFWD
+name: Skipfwd
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 52 00 00 00
 # 
-name: RR
+name: Rr
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 45 00 00 00
 # 
-name: FF
+name: Ff
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 47 00 00 00
 # 
-name: Fav_CH
+name: Fav_ch
 type: parsed
 protocol: NEC
 address: 50 00 00 00
@@ -225,7 +225,7 @@ protocol: NEC
 address: 50 00 00 00
 command: 6F 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 50 00 00 00
@@ -237,13 +237,13 @@ protocol: NEC
 address: 50 00 00 00
 command: 08 00 00 00
 # 
-name: USB
+name: Usb
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: F8 00 00 00
 # 
-name: HDMI
+name: Hdmi
 type: parsed
 protocol: NEC
 address: 50 00 00 00
@@ -255,13 +255,13 @@ protocol: NEC
 address: 50 00 00 00
 command: 22 00 00 00
 # 
-name: AV
+name: Av
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 21 00 00 00
 # 
-name: PC
+name: Pc
 type: parsed
 protocol: NEC
 address: 50 00 00 00

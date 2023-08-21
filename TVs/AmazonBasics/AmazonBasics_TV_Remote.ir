@@ -3,7 +3,7 @@ Version: 1
 # 
 # Amazon Basics TV Remote
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -39,19 +39,19 @@ protocol: NECext
 address: 02 7D 00 00
 command: 49 B6 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0C F3 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 19 E6 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

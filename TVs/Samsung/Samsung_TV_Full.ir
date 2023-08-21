@@ -1,37 +1,37 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: e6 00 00 00
 # 
-name: POWER Off Only
+name: Power_off_only
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 98 00 00 00
 # 
-name: Smart Hub
+name: Smart_hub
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 46 00 00 00
 # 
-name: Smart Hub
+name: Smart_hub
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 76 00 00 00
 # 
-name: Smart Hub
+name: Smart_hub
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -79,7 +79,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4a 00 00 00
 # 
-name: Play/Pause
+name: Play/pause
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -91,7 +91,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 45 00 00 00
 # 
-name: Fast Forward
+name: Fast_forward
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -103,37 +103,37 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 58 00 00 00
 # 
-name: Ambient Mode
+name: Ambient_mode
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: f6 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0b 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0f 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -163,7 +163,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 2b 00 00 00
 # 
-name: Pair Bluetooth
+name: Pair_bluetooth
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -181,37 +181,37 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 8b 00 00 00
 # 
-name: Accessibility Shortcut
+name: Accessibility_shortcut
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 25 00 00 00
 # 
-name: Accessibility Shortcut
+name: Accessibility_shortcut
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 27 00 00 00
 # 
-name: Accessibility Shortcut
+name: Accessibility_shortcut
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 59 00 00 00
 # 
-name: Virtual Numarical Pad
+name: Virtual_numarical_pad
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 9c 00 00 00
 # 
-name: Virtual Numarical Pad
+name: Virtual_numarical_pad
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: d2 00 00 00
 # 
-name: Colored Buttons
+name: Colored_buttons
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -229,25 +229,25 @@ protocol: Samsung32
 address: 07 00 00 00
 command: a0 00 00 00
 # 
-name: HDMI 1
+name: Hdmi_1
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: e9 00 00 00
 # 
-name: HDMI 2
+name: Hdmi_2
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: be 00 00 00
 # 
-name: HDMI 3
+name: Hdmi_3
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: c2 00 00 00
 # 
-name: HDMI 4
+name: Hdmi_4
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -265,31 +265,31 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1a 00 00 00
 # 
-name: Picture Mode
+name: Picture_mode
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 28 00 00 00
 # 
-name: FPS (Rate/Quality)
+name: Fps_(rate/quality)
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1f 00 00 00
 # 
-name: Not Availible
+name: Not_availible
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 20 00 00 00
 # 
-name: Not Availible
+name: Not_availible
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 3b 00 00 00
 # 
-name: Not Availible
+name: Not_availible
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -301,25 +301,25 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4f 00 00 00
 # 
-name: Internet Browser
+name: Internet_browser
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 37 00 00 00
 # 
-name: Exit Application
+name: Exit_application
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 2d 00 00 00
 # 
-name: E-Manual
+name: E-manual
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 3f 00 00 00
 # 
-name: Unknown Application
+name: Unknown_application
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

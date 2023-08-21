@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 46 B9 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -85,13 +85,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 41 BE 00 00
 # 
-name: ToonGoggles
+name: Toongoggles
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 5E A1 00 00
 # 
-name: AccuWeather
+name: Accuweather
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -121,25 +121,25 @@ protocol: NECext
 address: 02 7D 00 00
 command: 4B B4 00 00
 # 
-name: Arrow Up
+name: Arrow_up
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 48 B7 00 00
 # 
-name: Arrow Left
+name: Arrow_left
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4E B1 00 00
 # 
-name: Arrow Right
+name: Arrow_right
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 49 B6 00 00
 # 
-name: Arrow Down
+name: Arrow_down
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -163,7 +163,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 0D F2 00 00
 # 
-name: USB
+name: Usb
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -175,25 +175,25 @@ protocol: NECext
 address: 02 7D 00 00
 command: 55 AA 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0C F3 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 19 E6 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0F F0 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -223,13 +223,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 13 EC 00 00
 # 
-name: Pause_Play
+name: Pause_play
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 5B A4 00 00
 # 
-name: Fast Forward
+name: Fast_forward
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -247,7 +247,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 40 BF 00 00
 # 
-name: Add/Erase
+name: Add/erase
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -259,43 +259,43 @@ protocol: NECext
 address: 02 7D 00 00
 command: 17 E8 00 00
 # 
-name: Ch_List
+name: Ch_list
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 44 BB 00 00
 # 
-name: P.Mode
+name: P.mode
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 47 B8 00 00
 # 
-name: S.Mode
+name: S.mode
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 43 BC 00 00
 # 
-name: VChip
+name: Vchip
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 15 EA 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 54 AB 00 00
 # 
-name: MTS
+name: Mts
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 50 AF 00 00
 # 
-name: Aspect Ratio
+name: Aspect_ratio
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -313,19 +313,19 @@ protocol: NECext
 address: 02 7D 00 00
 command: 58 A7 00 00
 # 
-name: HDMI
+name: Hdmi
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 3D C2 00 00
 # 
-name: VGA
+name: Vga
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 3E C1 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

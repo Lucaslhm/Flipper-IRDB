@@ -3,13 +3,13 @@ Version: 1
 # 
 # LG Factory SVC Remocon MKJ39170828
 #
-name: LG on/off
+name: Lg_on/off
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: LG input
+name: Lg_input
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -21,25 +21,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -69,13 +69,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 # 
-name: ADJ
+name: Adj
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: FF 00 00 00
 # 
-name: In Start
+name: In_start
 type: parsed
 protocol: NEC
 address: 04 00 00 00

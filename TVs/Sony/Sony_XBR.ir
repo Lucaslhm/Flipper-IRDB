@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 2E 00 00 00
 # 
-name: Off
+name: Power_off
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -61,13 +61,13 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 23 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

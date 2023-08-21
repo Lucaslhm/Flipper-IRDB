@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -13,19 +13,19 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -37,13 +37,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 6B 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -247,7 +247,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 48 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

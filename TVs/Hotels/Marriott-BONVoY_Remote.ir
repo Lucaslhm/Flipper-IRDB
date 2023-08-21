@@ -5,13 +5,13 @@ Version: 1
 # Captured 2023/09/23
 # Image: https://i.imgur.com/mNXB47y.jpeg
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: NEC
 address: 03 00 00 00
@@ -35,13 +35,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 8F 00 00 00
 # 
-name: PlayPause
+name: Playpause
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: B0 00 00 00
 # 
-name: FastForward
+name: Fastforward
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -59,25 +59,25 @@ protocol: NEC
 address: 03 00 00 00
 command: 64 00 00 00
 # 
-name: ArrowUp
+name: Arrowup
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
-name: ArrowLeft
+name: Arrowleft
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 # 
-name: ArrowRight
+name: Arrowright
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: ArrowUp
+name: Arrowup
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -101,31 +101,31 @@ protocol: NEC
 address: 04 00 00 00
 command: 0C 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -137,7 +137,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 1A 00 00 00
 # 
-name: Closed Cap
+name: Closed_cap
 type: parsed
 protocol: NEC
 address: 04 00 00 00

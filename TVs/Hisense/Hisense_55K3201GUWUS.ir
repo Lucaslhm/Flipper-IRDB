@@ -3,25 +3,25 @@ Version: 1
 # 
 # Hisense 55K3201GUWUS
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -33,13 +33,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 0B 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -129,7 +129,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 4F 00 00 00
 # 
-name: FastForward
+name: Fastforward
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -141,7 +141,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 1B 00 00 00
 # 
-name: Live_TV
+name: Live_tv
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -231,7 +231,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 10 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -261,7 +261,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 48 00 00 00
 # 
-name: YouTube
+name: Youtube
 type: parsed
 protocol: NEC
 address: 04 00 00 00

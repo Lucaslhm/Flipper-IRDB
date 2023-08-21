@@ -3,37 +3,37 @@ Version: 1
 #
 # Sony RM-GD014 TV
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 #
-name: CH+
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -189,7 +189,7 @@ protocol: SIRC15
 address: 77 00 00 00
 command: 76 00 00 00
 # 
-name: i+
+name: I+
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -219,19 +219,19 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 1A 00 00 00
 # 
-name: FastForward
+name: Fastforward
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 1C 00 00 00
 # 
-name: SyncMenu
+name: Syncmenu
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
 command: 58 00 00 00
 # 
-name: SkipBack
+name: Skipback
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
@@ -249,7 +249,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 3D 00 00 00
 # 
-name: i-manual
+name: I-manual
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
@@ -261,25 +261,25 @@ protocol: SIRC15
 address: 1A 00 00 00
 command: 78 00 00 00
 # 
-name: ScreenSize
+name: Screensize
 type: parsed
 protocol: SIRC15
 address: A4 00 00 00
 command: 3D 00 00 00
 # 
-name: DigitalAnalog
+name: Digitalanalog
 type: parsed
 protocol: SIRC15
 address: 77 00 00 00
 command: 0D 00 00 00
 # 
-name: InternetVideo
+name: Internetvideo
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
 command: 79 00 00 00
 # 
-name: ActivePicture
+name: Activepicture
 type: parsed
 protocol: SIRC15
 address: A4 00 00 00

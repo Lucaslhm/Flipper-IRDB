@@ -223,7 +223,7 @@ protocol: NEC
 address: 20 00 00 00
 command: 09 00 00 00
 # 
-name: Mouse_Lclick
+name: Mouse_lclick
 type: parsed
 protocol: NEC
 address: 20 00 00 00
