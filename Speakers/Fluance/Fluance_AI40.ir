@@ -4,19 +4,19 @@ Version: 1
 # Fluance AI40 Speakers
 # https://www.fluance.com/powered-2-0-bluetooth-active-5-inch-bookshelf-speakers-bamboo
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 3F 5C 00 00
 command: 18 E7 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 3F 5C 00 00
 command: 55 AA 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 3F 5C 00 00
@@ -28,7 +28,7 @@ protocol: NECext
 address: 3F 5C 00 00
 command: 07 F8 00 00
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 3F 5C 00 00

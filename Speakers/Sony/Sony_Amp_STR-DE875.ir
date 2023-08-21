@@ -3,7 +3,7 @@ Version: 1
 # 
 # Sony Amp STR-DE875
 #
-name: POWERToggle
+name: Power
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
@@ -21,13 +21,13 @@ protocol: SIRC
 address: 10 00 00 00
 command: 2F 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
@@ -39,13 +39,13 @@ protocol: SIRC
 address: 10 00 00 00
 command: 14 00 00 00
 # 
-name: ChannelUp
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 10 00 00 00
 # 
-name: ChannelDown
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00

@@ -3,19 +3,19 @@ Version: 1
 #
 # Bose Solo 5 TV Sound System
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: BA A0 00 00
 command: 01 FE 00 00
 #
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: BA A0 00 00
 command: 03 FC 00 00
 #
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: BA A0 00 00
@@ -39,7 +39,7 @@ protocol: NECext
 address: BA A0 00 00
 command: 59 A6 00 00
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: BA A0 00 00

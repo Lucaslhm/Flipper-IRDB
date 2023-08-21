@@ -3,25 +3,25 @@ Version: 1
 # 
 # Craig Electronics Speaker CHT921
 # 
-name: POWERToggle
+name: Power
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 12 00 00 00
 # 
-name: VolumeUp
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00

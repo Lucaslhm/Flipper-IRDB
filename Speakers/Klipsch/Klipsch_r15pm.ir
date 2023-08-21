@@ -3,25 +3,25 @@ Version: 1
 # 
 # Klipsch Speakers R-15PM
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 02 00 00 00
 command: 0A 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 02 00 00 00
 command: 0D 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 02 00 00 00
 command: 1C 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 02 00 00 00

@@ -7,7 +7,7 @@ Version: 1
 # This is the IR Remote control:
 # https://www.ibizasound.es/27068-thickbox_default/ibiza-sound-port15uhf-bt.jpg
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -19,7 +19,7 @@ protocol: NEC
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -37,13 +37,13 @@ protocol: NEC
 address: 00 00 00 00
 command: 4A 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -61,13 +61,13 @@ protocol: NEC
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 00 00 00 00

@@ -3,13 +3,13 @@ Version: 1
 # 
 # Canton Smart Soundbar 10
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 FB 00 00
 command: 1E E1 00 00
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 FB 00 00
@@ -27,13 +27,13 @@ protocol: NECext
 address: 00 FB 00 00
 command: 05 FA 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 FB 00 00
 command: 18 E7 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 FB 00 00

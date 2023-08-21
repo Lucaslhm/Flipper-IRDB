@@ -3,7 +3,7 @@ Version: 1
 # 
 # Dream Aurora Bluetooth Speaker and LED Projector, Model AC6923
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -57,13 +57,13 @@ protocol: NEC
 address: 00 00 00 00
 command: 12 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 57 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00

@@ -3,19 +3,19 @@ Version: 1
 # 
 # TCL TS5010 Soundbar
 #
-name: POWERToggle
+name: Power
 type: parsed
 protocol: NECext
 address: 86 FF 00 00
 command: 1C E3 00 00
 # 
-name: VolUp
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 86 FF 00 00
 command: 21 DE 00 00
 # 
-name: VolDown
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 86 FF 00 00
@@ -27,13 +27,13 @@ protocol: NECext
 address: 86 FF 00 00
 command: 1D E2 00 00
 # 
-name: ChannelUp
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 86 FF 00 00
 command: 21 DE 00 00
 # 
-name: ChannelDown
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 86 FF 00 00

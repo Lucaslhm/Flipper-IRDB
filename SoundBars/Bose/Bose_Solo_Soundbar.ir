@@ -3,7 +3,7 @@ Version: 1
 # 
 # Bose Solo Soundbar
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: BA A0 00 00
@@ -21,7 +21,7 @@ protocol: NECext
 address: BA A0 00 00
 command: 02 FD 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: BA A0 00 00

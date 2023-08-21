@@ -19,13 +19,13 @@ protocol: Kaseikyo
 address: AC 02 20 00
 command: 01 00 00 00
 # 
-name: Vol_Up
+name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 00
 command: 00 02 00 00
 # 
-name: Vol_Down
+name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 00

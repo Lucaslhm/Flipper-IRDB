@@ -3,7 +3,7 @@ Version: 1
 #
 # Samsung Soundbar NEW
 #
-name: POWER
+name: Power
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
