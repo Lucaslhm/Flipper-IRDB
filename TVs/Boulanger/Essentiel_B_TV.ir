@@ -16,25 +16,25 @@ protocol: RCA
 address: 0F 00 00 00
 command: FC 00 00 00
 # 
-name: Ch+
+name: Ch_next
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: B4 00 00 00
 # 
-name: Ch-
+name: Ch_prev
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 34 00 00 00
 # 
-name: Vol+
+name: Vol_up
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: F4 00 00 00
 # 
-name: Vol-
+name: Vol_dn
 type: parsed
 protocol: RCA
 address: 0F 00 00 00

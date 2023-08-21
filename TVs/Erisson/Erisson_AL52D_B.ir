@@ -18,91 +18,91 @@ Version: 1
 # - 43FLM8000T2
 # - 58LES76T2
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 52 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 09 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 03 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 41 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 06 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 0A 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 4E 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 4A 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 47 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 4D 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 49 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 4B 00 00 00
 # 
-name: HOME
+name: Home
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 40 00 00 00
 # 
-name: SETTINGS
+name: Settings
 type: parsed
 protocol: NEC
 address: 20 00 00 00
@@ -168,25 +168,25 @@ protocol: NEC
 address: 20 00 00 00
 command: 19 00 00 00
 # 
-name: GOTO
+name: Goto
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 4C 00 00 00
 # 
-name: DISPLAY
+name: Display
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 42 00 00 00
 # 
-name: ASPECT
+name: Aspect
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 0F 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 20 00 00 00

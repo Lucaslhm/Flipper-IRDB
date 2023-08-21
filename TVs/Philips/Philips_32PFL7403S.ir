@@ -4,145 +4,145 @@ Version: 1
 # Model: Philips 32PFL7403S/60 LCD TV
 # Remote: Philips RC2143604/01
 #
-name: POWER
+name: Power
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: TELETEXT
+name: Teletext
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 3C 00 00 00
 # 
-name: SPLIT SCREEN
+name: Split_screen
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 5D 00 00 00
 # 
-name: SUBTITLE
+name: Subtitle
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 4B 00 00 00
 # 
-name: FORMAT
+name: Format
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: F5 00 00 00
 # 
-name: RED/DEMO
+name: Red/demo
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 6D 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 6E 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 6F 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 70 00 00 00
 # 
-name: GUIDE
+name: Guide
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: CC 00 00 00
 # 
-name: INFO
+name: Info
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0F 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 58 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 59 00 00 00
 # 
-name: LEFT/BACK
+name: Left/back
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 5A 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 5B 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 5C 00 00 00
 # 
-name: MENU/EXIT
+name: Menu/exit
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 54 00 00 00
 # 
-name: OPTION
+name: Option
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 40 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -208,13 +208,13 @@ protocol: RC6
 address: 00 00 00 00
 command: 00 00 00 00
 # 
-name: MHEG CANCEL
+name: Mheg_cancel
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 31 00 00 00
 # 
-name: P-P
+name: P-p
 type: parsed
 protocol: RC6
 address: 00 00 00 00

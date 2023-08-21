@@ -3,7 +3,7 @@ Version: 1
 # 
 # Telefunken_L65F249i3C
 #
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -69,37 +69,37 @@ protocol: RC5
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0D 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 21 00 00 00
 # 
-name: Smart_Tv
+name: Smart_tv
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -111,7 +111,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 30 00 00 00
 # 
-name: Eco_Menu
+name: Eco_menu
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -189,13 +189,13 @@ protocol: RC5
 address: 01 00 00 00
 command: 31 00 00 00
 # 
-name: Skip_Forward
+name: Skip_forward
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1C 00 00 00
 # 
-name: Skip_Back
+name: Skip_back
 type: parsed
 protocol: RC5
 address: 01 00 00 00

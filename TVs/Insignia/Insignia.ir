@@ -3,7 +3,7 @@ Version: 1
 # 
 # Insignia TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 86 05 00 00
@@ -15,31 +15,31 @@ protocol: NECext
 address: 86 05 00 00
 command: 1D E2 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 0A F5 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 0B F4 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 0C F3 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 0D F2 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 86 05 00 00

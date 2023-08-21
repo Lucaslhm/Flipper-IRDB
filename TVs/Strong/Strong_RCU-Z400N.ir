@@ -3,37 +3,37 @@ Version: 1
 #
 # Strong RCU-Z400N Remote (e.g. SRT 40FZ4003N TV)
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 1C 00 00 00
 #
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 40 00 00 00
 #
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 5D 00 00 00
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 5F 00 00 00
 #
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 03 00 00 00
 #
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -105,7 +105,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 06 00 00 00
 #
-name: CH_Previous
+name: Ch_previous
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -129,7 +129,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 52 00 00 00
 #
-name: EPG
+name: Epg
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -171,7 +171,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 49 00 00 00
 #
-name: Sub.Page
+name: Sub.page
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -195,7 +195,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 54 00 00 00
 #
-name: TV/R
+name: Tv/r
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -255,7 +255,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 56 00 00 00
 #
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -273,7 +273,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 1B 00 00 00
 #
-name: Play/Pause
+name: Play/pause
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -285,37 +285,37 @@ protocol: NEC
 address: A0 00 00 00
 command: 08 00 00 00
 #
-name: Fast_Fwd
+name: Fast_fwd
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 04 00 00 00
 #
-name: Fast_Rev
+name: Fast_rev
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 45 00 00 00
 #
-name: Next_Track
+name: Next_track
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 46 00 00 00
 #
-name: Last_Track
+name: Last_track
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 05 00 00 00
 #
-name: HDMI
+name: Hdmi
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 0D 00 00 00
 #
-name: DTV
+name: Dtv
 type: parsed
 protocol: NEC
 address: A0 00 00 00

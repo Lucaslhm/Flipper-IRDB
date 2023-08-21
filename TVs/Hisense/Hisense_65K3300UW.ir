@@ -4,37 +4,37 @@ Version: 1
 # Hisense 65K3300UW
 # by sealldeveloper
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 0D F2 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 44 BB 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 43 BC 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 0E F1 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -64,7 +64,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 18 E7 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -184,13 +184,13 @@ protocol: NECext
 address: 00 BF 00 00
 command: 14 EB 00 00
 # 
-name: LiveTV
+name: Livetv
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 1B E4 00 00
 # 
-name: TShift
+name: Tshift
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -226,7 +226,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 58 A7 00 00
 # 
-name: FastForward
+name: Fastforward
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -238,13 +238,13 @@ protocol: NECext
 address: 00 BF 00 00
 command: 0C F3 00 00
 # 
-name: CH_List
+name: Ch_list
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 21 DE 00 00
 # 
-name: EPG
+name: Epg
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -256,7 +256,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 47 B8 00 00
 # 
-name: YouTube
+name: Youtube
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

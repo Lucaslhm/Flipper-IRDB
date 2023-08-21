@@ -3,109 +3,109 @@ Version: 1
 # 
 # Baird T15011DLEDDS TV, Remote RC-6
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0E 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0F 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0D 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 19 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 1A 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 1B 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 1C 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 1D 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 17 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: SLEEP
+name: Sleep
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 59 00 00 00
 # 
-name: HOME
+name: Home
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 16 00 00 00
 # 
-name: PMODE
+name: Pmode
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: SMODE
+name: Smode
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -171,127 +171,127 @@ protocol: NEC
 address: 01 00 00 00
 command: 0A 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 54 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 4C 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 4E 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 55 00 00 00
 # 
-name: RECORD
+name: Record
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 57 00 00 00
 # 
-name: TEXT
+name: Text
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 53 00 00 00
 # 
-name: HOLD
+name: Hold
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 52 00 00 00
 # 
-name: REVEAL
+name: Reveal
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 49 00 00 00
 # 
-name: FAV
+name: Fav
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 38 00 00 00
 # 
-name: INDEX
+name: Index
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 39 00 00 00
 # 
-name: SIZE
+name: Size
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 40 00 00 00
 # 
-name: STOP
+name: Stop
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 5A 00 00 00
 # 
-name: PLAY_PAUSE
+name: Play_pause
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 58 00 00 00
 # 
-name: SKIP_BACK
+name: Skip_back
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 1E 00 00 00
 # 
-name: SKIP_FORWARD
+name: Skip_forward
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 4B 00 00 00
 # 
-name: REWIND
+name: Rewind
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 42 00 00 00
 # 
-name: F-FORWARD
+name: F-forward
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 44 00 00 00
 # 
-name: RECLIST
+name: Reclist
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: EPG
+name: Epg
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: SUBTITLES
+name: Subtitles
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 41 00 00 00
 # 
-name: AUDIO
+name: Audio
 type: parsed
 protocol: NEC
 address: 01 00 00 00

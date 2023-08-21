@@ -3,7 +3,7 @@ Version: 1
 # 
 # Universal Philips TV Remote
 #
-name: POWER
+name: Power
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -27,7 +27,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 2718 831 478 846 484 399 477 406 1471 1258 484 398 478 405 481 401 475 408 478 405 481 401 475 408 478 405 481 401 888 440 477 848 894 432 475 410 476 84194 2710 839 480 845 474 408 478 404 1472 1256 476 407 480 404 482 400 476 407 479 403 483 400 476 407 479 403 483 400 889 438 479 846 896 431 476 409 477
 # 
-name: Vid_Back
+name: Vid_back
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -39,7 +39,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 2711 837 482 843 476 406 480 403 1473 1255 477 406 480 403 473 410 476 407 479 403 473 410 476 407 479 403 473 410 889 879 894 433 474 852 478 405 481 83754 2710 837 482 843 476 407 479 404 1472 1256 476 407 479 404 482 400 476 408 478 404 482 401 475 408 478 405 481 401 888 881 892 435 482 843 476 407 479
 # 
-name: Vid_Forward
+name: Vid_forward
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -63,7 +63,7 @@ protocol: RC6
 address: 00 00 00 00
 command: BF 00 00 00
 # 
-name: TV_Guide
+name: Tv_guide
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -75,7 +75,7 @@ protocol: RC6
 address: 00 00 00 00
 command: B4 00 00 00
 # 
-name: Top_Picks
+name: Top_picks
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -93,7 +93,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 57 00 00 00
 # 
-name: TV_Exit
+name: Tv_exit
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -177,31 +177,31 @@ protocol: RC6
 address: 00 00 00 00
 command: 76 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC6
 address: 00 00 00 00

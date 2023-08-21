@@ -3,31 +3,31 @@ Version: 1
 # 
 # Sceptre C1TV53DG TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -159,13 +159,13 @@ protocol: SIRC
 address: 01 00 00 00
 command: 16 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 23 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -183,7 +183,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 18 00 00 00
 # 
-name: F_ADD_DEL
+name: F_add_del
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -195,73 +195,73 @@ protocol: SIRC
 address: 01 00 00 00
 command: 36 00 00 00
 # 
-name: USB
+name: Usb
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 63 00 00 00
 # 
-name: YPbPr
+name: Ypbpr
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 45 00 00 00
 # 
-name: HDMI
+name: Hdmi
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 39 00 00 00
 # 
-name: AUX_Power
+name: Aux_power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 6D 00 00 00
 # 
-name: AUX_Vol_Up
+name: Aux_vol_up
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 72 00 00 00
 # 
-name: AUX_Vol_Down
+name: Aux_vol_down
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 73 00 00 00
 # 
-name: AUX_Mode
+name: Aux_mode
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 71 00 00 00
 # 
-name: AUX_Source
+name: Aux_source
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 70 00 00 00
 # 
-name: A_Red
+name: A_red
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 7A 00 00 00
 # 
-name: B_Green
+name: B_green
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 7B 00 00 00
 # 
-name: C_Yellow
+name: C_yellow
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 7C 00 00 00
 # 
-name: D_Blue
+name: D_blue
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

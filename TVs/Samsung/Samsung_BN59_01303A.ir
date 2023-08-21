@@ -4,37 +4,37 @@ Version: 1
 # Samsung BN59-01303A TV
 # by sealldeveloper
 #
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -46,7 +46,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: ChList
+name: Chlist
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -100,7 +100,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4F 00 00 00
 # 
-name: PreCh
+name: Prech
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -112,7 +112,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1F 00 00 00
 # 
-name: EManual
+name: Emanual
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -130,31 +130,31 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 58 00 00 00
 # 
-name: Red/A
+name: Red/a
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 6C 00 00 00
 # 
-name: Green/B
+name: Green/b
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 14 00 00 00
 # 
-name: Yellow/C
+name: Yellow/c
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 15 00 00 00
 # 
-name: Blue/D
+name: Blue/d
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 16 00 00 00
 # 
-name: PicSize
+name: Picsize
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -166,7 +166,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 28 00 00 00
 # 
-name: Ad/Subt.
+name: Ad/subt.
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -196,7 +196,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4A 00 00 00
 # 
-name: FastForward
+name: Fastforward
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

@@ -4,31 +4,31 @@ Version: 1
 # EliteLux L32HD1000
 # by sealldeveloper
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 15 EA 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1B E4 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1A E5 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 19 E6 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -58,7 +58,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 0E F1 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -166,7 +166,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 4F B0 00 00
 # 
-name: YouTube
+name: Youtube
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -202,13 +202,13 @@ protocol: NECext
 address: 00 7F 00 00
 command: 47 B8 00 00
 # 
-name: PlayPause
+name: Playpause
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 4A B5 00 00
 # 
-name: FastForward
+name: Fastforward
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

@@ -10,7 +10,7 @@ Version: 1
 # 65PUS7956
 # 70PUS7956
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -178,31 +178,31 @@ protocol: RC6
 address: 00 00 00 00
 command: 9F 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC6
 address: 00 00 00 00

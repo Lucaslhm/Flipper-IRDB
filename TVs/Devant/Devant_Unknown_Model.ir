@@ -1,31 +1,31 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 0D F2 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 44 BB 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 43 BC 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 0E F1 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -61,19 +61,19 @@ protocol: NECext
 address: 00 BF 00 00
 command: 48 B7 00 00
 # 
-name: Play_Pause
+name: Play_pause
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 89 76 00 00
 # 
-name: YouTube
+name: Youtube
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: AA 55 00 00
 # 
-name: NETFLIX
+name: Netflix
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

@@ -3,37 +3,37 @@ Version: 1
 #
 # TCL LED49D2930
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 54 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: FC 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: B4 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 34 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: F4 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
@@ -123,31 +123,31 @@ protocol: RCA
 address: 0F 00 00 00
 command: 60 00 00 00
 # 
-name: Arrow_UP
+name: Arrow_up
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 9A 00 00 00
 # 
-name: Arrow_DOWN
+name: Arrow_down
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 1A 00 00 00
 # 
-name: Arrow_LEFT
+name: Arrow_left
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 6A 00 00 00
 # 
-name: Arrow_RIGHT
+name: Arrow_right
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: EA 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
@@ -165,13 +165,13 @@ protocol: RCA
 address: 0F 00 00 00
 command: E4 00 00 00
 # 
-name: SmartTV
+name: Smarttv
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 57 00 00 00
 # 
-name: YouTube
+name: Youtube
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
@@ -201,25 +201,25 @@ protocol: RCA
 address: 0F 00 00 00
 command: 3C 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 00 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 17 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 27 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: RCA
 address: 0F 00 00 00

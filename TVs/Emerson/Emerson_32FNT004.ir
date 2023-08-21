@@ -3,7 +3,7 @@ Version: 1
 # 
 # Emerson TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
@@ -15,31 +15,31 @@ protocol: NECext
 address: 84 E0 00 00
 command: 40 BF 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 50 AF 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 51 AE 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 60 9F 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 61 9E 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
@@ -93,7 +93,7 @@ protocol: NECext
 address: 84 E0 00 00
 command: 9B 64 00 00
 # 
-name: Mode_PicSound
+name: Mode_picsound
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
@@ -105,7 +105,7 @@ protocol: NECext
 address: 84 E0 00 00
 command: 9E 61 00 00
 # 
-name: Picture_Size
+name: Picture_size
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
@@ -117,13 +117,13 @@ protocol: NECext
 address: 84 E0 00 00
 command: 22 DD 00 00
 # 
-name: SAP
+name: Sap
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 65 9A 00 00
 # 
-name: Prev_Ch
+name: Prev_ch
 type: parsed
 protocol: NECext
 address: 84 E0 00 00

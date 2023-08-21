@@ -1,25 +1,25 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 46 B9 00 00
 # 
-name: USB
+name: Usb
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 14 EB 00 00
 # 
-name: P Mode
+name: P_mode
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 47 B8 00 00
 # 
-name: S Mode
+name: S_mode
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -109,31 +109,31 @@ protocol: NECext
 address: 02 7D 00 00
 command: 41 BE 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0C F3 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 19 E6 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0F F0 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 5A A5 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -145,7 +145,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 4B B4 00 00
 # 
-name: MTS
+name: Mts
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -205,7 +205,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 4D B2 00 00
 # 
-name: Ch List
+name: Ch_list
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -217,7 +217,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 0D F2 00 00
 # 
-name: Play Pause
+name: Play_pause
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -247,13 +247,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 55 AA 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 54 AB 00 00
 # 
-name: V Chip
+name: V_chip
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -265,7 +265,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 58 A7 00 00
 # 
-name: Add_Erase
+name: Add_erase
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

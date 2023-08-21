@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 0A F5 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -43,25 +43,25 @@ protocol: NECext
 address: 00 7F 00 00
 command: 0D F2 00 00
 # 
-name: CH_List
+name: Ch_list
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 4B B4 00 00
 # 
-name: EPG
+name: Epg
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 4A B5 00 00
 # 
-name: FAV
+name: Fav
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 4F B0 00 00
 # 
-name: TV_Radio
+name: Tv_radio
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -187,13 +187,13 @@ protocol: NECext
 address: 00 7F 00 00
 command: 10 EF 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1E E1 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -211,19 +211,19 @@ protocol: NECext
 address: 00 7F 00 00
 command: 11 EE 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1F E0 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 5C A3 00 00
 # 
-name: Play_Pause
+name: Play_pause
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -259,7 +259,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 5D A2 00 00
 # 
-name: TV_TXT
+name: Tv_txt
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -277,7 +277,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 15 EA 00 00
 # 
-name: Nicam_A2
+name: Nicam_a2
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
