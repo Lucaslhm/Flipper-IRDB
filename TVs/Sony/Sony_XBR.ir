@@ -7,7 +7,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 2E 00 00 00
 # 
-name: Power
+name: Power_off
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
