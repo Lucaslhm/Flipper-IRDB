@@ -73,7 +73,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 53 00 00 00
 # 
-name: Mute_unmute
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
