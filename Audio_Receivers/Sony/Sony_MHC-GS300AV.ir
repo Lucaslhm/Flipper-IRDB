@@ -21,7 +21,7 @@ protocol: SIRC15
 address: 10 00 00 00
 command: 27 00 00 00
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC15
 address: 10 00 00 00
@@ -105,13 +105,13 @@ protocol: SIRC15
 address: 10 00 00 00
 command: 7A 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC15
 address: 10 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC15
 address: 10 00 00 00

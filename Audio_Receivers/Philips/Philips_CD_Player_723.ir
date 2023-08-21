@@ -3,19 +3,19 @@ Version: 1
 # 
 # For Phillips CD-723 Player
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 14 00 00 00
 command: 0C 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 14 00 00 00
 command: 11 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 14 00 00 00

@@ -3,7 +3,7 @@ Version: 1
 # 
 # Pyle 4 Channel Receiver P2203ABTU
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -33,13 +33,13 @@ protocol: NEC
 address: 00 00 00 00
 command: 1B 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 0F 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -81,7 +81,7 @@ protocol: NEC
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 00 00 00 00

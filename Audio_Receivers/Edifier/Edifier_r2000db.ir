@@ -3,7 +3,7 @@ Version: 1
 # 
 # Edifier R2000DB Audio Receiver
 #
-name: PWR
+name: Power
 type: parsed
 protocol: NECext
 address: 10 E7 00 00
@@ -21,19 +21,19 @@ protocol: NECext
 address: 10 E7 00 00
 command: 14 EB 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 10 E7 00 00
 command: 0C F3 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 10 E7 00 00
 command: 09 F6 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 10 E7 00 00

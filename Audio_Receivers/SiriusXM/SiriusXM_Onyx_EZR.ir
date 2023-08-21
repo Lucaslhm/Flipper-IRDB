@@ -63,7 +63,7 @@ protocol: RC5X
 address: 1B 00 00 00
 command: 1B 00 00 00
 # 
-name: mute
+name: Mute
 type: parsed
 protocol: RC5X
 address: 1B 00 00 00

@@ -3,7 +3,7 @@ Version: 1
 # 
 # Sony STRDH590 audio receiver
 #
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
@@ -171,19 +171,19 @@ protocol: SIRC20
 address: 10 01 00 00
 command: 73 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 13 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00

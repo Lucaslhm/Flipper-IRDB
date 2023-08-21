@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 30 FC 00 00
@@ -157,7 +157,7 @@ protocol: NECext
 address: 30 FC 00 00
 command: 1A E5 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 30 FC 00 00
@@ -175,13 +175,13 @@ protocol: NECext
 address: 30 FC 00 00
 command: 42 BD 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 30 FC 00 00
 command: 0D F2 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 30 FC 00 00

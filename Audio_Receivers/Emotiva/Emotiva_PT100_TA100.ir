@@ -3,7 +3,7 @@ Version: 1
 #
 # Emotiva BasX PT-100 and TA-100
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 79 00 00
@@ -33,7 +33,7 @@ protocol: NECext
 address: 00 79 00 00
 command: DA 25 00 00
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 79 00 00

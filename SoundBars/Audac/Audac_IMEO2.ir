@@ -15,7 +15,7 @@ protocol: NECext
 address: 86 FF 00 00
 command: 21 DE 00 00
 #
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 86 FF 00 00

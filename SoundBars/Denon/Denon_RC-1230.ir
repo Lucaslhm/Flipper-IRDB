@@ -3,13 +3,13 @@ Version: 1
 #
 # TESTED on Denon DHT-S316
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Kaseikyo
 address: 52 54 32 00
 command: 83 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Kaseikyo
 address: 52 54 32 00
@@ -45,13 +45,13 @@ protocol: Kaseikyo
 address: 52 54 32 00
 command: C2 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: 52 54 32 00
 command: 84 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: 52 54 32 00
