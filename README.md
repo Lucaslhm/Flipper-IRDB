@@ -1,9 +1,8 @@
-<img src="https://github.com/fork-2/Flipper-IRDB/assets/71837281/04949e4f-3a39-4f6a-9524-634b5412ba9c" width="100%" />
+<img src="https://github.com/logickworkshop/Flipper-IRDB/assets/71837281/45975652-d443-4fc1-9fdf-e931ffd20c5d" width="100%" />
 
 <p align="center">
     A maintained collective of different IR files for the <a href="https://flipperzero.one/">Flipper Zero</a>!
 </p>
-
 
 ## Installation
 
@@ -187,7 +186,8 @@ Maintainers / Major contributors include:
                 <sub><b>wdoekes</b>
             </a>
         </td>
+        <td align="center" colspan="2">
+            plus <a href="https://github.com/logickworkshop/Flipper-IRDB/graphs/contributors"><i>MANY</i> others</a>!
+        </td>
     </tr>
 </table>
-
-*plus MANY others!*
