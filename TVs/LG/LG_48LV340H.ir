@@ -3,7 +3,7 @@ Version: 1
 #
 # LG TV 48LV340H
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00

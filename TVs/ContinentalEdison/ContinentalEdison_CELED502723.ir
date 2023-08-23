@@ -3,37 +3,37 @@ Version: 1
 # 
 # Continental Edison CELED502723 TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0D 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -45,13 +45,13 @@ protocol: RC5
 address: 01 00 00 00
 command: 35 00 00 00
 # 
-name: SOURCES
+name: Sources
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 38 00 00 00
 # 
-name: BACK
+name: Back
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -117,193 +117,193 @@ protocol: RC5
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: PREV
+name: Prev
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 22 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 30 00 00 00
 #
-name: EXIT
+name: Exit
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: QUICK_MENU
+name: Quick_menu
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2B 00 00 00
 #
-name: i(nfo)
+name: I(nfo)
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 12 00 00 00
 #  
-name: UP
+name: Up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 16 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: ARROW_EARTH
+name: Arrow_earth
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2E 00 00 00
 # 
-name: FAV1
+name: Fav1
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 3B 00 00 00
 # 
-name: FAV2/SEARCH
+name: Fav2/search
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1A 00 00 00
 # 
-name: VIDEO_PRESETS
+name: Video_presets
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0E 00 00 00
 # 
-name: AUDIO_PRESETS
+name: Audio_presets
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 23 00 00 00
 # 
-name: MEDIAS
+name: Medias
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 39 00 00 00
 # 
-name: SLEEP
+name: Sleep
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2A 00 00 00
 # 
-name: GUIDE
+name: Guide
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2F 00 00 00
 # 
-name: TELETEXT
+name: Teletext
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 3C 00 00 00
 # 
-name: FAVORIS
+name: Favoris
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 28 00 00 00
 # 
-name: FORMAT
+name: Format
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0B 00 00 00
 # 
-name: RECORD
+name: Record
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 33 00 00 00
 # 
-name: PLAY
+name: Play
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 19 00 00 00
 # 
-name: PAUSE
+name: Pause
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 31 00 00 00
 # 
-name: STOP
+name: Stop
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 18 00 00 00
 # 
-name: LANG
+name: Lang
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0F 00 00 00
 # 
-name: REWIND
+name: Rewind
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1B 00 00 00
 # 
-name: FORWARD
+name: Forward
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1C 00 00 00
 # 
-name: TEXT
+name: Text
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1F 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 37 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 36 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 32 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: RC5
 address: 01 00 00 00

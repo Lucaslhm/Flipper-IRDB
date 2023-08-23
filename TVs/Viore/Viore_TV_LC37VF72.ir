@@ -3,37 +3,37 @@ Version: 1
 # 
 # Viore TV LC37VF72
 #
-name: POWERToggle
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: Vol_Mute
+name: Vol_mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -57,31 +57,31 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 68 00 00 00
 # 
-name: DPad_Up
+name: Dpad_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 60 00 00 00
 # 
-name: DPad_Down
+name: Dpad_down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 # 
-name: DPad_Left
+name: Dpad_left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: DPad_Right
+name: Dpad_right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 # 
-name: Back_Recall
+name: Back_recall
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -111,13 +111,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1F 00 00 00
 # 
-name: ChannelList
+name: Channellist
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 26 00 00 00
 # 
-name: ClosedCaption
+name: Closedcaption
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -129,19 +129,19 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 39 00 00 00
 # 
-name: Input_Next
+name: Input_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: MTS
+name: Mts
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 00 00 00 00
 # 
-name: PictureMode
+name: Picturemode
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -153,7 +153,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 24 00 00 00
 # 
-name: SoundMode
+name: Soundmode
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

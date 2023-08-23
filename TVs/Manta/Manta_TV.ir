@@ -3,37 +3,37 @@ Version: 1
 # 
 # Manta TV
 #
-name: On
+name: Power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 00 FF 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 48 B7 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 49 B6 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4B B4 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

@@ -13,13 +13,13 @@ Version: 1
 #
 # Note that IN STOP will factory reset your TV.
 #
-name: IN START
+name: In_start
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: FB 00 00 00
 #
-name: EXIT
+name: Exit
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -85,127 +85,127 @@ protocol: NEC
 address: 04 00 00 00
 command: 19 00 00 00
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 #
-name: P-ONLY
+name: P-only
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: FE 00 00 00
 #
-name: INPUT
+name: Input
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 0B 00 00 00
 #
-name: ARC
+name: Arc
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 79 00 00 00
 #
-name: PSM
+name: Psm
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 4D 00 00 00
 #
-name: P-CHECK
+name: P-check
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: FC 00 00 00
 #
-name: CHECK-S
+name: Check-s
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: FD 00 00 00
 #
-name: SSM
+name: Ssm
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 52 00 00 00
 #
-name: PIP
+name: Pip
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 60 00 00 00
 #
-name: TEXT
+name: Text
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 20 00 00 00
 #
-name: CAP
+name: Cap
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 39 00 00 00
 #
-name: MPX
+name: Mpx
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 0A 00 00 00
 #
-name: INFO
+name: Info
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: AA 00 00 00
 #
-name: STILL
+name: Still
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 65 00 00 00
 #
-name: HDMI HOT
+name: Hdmi_hot
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: A6 00 00 00
 #
-name: USB HOT
+name: Usb_hot
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: EE 00 00 00
 #
-name: PIP PR-
+name: Pip_pr-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 72 00 00 00
 #
-name: PIP PR+
+name: Pip_pr+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 71 00 00 00
 #
-name: SWAP
+name: Swap
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 63 00 00 00
 #
-name: PIP INPUT
+name: Pip_input
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 61 00 00 00
 #
-name: SIMPLINK
+name: Simplink
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -223,13 +223,13 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 #
-name: TILT
+name: Tilt
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: F9 00 00 00
 #
-name: EYE
+name: Eye
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -247,163 +247,163 @@ protocol: NEC
 address: 04 00 00 00
 command: B3 00 00 00
 #
-name: B-TOOTH
+name: B-tooth
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 1F 00 00 00
 #
-name: ADJ
+name: Adj
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: FF 00 00 00
 #
-name: XSTUDIO
+name: Xstudio
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 7C 00 00 00
 #
-name: MENU
+name: Menu
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 43 00 00 00
 #
-name: EXIT
+name: Exit
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 5B 00 00 00
 #
-name: UP
+name: Up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 #
-name: DOWN
+name: Down
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 41 00 00 00
 #
-name: LEFT
+name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 #
-name: RIGHT
+name: Right
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 #
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 #
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 #
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 #
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 #
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 #
-name: RGB
+name: Rgb
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: D5 00 00 00
 #
-name: TV
+name: Tv
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: D6 00 00 00
 #
-name: AV1
+name: Av1
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 5A 00 00 00
 #
-name: AV2
+name: Av2
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: D0 00 00 00
 #
-name: AV3
+name: Av3
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: D1 00 00 00
 #
-name: COMP1
+name: Comp1
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: BF 00 00 00
 #
-name: COMP2
+name: Comp2
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: D4 00 00 00
 #
-name: HDMI1
+name: Hdmi1
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: CE 00 00 00
 #
-name: HDMI2
+name: Hdmi2
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: CC 00 00 00
 #
-name: HDMI3
+name: Hdmi3
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: E9 00 00 00
 #
-name: HDMI4
+name: Hdmi4
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: DA 00 00 00
 #
-name: IN STOP
+name: In_stop
 type: parsed
 protocol: NEC
 address: 04 00 00 00

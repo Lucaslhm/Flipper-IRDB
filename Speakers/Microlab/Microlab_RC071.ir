@@ -4,13 +4,13 @@ Version: 1
 # Device: Microlab SOLO series (4C\5C\6C\7C)
 # Remote model: RC071
 #
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -52,7 +52,7 @@ protocol: NEC
 address: 01 00 00 00
 command: 04 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 01 00 00 00

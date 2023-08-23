@@ -3,13 +3,13 @@ Version: 1
 # 
 # Yamaha RX-A860 Audio Receiver
 #
-name: Vol_Up
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 7A 00 00 00
 command: 1A 00 00 00
 # 
-name: Vol_Down
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 7A 00 00 00

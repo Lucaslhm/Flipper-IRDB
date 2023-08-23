@@ -13,7 +13,7 @@ protocol: NEC
 address: 01 00 00 00
 command: 0E 00 00 00
 # 
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -43,13 +43,13 @@ protocol: NEC
 address: 01 00 00 00
 command: 1D 00 00 00
 # 
-name: Chan_up
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: Chan_dwn
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -199,25 +199,25 @@ protocol: NEC
 address: 01 00 00 00
 command: 55 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 57 00 00 00
 # 
-name: FAV
+name: Fav
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 58 00 00 00
 # 
-name: LIST
+name: List
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 59 00 00 00
 # 
-name: MTS
+name: Mts
 type: parsed
 protocol: NEC
 address: 01 00 00 00

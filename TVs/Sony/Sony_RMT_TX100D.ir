@@ -3,31 +3,31 @@ Version: 1
 # 
 #Sony - RMT-TX100D
 #
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -39,19 +39,19 @@ protocol: SIRC
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: Sync / Menu
+name: Sync_/_menu
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
 command: 58 00 00 00
 # 
-name: Digital/Analog
+name: Digital/analog
 type: parsed
 protocol: SIRC15
 address: 77 00 00 00
 command: 0D 00 00 00
 # 
-name: TV/Radio
+name: Tv/radio
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
@@ -135,25 +135,25 @@ protocol: SIRC
 address: 01 00 00 00
 command: 3F 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 25 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 26 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 27 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
@@ -231,13 +231,13 @@ protocol: SIRC
 address: 01 00 00 00
 command: 3B 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: AUDIO
+name: Audio
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -249,61 +249,61 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 28 00 00 00
 # 
-name: wide
+name: Wide
 type: parsed
 protocol: SIRC15
 address: A4 00 00 00
 command: 3D 00 00 00
 # 
-name: bbw
+name: Bbw
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 1B 00 00 00
 # 
-name: play
+name: Play
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 1A 00 00 00
 # 
-name: ffw
+name: Ffw
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 1C 00 00 00
 # 
-name: bw
+name: Bw
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 3C 00 00 00
 # 
-name: pause
+name: Pause
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 19 00 00 00
 # 
-name: fw
+name: Fw
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 3D 00 00 00
 # 
-name: rec
+name: Rec
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 20 00 00 00
 # 
-name: stop
+name: Stop
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 18 00 00 00
 # 
-name: titlelist
+name: Titlelist
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00

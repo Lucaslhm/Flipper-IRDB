@@ -4,7 +4,7 @@ Version: 1
 # Hisense TV 32A4HAU
 # by sealldeveloper
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -40,31 +40,31 @@ protocol: NECext
 address: 00 BF 00 00
 command: 18 E7 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 15 EA 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 44 BB 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 43 BC 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -76,7 +76,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 20 DF 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -94,7 +94,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 5C A3 00 00
 # 
-name: Pause/Play
+name: Pause/play
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -190,7 +190,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 3A C5 00 00
 # 
-name: ChList
+name: Chlist
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -226,13 +226,13 @@ protocol: NECext
 address: 00 BF 00 00
 command: 6A 95 00 00
 # 
-name: YouTube
+name: Youtube
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: AA 55 00 00
 # 
-name: AmazonPrime
+name: Amazonprime
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -256,19 +256,19 @@ protocol: NECext
 address: 00 BF 00 00
 command: 66 99 00 00
 # 
-name: NBA
+name: Nba
 type: parsed
 protocol: NECext
 address: 00 BA 00 00
 command: 01 FE 00 00
 # 
-name: ABC iView
+name: Abc_iview
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: B1 4E 00 00
 # 
-name: KiD
+name: Kid
 type: parsed
 protocol: NECext
 address: 00 BA 00 00
@@ -280,7 +280,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 2D D2 00 00
 # 
-name: Vidaa TV
+name: Vidaa_tv
 type: parsed
 protocol: NECext
 address: 00 BA 00 00

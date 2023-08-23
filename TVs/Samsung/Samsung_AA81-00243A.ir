@@ -11,55 +11,55 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 3B 00 00 00
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: INFO
+name: Info
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1F 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 60 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 68 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

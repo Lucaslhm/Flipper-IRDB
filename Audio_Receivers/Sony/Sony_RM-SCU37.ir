@@ -7,7 +7,7 @@ Version: 1
 #                  CMT-EH26, CMT-FX205, CMT-NEZ50, HCD-CBX5
 #                  HCD-EX600, MHC-EX600, MHC-EX700, MHC-EX900
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
@@ -43,13 +43,13 @@ protocol: SIRC20
 address: 3A 07 00 00
 command: 7C 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 10 00 00 00

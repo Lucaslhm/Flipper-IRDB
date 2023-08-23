@@ -59,13 +59,13 @@ protocol: NECext
 address: 04 F4 00 00
 command: 28 D7 00 00
 # 
-name: Vol+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 04 F4 00 00
 command: 02 FD 00 00
 # 
-name: Vol-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 04 F4 00 00

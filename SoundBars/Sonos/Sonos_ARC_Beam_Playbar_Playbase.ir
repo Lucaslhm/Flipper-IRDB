@@ -3,13 +3,13 @@ Version: 1
 # 
 # Sonos ARC, Beam, Playbar, and Playbase
 #
-name: VolumeUp
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 80 D9 00 00
 command: 8A 75 00 00
 # 
-name: VolumeDown
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 80 D9 00 00

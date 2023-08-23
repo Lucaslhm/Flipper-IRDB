@@ -3,19 +3,19 @@ Version: 1
 # 
 # Hisense TV ZDB2190126
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 0D F2 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 44 BB 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -51,19 +51,19 @@ protocol: NECext
 address: 00 BF 00 00
 command: 18 E7 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 0E F1 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

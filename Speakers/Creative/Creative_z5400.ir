@@ -3,25 +3,25 @@ Version: 1
 # 
 # Creative Z5400 Speaker
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 10 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 1A 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 0E 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 08 00 00 00

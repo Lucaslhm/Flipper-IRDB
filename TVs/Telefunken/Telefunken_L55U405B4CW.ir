@@ -7,103 +7,103 @@ Version: 1
 # On JMB/Bush non Smart TV's 
 # SMART_HOME will not work.
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 21 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 16 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 35 00 00 00
 # 
-name: BACK
+name: Back
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0A 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: SMART_HOME
+name: Smart_home
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2E 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 38 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 30 00 00 00
 # 
-name: Q-MENU
+name: Q-menu
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2B 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -169,121 +169,121 @@ protocol: RC5
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: CH_LIST
+name: Ch_list
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 26 00 00 00
 # 
-name: PREV_CH
+name: Prev_ch
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 22 00 00 00
 # 
-name: INFO
+name: Info
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: USB
+name: Usb
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 39 00 00 00
 # 
-name: P_GUIDE
+name: P_guide
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2F 00 00 00
 # 
-name: 1ST_CH
+name: 1st_ch
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 3B 00 00 00
 # 
-name: CH_NET_TYPE
+name: Ch_net_type
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1A 00 00 00
 # 
-name: LANG
+name: Lang
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0F 00 00 00
 # 
-name: SUBTITLE
+name: Subtitle
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1F 00 00 00
 # 
-name: ASPECT
+name: Aspect
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0B 00 00 00
 # 
-name: REWIND
+name: Rewind
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1B 00 00 00
 # 
-name: PAUSE
+name: Pause
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 31 00 00 00
 # 
-name: PLAY
+name: Play
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 19 00 00 00
 # 
-name: F_FORWARD
+name: F_forward
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1C 00 00 00
 # 
-name: STOP
+name: Stop
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 18 00 00 00
 # 
-name: RECORD
+name: Record
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 33 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 37 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 36 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 32 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: RC5
 address: 01 00 00 00

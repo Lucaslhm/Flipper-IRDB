@@ -10,19 +10,19 @@ protocol: NECext
 address: 00 FD 00 00
 command: 01 FE 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 FD 00 00
 command: 03 FC 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 FD 00 00
 command: 09 F6 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 FD 00 00

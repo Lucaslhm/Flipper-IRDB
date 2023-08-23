@@ -3,7 +3,7 @@ Version: 1
 # 
 # Teufel Cinibase Soundbar
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: EF 01 00 00
@@ -33,19 +33,19 @@ protocol: NECext
 address: EF 01 00 00
 command: 48 B7 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: EF 01 00 00
 command: 14 EB 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: EF 01 00 00
 command: 13 EC 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: EF 01 00 00

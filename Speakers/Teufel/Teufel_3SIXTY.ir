@@ -3,25 +3,25 @@ Version: 1
 # 
 # Teufel 3SIXTY Speakers
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: FD 00 00 00
 command: E2 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: FD 00 00 00
 command: E1 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: FD 00 00 00
 command: E7 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: FD 00 00 00

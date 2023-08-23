@@ -1,44 +1,45 @@
+Filetype: IR signals file
 Version: 1
 # 
 # EdenWood TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0D 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 21 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -104,55 +105,55 @@ protocol: RC5
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 35 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 16 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 30 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: BACK
+name: Back
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0A 00 00 00
 # 
-name: NETFLIX
+name: Netflix
 type: parsed
 protocol: RC5
 address: 01 00 00 00

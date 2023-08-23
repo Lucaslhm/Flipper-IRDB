@@ -3,7 +3,7 @@ Version: 1
 # 
 # Vizio TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -15,25 +15,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 2F 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -93,19 +93,19 @@ protocol: NEC
 address: 04 00 00 00
 command: 49 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: Prev_Ch
+name: Prev_ch
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 1A 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -177,19 +177,19 @@ protocol: NEC
 address: 04 00 00 00
 command: FF 00 00 00
 # 
-name: Picture_Mode
+name: Picture_mode
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 67 00 00 00
 # 
-name: Aspect_Ratio
+name: Aspect_ratio
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 77 00 00 00
 # 
-name: Smartcast_Home
+name: Smartcast_home
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -225,7 +225,7 @@ protocol: NEC
 address: 04 00 00 00
 command: F8 00 00 00
 # 
-name: Heart_Radio
+name: Heart_radio
 type: parsed
 protocol: NEC
 address: 04 00 00 00

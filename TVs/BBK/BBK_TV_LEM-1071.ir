@@ -4,37 +4,37 @@ Version: 1
 # BBK TV 43LEM-1071/FTS2C
 # Possibly could be used for other LEM-10x models
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 DF 00 00
 command: 1C E3 00 00
 #
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 DF 00 00
 command: 4B B4 00 00
 #
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 DF 00 00
 command: 4F B0 00 00
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 DF 00 00
 command: 08 F7 00 00
 #
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 DF 00 00
 command: 09 F6 00 00
 #
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 DF 00 00

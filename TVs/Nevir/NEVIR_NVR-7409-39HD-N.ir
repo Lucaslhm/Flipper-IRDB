@@ -45,25 +45,25 @@ protocol: NEC
 address: 01 00 00 00
 command: 1A 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0E 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0F 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -81,61 +81,61 @@ protocol: NEC
 address: 01 00 00 00
 command: 16 00 00 00
 # 
-name: NEC_00
+name: Nec_00
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: NEC_01
+name: Nec_01
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 01 00 00 00
 # 
-name: NEC_02
+name: Nec_02
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 02 00 00 00
 # 
-name: NEC_03
+name: Nec_03
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 03 00 00 00
 # 
-name: NEC_04
+name: Nec_04
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 04 00 00 00
 # 
-name: NEC_05
+name: Nec_05
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 05 00 00 00
 # 
-name: NEC_06
+name: Nec_06
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 06 00 00 00
 # 
-name: NEC_07
+name: Nec_07
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 07 00 00 00
 # 
-name: NEC_08
+name: Nec_08
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 08 00 00 00
 # 
-name: NEC_09
+name: Nec_09
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -159,19 +159,19 @@ protocol: NEC
 address: 01 00 00 00
 command: 5E 00 00 00
 # 
-name: TV_Radio
+name: Tv_radio
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 41 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 17 00 00 00
 # 
-name: EPG
+name: Epg
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -195,7 +195,7 @@ protocol: NEC
 address: 01 00 00 00
 command: 40 00 00 00
 # 
-name: Audio_I_II
+name: Audio_i_ii
 type: parsed
 protocol: NEC
 address: 01 00 00 00

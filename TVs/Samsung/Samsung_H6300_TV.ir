@@ -3,7 +3,7 @@ Version: 1
 # 
 # Samsung H6300 TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -75,49 +75,49 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 11 00 00 00
 # 
-name: TTX_MIX
+name: Ttx_mix
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 2C 00 00 00
 # 
-name: PRE_CH
+name: Pre_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 13 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: CH_List
+name: Ch_list
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -147,31 +147,31 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1F 00 00 00
 # 
-name: Smart_Hub
+name: Smart_hub
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 79 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 60 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -219,7 +219,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 16 00 00 00
 # 
-name: Soccer_Mode
+name: Soccer_mode
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -237,19 +237,19 @@ protocol: Samsung32
 address: 07 00 00 00
 command: D2 00 00 00
 # 
-name: E_Manual
+name: E_manual
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 3F 00 00 00
 # 
-name: P_Size
+name: P_size
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 3E 00 00 00
 # 
-name: AD_Subt
+name: Ad_subt
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

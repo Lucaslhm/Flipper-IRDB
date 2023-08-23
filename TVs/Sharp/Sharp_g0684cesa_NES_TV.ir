@@ -4,43 +4,43 @@ Version: 1
 # Remote model G0684CESA used with Sharp 19SV111 "Nintendo Television"
 #
 # Pg1 - Common
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 28 00 00 00
 command: 0B 00 00 00
 # 
-name: Game On/Off
+name: Game_on/off
 type: parsed
 protocol: NEC
 address: 28 00 00 00
 command: 14 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 28 00 00 00
 command: 0C 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 28 00 00 00
 command: 0D 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 28 00 00 00
 command: 0E 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 28 00 00 00
 command: 0F 00 00 00
 # Pg2 - Others
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 28 00 00 00
@@ -70,13 +70,13 @@ protocol: NEC
 address: 28 00 00 00
 command: 11 00 00 00
 # 
-name: SleepCall
+name: Sleepcall
 type: parsed
 protocol: NEC
 address: 28 00 00 00
 command: 1D 00 00 00
 #
-name: FlashBack
+name: Flashback
 type: parsed
 protocol: NEC
 address: 28 00 00 00

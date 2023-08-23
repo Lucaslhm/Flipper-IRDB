@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 52 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 53 00 00 00
 # 
-name: MTS_Audio
+name: Mts_audio
 type: parsed
 protocol: NEC
 address: 20 00 00 00
@@ -25,13 +25,13 @@ protocol: NEC
 address: 20 00 00 00
 command: 46 00 00 00
 # 
-name: PMode
+name: Pmode
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 1D 00 00 00
 # 
-name: SMode
+name: Smode
 type: parsed
 protocol: NEC
 address: 20 00 00 00
@@ -115,7 +115,7 @@ protocol: NEC
 address: 20 00 00 00
 command: 07 00 00 00
 # 
-name: EPG
+name: Epg
 type: parsed
 protocol: NEC
 address: 20 00 00 00
@@ -205,31 +205,31 @@ protocol: NEC
 address: 20 00 00 00
 command: 4A 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 02 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 09 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 03 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 41 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 20 00 00 00
@@ -247,13 +247,13 @@ protocol: NEC
 address: 20 00 00 00
 command: 45 00 00 00
 # 
-name: F_List
+name: F_list
 type: parsed
 protocol: NEC
 address: 20 00 00 00
 command: 12 00 00 00
 # 
-name: C_List
+name: C_list
 type: parsed
 protocol: NEC
 address: 20 00 00 00

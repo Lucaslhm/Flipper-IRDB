@@ -19,7 +19,7 @@ protocol: NEC
 address: 00 00 00 00
 command: 41 00 00 00
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 00 00 00 00

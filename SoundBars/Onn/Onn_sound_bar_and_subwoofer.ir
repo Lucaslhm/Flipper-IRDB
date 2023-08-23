@@ -3,19 +3,19 @@ Version: 1
 # 
 # Onn Soundbar and subwoofer
 # 
-name: Volume_up
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 83 22 00 00
 command: 16 E9 00 00
 # 
-name: Volume_down
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 83 22 00 00
 command: 0F F0 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 83 22 00 00
@@ -81,7 +81,7 @@ protocol: NECext
 address: 83 22 00 00
 command: 08 F7 00 00
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 83 22 00 00

@@ -4,7 +4,7 @@ Version: 1
 # Samsung Smart Remote used on The Frame TVs
 # Usually the remote connects to the OneConnect via bluetooth, but can also detect IR.
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -52,31 +52,31 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1222 1189 432 591 434 890 438 2385 439 585 440 1483 431 2092 439 1484 441 583 432 2092 439 884 434 2390 435 86917 331 925 330 373 338 642 331
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1253 1157 464 560 465 858 460 2364 460 563 462 1462 463 1761 467 1156 465 1159 462 2661 467 1456 469 1155 466 86886 331 925 330 373 328 652 331
 # 
-name: CH-
+name: Ch_prev
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -88,13 +88,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1229 1182 439 585 440 883 435 2389 436 588 437 1486 439 2085 436 887 431 2692 436 2088 433 1790 438 585 440 86312 306 950 306 398 302 677 306
 # 
-name: Play/Pause
+name: Play/pause
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1225 1186 435 588 437 887 441 2382 432 591 434 1490 435 2389 436 2688 440 883 435 1189 432 891 437 1786 432 86616 302 954 301 402 309 671 301
 # 
-name: Multi_View
+name: Multi_view
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -112,13 +112,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1254 1157 464 559 466 858 460 2364 460 563 462 1461 464 2660 468 2356 468 1455 470 554 460 1463 462 562 463 87185 334 921 334 369 331 648 304
 # 
-name: Prime_Video
+name: Prime_video
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1223 1187 466 558 435 888 440 2383 442 583 431 1491 434 2690 438 2386 438 1785 433 591 434 1190 431 2392 464 85385 306 950 336 367 302 677 327
 # 
-name: Samsung_TV_plus
+name: Samsung_tv_plus
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

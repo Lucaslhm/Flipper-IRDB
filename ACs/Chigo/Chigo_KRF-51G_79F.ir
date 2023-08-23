@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Model: Chigo CS-21H3A-B155 / KRF-51G/79F
+# AC Chigo KRF-51G/79F
 #
 name: OFF
 type: raw

@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -73,31 +73,31 @@ protocol: NEC
 address: 04 00 00 00
 command: 53 00 00 00
 # 
-name: Mute_Unmute
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -151,25 +151,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 43 00 00 00
 # 
-name: Red_Button
+name: Red_button
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 72 00 00 00
 # 
-name: Green_Button
+name: Green_button
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 71 00 00 00
 # 
-name: Yellow_Button
+name: Yellow_button
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 63 00 00 00
 # 
-name: Blue_Button
+name: Blue_button
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -181,19 +181,19 @@ protocol: NEC
 address: 04 00 00 00
 command: 56 00 00 00
 # 
-name: Prime_Video
+name: Prime_video
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 5C 00 00 00
 # 
-name: Disney_Plus
+name: Disney_plus
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 31 00 00 00
 # 
-name: Rakuten_TV
+name: Rakuten_tv
 type: parsed
 protocol: NEC
 address: 04 00 00 00

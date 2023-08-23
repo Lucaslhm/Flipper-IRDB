@@ -4,37 +4,37 @@ Version: 1
 # Platinum TV PT2020LED
 # by sealldeveloper
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 15 EA 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1B E4 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1A E5 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 16 E9 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 19 E6 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -130,19 +130,19 @@ protocol: NECext
 address: 00 7F 00 00
 command: 00 FF 00 00
 # 
-name: DTV_ATV
+name: Dtv_atv
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 0B F4 00 00
 # 
-name: PMODE
+name: Pmode
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1D E2 00 00
 # 
-name: SMODE
+name: Smode
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -184,25 +184,25 @@ protocol: NECext
 address: 00 7F 00 00
 command: 14 EB 00 00
 # 
-name: EPG
+name: Epg
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 55 AA 00 00
 # 
-name: Lang_Audio
+name: Lang_audio
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 17 E8 00 00
 # 
-name: RecList
+name: Reclist
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 40 BF 00 00
 # 
-name: Fav_List
+name: Fav_list
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -220,7 +220,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 41 BE 00 00
 # 
-name: ChList
+name: Chlist
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

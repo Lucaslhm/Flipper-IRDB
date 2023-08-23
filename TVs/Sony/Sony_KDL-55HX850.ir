@@ -3,7 +3,7 @@ Version: 1
 # 
 # Sony TV KDL-55HX850
 #
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

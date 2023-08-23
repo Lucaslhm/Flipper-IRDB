@@ -3,25 +3,25 @@ Version: 1
 #
 # Logitech Z906
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 02 A0 00 00
 command: 80 7F 00 00
 #
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 02 A0 00 00
 command: AA 55 00 00
 #
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 02 A0 00 00
 command: 6A 95 00 00
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 02 A0 00 00

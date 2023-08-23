@@ -13,7 +13,7 @@ protocol: Kaseikyo
 address: A0 02 20 00
 command: 00 02 00 00
 # 
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 00

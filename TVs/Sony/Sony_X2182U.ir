@@ -5,13 +5,13 @@ Version: 1
 # Remote: RM-887
 # remote came with X2182U, but may actually be for a newer Trinitron TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -84,7 +84,7 @@ address: 01 00 00 00
 command: 08 00 00 00
 # 
 # not sure what SIRC_1D does, label is -/--
-name: SIRC_1D
+name: Sirc_1d
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -97,14 +97,14 @@ address: 01 00 00 00
 command: 09 00 00 00
 # 
 # not sure what SIRC_3B does, label was a circle of two arrows, like a sync icon
-name: SIRC_3B
+name: Sirc_3b
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 3B 00 00 00
 # 
 #not sure what SIRC_38 does, label was a rounded square
-name: SIRC_38
+name: Sirc_38
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -174,25 +174,25 @@ protocol: SIRC
 address: 03 00 00 00
 command: 4F 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

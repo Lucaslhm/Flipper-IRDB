@@ -3,25 +3,25 @@ Version: 1
 # 
 # Polk Audio Soundbar MagniFi Mini. Remote: POLK-RE9641
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: C8 91 00 00
 command: 00 FF 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: C8 91 00 00
 command: 20 DF 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: C8 91 00 00
 command: 1E E1 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: C8 91 00 00

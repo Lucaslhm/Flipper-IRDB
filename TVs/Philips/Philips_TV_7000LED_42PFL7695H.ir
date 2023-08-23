@@ -1,19 +1,19 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -79,13 +79,13 @@ protocol: RC6
 address: 00 00 00 00
 command: 00 00 00 00
 # 
-name: Screen_Settings
+name: Screen_settings
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 4B 00 00 00
 # 
-name: Screen_Size
+name: Screen_size
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -115,7 +115,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 70 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -127,7 +127,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 0A 00 00 00
 # 
-name: III
+name: Iii
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -157,7 +157,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 5B 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -181,7 +181,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 4C 00 00 00
 # 
-name: return
+name: Return
 type: parsed
 protocol: RC6
 address: 00 00 00 00

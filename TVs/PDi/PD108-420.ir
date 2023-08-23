@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 00 00 00 00
@@ -19,19 +19,19 @@ protocol: RC5
 address: 00 00 00 00
 command: 3B 00 00 00
 # 
-name: TV/AV
+name: Tv/av
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: TV/FM
+name: Tv/fm
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 24 00 00 00
 # 
-name: CH List
+name: Ch_list
 type: parsed
 protocol: RC5
 address: 00 00 00 00
@@ -49,43 +49,43 @@ protocol: RC5
 address: 00 00 00 00
 command: 2B 00 00 00
 # 
-name: Ch+_UpArrow
+name: Ch+_uparrow
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: Ch-_DownArrow
+name: Ch-_downarrow
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 21 00 00 00
 # 
-name: VOL-_LeftArrow
+name: Vol-_leftarrow
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: VOL+_RightArrow
+name: Vol+_rightarrow
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 25 00 00 00
 # 
-name: ARC
+name: Arc
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 1A 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: RC5
 address: 00 00 00 00
@@ -115,19 +115,19 @@ protocol: RC5
 address: 00 00 00 00
 command: 14 00 00 00
 # 
-name: PSM
+name: Psm
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0E 00 00 00
 # 
-name: SSM
+name: Ssm
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: SAP
+name: Sap
 type: parsed
 protocol: RC5
 address: 00 00 00 00

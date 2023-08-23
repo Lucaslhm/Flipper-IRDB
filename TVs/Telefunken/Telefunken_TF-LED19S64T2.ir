@@ -3,85 +3,85 @@ Version: 1
 # 
 # Telefunken TF-LED19S64T2 TV
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 15 EA 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 16 E9 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1B E4 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1A E5 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 19 E6 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 18 E7 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 12 ED 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 11 EE 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 0C F3 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 0D F2 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 0F F0 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 0E F1 00 00
 # 
-name: ENTER
+name: Enter
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 10 EF 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

@@ -3,43 +3,43 @@ Version: 1
 # 
 # Philips 14PT136B/00 TV
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: PUP
+name: Pup
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: PDOWN
+name: Pdown
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 21 00 00 00
 # 
-name: PP
+name: Pp
 type: parsed
 protocol: RC5
 address: 00 00 00 00
@@ -69,7 +69,7 @@ protocol: RC5X
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: _SETUP_
+name: _setup_
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
