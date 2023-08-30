@@ -1,0 +1,216 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote RM-R52 for Sony RCD-W500C, Deck B
+#
+# Captured by: emptythevoid
+#
+name: Play_mode
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 17 00 00 00
+# 
+name: Sbm
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 60 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 26 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC20
+address: 3A 13 00 00
+command: 18 00 00 00
+# 
+name: Scroll
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 19 00 00 00
+# 
+name: Time
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 18 00 00 00
+# 
+name: Menu_no
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 6A 00 00 00
+# 
+name: Name_edit_select
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 3C 00 00 00
+# 
+name: Yes
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 6B 00 00 00
+# 
+name: 1
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 00 00 00 00
+# 
+name: 2
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 01 00 00 00
+# 
+name: 3
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 02 00 00 00
+# 
+name: 4
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 03 00 00 00
+# 
+name: 5
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 04 00 00 00
+# 
+name: 6
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 05 00 00 00
+# 
+name: 7
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 06 00 00 00
+# 
+name: 8
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 07 00 00 00
+# 
+name: 9
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 08 00 00 00
+# 
+name: 10_0
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 09 00 00 00
+# 
+name: 10_+
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 0A 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 0F 00 00 00
+# 
+name: Input
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 66 00 00 00
+# 
+name: Normal
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 63 00 00 00
+# 
+name: High
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 64 00 00 00
+# 
+name: Finalize
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 50 00 00 00
+# 
+name: Erase
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 5A 00 00 00
+# 
+name: Rec
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 2D 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 2A 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 29 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 28 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 20 00 00 00
+# 
+name: Next
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 21 00 00 00
+# 
+name: Rev
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 2B 00 00 00
+# 
+name: Ff
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 2C 00 00 00
+# 
+name: Rec_fader
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 68 00 00 00
