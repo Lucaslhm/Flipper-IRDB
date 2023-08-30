@@ -1,0 +1,228 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote model 159917600
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: Source_search
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8C 73 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 94 6B 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 70 8F 00 00
+# 
+name: Usb
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 76 89 00 00
+# 
+name: Lan
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 74 8B 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9A 65 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A1 5E 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A2 5D 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A3 5C 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A4 5B 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A5 5A 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A6 59 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A7 58 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A8 57 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A9 56 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A0 5F 00 00
+# 
+name: Esc
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 84 7B 00 00
+# 
+name: User
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9F 60 00 00
+# 
+name: Pointer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9B 64 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 85 7A 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B0 4F 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B3 4C 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B1 4E 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B2 4D 00 00
+# 
+name: Page_up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 86 79 00 00
+# 
+name: Page_down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 87 78 00 00
+# 
+name: Ezoom_in
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 88 77 00 00
+# 
+name: Ezoom_out
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 89 76 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 98 67 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+# 
+name: Av_mute
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 93 6C 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: Help
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 95 6A 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9E 61 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8A 75 00 00
+# 
+name: Color_mode
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8F 70 00 00
