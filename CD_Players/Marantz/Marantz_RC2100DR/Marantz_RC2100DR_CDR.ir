@@ -1,0 +1,222 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Marantz remote RC2100DR in CD-R mode
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 0C 00 00 00
+# 
+name: Tray
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 2D 00 00 00
+# 
+name: Door
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 892 884 1780 1769 893 883 1781 1772 1754 5346 1755 1795 866 909 1755 1796 1754 910 863 908 867 909 866 908 867 908 867 76355 867 910 1754 1794 867 909 1755 1795 1755 5346 1755 1796 865 909 1755 1795 1755 908 866 908 867 910 865 910 865 908 867
+# 
+name: Repeat
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 1D 00 00 00
+# 
+name: Prog
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 24 00 00 00
+# 
+name: Random
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 1C 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 00 00 00 00
+# 
+name: Display
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 0F 00 00 00
+# 
+name: Scroll
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 0B 00 00 00
+# 
+name: Cdr
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 3F 00 00 00
+# 
+name: Cd
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3F 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RC5X
+address: 1A 00 00 00
+command: 12 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 21 00 00 00
+# 
+name: Next
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 20 00 00 00
+# 
+name: Cancel
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 31 00 00 00
+# 
+name: Rev
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 32 00 00 00
+# 
+name: Ff
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 34 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 30 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 36 00 00 00
+# 
+name: Play
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 35 00 00 00
+# 
+name: Tr_incr
+type: parsed
+protocol: RC5X
+address: 1A 00 00 00
+command: 32 00 00 00
+# 
+name: Rec
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 37 00 00 00
+# 
+name: Rec_type
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 891 884 1780 1770 891 883 1781 1770 1780 5321 891 883 1781 1770 891 883 892 884 1780 881 893 1771 1780 1771 1779 76330 890 885 1755 1793 893 884 1756 1795 1755 5345 891 884 1756 1796 890 884 891 884 1756 906 892 1772 1755 1795 1755
+# 
+name: Source
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 38 00 00 00
+# 
+name: Scan
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 2B 00 00 00
+# 
+name: Dimmer
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1781 881 920 1744 919 856 1781 1767 1783 4432 919 854 921 854 921 1743 920 855 920 855 1782 881 920 856 919 855 920 855 920 854 921 76301 1782 883 918 1742 921 857 1780 1768 1782 4430 921 853 922 853 922 1742 921 855 920 856 1781 880 921 856 919 854 921 854 921 855 920
+# 
+name: Enter
+type: parsed
+protocol: RC5X
+address: 1A 00 00 00
+command: 17 00 00 00
