@@ -1,0 +1,302 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Dvd_power
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+# 
+name: Tv_power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+# 
+name: Tv_video
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 00 00 00
+# 
+name: Tv_chan_up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 03 00 00
+# 
+name: Tv_chan_down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
+# 
+name: Tv_vol_up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+# 
+name: Tv_vol_down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 10 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 20 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 70 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 80 01 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 90 01 00 00
+# 
+name: Ch_up
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 03 00 00
+# 
+name: Ch_down
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 03 00 00
+# 
+name: Add_del_ch
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 03 00 00
+# 
+name: Delete
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 40 00 00 00
+# 
+name: Cancel_asterisk
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 30 00 00 00
+# 
+name: Input_select
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 00 01 00 00
+# 
+name: Skip_back
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 90 00 00 00
+# 
+name: Skip_forward
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: A0 00 00 00
+# 
+name: Slow_back
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 00 00 00
+# 
+name: Slow_forward
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: A0 00 00 00
+# 
+name: Time_slip
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: B0 00 00 00
+# 
+name: Cm_skip
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: C0 00 00 00
+# 
+name: Direct_navigator
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: B0 01 00 00
+# 
+name: Schedule
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: C0 03 00 00
+# 
+name: Functions
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 70 01 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 50 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 70 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 80 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 60 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 00 00 00
+# 
+name: Sub_menu
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 00 00 00 00
+# 
+name: Return
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 10 00 00 00
+# 
+name: Audio
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 03 00 00
+# 
+name: Display
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 01 00 00
+# 
+name: Create_chapter
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 80 01 00 00
+# 
+name: Setup
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 40 01 00 00
+# 
+name: Rec
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 80 00 00 00
+# 
+name: Rec_mode
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 10 01 00 00
+# 
+name: Status
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: F0 01 00 00
+# 
+name: F_rec
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 03
+command: 70 00 00 00
