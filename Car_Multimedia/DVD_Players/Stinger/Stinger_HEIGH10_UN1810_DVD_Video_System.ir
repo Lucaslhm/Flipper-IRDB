@@ -1,0 +1,246 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote for Stinger HEIGH10 UN1810 DVD Video System Navigation Receiver
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 03 FC 00 00
+# 
+name: Open
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 01 FE 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 05 FA 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 08 F7 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 1B E4 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 1D E2 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 51 AE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 52 AD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 53 AC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 54 AB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 55 AA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 56 A9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 57 A8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 58 A7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 59 A6 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 50 AF 00 00
+# 
+name: Navi_av
+type: parsed
+protocol: NECext
+address: 83 3B 00 00
+command: 02 FD 00 00
+# 
+name: Srch
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 5F A0 00 00
+# 
+name: Band
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 0A F5 00 00
+# 
+name: Set
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 5F A0 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 1C E3 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 26 D9 00 00
+# 
+name: Pic
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 27 D8 00 00
+# 
+name: Tag
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 04 FB 00 00
+# 
+name: Title
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 05 FA 00 00
+# 
+name: Root
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 04 FB 00 00
+# 
+name: Rpt
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 18 E7 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 0F F0 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 0E F1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 0C F3 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 0D F2 00 00
+# 
+name: Ent
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 1E E1 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 15 EA 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 14 EB 00 00
+# 
+name: Rew
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 63 9C 00 00
+# 
+name: Ff
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 62 9D 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NECext
+address: 86 60 00 00
+command: 28 D7 00 00
+# 
+name: Audio
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 5D A2 00 00
+# 
+name: Angle
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 5E A1 00 00
+# 
+name: Sub_t
+type: parsed
+protocol: NECext
+address: 87 61 00 00
+command: 5C A3 00 00

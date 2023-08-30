@@ -1,0 +1,138 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote for Vizio M-series (M70Q6-J03)
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 2F 00 00 00
+# 
+name: Peacock
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 51 00 00 00
+# 
+name: Netflix
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EB 00 00 00
+# 
+name: Prime_video
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EA 00 00 00
+# 
+name: Disney+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1F 00 00 00
+# 
+name: Crackle
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F8 00 00 00
+# 
+name: Tubi
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5A 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 2D 00 00 00
+# 
+name: Settings
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4F 00 00 00
+# 
+name: Watchfree
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F7 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 45 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 47 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 48 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 46 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4A 00 00 00
+# 
+name: Cc
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 39 00 00 00
+# 
+name: Mic
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00

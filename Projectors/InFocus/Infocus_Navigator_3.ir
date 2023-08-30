@@ -1,0 +1,108 @@
+Filetype: IR signals file
+Version: 1
+# 
+# InFocus Navigator 3 projector remote. Tested on InFocus IN3116 projector
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 17 E8 00 00
+# 
+name: Help
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 0A F5 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 02 FD 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 13 EC 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 11 EE 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 12 ED 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 14 EB 00 00
+# 
+name: Select
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 32 CD 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 08 F7 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 04 FB 00 00
+# 
+name: Custom
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 2B D4 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 10 EF 00 00
+# 
+name: Blank
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 31 CE 00 00
+# 
+name: Presets
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 2C D3 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 29 D6 00 00
+# 
+name: Auto_image
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 33 CC 00 00
+# 
+name: Resize
+type: parsed
+protocol: NECext
+address: 87 4E 00 00
+command: 34 CB 00 00

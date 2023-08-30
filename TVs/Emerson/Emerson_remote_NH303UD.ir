@@ -1,0 +1,199 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote model Emerson NH303UD.
+# Tested on Emerson (FUNAI) LF501EM4 TV
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 40 BF 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 83 7C 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 9E 61 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 22 DD 00 00
+# 
+name: Pic_size
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 90 6F 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 01 FE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 02 FD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 03 FC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 04 FB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 05 FA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 06 F9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 07 F8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 08 F7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 09 F6 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 00 FF 00 00
+# 
+name: Prev_ch
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 57 A8 00 00
+# 
+name: .
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 1B E4 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 60 9F 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 61 9E 00 00
+# 
+name: Sap
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 65 9A 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 64 9B 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 50 AF 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 51 AE 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 78 87 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 70 8F 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 9B 64 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 73 8C 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 76 89 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 75 8A 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 74 8B 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 77 88 00 00
