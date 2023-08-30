@@ -1,0 +1,138 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Panasonic remote N2QAEC000017 for a Panasonic MiniDV Camera
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 03
+command: C0 00 00 00
+# 
+name: Ext_display
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 01
+command: 70 01 00 00
+# 
+name: Photo_shot
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 01
+command: 60 02 00 00
+# 
+name: Date_time
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 01
+command: 70 02 00 00
+# 
+name: Audio_dub
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: 90 00 00 00
+# 
+name: Zoom_t
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 01
+command: 20 02 00 00
+# 
+name: Zoom_w
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 01
+command: 30 02 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: A0 00 00 00
+# 
+name: Rec
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: 80 00 00 00
+# 
+name: Rew
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: 20 00 00 00
+# 
+name: Ff
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: 30 00 00 00
+# 
+name: Still_adv_bck
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: 70 00 00 00
+# 
+name: Still_adv_fwd
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: F0 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: 60 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 00
+command: 00 00 00 00
+# 
+name: Var_search
+type: parsed
+protocol: Kaseikyo
+address: 79 02 20 02
+command: 00 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 01
+command: 60 01 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 79 02 20 03
+command: 00 01 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 79 02 20 03
+command: 30 01 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 79 02 20 03
+command: 20 01 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 79 02 20 03
+command: 10 01 00 00
+# 
+name: Enter
+type: parsed
+protocol: Kaseikyo
+address: 78 02 20 01
+command: 80 01 00 00
