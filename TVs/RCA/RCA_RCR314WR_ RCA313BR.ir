@@ -11,13 +11,13 @@ protocol: NECext
 address: 86 05 00 00
 command: 0F F0 00 00
 # 
-name: Ch_up
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 0A F5 00 00
 # 
-name: Ch_dn
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 86 05 00 00
@@ -96,12 +96,6 @@ address: 86 05 00 00
 command: 09 F6 00 00
 # 
 name: Mute
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 0E F1 00 00
-# 
-name: Mute_fix
 type: parsed
 protocol: NECext
 address: 86 05 00 00
