@@ -1,0 +1,180 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote model IR 903 that works with the Extron IN1508 Input Scaling Switcher
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Swap
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: 1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: 4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: 5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: 6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: 7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: 8
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Video_mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Audio_mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: Av_mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: Size
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 41 00 00 00
+# 
+name: Center
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+# 
+name: Cont_bri
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Col_tint
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Pan
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Aspect_ratio
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+# 
+name: Sharp
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 49 00 00 00
+# 
+name: Phase
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
