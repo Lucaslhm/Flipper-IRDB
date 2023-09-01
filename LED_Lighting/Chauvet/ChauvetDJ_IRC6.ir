@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# ChauvetDJ IRC-enabled LED lights
+#
 name: Black_out
 type: raw
 frequency: 38000
