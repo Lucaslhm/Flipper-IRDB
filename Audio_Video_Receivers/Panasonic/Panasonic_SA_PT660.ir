@@ -1,0 +1,288 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Panasonic remote N2QAYB000210 for Panasonic SA-PT660 home theater system
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: D1 03 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 01 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 11 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 21 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 31 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 41 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 51 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 61 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 71 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 81 01 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 91 01 00 00
+# 
+name: Tv_power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+# 
+name: Tv_video
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 00 00 00
+# 
+name: Tv_vol_up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+# 
+name: Tv_vol_down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: Dvd_2nd_select
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 30 02 00 00
+# 
+name: Ipod
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: B0 01 00 00
+# 
+name: Fm_am_ext_in
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: 40 02 00 00
+# 
+name: One_touch_play
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 01
+command: A2 01 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+# 
+name: Disc
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 42 02 00 00
+# 
+name: 10
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 41 00 00 00
+# 
+name: Skip_back
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 91 00 00 00
+# 
+name: Skip_fwd
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: A1 00 00 00
+# 
+name: Slow_back
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: 22 00 00 00
+# 
+name: Slow_fwd
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: 32 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: 02 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: 62 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: A2 00 00 00
+# 
+name: Top_menu
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: B2 02 00 00
+# 
+name: Start
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: B1 02 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: 42 03 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: 72 03 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: 62 03 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 00
+command: 52 03 00 00
+# 
+name: Ok
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: 62 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: 02 00 00 00
+# 
+name: Return
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: 42 00 00 00
+# 
+name: Functions
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 01
+command: 72 01 00 00
+# 
+name: Dlp_ii
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 40 03 00 00
+# 
+name: Repeat
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: B2 03 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 71 01 00 00
+# 
+name: Cancel
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 02 00 00 00
+# 
+name: Sound
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 31 00 00 00
+# 
+name: Subwoofer_level
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 03
+command: 50 01 00 00
+# 
+name: Muting
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00

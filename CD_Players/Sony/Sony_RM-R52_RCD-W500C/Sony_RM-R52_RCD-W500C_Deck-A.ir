@@ -1,0 +1,186 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote RM-R52 for Sony RCD-W500C, Deck A
+#
+# Captured by: emptythevoid
+#
+name: Play_mode
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 6C 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 2C 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC20
+address: 3A 13 00 00
+command: 18 00 00 00
+# 
+name: Scroll
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 7E 00 00 00
+# 
+name: Time
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 28 00 00 00
+# 
+name: Yes
+type: parsed
+protocol: SIRC20
+address: 3A 13 00 00
+command: 4A 00 00 00
+# 
+name: 1
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 00 00 00 00
+# 
+name: 2
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 01 00 00 00
+# 
+name: 3
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 02 00 00 00
+# 
+name: 4
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 03 00 00 00
+# 
+name: 5
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 04 00 00 00
+# 
+name: 6
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 05 00 00 00
+# 
+name: 7
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 06 00 00 00
+# 
+name: 8
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 07 00 00 00
+# 
+name: 9
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 08 00 00 00
+# 
+name: 10_0
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 20 00 00 00
+# 
+name: 10+
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 27 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 0F 00 00 00
+# 
+name: Normal
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 63 00 00 00
+# 
+name: High
+type: parsed
+protocol: SIRC20
+address: 5A 19 00 00
+command: 64 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 32 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 39 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 38 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 30 00 00 00
+# 
+name: Next
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 31 00 00 00
+# 
+name: Rev
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 33 00 00 00
+# 
+name: Ff
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 34 00 00 00
+# 
+name: Disc_skip
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 3E 00 00 00
+# 
+name: Album+
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 67 00 00 00
+# 
+name: Album-
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 66 00 00 00
