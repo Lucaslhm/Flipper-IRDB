@@ -186,7 +186,14 @@ Maintainers / Major contributors include:
                 <sub><b>wdoekes</b>
             </a>
         </td>
-        <td align="center" colspan="2">
+        <td align="center" valign="top" width="14.28%">
+            <a href="https://github.com/emptythevoid">
+                <img src="https://avatars.githubusercontent.com/emptythevoid?v=3?s=100" width="100px;" alt="emptythevoid" />
+                <br />
+                <sub><b>emptythevoid</b>
+            </a>
+        </td>
+        <td align="center" valign="center" width="14.28%">
             plus <a href="https://github.com/logickworkshop/Flipper-IRDB/graphs/contributors"><i>MANY</i> others</a>!
         </td>
     </tr>
