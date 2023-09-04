@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+#
+# DeLonghi Pinguino - PAC EL290HLWKC-1A BK
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 6B 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 66 00 00 00
+# 
+name: Quiet_Mode
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 64 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 65 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 68 00 00 00
+# 
+name: Fan+
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 6C 00 00 00
+# 
+name: Fan-
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 6A 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 69 00 00 00
+# 
+name: Fan_Angle
+type: parsed
+protocol: NEC
+address: 81 00 00 00
+command: 67 00 00 00
