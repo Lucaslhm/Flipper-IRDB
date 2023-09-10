@@ -1,0 +1,77 @@
+Filetype: IR signals file
+Version: 1
+#
+# Mecool KM6 Streaming Device
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 12 00 00 00
+#
+name: Home
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 48 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 04 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 4F 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 02 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0C 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 43 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1B 00 00 00
+#
+name: Vol+
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: F5 00 00 00
+#
+name: Vol-
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: F4 00 00 00
+#

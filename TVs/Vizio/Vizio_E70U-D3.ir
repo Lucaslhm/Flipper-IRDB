@@ -1,0 +1,73 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote for Vizio E70U-D3 TV Panel
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 2F 00 00 00
+# 
+name: Link
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+# 
+name: Image
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 77 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 37 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: Pic
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 67 00 00 00
+# 

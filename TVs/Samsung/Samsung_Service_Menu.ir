@@ -17,14 +17,26 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1A 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
+#
+name: Factory
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3B 00 00 00
+#
+name: 3speed
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3C 00 00 00

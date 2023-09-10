@@ -1,0 +1,270 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Panasonic remote EUR7621070. Likely goes with DVD player DVD-S25
+#
+# Captured by: emptythevoid
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 03
+command: B0 02 00 00
+# 
+name: Setup
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 40 01 00 00
+# 
+name: Eject
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 10 00 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 10 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 20 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 70 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 80 01 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 90 01 00 00
+# 
+name: Greater_10
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 90 00 00 00
+# 
+name: A_srd
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: E0 01 00 00
+# 
+name: Picture_mode
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 03
+command: 00 00 00 00
+# 
+name: Fl_select
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 60 03 00 00
+# 
+name: Group
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 03
+command: 00 02 00 00
+# 
+name: Cancel
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 30 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 90 00 00 00
+# 
+name: Next
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: A0 00 00 00
+# 
+name: Rev
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 00 00 00
+# 
+name: Ff
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: A0 00 00 00
+# 
+name: Top_menu
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: B0 01 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 00 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 50 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 70 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 80 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 60 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 00 00 00
+# 
+name: Display
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 01 00 00
+# 
+name: Return
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 10 00 00 00
+# 
+name: Subtitle
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 10 01 00 00
+# 
+name: Audio
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 03 00 00
+# 
+name: Angle
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 00 01 00 00
+# 
+name: Quick_replay
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: B0 00 00 00
+# 
+name: Play_mode
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: D0 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 03
+command: 10 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: C0 00 00 00
+# 
+name: Position_memory
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 60 00 00 00

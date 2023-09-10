@@ -3,19 +3,19 @@ Version: 1
 # 
 # Gigabyte AORUS TV Monitor
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 1A 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00

@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# For JBL Bar 5.1 Surround - 550-Watt 5.1 Channel Soundbar with 10" Wireless Subwoofer
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 84 74 00 00
+command: FF 00 00 00
+# 
+name: TV
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: B9 46 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: BA 45 00 00
+# 
+name: Bass
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: EC 13 00 00
+# 
+name: HDMI
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: F2 0D 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C7 38 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C8 37 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C1 3E 00 00

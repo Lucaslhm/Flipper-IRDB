@@ -3,7 +3,7 @@ Version: 1
 # 
 # Samsung TV UE32F4000AW
 #
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -15,13 +15,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL-n
+name: Vol-n
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -39,7 +39,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

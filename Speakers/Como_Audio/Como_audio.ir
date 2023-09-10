@@ -67,7 +67,7 @@ protocol: NEC
 address: 77 00 00 00
 command: FB 00 00 00
 # 
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 77 00 00 00

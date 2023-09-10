@@ -5,25 +5,25 @@ Version: 1
 # Remote: Toshiba Model RM-V329
 # INTRO_SCAN, REPEAT, MEMORY, STOP, PLAY_PAUSE, EJECT, PREV and NEXT buttons are only for CD (XR-9219 only)
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 2D D3 00 00
 command: 12 ED 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 2D D3 00 00
 command: 11 EE 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 2D D3 00 00
 command: 10 EF 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 2D D3 00 00

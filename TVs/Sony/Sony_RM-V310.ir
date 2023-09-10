@@ -5,37 +5,37 @@ Version: 1
 # Programming - https://www.remotecentral.com/v310/program.htm
 # Manual - https://www.sony.com/electronics/support/res/manuals/2674/26748621M.pdf
 #
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 13 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: SIRC
 address: 10 00 00 00
 command: 14 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 10 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
@@ -47,7 +47,7 @@ protocol: SIRC
 address: 0D 00 00 00
 command: 33 00 00 00
 # 
-name: TV_VID
+name: Tv_vid
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -113,37 +113,37 @@ protocol: SIRC
 address: 10 00 00 00
 command: 7D 00 00 00
 # 
-name: ENTER
+name: Enter
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 0C 00 00 00
 # 
-name: REWIND
+name: Rewind
 type: parsed
 protocol: SIRC
 address: 11 00 00 00
 command: 33 00 00 00
 # 
-name: PLAY
+name: Play
 type: parsed
 protocol: SIRC
 address: 11 00 00 00
 command: 32 00 00 00
 # 
-name: FASTFWD
+name: Fastfwd
 type: parsed
 protocol: SIRC
 address: 11 00 00 00
 command: 34 00 00 00
 # 
-name: STOP
+name: Stop
 type: parsed
 protocol: SIRC
 address: 11 00 00 00
 command: 38 00 00 00
 # 
-name: PAUSE
+name: Pause
 type: parsed
 protocol: SIRC
 address: 11 00 00 00

@@ -4,13 +4,13 @@ Version: 1
 # Bauhn TV ATV_50HD4
 # by sealldeveloper
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 1E E1 00 00
 # 
-name: TV_Radio
+name: Tv_radio
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -40,7 +40,7 @@ protocol: NECext
 address: 01 72 00 00
 command: 40 BF 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -70,31 +70,31 @@ protocol: NECext
 address: 01 72 00 00
 command: 19 E6 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 0A F5 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 06 F9 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 5C A3 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 48 B7 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -172,13 +172,13 @@ protocol: NECext
 address: 01 72 00 00
 command: 4C B3 00 00
 # 
-name: S.Mode
+name: S.mode
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 0B F4 00 00
 # 
-name: P.Mode
+name: P.mode
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -190,13 +190,13 @@ protocol: NECext
 address: 01 72 00 00
 command: 07 F8 00 00
 # 
-name: dSetup
+name: Dsetup
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 60 9F 00 00
 # 
-name: PgNum
+name: Pgnum
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -238,7 +238,7 @@ protocol: NECext
 address: 01 72 00 00
 command: 52 AD 00 00
 # 
-name: EPG
+name: Epg
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -256,7 +256,7 @@ protocol: NECext
 address: 01 72 00 00
 command: 59 A6 00 00
 # 
-name: Play/Pause
+name: Play/pause
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -274,7 +274,7 @@ protocol: NECext
 address: 01 72 00 00
 command: 43 BC 00 00
 # 
-name: FastForward
+name: Fastforward
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -292,25 +292,25 @@ protocol: NECext
 address: 01 72 00 00
 command: 4A B5 00 00
 # 
-name: Red/Goto
+name: Red/goto
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 55 AA 00 00
 # 
-name: Green/Angle
+name: Green/angle
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 56 A9 00 00
 # 
-name: Yellow/Repeat
+name: Yellow/repeat
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 57 A8 00 00
 # 
-name: Blue/A->B
+name: Blue/a->b
 type: parsed
 protocol: NECext
 address: 01 72 00 00

@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: An_Aus
+name: An_aus
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 00 00 00 00
@@ -25,13 +25,13 @@ protocol: RC5
 address: 00 00 00 00
 command: 14 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 18 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 00 00 00 00
@@ -67,7 +67,7 @@ protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: RC5
 address: 00 00 00 00

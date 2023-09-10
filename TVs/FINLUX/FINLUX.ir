@@ -3,13 +3,13 @@ Version: 1
 #
 # FINLUX TV iR by JEREMYNO
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -75,61 +75,61 @@ protocol: RC5
 address: 01 00 00 00
 command: 00 00 00 00
 # 
-name: LANGUAGE
+name: Language
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0F 00 00 00
 # 
-name: TXT
+name: Txt
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 3C 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 11 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0D 00 00 00
 # 
-name: HOME
+name: Home
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 30 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 21 00 00 00
 # 
-name: GUIDE
+name: Guide
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2F 00 00 00
 # 
-name: INFO
+name: Info
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -159,19 +159,19 @@ protocol: RC5
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 35 00 00 00
 # 
-name: BACK
+name: Back
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0A 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -213,25 +213,25 @@ protocol: RC5
 address: 01 00 00 00
 command: 18 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 37 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 36 00 00 00
 # 
-name: YELOW
+name: Yelow
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 32 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: RC5
 address: 01 00 00 00

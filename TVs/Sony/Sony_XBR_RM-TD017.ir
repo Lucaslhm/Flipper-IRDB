@@ -3,37 +3,37 @@ Version: 1
 # 
 # Sony XBR TV (RM-TD017)
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 12 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -123,7 +123,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 5C 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: SIRC15
 address: A4 00 00 00
@@ -141,7 +141,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 3B 00 00 00
 # 
-name: DMex
+name: Dmex
 type: parsed
 protocol: SIRC15
 address: 1A 00 00 00
@@ -255,7 +255,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 1A 00 00 00
 # 
-name: Fast_Fwd
+name: Fast_fwd
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00

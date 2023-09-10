@@ -13,7 +13,7 @@ protocol: NEC
 address: 20 00 00 00
 command: 14 00 00 00
 # 
-name: Vol_dwn
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 20 00 00 00

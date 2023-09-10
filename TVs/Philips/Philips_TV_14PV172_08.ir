@@ -4,37 +4,37 @@ Version: 1
 # Philips 14PV172/08 CRT TV with VCR
 # To enter the service menu hold STOP on remote and PLAY on the tv for 5 seconds
 #
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5X
 address: 00 00 00 00
 command: 15 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: RC5
 address: 00 00 00 00
@@ -52,7 +52,7 @@ protocol: RC5
 address: 05 00 00 00
 command: 36 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 00 00 00 00
@@ -142,61 +142,61 @@ protocol: RC5
 address: 05 00 00 00
 command: 31 00 00 00
 # 
-name: RC5_01
+name: Rc5_01
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: RC5_02
+name: Rc5_02
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
 # 
-name: RC5_03
+name: Rc5_03
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: RC5_04
+name: Rc5_04
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: RC5_05
+name: Rc5_05
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 05 00 00 00
 # 
-name: RC5_06
+name: Rc5_06
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
 # 
-name: RC5_07
+name: Rc5_07
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
 # 
-name: RC5_08
+name: Rc5_08
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
 # 
-name: RC5_09
+name: Rc5_09
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: RC5_00
+name: Rc5_00
 type: parsed
 protocol: RC5
 address: 00 00 00 00

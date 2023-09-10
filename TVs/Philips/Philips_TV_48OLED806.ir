@@ -3,7 +3,7 @@ Version: 1
 # 
 # Philips TV 48OLED806
 #
-name: On_Off
+name: On_off
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -15,13 +15,13 @@ protocol: RC6
 address: 00 00 00 00
 command: 8F 00 00 00
 # 
-name: Prime Video
+name: Prime_video
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: BA 00 00 00
 # 
-name: Philips Collection
+name: Philips_collection
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -33,7 +33,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 76 00 00 00
 # 
-name: Rakuten TV
+name: Rakuten_tv
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -75,7 +75,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 59 00 00 00
 # 
-name: ENTER
+name: Enter
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -93,7 +93,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 54 00 00 00
 # 
-name: TV Guide
+name: Tv_guide
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -111,7 +111,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 2C 00 00 00
 # 
-name: Fast Forward
+name: Fast_forward
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -159,37 +159,37 @@ protocol: RC6
 address: 00 00 00 00
 command: 70 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 9F 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC6
 address: 00 00 00 00

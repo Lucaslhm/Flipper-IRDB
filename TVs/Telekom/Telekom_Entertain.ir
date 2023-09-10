@@ -3,7 +3,7 @@ Version: 1
 # 
 # Telekom Entertain Remote (IPTV Box, German ISP)
 #
-name: POWER
+name: Power
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -123,7 +123,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 334 627 288 287 639 294 309 592 313 291 645 589 638 593 645 587 640 291 312 584 321 282 644
 # 
-name: EPG
+name: Epg
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -171,19 +171,19 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 327 606 320 284 642 290 313 590 315 288 638 597 641 589 316 287 639 592 313 289 314 288 315 287 639
 # 
-name: VOL+
+name: Vol_up
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 331 601 314 289 647 285 308 595 320 282 644 591 647 584 321 282 644 587 318 285 641 290 313 583 332
 # 
-name: VOL-
+name: Vol_dn
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 330 632 294 281 645 288 315 585 320 284 642 593 645 585 320 284 642 589 649 583 644 586 329
 # 
-name: MUTE
+name: Mute
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -195,13 +195,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 327 635 291 285 641 292 311 591 314 289 637 598 640 591 314 289 637 595 643 289 314 282 311 585 330
 # 
-name: CH+
+name: Ch_next
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 334 628 287 289 647 285 308 593 322 307 619 589 649 582 323 280 646 586 641 589 316 287 639 89967 331 602 313 290 646 286 307 595 320 283 643 591 647 584 321 282 644 588 639 591 314 288 638
 # 
-name: CH-
+name: Ch_prev
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -213,7 +213,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 327 606 320 284 642 290 313 589 316 287 639 596 642 590 637 593 312 290 313 290 646 585 642
 # 
-name: Play_Pause
+name: Play_pause
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

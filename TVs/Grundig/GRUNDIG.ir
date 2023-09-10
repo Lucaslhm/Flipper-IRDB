@@ -3,73 +3,73 @@ Version: 1
 # 
 # Grundig TV (unknown model)
 #
-name: POWER
+name: Power
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 21 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0D 00 00 00
 # 
-name: INPUT
+name: Input
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 12 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 17 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 13 00 00 00
 # 
-name: ENTER
+name: Enter
 type: parsed
 protocol: RC5
 address: 00 00 00 00

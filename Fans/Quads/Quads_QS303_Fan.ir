@@ -1,0 +1,53 @@
+Filetype: IR signals file
+Version: 1
+#
+# QUADS QS303 (DUO AIR) Fan
+# https://quads.co.jp/product/duo-air/
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 88 00 00 00
+# 
+name: Dry_clothing
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 86 00 00 00
+# 
+name: Osc_vert
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 95 00 00 00
+# 
+name: Osc_horiz
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 83 00 00 00
+# 
+name: Speed_up
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 8C 00 00 00
+# 
+name: Speed_down
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 87 00 00 00
+# 
+name: On_timer
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 85 00 00 00
+# 
+name: Off_timer
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 9C 00 00 00

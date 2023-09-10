@@ -3,7 +3,7 @@ Version: 1
 #
 # Vizio SoundBar XRS321-C Remote, For models: SS2520-C6 SB3820-C6 SB3821-C6 SB2920-C6 SS2521-C6
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -21,19 +21,19 @@ protocol: NEC
 address: 00 00 00 00
 command: 44 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 41 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 45 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 00 00 00 00

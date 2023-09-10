@@ -85,19 +85,19 @@ protocol: NECext
 address: 7A 85 00 00
 command: 6B 14 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 7A 00 00 00
 command: 1A 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 7A 00 00 00
 command: 1B 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 7A 00 00 00

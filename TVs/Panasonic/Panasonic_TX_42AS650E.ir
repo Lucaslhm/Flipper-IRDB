@@ -3,37 +3,37 @@ Version: 1
 #
 # Panasonic TX-42AS650E
 #
-name: POWER
+name: Power
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 #
-name: MUTE
+name: Mute
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
 #
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
 #
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
 #
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
 #
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
@@ -105,25 +105,25 @@ protocol: Kaseikyo
 address: 80 02 20 02
 command: C0 02 00 00
 #
-name: Last_View
+name: Last_view
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 70 03 00 00
 #
-name: 3D
+name: 3d
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
 command: 70 03 00 00
 #
-name: Input_TV
+name: Input_tv
 type: parsed
 protocol: Kaseikyo
 address: 82 02 20 00
 command: 00 03 00 00
 #
-name: Input_AV
+name: Input_av
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
@@ -141,7 +141,7 @@ protocol: Kaseikyo
 address: 81 02 20 00
 command: 30 00 00 00
 #
-name: STTL
+name: Sttl
 type: parsed
 protocol: Kaseikyo
 address: 81 02 20 00
@@ -249,13 +249,13 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: 30 03 00 00
 #
-name: Fast_Backwards
+name: Fast_backwards
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
 command: 40 00 00 00
 #
-name: Fast_Forward
+name: Fast_forward
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
@@ -285,13 +285,13 @@ protocol: Kaseikyo
 address: 89 02 20 03
 command: 50 00 00 00
 #
-name: Skip_Backwards
+name: Skip_backwards
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
 command: C0 01 00 00
 #
-name: Skip_Forward
+name: Skip_forward
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03

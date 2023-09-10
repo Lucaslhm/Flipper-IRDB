@@ -81,19 +81,19 @@ protocol: NECext
 address: D2 6C 00 00
 command: 55 AA 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 02 FD 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 03 FC 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: D2 6D 00 00

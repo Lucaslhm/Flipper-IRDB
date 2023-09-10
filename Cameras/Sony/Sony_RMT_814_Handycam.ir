@@ -1,0 +1,120 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote RMT-814 for Sony Handycam
+#
+# Captured by: emptythevoid
+#
+name: On_off
+type: parsed
+protocol: SIRC15
+address: B9 00 00 00
+command: 19 00 00 00
+# 
+name: Photo
+type: parsed
+protocol: SIRC15
+address: B9 00 00 00
+command: 15 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 5A 00 00 00
+# 
+name: Zero_set_memory
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 47 00 00 00
+# 
+name: Search_mode
+type: parsed
+protocol: SIRC15
+address: B9 00 00 00
+command: 2D 00 00 00
+# 
+name: Sm_back
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 57 00 00 00
+# 
+name: Sm_fwd
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 56 00 00 00
+# 
+name: Data_code
+type: parsed
+protocol: SIRC15
+address: B9 00 00 00
+command: 4C 00 00 00
+# 
+name: Rew
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 1B 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 1A 00 00 00
+# 
+name: Ff
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 1C 00 00 00
+# 
+name: Back
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 30 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 18 00 00 00
+# 
+name: Forward
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 31 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 19 00 00 00
+# 
+name: Slow
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 23 00 00 00
+# 
+name: X2
+type: parsed
+protocol: SIRC
+address: 07 00 00 00
+command: 14 00 00 00
+# 
+name: Telephoto
+type: parsed
+protocol: SIRC15
+address: D9 00 00 00
+command: 1A 00 00 00
+# 
+name: Wide
+type: parsed
+protocol: SIRC15
+address: D9 00 00 00
+command: 1B 00 00 00

@@ -3,103 +3,103 @@ Version: 1
 # 
 # Bush TV VL32HDLED
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: D7 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 80 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 8E 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 83 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 86 00 00 00
 #
-name: PREV_CH
+name: Prev_ch
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: DD 00 00 00
 # 
-name: SOURCE
+name: Source
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: B1 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 92 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: D8 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 97 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 9F 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 9B 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: D4 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: DC 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: DF 00 00 00
 # 
-name: SLEEP
+name: Sleep
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: D5 00 00 00
 # 
-name: SUBTITLE
+name: Subtitle
 type: parsed
 protocol: NEC
 address: 08 00 00 00
@@ -165,133 +165,133 @@ protocol: NEC
 address: 08 00 00 00
 command: D9 00 00 00
 # 
-name: USB
+name: Usb
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 8C 00 00 00
 # 
-name: PMODE
+name: Pmode
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: C2 00 00 00
 # 
-name: SMODE
+name: Smode
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: C1 00 00 00
 # 
-name: AUDIO
+name: Audio
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: C0 00 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: C3 00 00 00
 # 
-name: INFO
+name: Info
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 8A 00 00 00
 # 
-name: CH-LIST
+name: Ch-list
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: A7 00 00 00
 # 
-name: FREEZE
+name: Freeze
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: DB 00 00 00
 # 
-name: ASPECT
+name: Aspect
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 82 00 00 00
 # 
-name: FAV
+name: Fav
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 87 00 00 00
 # 
-name: FAV+
+name: Fav+
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 8B 00 00 00
 # 
-name: FAV-
+name: Fav-
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 8F 00 00 00
 # 
-name: INDEX
+name: Index
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: C7 00 00 00
 # 
-name: TEXT
+name: Text
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 93 00 00 00
 # 
-name: PLAY/PAUSE
+name: Play/pause
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: C8 00 00 00
 # 
-name: STOP
+name: Stop
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 81 00 00 00
 # 
-name: RECORD
+name: Record
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: CC 00 00 00
 # 
-name: SUBPAGE
+name: Subpage
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: D2 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 84 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 88 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: NEC
 address: 08 00 00 00
 command: 94 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: NEC
 address: 08 00 00 00

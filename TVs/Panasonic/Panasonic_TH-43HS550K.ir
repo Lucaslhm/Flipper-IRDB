@@ -4,31 +4,31 @@ Version: 1
 # Panasonic Smart Android TV Remote Control
 # Compatible for Model: TH-32HS550K TH-40GS550K TH-40HS550K TH-43HS550K TH-49GX650K TH-55GX650K TH-65GX650K TH-49GX655K TH-55GX655K TH-65GX655K TH-43HX650K TH-50HX650K TH-65HX650K TH-40GS550K TH-49GS550K TH-55GS550K TH-65GS550K
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 0C 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 42 00 00 00
 # 
-name: DOWN
+name: Down
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 4635 4321 680 512 679 1634 678 1634 626 1687 626 1687 626 1687 626 565 626 565 626 565 626 1687 626 1687 626 1688 625 1689 624 1689 651 564 627 564 627 1686 626 1687 625 566 624 567 624 568 623 568 623 1691 622 569 622 569 622 569 622 1691 622 1691 622 1691 622 1691 622 569 623 1671 622
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 44 00 00 00
 # 
-name: RIGHT
+name: Right
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -58,43 +58,43 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 4614 4344 656 537 654 1657 656 1657 656 1657 656 1658 655 1658 655 537 654 537 654 537 679 1635 653 1659 654 1684 629 1685 628 1685 628 563 628 563 628 1686 626 565 625 1688 624 567 624 1690 623 1690 623 569 622 1691 622 569 622 1691 622 569 622 1691 622 570 621 570 621 1692 621 550 596
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 14 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 15 00 00 00
 # 
-name: OK
+name: Ok
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 4637 4320 681 510 681 1632 681 1632 681 1631 682 1632 681 1659 653 538 652 539 599 592 599 1714 599 1714 599 1714 599 1714 599 1714 599 592 599 592 599 592 599 1714 599 1713 600 591 600 591 600 592 599 1714 599 593 598 1715 622 569 622 569 622 1692 621 1692 621 1692 621 570 621 1673 620 39687 4550 4379 621 1702 621
 # 
-name: NETFLIX
+name: Netflix
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: D5 00 00 00
 # 
-name: P UP
+name: P_up
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 12 00 00 00
 # 
-name: P DOWN
+name: P_down
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 13 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
@@ -244,31 +244,31 @@ protocol: Samsung32
 address: 3E 00 00 00
 command: A3 00 00 00
 # 
-name: TEXT
+name: Text
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: AB 00 00 00
 # 
-name: FAV
+name: Fav
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: AD 00 00 00
 # 
-name: AD
+name: Ad
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 67 00 00 00
 # 
-name: I/II
+name: I/ii
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: AC 00 00 00
 # 
-name: SUBTITLE
+name: Subtitle
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00

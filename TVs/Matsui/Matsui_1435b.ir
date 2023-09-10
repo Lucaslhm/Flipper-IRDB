@@ -9,7 +9,7 @@ protocol: Samsung32
 address: 17 00 00 00
 command: 14 00 00 00
 # 
-name: Sams_0A
+name: Sams_0a
 type: parsed
 protocol: Samsung32
 address: 17 00 00 00
@@ -81,13 +81,13 @@ protocol: Samsung32
 address: 17 00 00 00
 command: 09 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 17 00 00 00
 command: 11 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 17 00 00 00
@@ -111,13 +111,13 @@ protocol: Samsung32
 address: 17 00 00 00
 command: 1F 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 17 00 00 00
 command: 13 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 17 00 00 00
@@ -135,7 +135,7 @@ protocol: Samsung32
 address: 17 00 00 00
 command: 0E 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 17 00 00 00

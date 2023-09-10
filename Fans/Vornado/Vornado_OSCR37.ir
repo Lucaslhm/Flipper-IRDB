@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+#
+# Vornado OSCR37 Oscillating Tower Fan
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: D8 00 00 00
+# 
+name: Speed_Up
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 4F 00 00 00
+# 
+name: Speed_Down
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 47 00 00 00
+# 
+name: Oscillate
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: C3 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 03 00 00 00
+command: 9B 00 00 00

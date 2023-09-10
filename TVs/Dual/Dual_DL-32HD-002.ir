@@ -3,7 +3,7 @@ Version: 1
 # 
 # DUAL DL-32HD-002 TV
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -33,25 +33,25 @@ protocol: NECext
 address: 02 7D 00 00
 command: 49 B6 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4A B5 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4C B3 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0F F0 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -75,13 +75,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 0D F2 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 0C F3 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

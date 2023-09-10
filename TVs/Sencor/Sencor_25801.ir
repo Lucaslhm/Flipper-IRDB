@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0B 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0F 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 21 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 2F 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 2B 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 2C 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 2E 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 2D 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 15 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 30 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 13 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00

@@ -1,49 +1,49 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 # 
-name: 3D
+name: 3d
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
 command: 70 03 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: Kaseikyo
 address: 82 02 20 00
 command: 00 03 00 00
 # 
-name: AV
+name: Av
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 50 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 20 01 00 00
 # 
-name: TEXT
+name: Text
 type: parsed
 protocol: Kaseikyo
 address: 81 02 20 00
 command: 30 00 00 00
 # 
-name: STTL
+name: Sttl
 type: parsed
 protocol: Kaseikyo
 address: 81 02 20 00
 command: 50 00 00 00
 # 
-name: ASPECT
+name: Aspect
 type: parsed
 protocol: Kaseikyo
 address: 84 02 20 03
@@ -55,121 +55,121 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 90 03 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 03
 command: 30 01 00 00
 # 
-name: APPS
+name: Apps
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
 command: F0 00 00 00
 # 
-name: HOME
+name: Home
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
 command: 50 01 00 00
 # 
-name: GUIDE
+name: Guide
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
 command: 70 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: A0 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: B0 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: E0 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: F0 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 90 00 00 00
 # 
-name: OPTION
+name: Option
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
 command: 70 02 00 00
 # 
-name: BACK_RETURN
+name: Back_return
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 03
 command: 40 01 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 00 03 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 10 03 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 20 03 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 01
 command: 30 03 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
@@ -229,7 +229,7 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 80 01 00 00
 # 
-name: HELP
+name: Help
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 02
@@ -241,7 +241,7 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 90 01 00 00
 # 
-name: LASTVIEW
+name: Lastview
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
@@ -277,7 +277,7 @@ protocol: Kaseikyo
 address: 89 02 20 03
 command: 10 00 00 00
 # 
-name: FFWD
+name: Ffwd
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03

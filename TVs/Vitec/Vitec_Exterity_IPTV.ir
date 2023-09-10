@@ -3,13 +3,13 @@ Version: 1
 # 
 # For Vitec (Exterity) IPTV
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NECext
 address: AD ED 00 00
 command: B5 4A 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: NECext
 address: AD ED 00 00
@@ -33,31 +33,31 @@ protocol: NECext
 address: AD ED 00 00
 command: AB 54 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: AD ED 00 00
 command: BA 45 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: AD ED 00 00
 command: BB 44 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NECext
 address: AD ED 00 00
 command: B0 4F 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: AD ED 00 00
 command: B1 4E 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NECext
 address: AD ED 00 00

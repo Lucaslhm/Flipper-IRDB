@@ -4,85 +4,85 @@ Version: 1
 # Model: Samsung LW17E34C LCD TV
 # Remote: Samsung 00225C
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: TV/VIDEO
+name: Tv/video
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 01 00 00 00
 # 
-name: PC
+name: Pc
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 69 00 00 00
 # 
-name: DISPLAY
+name: Display
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1F 00 00 00
 # 
-name: STILL
+name: Still
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 66 00 00 00
 # 
-name: P.STD
+name: P.std
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 28 00 00 00
 # 
-name: S.STD
+name: S.std
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 2B 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1A 00 00 00
 # 
-name: UP/CH+
+name: Up/ch+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: DOWN/CH-
+name: Down/ch-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 # 
-name: LEFT/VOL-
+name: Left/vol-
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: RIGHT/VOL+
+name: Right/vol+
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -154,49 +154,49 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 11 00 00 00
 # 
-name: PRE-CH
+name: Pre-ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 13 00 00 00
 # 
-name: TTX/MIX
+name: Ttx/mix
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 1C 00 00 00
 # 
-name: AUTO
+name: Auto
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: SLEEP
+name: Sleep
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 03 00 00 00
 # 
-name: DUAL I/II
+name: Dual_i/ii
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 00 00 00 00
 # 
-name: LIST/FLOF
+name: List/flof
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 38 00 00 00
 # 
-name: CANCEL
+name: Cancel
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 18 00 00 00
 # 
-name: P.SIZE
+name: P.size
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -208,37 +208,37 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 2F 00 00 00
 # 
-name: SUBPAGE
+name: Subpage
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 32 00 00 00
 # 
-name: PIP
+name: Pip
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 20 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 21 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 14 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 15 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

@@ -1,0 +1,106 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Town Country VES 2008-2013 UConnect DVD Remote Control for Chrysler, Jeep Grand Cherokee, Dodge Journey Caravan Durango
+# 
+name: POWER
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 80 7F 00 00
+# 
+name: Light
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: A0 5F 00 00
+# 
+name: Next_up
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 8A 75 00 00
+# 
+name: Prev_dwn
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 8B 74 00 00
+# 
+name: Forward
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 8D 72 00 00
+# 
+name: Reverse
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 8C 73 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 87 78 00 00
+# 
+name: Setup
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 93 6C 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 92 6D 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 94 6B 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 88 77 00 00
+# 
+name: Slow
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 91 6E 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 90 6F 00 00
+# 
+name: Display
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 86 79 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 81 7E 00 00
+# 
+name: Prog_up
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 84 7B 00 00
+# 
+name: Prog_dwn
+type: parsed
+protocol: NECext
+address: 81 F1 00 00
+command: 85 7A 00 00

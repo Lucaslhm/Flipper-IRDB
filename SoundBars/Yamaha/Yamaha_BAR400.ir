@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 78 00 00 00
 command: CC 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 78 00 00 00
@@ -31,7 +31,7 @@ protocol: NEC
 address: 78 00 00 00
 command: 4D 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 78 00 00 00

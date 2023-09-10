@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Escalade_TV_Power
+name: Escalade_tv_power
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 176 67152 1091
 # 
-name: Play_Pause
+name: Play_pause
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -19,13 +19,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1062 135490 388
 # 
-name: Skip_FWD
+name: Skip_fwd
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 181 1120 131 1539 561
 # 
-name: Skip_BCK
+name: Skip_bck
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

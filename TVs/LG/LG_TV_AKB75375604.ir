@@ -3,37 +3,37 @@ Version: 1
 # 
 # LG TV AKB75375604
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 0F 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 39 00 00 00
 # 
-name: SETTINGS
+name: Settings
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 43 00 00 00
 # 
-name: SEARCH
+name: Search
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 43 00 00 00
 # 
-name: INPUT
+name: Input
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -105,187 +105,187 @@ protocol: NEC
 address: 04 00 00 00
 command: 10 00 00 00
 # 
-name: Q.View
+name: Q.view
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 1A 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: FAV
+name: Fav
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 1E 00 00 00
 # 
-name: INFO
+name: Info
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: AA 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: NETFLIX
+name: Netflix
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 56 00 00 00
 # 
-name: HOME
+name: Home
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 7C 00 00 00
 # 
-name: AMAZON
+name: Amazon
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 5C 00 00 00
 # 
-name: GUIDE
+name: Guide
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: AB 00 00 00
 # 
-name: LIVE_ZOOM
+name: Live_zoom
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: AF 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 41 00 00 00
 # 
-name: BACK
+name: Back
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 28 00 00 00
 # 
-name: EXIT
+name: Exit
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 5B 00 00 00
 # 
-name: SAP/*
+name: Sap/*
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 91 00 00 00
 # 
-name: REC/*
+name: Rec/*
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: BD 00 00 00
 # 
-name: STOP
+name: Stop
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: B1 00 00 00
 # 
-name: << RWD
+name: <<_rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8F 00 00 00
 # 
-name: PLAY
+name: Play
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: B0 00 00 00
 # 
-name: PAUSE
+name: Pause
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: >> FF
+name: >>_ff
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8E 00 00 00
 # 
-name: RED
+name: Red
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 72 00 00 00
 # 
-name: GREEN
+name: Green
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 71 00 00 00
 # 
-name: YELLOW
+name: Yellow
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 63 00 00 00
 # 
-name: BLUE
+name: Blue
 type: parsed
 protocol: NEC
 address: 04 00 00 00

@@ -15,7 +15,7 @@ protocol: RC5
 address: 13 00 00 00
 command: 0D 00 00 00
 # 
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 13 00 00 00

@@ -1,0 +1,29 @@
+Filetype: IR signals file
+Version: 1
+#
+# Compatible with air purifier:
+# - Rohnson R-9400 Fresh Air
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Ion
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00

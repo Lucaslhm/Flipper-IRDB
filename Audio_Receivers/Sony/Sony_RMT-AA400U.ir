@@ -1,0 +1,237 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sony RMT-AA400U Remote Control
+# Compatible with Sony STR-DH190 Stereo Receiver.
+#
+name: POWER
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 15 00 00 00
+#
+name: SLEEP
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 60 00 00 00
+#
+name: VOL+
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 12 00 00 00
+#
+name: VOL-
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 13 00 00 00
+#
+name: MUTE
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 14 00 00 00
+#
+name: PLAY/PAUSE (FM MEMORY)
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 3A 00 00 00
+#
+name: STOP
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 38 00 00 00
+#
+name: FAST REWIND (FM TUNING-)
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 33 00 00 00
+#
+name: FAST FORWARD (FM TUNING+)
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 34 00 00 00
+#
+name: PREVIOUS (FM PRESET-)
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 30 00 00 00
+#
+name: NEXT (FM PRESET+)
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 31 00 00 00
+#
+name: BLUETOOTH
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 71 00 00 00
+#
+name: INPUT 1
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 1D 00 00 00
+#
+name: INPUT 2
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 6C 00 00 00
+#
+name: INPUT 3
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 6E 00 00 00
+#
+name: INPUT 4
+type: parsed
+protocol: SIRC20
+address: 10 0D 00 00
+command: 41 00 00 00
+#
+name: PORTABLE IN
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 75 00 00 00
+#
+name: PHONO
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 20 00 00 00
+#
+name: FM
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 18 00 00 00
+#
+# Tuner Preset 1
+name: FM TUNER 1
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 00 00 00 00
+#
+# Tuner Preset 2
+name: FM TUNER 2
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 01 00 00 00
+#
+# Tuner Preset 3
+name: FM TUNER 3
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 02 00 00 00
+#
+# Bluetooth Pairing
+name: PAIRING BT
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 77 00 00 00
+#
+name: BASS-
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 51 00 00 00
+#
+name: BASS+
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 50 00 00 00
+#
+name: TREBLE-
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 57 00 00 00
+#
+name: TREBLE+
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 56 00 00 00
+#
+name: UP
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 78 00 00 00
+#
+name: DOWN
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 79 00 00 00
+#
+name: LEFT
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7A 00 00 00
+#
+name: RIGHT
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7B 00 00 00
+#
+name: OK
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 0C 00 00 00
+#
+name: BACK
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 7D 00 00 00
+#
+name: DISPLAY
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 4B 00 00 00
+#
+name: DIMMER
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 4D 00 00 00
+#
+name: PURE DIRECT
+type: parsed
+protocol: SIRC20
+address: 10 05 00 00
+command: 79 00 00 00
+#
+name: A/B SPEAKERS
+type: parsed
+protocol: SIRC20
+address: 10 0D 00 00
+command: 60 00 00 00
+#
+name: AMP MENU
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 77 00 00 00

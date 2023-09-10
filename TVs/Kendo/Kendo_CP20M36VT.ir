@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Kendo CP20M36VT TV
+#
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: P+/up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
+# 
+name: P-/down
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Tv
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 3F 00 00 00
+# 
+name: Av
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 38 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 30 00 00 00
+# 
+name: Info
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 12 00 00 00

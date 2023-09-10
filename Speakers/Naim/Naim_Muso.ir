@@ -1,0 +1,77 @@
+Filetype: IR signals file
+Version: 1
+#
+# Naim Muso Gen1 Remote
+# Works on some other models of Naim speaker too
+#
+name: Power
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 0C 00 00 00
+#
+name: Mute
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 0D 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 10 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 11 00 00 00
+#
+name: PlayPause
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 35 00 00 00
+# 
+name: Skip_fwd
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 20 00 00 00
+# 
+name: Skip_bck
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 21 00 00 00
+#
+name: Input_right
+type: parsed
+protocol: RC5X
+address: 15 00 00 00
+command: 00 00 00 00
+#
+name: Input_left
+type: parsed
+protocol: RC5X
+address: 15 00 00 00
+command: 01 00 00 00
+# 
+name: Radio_right
+type: parsed
+protocol: RC5X
+address: 15 00 00 00
+command: 18 00 00 00
+# 
+name: Radio_left
+type: parsed
+protocol: RC5X
+address: 15 00 00 00
+command: 19 00 00 00
+# 
+name: Brightness
+type: parsed
+protocol: RC5X
+address: 15 00 00 00
+command: 07 00 00 00

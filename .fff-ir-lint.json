@@ -1,0 +1,88 @@
+{
+    "name-check": {
+      "$path-prefix": "",
+      "$groups": {
+        "power-toggle": [
+          "/^((power|pwr)[_\\s]*)?(toggle)?$/",
+          "/^((power|pwr)[_\\s]*)?((on[_\\/\\s]*off)|(off[_\\/\\s]*on)|toggle)$/",
+          "/^(turn[_\\s]*)?((on[_\\/\\s]*off)|(off[_\\/\\s]*on))$/"
+        ],
+        "power-off": [
+          "/^((power|pwr)[_\\s]*)?off$/",
+          "/^(turn[_\\s]*)?(off)$/"
+        ],
+        "power-on": [
+          "/^((power|pwr)[_\\s]*)?on$/",
+          "/^(turn[_\\s]*)?(on)$/"
+        ],
+        "vol_up": [
+          "/^vol(ume)?[_\\s]*(up|[\\^+])$/"
+        ],
+        "vol_dn": [
+          "/^vol(ume)?[_\\s]*(d(o?w)?n|[v\\-])$/"
+        ],
+        "ch_next": [
+          "/^ch(an(nel)?)?[_\\s]*(up|[\\^+])$/"
+        ],
+        "ch_prev": [
+          "/^ch(an(nel)?)?[_\\s]*(d(o?w)?n|[\\v-])$/"
+        ],
+        "mute": [
+          "mute",
+          "mte",
+          "/^mute.*$/"
+        ]
+      },
+      "TVs/*": {
+        "Power": [
+          "$group:power-toggle"
+        ],
+        "Power_off": [
+          "$group:power-off"
+        ],
+        "Power_on": [
+          "$group:power-on"
+        ],
+        "Vol_up": [
+          "$group:vol_up"
+        ],
+        "Vol_dn": [
+          "$group:vol_dn"
+        ],
+        "Ch_next": [
+          "$group:ch_next"
+        ],
+        "Ch_prev": [
+          "$group:ch_prev"
+        ],
+        "Mute": [
+          "$group:mute"
+        ]
+      },
+      "ACs/*": {
+        "Off": [
+          "$group:power-off"
+        ]
+      },
+      "Audio_Receivers/*,SoundBars/*,Speakers/*": {
+        "Power": [
+          "$group:power-toggle"
+        ],
+        "Power_off": [
+          "$group:power-off"
+        ],
+        "Power_on": [
+          "$group:power-on"
+        ],
+        "Vol_up": [
+          "$group:vol_up"
+        ],
+        "Vol_dn": [
+          "$group:vol_dn"
+        ],
+        "Mute": [
+          "$group:mute"
+        ]
+      }
+    }
+  }

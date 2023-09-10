@@ -3,95 +3,95 @@ Version: 1
 # 
 # Toshiba CT-9922 TV remote (tested with model: 14CJ1RS)
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 12 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 10 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 1A 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 1E 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 1B 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 1F 00 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 5B 00 00 00
 # 
 # TV/VIDEO select (->o)
-name: SOURCE
+name: Source
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 14 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 1A 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 1E 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 19 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 1D 00 00 00
 #
 # Picture control
-name: PIC_CNTRL
+name: Pic_cntrl
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 18 00 00 00
 # 
 # On-screen (call)
-name: INFO
+name: Info
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 16 00 00 00
 # 
 # Digit select (-/--)
-name: DIGIT
+name: Digit
 type: parsed
 protocol: NEC
 address: 40 00 00 00

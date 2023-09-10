@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -97,7 +97,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 40 00 00 00
 # 
-name: SmartTV
+name: Smarttv
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -127,7 +127,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 30 00 00 00
 # 
-name: FastForward
+name: Fastforward
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -157,25 +157,25 @@ protocol: RC6
 address: 00 00 00 00
 command: 41 00 00 00
 # 
-name: VOL+
+name: Vol_up
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: VOL-
+name: Vol_dn
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: CH+
+name: Ch_next
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 4C 00 00 00
 # 
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -205,7 +205,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 5B 00 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -217,7 +217,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 0A 00 00 00
 # 
-name: DVR
+name: Dvr
 type: parsed
 protocol: RC6
 address: 00 00 00 00

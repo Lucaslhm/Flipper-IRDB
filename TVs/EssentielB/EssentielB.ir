@@ -1,0 +1,71 @@
+Filetype: IR signals file
+Version: 1
+#
+# TV LED ESSENTIELB Android TV
+# Essentiel B is Boulanger's distributor brand
+#
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: FC 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: B4 00 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 34 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: F4 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 74 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 6A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: EA 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 9A 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 1A 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 2F 00 00 00
