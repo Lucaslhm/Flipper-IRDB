@@ -20,13 +20,7 @@ type: parsed
 protocol: NECext
 address: 80 70 00 00
 command: BA 45 00 00
-# 
-name: Bass
-type: parsed
-protocol: NECext
-address: 80 70 00 00
-command: EC 13 00 00
-# 
+#
 name: HDMI
 type: parsed
 protocol: NECext
@@ -50,3 +44,15 @@ type: parsed
 protocol: NECext
 address: 80 70 00 00
 command: C1 3E 00 00
+# 
+name: Bass+
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: EC 13 00 00
+#
+name: Bass-
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: ED 12 00 00
