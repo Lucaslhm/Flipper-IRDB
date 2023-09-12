@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+#
+# Epson EB-L510U/L610W/L610U/L615U Projectors
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 95 6A 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 93 6C 00 00
