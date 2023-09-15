@@ -1,0 +1,322 @@
+Filetype: IR signals file
+Version: 1
+# 
+# ViewSonic Remote Control A-00010219
+# 
+name: POWER
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: SLEEP
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 26 00 00 00
+# 
+name: DISPLAY
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: P.MODE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: S.MODE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 24 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: ALT+TAB
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0B 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: ALT+F4
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 22 00 00 00
+# 
+name: INPUT
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 28 00 00 00
+# 
+name: ASPECT
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 3E 00 00 00
+# 
+name: MENU
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2E 00 00 00
+# 
+name: ALT
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 32 00 00 00
+# 
+name: TAB
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 33 00 00 00
+# 
+name: DESKTOP
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 34 00 00 00
+# 
+name: X
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 35 00 00 00
+# 
+name: D.MENU
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2D 00 00 00
+# 
+name: D.TITLE
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2F 00 00 00
+# 
+name: UP_ARROW
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1C 00 00 00
+# 
+name: LEFT_ARROW
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2C 00 00 00
+# 
+name: RIGHT_ARROW
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2B 00 00 00
+# 
+name: DOWN_ARROW
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1D 00 00 00
+# 
+name: ENTER
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: D.USB
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 30 00 00 00
+# 
+name: D.SETUP
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: CH_NEXT
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
+# 
+name: CH_PREV
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: EPG
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 38 00 00 00
+# 
+name: FAV
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 39 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2E 00 00 00
+# 
+name: F1
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 1E 00 00 00
+# 
+name: F2
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: F3
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 20 00 00 00
+# 
+name: F4
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: F5
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 22 00 00 00
+# 
+name: F6
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 23 00 00 00
+# 
+name: F7
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 24 00 00 00
+# 
+name: F8
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 25 00 00 00
+# 
+name: F9
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 26 00 00 00
+# 
+name: F10
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 27 00 00 00
+# 
+name: F11
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 28 00 00 00
+# 
+name: F12
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 29 00 00 00
