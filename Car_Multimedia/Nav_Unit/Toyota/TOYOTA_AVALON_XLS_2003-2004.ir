@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Toyota Avalon XLS Navigation Unit (2003-2004)
+#
 name: MAP
 type: parsed
 protocol: NECext
