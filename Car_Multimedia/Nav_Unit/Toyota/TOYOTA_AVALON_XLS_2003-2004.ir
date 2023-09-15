@@ -1,0 +1,178 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Toyota Avalon XLS Navigation Unit (2003-2004)
+#
+name: MAP
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: CF 30 00 00
+# 
+name: MENU
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: CE 31 00 00
+# 
+name: BACK
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: CC 33 00 00
+# 
+name: DEST
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: CB 34 00 00
+# 
+name: ENT
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C8 37 00 00
+# 
+name: Top Left
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C7 38 00 00
+# 
+name: Bot Left
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C6 39 00 00
+# 
+name: Bot right
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C5 3A 00 00
+# 
+name: Top Right
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C4 3B 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C3 3C 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C2 3D 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C1 3E 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: C0 3F 00 00
+# 
+name: Minus
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: D1 2E 00 00
+# 
+name: Plus
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: D0 2F 00 00
+# 
+name: INFO
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: 94 6B 00 00
+# 
+name: OFF
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: 89 76 00 00
+# 
+name: 0_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F0 0F 00 00
+# 
+name: 1_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F1 0E 00 00
+# 
+name: 2_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F2 0D 00 00
+# 
+name: 3_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F3 0C 00 00
+# 
+name: 4 Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F4 0B 00 00
+# 
+name: 5_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F5 0A 00 00
+# 
+name: 6_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F6 09 00 00
+# 
+name: 7_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F7 08 00 00
+# 
+name: 8_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F8 07 00 00
+# 
+name: 9_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: F9 06 00 00
+# 
+name: Dash_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: FB 04 00 00
+# 
+name: Back_Num
+type: parsed
+protocol: NECext
+address: 80 44 00 00
+command: FF 00 00 00
