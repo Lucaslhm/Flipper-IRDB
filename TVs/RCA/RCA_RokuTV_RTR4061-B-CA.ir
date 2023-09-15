@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# RCA - Roku TV (Model: RTR4061-B-CA)
+#
 name: Power
 type: raw
 frequency: 38000
