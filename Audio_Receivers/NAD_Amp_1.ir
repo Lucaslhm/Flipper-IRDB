@@ -1,13 +1,13 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: On
+name: Power_on
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 25 DA 00 00
 # 
-name: Off
+name: Power_off
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
@@ -19,13 +19,13 @@ protocol: NECext
 address: 87 7C 00 00
 command: 94 6B 00 00
 # 
-name: Vol_Up
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
 command: 88 77 00 00
 # 
-name: Vol_Down
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 87 7C 00 00
