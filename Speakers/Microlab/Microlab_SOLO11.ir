@@ -1,79 +1,79 @@
 Filetype: IR signals file
 Version: 1
 #
-name: power
+name: Power
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9120 4354 714 1539 660 497 633 499 631 500 630 503 628 503 628 503 629 503 628 503 628 1627 628 1627 628 1627 628 1627 628 1626 628 1627 628 1627 628 1627 628 1627 628 503 628 503 628 503 628 503 628 504 627 503 628 504 627 503 628 1627 628 1628 627 1628 627 1627 628 1627 628 1628 627 40094 9038 2194 628
 #
-name: mute
+name: Mute
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 02 00 00 00
 #
-name: vol_up
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 11 00 00 00
 #
-name: vol_down
+name: Vol_down
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 10 00 00 00
 #
-name: treble_up
+name: Treble_up
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 09 00 00 00
 #
-name: treble_down
+name: Treble_down
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0D 00 00 00
 #
-name: bass_up
+name: Bass_up
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0A 00 00 00
 #
-name: bass_down
+name: Bass_down
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0E 00 00 00
 #
-name: play_pause
+name: Play_pause
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 2C 00 00 00
 #
-name: prev
+name: Prev
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 5A 00 00 00
 #
-name: next
+name: Next
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 5B 00 00 00
 #
-name: input
+name: Input
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 04 00 00 00
 #
-name: reset
+name: Reset
 type: parsed
 protocol: NEC
 address: 01 00 00 00
