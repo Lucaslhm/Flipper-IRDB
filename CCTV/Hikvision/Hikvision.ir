@@ -133,7 +133,7 @@ protocol: NECext
 address: 01 FF 00 00
 command: 46 B9 00 00
 # 
-name: Focus - 
+name: Focus -
 type: parsed
 protocol: NECext
 address: 01 FF 00 00
@@ -145,7 +145,7 @@ protocol: NECext
 address: 01 FF 00 00
 command: 47 B8 00 00
 # 
-name: Zoom - 
+name: Zoom -
 type: parsed
 protocol: NECext
 address: 01 FF 00 00
@@ -234,5 +234,3 @@ type: parsed
 protocol: NECext
 address: 01 FF 00 00
 command: 09 F6 00 00
-
-
