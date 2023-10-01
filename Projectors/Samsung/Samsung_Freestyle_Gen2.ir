@@ -103,7 +103,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: D1 00 00 00
 # 
-name: Samsung_TV 
+name: Samsung_TV
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
