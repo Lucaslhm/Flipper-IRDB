@@ -162,7 +162,7 @@ type: parsed
 protocol: NECext
 address: 01 FF 00 00
 command: 4C B3 00 00
- # 
+# 
 name: Edit
 type: parsed
 protocol: NECext
