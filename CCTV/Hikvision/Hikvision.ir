@@ -1,0 +1,236 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0C F3 00 00
+# 
+name: Dev
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 1F E0 00 00
+# 
+name: Rec
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 1B E4 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 1A E5 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 41 BE 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 1D E2 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 16 E9 00 00
+# 
+name: VOiP/MON
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 15 EA 00 00
+# 
+name: UP -Skip
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0D F2 00 00
+# 
+name: LEFT -REW
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0A F5 00 00
+# 
+name: RIGHT -FF
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0B F4 00 00
+# 
+name: DN -PREV
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0E F1 00 00
+# 
+name: Enter-PP
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0F F0 00 00
+# 
+name: PTZ
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 1C E3 00 00
+# 
+name: ESC
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 14 EB 00 00
+# 
+name: Bk-Pause
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 40 BF 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 42 BD 00 00
+# 
+name: Plus
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 43 BC 00 00
+# 
+name: Minus
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 44 BB 00 00
+# 
+name: Iris +
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 45 BA 00 00
+# 
+name: Iris -
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 49 B6 00 00
+# 
+name: Focus +
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 46 B9 00 00
+# 
+name: Focus -
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 4A B5 00 00
+# 
+name: Zoom +
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 47 B8 00 00
+# 
+name: Zoom -
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 4B B4 00 00
+# 
+name: F1
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 48 B7 00 00
+# 
+name: F2
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 4C B3 00 00
+# 
+name: Edit
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 13 EC 00 00
+# 
+name: A
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 1E E1 00 00
+#
+name: 0
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 00 FF 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 01 FE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 02 FD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 03 FC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 04 FB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 05 FA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 06 F9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 07 F8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 08 F7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 09 F6 00 00

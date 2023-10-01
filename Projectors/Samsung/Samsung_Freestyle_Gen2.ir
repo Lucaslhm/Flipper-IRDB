@@ -1,0 +1,128 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: 123 l Setting
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Home
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Play l Pause
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Back Button
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: V_Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: V_Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: CH_up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: CH_down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Guide Channel
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Netflix
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Samsung_TV
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Disney
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Prime Video
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
+# 
+name: Mic
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D1 00 00 00
