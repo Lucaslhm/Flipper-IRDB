@@ -55,7 +55,7 @@ protocol: NECext
 address: 69 69 00 00
 command: 0A F5 00 00
 # 
-name: Vol_dwn
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 69 69 00 00
