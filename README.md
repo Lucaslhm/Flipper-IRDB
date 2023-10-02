@@ -4,36 +4,6 @@
     A maintained collective of different IR files for the <a href="https://flipperzero.one/">Flipper Zero</a>!
 </p>
 
-## Installation
-
-### Method 1: Copy Files to SD Card
-
-Directly copying the .ir files to the Flipper's SD card is the fastest and safest method, but you have to [dismount the SD card](https://docs.flipperzero.one/basics/sd-card#g4-removing-the-sd-card) and plug it into the computer directly.
-
-1. [Download and extract](https://github.com/logickworkshop/Flipper-IRDB/archive/refs/heads/main.zip) or [Git-clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repo to your computer.
-2. Open the downloaded / cloned repository in a File Explorer.
-3. [Dismount the SD card](https://docs.flipperzero.one/basics/sd-card#g4-removing-the-sd-card) from the Flipper and mount it to your computer
-4. Copy the desired files from the Flipper-IRDB to the `infrared/` folder on your SD Card
-5. Dismount the SD card from your computer and mount it to your Flipper
-
-### Method 2: Copy Files using [QFlipper](https://flipperzero.one/update)
-
-> [!IMPORTANT]
-> Because of Flipper limitations, the transfer via QFlipper can take a long time, depending on how many files you want to copy.
-> If you only want to copy several files, this will work fine, but if you want to load the entire Flipper-IRDB onto your Flipper, **we strongly recommend copying the files directly onto the SD card**.
-
-1. [Git-clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) or [Download and extract](https://github.com/logickworkshop/Flipper-IRDB/archive/refs/heads/main.zip) this repository to your computer.
-2. Connect your Flipper to your PC using a USB-C cable.
-3. Open [QFlipper](https://flipperzero.one/update)
-4. Verify that your Flipper shows "Connected"
-5. Ensure your Flipper is fully up-to-date:
-   1. Look for the green "Update" button near the middle-right of the application.
-   2. Press "Update" and allow the Flipper to complete the Update process and then reboot before continuing.
-6. Open the File Manager by selecting the "File Manager" icon (piece of paper) on the top left of the QFlipper application.
-7. Select `SD Card`, then navigate to the `infrared` folder by double-clicking its icon.
-8. Drag the downloaded `.ir` files you want on your Flipper from the File Explorer into the QFlipper File Manager.
-
-
 ## Contributing
 
 We welcome contributions to Flipper-IRDB! 
