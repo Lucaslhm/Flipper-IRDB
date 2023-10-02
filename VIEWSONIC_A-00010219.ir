@@ -6,317 +6,317 @@ Version: 1
 name: POWER
 type: parsed
 protocol: RC5
-address: 00 00 00 01
+address: 00 00 00 00
 command: 0C 00 00 00
 # 
 name: MUTE
 type: parsed
 protocol: RC5
-address: 00 00 00 02
+address: 00 00 00 00
 command: 0D 00 00 00
 # 
 name: SLEEP
 type: parsed
 protocol: RC5
-address: 00 00 00 03
+address: 00 00 00 00
 command: 26 00 00 00
 # 
 name: DISPLAY
 type: parsed
 protocol: RC5
-address: 00 00 00 04
+address: 00 00 00 00
 command: 12 00 00 00
 # 
 name: P.MODE
 type: parsed
 protocol: RC5
-address: 00 00 00 05
+address: 00 00 00 00
 command: 1A 00 00 00
 # 
 name: S.MODE
 type: parsed
 protocol: RC5
-address: 00 00 00 06
+address: 00 00 00 00
 command: 24 00 00 00
 # 
 name: 1
 type: parsed
 protocol: RC5
-address: 00 00 00 07
+address: 00 00 00 00
 command: 01 00 00 00
 # 
 name: 2
 type: parsed
 protocol: RC5
-address: 00 00 00 08
+address: 00 00 00 00
 command: 02 00 00 00
 # 
 name: 3
 type: parsed
 protocol: RC5
-address: 00 00 00 09
+address: 00 00 00 00
 command: 03 00 00 00
 # 
 name: 4
 type: parsed
 protocol: RC5
-address: 00 00 00 10
+address: 00 00 00 00
 command: 04 00 00 00
 # 
 name: 5
 type: parsed
 protocol: RC5
-address: 00 00 00 11
+address: 00 00 00 00
 command: 05 00 00 00
 # 
 name: 6
 type: parsed
 protocol: RC5
-address: 00 00 00 12
+address: 00 00 00 00
 command: 06 00 00 00
 # 
 name: 7
 type: parsed
 protocol: RC5
-address: 00 00 00 13
+address: 00 00 00 00
 command: 07 00 00 00
 # 
 name: 8
 type: parsed
 protocol: RC5
-address: 00 00 00 14
+address: 00 00 00 00
 command: 08 00 00 00
 # 
 name: 9
 type: parsed
 protocol: RC5
-address: 00 00 00 15
+address: 00 00 00 00
 command: 09 00 00 00
 # 
 name: ALT+TAB
 type: parsed
 protocol: RC5
-address: 00 00 00 16
+address: 00 00 00 00
 command: 0B 00 00 00
 # 
 name: 0
 type: parsed
 protocol: RC5
-address: 00 00 00 17
+address: 00 00 00 00
 command: 00 00 00 00
 # 
 name: ALT+F4
 type: parsed
 protocol: RC5
-address: 00 00 00 18
+address: 00 00 00 00
 command: 22 00 00 00
 # 
 name: INPUT
 type: parsed
 protocol: RC5
-address: 00 00 00 19
+address: 00 00 00 00
 command: 28 00 00 00
 # 
 name: ASPECT
 type: parsed
 protocol: RC5X
-address: 00 00 00 20
+address: 00 00 00 00
 command: 3E 00 00 00
 # 
 name: MENU
 type: parsed
 protocol: RC5
-address: 00 00 00 21
+address: 00 00 00 00
 command: 2E 00 00 00
 # 
 name: ALT
 type: parsed
 protocol: RC5
-address: 00 00 00 22
+address: 00 00 00 00
 command: 32 00 00 00
 # 
 name: TAB
 type: parsed
 protocol: RC5
-address: 00 00 00 23
+address: 00 00 00 00
 command: 33 00 00 00
 # 
 name: DESKTOP
 type: parsed
 protocol: RC5
-address: 00 00 00 24
+address: 00 00 00 00
 command: 34 00 00 00
 # 
 name: X
 type: parsed
 protocol: RC5
-address: 00 00 00 25
+address: 00 00 00 00
 command: 35 00 00 00
 # 
 name: D.MENU
 type: parsed
 protocol: RC5
-address: 00 00 00 26
+address: 00 00 00 00
 command: 2D 00 00 00
 # 
 name: D.TITLE
 type: parsed
 protocol: RC5
-address: 00 00 00 27
+address: 00 00 00 00
 command: 2F 00 00 00
 # 
 name: UP_ARROW
 type: parsed
 protocol: RC5
-address: 00 00 00 28
+address: 00 00 00 00
 command: 1C 00 00 00
 # 
 name: LEFT_ARROW
 type: parsed
 protocol: RC5
-address: 00 00 00 29
+address: 00 00 00 00
 command: 2C 00 00 00
 # 
 name: RIGHT_ARROW
 type: parsed
 protocol: RC5
-address: 00 00 00 30
+address: 00 00 00 00
 command: 2B 00 00 00
 # 
 name: DOWN_ARROW
 type: parsed
 protocol: RC5
-address: 00 00 00 31
+address: 00 00 00 00
 command: 1D 00 00 00
 # 
 name: ENTER
 type: parsed
 protocol: RC5
-address: 00 00 00 32
+address: 00 00 00 00
 command: 0A 00 00 00
 # 
 name: D.USB
 type: parsed
 protocol: RC5
-address: 00 00 00 33
+address: 00 00 00 00
 command: 30 00 00 00
 # 
 name: D.SETUP
 type: parsed
 protocol: RC5
-address: 00 00 00 34
+address: 00 00 00 00
 command: 0F 00 00 00
 # 
 name: CH_NEXT
 type: parsed
 protocol: RC5
-address: 00 00 00 35
+address: 00 00 00 00
 command: 20 00 00 00
 # 
 name: CH_PREV
 type: parsed
 protocol: RC5
-address: 00 00 00 36
+address: 00 00 00 00
 command: 21 00 00 00
 # 
 name: EPG
 type: parsed
 protocol: RC5X
-address: 00 00 00 37
+address: 00 00 00 00
 command: 38 00 00 00
 # 
 name: FAV
 type: parsed
 protocol: RC5X
-address: 00 00 00 38
+address: 00 00 00 00
 command: 39 00 00 00
 # 
 name: VOL+
 type: parsed
 protocol: RC5
-address: 00 00 00 39
+address: 00 00 00 00
 command: 10 00 00 00
 # 
 name: VOL-
 type: parsed
 protocol: RC5
-address: 00 00 00 40
+address: 00 00 00 00
 command: 11 00 00 00
 # 
 name: Menu
 type: parsed
 protocol: RC5
-address: 00 00 00 41
+address: 00 00 00 00
 command: 2E 00 00 00
 # 
 name: F1
 type: parsed
 protocol: RC5X
-address: 00 00 00 42
+address: 00 00 00 00
 command: 1E 00 00 00
 # 
 name: F2
 type: parsed
 protocol: RC5X
-address: 00 00 00 43
+address: 00 00 00 00
 command: 1F 00 00 00
 # 
 name: F3
 type: parsed
 protocol: RC5X
-address: 00 00 00 44
+address: 00 00 00 00
 command: 20 00 00 00
 # 
 name: F4
 type: parsed
 protocol: RC5X
-address: 00 00 00 45
+address: 00 00 00 00
 command: 21 00 00 00
 # 
 name: F5
 type: parsed
 protocol: RC5X
-address: 00 00 00 46
+address: 00 00 00 00
 command: 22 00 00 00
 # 
 name: F6
 type: parsed
 protocol: RC5X
-address: 00 00 00 47
+address: 00 00 00 00
 command: 23 00 00 00
 # 
 name: F7
 type: parsed
 protocol: RC5X
-address: 00 00 00 48
+address: 00 00 00 00
 command: 24 00 00 00
 # 
 name: F8
 type: parsed
 protocol: RC5X
-address: 00 00 00 49
+address: 00 00 00 00
 command: 25 00 00 00
 # 
 name: F9
 type: parsed
 protocol: RC5X
-address: 00 00 00 50
+address: 00 00 00 00
 command: 26 00 00 00
 # 
 name: F10
 type: parsed
 protocol: RC5X
-address: 00 00 00 51
+address: 00 00 00 00
 command: 27 00 00 00
 # 
 name: F11
 type: parsed
 protocol: RC5X
-address: 00 00 00 52
+address: 00 00 00 00
 command: 28 00 00 00
 # 
 name: F12
 type: parsed
 protocol: RC5X
-address: 00 00 00 53
+address: 00 00 00 00
 command: 29 00 00 00
