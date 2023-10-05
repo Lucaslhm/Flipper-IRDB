@@ -1,0 +1,172 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Enseo TV
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 06 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 04 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 08 00 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0E 00 00 00
+# 
+name: Play Pause
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 23 00 00 00
+# 
+name: Fast forward
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 24 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 22 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 25 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 37 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 33 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 07 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0D 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 09 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0B 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 0A 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 3A 00 00 00
+# 
+name: Pg +
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 43 00 00 00
+# 
+name: Pg -
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 44 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 3B 00 00 00
+# 
+name: Info
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 38 00 00 00
+# 
+name: Guide
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 36 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 18 00 00 00
+# 
+name: CC
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 30 00 00 00
+# 
+name: Audio
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 45 00 00 00
+# 
+name: Last ch
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 1B 00 00 00
+# 
+name: Netflix
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 2A 00 00 00

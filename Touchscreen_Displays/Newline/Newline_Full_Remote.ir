@@ -1,0 +1,256 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Newline Touchscreen
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 0B F4 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 22 DD 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2B D4 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2C D3 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2E D1 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2D D2 00 00
+# 
+name: Select
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 2F D0 00 00
+# 
+name: Vol +
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 13 EC 00 00
+# 
+name: Vol -
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 12 ED 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 14 EB 00 00
+# 
+name: Brightness +
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 39 C6 00 00
+# 
+name: Brightness -
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 3A C5 00 00
+# 
+name: Screenshot
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 36 C9 00 00
+# 
+name: Quick settings
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 27 D8 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 24 DB 00 00
+# 
+name: Lock
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 44 BB 00 00
+# 
+name: Note
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 25 DA 00 00
+# 
+name: Sound only
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 0A F5 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 1C E3 00 00
+# 
+name: Tasks
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 3B C4 00 00
+# 
+name: File mgr
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 3C C3 00 00
+# 
+name: Apps
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 3D C2 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 0D F2 00 00
+# 
+name: Browser
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 43 BC 00 00
+# 
+name: Backlight
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 32 CD 00 00
+# 
+name: Settings
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 45 BA 00 00
+# 
+name: PC
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 31 CE 00 00
+# 
+name: DP
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 3E C1 00 00
+# 
+name: HDMI Front
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 34 CB 00 00
+# 
+name: HDMI 1
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 3F C0 00 00
+# 
+name: HDMI 2
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 40 BF 00 00
+# 
+name: VGA
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 33 CC 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 01 FE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 02 FD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 03 FC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 04 FB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 05 FA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 06 F9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 07 F8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 08 F7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 09 F6 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 02 FF 00 00
+command: 00 FF 00 00
