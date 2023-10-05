@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# Microlab SOLO 11 Speakers
+#
 name: Power
 type: raw
 frequency: 38000
