@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Hikvision NVR/DVR
+#
 name: Power
 type: parsed
 protocol: NECext
