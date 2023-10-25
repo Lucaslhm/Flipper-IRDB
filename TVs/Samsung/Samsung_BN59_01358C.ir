@@ -3,7 +3,7 @@ Version: 1
 #
 # Samsung BN59-01358C TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -21,25 +21,25 @@ protocol: Samsung32
 address: 07 00 00 00
 command: CE 00 00 00
 #
-name: UP
+name: Up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 60 00 00 00
 #
-name: RIGHT
+name: Right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 #
-name: DOWN
+name: Down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 #
-name: LEFT
+name: Left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -51,19 +51,19 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 68 00 00 00
 #
-name: BACK
+name: Back
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 58 00 00 00
 #
-name: HOME
+name: Home
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 79 00 00 00
 #
-name: PLAY_PAUSE
+name: Play_pause
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -81,13 +81,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 #
-name: Ch_up
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 #
-name: Ch_dwn
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
