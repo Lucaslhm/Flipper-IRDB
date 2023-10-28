@@ -33,7 +33,7 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 4F 00 00 00
 # 
-name: Sutitle
+name: Subtitle
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
@@ -135,7 +135,7 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 0F 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
@@ -159,7 +159,7 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: 44 00 00 00
 # 
-name: Tv_radio
+name: Tv_Radio
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
@@ -171,13 +171,13 @@ protocol: Samsung32
 address: 0E 00 00 00
 command: B5 00 00 00
 # 
-name: Vol_up
+name: VOL+
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
 command: 14 00 00 00
 # 
-name: Vol_down
+name: VOL-
 type: parsed
 protocol: Samsung32
 address: 0E 00 00 00
