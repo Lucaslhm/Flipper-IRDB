@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Sooair RGB Cabinet LED Lights
+# https://www.amazon.de/gp/product/B07VB2TCW8
+#
 name: On
 type: raw
 frequency: 38000
