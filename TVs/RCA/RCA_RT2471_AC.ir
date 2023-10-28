@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# RCA TV RT2471-AC 
+#
 name: Power
 type: parsed
 protocol: NEC
