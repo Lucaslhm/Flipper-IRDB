@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# logitech z5500 speakers
+# Logitech Z5500 Speakers
 # 
 name: Power
 type: parsed
