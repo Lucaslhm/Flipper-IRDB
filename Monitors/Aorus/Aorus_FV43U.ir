@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+#
+# Aorus Gigabyte 43 inch monitor
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 33 00 00 00
+# 
+name: Select
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AE 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 2A 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 2C 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 3C 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 2B 00 00 00
+# 
+name: Pic_Mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: BE 00 00 00
+# 
+name: Space_au
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CF 00 00 00
