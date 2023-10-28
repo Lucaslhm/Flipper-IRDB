@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# iRobot Roomba
+#
 name: Forward
 type: raw
 frequency: 38000
