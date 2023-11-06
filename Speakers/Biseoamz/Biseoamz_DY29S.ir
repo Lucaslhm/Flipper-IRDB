@@ -1,0 +1,130 @@
+Filetype: IR signals file
+Version: 1
+#
+# Biseoamz DY29S Bluetooth Speaker, Light, White Noise Machine & Alarm Clock
+#
+name: Play_Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+#
+name: Bluetooth
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+#
+name: Light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+#
+name: Prev
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+#
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+name: Clock
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: Usb
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: Alarm
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+#
+name: Sleep_helper
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+#
+name: Waves
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: Bugs
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+#
+name: Bonfire
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
+#
+name: White_noise
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: Rain
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: Stream
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+#
+name: Wind
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+#
+name: Lullaby
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 52 00 00 00
+#
+name: Bird
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
