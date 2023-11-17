@@ -1,10 +1,74 @@
 Filetype: IR signals file
 Version: 1
 # 
-# ViewSonic ViewBoard
-#
 name: Power
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: Home
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2D 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2B 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2C 00 00 00
+# 
+name: Back
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0F 00 00 00
+# 
+name: Source
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 28 00 00 00
+# 
+name: Windows
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 13 00 00 00
+# 
+name: Setting
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2E 00 00 00
+# 
+name: ScreenShot
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 1E 00 00 00
