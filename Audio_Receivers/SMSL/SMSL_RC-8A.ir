@@ -39,6 +39,12 @@ protocol: NECext
 address: 12 34 00 00
 command: 08 F7 00 00
 # 
+name: SELECT
+type: parsed
+protocol: NECext
+address: 12 34 00 00
+command: 04 FB 00 00
+# 
 name: Up
 type: parsed
 protocol: NECext
