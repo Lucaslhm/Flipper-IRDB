@@ -9,13 +9,13 @@ protocol: NECext
 address: 12 34 00 00
 command: 01 FE 00 00
 # 
-name: Vol.up
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 12 34 00 00
 command: 0A F5 00 00
 #  
-name: Vol.down
+name: Vol_down
 type: parsed
 protocol: NECext
 address: 12 34 00 00
