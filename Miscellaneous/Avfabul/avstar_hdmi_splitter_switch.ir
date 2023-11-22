@@ -1,11 +1,15 @@
 Filetype: IR signals file
 Version: 1
 #
+# HDMI Switch/Splitter with Audio Extraction
 # https://www.amazon.com/gp/product/B07RZFG4MC
-# HDMI Switch 4x1 with Optical SPDIF/ Coaxial/ 3.5mm L/R Audio Extractor, 
-# 4 in 1 Out 4K@60Hz HDMI Switcher Support HDMI 2.0b HDCP 2.2, ARC Function 
-# for Xbox, PS4,Blu-Ray Player (with Remote Control) 
-# 
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+#
 name: HDMI_1
 type: parsed
 protocol: NEC
