@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# ComfortZone CZ106 Fan
+#
 name: POWER
 type: raw
 frequency: 38000
