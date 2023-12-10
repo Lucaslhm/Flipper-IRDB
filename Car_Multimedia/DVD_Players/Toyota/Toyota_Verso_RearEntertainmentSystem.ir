@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+#
+# Toyota Verso Rear Entertainment System VES Kit, also Previa/LandCruiser
+#
+# VES Display Kit: 08540-00804
+# Display: 08541-00803
+# Remote: 08542-00804 
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 41 CA 00 00
+command: 00 FF 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: 41 CA 00 00
+command: 68 97 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NECext
+address: 41 CA 00 00
+command: A8 57 00 00
+# 
+name: VIDEO
+type: parsed
+protocol: NECext
+address: 41 CA 00 00
+command: 60 9F 00 00
+# 
+name: OPTION
+type: parsed
+protocol: NECext
+address: 41 CA 00 00
+command: 40 BF 00 00
+# 
+name: SIZE
+type: parsed
+protocol: NECext
+address: 41 CA 00 00
+command: 80 7A 00 00
+# 
+name: DISPLAY
+type: parsed
+protocol: NECext
+address: 41 CA 00 00
+command: 58 A7 00 00

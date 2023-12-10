@@ -1,0 +1,149 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote: RC2182407/02B
+# Device: Asus O!Play Air HDP-R3/2A - HD Media Player
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 56 A9 00 00
+# 
+name: Display
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 54 AB 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 41 BE 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 18 E7 00 00
+# 
+name: Forward
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 17 E8 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 19 E6 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 04 FB 00 00
+# 
+name: Skip
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 13 EC 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 40 BF 00 00
+# 
+name: Return
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 44 BB 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 5E A1 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 58 A7 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 5F A0 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 5C A3 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 5D A2 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 1B E4 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 4C B3 00 00
+# 
+name: Setup
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 45 BA 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 49 B6 00 00
+# 
+name: Audio
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 05 FA 00 00
+# 
+name: Subtitle
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 5B A4 00 00
+# 
+name: Language
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 57 A8 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 5A A5 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 42 BD 00 00
