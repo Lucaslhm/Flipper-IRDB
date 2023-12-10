@@ -1,0 +1,72 @@
+Filetype: IR signals file
+Version: 1
+#
+# by Angel 0ff Death
+# 
+# HOBOT-2S 
+# 
+name: SPRAY
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 0D F2 00 00
+# 
+name: UP_AUTO_CLEAN
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 12 ED 00 00
+# 
+name: UP
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 05 FA 00 00
+# 
+name: LEFT
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 07 F8 00 00
+# 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 09 F6 00 00
+# 
+name: DOWN
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 1B E4 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 08 F7 00 00
+# 
+name: LEFT_AUTO_CLEAN
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 1A E5 00 00
+# 
+name: RIGHT_AUTO_CLEAN
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 1E E1 00 00
+# 
+name: STOP
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 01 FE 00 00
+# 
+name: 2x
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 02 FD 00 00
