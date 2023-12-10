@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# SMSL RC-8A
+# SMSL RC-8A Audio Receiver
 #
 name: Power
 type: parsed
