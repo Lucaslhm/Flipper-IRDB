@@ -1,0 +1,41 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Defiant 17FL0102 Puck Lights
+# Sold at Home Depot
+#
+name: On
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 14 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+# 
+name: Red
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+#
+name: White
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0e 00 00 00

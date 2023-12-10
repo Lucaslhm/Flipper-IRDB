@@ -1,0 +1,100 @@
+Filetype: IR signals file
+Version: 1
+#
+# Logitech Z5500 Speakers
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 1A 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 0E 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 16 00 00 00
+# 
+name: Direct
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 0A 00 00 00
+# 
+name: Optical
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 0B 00 00 00
+# 
+name: Coax
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 0C 00 00 00
+# 
+name: Effect
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 1D 00 00 00
+# 
+name: Setting
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 1F 00 00 00
+# 
+name: Sub_up
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 03 00 00 00
+# 
+name: Sub_dn
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 01 00 00 00
+# 
+name: Center_up
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 02 00 00 00
+# 
+name: Center_dn
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 06 00 00 00
+# 
+name: Surround_up
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 00 00 00 00
+# 
+name: Surround_dn
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 04 00 00 00
+# 
+name: Testing
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 05 00 00 00

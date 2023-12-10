@@ -1,0 +1,202 @@
+Filetype: IR signals file
+Version: 1
+#
+# Strong 32HX4003 Remote
+# 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0D 00 00 00
+# 
+name: Picture
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 17 00 00 00
+# 
+name: Sound
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 18 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 4F 00 00 00
+# 
+name: Subtitle
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: B2 00 00 00
+# 
+name: EPG
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: B4 00 00 00
+# 
+name: FAV
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: AD 00 00 00
+# 
+name: 1
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 00 00 00 00
+# 
+name: CHN_List
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: B3 00 00 00
+# 
+name: Back_Return
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: BB 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 11 00 00 00
+# 
+name: Source
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0F 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 42 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 43 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 45 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 44 00 00 00
+# 
+name: Tv_Radio
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: B0 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: B5 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 14 00 00 00
+# 
+name: VOL-
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 15 00 00 00
+# 
+name: Home
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 78 00 00 00
+# 
+name: Pr_up
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 12 00 00 00
+# 
+name: Pr_down
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 13 00 00 00

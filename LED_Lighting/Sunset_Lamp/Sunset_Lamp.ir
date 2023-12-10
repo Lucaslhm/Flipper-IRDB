@@ -1,0 +1,148 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sunset LED LAmp
+#
+name: ON
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: OFF
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+# 
+name: F:FADE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8971 4495 661 463 663 467 659 467 659 495 631 468 658 467 659 464 662 464 662 1566 661 1596 630 1566 661 1565 661 466 660 1596 631 1566 661 1567 659 1566 660 1565 661 467 659 467 659 1568 659 466 660 466 660 468 658 466 660 467 659 1568 659 1567 659 466 660 1569 658 1568 658 1566 660 40733 8973 2243 659
+# 
+name: F:SMOOTH
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8977 4499 662 465 662 463 664 465 662 465 662 463 664 465 662 463 664 463 664 1565 663 1564 664 1564 664 1565 663 494 633 1595 633 1566 662 1565 663 1563 611 1619 609 1648 580 517 610 1618 609 517 610 516 611 516 611 517 609 517 610 516 611 1619 608 517 609 1616 611 1648 579 1618 609 40799 9001 2221 609 95666 8996 2195 658
+# 
+name: F:STROBE
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+# 
+name: F:FLASH
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: SUNSET.0
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: SUNSET.1
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+# 
+name: SUNSET.2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+# 
+name: SUNSET.3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8976 4496 660 465 661 468 658 469 657 468 658 468 659 468 658 469 658 468 606 1622 657 1571 656 1572 604 1649 578 522 656 1570 605 1620 607 1621 606 522 605 520 606 1621 606 1621 606 520 607 549 577 520 607 519 607 1619 608 1620 607 521 606 522 604 1622 605 1620 607 1619 609 1621 607
+# 
+name: SUNSET.4
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+# 
+name: SUNSET.5
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+# 
+name: AURORA.1
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: AURORA.2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+# 
+name: AURORA.3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9000 4475 608 517 610 547 579 547 580 518 609 517 610 518 609 520 607 519 608 1619 608 1620 608 1617 611 1621 660 464 663 1565 663 1595 632 1565 663 1566 662 466 660 1564 664 1567 661 462 665 464 663 494 633 467 660 464 663 1567 661 463 664 465 661 1568 660 1567 660 1566 661 1566 662 40753 8976 2246 604
+# 
+name: AURORA.4
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8971 4477 607 519 608 515 612 515 612 516 611 515 612 514 613 514 613 518 609 1619 609 1618 610 1619 609 1615 613 516 611 1618 610 1618 610 1619 609 1619 609 517 610 516 611 518 609 1648 579 518 609 518 609 547 580 518 609 1619 609 1649 579 1619 663 463 664 1565 610 1619 609 1620 608
+# 
+name: AURORA.5
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 15 EA 00 00
+#
+name: GALAXY.1
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: GALAXY.2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+# 
+name: GALAXY.3
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+# 
+name: GALAXY.4
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+# 
+name: GALAXY.5
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9028 4474 632 466 660 467 660 470 656 468 659 468 659 468 658 468 659 466 660 1569 658 1567 660 1568 659 1568 659 468 659 1568 659 1568 659 1569 658 467 660 1568 659 1568 608 519 607 1622 605 517 609 521 606 518 608 1622 605 520 607 518 609 1620 607 521 605 1620 607 1619 608 1619 608 40798 8975 2271 631
+# 
+name: BRIGHTER
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: DARKER
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00

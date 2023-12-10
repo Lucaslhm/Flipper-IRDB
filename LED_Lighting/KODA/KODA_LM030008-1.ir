@@ -1,0 +1,146 @@
+Filetype: IR signals file
+Version: 1
+#
+# For KODA 46" LED Linkable Shop Light with Motion Sensor and Remote7 <-- LED Lighting
+# ModelNo: LM030008-1
+# Image:
+# Product Page: https://kodabuilt.com/products/koda-46-led-linkable-shop-light-with-motion-sensor-and-remote-lm030037
+# Manual: https://cdn.shopify.com/s/files/1/0014/1534/8284/files/user-manual-koda-46-led-linkable-shop-light-with-motion-sensor-and-remote-lm030008.pdf?v=1608131916
+#
+name: Power_On
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 05 FA 00 00
+#
+name: Power_Off
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 04 FB 00 00
+#
+name: Night_Mode
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 30 CF 00 00
+#
+name: Bright_Up
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 1A E5 00 00
+#
+name: Bright_Down
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 1B E4 00 00
+#
+name: Bright_Max
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 1C E3 00 00
+#
+name: Bright_Min
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 1D E2 00 00
+#
+name: T_Dim_Off
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 0D F2 00 00
+#
+name: T_Dim_5min
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 0C F3 00 00
+#
+name: T_Dim_10min
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 0E F1 00 00
+#
+name: T_Dim_30min
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 0F F0 00 00
+#
+name: T_Off_Off
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 11 EE 00 00
+#
+name: T_Off_5min
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 10 EF 00 00
+#
+name: T_Off_10min
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 12 ED 00 00
+#
+name: T_Off_30min
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 13 EC 00 00
+#
+name: Amb_Lt_Off
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 15 EA 00 00
+#
+name: Amb_Lt_Ovrcst
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 14 EB 00 00
+#
+name: Amb_Lt_Dusk
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 16 E9 00 00
+#
+name: Amb_Lt_Night
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 17 E8 00 00
+#
+name: Dist_V_Near
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 09 F6 00 00
+#
+name: Dist_Near
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 08 F7 00 00
+#
+name: Dist_Mid
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 0A F5 00 00
+#
+name: Dist_Far
+type: parsed
+protocol: NECext
+address: 7E 7E 00 00
+command: 0B F4 00 00

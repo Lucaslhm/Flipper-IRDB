@@ -1,0 +1,77 @@
+Filetype: IR signals file
+Version: 1
+#
+# LIGAWO 6518716 e.g. for Ligawo 4x2 HDMI Matrix Switch
+# IR Code Source: https://finalrewind.org/ir_codes/ligawo_6518716_hdmi_matrix/
+#
+name: A1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+#
+name: A2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+#
+name: A3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+#
+name: A4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+#
+name: A PREV
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+#
+name: A NEXT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+#
+name: B1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+#
+name: B2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+#
+name: B3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+#
+name: B4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: B PREV
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: B NEXT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
