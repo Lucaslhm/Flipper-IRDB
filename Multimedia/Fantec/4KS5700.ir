@@ -1,0 +1,220 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Device: Fantec 4KS5700
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 57 A8 00 00
+# 
+name: Apps
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 67 98 00 00
+# 
+name: YouTube
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 69 96 00 00
+# 
+name: XBMC
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 18 E7 00 00
+# 
+name: 4K
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 19 E6 00 00
+# 
+name: Return
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 4F B0 00 00
+# 
+name: Settings
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 09 F6 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 16 E9 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 43 BC 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 06 F9 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 0E F1 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 0A F5 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 02 FD 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 00 FF 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 5D A2 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 47 B8 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 0B F4 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 0F F0 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 5C A3 00 00
+# 
+name: Mouse
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 11 EE 00 00
+# 
+name: HDMI_IN
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 1B E4 00 00
+# 
+name: TV_SYS
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 04 FB 00 00
+# 
+name: Audio
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 44 BB 00 00
+# 
+name: Subtitle
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 46 B9 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 1A E5 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 01 FE 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 45 BA 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 59 A6 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 4D B2 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 40 BF 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 52 AD 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 53 AC 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 41 BE 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 5A A5 00 00
+# 
+name: Rec
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 6D 92 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 5F A0 00 00
