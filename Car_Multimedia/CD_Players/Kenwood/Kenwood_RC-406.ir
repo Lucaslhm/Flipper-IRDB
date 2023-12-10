@@ -1,0 +1,161 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote: Kenwood RC-406
+# Model: Kenwood DPX301U
+#
+name: Src
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 13 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 14 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 15 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 85 00 00 00
+# 
+name: ATT
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 16 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 87 00 00 00
+# 
+name: Dn
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 86 00 00 00
+# 
+name: Rev
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0A 00 00 00
+# 
+name: Ffwd
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0B 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0E 00 00 00
+# 
+name: Direct_ok
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0F 00 00 00
+# 
+name: Aud
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 17 00 00 00
+# 
+name: AM
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0C 00 00 00
+# 
+name: FM
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0D 00 00 00
+# 
+name: 1
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 00 00 00 00
+# 
+name: Call_answer
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 92 00 00 00
+# 
+name: Call_end
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 88 00 00 00
