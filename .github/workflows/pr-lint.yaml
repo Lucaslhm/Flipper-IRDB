@@ -1,7 +1,7 @@
 name: "🧐 Checking IR Files"
 
 on:
-  pull_request_target:
+  pull_request:
     paths: '**.ir'
 
 jobs:
@@ -46,18 +46,18 @@ jobs:
         with:
           run: 'LINTER_CONFIG=.fff-ir-lint.json python fff-ir-lint/main.py github2 file:changed_file_list.txt'
 
-      - uses: ntsd/auto-request-changes-action@v2
-        name: "Request Changes"
-        if: ${{ steps.run.outputs.stderr }}
-        with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
-          comment-body: |
-            <details>
-              <summary>🐛 Linter Result</summary>
-              
-              ${{ steps.run.outputs.stdout }}
-              
-            </details>
+      #- uses: ntsd/auto-request-changes-action@v2
+      #  name: "Request Changes"
+      #  if: ${{ steps.run.outputs.stderr }}
+      #  with:
+      #    github-token: "${{ secrets.GITHUB_TOKEN }}"
+      #    comment-body: |
+      #      <details>
+      #        <summary>🐛 Linter Result</summary>
+      #        
+      #        ${{ steps.run.outputs.stdout }}
+      #        
+      #      </details>
 
       - name: Fail Pipeline
         if: ${{ steps.run.outputs.stderr }}
