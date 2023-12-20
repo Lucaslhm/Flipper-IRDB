@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Apple Remote Gen2
+#
 name: Main
 type: parsed
 protocol: NECext
