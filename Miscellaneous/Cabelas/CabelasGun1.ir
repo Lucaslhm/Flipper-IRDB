@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Cabelas Gun 1
+#
 name: RAW_129
 type: raw
 frequency: 38000
