@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Apple Remote Gen2
+#
+name: Main
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5D AA 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 02 AA 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5E AA 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0B AA 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0D AA 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 08 AA 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 07 AA 00 00
