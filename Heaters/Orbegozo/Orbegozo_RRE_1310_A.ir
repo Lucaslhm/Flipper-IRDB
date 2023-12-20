@@ -1,0 +1,29 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Orbegozo RRE 1310 A Heater
+# https://orbegozo.com/productos/calefaccion/emisores-termicos/emisor-termico-rre-1310-a/
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 90 00 00 00
+# 
+name: +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 98 00 00 00
+# 
+name: -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 94 00 00 00
