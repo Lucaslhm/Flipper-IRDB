@@ -1,5 +1,9 @@
 Filetype: IR signals file
 Version: 1
+#
+# for LG digital signs 32SM5D, 43SM5D, 49SM5D, 55SM5D, 
+# 65SM5D, 43SM3D, 49SM3D, 55SM3D, 32SM5KD, 43SM5KD, 49SM5KD, 55SM5KD, 
+# 65SM5KD (per the LG digital signage owner's manual)
 # 
 name: Power
 type: parsed
