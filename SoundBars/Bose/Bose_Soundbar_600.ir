@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# 
+# Remote included with the Bose Smart Soundbar 600
 name: Power
 type: raw
 frequency: 38000
