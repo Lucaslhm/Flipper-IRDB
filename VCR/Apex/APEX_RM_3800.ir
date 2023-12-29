@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Remote for various apex vcr dvd combo units
+#
 name: Power
 type: parsed
 protocol: NEC
