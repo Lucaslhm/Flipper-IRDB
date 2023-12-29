@@ -57,13 +57,13 @@ protocol: NEC
 address: 01 00 00 00
 command: 04 00 00 00
 # 
-name: Rew
+name: Rewind
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 07 00 00 00
 # 
-name: FF
+name: Fast_Foward
 type: parsed
 protocol: NEC
 address: 01 00 00 00
