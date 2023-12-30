@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+#
+# RY King Flameless Candles
+# 
+name: On
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 00 FF 00 00
+# 
+name: Off
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 02 FD 00 00
+# 
+name: Timer_2hr
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 04 FB 00 00
+# 
+name: Timer_4hr
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 06 F9 00 00
+# 
+name: Timer_6hr
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 08 F7 00 00
+# 
+name: TImer_8hr
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 0A F5 00 00
+# 
+name: Candle_mode
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 0C F3 00 00
+# 
+name: Light_mode
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 0E F1 00 00
+# 
+name: Dimmer
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 10 EF 00 00
+# 
+name: Brighter
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 12 ED 00 00
