@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+# 
+# SRS-GU10iP Dock Speaker for iPod, iPhone
+# 
+name: Power
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 15 00 00 00
+#
+name: Mute
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 14 00 00 00
+#
+name: Input
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 20 00 00 00
+#
+name: Play
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 28 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 12 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 13 00 00 00
+#
+name: Bass
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 31 00 00 00
+#
+name: Next
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 29 00 00 00
+#
+name: Prev
+type: parsed
+protocol: SIRC15
+address: 99 00 00 00
+command: 2A 00 00 00
