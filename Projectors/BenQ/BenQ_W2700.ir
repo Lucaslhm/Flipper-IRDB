@@ -1,0 +1,190 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote for BenQ W2700
+#
+name: power_on
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4F B0 00 00
+# 
+name: Power_off
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4E B1 00 00
+# 
+name: Calibrate_auto
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 2A D5 00 00
+# 
+name: Default
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 78 87 00 00
+# 
+name: Test_pattern
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 94 6B 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0B F4 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0C F3 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0D F2 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0E F1 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 15 EA 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 85 7A 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0F F0 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 04 FB 00 00
+# 
+name: Lumi_expert
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 3B C4 00 00
+# 
+name: HDR
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 3C C3 00 00
+# 
+name: Cinema_master
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: BE 41 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 14 EB 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 83 7C 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 82 7D 00 00
+# 
+name: Sound_mode
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 3D C2 00 00
+# 
+name: Pic_mode
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 10 EF 00 00
+# 
+name: 3D
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 9C 63 00 00
+# 
+name: Bright
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 16 E9 00 00
+# 
+name: Contrast
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 11 EE 00 00
+# 
+name: Color_temp
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5F A0 00 00
+# 
+name: Color_manage
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5B A4 00 00
+# 
+name: Gamma
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5E A1 00 00
+# 
+name: Sharp
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 7E 81 00 00
+# 
+name: Dynamic_iris
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 7C 83 00 00
+# 
+name: Light_mode
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 30 CF 00 00
+# 
+name: Eco_bank
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 07 F8 00 00

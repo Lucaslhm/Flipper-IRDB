@@ -1,0 +1,150 @@
+Filetype: IR signals file
+Version: 1
+#
+# BRSW04 is the remote model name
+# compatible with 
+# Aoguerbe, Gobikey, Anpro, Alien, Huihj 
+#
+name: Power_light
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Power_motor
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+# 
+name: Music_mode_1
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+# 
+name: Music_mode_2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: Light_up
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+# 
+name: Light_dn
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: Motor_up
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: Motor_dn
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: Pink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+# 
+name: RedGreen
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+# 
+name: RedBlue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+# 
+name: GreenBlue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+# 
+name: RedPink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+# 
+name: GreenPink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+# 
+name: BluePink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+# 
+name: RedGreenBlue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+# 
+name: RedGreenPink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+# 
+name: RedBluePink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 15 EA 00 00
+# 
+name: GreenBluePink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 16 E9 00 00
+# 
+name: RedGreenBluePink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00

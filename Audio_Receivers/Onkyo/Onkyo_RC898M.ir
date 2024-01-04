@@ -1,0 +1,309 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Onkyo Remote RC-898M
+#
+# TX-NR747
+# TX-NR646
+# TX-NR545
+#
+name: Power
+type: parsed
+protocol: NECext
+address: D2 6C 00 00
+command: CB 34 00 00
+# 
+name: Power_source
+type: parsed
+protocol: NECext
+address: D2 19 00 00
+command: 84 7B 00 00
+# 
+name: Bd_dvd
+type: parsed
+protocol: NECext
+address: D2 6C 00 00
+command: 8C 73 00 00
+# 
+name: Cbl_sat
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 0E F1 00 00
+# 
+name: Streambox
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 0C F3 00 00
+# 
+name: Pc
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 9C 63 00 00
+# 
+name: Game
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 0D F2 00 00
+# 
+name: Aux
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 9F 60 00 00
+# 
+name: Cd
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 09 F6 00 00
+# 
+name: Phono
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 0A F5 00 00
+# 
+name: Tv
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 48 B7 00 00
+# 
+name: Tunner
+type: parsed
+protocol: NECext
+address: D2 6D 00 00
+command: 0B F4 00 00
+# 
+name: Net
+type: parsed
+protocol: NECext
+address: D2 02 00 00
+command: 87 78 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: D2 1E 00 00
+command: 50 0E 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: D2 11 00 00
+command: 05 FA 00 00
+# 
+name: Power_tv
+type: parsed
+protocol: NECext
+address: D2 19 00 00
+command: 84 7B 00 00
+# 
+name: Tv_input
+type: parsed
+protocol: NECext
+address: D2 19 00 00
+command: 87 78 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: D2 19 00 00
+command: 82 7D 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: D2 19 00 00
+command: 83 7C 00 00
+# 
+name: Ch_disc
+type: parsed
+protocol: NECext
+address: D2 11 00 00
+command: 00 FF 00 00
+# 
+name: Album
+type: parsed
+protocol: NECext
+address: D2 11 00 00
+command: 01 FE 00 00
+# 
+name: Top_menu
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 94 6B 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: D2 11 00 00
+command: 82 7D 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: D2 11 00 00
+command: 83 7C 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: D2 11 00 00
+command: 84 7B 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: D2 11 00 00
+command: 85 7A 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: D2 11 00 00
+command: 97 68 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 95 6A 00 00
+# 
+name: Setup
+type: parsed
+protocol: NECext
+address: D2 12 00 00
+command: DB 24 00 00
+# 
+
+name: Return
+type: parsed
+protocol: NECext
+address: D2 12 00 00
+command: 54 AB 00 00
+# 
+name: Quick_menu
+type: parsed
+protocol: NECext
+address: D2 12 00 00
+command: 53 AC 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 90 6F 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 81 7E 00 00
+# 
+name: Fast_forward
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 80 7F 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 8F 70 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 91 6E 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 8D 72 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: 8E 71 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: D5 2A 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: D6 29 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: D7 28 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: D8 27 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: D9 26 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: DA 25 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: DB 24 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: DC 23 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: DD 22 00 00
+# 
+name: +10_10_D.Tun Dimmer
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: DF 20 00 00
+# 
+name: 0_11
+type: parsed
+protocol: NECext
+address: D2 14 00 00
+command: DE 21 00 00
+# 
+name: Clr_12_Sleep
+type: parsed
+protocol: NECext
+address: D2 12 00 00
+command: 55 AA 00 00
