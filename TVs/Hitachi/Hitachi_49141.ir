@@ -1,0 +1,300 @@
+Filetype: IR signals file
+Version: 1
+#
+# Hitachi SmartTV 49141
+# Tested on Hitachi Smart TV model 32HB4T62.
+# To write, the numbers have the T9 layout with space on 0.
+# One button near the end is kind of unknown.
+# 
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 11 00 00 00
+# 
+name: Ch_up
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 20 00 00 00
+# 
+name: Ch_down
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 21 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0D 00 00 00
+# 
+name: Source
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 38 00 00 00
+# 
+name: Last_ch
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 22 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 30 00 00 00
+# 
+name: Back
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0A 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 25 00 00 00
+# 
+name: Qmenu
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 2B 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 14 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 13 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 16 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 15 00 00 00
+# 
+name: Info
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 12 00 00 00
+# 
+name: Multimedia
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 39 00 00 00
+# 
+name: Guide
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 2F 00 00 00
+# 
+name: Teletext
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 3C 00 00 00
+# 
+name: Star1
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 3B 00 00 00
+# 
+name: Star2
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 1A 00 00 00
+# 
+name: Internet
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 2E 00 00 00
+# 
+name: Netflix
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 27 00 00 00
+# 
+name: Red
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 37 00 00 00
+# 
+name: Green
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 36 00 00 00
+# 
+name: Yellow
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 32 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 34 00 00 00
+# 
+name: Language
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0F 00 00 00
+# 
+name: Subtitles
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 1F 00 00 00
+# 
+name: Aspect_ratio
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0B 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 31 00 00 00
+# 
+name: Play
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 19 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 18 00 00 00
+# 
+name: Record
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 33 00 00 00
+# 
+name: Fast_fw
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 1C 00 00 00
+# 
+name: Fast_back
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 1B 00 00 00
+# 
+# !!!ATTENTION!!!
+# I wasn't able to verify what this button does
+# as i was in a hurry. If someone finds out what it does,
+# feel free to edit the name of the button
+#
+name: Back_to_tv_maybe
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 26 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 00 00 00 00
