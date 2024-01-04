@@ -1,0 +1,209 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Philips BTD2180 Micro Music System
+# https://www.philips.co.id/c-p/BTD2180_12/micro-music-system
+#
+name: Power
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 0C 00 00 00
+# 
+name: Eject
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 42 00 00 00
+# 
+name: Source
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 3F 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 10 00 00 00
+#  
+name: Mute
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 2C 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 11 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 21 00 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 2C 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 31 00 00 00
+# 
+name: Next
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 20 00 00 00
+# 
+name: Display
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 0F 00 00 00
+# 
+name: Sound
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 51 00 00 00
+# 
+name: Home
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 92 00 00 00
+# 
+name: Back
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 83 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 58 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 59 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5B 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5C 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 54 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 26 00 00 00
+# 
+name: Option
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: FA 00 00 00
+# 
+name: Prog
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: FB 00 00 00
+# 
+name: Time
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 2A 00 00 00
