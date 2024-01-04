@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Philips BTD2180 Micro Music System
+# https://www.philips.co.id/c-p/BTD2180_12/micro-music-system
+#
 name: Power
 type: parsed
 protocol: RC6
