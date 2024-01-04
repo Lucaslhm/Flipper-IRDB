@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+#
+# JBL CINEMA SB120 bar
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 53 AC 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: AD 52 00 00
+#
+name: Play/Pause
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 0D F2 00 00
+#
+name: Vol+
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 26 D9 00 00
+#
+name: Vol-
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 28 D7 00 00
+#
+name: Next
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 27 D8 00 00
+#
+name: Previous
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 25 DA 00 00
+#
+name: HDMI ARC
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 6D 92 00 00
+#
+name: OPTICAL
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 4D B2 00 00
+#
+name: BT
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 1B E4 00 00
+#
+name: VOICE
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 16 E9 00 00
+#
+name: NEWS
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 6B 94 00 00
+#
+name: MUSIC
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 20 DF 00 00
+#
+name: MOVIE
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 08 F7 00 00
