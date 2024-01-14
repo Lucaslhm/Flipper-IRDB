@@ -1,5 +1,7 @@
 Filetype: IR signals file
 Version: 1
+#
+# Onkyo Renote RC-402C for Onkyo Compact Disk Player DX-7333
 # 
 name: Eject
 type: parsed
@@ -43,7 +45,7 @@ protocol: NECext
 address: D2 2C 00 00
 command: 00 FF 00 00
 # 
-name: Previous
+name: Prev
 type: parsed
 protocol: NECext
 address: D2 2C 00 00
