@@ -1,12 +1,11 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Device: 		Teufel Concept E Magnum Power Edition
-# Remote Control: 	Teufel CEM 500 RC 
+# Teufel Concept E Magnum Power Edition
+# Teufel CEM 500 RC 
 # 
 # Use "Ch_next" to select Channel and manipulate volume with "Vol_up" or "Vol_dn".
 # "Mute" instantly mutes or unmutes all channels.
-# 
 # 
 name: Mute
 type: parsed
