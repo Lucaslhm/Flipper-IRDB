@@ -1,0 +1,172 @@
+Filetype: IR signals file
+Version: 1
+#
+# Onkyo Renote RC-402C for Onkyo Compact Disk Player DX-7333
+# 
+name: Eject
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 0B F4 00 00
+# 
+name: Display
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 0A F5 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 1F E0 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 1C E3 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 1B E4 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 01 FE 00 00
+# 
+name: Forward
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 00 FF 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 1E E1 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 1D E2 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 10 EF 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 11 EE 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 12 ED 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 13 EC 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 18 E7 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 19 E6 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 1A E5 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 0C F3 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 0D F2 00 00
+# 
+name: 10+
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 0F F0 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 0E F1 00 00
+# 
+name: Next Selection
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 05 FA 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 06 F9 00 00
+# 
+name: Memory
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 09 F6 00 00
+# 
+name: Clear
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 08 F7 00 00
+# 
+name: Time Edit
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 4D B2 00 00
+# 
+name: Peak Search
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 5D A2 00 00
+# 
+name: A-B
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 07 F8 00 00
+# 
+name: Shuffle
+type: parsed
+protocol: NECext
+address: D2 2C 00 00
+command: 46 B9 00 00
