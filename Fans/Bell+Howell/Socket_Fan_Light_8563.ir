@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Bell+Howell Socket Fan Light 8563
+#
 name: On
 type: parsed
 protocol: NEC
