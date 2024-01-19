@@ -1,0 +1,132 @@
+Filetype: IR signals file
+Version: 1
+#
+# Duni Multicoloured LED Candle
+# Model name: MP-12E-Color
+# This works with remote #185350
+#
+name: ON
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 12 ED 00 00
+#
+name: OFF
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 01 FE 00 00
+#
+name: Smooth
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 1A E5 00 00
+#
+name: NightLight
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 1E E1 00 00
+#
+name: Candle
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 02 FD 00 00
+#
+name: Light
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 03 FC 00 00
+#
+name: Timer
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 04 FB 00 00
+#
+name: Dark
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 05 FA 00 00
+#
+name: Bright
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 06 F9 00 00
+#
+name: Red
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 07 F8 00 00
+#
+name: Green
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 08 F7 00 00
+#
+name: Blue
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 09 F6 00 00
+#
+name: Orange
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 0A F5 00 00
+#
+name: LightGreen
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 1B E4 00 00
+#
+name: LightBlue
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 1F E0 00 00
+#
+name: Violet
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 0C F3 00 00
+#
+name: Yellow
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 0D F2 00 00
+#
+name: BlueWhite
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 0E F1 00 00
+#
+name: Pink
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 00 FF 00 00
+#
+name: YellowWhite
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 0F F0 00 00
+#
+name: White
+type: parsed
+protocol: NECext
+address: 01 FE 00 00
+command: 19 E6 00 00
