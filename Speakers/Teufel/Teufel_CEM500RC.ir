@@ -1,0 +1,33 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Teufel Concept E Magnum Power Edition
+# Teufel CEM 500 RC 
+# 
+# Use "Ch_next" to select Channel and manipulate volume with "Vol_up" or "Vol_dn".
+# "Mute" instantly mutes or unmutes all channels.
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1C 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 14 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 13 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 17 00 00 00
+

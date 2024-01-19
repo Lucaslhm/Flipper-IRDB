@@ -1,0 +1,36 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote File for Dr. Heater infrared heater.
+# Turn on/off with Power
+# Then select Timer or Temperature and manipulate selected Value with Up or Down
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 07 00 00 00
+# 
+name: Temperature
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 09 00 00 00
