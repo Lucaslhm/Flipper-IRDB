@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+#
+# Mediasonic Homeworx HW180STB TV Tuner Remote
+# 
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5B 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+# 
+name: Recall
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
