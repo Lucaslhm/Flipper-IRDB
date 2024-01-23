@@ -1,0 +1,66 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Flameless Candles 10 Keys Remote Controller for Led Tea Lights Timer Cycling Every 24 Hours
+# https://www.amazon.com/dp/B0BPS3Z2DS and similar
+# Brand: Jialine
+#
+name: Power_On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: Power_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: Timer_2hr
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: Timer_4hr
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: Timer_6hr
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: Timer_8hr
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Mode_Candle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Mode_Light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: Bright_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Bright_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
