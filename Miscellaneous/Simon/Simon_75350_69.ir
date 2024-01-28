@@ -1,0 +1,102 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Simon IR remote to control Simon appliances
+# like the Simon 75358-39 IR blind controller
+# https://www.simonelectric.com/sites/default/files/2017-12/75358-39_0.pdf
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3F 00 00 00
+# 
+name: 7
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3F 00 00 00
+# 
+name: 8
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3F 00 00 00
+# 
+name: 9
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3F 00 00 00
+# 
+name: 0
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3F 00 00 00
+# 
+name: Prog
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 0B 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 26 00 00 00
+# 
+name: Sound
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3F 00 00 00
+# 
+name: Off
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3D 00 00 00
+# 
+name: 25percent
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 3B 00 00 00
+# 
+name: Total
+type: parsed
+protocol: RC5
+address: 1F 00 00 00
+command: 0C 00 00 00
