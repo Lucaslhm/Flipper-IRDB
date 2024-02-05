@@ -1,0 +1,112 @@
+Filetype: IR signals file
+Version: 1
+#
+# Philips Soundbar HTL2163B/12 (2015 - 2024)
+#
+name: Power
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 0D 00 00 00
+#
+name: Vol +
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 10 00 00 00
+#
+name: Vol -
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 11 00 00 00
+# 
+name: Sound
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 51 00 00 00
+# 
+name: Bass +
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 16 00 00 00
+# 
+name: Bass -
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 17 00 00 00
+# 
+name: Treble +
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 18 00 00 00
+# 
+name: Treble -
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 19 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 38 00 00 00
+# 
+name: Coax IN
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 39 00 00 00
+# 
+name: Opical IN
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 6C 00 00 00
+# 
+name: BT
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 69 00 00 00
+#
+name: USB
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 7E 00 00 00
+#
+name: Audio IN
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 86 00 00 00
+#
+name: HDMI ARC
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 87 00 00 00
+# 
+name: Stereo
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 50 00 00 00
+# 
+name: Surround
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 52 00 00 00
