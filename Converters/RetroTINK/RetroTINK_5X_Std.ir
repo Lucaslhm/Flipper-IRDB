@@ -1,0 +1,81 @@
+Filetype: IR signals file
+Version: 1
+#
+# RetroTINK 5X Pro - Standard Remote
+#
+# NOTE: A more full featured remote was later released, and
+# is included as RetroTINK_5X_Prem.ir
+#
+# https://consolemods.org/wiki/AV:RetroTINK-5X_Pro#Standard_Remote
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 81 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 83 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 27 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 13 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 38 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 40 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 37 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 39 00 00 00
+# 
+name: Input Source
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 73 00 00 00
+# 
+name: Post Process
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 89 00 00 00
+# 
+name: Scale/Crop
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 87 00 00 00
+# 
+name: Horz Sampl
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 48 00 00 00

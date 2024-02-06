@@ -1,0 +1,306 @@
+Filetype: IR signals file
+Version: 1
+#
+# RetroTINK 4K
+#
+# https://consolemods.org/wiki/AV:RetroTINK-4K#Remote
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 1A 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 5C 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 42 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 53 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 18 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 10 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 57 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 4F 00 00 00
+# 
+name: Profiles
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 24 00 00 00
+# 
+name: Profile 1
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 0B 00 00 00
+# 
+name: Profile 2
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 07 00 00 00
+# 
+name: Profile 3
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 03 00 00 00
+# 
+name: Profile 4
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 0A 00 00 00
+# 
+name: Profile 5
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 06 00 00 00
+# 
+name: Profile 6
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 02 00 00 00
+# 
+name: Profile 7
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 09 00 00 00
+# 
+name: Profile 8
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 05 00 00 00
+# 
+name: Profile 9
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 01 00 00 00
+# 
+name: Profile 10
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 25 00 00 00
+# 
+name: Profile 11
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 26 00 00 00
+# 
+name: Profile 12
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 27 00 00 00
+# 
+name: HDMI Output
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 20 00 00 00
+# 
+name: Input Source
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 11 00 00 00
+# 
+name: Input Setting
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 23 00 00 00
+# 
+name: Scale/Crop
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 21 00 00 00
+# 
+name: SFX Process
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 22 00 00 00
+# 
+name: Auto Gain
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 2B 00 00 00
+# 
+name: Auto Phase
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 2D 00 00 00
+# 
+name: Gen Lock
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 2C 00 00 00
+# 
+name: Triple Buffer
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 2F 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 56 00 00 00
+# 
+name: Safe
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 2E 00 00 00
+# 
+name: 4k
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 30 00 00 00
+# 
+name: 1080p
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 31 00 00 00
+# 
+name: 1440p
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 32 00 00 00
+# 
+name: 480p
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 33 00 00 00
+# 
+name: Resolution 1
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 34 00 00 00
+# 
+name: Resolution 2
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 35 00 00 00
+# 
+name: Resolution 3
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 36 00 00 00
+# 
+name: Resolution 4
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 37 00 00 00
+# 
+name: Crop Vert
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 38 00 00 00
+# 
+name: Crop 4:3
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 39 00 00 00
+# 
+name: Crop 16:9
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 3A 00 00 00
+# 
+name: AUX 4
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 3B 00 00 00
+# 
+name: AUX 5
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 3C 00 00 00
+# 
+name: AUX 6
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 3D 00 00 00
+# 
+name: AUX 7
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 3E 00 00 00
+# 
+name: AUX 8
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 3F 00 00 00
+# 
+name: Diagnostic
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 28 00 00 00
+# 
+name: Status
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 29 00 00 00

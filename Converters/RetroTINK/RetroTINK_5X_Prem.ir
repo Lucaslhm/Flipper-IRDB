@@ -1,0 +1,333 @@
+Filetype: IR signals file
+Version: 1
+#
+# RetroTINK 5X Pro - Premium Remote
+#
+# NOTE: This is a premium remote that was sold separately from
+# the original RetroTINK 5X Pro device
+#
+# https://consolemods.org/wiki/AV:RetroTINK-5X_Pro#Premium_Remote
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: DC 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: E2 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: C5 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: CE 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: CA 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D2 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: 99 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: C1 00 00 00
+# 
+name: Load Profile
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B6 00 00 00
+# 
+name: Save Profile
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B7 00 00 00
+# 
+name: Profile 1
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: 92 00 00 00
+# 
+name: Profile 2
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: 93 00 00 00
+# 
+name: Profile 3
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: CC 00 00 00
+# 
+name: Profile 4
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: 8E 00 00 00
+# 
+name: Profile 5
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: 8F 00 00 00
+# 
+name: Profile 6
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: C8 00 00 00
+# 
+name: Profile 7
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: 8A 00 00 00
+# 
+name: Profile 8
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: 8B 00 00 00
+# 
+name: Profile 9
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: C4 00 00 00
+# 
+name: Profile 10
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: 87 00 00 00
+# 
+name: Output Res
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: DA 00 00 00
+# 
+name: Input Source
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D9 00 00 00
+# 
+name: SCART RGB
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B0 00 00 00
+# 
+name: YPbPr Comp
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B1 00 00 00
+# 
+name: Y/C S-Video
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B2 00 00 00
+# 
+name: Composite
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B3 00 00 00
+# 
+name: SCART CV
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B4 00 00 00
+# 
+name: YPbPr SDP
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B5 00 00 00
+# 
+name: Phase Up
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: BA 00 00 00
+# 
+name: Phase Down
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: BD 00 00 00
+# 
+name: Gen Lock
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: BC 00 00 00
+# 
+name: Triple Buffer
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: BF 00 00 00
+# 
+name: Post Process
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: BB 00 00 00
+# 
+name: Safe
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: BE 00 00 00
+# 
+name: 1080p Over
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D0 00 00 00
+# 
+name: 1080p Fill
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D1 00 00 00
+# 
+name: 1080p Under
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D3 00 00 00
+# 
+name: 720p
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D4 00 00 00
+# 
+name: 1440p2
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D5 00 00 00
+# 
+name: 1440p1
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D6 00 00 00
+# 
+name: 240p
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D7 00 00 00
+# 
+name: 480i
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: D8 00 00 00
+# 
+name: Scale/Crop
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: DB 00 00 00
+# 
+name: Interpolation
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: E6 00 00 00
+# 
+name: Horz Sample
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: DD 00 00 00
+# 
+name: Std Def
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: DE 00 00 00
+# 
+name: Video ADC
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: DF 00 00 00
+# 
+name: HDMI Output
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: E0 00 00 00
+# 
+name: AUX 1
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: E1 00 00 00
+# 
+name: AUX 2
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: E5 00 00 00
+# 
+name: AUX 3
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: E3 00 00 00
+# 
+name: AUX 4
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: E4 00 00 00
+# 
+name: About
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B8 00 00 00
+# 
+name: Status
+type: parsed
+protocol: NEC
+address: B3 00 00 00
+command: B9 00 00 00
