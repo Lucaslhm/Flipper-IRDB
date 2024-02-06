@@ -1,0 +1,100 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Optoma UHZ45 Projector
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 02 00 00 00
+# 
+name: Power_off
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 2E 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 18 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 88 00 00 00
+# 
+name: Info
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 25 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C5 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C6 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C7 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C8 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C9 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 03 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 95 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 09 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 0C 00 00 00
+# 
+name: Format
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 15 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 06 00 00 00
