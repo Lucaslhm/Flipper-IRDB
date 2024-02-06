@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Ecovacs Deebot DM82 Vacuum Cleaner
+#
 name: Start_Pause
 type: parsed
 protocol: NECext
