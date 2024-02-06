@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# BB-2000 Bliss Bidet
+# BioBidet BB-2000 Bliss Bidet
 #
 name: Stop_button
 type: raw
