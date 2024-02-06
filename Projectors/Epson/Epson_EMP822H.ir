@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Epson EMP822H Projector
+#
 name: Power
 type: parsed
 protocol: NECext
