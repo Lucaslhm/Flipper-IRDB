@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# BenQ MH856UST Projector
+#
 name: Power
 type: parsed
 protocol: NECext
