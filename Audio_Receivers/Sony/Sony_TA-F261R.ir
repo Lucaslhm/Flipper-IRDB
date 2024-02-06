@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sony TA-F261R Audio
+#
+name: Vol_up
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 12 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 13 00 00 00
+#
+name: Tape1/DAT
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 23 00 00 00
+#
+name: Tape2/MD
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 24 00 00 00
+#
+name: CD
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 25 00 00 00
+#
+name: Tuner
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 21 00 00 00
+#
+name: Phono
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 20 00 00 00
