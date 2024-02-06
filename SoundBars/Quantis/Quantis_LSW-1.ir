@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+#
+# Quantis LSW-1 Soundbar
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 1D E2 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 1A E5 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+# 
+name: Profile_music
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: Profile_movie
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+# 
+name: Profile_voice
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
