@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# TechniSat DVR401B TV Tuner
+#
 name: Power
 type: parsed
 protocol: RC5
