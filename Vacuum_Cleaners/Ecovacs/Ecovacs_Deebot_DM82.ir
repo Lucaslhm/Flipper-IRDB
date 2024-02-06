@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Ecovacs Deebot DM82 Vacuum Cleaner
+#
+name: Start_Pause
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 44 BB 00 00
+# 
+name: Forward
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: AA 55 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: CC 33 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 22 DD 00 00
+# 
+name: Max
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 66 99 00 00
+# 
+name: Time_Scheduling
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8998 4521 514 598 515 599 514 600 513 599 514 600 513 598 515 1734 513 616 512 598 515 1732 514 598 514 1733 514 598 515 1734 513 598 515 1748 514 600 514 599 515 599 515 600 513 599 514 599 515 600 514 614 514 1732 514 1732 514 1732 514 1732 514 1733 514 1731 515 1733 513 1747 515 599 515 600 513 600 514 599 515 599 514 598 514 1732 513 1748 514 600 513 1732 514 1732 514 1732 514 1733 514 598 515 1733 514 620 514
+# 
+name: Set_current_time
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8998 4520 515 599 514 598 516 598 515 599 514 600 513 598 514 1732 514 614 514 598 514 1732 514 597 515 1732 514 599 513 1733 513 598 514 1747 514 598 515 599 514 598 515 599 514 599 514 599 514 599 514 613 514 1731 515 1732 514 1731 515 1731 515 1732 514 1732 514 1731 514 1747 514 599 514 598 515 599 514 598 515 599 514 599 513 1731 514 1746 515 598 515 1731 515 1731 515 1733 513 1731 515 1732 514 598 515 615 513
+# 
+name: Spot
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: EE 11 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 11 EE 00 00
+# 
+name: Edge
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 99 66 00 00
