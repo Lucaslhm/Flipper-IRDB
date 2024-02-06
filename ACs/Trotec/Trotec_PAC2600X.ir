@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# AC Trotec PAC 2600x
+#
 name: Power
 type: raw
 frequency: 38000
