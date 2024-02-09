@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# Dyson HotCool HP02 Air Purifier
+#
 name: Power
 type: raw
 frequency: 38000
