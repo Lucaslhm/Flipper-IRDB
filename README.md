@@ -74,7 +74,7 @@ name: Power
 ### Naming Scheme
 
 Please use this naming scheme for buttons. 
-This helps us create universal assets more easily and maintain cosistency.
+This helps us create universal assets more easily and maintain consistency.
 
 | TVs       | Audio    | ACs       |
 | --------- | -------- | --------- |
