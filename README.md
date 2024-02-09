@@ -37,7 +37,7 @@ Directly copying the .ir files to the Flipper's SD card is the fastest and safes
 
 1. Download/copy the desired .ir files from the database to your smartphone, e.g. to the Download folder. Be sure the extension is ".ir".
 2. Open the Flipper Mobile App and go to Connected > Options > activate Experimental Options
-3. Open the now appearing "File Manager" > ext > infrared > upload symbol > chose .ir file from your Download folder
+3. Open the now appearing "File Manager" > ext > infrared > upload symbol > Choose .ir file from your Download folder
 4. The remote can be found on your Flipper Zero > Infrared > Saved Remotes
 
 
