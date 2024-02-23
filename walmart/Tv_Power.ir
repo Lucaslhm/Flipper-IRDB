@@ -1,0 +1,92 @@
+Filetype: IR signals file
+Version: 1
+#
+name: HisenseRK
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+#
+name: OnnRK
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+#
+name: Samsung
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+#
+name: AndroidTV
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 40 00 00 00
+#
+name: Bose
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 4C B3 00 00
+#
+name: Emerson
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+#
+name: LG4K
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+#
+name: Phillips
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: RCA
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 182 7827 172 2332 177 2328 181 2323 176 2330 179 1309 175 1331 174 2331 178 1328 177 2328 181 1307 177 2327 182 1325 180 1326 179 1309 176 1331 174 1332 173 2333 176 2310 178 1328 177 2328 181 1325 180 2306 182 1325 180 2325 174 8340 183 7825 175 2330 179 2326 173 2333 176 2310 178 1328 177 1329 176 2329 180 1308 176 2329 180 1326 179 2326 173 1334 182 1306 179 1328 177 1329 176 1312 183 2322 177 2329 180 1326 179 2325 174 1315 180 2326 173 1333 183 2323 176 8339 183 7824 175 2330 179 2307 181 2324 175 2331 178 1328 177 1330 175 2311 177 1329 176 2329 180 1326 179 2327 182 1305 179 1328 177 1328 177 1311 173 1334 182 2323 176 2330 179 1326 571 1916 180 1327 178 2325 587 920 575 1930 579
+#
+name: Sony
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+#
+name: Toshiba
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+#
+name: ToshibaFS
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+#
+name: Vizio
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+#
+name: Medion
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 18 00 00 00
+#
+name: Telefunken
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
