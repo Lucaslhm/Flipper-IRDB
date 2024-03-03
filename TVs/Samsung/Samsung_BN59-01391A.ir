@@ -5,6 +5,9 @@ Version: 1
 # Model Code: BN59-01391A
 # Model Name: RMCSPB1EP1
 # 2023.05.25
+#
+# Missing feature: long-hold power to power off Frame TV
+#
 name: Power
 type: parsed
 protocol: Samsung32
