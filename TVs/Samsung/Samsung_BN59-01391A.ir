@@ -89,6 +89,12 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 #
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+#
 name: Channel Up
 type: raw
 frequency: 38000
@@ -100,6 +106,12 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1280 1193 418 592 419 892 401 2448 419 590 422 1494 448 1796 419 1195 417 595 417 2693 423 1498 444 2392 419 86327 321 933 321 379 323 658 320
+#
+name: Guide
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4F 00 00 00
 #
 name: Netflix
 type: raw
