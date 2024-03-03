@@ -12,10 +12,10 @@ address: 07 00 00 00
 command: E6 00 00 00
 #
 name: 123
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1314 1141 469 543 468 844 515 2349 464 542 417 1497 491 2644 416 1197 415 1198 443 873 477 1441 420 1196 417 87826 348 905 349 353 349 628 350
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: D2 00 00 00
 #
 name: Mic
 type: parsed
@@ -23,67 +23,67 @@ protocol: Samsung32
 address: 07 00 00 00
 command: FD 00 00 00
 #
-name: Plus
+name: Multi_view
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1263 1192 418 595 416 894 462 2399 417 592 420 1495 440 2699 414 2094 417 2694 448 597 420 1795 416 592 420 86023 321 935 319 382 320 658 320
 #
-name: Left
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1281 1191 473 543 414 894 399 2451 471 539 473 1442 445 2100 469 1738 474 2041 311 1958 447 2399 472 1738 474 84473 349 904 350 352 350 627 350
+name: Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 60 00 00 00
 #
 name: Right
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1278 1195 415 591 420 893 400 2451 417 593 419 1495 447 2094 421 1793 419 1194 417 1792 432 2697 416 1193 419 85728 319 935 319 380 322 658 320
-#
-name: Up
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1263 1192 419 598 413 894 435 2425 418 593 419 1494 441 2095 418 1794 418 593 418 1792 434 2694 418 2392 419 85126 321 936 318 381 321 661 317
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 62 00 00 00
 #
 name: Down
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1281 1192 418 595 416 894 399 2453 414 594 472 1442 444 2093 474 1739 473 838 473 1739 423 2695 472 1741 470 85369 321 933 350 354 347 629 349
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 61 00 00 00
+#
+name: Left
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 65 00 00 00
 #
 name: Select
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1280 1192 472 538 419 893 400 2451 471 540 471 1441 447 2097 473 2038 474 540 470 1739 425 2095 471 2340 472 85369 350 906 348 352 349 627 351
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
 #
 name: Return
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1280 1192 418 594 417 895 398 2451 416 594 418 1496 446 2097 417 1494 418 593 418 2092 424 894 433 2400 416 86930 318 934 320 382 320 657 320
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 58 00 00 00
 #
-name: Smart Hub
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1278 1195 415 593 419 894 399 2455 413 594 418 1496 446 2097 418 2721 390 893 448 1797 345 996 415 1796 416 86328 320 932 322 382 320 657 321
+name: Smart_hub
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 79 00 00 00
 #
-name: Play/Pause
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1281 1192 418 595 417 894 399 2450 418 592 420 1496 446 2398 416 2694 417 895 336 1333 428 892 424 1793 419 86623 321 932 322 382 320 658 319
+name: Play_pause
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: B9 00 00 00
 #
-name: Volume Up
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 #
-name: Volume Down
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -95,17 +95,17 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 #
-name: Channel Up
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1281 1191 473 539 473 837 401 2449 473 540 417 1495 447 1797 472 1139 472 1141 471 2639 429 1495 472 1143 414 86929 349 905 319 381 350 629 349
+name: Ch_next
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
 #
-name: Channel Down
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1280 1193 418 592 419 892 401 2448 419 590 422 1494 448 1796 419 1195 417 595 417 2693 423 1498 444 2392 419 86327 321 933 321 379 323 658 320
+name: Ch_prev
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
 #
 name: Guide
 type: parsed
@@ -113,23 +113,23 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4F 00 00 00
 #
+name: Samsung_tv_plus
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: B4 00 00 00
+#
 name: Netflix
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1279 1193 417 593 418 893 400 2450 417 594 418 1529 412 2696 419 2394 417 1496 422 593 434 1495 417 594 418 87223 321 933 321 383 319 660 318
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: F3 00 00 00
 #
-name: Ssamsung TV Plus
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1331 1139 471 539 473 839 427 2424 470 539 473 1444 498 2344 470 2340 471 1742 476 1149 498 1142 472 2339 473 85076 348 905 349 352 350 629 348
-#
-name: Amazon Prime
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1281 1191 419 592 419 895 398 2453 415 592 420 1496 446 2696 418 2393 418 1795 430 593 424 1195 417 2394 418 85426 318 934 320 381 321 657 321
+name: Prime
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: F4 00 00 00
 #
 name: Disney+
 type: raw
