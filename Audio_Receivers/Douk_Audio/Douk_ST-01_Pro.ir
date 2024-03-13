@@ -1,0 +1,132 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Douk Audio ST-01 Pro
+#
+# https://doukaudio.com/products/douk-audio-st-01-hifi-bluetooth-5-0-tube-amplifier-usb-dac-coax-opt-digital-audio-amp-w-vu-meter
+#
+name: Power
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 45 FF 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 44 FF 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 40 FF 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 43 FF 00 00
+# 
+name: Select
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 46 FF 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 09 FF 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 15 FF 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 47 FF 00 00
+# 
+name: M1
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 42 FF 00 00
+# 
+name: M2
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 52 FF 00 00
+# 
+name: M3
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 4A FF 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 07 FF 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 16 FF 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 19 FF 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 0D FF 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 0C FF 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 18 FF 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 5E FF 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 08 FF 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 1C FF 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: AA 33 00 00
+command: 5A FF 00 00
