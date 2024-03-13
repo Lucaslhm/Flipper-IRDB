@@ -1,0 +1,42 @@
+Filetype: IR signals file
+Version: 1
+#
+# Retro-Bit Prism HDMI Converter
+#
+# https://retro-bit.com/prism-hd/
+#
+name: Menu
+type: parsed
+protocol: NEC
+address: 3E 00 00 00
+command: 1D 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 3E 00 00 00
+command: ED 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 3E 00 00 00
+command: 2D 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 3E 00 00 00
+command: CD 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 3E 00 00 00
+command: AD 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 3E 00 00 00
+command: 6D 00 00 00
