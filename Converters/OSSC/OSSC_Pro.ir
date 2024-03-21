@@ -2,7 +2,9 @@ Filetype: IR signals file
 Version: 1
 #
 # OSSC Pro
-# 
+#
+# https://junkerhq.net/xrgb/index.php?title=OSSC_Pro#Remote_control
+#
 name: POWER
 type: parsed
 protocol: NEC
