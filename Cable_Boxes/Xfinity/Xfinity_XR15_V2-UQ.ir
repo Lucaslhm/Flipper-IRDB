@@ -1,0 +1,35 @@
+Filetype: IR signals file
+Version: 1
+#
+# XFINITY XR15 V2-UQ TV REMOTE
+# Captured by: MDcurIOs1ty
+# 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Vol_Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+# 
+name: Tv_Input
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
