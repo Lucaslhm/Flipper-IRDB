@@ -1,0 +1,24 @@
+Filetype: IR signals file
+Version: 1
+#
+# Toys R Us (Babies R Us) R/C Musical Train
+#
+# winfun R/C Light 'N Sounds - Train https://www.winfun.com/theme_toy/product/26/
+#
+name: Horn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6007 3829 2005 3835 2001 3828 2008 2181 2005 2185 2001 2175 2011 2180 2006 3808 1977
+#
+name: Forward
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6040 3818 2028 3845 2005 2152 2034 2180 2006 2152 2034 2153 2033 3820 2030 3815 2036
+#
+name: Backward
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 6040 3802 2032 3804 2033 2151 2035 3802 2035 2155 2031 2180 2006 3751 2034 2156 2031
