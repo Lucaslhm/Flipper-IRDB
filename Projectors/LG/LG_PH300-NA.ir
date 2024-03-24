@@ -17,25 +17,25 @@ protocol: NECext
 address: 04 0F 00 00
 command: EF 10 00 00
 #
-name: VOL_up
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 04 0F 00 00
 command: 02 FD 00 00
 #
-name: VOL_dn
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 04 0F 00 00
 command: 03 FC 00 00
 #
-name: CH_up
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 04 0F 00 00
 command: 00 FF 00 00
 #
-name: CH_dn
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 04 0F 00 00
