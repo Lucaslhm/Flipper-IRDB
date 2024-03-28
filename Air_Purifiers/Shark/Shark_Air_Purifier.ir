@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: DD 00 00 00
+# 
+name: Fan_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C0 00 00 00
+# 
+name: Fan_down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Info
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 33 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CC 00 00 00
+# 
+name: Time_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Time_down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 64 00 00 00
