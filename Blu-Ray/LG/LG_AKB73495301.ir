@@ -1,0 +1,287 @@
+Filetype: IR signals file
+Version: 1
+#
+# LG AKB73495301 BLU-RAY DISC PLAYER REMOTE
+# Captured by: MDcurIOs1ty
+# 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 30 00 00 00
+# 
+name: 1
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 3B 00 00 00
+# 
+name: 2
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 3C 00 00 00
+# 
+name: 3
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 3D 00 00 00
+# 
+name: 4
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 3E 00 00 00
+# 
+name: 5
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 3F 00 00 00
+# 
+name: 6
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 40 00 00 00
+# 
+name: 7
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 41 00 00 00
+# 
+name: 8
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 42 00 00 00
+# 
+name: 9
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 43 00 00 00
+# 
+name: 0
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 44 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00
+# 
+name: Tv_Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: Info
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 3A 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 47 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 59 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 48 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 5A 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 58 00 00 00
+# 
+name: Back
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 45 00 00 00
+# 
+name: R
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 7C 00 00 00
+# 
+name: G
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 7D 00 00 00
+# 
+name: Y
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 7E 00 00 00
+# 
+name: B
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 7F 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 39 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 31 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 38 00 00 00
+# 
+name: Skip_Back
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 35 00 00 00
+# 
+name: Skip_Fwd
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 34 00 00 00
+# 
+name: Open/Close
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 36 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 46 00 00 00
+# 
+name: Scan_Back
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 32 00 00 00
+# 
+name: Scan_Fwd
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 33 00 00 00
+# 
+name: Home
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 67 00 00 00
+# 
+name: Disk_Menu
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 4B 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 64 00 00 00
+# 
+name: Marker
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 61 00 00 00
+# 
+name: Search
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 62 00 00 00
+# 
+name: Title/Pop-Pup
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 4A 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 53 00 00 00
+# 
+name: Audio
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 4F 00 00 00
+# 
+name: Subtitle
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 50 00 00 00
