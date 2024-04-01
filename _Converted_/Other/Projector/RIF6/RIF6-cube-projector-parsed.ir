@@ -1,0 +1,70 @@
+Filetype: IR signals file
+Version: 1
+#
+# RIF6 Cube Mini Projector
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF A2 5D
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF 4A B5
+#
+name: Rewind
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF 30 CF
+#
+name: Fast forward
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF 7A 85
+#
+name: Up arrow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF 52 AD
+#
+name: Left arrow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF E0 1F
+#
+name: Play / Pause 
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF 18 E7
+#
+name: Right arrow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF 90 6F
+#
+name: Down arrow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF 42 BD
+#
+name: Settings
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command:  0x FF A8 57
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0x FF E2 1D
