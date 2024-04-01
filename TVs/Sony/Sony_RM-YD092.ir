@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Sony RM-YD092 TV
+#
 name: Power
 type: parsed
 protocol: SIRC
