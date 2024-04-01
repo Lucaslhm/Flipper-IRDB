@@ -1,0 +1,142 @@
+Filetype: IR signals file
+Version: 1
+#
+# Promethean UST-P1 Projector
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 81 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C6 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C1 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C8 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C9 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CA 00 00 00
+# 
+name: PageUp
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CB 00 00 00
+# 
+name: PageDown
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CC 00 00 00
+# 
+name: ArrowUp
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C1 00 00 00
+# 
+name: ArrowDown
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C2 00 00 00
+# 
+name: ArrowLeft
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C3 00 00 00
+# 
+name: ArrowRight
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C4 00 00 00
+# 
+name: ReturnArrow
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C5 00 00 00
+# 
+name: Keystone+
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 85 00 00 00
+# 
+name: Keystone-
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 84 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 87 00 00 00
+# 
+name: Status
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 88 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 86 00 00 00
+# 
+name: Blank
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8B 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 83 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8E 00 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8A 00 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8D 00 00 00

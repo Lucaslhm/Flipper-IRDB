@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+#
+# PrismPlus TV
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0D 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 42 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 43 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 44 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 45 00 00 00
+# 
+name: Home
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 78 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 11 00 00 00
+# 
+name: Back
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 64 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: B5 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 46 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 14 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 15 00 00 00
+# 
+name: Google
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 82 00 00 00

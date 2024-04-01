@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+#
+# Tween LED Light
+#
+name: On-off
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Evening_light
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Brightness+
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Brightness-
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: 3000k
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: 6500k
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
