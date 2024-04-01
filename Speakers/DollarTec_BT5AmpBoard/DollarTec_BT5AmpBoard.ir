@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# DollarTec Bluetooth 5.0 Amplifier Board
+#
 name: Power
 type: parsed
 protocol: NEC
