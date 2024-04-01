@@ -1,9 +1,9 @@
-# JVC LX-UH1B 4K Projector
-# IR Codes from RM-MH26 remote
-
 Filetype: IR signals file
 Version: 1
 # 
+# JVC LX-UH1B 4K Projector
+# IR Codes from RM-MH26 remote
+#
 name: Power
 type: parsed
 protocol: NECext
