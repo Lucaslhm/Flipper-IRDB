@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# biOrb Classic 15 Aquarium (with lighting)
+#
 name: 8 Hour
 type: parsed
 protocol: NEC
