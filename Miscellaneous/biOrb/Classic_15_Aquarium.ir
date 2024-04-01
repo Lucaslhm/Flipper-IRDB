@@ -1,0 +1,172 @@
+Filetype: IR signals file
+Version: 1
+#
+# biOrb Classic 15 Aquarium (with lighting)
+#
+name: 8 Hour
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 9D 00 00 00
+# 
+name: 10 Hour
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 9C 00 00 00
+# 
+name: 12 Hour
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 9E 00 00 00
+# 
+name: 14 Hour
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 9F 00 00 00
+# 
+name: On
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 85 00 00 00
+# 
+name: White
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 8B 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 84 00 00 00
+# 
+name: Red
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 89 00 00 00
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 88 00 00 00
+# 
+name: Play Color Shift
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 87 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 8A 00 00 00
+# 
+name: Stop Color Shift
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 86 00 00 00
+# 
+name: Red 1
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 8D 00 00 00
+# 
+name: Red 2
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 95 00 00 00
+# 
+name: Red 3
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 99 00 00 00
+# 
+name: Red 4
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 91 00 00 00
+# 
+name: Green 1
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 8C 00 00 00
+# 
+name: Green 2
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 94 00 00 00
+# 
+name: Green 3
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 98 00 00 00
+# 
+name: Green 4
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 90 00 00 00
+# 
+name: Blue 1
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 8E 00 00 00
+# 
+name: Blue 2
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 96 00 00 00
+# 
+name: Blue 3
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 9A 00 00 00
+# 
+name: Blue 4
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 92 00 00 00
+# 
+name: Level 4
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 8F 00 00 00
+# 
+name: Level 3
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 97 00 00 00
+# 
+name: Level 2
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 9B 00 00 00
+# 
+name: Level 1
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 93 00 00 00
