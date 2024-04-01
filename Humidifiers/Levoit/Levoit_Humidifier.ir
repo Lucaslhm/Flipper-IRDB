@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Levoit Humidifier
+#
 name: On-Off
 type: parsed
 protocol: NEC
