@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# BOSE Wave Soundtouch IV Speaker
+#
 name: Power
 type: raw
 frequency: 38000
