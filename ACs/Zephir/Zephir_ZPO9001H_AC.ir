@@ -1,5 +1,6 @@
 Filetype: IR signals file
 Version: 1
+#
 # Zephir ZPO9001H Portable AC
 #
 name: POWER ON/OFF
