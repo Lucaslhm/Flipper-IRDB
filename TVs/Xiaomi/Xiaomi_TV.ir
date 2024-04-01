@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Xiaomi TV
+#
 name: Open
 type: raw
 frequency: 38000
