@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Hallmark Hogwarts Tree Topper
+#
 name: Button
 type: raw
 frequency: 38000
