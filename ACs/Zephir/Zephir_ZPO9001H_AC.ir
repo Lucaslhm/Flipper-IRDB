@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+#
+# Zephir ZPO9001H Portable AC
+#
+name: POWER ON/OFF
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9C 00 00 00
+# 
+name: TEMP+
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 94 00 00 00
+# 
+name: TEMP-
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 95 00 00 00
+# 
+name: FAN_SPEED
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 96 00 00 00
+# 
+name: MODE
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9D 00 00 00
+# 
+name: SWING
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 92 00 00 00
+# 
+name: SLEEP
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9B 00 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9F 00 00 00
