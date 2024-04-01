@@ -1,0 +1,119 @@
+Filetype: IR signals file
+Version: 1
+# 
+# JVC LX-UH1B 4K Projector
+# IR Codes from RM-MH26 remote
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 40 BF 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 5E A1 00 00
+# 
+name: Natural
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 61 9E 00 00
+# 
+name: Cinema
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 63 9C 00 00
+# 
+name: Dynamic
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 6B 94 00 00
+# 
+name: User1
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 6E 91 00 00
+# 
+name: User2
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 79 86 00 00
+# 
+name: Gamma
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 8D 72 00 00
+# 
+name: Hide
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 58 A7 00 00
+# 
+name: Test
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 8F 70 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 41 BE 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 90 6F 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 47 B8 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 4A B5 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 48 B7 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 49 B6 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 5A A5 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 94 6B 00 00
+# 
+name: Contrast
+type: parsed
+protocol: NECext
+address: 00 6A 00 00
+command: 9A 65 00 00
