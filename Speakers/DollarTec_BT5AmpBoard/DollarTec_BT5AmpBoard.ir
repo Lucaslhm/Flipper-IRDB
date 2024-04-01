@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# DollarTec Bluetooth 5.0 Amplifier Board
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
