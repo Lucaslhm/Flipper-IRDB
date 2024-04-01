@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Toshiba CT-8563 TV
+#
 name: Power
 type: parsed
 protocol: RC5
