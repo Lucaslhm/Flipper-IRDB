@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Edifier R1700BT Speakers (Original)
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 2B D4 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 3C C3 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 1A E5 00 00
+# 
+name: Line
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 5E A1 00 00
+#
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 4D B2 00 00
