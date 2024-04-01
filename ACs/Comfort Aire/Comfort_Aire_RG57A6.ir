@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Comfort Aire RG57A6 Remote control
+#
 name: On
 type: raw
 frequency: 38000
