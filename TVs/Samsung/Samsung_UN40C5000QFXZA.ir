@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Samsung UN40C5000QFXZA TV
+#
 name: Power
 type: parsed
 protocol: Samsung32
