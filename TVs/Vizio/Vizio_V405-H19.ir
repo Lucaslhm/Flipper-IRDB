@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-#VIZIO V405-H19 TV
+# VIZIO V405-H19 TV
 #
 name: Ch_next
 type: parsed
