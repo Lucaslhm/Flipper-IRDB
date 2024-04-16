@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# SMART Technologies Board MX
+#
 name: Power
 type: parsed
 protocol: NEC
