@@ -1,0 +1,340 @@
+Filetype: IR signals file
+Version: 1
+#
+# VIZIO V405-H19 TV
+#
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+#
+name: 0
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 10 00 00 00
+#
+name: 1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 11 00 00 00
+#
+name: 2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 12 00 00 00
+#
+name: 3
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 13 00 00 00
+#
+name: 4
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 14 00 00 00
+#
+name: 5
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 15 00 00 00
+#
+name: 6
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 16 00 00 00
+#
+name: 7
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 17 00 00 00
+#
+name: 8
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 18 00 00 00
+#
+name: 9
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 19 00 00 00
+#
+name: Prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1A 00 00 00
+#
+name: Info
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1B 00 00 00
+#
+name: Cast
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1C 00 00 00
+#
+name: Haystack
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1E 00 00 00
+#
+name: Disney+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1F 00 00 00
+#
+name: Onscreen Console
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 20 00 00 00
+#
+name: Onscreen Console
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 21 00 00 00
+#
+name: Restart
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 25 00 00 00
+#
+name: Home
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 2D 00 00 00
+#
+name: Input
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 2F 00 00 00
+#
+name: CC
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 39 00 00 00
+#
+name: Redbox
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 42 00 00 00
+#
+name: Options
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+#
+name: Enter
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 45 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 46 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 47 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 48 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4A 00 00 00
+#
+name: Peacock
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 51 00 00 00
+#
+name: Tubi
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5A 00 00 00
+#
+name: Pluto TV
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 60 00 00 00
+#
+name: HBO Max
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+#
+name: Status
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 62 00 00 00
+#
+name: Picture
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 67 00 00 00
+#
+name: Xumo Play
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 6F 00 00 00
+#
+name: Comp
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 71 00 00 00
+#
+name: Aspect
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 77 00 00 00
+#
+name: HDMI 1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 81 00 00 00
+#
+name: HDMI 2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 82 00 00 00
+#
+name: HDMI 3
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 83 00 00 00
+#
+name: Prime Video
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EA 00 00 00
+#
+name: Netflix
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EB 00 00 00
+#
+name: VUDU
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EC 00 00 00
+#
+name: iHeart
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EE 00 00 00
+#
+name: USB
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F0 00 00 00
+#
+name: Watch Free+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F7 00 00 00
+#
+name: Crackle
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F8 00 00 00
+#
+name: Hulu
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F9 00 00 00
+#
+name: Dash
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FF 00 00 00
