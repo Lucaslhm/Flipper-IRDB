@@ -1,0 +1,35 @@
+Filetype: IR signals file
+Version: 1
+#
+# Shinic BP69D window fan with thermostat
+# This fan accepts signals from other remotes but this one is optimized for this device
+# 
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1226 441 1228 442 441 1228 1227 472 1198 441 443 1231 439 1228 442 1227 443 1227 442 1226 443 1227 1228 7154
+# 
+name: Speed
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1197 472 1198 442 414 1260 1223 472 1198 444 413 1285 385 1256 1227 472 385 1285 385 1285 385 1256 414 7968
+# 
+name: Temp +
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1226 442 1228 441 443 1227 1229 472 1198 445 412 1255 442 1229 440 1230 1225 472 411 1229 441 1229 441 7943
+# 
+name: Temp -
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1226 444 1226 441 416 1253 1230 471 1199 472 385 1255 415 1253 417 1253 417 1256 1227 441 416 1285 385 8320
+# 
+name: Airflow
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1226 471 1199 441 416 1255 1228 442 1228 443 440 1228 443 1226 444 1227 442 1226 444 1257 1199 471 412 8293
