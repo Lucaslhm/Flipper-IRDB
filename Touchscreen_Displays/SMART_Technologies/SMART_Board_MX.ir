@@ -33,6 +33,12 @@ protocol: NEC
 address: F7 00 00 00
 command: D8 00 00 00
 # 
+name: Left
+type: parsed
+protocol: NEC
+address: F7 00 00 00
+command: 97 00 00 00
+# 
 name: Right
 type: parsed
 protocol: NEC
