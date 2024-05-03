@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# iLife A4s Vacuum
+#
 name: Clean
 type: parsed
 protocol: NECext
