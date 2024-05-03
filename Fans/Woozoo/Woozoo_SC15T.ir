@@ -1,0 +1,71 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Woozoo PCF-SC15T-CT globe fan
+# 5 Speed model from Costco
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 00 FF 00 00
+# 
+name: Fan_up
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 16 E9 00 00
+# 
+name: Fan_down
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 14 EB 00 00
+# 
+name: Horizontal
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0A F5 00 00
+# 
+name: Vertical
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0E F1 00 00
+# 
+name: Breeze
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 09 F6 00 00
+# 
+name: Timer_1h
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 08 F7 00 00
+# 
+name: Timer_2h
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0C F3 00 00
+# 
+name: Timer_4h
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 10 EF 00 00
+# 
+name: Light
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 0D F2 00 00
+# 
+name: Sound
+type: parsed
+protocol: NECext
+address: 80 DE 00 00
+command: 11 EE 00 00
