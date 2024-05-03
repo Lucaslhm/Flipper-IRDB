@@ -1,0 +1,28 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Xflyee Wallclock (All Models)
+#
+name: Timerstart
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 05 FA 00 00
+# 
+name: Timer_enter
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 04 FB 00 00
+# 
+name: Timer_tempunits
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 02 FD 00 00
+# 
+name: Timer_onoff
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 00 FF 00 00
