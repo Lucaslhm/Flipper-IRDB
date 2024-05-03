@@ -1,6 +1,27 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Panasonic A75C4187 AC Remote for:
+#   CW-XN1219VA
+#   CW-XN1819EA
+#   CW-XN2419EA
+#   CW-XN719JA
+#   CW-XN919JA
+#   CW-XV1212VA
+#   CW-XV1213VA
+#   CW-XV1215VA
+#   CW-XV1812EA
+#   CW-XV1813EA
+#   CW-XV1815EA
+#   CW-XV2412EA
+#   CW-XV2413EA
+#   CW-XV712JA
+#   CW-XV713JA
+#   CW-XV715JA
+#   CW-XV912JA
+#   CW-XV913JA
+#   CW-XV915JA
+#
 name: PWR_SW
 type: raw
 frequency: 38000
