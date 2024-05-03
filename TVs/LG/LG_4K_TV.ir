@@ -3,29 +3,41 @@ Version: 1
 # 
 # LG 4K TV
 # 
-name: Tvhome
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 08 00 00 00
-# 
 name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: Vol_up
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: Vol+
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_dn
+name: Vol-
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
+# 
+name: Ch+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Ch-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
 # 
 name: Back
 type: parsed
@@ -63,7 +75,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 # 
-name: Src
+name: Source
 type: parsed
 protocol: NEC
 address: 04 00 00 00
