@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+#
+# Shark Flex Breeze FA22X Fan
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 55 00 00 00
+#
+name: Sleep timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+#
+name: Fan +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 27 00 00 00
+#
+name: Fan -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+#
+name: Oscillation +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 59 00 00 00
+#
+name: Oscillation -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 68 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 34 00 00 00
