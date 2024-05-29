@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Model: BRANDELL_DR802
+# Brandell DR802 Bidet
 #
 name: Pause_resume
 type: raw
