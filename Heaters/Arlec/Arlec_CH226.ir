@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Arlec CH226 Heater
+#
 name: Power
 type: raw
 frequency: 38000
