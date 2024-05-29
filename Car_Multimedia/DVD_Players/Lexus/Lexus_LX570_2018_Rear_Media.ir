@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Lexus LX570 (2018) Multimedia Rear Entertainment System
+#
 name: Power
 type: parsed
 protocol: NECext
