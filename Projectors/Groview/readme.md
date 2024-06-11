@@ -1,0 +1,1 @@
+# This remote looks generic, and has been seen across many projectors, especially cheap ones, on amazon.
