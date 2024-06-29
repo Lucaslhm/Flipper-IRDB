@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# GREE YAPOF AC (Chinese version)
+#
 name: Power_on
 type: raw
 frequency: 38000
