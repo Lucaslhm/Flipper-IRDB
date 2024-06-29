@@ -1,0 +1,35 @@
+Filetype: IR signals file
+Version: 1
+#
+# Hatari remote (Fan)
+# Suitable for Hatari SlideSmart L1 and probably all remote controlled Hatari fans
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 11 00 00 00
+# 
+name: Speed
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0D 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 09 00 00 00
+# 
+name: Swing
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 05 00 00 00
+# 
+name: Natural
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 15 00 00 00
