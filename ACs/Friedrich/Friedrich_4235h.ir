@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Friedrich 4235h AC (French)
+#
 name: Power
 type: raw
 frequency: 38000
