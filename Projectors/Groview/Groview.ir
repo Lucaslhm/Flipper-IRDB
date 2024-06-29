@@ -53,13 +53,13 @@ protocol: NECext
 address: 86 6B 00 00
 command: 4A B5 00 00
 # 
-name: Voldown
+name: Vol_down
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
 command: 48 B7 00 00
 # 
-name: Volup
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 86 6B 00 00
