@@ -1,10 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
-# Hatari remote (Fan)
-# 
-# Suitable for Hatari SlideSmart L1 and probably all remote controlled Hatari fans
 #
+# Hatari remote (Fan)
+# Suitable for Hatari SlideSmart L1 and probably all remote controlled Hatari fans
 #
 name: Power
 type: parsed
