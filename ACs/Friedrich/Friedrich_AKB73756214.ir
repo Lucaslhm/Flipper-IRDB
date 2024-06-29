@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Friedrich AKB73756214 AC (French)
+#
 name: On
 type: raw
 frequency: 38000
