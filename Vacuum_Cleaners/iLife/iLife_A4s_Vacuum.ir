@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# iLife A4s Vacuum
+#
+name: Clean
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 44 BB 00 00
+# 
+name: Spiral
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: EE 11 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 11 EE 00 00
+# 
+name: Edge_clean
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 99 66 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: AA 55 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 66 99 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: CC 33 00 00
+# 
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 315 70185 9227 4516 616 529 615 505 640 505 639 507 610 536 611 536 610 1656 634 509 635 1655 609 536 610 1657 634 509 635 1655 610 536 609 1656 633 509 635 510 608 1683 609 535 610 510 636 510 633 1656 609 536 609 535 609 1656 633 511 608 1683 608 1656 635 1657 608 538 609 1682 609 1657 635

@@ -2,6 +2,7 @@ Filetype: IR signals file
 Version: 1
 #
 # Sony BDP-S370 Blu-Ray
+# Sony BDP-S301 Blu-Ray
 #
 name: Open/Close
 type: parsed

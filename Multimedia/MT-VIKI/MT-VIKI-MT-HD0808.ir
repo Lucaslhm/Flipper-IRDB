@@ -1,0 +1,192 @@
+Filetype: IR signals file
+Version: 1
+# 
+# MT-VIKI MT-HD0808 HDMI 4K 8x8 Matrix Switcher (ASIN: B08K8Z5WFT)
+# Works probably the with the following products as well (but not tested) as both share the same documentation containing the detail of the IR control codes:
+# MT-VIKI MT-HD1616 HDMI 4K 16x16 Matrix Switcher (ASIN: B098NMVT7X)
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: a8 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 88 00 00 00
+#
+name: f1
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 90 00 00 00
+#
+name: f2
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 83 00 00 00
+#
+name: f3
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 98 00 00 00
+#
+name: f4
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 82 00 00 00
+#
+name: f5
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 93 00 00 00
+#
+name: f6
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 9c 00 00 00
+#
+name: f7
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 8c 00 00 00
+#
+name: f8
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: d6 00 00 00
+#
+name: Save
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 97 00 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 95 00 00 00
+#
+name: Recall
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 96 00 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 9b 00 00 00
+#
+name: OK
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 9e 00 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 99 00 00 00
+#
+name: Fun
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 91 00 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 9a 00 00 00
+#
+name: Cancel
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: a4 00 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 87 00 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 86 00 00 00
+#
+name: 3
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 85 00 00 00
+#
+name: 4
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 8b 00 00 00
+#
+name: 5
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 8a 00 00 00
+#
+name: 6
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 89 00 00 00
+#
+name: 7
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 8f 00 00 00
+#
+name: 8
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 8e 00 00 00
+#
+name: 9
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 8d 00 00 00
+#
+name: All
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 84 00 00 00
+#
+name: 0
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 92 00 00 00
+#
+name: EDID
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 94 00 00 00

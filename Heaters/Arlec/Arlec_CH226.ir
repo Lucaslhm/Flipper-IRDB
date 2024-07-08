@@ -1,0 +1,52 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Arlec CH226 Heater
+#
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9129 4443 623 508 623 537 595 508 624 509 623 509 623 511 732 426 706 402 730 1551 704 1524 623 1661 595 1636 620 1660 596 1661 595 1661 596 1661 596 537 596 1660 596 537 595 537 595 537 595 537 595 1661 595 537 596 1661 595 537 595 1661 595 1660 596 1661 596 1661 595 536 596 1660 596 39363 9145 2227 595
+# 
+name: Lock
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Fan
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Plus
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Minus
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Far/Cel
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00

@@ -1,0 +1,105 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: STOP
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 80 00 00 00
+# 
+name: Posterior Wash
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 40 08 00 00
+# 
+name: F Wash
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: C0 C0 00 00
+# 
+name: Dry wash area
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 20 40 00 00
+# 
+name: Vortex wash
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: A0 D0 00 00
+# 
+name: Retract_Nozzle shower
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 00 00 00 00
+# 
+name: Oscillate during posterior wash
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: E0 08 00 00
+# 
+name: Oscillate during fem wash
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: E0 C0 00 00
+# 
+name: Oscillate during vortex
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: E0 D0 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 60 99 00 00
+# 
+name: Deodorize off
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 08 00 00 00
+# 
+name: Deodorize on
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 08 01 00 00
+# 
+name: Water temperature
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 78 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 24 00 00 00
+# 
+name: Seat Temp
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: B8 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 24 00 00 00
+# 
+name: SAVE
+type: parsed
+protocol: NECext
+address: FC FE 00 00
+command: 14 01 00 00
+
