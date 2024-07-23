@@ -1,0 +1,113 @@
+Filetype: IR signals file
+Version: 1
+#
+# Generic Projector Universal Remote (see: https://imgur.com/a/V5NSosb)
+# Not all buttons on remote actually do something
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 02 FD 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 27 D8 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 08 F7 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0B F4 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 13 EC 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 14 EB 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 16 E9 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 15 EA 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 11 EE 00 00
+# 
+name: Keystone+
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 09 F6 00 00
+# 
+name: Keystone-
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0D F2 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 03 FC 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 16 E9 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 11 EE 00 00
+# 
+name: Esc
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 12 ED 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 01 EF 00 00
+command: 0E F1 00 00
+# 
+name: Page+
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 13 EC 00 00
+# 
+name: Page-
+type: parsed
+protocol: NECext
+address: 48 50 00 00
+command: 14 EB 00 00
