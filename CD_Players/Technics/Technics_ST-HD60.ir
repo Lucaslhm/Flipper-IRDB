@@ -2,6 +2,7 @@ Filetype: IR signals file
 Version: 1
 #
 # Technics ST-HD60 AM/FM Stereo Tuner (1997-98)
+# https://www.hifiengine.com/manual_library/technics/st-hd60.shtml
 #
 name: Power
 type: parsed
