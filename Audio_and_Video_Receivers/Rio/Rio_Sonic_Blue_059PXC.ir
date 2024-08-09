@@ -1,0 +1,178 @@
+Filetype: IR signals file
+Version: 1
+#
+# Rio Sonic Blue
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 84 7B 00 00
+#
+name: Play
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 85 7A 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 90 6F 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 83 7C 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 87 78 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 8D 72 00 00
+# 
+name: Random
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 89 76 00 00
+#  
+name: Mute
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 80 7F 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 88 77 00 00
+# 
+name: Select_up
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 8C 73 00 00
+# 
+name: Select_dn
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 86 79 00 00
+# 
+name: Enter
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 82 7D 00 00
+# 
+name: Cancel
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 8E 71 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 8A 75 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 81 7E 00 00
+#
+name: Info
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 8B 74 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 94 6B 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 9C 63 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 92 6D 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 9A 65 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 96 69 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 9E 61 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 91 6E 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 99 66 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 95 6A 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 93 6C 00 00
+# 
+name: List
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 9D 62 00 00
+# 
+name: Search
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 9F 60 00 00
+# 
+name: Station
+type: parsed
+protocol: NECext
+address: 82 13 00 00
+command: 9B 64 00 00
