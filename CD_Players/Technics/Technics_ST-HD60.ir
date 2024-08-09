@@ -1,0 +1,221 @@
+Filetype: IR signals file
+Version: 1
+#
+# Technics ST-HD60 AM/FM Stereo Tuner (1997-98)
+# https://www.hifiengine.com/manual_library/technics/st-hd60.shtml
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: D1 03 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 61 01 00 00
+# 
+name: Tuner_band
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: 40 02 00 00
+# 
+name: Auto_mono
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 00
+command: 30 03 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 01 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 11 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 21 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 31 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 41 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 51 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 61 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 71 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 81 01 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 91 01 00 00
+# 
+name: 10
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 41 00 00 00
+# 
+name: Display_mode
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 01
+command: 50 01 00 00
+# 
+name: Pty_select
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 03
+command: 00 01 00 00
+# 
+name: Search
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 03
+command: 10 01 00 00
+# 
+name: Cd
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 40 01 00 00
+# 
+name: Cd_Prev
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 01
+command: 90 00 00 00
+# 
+name: Cd_Next
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 01
+command: A0 00 00 00
+# 
+name: Program
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 02
+command: A0 00 00 00
+# 
+name: Cd_play
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: A0 00 00 00
+# 
+name: Cd_pause
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: 60 00 00 00
+# 
+name: Cd_stop
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: 00 00 00 00
+# 
+name: Cancel
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 02
+command: 30 02 00 00
+# 
+name: Tape
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 60 01 00 00
+# 
+name: Tape_fb
+type: parsed
+protocol: Kaseikyo
+address: A8 02 20 00
+command: 20 00 00 00
+# 
+name: Tape_ff
+type: parsed
+protocol: Kaseikyo
+address: A8 02 20 00
+command: 30 00 00 00
+# 
+name: Rec_pause
+type: parsed
+protocol: Kaseikyo
+address: A8 02 20 00
+command: 80 00 00 00
+# 
+name: Tape_Backw
+type: parsed
+protocol: Kaseikyo
+address: A8 02 20 00
+command: B0 00 00 00
+# 
+name: Tape_stop
+type: parsed
+protocol: Kaseikyo
+address: A8 02 20 00
+command: 00 00 00 00
+# 
+name: Tape_forw
+type: parsed
+protocol: Kaseikyo
+address: A8 02 20 00
+command: A0 00 00 00
+# 
+name: Muting
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
