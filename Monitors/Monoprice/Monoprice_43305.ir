@@ -1,0 +1,100 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Dark Matter by Monoprice 49in Curved Gaming Monitor 43305
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 41 00 00 00
+#
+name: Input_Select
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 50 00 00 00
+#
+name: Menu_OK
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1B 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 42 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 43 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4F 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+#
+name: Exit_Menu
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4D 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 56 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 51 00 00 00
+#
+name: Cross_Hairs
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 5A 00 00 00
+#
+name: Aspect_Ratio
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4C 00 00 00
+#
+name: Bright_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 80 00 00 00
+#
+name: Bright_dn
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 8E 00 00 00
+#
+name: HDR
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 14 00 00 00
+#
+name: Multi_Window
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0F 00 00 00
