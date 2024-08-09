@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Roku 4K TV Box
+#
 name: Back
 type: parsed
 protocol: NECext
