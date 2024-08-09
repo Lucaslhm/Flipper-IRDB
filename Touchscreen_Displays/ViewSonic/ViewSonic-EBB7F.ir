@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# ViewSonic Touchscreen
+# ViewSonic EBB7F Touchscreen
 # 
 name: On_off
 type: parsed
