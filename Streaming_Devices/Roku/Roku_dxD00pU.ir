@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Roku dxD00pU TV Box
+#
 name: Power
 type: parsed
 protocol: NECext
