@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Edifier R1855DB Speaker
+#
 name: V_up
 type: parsed
 protocol: NECext
