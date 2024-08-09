@@ -1,0 +1,256 @@
+Filetype: IR signals file
+Version: 1
+#
+# Samsung TV AA59-00714A
+#
+name: Power off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+#
+name: Power on
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Volume up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Volume down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: Channel up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+# 
+name: Channel down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+# 
+name: Source
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1A 00 00 00
+# 
+name: Home
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 79 00 00 00
+# 
+name: MagicInfo Player I
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 30 00 00 00
+# 
+name: Tools
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4B 00 00 00
+# 
+name: Info
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1F 00 00 00
+# 
+name: Return
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 58 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2D 00 00 00
+# 
+name: A/Red
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 6C 00 00 00
+# 
+name: B/Green
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 14 00 00 00
+# 
+name: C/Yellow
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 15 00 00 00
+# 
+name: D/Blue
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 16 00 00 00
+# 
+name: Set
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: AB 00 00 00
+# 
+name: Unset
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: AC 00 00 00
+# 
+name: Lock
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 77 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 47 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4A 00 00 00
+# 
+name: Fast-Backwards
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 45 00 00 00
+# 
+name: Fast-Forwards
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 48 00 00 00
+# 
+name: Up arrow
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 60 00 00 00
+# 
+name: Left arrow
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 65 00 00 00
+# 
+name: Down arrow
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 61 00 00 00
+# 
+name: Right arrow
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 62 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+# 
+name: numpad 1
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 04 00 00 00
+# 
+name: numpad 2
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 05 00 00 00
+# 
+name: numpad 3
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 06 00 00 00
+# 
+name: numpad 4
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 08 00 00 00
+# 
+name: numpad 5
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 09 00 00 00
+# 
+name: numpad 6
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0A 00 00 00
+# 
+name: numpad 7
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0C 00 00 00
+# 
+name: numpad 8
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0C 00 00 00
+# 
+name: numpad 9
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0C 00 00 00
+# 
+name: numpad 0
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 11 00 00 00
