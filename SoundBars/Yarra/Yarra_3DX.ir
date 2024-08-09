@@ -2,6 +2,8 @@ Filetype:
 IR signals file
 Version: 1
 #
+# Yarra 3DX SoundBar
+#
 name: Power
 type: parsed
 protocol: NECext
