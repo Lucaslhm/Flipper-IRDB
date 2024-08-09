@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Edifier RC80B Speaker
+#
 name: On/Off
 type: parsed
 protocol: NECext
