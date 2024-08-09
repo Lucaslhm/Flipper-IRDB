@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Epson EB-685Wi Projector
+#
 name: Power
 type: parsed
 protocol: NECext
