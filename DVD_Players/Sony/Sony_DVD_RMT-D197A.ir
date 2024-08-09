@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Sony DVD Player RMT-D197A
+#
 name: Open_Close
 type: parsed
 protocol: SIRC20
