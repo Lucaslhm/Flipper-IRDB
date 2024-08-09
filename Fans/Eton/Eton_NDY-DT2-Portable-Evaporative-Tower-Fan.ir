@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Eton NDY-DT2
+# Portable Evaporative Tower Fan
+#
 name: Power
 type: parsed
 protocol: NEC
