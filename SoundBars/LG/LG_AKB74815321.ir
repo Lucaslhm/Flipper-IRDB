@@ -1,0 +1,115 @@
+Filetype: IR signals file
+Version: 1
+# 
+# LG SH5 Soundbar Remote AKB74815321
+#
+# DRC (Dynamic Range Control) has been added from another remote 
+# as the OEM remote does not have it, but the soundbar supports it
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+# 
+name: Function
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 8A 00 00 00
+# 
+name: Sound_effect
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 2F 00 00 00
+# 
+name: Night_mode
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 99 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
+# 
+name: Settings
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 98 00 00 00
+# 
+name: Vol_up 
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 06 00 00 00
+# 
+name: Next
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 07 00 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+# 
+name: Folder_+
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 0C 00 00 00
+# 
+name: Folder_-
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 0D 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4E 00 00 00
+# 
+name: AV_sync
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: D9 00 00 00
+# 
+name: Auto_vol
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1C 00 00 00
+# 
+name: Auto_power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 93 00 00 00
+# 
+name: DRC
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 62 00 00 00
