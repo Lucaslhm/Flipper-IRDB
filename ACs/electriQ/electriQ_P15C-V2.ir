@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# electriQ AC P15C-V2
+#
 name: On_off
 type: parsed
 protocol: NEC
