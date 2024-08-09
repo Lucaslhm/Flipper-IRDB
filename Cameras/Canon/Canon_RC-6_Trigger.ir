@@ -1,0 +1,47 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote trigger compatible with the following Canon models
+#
+# EOS 5DS / 5DS R
+# EOS 600D
+# EOS 7D
+# EOS 450D
+# EOS 550D
+# EOS 5D Mark III
+# EOS 90D
+# EOS D30
+# EOS M5
+# EOS 10D
+# EOS 400D
+# EOS 500D
+# EOS 6D
+# EOS 700D
+# EOS 77D
+# EOS 80D
+# EOS 20D
+# EOS 750D /760D
+# EOS D60
+# EOS M3
+# EOS 100D
+# EOS 300D
+# EOS 5D Mark IV
+# EOS 650D
+# EOS 800D
+# EOS M/
+# EOS M2
+# EOS 350D
+# EOS 60D
+# EOS 60Da
+# EOS 6D Mark II
+# EOS 7D II
+# EOS 5D Mark II
+# EOS 70D
+# EOS M6
+# EOS M5
+#
+name: Trigger
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 502 7213 290 67972 463
