@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Homedics ARM-720A Ellia Essential Diffuser/Humidifier
+#
 name: Diff_pwr
 type: parsed
 protocol: NEC
