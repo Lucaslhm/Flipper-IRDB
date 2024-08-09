@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-#Panasonic - SA-PM602
+# Panasonic SA-PM602 Speaker
 #
 name: Power
 type: raw
