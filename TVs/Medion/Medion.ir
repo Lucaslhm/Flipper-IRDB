@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Medion TV
+#
 name: On_Off
 type: raw
 frequency: 38000
