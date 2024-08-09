@@ -1,10 +1,14 @@
 Filetype: IR signals file
 Version: 1
+#
+# Samsung TV AA59-00714A
+#
 name: Power off
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 98 00 00 00
+#
 name: Power on
 type: parsed
 protocol: Samsung32
