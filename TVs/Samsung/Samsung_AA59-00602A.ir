@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Samsung AA59-00602A TV
+#
 name: Sams_02
 type: parsed
 protocol: Samsung32
