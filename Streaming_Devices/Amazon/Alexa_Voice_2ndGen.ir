@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Amazon Alexa 2nd-gen
+#
 name: Power
 type: parsed
 protocol: RC5
