@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Shami Fan 4333E
+#
 name: Off
 type: raw
 frequency: 38000
