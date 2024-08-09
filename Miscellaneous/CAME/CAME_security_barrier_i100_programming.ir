@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# CAME Security Barrier i100 programming remote
+#
 name: Wand
 type: raw
 frequency: 38000
