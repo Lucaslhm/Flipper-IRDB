@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Dreo Fan WDR-TF007-9275A
+#
 name: Power
 type: raw
 frequency: 38000
