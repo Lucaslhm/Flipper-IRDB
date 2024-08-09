@@ -1,7 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Marklin_forward
+# Marklin My World Junior toy
+#
+name: Forward
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
