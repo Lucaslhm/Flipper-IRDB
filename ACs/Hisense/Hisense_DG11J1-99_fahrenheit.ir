@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Hisense AC DG11J1-99 Fahrenheit
+#
 name: Power 
 type: raw
 frequency: 38000
