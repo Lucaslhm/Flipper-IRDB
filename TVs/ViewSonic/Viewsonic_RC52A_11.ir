@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Viewsonic RC52A-11 TV
+#
 name: Power
 type: parsed
 protocol: RC5
