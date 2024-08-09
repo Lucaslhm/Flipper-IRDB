@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Honeywell Fan HY041w
+#
 name: Power
 type: raw
 frequency: 38000
