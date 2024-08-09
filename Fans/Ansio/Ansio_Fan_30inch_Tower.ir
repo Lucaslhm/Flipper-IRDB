@@ -3,7 +3,7 @@ Version: 1
 # 
 # Ansio Tower Fan 30" (aka MainStays Tower Fan FZ10-19JR)
 # 
-name: POWERToggle
+name: Power
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
