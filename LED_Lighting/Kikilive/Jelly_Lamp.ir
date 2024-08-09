@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Kikilive Jelly LED Lamp
+#
 name: ON
 type: parsed
 protocol: NEC
