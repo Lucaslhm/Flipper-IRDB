@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Honeywell Fan HO-5500RE
+#
 name: Vent_on_off
 type: raw
 frequency: 38000
