@@ -1,0 +1,148 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Generic LED light strip
+#
+name: on
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9377 4500 621 532 617 532 640 508 639 509 636 537 608 538 608 538 608 539 607 1653 606 1653 606 1653 606 1653 606 539 605 1653 605 1653 606 1652 606 1653 605 1653 605 539 605 538 605 539 604 539 604 539 604 539 604 539 604 539 604 1653 604 1653 604 1653 604 1653 604 1654 603 1653 604 41183 9206 2231 603 96569 9188 2231 603 96577 9226 2229 607 97867 9287 4514 608 540 607 540 607 540 607 540 607 540 607 540 607 540 607 540 607 1654 608 1654 608 1655 607 1655 608 540 609 1655 608 1655 607 1654 608 1655 607 1655 607 540 608 540 608 541 608 540 609 540 608 540 608 540 608 540 607 1655 606 1655 606 1655 608 1655 607 1655 606 1655 606 41158 9313 2236 608
+# 
+name: off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9224 4482 661 507 635 507 634 507 633 509 631 511 629 513 628 513 628 513 629 1628 628 1628 628 1628 629 1628 628 513 629 1628 628 1628 628 1628 628 514 628 1628 628 514 627 514 627 514 627 514 627 514 627 514 627 1628 628 514 627 1628 628 1629 627 1629 627 1629 627 1629 628 1629 628 41033 9173 2209 627
+# 
+name: up
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: down
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 01 FE 00 00
+# 
+name: red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 04 FB 00 00
+# 
+name: green
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+# 
+name: orange
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+# 
+name: turquoise
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 09 F6 00 00
+# 
+name: violet
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+# 
+name: yellow
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+# 
+name: aquamarine
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+# 
+name: magenta
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+# 
+name: pink
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+# 
+name: baby_blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
+# 
+name: darker_blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 12 ED 00 00
+# 
+name: 5min
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 14 EB 00 00
+# 
+name: 30min
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 15 EA 00 00
+# 
+name: 60min
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 16 E9 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 13 EC 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 17 E8 00 00

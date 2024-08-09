@@ -1,0 +1,172 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Lexus LX470 DVD Player (2004)
+#
+name: On
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 45 00 00 00
+# 
+name: S_video
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+# 
+name: Dvd
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 5F 00 00 00
+# 
+name: Hp_vol_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 09 00 00 00
+# 
+name: Hp_vol_dwn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0C 00 00 00
+# 
+name: Setup
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9159 4492 663 501 663 502 688 477 686 500 663 501 661 503 660 530 633 1722 633 1722 659 1722 632 1722 632 1722 659 1722 633 1722 632 1722 633 531 659 1696 659 531 633 1722 632 1722 632 531 633 531 633 531 633 531 633 532 658 1696 659 505 659 531 632 1723 632 1722 659 1722 632 1643 606 37842 9158 2219 634
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Display
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0F 00 00 00
+# 
+name: Title_chapter
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 10 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 11 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 13 00 00 00
+# 
+name: Sel_l
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1C 00 00 00
+# 
+name: Sel_r
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 48 00 00 00
+# 
+name: Sel_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 44 00 00 00
+# 
+name: Sel_dwn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9160 4493 662 502 662 502 661 503 687 501 662 501 661 502 661 530 633 1721 633 1721 660 1722 633 1722 632 1722 659 1722 632 1722 633 1722 632 531 659 1695 659 531 633 1722 633 1722 659 1695 659 505 659 505 659 504 660 531 633 1722 632 531 633 531 633 531 633 1722 659 1722 633 1643 606 37842 9157 2220 634 96295 9156 2246 607 96346 9133 2244 607
+# 
+name: Sel_enter
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 51 00 00 00
+# 
+name: Ch_last
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 5C 00 00 00
+# 
+name: Ch_next
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9160 4491 664 501 663 502 687 477 687 499 664 501 661 502 661 529 634 1721 633 1721 660 1721 633 1721 634 1721 660 1721 633 1721 633 1721 634 530 634 530 634 531 659 1695 659 530 634 1721 633 531 633 531 633 531 633 1721 660 1695 659 531 632 1722 633 531 633 1721 660 1722 632 1642 607 37840 9162 2216 634 96320 9135 2242 608 96346 9134 2243 608
+# 
+name: Rewind
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 15 00 00 00
+# 
+name: Fforward
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 19 00 00 00
+# 
+name: Format
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9160 4492 663 501 663 502 661 503 687 500 663 500 662 502 661 529 634 1721 633 1721 660 1721 633 1722 633 1721 660 1721 633 1721 634 1721 634 531 633 531 633 531 633 531 633 531 633 531 633 530 660 1695 659 531 633 1722 632 1722 659 1721 633 1722 632 1722 659 1695 659 531 633 1642 606 37842 9159 2218 634
+# 
+name: Language
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 41 00 00 00
+# 
+name: Subtitles
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 42 00 00 00
+# 
+name: Angle
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 43 00 00 00
+# 
+name: Zoom_in
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 55 00 00 00
+# 
+name: Zoom_out
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 5B 00 00 00

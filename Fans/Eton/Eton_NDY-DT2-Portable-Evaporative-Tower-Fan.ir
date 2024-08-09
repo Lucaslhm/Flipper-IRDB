@@ -1,0 +1,41 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Eton NDY-DT2
+# Portable Evaporative Tower Fan
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Swing
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Speed
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Cool
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00

@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+# 
+# BOSE Solo SoundBar
+#
+name: Power
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 4C B3 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 03 FC 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 02 FD 00 00

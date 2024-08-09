@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Samsung AA59-00602A TV
+#
+name: Sams_02
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Volup
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Voldown
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00

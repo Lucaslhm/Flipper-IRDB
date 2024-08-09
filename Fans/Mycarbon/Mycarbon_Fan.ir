@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Mycarbon Fan
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 8C 00 00 00
+# 
+name: fan_+
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 95 00 00 00
+# 
+name: fan_-
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 85 00 00 00
+# 
+name: Oscillation
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 83 00 00 00
+# 
+name: Oscillation
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 9C 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 87 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 86 00 00 00

@@ -1,0 +1,76 @@
+Filetype: IR signals file
+Version: 1
+# 
+# ViewSonic EBB7F Touchscreen
+# 
+name: On_off
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Ch_up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 20 00 00 00
+# 
+name: Ch_down
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 21 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Input
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 28 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 26 00 00 00
+# 
+name: Display
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 12 00 00 00
+# 
+name: P_mode
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 24 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0F 00 00 00

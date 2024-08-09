@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Homedics ARM-720A Ellia Essential Diffuser/Humidifier
+#
+name: Diff_pwr
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: Light_cir
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 52 00 00 00
+# 
+name: Neg
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 38 00 00 00
+# 
+name: Pos
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+# 
+name: Music
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00

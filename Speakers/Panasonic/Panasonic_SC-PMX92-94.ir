@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Panasonic SC-PMX92-94 Speaker
+#
+name: On_off
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: D1 03 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+# 
+name: Bluethoot
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 50 02 00 00
+# 
+name: Cd_usb
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 40 01 00 00
+# 
+name: Radio
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: 40 02 00 00
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00
+# 
+name: Next
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 31 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 21 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 01 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 61 00 00 00
+# 
+name: Album_prev
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 91 00 00 00
+# 
+name: Album_next
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: A1 00 00 00

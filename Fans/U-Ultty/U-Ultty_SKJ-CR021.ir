@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# U-Ultty SKJ-CR021 Fan
+#
+name: Power_fan
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Speed
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 11 00 00 00
+# 
+name: Rotate
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Low_mode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 09 00 00 00
+# 
+name: Plus_Speed
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+# 
+name: Minus_Speed
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1B 00 00 00

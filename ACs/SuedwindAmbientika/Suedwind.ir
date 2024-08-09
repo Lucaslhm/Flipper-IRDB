@@ -1,0 +1,100 @@
+Filetype: IR signals file
+Version: 1
+#
+# SuedwindAmbientika AC
+#
+name: Automatic
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 28 00 00 00
+#
+name: Survillance
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 29 00 00 00
+# 
+name: Manual
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 2A 00 00 00
+#
+name: 40percent
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 4A 00 00 00
+#
+name: 60percent
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 4B 00 00 00
+# 
+name: 70percent
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 4C 00 00 00
+# 
+name: Speed1
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 6C 00 00 00
+#
+name: Speed2
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 6D 00 00 00
+# 
+name: Speed3
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 6E 00 00 00
+# 
+name: SleepMode
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 4F 00 00 00
+# 
+name: ExtractMode
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 2C 00 00 00
+# 
+name: IntakeMode
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 2D 00 00 00
+# 
+name: MasterSlaveExtract
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 2E 00 00 00
+# 
+name: SlaveMasterExtract
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 2F 00 00 00
+# 
+name: 20minExtractBurst
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 48 00 00 00
+# 
+name: ResetFilter
+type: parsed
+protocol: NEC
+address: 69 00 00 00
+command: 40 00 00 00
