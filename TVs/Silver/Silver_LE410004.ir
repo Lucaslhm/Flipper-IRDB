@@ -1,7 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: On_off
+# Silver LE410004 TV
+#
+name: Power
 type: parsed
 protocol: NECext
 address: 00 F7 00 00
