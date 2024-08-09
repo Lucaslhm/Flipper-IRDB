@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# 
+# These codes learned from remote for
+# Philips soundbar model TAB5105/79
+#
+# Codes read from remote with Flipper zero
+# 
+name: Power
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: C7 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 0D 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 11 00 00 00
+# 
+name: BT(Pair)
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 69 00 00 00
+# 
+name: HDMI(ARC)
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 87 00 00 00
+# 
+name: EQ
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 51 00 00 00
+# 
+name: AUX
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 6B 00 00 00
+# 
+name: Optical
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 6C 00 00 00
+# 
+name: Next
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 20 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 21 00 00 00
+# 
+name: Play
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 2C 00 00 00
+
