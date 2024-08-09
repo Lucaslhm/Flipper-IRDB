@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Tween Lights Tzumi Auraled Colorstrip, 12ft
+#
 name: On
 type: parsed
 protocol: NECext
