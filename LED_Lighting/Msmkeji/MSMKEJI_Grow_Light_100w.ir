@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# MSMKEJI LEF Grow Light 100w
+#
 name: On
 type: parsed
 protocol: NEC
