@@ -19,7 +19,7 @@ protocol: RCA
 address: 0F 00 00 00
 command: F4 00 00 00
 # 
-name: Vol_dw
+name: Vol_dn
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
@@ -85,13 +85,13 @@ protocol: RCA
 address: 0F 00 00 00
 command: F3 00 00 00
 # 
-name: Ch_up
+name: Ch_next
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: B4 00 00 00
 # 
-name: Ch_dw
+name: Ch_prev
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
