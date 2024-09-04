@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 #
+# BGH TV BLE2814D
+# Some buttons missing
+#
 name: Power
 type: parsed
 protocol: NECext
