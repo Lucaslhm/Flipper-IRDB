@@ -1,0 +1,157 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sony RMT-VB100U for SONY Players
+# BDP-BX150, BDP-BX350, BDP-BX550, BDP-BX650
+# BDP-S1500, BDP-S2500, BDP-S2900, BDP-S3500
+# BDP-S4500, BDP-S5500, BDP-S6500, BDP-S3700, BDP-BX370
+#
+name: Power
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 15 00 00 00
+#
+name: Setup
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3F 00 00 00
+#
+name: Eject
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 16 00 00 00
+#
+name: Menu
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 68 00 00 00
+#
+name: List
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 210 33153 75
+#
+name: Info
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 41 00 00 00
+#
+name: Back
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 43 00 00 00
+#
+name: Ok
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3D 00 00 00
+#
+name: Up
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 39 00 00 00
+#
+name: Down
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3A 00 00 00
+#
+name: Left
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3B 00 00 00
+#
+name: Right
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3C 00 00 00
+#
+name: Next
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 56 00 00 00
+#
+name: Prev
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 57 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 1C 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 1B 00 00 00
+#
+name: Play_pa
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 1A 00 00 00
+#
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 19 00 00 00
+#
+name: Play
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 1A 00 00 00
+#
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 18 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+#
+name: Home
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 42 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 63 00 00 00
+#
+name: Audio
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 56 00 00 00
