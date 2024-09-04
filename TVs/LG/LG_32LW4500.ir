@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# LG 32LW4500 TV
+#
 name: Power
 type: parsed
 protocol: NEC
