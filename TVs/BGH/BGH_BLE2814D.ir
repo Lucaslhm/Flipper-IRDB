@@ -1,0 +1,59 @@
+Filetype: IR signals file
+Version: 1
+#
+# BGH TV BLE2814D
+# Some buttons missing
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 03 FC 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 16 E9 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 1A E5 00 00
+#
+name: Source
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 1E E1 00 00
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 1C E3 00 00
+#
+name: Display
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 46 B9 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 00 FF 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 01 FE 00 00
