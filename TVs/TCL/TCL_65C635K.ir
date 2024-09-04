@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# TCL 65C635K TV
+#
 name: Power
 type: parsed
 protocol: RCA
