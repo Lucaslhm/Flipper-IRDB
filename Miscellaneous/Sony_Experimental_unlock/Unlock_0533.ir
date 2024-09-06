@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: 1
+type: parsed
+protocol: SIRC20
+address: 3A 09 00 00
+command: 7F 00 00 00
+# 
+name: 2
+type: parsed
+protocol: SIRC20
+address: 3A 09 00 00
+command: 65 00 00 00
+# 
+name: 3
+type: parsed
+protocol: SIRC20
+address: 3A 09 00 00
+command: 55 00 00 00
+# 
+name: 4
+type: parsed
+protocol: SIRC20
+address: 3A 09 00 00
+command: 5F 00 00 00
+# 
+name: 5
+type: parsed
+protocol: SIRC20
+address: 3A 09 00 00
+command: 15 00 00 00

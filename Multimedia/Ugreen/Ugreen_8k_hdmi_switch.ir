@@ -1,22 +1,31 @@
 Filetype: IR signals file
 Version: 1
-# 
-# Ugreen 8K HDMI Switch
 #
-name: Hdmi_1
+# Ugreen 8K HDMI Switch
+# Captured by: emptythevoid
+# 
+# https://www.amazon.com/gp/product/B0865JJLHD/
+#
+name: 1
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 02 00 00 00
 # 
-name: Hdmi_2
+name: 2
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 04 00 00 00
 # 
-name: Hdmi_3
+name: 3
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 06 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
