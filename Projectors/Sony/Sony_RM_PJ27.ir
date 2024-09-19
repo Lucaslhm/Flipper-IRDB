@@ -1,0 +1,227 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony RM PJ27 Projector
+# Credit: emptythevoid (https://github.com/emptythevoid)
+#  
+name: On
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2E 00 00 00
+# 
+name: Standby
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2F 00 00 00
+# 
+name: Input_A
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2B 00 00 00
+# 
+name: Input_B
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2C 00 00 00
+# 
+name: Input_C
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 6F 00 00 00
+# 
+name: Input_D
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 70 00 00 00
+# 
+name: Input_E
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 71 00 00 00
+# 
+name: Input_F
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 06 00 00 00
+# 
+name: Video
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2A 00 00 00
+# 
+name: Svideo
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 5F 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 29 00 00 00
+# 
+name: Eco
+type: parsed
+protocol: SIRC20
+address: FA 04 00 00
+command: 11 00 00 00
+# 
+name: Up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 35 00 00 00
+# 
+name: Left
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 34 00 00 00
+# 
+name: Right
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 33 00 00 00
+# 
+name: Down
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 36 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 5A 00 00 00
+# 
+name: Return
+type: parsed
+protocol: SIRC20
+address: FA 04 00 00
+command: 6F 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 7B 00 00 00
+# 
+name: Focus
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 64 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 62 00 00 00
+# 
+name: Lens_shift
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 63 00 00 00
+# 
+name: Aspect
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 6E 00 00 00
+# 
+name: Keystone
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 3A 00 00 00
+# 
+name: Pattern
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 7E 00 00 00
+# 
+name: Zoom_up
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 6A 00 00 00
+# 
+name: Zoom_dn
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 6B 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 12 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 13 00 00 00
+# 
+name: Blank
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 24 00 00 00
+# 
+name: Muting
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 14 00 00 00
+# 
+name: Apa
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 60 00 00 00
+# 
+name: Twin
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 79 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: SIRC20
+address: 5A 05 00 00
+command: 67 00 00 00
+# 
+name: Power_id2
+type: parsed
+protocol: SIRC20
+address: 9A 0D 00 00
+command: 2E 00 00 00
+# 
+name: Power_id3
+type: parsed
+protocol: SIRC20
+address: 9A 0E 00 00
+command: 2E 00 00 00
+# 
+name: Power_id4
+type: parsed
+protocol: SIRC20
+address: FA 19 00 00
+command: 2E 00 00 00

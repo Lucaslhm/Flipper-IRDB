@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Panasonic DVD/TV
+# Credit: emptythevoid (https://github.com/emptythevoid)
+#  
 name: Dvd_power
 type: parsed
 protocol: Kaseikyo

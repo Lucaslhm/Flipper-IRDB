@@ -1,0 +1,217 @@
+Filetype: IR signals file
+Version: 1
+# 
+# This is a copy of a Vivitek 4K Projector
+# It has the same button layout for a Promethean PRM 35 projector. 
+#
+# Credit: emptythevoid (https://github.com/emptythevoid)
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 91 00 00 00
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 90 00 00 00
+# 
+name: HDMI
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 7A 00 00 00
+# 
+name: PC
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 79 00 00 00
+# 
+name: S_Video
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 78 00 00 00
+# 
+name: USB
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 77 00 00 00
+# 
+name: HDBaseT
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 75 00 00 00
+# 
+name: Network
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 76 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 87 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CD 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C1 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C4 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C2 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C3 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: C5 00 00 00
+# 
+name: MHL
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 60 00 00 00
+# 
+name: Keystone
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 61 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 83 00 00 00
+# 
+name: Auto
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 86 00 00 00
+# 
+name: VOL+
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: D0 00 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 9A 00 00 00
+# 
+name: Contrast
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 99 00 00 00
+# 
+name: MUTE
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 89 00 00 00
+# 
+name: Lamp
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 6E 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: BD 00 00 00
+# 
+name: 3D
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 82 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8E 00 00 00
+# 
+name: Blank
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 8B 00 00 00
+# 
+name: Status
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 88 00 00 00
+# 
+name: Skip_back
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 40 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 41 00 00 00
+# 
+name: Skip_forward
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 42 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 43 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 44 00 00 00
+# 
+name: Forward
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 45 00 00 00
