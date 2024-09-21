@@ -150,4 +150,3 @@ type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 4D 00 00 00
-
