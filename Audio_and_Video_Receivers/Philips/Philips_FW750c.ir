@@ -1,0 +1,106 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Philips FW750C AV Receiver
+#
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_dwn
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
+# 
+name: Eject
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 2D 00 00 00
+# 
+name: Play
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 35 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 30 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 36 00 00 00
+# 
+name: PowerOff
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 0C 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 1D 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0D 00 00 00
+# 
+name: Surround
+type: parsed
+protocol: RC5X
+address: 10 00 00 00
+command: 0F 00 00 00
+# 
+name: Power
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 0C 00 00 00
+# 
+name: Disc_Select
+type: parsed
+protocol: RC5X
+address: 14 00 00 00
+command: 2C 00 00 00
+# 
+name: 1
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 05 00 00 00

@@ -1,0 +1,88 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Fisher SLIM-1500 CD Player
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 06 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 13 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 13 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 1B 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: A0 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 05 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 20 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 60 00 00 00
+# 
+name: BassUp
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 1D 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 17 00 00 00
+# 
+name: Shuffle
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 0D 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 1C 00 00 00
+# 
+name: Prev_Trk
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 04 00 00 00
+# 
+name: Nxt_Trk
+type: parsed
+protocol: Samsung32
+address: A2 00 00 00
+command: 0C 00 00 00
