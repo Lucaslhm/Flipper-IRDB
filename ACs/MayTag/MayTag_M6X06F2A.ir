@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# MayTag M6X06F2A AC
+#
+name: Temp+
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0A 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 11 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
+# 
+name: FanSpeed
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 19 00 00 00

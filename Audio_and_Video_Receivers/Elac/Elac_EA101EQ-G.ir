@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Elac EA101EQ-G AV Receiver
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: Vol_Dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+# 
+name: Analog1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
+# 
+name: Analog2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: Coax
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 55 00 00 00
+# 
+name: Optical1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+# 
+name: Optical2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+# 
+name: USB
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00

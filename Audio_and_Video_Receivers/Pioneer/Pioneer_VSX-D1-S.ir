@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Pioneer VSX-D1-S AV Receiver
+#
+name: Vol+
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 06 F9 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5C A3 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+# 
+name: Surround
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 14 EB 00 00
+# 
+name: AmFm_Toggle
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 57 A8 00 00

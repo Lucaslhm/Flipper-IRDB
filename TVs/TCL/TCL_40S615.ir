@@ -1,0 +1,136 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TCL 40S615 TV
+#
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+# 
+name: Input
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: C5 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 10 00 00 00
+# 
+name: List
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 78 00 00 00
+# 
+name: Info
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 3C 00 00 00
+# 
+name: Back
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: E4 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 2F 00 00 00
+# 
+name: Up
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 9A 00 00 00
+# 
+name: Down
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 1A 00 00 00
+# 
+name: Left
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 6A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: EA 00 00 00
+# 
+name: Fast_fo
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 38 00 00 00
+# 
+name: Fast_ba
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: B8 00 00 00
+# 
+name: Play_pa
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: A8 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: F8 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: FC 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: F4 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 74 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: B4 00 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 34 00 00 00
+# 
+name: Guide
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 58 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 60 00 00 00
