@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Pioneer VSX-D1-S AV Receiver
+#
 name: Vol+
 type: parsed
 protocol: NECext
