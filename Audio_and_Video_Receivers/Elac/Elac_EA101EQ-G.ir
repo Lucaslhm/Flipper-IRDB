@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Elac EA101EQ-G AV Receiver
+#
 name: Vol_up
 type: parsed
 protocol: NEC
