@@ -126,7 +126,7 @@ Version: 1
 # - 75UK6750PLB
 # - 86UK6500PLA
 # - 86UK6750PLB
-
+#
 name: Power
 type: parsed
 protocol: NEC
