@@ -5,7 +5,7 @@ Version: 1
 # Spec: https://www.eurolan.net/en/th100.html
 # PDF: http://www.eurolan.net/datasheets/TH100.pdf (contains an image and a description of the remote)
 # Buttons have been recorded left->right from top row down
-
+#
 name: Programmable section
 type: parsed
 protocol: NEC
