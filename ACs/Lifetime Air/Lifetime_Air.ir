@@ -1,5 +1,8 @@
 Filetype: IR signals file
 Version: 1
+#
+# Lifetime Air AC
+#
 name: Off
 type: parsed
 protocol: NEC
