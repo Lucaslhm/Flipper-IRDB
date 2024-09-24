@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Viano STV65UHD4K TV
+#
 name: Power
 type: parsed
 protocol: NECext
