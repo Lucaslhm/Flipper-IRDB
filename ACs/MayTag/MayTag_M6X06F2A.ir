@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# MayTag M6X06F2A AC
+#
 name: Temp+
 type: parsed
 protocol: NEC
