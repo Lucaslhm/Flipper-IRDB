@@ -1,6 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
+# HGomx Saturn LED Lamp
 # https://www.amazon.com/gp/product/B08ZNTP6BR
 #
 name: On
