@@ -1,0 +1,100 @@
+Filetype: IR signals file
+Version: 1
+#
+# Strong TVD211 B1825 Remote (e.g. SRT 40FD5553 LED-TV)
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 10 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 19 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1D 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 46 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 47 00 00 00
+#
+name: Home
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 51 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 40 00 00 00
+#
+name: Settings
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0F 00 00 00
+#
+name: Netflix
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 58 00 00 00
+#
+name: YouTube
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 55 00 00 00
+#
+name: Prime_Video
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 50 00 00 00
+#
+name: Google_Play
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 82 00 00 00
+#
+name: Minus
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1E 00 00 00
+#
+name: Plus
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1A 00 00 00
+#
+name: Google_Assistant
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 61 00 00 00
