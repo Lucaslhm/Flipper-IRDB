@@ -1,0 +1,429 @@
+Filetype: IR signals file
+Version: 1
+#
+# LG AKB75375608 Remote Control
+# fit for LG 32LK61 32LK62 43LK59 43LK61 43UK63 43UK64 43UK65 43UK67 43UK69 49UK63 49UK64 49UK75 50UK64 50UK65 50UK67 50UK69 55SK80 55UK64 55UK65 Series LED LCD TV
+# The Replacement Remote Control Can Operate Below Knowing Models:
+# - 32LK61
+# - 32LK62
+# - 43LK59
+# - 43LK61
+# - 43UK63
+# - 43UK64
+# - 43UK65
+# - 43UK67
+# - 43UK69
+# - 49LK59
+# - 49LK61
+# - 49SK80
+# - 49UK63
+# - 49UK64
+# - 49UK75
+# - 50UK64
+# - 50UK65
+# - 50UK67
+# - 50UK69
+# - 55SK80
+# - 55UK64
+# - 55UK65
+# - 55UK67
+# - 55UK69
+# - 55UK75
+# - 65SK80
+# - 65UK64
+# - 65UK65
+# - 65UK67
+# - 65UK69
+# - 65UK75
+# - 70UK67
+# - 70UK69
+# - 75SK81
+# - 75UK65
+# - 75UK67
+# - 86UK65
+# - 86UK67
+# - 32LK6100PLB
+# - 32LK610BPLB
+# - 32LK615BPLB
+# - 32LK6190PLA
+# - 32LK6200PLA
+# - 43LK5900PLA
+# - 43LK5910PLC
+# - 43LK5990PLE
+# - 43LK6100PLA
+# - 43UK6390PLG
+# - 43UK6400PLF
+# - 43UK6450PLC
+# - 43UK6470PLC
+# - 43UK6500LLA
+# - 43UK6500MLA
+# - 43UK6500PLA
+# - 43UK6510PLB
+# - 43UK6550PLD
+# - 43UK6710PLB
+# - 43UK6750PLD
+# - 43UK6950PLB
+# - 49LK5900PLA
+# - 49LK5910PLC
+# - 49LK6100PLA
+# - 49SK8000PTA
+# - 49SK8000PVA
+# - 49UK6390PLG
+# - 49UK6400PLF
+# - 49UK6450PLC
+# - 49UK6470PLC
+# - 49UK7500PTA
+# - 49UK7500PVA
+# - 49UK7550PTA
+# - 49UK7700PTA
+# - 50UK6410PLC
+# - 50UK6470PLC
+# - 50UK6500LLA
+# - 50UK6500MLA
+# - 50UK6500PLA
+# - 50UK6510PLB
+# - 50UK6550PLD
+# - 50UK6710PLB
+# - 50UK6750PLD
+# - 50UK6950PLB
+# - 55SK8000PTA
+# - 55SK8000PVA
+# - 55UK6400PLF
+# - 55UK6450PLC
+# - 55UK6470PLC
+# - 55UK6500LLA
+# - 55UK6500MLA
+# - 55UK6500PLA
+# - 55UK6510PLB
+# - 55UK6550PLD
+# - 55UK6710PLB
+# - 55UK6750PLD
+# - 55UK6950PLB
+# - 55UK7500PTA
+# - 55UK7500PVA
+# - 55UK7550PTA
+# - 55UK7700PTA
+# - 65SK8000PTA
+# - 65SK8000PVA
+# - 65UK6400PLF
+# - 65UK6450PLC
+# - 65UK6470PLC
+# - 65UK6500LLA
+# - 65UK6500MLA
+# - 65UK6500PLA
+# - 65UK6710PLB
+# - 65UK6750PLD
+# - 65UK6950PLB
+# - 65UK7500PTA
+# - 65UK7500PVA
+# - 65UK7550PTA
+# - 65UK7700PTA
+# - 70UK6950PLA
+# - 75SK8000PTA
+# - 75SK8100PTA
+# - 75SK8100PVA
+# - 75UK6500PLA
+# - 75UK6750PLB
+# - 86UK6500PLA
+# - 86UK6750PLB
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+#
+name: TV/Rad
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F0 00 00 00
+#
+name: Source
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00
+#
+name: Settings
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+#
+name: Live Zoom
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: AF 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 39 00 00 00
+#
+name: 1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 11 00 00 00
+#
+name: 2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 12 00 00 00
+#
+name: 3
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 13 00 00 00
+#
+name: 4
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 14 00 00 00
+#
+name: 5
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 15 00 00 00
+#
+name: 6
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 16 00 00 00
+#
+name: 7
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 17 00 00 00
+#
+name: 8
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 18 00 00 00
+#
+name: 9
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 19 00 00 00
+#
+name: 0
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 10 00 00 00
+#
+name: List
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 53 00 00 00
+#
+name: Guide
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: AB 00 00 00
+#
+name: Vol+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+#
+name: Vol-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+#
+name: Info
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: AA 00 00 00
+#
+name: Search
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 78 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+#
+name: CH+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+#
+name: CH-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+#
+name: Netflix
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 56 00 00 00
+#
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5C 00 00 00
+#
+name: Home
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7C 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 28 00 00 00
+#
+name: Exit
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5B 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 07 00 00 00
+#
+name: OK
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 41 00 00 00
+#
+name: Text
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 20 00 00 00
+#
+name: T.Opt
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 21 00 00 00
+#
+name: AD
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 91 00 00 00
+#
+name: Rec/*
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BD 00 00 00
+#
+name: Stop
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B1 00 00 00
+#
+name: Rwd
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 8F 00 00 00
+#
+name: Play
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: B0 00 00 00
+#
+name: Pause
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BA 00 00 00
+#
+name: Fwd
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 8E 00 00 00
+#
+name: Red (1 dot)
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 72 00 00 00
+#
+name: Green (2 dots)
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 71 00 00 00
+#
+name: Yellow (3 dots)
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+#
+name: Blue (4 dots)
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+
+
+
+
+
+
+
+
+
+
+
+
+
