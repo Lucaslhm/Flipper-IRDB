@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+#
+# Lifetime Air AC
+#
+name: Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+#
+name: Fan
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 58 00 00 00
+#
+name: Cool
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 54 00 00 00
+#
+name: Dh
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 57 00 00 00
+#
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+#
+name: Sleep
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+#
+name: Temp+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+#
+name: Temp-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: Fan Speed
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
