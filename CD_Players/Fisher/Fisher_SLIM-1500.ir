@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Fisher SLIM-1500 CD Player
+#
 name: Power
 type: parsed
 protocol: Samsung32
