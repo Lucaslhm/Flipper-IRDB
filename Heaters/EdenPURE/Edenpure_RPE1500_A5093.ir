@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Edenpure RPE1500 A5093
+# Edenpure RPE1500 A5093 heater
 # 
 name: Power
 type: raw
