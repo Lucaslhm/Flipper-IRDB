@@ -1,0 +1,71 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote: Kenwood 
+# Model: Kenwood DMX4707s headunit
+#
+name: Src
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 13 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 14 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 15 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 16 00 00 00
+# 
+name: <<Rev
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0A 00 00 00
+# 
+name: Fwd>>
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0B 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0E 00 00 00
+# 
+name: AM
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0C 00 00 00
+# 
+name: FM
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 0D 00 00 00
+# 
+name: Call_answer
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 92 00 00 00
+# 
+name: Call_end
+type: parsed
+protocol: NEC
+address: B9 00 00 00
+command: 88 00 00 00
