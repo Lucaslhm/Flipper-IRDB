@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-name: Power
+name: Off
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -18,7 +18,7 @@ protocol: NEC
 address: 00 00 00 00
 command: 54 00 00 00
 #
-name: Dehumid
+name: Dh
 type: parsed
 protocol: NEC
 address: 00 00 00 00
