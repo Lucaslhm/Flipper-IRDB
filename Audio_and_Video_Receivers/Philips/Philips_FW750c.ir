@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Philips FW750C AV Receiver
+#
 name: Vol_up
 type: parsed
 protocol: RC5
