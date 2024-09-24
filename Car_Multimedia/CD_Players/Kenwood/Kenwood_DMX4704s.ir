@@ -2,7 +2,7 @@ Filetype: IR signals file
 Version: 1
 # 
 # Remote: Kenwood 
-# Model: Kenwood DMX4707s
+# Model: Kenwood DMX4707s headunit
 #
 name: Src
 type: parsed
