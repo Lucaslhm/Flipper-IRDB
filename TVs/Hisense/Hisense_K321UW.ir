@@ -1,0 +1,137 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Hisense, Device Model: K321UW, Device Type: TV
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+#
+name: Input
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 12 ED 00 00
+#
+name: Info
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0C F3 00 00
+#
+name: Back
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 48 B7 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 16 E9 00 00
+#
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8956 4500 592 560 564 529 595 533 591 529 595 532 592 529 595 561 563 532 592 1671 563 1642 592 1642 592 1640 594 1641 593 1643 591 532 592 1642 592 1641 593 1640 594 1640 594 532 592 1642 592 532 592 532 592 531 593 531 593 530 594 530 594 1643 591 438 686 1641 593 1642 592 1642 592 41315 8985 2238 593
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 19 E6 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 18 E7 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 59 A6 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 58 A7 00 00
+#
+name: Play_pa
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: A8 57 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 5A A5 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0E F1 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 44 BB 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 43 BC 00 00
+#
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4A B5 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4B B4 00 00
+#
+name: YouTube
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: AA 55 00 00
+#
+name: Netflix
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 47 B8 00 00
+#
+name: Settings
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 14 EB 00 00
+#
+name: Guide
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 1D E2 00 00
+#
