@@ -75,12 +75,6 @@ protocol: NECext
 address: 72 DD 00 00
 command: 5F A0 00 00
 #
-name: Pause
-type: parsed
-protocol: NECext
-address: 72 DD 00 00
-command: 00 FF 00 00
-#
 name: Play
 type: parsed
 protocol: NECext
