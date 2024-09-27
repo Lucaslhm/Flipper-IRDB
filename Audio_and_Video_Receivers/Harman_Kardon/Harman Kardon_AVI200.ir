@@ -1,0 +1,47 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Harman Kardon, Device Model: AVI200, Device Type: Audio and Video Receiver
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C0 3F 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C1 3E 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C7 38 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: C8 37 00 00
+#
+name: Sleep
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: DB 24 00 00
+#
+name: SurroundOff
+type: parsed
+protocol: NECext
+address: 82 72 00 00
+command: 89 76 00 00
+#
+name: Display
+type: parsed
+protocol: NECext
+address: 80 70 00 00
+command: DC 23 00 00
+#

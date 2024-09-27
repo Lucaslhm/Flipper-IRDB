@@ -1,0 +1,95 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Soniq, Device Model: E55V13A, Device Type: Audio and Video Receiver, Description: also works for S65VX15A
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0E F1 00 00
+#
+name: Input
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1E E1 00 00
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 03 FC 00 00
+#
+name: Info
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 4C B3 00 00
+#
+name: Prev
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 47 B8 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 5C A3 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 44 BB 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1D E2 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1C E3 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 48 B7 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1A E5 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 43 BC 00 00
+#
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 51 AE 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 4D B2 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 49 B6 00 00
+#
