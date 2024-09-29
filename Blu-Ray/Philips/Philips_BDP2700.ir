@@ -81,7 +81,7 @@ protocol: RC6
 address: 46 00 00 00
 command: 2C 00 00 00
 #
-name: Pause
+name: Stop
 type: parsed
 protocol: RC6
 address: 46 00 00 00
