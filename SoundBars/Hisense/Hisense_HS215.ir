@@ -1,0 +1,83 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Hisense, Device Model: HS215, Device Type: Soundbar
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 20 00 00 00
+#
+name: Input
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 24 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 34 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 22 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 23 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 35 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 36 00 00 00
+#
+name: Pause
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 34 00 00 00
+#
+name: Play
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 34 00 00 00
+#
+name: Stop
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 34 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 21 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 22 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 23 00 00 00
+#
