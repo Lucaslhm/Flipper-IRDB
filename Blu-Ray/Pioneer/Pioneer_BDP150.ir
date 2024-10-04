@@ -1,0 +1,118 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Pioneer
+# Remote Model: RC-2420
+# Device Model: BDP150
+# Device Type: Blu-ray Player
+# Description: also works for BDP-450 BDP-150-K BDP-150-S
+# Contributor: deki
+#
+name: Power
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: BC 00 00 00
+#
+name: Eject
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: B6 00 00 00
+#
+name: Menu
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: B9 00 00 00
+#
+name: Back
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: F4 00 00 00
+#
+name: Ok
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: EF 00 00 00
+#
+name: Up
+type: parsed
+protocol: Pioneer
+address: A1 00 00 00
+command: 84 00 00 00
+#
+name: Down
+type: parsed
+protocol: Pioneer
+address: A1 00 00 00
+command: 85 00 00 00
+#
+name: Right
+type: parsed
+protocol: Pioneer
+address: A1 00 00 00
+command: 86 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: E9 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: EA 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 35 00 00 00
+#
+name: Play
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 35 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 38 00 00 00
+#
+name: Left
+type: parsed
+protocol: Pioneer
+address: A1 00 00 00
+command: 87 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 36 00 00 00
+#
+name: Audio
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: BE 00 00 00
+#
+name: PopUpMenu
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: B9 00 00 00
+#
+name: Top_Menu
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: B4 00 00 00
+#
