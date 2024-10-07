@@ -83,6 +83,44 @@
         "Mute": [
           "$group:mute"
         ]
+      },
+      "LED_Lighting/*": {
+        "Power_off": [
+          "$group:power-off"
+        ],
+        "Power_on": [
+          "$group:power-on"
+        ],
+        "Brightness_up": [
+          "/^(b|bright(ness|en)?|light|lum|dim(mer)?)[_\\s]*(up|\\+|high|more|max|full[_\\s]*up)$/",
+          "/^more[_\\s]*lights?$/",
+          "/^b[4r]$/",
+          "+"
+        ],
+        "Brightness_dn": [
+          "/^(b|bright(ness|en)?|light|lum|dim(mer)?)[_\\s]*(down|\\-|low|min(us)?|less|full[_\\s]*down)$/",
+          "/^less[_\\s]*lights?$/",
+          "b1",
+          "-"
+        ],
+        "Red": [
+          "/^r(ed)?[_\\s]*(0|1|only)?$/",
+          "/^light[_\\s]*r(ed)?$/"
+        ],
+        "Green": [
+          "/^g(reen)?[_\\s]*(0|1|only)?$/",
+          "/^light[_\\s]*g(reen)?$/"
+        ],
+        "Blue": [
+          "/^b(lue)?[_\\s]*(0|1|only)?$/",
+          "/^light[_\\s]*b(lue)?$/",
+          "/^b$/"
+        ],
+        "White": [
+          "/^w(hite)?[_\\s]*(1|only)?$/",
+          "/^warm[_\\s]*w(hite)?$/",
+          "/^whitish$/"
+        ]
       }
     }
   }
