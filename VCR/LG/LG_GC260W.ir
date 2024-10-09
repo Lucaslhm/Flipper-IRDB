@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# LG VCR 6711R1P073B
+# LG VCR Remote model: 6711R1P073B
 #
 name: POWER
 type: parsed

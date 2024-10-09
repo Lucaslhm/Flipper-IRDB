@@ -1,0 +1,155 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Pioneer, Remote Model: VXX3351, Device Model: BDP43FD, Device Type: Blu-ray Player, Description: also works for Pioneer models: BDP-150 VXX3386 BDP-33FD BDP-52FD VXX3386 BDP-51FD BDP330 BDP120 BDP120FD BDP121 BDP-80FD BDP-450 BDP150 BDP-160 BDP-330 BDP-120 BDP-140 BDP-4110 BDP-103 BDP-62FD
+#
+name: Power
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: BC 00 00 00
+#
+name: Eject
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: B6 00 00 00
+#
+name: Menu
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: B9 00 00 00
+#
+name: Prev
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: F4 00 00 00
+#
+name: Ok
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: EF 00 00 00
+#
+name: Up
+type: parsed
+protocol: Pioneer
+address: A1 00 00 00
+command: 84 00 00 00
+#
+name: Down
+type: parsed
+protocol: Pioneer
+address: A1 00 00 00
+command: 85 00 00 00
+#
+name: Left
+type: parsed
+protocol: Pioneer
+address: A1 00 00 00
+command: 87 00 00 00
+#
+name: Right
+type: parsed
+protocol: Pioneer
+address: A1 00 00 00
+command: 86 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: E9 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: EA 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 3A 00 00 00
+#
+name: Play
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 39 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 38 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 36 00 00 00
+#
+name: 1
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A1 00 00 00
+#
+name: 2
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A2 00 00 00
+#
+name: 3
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A3 00 00 00
+#
+name: 4
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A4 00 00 00
+#
+name: 5
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A5 00 00 00
+#
+name: 6
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A6 00 00 00
+#
+name: 7
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A7 00 00 00
+#
+name: 8
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A8 00 00 00
+#
+name: 9
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A9 00 00 00
+#
+name: 0
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: A0 00 00 00
+#

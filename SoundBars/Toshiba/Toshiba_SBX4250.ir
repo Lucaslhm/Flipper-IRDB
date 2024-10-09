@@ -1,0 +1,53 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Toshiba, Remote Model: SE-R0429, Device Model: SBX4250, Device Type: Soundbar, Description: also works for models: SBX4250KN SBX5065KU
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 45 BD 00 00
+command: 12 ED 00 00
+#
+name: Input
+type: parsed
+protocol: NECext
+address: 45 BD 00 00
+command: EA 15 00 00
+#
+name: Pause
+type: parsed
+protocol: NECext
+address: 45 BD 00 00
+command: 1F E0 00 00
+#
+name: Play
+type: parsed
+protocol: NECext
+address: 45 BD 00 00
+command: 1F E0 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: 45 BD 00 00
+command: 1F E0 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 45 BD 00 00
+command: BD 42 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 45 BD 00 00
+command: 60 9F 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 45 BD 00 00
+command: 61 9E 00 00
+#
