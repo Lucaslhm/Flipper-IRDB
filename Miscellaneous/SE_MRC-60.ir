@@ -1,0 +1,57 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Remote control MRC-60
+# Sony Ericsson Docking Station
+#
+name: Play/stop
+type: parsed
+protocol: NECext
+address: 30 C8 00 00
+command: 08 F7 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 30 C8 00 00
+command: 00 FF 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 30 C8 00 00
+command: 01 FE 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 30 C8 00 00
+command: 05 FA 00 00
+# 
+name: Previous
+type: parsed
+protocol: NECext
+address: 30 C8 00 00
+command: 04 FB 00 00
+# 
+name: Accept Call
+type: parsed
+protocol: NECext
+address: 30 C8 00 00
+command: 09 F6 00 00
+# 
+name: Reject Call
+type: parsed
+protocol: NECext
+address: 30 C8 00 00
+command: 0D F2 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 30 C8 00 00
+command: 0C F3 00 00
+#
+# Activates the media player, stops the media player and radio,
+# and switches between media player and radio. This requires the
+# phone to support source button functionality.
