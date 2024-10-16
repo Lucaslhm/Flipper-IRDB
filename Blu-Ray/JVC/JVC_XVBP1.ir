@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: JVC
+# Device Model: XVBP1
+# Device Type: Blu-ray Player
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 00
+command: 01 01 00 00
+#
+name: Eject
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 00
+command: 41 01 00 00
+#
+name: Prev
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 02
+command: 51 02 00 00
+#
+name: Ok
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 02
+command: 41 02 00 00
+#
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 02
+command: 01 02 00 00
+#
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 02
+command: 11 02 00 00
+#
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 02
+command: 21 02 00 00
+#
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 02
+command: 31 02 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 01
+command: 61 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 01
+command: 01 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 00
+command: D1 01 00 00
+#
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 00
+command: C1 01 00 00
+#
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 00
+command: 31 01 00 00
+#
+name: Audio
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 02
+command: 81 01 00 00
+#
+name: Home
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 01
+command: F1 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: Kaseikyo
+address: 2A 03 01 02
+command: E1 01 00 00
+#
