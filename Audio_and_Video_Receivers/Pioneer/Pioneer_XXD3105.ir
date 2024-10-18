@@ -54,13 +54,7 @@ type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: 8B 00 00 00
-# 
-name: AM
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 8B 00 00 00
-# 
+#
 name: 1
 type: parsed
 protocol: Pioneer
@@ -90,13 +84,7 @@ type: parsed
 protocol: Pioneer
 address: AA 00 00 00
 command: 05 00 00 00
-# 
-name: 6
-type: parsed
-protocol: Pioneer
-address: AA 00 00 00
-command: 06 00 00 00
-# 
+#
 name: 6
 type: parsed
 protocol: Pioneer
@@ -228,13 +216,7 @@ type: parsed
 protocol: Pioneer
 address: AA 00 00 00
 command: 11 00 00 00
-# 
-name: TV CH DWN
-type: parsed
-protocol: Pioneer
-address: AA 00 00 00
-command: 11 00 00 00
-# 
+#
 name: VOL UP
 type: raw
 frequency: 38000
@@ -300,13 +282,7 @@ type: parsed
 protocol: Pioneer
 address: AA 00 00 00
 command: 1E 00 00 00
-# 
-name: Subtitle
-type: parsed
-protocol: Pioneer
-address: AA 00 00 00
-command: 5A 00 00 00
-# 
+#
 name: Subtitle
 type: parsed
 protocol: Pioneer
