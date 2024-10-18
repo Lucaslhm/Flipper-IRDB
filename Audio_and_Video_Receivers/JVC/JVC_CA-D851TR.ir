@@ -1,8 +1,5 @@
 Filetype: IR signals file
 Version: 1
-#
-# JVC CA-D851TR Compact Component System
-# REMOTE ID RM-SED80TRU
 # 
 name: Power
 type: raw

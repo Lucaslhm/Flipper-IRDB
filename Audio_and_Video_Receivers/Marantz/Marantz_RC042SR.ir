@@ -1,8 +1,6 @@
 Filetype: IR signals file
 Version: 1
-#
-# Marantz RC042SR Audio Receiver 
-#
+# 
 name: Power
 type: parsed
 protocol: RC5
