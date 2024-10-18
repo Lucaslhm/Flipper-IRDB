@@ -9,24 +9,6 @@ protocol: Pioneer
 address: A5 00 00 00
 command: 1C 00 00 00
 # 
-name: Power
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 1C 00 00 00
-# 
-name: Power
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 1C 00 00 00
-# 
-name: Up
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 84 00 00 00
-# 
 name: Up
 type: parsed
 protocol: Pioneer
@@ -39,96 +21,12 @@ protocol: Pioneer
 address: A1 00 00 00
 command: 85 00 00 00
 # 
-name: Down
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 85 00 00 00
-# 
-name: Down
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 85 00 00 00
-# 
-name: Down
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 85 00 00 00
-# 
-name: Down
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 85 00 00 00
-# 
 name: Left
 type: parsed
 protocol: Pioneer
 address: A1 00 00 00
 command: 87 00 00 00
-# 
-name: Left
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 87 00 00 00
-# 
-name: Left
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 87 00 00 00
-# 
-name: Left
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 87 00 00 00
-# 
-name: Left
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 87 00 00 00
-# 
-name: Left
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 87 00 00 00
-# 
-name: Left
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 87 00 00 00
-# 
-name: Right
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 86 00 00 00
-# 
-name: Right
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 86 00 00 00
-# 
-name: Right
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 86 00 00 00
-# 
-name: Right
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 86 00 00 00
-# 
+#
 name: Right
 type: parsed
 protocol: Pioneer
@@ -140,127 +38,19 @@ type: parsed
 protocol: Pioneer
 address: A1 00 00 00
 command: 81 00 00 00
-# 
-name: Enter
-type: parsed
-protocol: Pioneer
-address: AF 00 00 00
-command: EF 00 00 00
-# 
-name: Enter
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 81 00 00 00
-# 
-name: Enter
-type: parsed
-protocol: Pioneer
-address: AF 00 00 00
-command: EF 00 00 00
-# 
-name: Enter
-type: parsed
-protocol: Pioneer
-address: A1 00 00 00
-command: 81 00 00 00
-# 
+#
 name: Vol_up
 type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: 0A 00 00 00
-# 
-name: Vol_up
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 0A 00 00 00
-# 
-name: Vol_up
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 0A 00 00 00
-# 
-name: Vol_dn
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 0B 00 00 00
-# 
-name: Vol_dn
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 0B 00 00 00
-# 
-name: Vol_dn
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 0B 00 00 00
-# 
-name: BD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: C0 00 00 00
-# 
-name: BD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 5C 00 00 00
-# 
-name: BD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: C0 00 00 00
-# 
-name: BD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 5C 00 00 00
-# 
+#
 name: DVD
 type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: 85 00 00 00
-# 
-name: DVD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 85 00 00 00
-# 
-name: DVD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 85 00 00 00
-# 
-name: DVD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 85 00 00 00
-# 
-name: CD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 4C 00 00 00
-# 
-name: CD
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 4C 00 00 00
-# 
+#
 name: CD
 type: parsed
 protocol: Pioneer
@@ -279,68 +69,32 @@ protocol: Pioneer
 address: A5 00 00 00
 command: 9E 00 00 00
 # 
-name: USB
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: CB 00 00 00
-# 
-name: USB
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 9E 00 00 00
-# 
 name: Sat_Cbl
 type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: 10 00 00 00
-# 
-name: Sat_Cbl
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 10 00 00 00
-# 
-name: Sat_Cbl
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 10 00 00 00
-# 
+#
 name: Game
 type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: C5 00 00 00
-# 
-name: Game
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 5C 00 00 00
-# 
+#
 name: TV
 type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: 0C 00 00 00
-# 
+#
 name: BT
 type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: 5C 00 00 00
-# 
+#
 name: Adv_Surr
 type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: D3 00 00 00
-# 
-name: Adv_Surr
-type: parsed
-protocol: Pioneer
-address: A5 00 00 00
-command: 9F 00 00 00
