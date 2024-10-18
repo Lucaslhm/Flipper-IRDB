@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Pioneer AXD7741 Remote for Models: VSX-430, VSX-430-K, VSX-530 and VSX-530-K
+#
 name: Power
 type: parsed
 protocol: Pioneer
