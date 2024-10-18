@@ -6,25 +6,13 @@ type: parsed
 protocol: Kaseikyo
 address: AC 02 20 00
 command: D1 03 00 00
-# 
-name: Power
-type: parsed
-protocol: Kaseikyo
-address: AC 02 20 00
-command: D1 03 00 00
-# 
+#
 name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 00
 command: 00 02 00 00
-# 
-name: Vol_dn
-type: parsed
-protocol: Kaseikyo
-address: A0 02 20 00
-command: 10 02 00 00
-# 
+#
 name: Play
 type: parsed
 protocol: Kaseikyo
@@ -72,13 +60,7 @@ type: parsed
 protocol: Kaseikyo
 address: AC 02 20 00
 command: 11 00 00 00
-# 
-name: Eject
-type: parsed
-protocol: Kaseikyo
-address: AC 02 20 00
-command: 11 00 00 00
-# 
+#
 name: Mute
 type: parsed
 protocol: Kaseikyo
@@ -102,13 +84,7 @@ type: parsed
 protocol: Kaseikyo
 address: AC 02 20 01
 command: 51 01 00 00
-# 
-name: Display
-type: parsed
-protocol: Kaseikyo
-address: AC 02 20 01
-command: 51 01 00 00
-# 
+#
 name: Sound
 type: parsed
 protocol: Kaseikyo
