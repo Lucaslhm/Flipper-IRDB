@@ -2,37 +2,37 @@ Filetype: IR signals file
 Version: 1
 #
 # Panasonic TX_L42E5E
-# 
+#
 name: Power
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
-# 
+#
 name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
-# 
+#
 name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
-# 
+#
 name: Ch_next
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
-# 
+#
 name: Ch_prev
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 3404 1652 462 422 432 1230 457 427 437 420 434 424 440 417 436 420 434 424 440 417 436 421 433 424 440 417 436 421 432 1228 459 425 439 419 434 422 432 426 438 419 434 422 431 426 438 419 435 422 431 1230 457 426 438 420 433 423 431 426 438 420 433 423 430 427 437 420 434 1228 459 424 440 1221 466 418 435 1225 462 1226 461 422 432 426 438 1224 463 420 433 1228 459 399 465 1222 465 1223 464 420 433 1225 462
-# 
+#
 name: Av
 type: parsed
 protocol: Kaseikyo
