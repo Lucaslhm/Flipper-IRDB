@@ -10,141 +10,70 @@ type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 03 FC 00 00
-#
-name: Home
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: 83 7C 00 00
-#
+# 
 name: Left
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 66 99 00 00
-#
-name: Left
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: E6 19 00 00
-#
+# 
 name: Up
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 19 E6 00 00
-#
-name: Up
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: 99 66 00 00
-#
+# 
 name: Down
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 33 CC 00 00
-#
-name: Down
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: B3 4C 00 00
-#
+# 
 name: Right
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 2D D2 00 00
-#
-name: Right
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: AD 52 00 00
-#
+# 
 name: Enter
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 2A D5 00 00
-#
-name: Enter
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: AA 55 00 00
-#
+# 
 name: Replay
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 78 87 00 00
-#
-name: Replay
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: F8 07 00 00
-#
+# 
 name: *
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 61 9E 00 00
-#
-name: *
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: E1 1E 00 00
-#
+# 
 name: Rewind
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 34 CB 00 00
-#
-name: Rewind
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: B4 4B 00 00
-#
+# 
 name: Play/pause
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 4C B3 00 00
-#
-name: Play/pause
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: CC 33 00 00
-#
+# 
 name: Fast_forward
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 55 AA 00 00
-#
-name: Fast_forward
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: D5 2A 00 00
-#
+# 
 name: Left
 type: parsed
 protocol: NECext
 address: EA C2 00 00
-command: 1E E1 00 00
-#
-name: Left
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: 9E 61 00 00
+command: 66 99 00 00
+# 

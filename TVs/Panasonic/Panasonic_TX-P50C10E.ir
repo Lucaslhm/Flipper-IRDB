@@ -8,25 +8,31 @@ type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
-#
+# 
 name: Mute
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
-#
+# 
+name: Vol_up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 228 144285 3545 1690 497 411 495 1256 496 382 465 410 466 410 493 383 493 386 489 411 464 413 462 415 460 417 459 417 459 418 459 1295 458 418 459 418 459 418 458 418 458 418 459 418 458 418 459 418 459 418 459 1295 459 418 459 418 458 418 459 418 458 418 458 418 458 419 458 418 458 419 458 419 458 418 458 419 458 419 458 1296 458 418 458 418 458 419 457 419 458 419 457 419 458 419 458 1296 457 419 457 1296 458
+# 
 name: Ch_next
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
-#
+# 
 name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
-#
+# 
 name: Ch_prev
 type: parsed
 protocol: Kaseikyo

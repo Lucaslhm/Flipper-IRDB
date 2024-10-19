@@ -8,115 +8,115 @@ type: parsed
 protocol: Kaseikyo
 address: AC 02 20 00
 command: D1 03 00 00
-#
+# 
 name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 00
 command: 00 02 00 00
-#
+# 
 name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 00
 command: 10 02 00 00
-#
+# 
 name: Play
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 00
 command: 61 00 00 00
-#
+# 
 name: Stop
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 00
 command: 01 00 00 00
-#
+# 
 name: Rewind
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 01
 command: 91 00 00 00
-#
+# 
 name: Forward
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 01
 command: A1 00 00 00
-#
+# 
 name: Radio
 type: parsed
 protocol: Kaseikyo
 address: A4 02 20 02
 command: 40 02 00 00
-#
+# 
 name: Usb_cd
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 02
 command: 40 00 00 00
-#
+# 
 name: Blue
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 02
 command: 50 02 00 00
-#
+# 
 name: Eject
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 00
 command: 11 00 00 00
-#
+# 
 name: Mute
 type: parsed
 protocol: Kaseikyo
 address: A0 02 20 00
 command: 20 03 00 00
-#
+# 
 name: Dimmer
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 02
 command: 71 01 00 00
-#
+# 
 name: Setup
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 02
 command: 51 03 00 00
-#
+# 
 name: Display
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 01
 command: 51 01 00 00
-#
+# 
 name: Sound
 type: parsed
 protocol: Kaseikyo
 address: A4 02 20 02
 command: 01 03 00 00
-#
+# 
 name: Play_menu
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 02
 command: B1 03 00 00
-#
+# 
 name: Up
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 03
 command: C1 03 00 00
-#
+# 
 name: Down
 type: parsed
 protocol: Kaseikyo
 address: AC 02 20 03
 command: D1 03 00 00
-#
+# 
 name: Ok
 type: parsed
 protocol: Kaseikyo

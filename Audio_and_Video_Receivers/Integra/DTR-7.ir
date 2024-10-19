@@ -8,97 +8,97 @@ type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 04 FB 00 00
-#
+# 
 name: POWER_OFF
 type: parsed
 protocol: NECext
 address: D2 6C 00 00
 command: 47 B8 00 00
-#
+# 
 name: SLEEP
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 5D A2 00 00
-#
+# 
 name: DVD
 type: parsed
 protocol: NECext
 address: D2 6C 00 00
 command: 8C 73 00 00
-#
+# 
 name: VIDEO 1
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 0F F0 00 00
-#
+# 
 name: VIDEO 2
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 0E F1 00 00
-#
+# 
 name: VIDEO 3
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 0D F2 00 00
-#
+# 
 name: VIDEO 4
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 9F 60 00 00
-#
+# 
 name: CD
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 09 F6 00 00
-#
+# 
 name: PHONO
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 0A F5 00 00
-#
+# 
 name: TUNER
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 0B F4 00 00
-#
+# 
 name: TAPE
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 08 F7 00 00
-#
+# 
 name: FM STEREO
 type: parsed
 protocol: NECext
 address: D2 6C 00 00
 command: 55 AA 00 00
-#
+# 
 name: Vol_up
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 02 FD 00 00
-#
+# 
 name: Vol_dn
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 03 FC 00 00
-#
+# 
 name: Mute
 type: parsed
 protocol: NECext
 address: D2 6D 00 00
 command: 05 FA 00 00
-#
+# 
 name: TEST-TV/VCR
 type: parsed
 protocol: NECext

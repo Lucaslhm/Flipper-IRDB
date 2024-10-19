@@ -8,217 +8,265 @@ type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0C 00 00 00
-#
+# 
 name: Home
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2E 00 00 00
-#
+# 
 name: Ok
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 35 00 00 00
-#
+# 
+name: Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 826 866 828 869 1684 855 826 869 825 867 828 1718 1686 1704 1686 1738 1652 853 827 86100 825 869 825 869 1709 829 827 868 826 870 824 1721 1707 1713 1677 1682 1707 864 791
+# 
 name: Down
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 13 00 00 00
-#
+# 
+name: Left
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 872 822 872 823 1680 857 874 821 873 822 872 1672 1682 1708 1681 1738 1651 1708 823 85252 875 822 873 821 1682 857 874 851 843 821 874 1671 1682 1709 1680 1707 1683 1708 873
+# 
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 823 872 823 871 1658 881 824 872 823 872 822 1721 1658 1731 1659 1732 823 873 1656 86116 821 873 821 872 1657 883 822 872 822 873 821 1722 1657 1732 1658 1732 823 871 1658
+# 
+name: Back
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 823 871 823 872 1681 859 822 873 822 871 823 1720 1683 858 823 1721 1682 1708 1681
+# 
 name: Exit
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 25 00 00 00
-#
+# 
 name: Voice
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 3D 00 00 00
-#
+# 
 name: Mute
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0D 00 00 00
-#
+# 
 name: Vol_up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 10 00 00 00
-#
+# 
 name: Vol_down
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 11 00 00 00
-#
+# 
 name: Page_Up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 20 00 00 00
-#
+# 
 name: Pag_Down
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 21 00 00 00
-#
+# 
 name: Source
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 38 00 00 00
-#
+# 
 name: Menu
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 30 00 00 00
-#
+# 
 name: Pause_Play
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 23 00 00 00
-#
+# 
 name: Stop
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 18 00 00 00
-#
+# 
+name: Rewind
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 875 822 872 820 1683 856 875 851 843 819 876 1701 1652 1707 874 851 1652 1709 872 820 824 85284 792 871 824 870 1708 833 873 851 793 901 794 1720 1708 1681 825 868 1710 1683 823 871 824
+# 
 name: Fast_Forward
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1C 00 00 00
-#
+# 
 name: Rec
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 33 00 00 00
-#
+# 
 name: Text
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 3C 00 00 00
-#
+# 
+name: Info
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 825 869 825 868 1685 855 826 868 827 868 826 1751 1652 1707 1683 854 827 1718 1711 86061 826 870 825 869 1684 856 848 845 850 845 826 1718 1685 1706 1684 856 825 1719 1684
+# 
 name: 1
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 01 00 00 00
-#
+# 
 name: 2
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 02 00 00 00
-#
+# 
 name: 3
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 03 00 00 00
-#
+# 
 name: 4
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 04 00 00 00
-#
+# 
 name: 5
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 05 00 00 00
-#
+# 
+name: 6
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 819 871 823 872 1657 882 823 873 822 901 793 1724 1655 883 822 872 822 1722 822 872 1657 86130 822 872 822 872 1681 859 823 872 822 872 822 1722 1680 859 823 870 824 1722 822 872 1681
+# 
 name: 7
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 07 00 00 00
-#
+# 
 name: 8
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 08 00 00 00
-#
+# 
+name: 9
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 824 869 825 870 1709 830 825 869 825 868 827 1752 1651 855 826 1718 1685 854 827 1722 822 85251 825 869 825 867 1711 834 822 872 822 872 822 1719 1709 833 823 1720 1683 856 824 1752 792
+# 
 name: 0
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 00 00 00 00
-#
+# 
 name: Subtitles
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1F 00 00 00
-#
+# 
 name: Lang
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 0F 00 00 00
-#
+# 
 name: Google
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 2F 00 00 00
-#
+# 
 name: Red
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 37 00 00 00
-#
+# 
 name: Green
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 36 00 00 00
-#
+# 
 name: Yellow
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 32 00 00 00
-#
+# 
 name: Blue
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 34 00 00 00
-#
+# 
 name: Netflix
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 27 00 00 00
-#
+# 
 name: Youtube
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 29 00 00 00
-#
+# 
 name: Prime
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 3E 00 00 00
-#
+# 
 name: Google_Play
 type: parsed
 protocol: RC5

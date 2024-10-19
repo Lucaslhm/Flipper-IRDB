@@ -6,79 +6,91 @@ type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 54 00 00 00
-#
+# 
 name: Home
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 10 00 00 00
-#
+# 
 name: Apps
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 37 00 00 00
-#
+# 
 name: Up
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 9A 00 00 00
-#
+# 
 name: Down
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 1A 00 00 00
-#
+# 
 name: Left
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 6A 00 00 00
-#
+# 
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4013 3982 515 1984 520 1978 515 1983 510 1987 517 982 520 1978 515 983 519 1979 514 983 519 1980 514 1985 519 1979 514 984 518 981 511 988 514 984 518 1980 513 985 517 1981 512 986 516 1982 511 988 514 984 518 981 511
+# 
 name: Ok
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 2F 00 00 00
-#
+# 
 name: Settings
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: F3 00 00 00
-#
+# 
 name: Back
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: E4 00 00 00
-#
+# 
 name: Vol_up
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: F4 00 00 00
-#
+# 
+name: Vol_dn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4012 3982 514 1984 519 1979 514 1984 519 1979 514 983 519 980 512 1988 516 982 520 1979 514 1984 519 1978 515 983 519 980 511 987 515 983 519 980 511 1988 516 1982 511 987 515 1983 521 978 514 985 517 981 521 1978 515
+# 
 name: Netflix
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: F7 00 00 00
-#
+# 
 name: Youtube
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 47 00 00 00
-#
+# 
 name: Ch_next
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: B4 00 00 00
-#
+# 
 name: Ch_prev
 type: parsed
 protocol: RCA
