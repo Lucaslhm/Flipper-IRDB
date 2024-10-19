@@ -25,12 +25,6 @@ protocol: Samsung32
 address: 07 00 00 00
 command: FD 00 00 00
 #
-name: Multi_view
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1263 1192 418 595 416 894 462 2399 417 592 420 1495 440 2699 414 2094 417 2694 448 597 420 1795 416 592 420 86023 321 935 319 382 320 658 320
-#
 name: Up
 type: parsed
 protocol: Samsung32
@@ -132,9 +126,3 @@ type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: F4 00 00 00
-#
-name: Disney+
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 1280 1193 417 593 419 893 400 2450 417 592 420 1494 448 2696 418 1493 419 2693 431 896 443 595 423 592 419 87529 320 932 322 381 321 656 322
