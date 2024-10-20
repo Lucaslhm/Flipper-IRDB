@@ -4,7 +4,7 @@ Version: 1
 # Bose SoundDock
 # https://www.bose.com/en_us/support/products/bose_speakers_support/bose_docking_and_computer_support/sounddock.html
 #
-name: Power_Off
+name: Power_off
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
