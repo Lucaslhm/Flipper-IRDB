@@ -184,11 +184,11 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 01 00 00
 #
-name: 3d
+name: 3
 type: parsed
 protocol: Kaseikyo
-address: 89 02 20 02
-command: 70 03 00 00
+address: 80 02 20 00
+command: 20 01 00 00
 #
 name: 4
 type: parsed
@@ -321,4 +321,3 @@ type: parsed
 protocol: Kaseikyo
 address: B0 02 20 00
 command: 80 00 00 00
-#

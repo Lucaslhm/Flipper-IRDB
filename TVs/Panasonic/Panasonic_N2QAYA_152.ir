@@ -273,11 +273,11 @@ protocol: Kaseikyo
 address: 89 02 20 03
 command: 20 00 00 00
 #
-name: Red
+name: R
 type: parsed
 protocol: Kaseikyo
-address: 80 02 20 01
-command: 00 03 00 00
+address: 89 02 20 03
+command: C0 01 00 00
 #
 name: Rr
 type: raw

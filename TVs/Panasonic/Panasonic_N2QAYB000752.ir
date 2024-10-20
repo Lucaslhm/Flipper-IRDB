@@ -38,4 +38,3 @@ type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 50 03 00 00
-#

@@ -69,11 +69,11 @@ protocol: NECext
 address: EA C7 00 00
 command: 61 9E 00 00
 #
-name: Rewind 10s
+name: Rewind
 type: parsed
 protocol: NECext
 address: EA C7 00 00
-command: 78 87 00 00
+command: 34 CB 00 00
 #
 name: Fast Forward
 type: parsed

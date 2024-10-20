@@ -114,7 +114,7 @@ protocol: SIRC20
 address: 5A 1C 00 00
 command: 19 00 00 00
 #
-name: Play_pa
+name: Play
 type: parsed
 protocol: SIRC20
 address: 5A 1C 00 00

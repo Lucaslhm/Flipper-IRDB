@@ -40,12 +40,6 @@ protocol: Samsung32
 address: 3E 00 00 00
 command: 78 00 00 00
 #
-name: Menu
-type: parsed
-protocol: Samsung32
-address: 3E 00 00 00
-command: 78 00 00 00
-#
 name: Back
 type: parsed
 protocol: Samsung32
@@ -220,17 +214,17 @@ protocol: Samsung32
 address: 3E 00 00 00
 command: 4A 00 00 00
 #
-name: Right
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 4637 4321 681 512 679 1633 680 1632 681 1633 679 1634 626 1688 625 565 626 566 625 566 625 1687 626 1687 626 1688 625 1688 625 1689 624 567 624 591 600 1714 599 592 599 1714 624 568 623 569 622 569 622 1692 621 570 622 570 621 1692 621 570 621 1692 621 1692 621 1693 620 571 621 1673 620
-#
-name: Guide
+name: R
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
-command: B4 00 00 00
+command: A0 00 00 00
+#
+name: G
+type: parsed
+protocol: Samsung32
+address: 3E 00 00 00
+command: A1 00 00 00
 #
 name: Y
 type: parsed
@@ -238,11 +232,11 @@ protocol: Samsung32
 address: 3E 00 00 00
 command: A2 00 00 00
 #
-name: Back
+name: B
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
-command: 64 00 00 00
+command: A3 00 00 00
 #
 name: Text
 type: parsed

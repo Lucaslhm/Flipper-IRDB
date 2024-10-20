@@ -136,18 +136,6 @@ protocol: NECext
 address: 64 46 00 00
 command: C8 37 00 00
 #
-name: Apps
-type: parsed
-protocol: NECext
-address: 64 46 00 00
-command: 33 CC 00 00
-#
-name: Menu
-type: parsed
-protocol: NECext
-address: 64 46 00 00
-command: D9 26 00 00
-#
 name: 1
 type: parsed
 protocol: NECext

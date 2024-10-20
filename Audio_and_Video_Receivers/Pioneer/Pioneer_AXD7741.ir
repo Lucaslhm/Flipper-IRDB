@@ -110,4 +110,3 @@ type: parsed
 protocol: Pioneer
 address: A5 00 00 00
 command: D3 00 00 00
-#

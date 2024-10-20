@@ -112,11 +112,11 @@ protocol: NECext
 address: 84 E0 00 00
 command: 79 86 00 00
 #
-name: Fav+
+name: Fav
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
-command: 59 A6 00 00
+command: 58 A7 00 00
 #
 name: Up
 type: parsed

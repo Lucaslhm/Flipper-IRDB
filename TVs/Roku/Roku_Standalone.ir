@@ -70,10 +70,3 @@ type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 55 AA 00 00
-#
-name: Left
-type: parsed
-protocol: NECext
-address: EA C2 00 00
-command: 66 99 00 00
-#
