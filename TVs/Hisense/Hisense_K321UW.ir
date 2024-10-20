@@ -134,3 +134,4 @@ type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 1D E2 00 00
+#
