@@ -69,7 +69,7 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
 #
-name: Vol_dwn
+name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
