@@ -1,8 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
 # Nikon camera
-# 
+#
 name: Take_photo
 type: raw
 frequency: 38000
