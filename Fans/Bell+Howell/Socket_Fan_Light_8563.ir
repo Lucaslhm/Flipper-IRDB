@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
 # Bell+Howell Socket Fan Light 8563
 #
 name: On
@@ -8,19 +8,19 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 40 00 00 00
-# 
+#
 name: Off
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 19 00 00 00
-# 
+#
 name: Fan
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 8949 4394 685 434 685 434 685 434 685 460 658 461 657 462 657 463 656 463 656 1593 654 1593 654 1593 654 1593 654 1593 655 1593 654 1593 654 1594 653 465 654 465 654 1594 654 1594 654 1594 654 465 654 465 654 465 654 1594 653 1594 653 466 653 465 654 465 654 1594 653 1594 653 1594 653
-# 
+#
 name: Light
 type: raw
 frequency: 38000

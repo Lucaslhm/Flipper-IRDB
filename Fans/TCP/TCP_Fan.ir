@@ -1,18 +1,18 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
 name: Power
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 45 00 00 00
-# 
+#
 name: Temp_Up
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9684 4663 627 570 656 521 679 517 631 572 657 518 684 518 631 573 657 547 658 1703 656 1702 630 1729 683 1702 655 1702 630 1731 681 1701 657 1703 629 1734 679 520 630 1731 683 518 633 1732 684 519 633 574 658 523 684 520 634 1736 682 520 634 1762 657 520 634 1736 683 1707 657 1706 633
-# 
+#
 name: Temp_Down
 type: raw
 frequency: 38000
@@ -30,10 +30,9 @@ type: parsed
 protocol: NEC
 address: 02 00 00 00
 command: 0C 00 00 00
-# 
+#
 name: Mode
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
-# 
