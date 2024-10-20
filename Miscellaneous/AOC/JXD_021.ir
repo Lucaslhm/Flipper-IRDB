@@ -1,152 +1,152 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
 # JXD 021 AOC Monitor
-# 
+#
 name: POWER
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 12 ED 00 00
-# 
+#
 name: MUTE
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 10 EF 00 00
-# 
+#
 name: 1
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 01 FE 00 00
-# 
+#
 name: 2
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 02 FD 00 00
-# 
+#
 name: 3
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 03 FC 00 00
-# 
+#
 name: 4
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 222 2137 230
-# 
+#
 name: 5
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 05 FA 00 00
-# 
+#
 name: 6
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 06 F9 00 00
-# 
+#
 name: 7
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 07 F8 00 00
-# 
+#
 name: 8
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 08 F7 00 00
-# 
+#
 name: 9
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 09 F6 00 00
-# 
+#
 name: Unknown
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 4A B5 00 00
-# 
+#
 name: 0
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 00 FF 00 00
-# 
+#
 name: Refresh
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 0B F4 00 00
-# 
+#
 name: Up
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1E E1 00 00
-# 
+#
 name: Left
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1D E2 00 00
-# 
+#
 name: Right
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1A E5 00 00
-# 
+#
 name: Menu
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 17 E8 00 00
-# 
+#
 name: Zoom
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 49 B6 00 00
-# 
+#
 name: Enter
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: AC 53 00 00
-# 
+#
 name: Exit
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: AC 53 00 00
-# 
+#
 name: Play_pause
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 57 A8 00 00
-# 
+#
 name: Rewind
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 14 EB 00 00
-# 
+#
 name: Fast_Forward
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 1D E2 00 00
-# 
+#
 name: USB
 type: parsed
 protocol: NECext

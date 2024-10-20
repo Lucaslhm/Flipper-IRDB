@@ -1,14 +1,14 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
 # AEG/Electrolux Hood2Hob devices
-# 
+#
 name: Light On
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 718 1472 720 726 1388 752 718 1472 694 750 1390 2994 720 724 720 726 1386
-# 
+#
 name: Light Off
 type: raw
 frequency: 38000

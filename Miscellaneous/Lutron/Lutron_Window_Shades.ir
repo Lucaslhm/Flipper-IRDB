@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
 # Lutron Window Shades
 #
 name: Close
@@ -68,4 +68,3 @@ type: raw
 frequency: 40000
 duty_cycle: 0.400000
 data: 18304 2288 11440 2288 2288 4576 2288 2288 2288 9152 2288 6864 2288 13728
-#
