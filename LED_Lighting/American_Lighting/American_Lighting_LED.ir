@@ -1,8 +1,8 @@
 Filetype: IR signals file
 Version: 1
-#
+# 
 # America Lighting LEDs
-#
+# 
 name: POWER
 type: parsed
 protocol: NECext
