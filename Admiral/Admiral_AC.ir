@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+#
+# Admiral AC
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
+#
+name: Mode
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00
+#
+name: Fan_auto
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0B 00 00 00
+#
+name: Fan_3
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 13 00 00 00
+#
+name: Fan_2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8983 3497 180 797 563 567 570 560 567 563 543 560 567 563 564 1669 565 565 562 541 565 1694 561 1673 571 1662 572 1688 567 1667 567 563 564 1670 564 1669 565 565 572 558 569 561 545 558 569 1690 544 560 567 563 564 565 541 1692 563 1671 563 1671 563 1670 595 562 544 1689 566 1668 566 1667 567 39806 8977 2247 649
+#
+name: Fan_1
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 00 00 00 00
+#
+name: TEMP+
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0A 00 00 00
+#
+name: TEMP-
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 11 00 00 00
+#
+name: Timer
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 19 00 00 00
