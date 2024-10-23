@@ -84,7 +84,7 @@ protocol: SIRC15
 address: BA 00 00 00
 command: 0F 00 00 00
 #
-name: Ok
+name: Enter
 type: parsed
 protocol: SIRC
 address: 0B 00 00 00
