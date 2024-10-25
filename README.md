@@ -76,16 +76,16 @@ name: Power
 Please use this naming scheme for buttons. 
 This helps us create universal assets more easily and maintain consistency.
 
-| TVs       | Audio    | ACs       |
-| --------- | -------- | --------- |
-| `Power`   | `Power`  | `Off`     |
-| `Vol_up`  | `Vol_up` | `Cool_hi` |
-| `Vol_dn`  | `Vol_dn` | `Cool_lo` |
-| `Ch_next` | `Next`   | `Heat_hi` |
-| `Ch_prev` | `Prev`   | `Heat_lo` |
-| `Mute`    | `Mute`   | `Dh`      |
-|           | `Play`   |           |
-|           | `Pause`  |           |
+| TVs       | Audio    | ACs       | LEDs            |
+| --------- | -------- | --------- | --------------- |
+| `Power`   | `Power`  | `Off`     | `Power_off`     |
+| `Vol_up`  | `Vol_up` | `Cool_hi` | `Power_on`      |
+| `Vol_dn`  | `Vol_dn` | `Cool_lo` | `Brightness_up` |
+| `Ch_next` | `Next`   | `Heat_hi` | `Brightness_dn` |
+| `Ch_prev` | `Prev`   | `Heat_lo` | `Red`           |
+| `Mute`    | `Mute`   | `Dh`      | `Green`         |
+|           | `Play`   |           | `Blue`          |
+|           | `Pause`  |           | `White`         |
 
 
 ## Universal Remotes
