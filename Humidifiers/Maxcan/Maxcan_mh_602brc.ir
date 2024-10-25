@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+#
+# MAXCAN MH-602BRC
+# 
+name: On_off
+type: parsed
+protocol: NECext
+address: 75 5D 00 00
+command: 45 BA 00 00
+# 
+name: Delay_start
+type: parsed
+protocol: NECext
+address: 75 5D 00 00
+command: 47 B8 00 00
+# 
+name: Mist
+type: parsed
+protocol: NECext
+address: 75 5D 00 00
+command: 07 F8 00 00
+# 
+name: Auto_off
+type: parsed
+protocol: NECext
+address: 75 5D 00 00
+command: 09 F6 00 00
+# 
+name: Humidi_stat
+type: parsed
+protocol: NECext
+address: 75 5D 00 00
+command: 0C F3 00 00
+# 
+name: Anion
+type: parsed
+protocol: NECext
+address: 75 5D 00 00
+command: 5E A1 00 00
