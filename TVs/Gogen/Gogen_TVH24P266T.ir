@@ -122,4 +122,3 @@ type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 34 00 00 00
-
