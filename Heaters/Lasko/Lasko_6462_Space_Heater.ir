@@ -1,5 +1,6 @@
 Filetype: IR signals file
 Version: 1
+#
 # Lasko 6462 Space Heater
 #
 name: POWER
