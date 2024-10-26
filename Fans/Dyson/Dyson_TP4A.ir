@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Dyson Pure Cool TP4A Fan
+# Dyson Pure Cool TP4A
 #
 name: Power
 type: raw
