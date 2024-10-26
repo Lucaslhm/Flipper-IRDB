@@ -1,0 +1,122 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Sony
+# Device Model: SLVD201P
+# Device Type: VCR
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 15 00 00 00
+#
+name: Eject
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 16 00 00 00
+#
+name: Menu
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 23 00 00 00
+#
+name: Prev
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 24 00 00 00
+#
+name: Ok
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 0B 00 00 00
+#
+name: Up
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 42 00 00 00
+#
+name: Down
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 43 00 00 00
+#
+name: Left
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 62 00 00 00
+#
+name: Right
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 61 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 1C 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 1B 00 00 00
+#
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 19 00 00 00
+#
+name: Play
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 1A 00 00 00
+#
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 18 00 00 00
+#
+name: Ch_next
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 10 00 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 11 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 60 00 00 00
+#
+name: Audio
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 17 00 00 00
+#
+name: Top_menu
+type: parsed
+protocol: SIRC20
+address: 7A 0A 00 00
+command: 22 00 00 00
+#

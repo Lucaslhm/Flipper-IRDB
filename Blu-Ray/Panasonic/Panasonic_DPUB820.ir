@@ -1,0 +1,122 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Panasonic
+# Device Model: DPUB820
+# Device Type: Blu-ray Player
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+#
+name: Eject
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 10 00 00 00
+#
+name: Prev
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 10 00 00 00
+#
+name: Ok
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 00 00 00
+#
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 50 00 00 00
+#
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 60 00 00 00
+#
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 70 00 00 00
+#
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 80 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 00 00 00
+#
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: A0 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 30 01 00 00
+#
+name: Netflix
+type: parsed
+protocol: Kaseikyo
+address: B1 02 20 01
+command: 80 02 00 00
+#
+name: Audio
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 30 03 00 00
+#
+name: Top_menu
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: B0 01 00 00
+#
+name: PopUp
+type: parsed
+protocol: Kaseikyo
+address: B1 02 20 01
+command: 00 01 00 00
+#
+name: Home
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 70 01 00 00
+#

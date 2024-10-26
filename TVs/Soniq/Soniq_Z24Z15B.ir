@@ -1,0 +1,203 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Soniq, Remote Model: QT1D, Device Model: Z24Z15B, Device Type: TV, Description: also works for Soniq Models: E24Z15B E23Z13A-AU E23Z15A-AU E24Z15B-AU E32V15B-AU E32V15D-AU E32V16B-AU E32V17A-AU E32V17B-AU E32W13A-AU E32W13B-AU E32W13D-AU E40V14A-AU E40V14B-AU E40V16A-AU E40W13A-AU E40W13C-AU E42V14A-AU E43V15B-AU E43V15C-AU E43V15D-AU E48W13A-AU L32V12B-AU E24HZ17B-AU E32HV18A-AU E42FV16A-AU E48FH16A-AU E55FV16A-AU S55UV16B-AU S65UX16A-AU E24Z15B-AU REV.A E43V15C-AU REV.B E32HV18A-AU REV.A L42D11A L47V12A P51E12A
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0E F1 00 00
+#
+name: Input
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1E E1 00 00
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 03 FC 00 00
+#
+name: List
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 00 FF 00 00
+#
+name: Info
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 4C B3 00 00
+#
+name: Back
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 47 B8 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 5C A3 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 44 BB 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1D E2 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1C E3 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 48 B7 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 41 BE 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 5F A0 00 00
+#
+name: Play_pa
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 00 FF 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 57 A8 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1A E5 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 49 B6 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 43 BC 00 00
+#
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 51 AE 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 4D B2 00 00
+#
+name: Guide
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 1F E0 00 00
+#
+name: Exit
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 5D A2 00 00
+#
+name: Record
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 04 FB 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 13 EC 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 10 EF 00 00
+#
+name: 3
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 11 EE 00 00
+#
+name: 4
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0F F0 00 00
+#
+name: 5
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0C F3 00 00
+#
+name: 6
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0D F2 00 00
+#
+name: 7
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0B F4 00 00
+#
+name: 8
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 08 F7 00 00
+#
+name: 9
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 09 F6 00 00
+#
+name: 0
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 4B B4 00 00
+#

@@ -1,0 +1,118 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Sony
+# Remote Model: RMT-B126A
+# Device Model: BDPBX120
+# Device Type: Blu-ray Player
+# Description: also works for models: BDPBX120 BDP-BX320 BDPBX320 BDP-BX520 BDPBX520 BDP-BX620 BDPBX620 BDP-S1200 BDPS1200 BDP-S2200 BDPS2200 BDP-S3200 BDPS3200 BDP-S5200 BDPS5200 BDP-S5200/D BDPS5200D BDP-S5200E BDPS5200E BDP-S6200B BDPS6200B BDP-S6200  BDPS6200E BDP-S6200 BDPS6200 BDB-BX58 BDP173BX370 BDP173S1700 BDP173S1700CA BDP173S1700D BDP173S3700 BDP173S3700CA BDPBX110 BDPBX120 BDP-BX150 BDPBX18 BDPBX2 BDPBX2BM BDPBX310 BDPBX320 BDPBX350 BDP-BX350 BDPBX37 BDP-BX37 BDPBX38 BDP-BX38 BDPBX39 BDPBX510 BDPBX520 BDP-BX550 BDP-BX57 BDPBX58 BDPBX59 BDPBX620 BDP-BX650 BDPN460 BDPN460HP BDPS1100 BDPS1200 BDPS1500 BDP-S1500 BDPS1700ES BDPS185 BDPS2100 BDPS2200 BDPS2500 BDP-S2500 BDP-S270 BDPS280 BDP-S280 BDPS2900 BDP-S2900 BDPS310 BDPS3100 BDPS3200 BDPS3500 BDP-S3500 BDPS360HP BDP-S370 BDPS3700D BDPS380 BDP-S380 BDPS390 BDP-S470 BDPS480 BDP-S480 BDPS5100 BDPS5200 BDPS5200/D BDPS5500 BDP-S5500 BDPS560 BDP-S570 BDPS580 BDP-S580 BDPS590 BDPS6200 BDP-S6500 BDPS7200 BDPS770 BDPS780 BDPS790 BDPSX1000 BDPSX90 BDPSX910 LC46LE835U LT32E710
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 15 00 00 00
+#
+name: Eject
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 16 00 00 00
+#
+name: Menu
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 29 00 00 00
+#
+name: Back
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 43 00 00 00
+#
+name: Ok
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3D 00 00 00
+#
+name: Up
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 39 00 00 00
+#
+name: Down
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3A 00 00 00
+#
+name: Left
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3B 00 00 00
+#
+name: Right
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 3C 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 1C 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 1B 00 00 00
+#
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 19 00 00 00
+#
+name: Play
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 1A 00 00 00
+#
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 18 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 63 00 00 00
+#
+name: Netflix
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 4B 00 00 00
+#
+name: Topmenu
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 2C 00 00 00
+#
+name: Audio
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 64 00 00 00
+#

@@ -1,0 +1,144 @@
+Filetype: IR signals file
+Version: 1
+#
+# Magnavox RD0946 T102 TV
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 08 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 09 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 02 40 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 03 40 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 01 00 00 00
+#
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 00 00 00 00
+#
+name: Display
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 07 00 00 00
+#
+name: Status/Exit
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 04 00 00 00
+#
+name: -
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 05 00 00 00
+#
+name: +
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 06 00 00 00
+#
+name: Alt_ch
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 1A 00 00 00
+#
+name: Timer
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 1C 00 00 00
+#
+#
+name: Num0
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 10 00 00 00
+#
+name: Num1
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 11 00 00 00
+#
+name: Num2
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 12 00 00 00
+#
+name: Num3
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 13 00 00 00
+#
+name: Num4
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 14 00 00 00
+#
+name: Num5
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 15 00 00 00
+#
+name: Num6
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 16 00 00 00
+#
+name: Num7
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 17 00 00 00
+#
+name: Num8
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 18 00 00 00
+#
+name: Num9
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 19 00 00 00
+#
+# Found this, not sure the function, doesn't correspond to remote button
+name: Something AFx
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 0F 00 00 00

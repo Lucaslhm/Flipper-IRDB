@@ -1,0 +1,35 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Hitachi, Device Model: HSB40B16, Device Type: Soundbar, Description: also for works for model HSB32B26
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 5B 00 00 00
+command: 80 00 00 00
+#
+name: Input
+type: parsed
+protocol: NEC
+address: 5B 00 00 00
+command: 81 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 5B 00 00 00
+command: 88 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 5B 00 00 00
+command: 82 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 5B 00 00 00
+command: 83 00 00 00
+#

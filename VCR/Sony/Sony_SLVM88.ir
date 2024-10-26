@@ -1,0 +1,128 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Sony
+# Device Model: SLVM88
+# Device Type: VCR
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 15 00 00 00
+#
+name: Eject
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 16 00 00 00
+#
+name: Menu
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 4D 00 00 00
+#
+name: Info
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 54 00 00 00
+#
+name: Prev
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 28 00 00 00
+#
+name: Ok
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 18 00 00 00
+#
+name: Up
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 0E 00 00 00
+#
+name: Down
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 0F 00 00 00
+#
+name: Left
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 10 00 00 00
+#
+name: Right
+type: parsed
+protocol: SIRC15
+address: BA 00 00 00
+command: 11 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 1C 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 1B 00 00 00
+#
+name: Pause
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 19 00 00 00
+#
+name: Play
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 1A 00 00 00
+#
+name: Stop
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 18 00 00 00
+#
+name: Mute
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 14 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 12 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 13 00 00 00
+#
+name: Ch_next
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 10 00 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: SIRC
+address: 0B 00 00 00
+command: 11 00 00 00
+#

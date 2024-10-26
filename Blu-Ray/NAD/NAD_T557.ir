@@ -1,0 +1,116 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: NAD
+# Device Model: T557
+# Device Type: Blu-ray Player
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: CA 35 00 00
+#
+name: Eject
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: D0 2F 00 00
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: E1 1E 00 00
+#
+name: Prev
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: E3 1C 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: DE 21 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: DA 25 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: DB 24 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: DC 23 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: DD 22 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: D6 29 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: D7 28 00 00
+#
+name: Pause
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: D2 2D 00 00
+#
+name: Play
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: D3 2C 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: D1 2E 00 00
+#
+name: Subtitle
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: CD 32 00 00
+#
+name: Home
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: DF 20 00 00
+#
+name: Audio
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: CC 33 00 00
+#
+name: Popup
+type: parsed
+protocol: NECext
+address: 86 0F 00 00
+command: E0 1F 00 00
+#

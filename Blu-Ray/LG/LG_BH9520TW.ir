@@ -1,0 +1,136 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: LG
+# Remote Model: AKB73655501
+# Device Model: BH9520TW
+# Device Type: Blu-ray Player
+# Description: also works for S72B1-C S72T1-S S72T1-W S92T1-S S92T1-W S92T1-C BB5520A SHX56-D BH7520TW S92H1-S BH9320H
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+#
+name: Eject
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 9A 00 00 00
+#
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A4 00 00 00
+#
+name: Back
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A2 00 00 00
+#
+name: Ok
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: AA 00 00 00
+#
+name: Up
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A7 00 00 00
+#
+name: Down
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A6 00 00 00
+#
+name: Left
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A8 00 00 00
+#
+name: Right
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A9 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 52 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 53 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+#
+name: Play
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 04 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 05 00 00 00
+#
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: AB 00 00 00
+#
+name: Audio
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 36 00 00 00
+#
+name: Home
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A5 00 00 00
+#
+name: Record
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 83 00 00 00
+#

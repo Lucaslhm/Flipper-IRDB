@@ -1,0 +1,143 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: LG, Remote Model: AKB73575431, Device Model: NB5541, Device Type: Soundbar, Description: also works for LG models: NB5541 NB4540 NB4543 S54a1-d NB5540 LAP440W NB3540 S34A2-D S54a2-d S44A1-D NB4542
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1E 00 00 00
+#
+name: Info
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: A3 00 00 00
+#
+name: Ok
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 05 00 00 00
+#
+name: Up
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4E 00 00 00
+#
+name: Down
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+#
+name: Left
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 06 00 00 00
+#
+name: Right
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 07 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+#
+name: Play
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4F 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 05 00 00 00
+#
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 1F 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 17 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 16 00 00 00
+#
+name: 1
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 41 00 00 00
+#
+name: 2
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 42 00 00 00
+#
+name: 3
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 43 00 00 00
+#
+name: 4
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 44 00 00 00
+#
+name: 5
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 45 00 00 00
+#
+name: 6
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 46 00 00 00
+#
+name: 7
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 47 00 00 00
+#
+name: 8
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 48 00 00 00
+#
+name: 9
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 49 00 00 00
+#
+name: 0
+type: parsed
+protocol: Samsung32
+address: 2C 00 00 00
+command: 4B 00 00 00
+#

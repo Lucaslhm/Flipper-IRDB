@@ -1,0 +1,59 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: RCA, Remote Model: RTS7110B, Device Model: RTS7110B2, Device Type: Soundbar, Description: also works for models: RTS7010BOM RTS7010B RTS7110B RTS7630B
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 5C 00 00 00
+#
+name: Pause
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 45 00 00 00
+#
+name: Play
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 45 00 00 00
+#
+name: Stop
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 45 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 4E 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 55 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 59 00 00 00
+#
+name: Input+
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 57 00 00 00
+#
+name: Input-
+type: parsed
+protocol: NEC
+address: 8A 00 00 00
+command: 5B 00 00 00
+#

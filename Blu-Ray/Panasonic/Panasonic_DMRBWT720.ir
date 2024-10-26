@@ -1,0 +1,136 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Panasonic
+# Remote Model: N2QAYB000781
+# Device Model: DMR-BWT720
+# Device Type: Blu-ray Player
+# Description: also works for DMR-BWT730 DMR-BWT820 DMR-BWT835 DMR-BWT720GL DMR-BWT730GL DMR-BWT820GL DMRB-WT835GL DMR-BWT700 DMR-BWT800 DMR-BWT700GL DMR-BWT800GL DMR-XW380 DMR-XW385 DMR-XW390 DMR-XW480 DMR-XW380GL DMR-XW385GL DMR-XW390GL DMR-XW480GL DMR-BWT700 DMR-BWT800 DMR-BWT700GL DMR-BWT800GL DMR-PWT500 DMR-PWT500GL DMR-HW220 DMR-HW220GN DMR-HW220GN DMRBWT720 DMRBWT730 DMRBWT820 DMRBWT835 DMRBWT720GL DMRBWT730GL DMRBWT820GL DMRBWT835GL DMRXW380 DMRXW385 DMRXW390 DMRXW480 DMRXW380GL DMRXW385GL DMRXW390GL DMRXW480GL DMRBWT700 DMRBWT800 DMRBWT700GL DMRBWT800GL DMRPWT500 DMRPWT500GL DMRHW220GN DMRXW350 DMRXW450 DMRXW350GL DMRXW450GL DMR-XW350 DMR-XW450 DMR-XW350GL DMR- XW450GL DMRBW500 DMRBW500GN DMR-BW500 DMR-BW500GN DMRBW750GL DMR-BW850GL DMRXW440 DMRXW440GL DMRXW440GLK DMR-XW440 DMR-XW440GL DMR-XW440GLK DMREZ47V DMREZ47VGN DMREZ48VGN DMR-EZ47VGN DMR-EZ48VGN
+# Contributor: deki
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+#
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 70 01 00 00
+#
+name: Info
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 01
+command: 60 02 00 00
+#
+name: Back
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 10 00 00 00
+#
+name: Ok
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 00 00 00
+#
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 50 00 00 00
+#
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 60 00 00 00
+#
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 70 00 00 00
+#
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 80 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 60 00 00 00
+#
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: A0 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 00 00 00 00
+#
+name: Ch_next
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 03 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 03 00 00
+#
+name: Subtitle
+type: parsed
+protocol: Kaseikyo
+address: B1 02 20 01
+command: 10 03 00 00
+#
+name: PopUpMenu
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: B0 01 00 00
+#
+name: PageUp
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 40 03 00 00
+#
+name: PageDown
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 50 03 00 00
+#
+name: Record
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 80 00 00 00
+#

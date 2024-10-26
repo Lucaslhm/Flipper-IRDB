@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Memorex
+# Device Model: MVR4040A
+# Device Type: VCR
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 13 EC 00 00
+#
+name: Eject
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 4E B1 00 00
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 50 AF 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 45 BA 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 18 E7 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 19 E6 00 00
+#
+name: Pause
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 1A E5 00 00
+#
+name: Play
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 16 E9 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 17 E8 00 00
+#
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 0A F5 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 0B F4 00 00
+#
+name: Record
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 15 EA 00 00
+#
+name: Cancel
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 4A B5 00 00
+#
+name: AutoTrack
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 52 AD 00 00
+#
+name: Index
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 14 EB 00 00
+#
+name: ZeroReturn
+type: parsed
+protocol: NECext
+address: 80 7B 00 00
+command: 4B B4 00 00
+#
