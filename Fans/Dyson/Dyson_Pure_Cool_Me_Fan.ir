@@ -2,7 +2,7 @@ Filetype: IR signals file
 Version: 1
 #
 # For Dyson Pure Cool Me Purifier Fan
-# 
+#
 name: POWER
 type: raw
 frequency: 38000
@@ -26,4 +26,3 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 2323 611 796 669 800 664 802 692 773 1424 774 691 801 664 774 691 774 692 773 1423 800 668 822 667 798 1376 769 1427 771 696 769 696 770 1429 795 1404 794 672 794 1404 794 671 795 1404 794 51269 2214 691 769 1427 796
-#

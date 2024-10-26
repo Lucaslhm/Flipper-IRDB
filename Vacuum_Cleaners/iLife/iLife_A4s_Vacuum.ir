@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
 # iLife A4s Vacuum
 #
 name: Clean
@@ -8,43 +8,43 @@ type: parsed
 protocol: NECext
 address: 40 55 00 00
 command: 44 BB 00 00
-# 
+#
 name: Spiral
 type: parsed
 protocol: NECext
 address: 40 55 00 00
 command: EE 11 00 00
-# 
+#
 name: Home
 type: parsed
 protocol: NECext
 address: 40 55 00 00
 command: 11 EE 00 00
-# 
+#
 name: Edge_clean
 type: parsed
 protocol: NECext
 address: 40 55 00 00
 command: 99 66 00 00
-# 
+#
 name: Up
 type: parsed
 protocol: NECext
 address: 40 55 00 00
 command: AA 55 00 00
-# 
+#
 name: Down
 type: parsed
 protocol: NECext
 address: 40 55 00 00
 command: 66 99 00 00
-# 
+#
 name: Left
 type: parsed
 protocol: NECext
 address: 40 55 00 00
 command: CC 33 00 00
-# 
+#
 name: Right
 type: raw
 frequency: 38000

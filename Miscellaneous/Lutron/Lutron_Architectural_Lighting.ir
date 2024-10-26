@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
 # Lutron Architectural Lighting
 #
 name: FULL ON
@@ -14,7 +14,7 @@ type: raw
 frequency: 40000
 duty_cycle: 0.400000
 data: 20592 6864 2288 6864 2288 2288 9152 2288 2288 6864 2288 4576 2288 11440
-# 
+#
 name: Raise
 type: raw
 frequency: 40000
