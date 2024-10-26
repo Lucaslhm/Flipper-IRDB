@@ -1,0 +1,143 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Hisense, Remote Model: EN2B27, Device Model: 58R5, Device Type: TV, Description: also works for models: 65R5 32N4 32P4 39N4 39P4 43N6 43P6 49P4 50N4 50N6 50P6 55N4 55N6 55P4 55P6 58P5 65N6 65P6 75P5 58N5 75N5 55K760UW 55K720UW 32K3110W 40K321UW
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+#
+name: Setup
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 14 EB 00 00
+#
+name: Input
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 12 ED 00 00
+#
+name: Info
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0C F3 00 00
+#
+name: Prev
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 48 B7 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 16 E9 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 17 E8 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 19 E6 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 18 E7 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 59 A6 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 58 A7 00 00
+#
+name: Play
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: A8 57 00 00
+#
+name: Pause
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: A9 56 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 5A A5 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0E F1 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 44 BB 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 43 BC 00 00
+#
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4A B5 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4B B4 00 00
+#
+name: Guide
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 1D E2 00 00
+#
+name: YouTube
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: AA 55 00 00
+#
+name: Home
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 20 DF 00 00
+#

@@ -1,0 +1,116 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Sylvania
+# Device Model: SDVD1111
+# Device Type: Blu-ray Player
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5F 00 00 00
+#
+name: Eject
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4E 00 00 00
+#
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+name: Info
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8985 4499 592 531 593 531 593 532 592 531 593 531 593 532 592 533 591 536 566 1663 593 1640 594 1642 592 1641 593 1643 591 1641 593 1642 592 1643 591 1550 684 1643 591 1642 592 532 592 1643 591 532 592 532 592 532 592 534 590 532 592 532 592 1642 592 534 590 1644 590 1625 609 1643 591 40176 9015 2241 564
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 55 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 59 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 51 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 56 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5D 00 00 00
+#
+name: Pause
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8983 4501 564 559 565 559 565 558 566 559 565 558 566 442 682 566 558 560 564 1669 565 1669 565 1669 565 1670 564 1669 565 1668 566 1599 635 1670 564 560 564 560 564 560 564 1669 565 1669 565 559 565 1670 564 559 565 1668 566 1669 565 1669 565 559 565 558 566 1670 564 560 564 1669 565 40232 8985 2239 566
+#
+name: Play
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5B 00 00 00
+#
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+#
+name: Audio
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+#
+name: Popup
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00
+#

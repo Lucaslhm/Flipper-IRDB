@@ -1,0 +1,160 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Vizio, Remote Model: VR7, Device Model: VBR220, Device Type: Blu-ray Player, Description: also works for Vizio models: VBR200W VBR210 VBR333 VBR334 VBR100 VBR110 VBR120 VBR231.
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+#
+name: Eject
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 3D 00 00 00
+#
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4E 00 00 00
+#
+name: Info
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+#
+name: Prev
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4F 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 59 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5B 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 36 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 35 00 00 00
+#
+name: Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 33 00 00 00
+#
+name: Play
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8985 4499 595 530 594 529 595 531 593 530 594 530 594 532 592 561 563 531 593 1639 595 1555 679 1640 594 1640 594 1641 593 1640 594 1639 595 1641 593 1639 595 1635 599 530 594 530 594 1640 594 1642 592 529 595 531 593 530 594 530 594 1644 594 1635 595 530 594 530 594 1641 593 1640 594 40203 8985 2240 593
+#
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 30 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5C 00 00 00
+#
+name: 1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+#
+name: 2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+#
+name: 3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+#
+name: 4
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+#
+name: 5
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: 6
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+#
+name: 7
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 17 00 00 00
+#
+name: 8
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+#
+name: 9
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: 0
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 10 00 00 00

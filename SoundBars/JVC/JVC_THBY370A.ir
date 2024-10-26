@@ -1,0 +1,41 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: JVC, Remote Model: RM-STHBY370A, Device Model: THBY370A, Device Type: Soundbar
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 00 00 00 00
+#
+name: Input
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 07 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 09 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 01 00 00 00
+#
+name: Reset
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 41 00 00 00
+#
