@@ -49,7 +49,7 @@ jobs:
 
       - name: Find Comment from Linter
         uses: peter-evans/find-comment@v3
-        if: ${{ github.event.pull_request.head.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
+        if: ${{ github.event.pull_request.base.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
         id: fc
         with:
           issue-number: ${{ github.event.pull_request.number }}
@@ -58,7 +58,7 @@ jobs:
         
       - name: Create or update comment if linter found no errors
         uses: peter-evans/create-or-update-comment@v4
-        if: ${{ steps.run-linter.outcome == 'success' && github.event.pull_request.head.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
+        if: ${{ steps.run-linter.outcome == 'success' && github.event.pull_request.base.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
@@ -90,7 +90,7 @@ jobs:
       
       - name: Create or update comment if linter found errors
         uses: peter-evans/create-or-update-comment@v4
-        if: ${{ steps.run-linter.outcome != 'success' && github.event.pull_request.head.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
+        if: ${{ steps.run-linter.outcome != 'success' && github.event.pull_request.base.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
