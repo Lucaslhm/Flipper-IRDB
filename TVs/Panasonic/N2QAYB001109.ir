@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+#
+# Panasonic N2QAYB001109
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+#
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 03 00 00
+#
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+#
+name: Ch_next
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 03 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
