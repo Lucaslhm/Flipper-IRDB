@@ -1,37 +1,37 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: POWER
+name: Power
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: D0 03 00 00
 # 
-name: MUTE
+name: Mute
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 20 03 00 00
 # 
-name: VOL_UP
+name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 00 02 00 00
 # 
-name: VOL_DN
+name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 10 02 00 00
 # 
-name: CH_UP
+name: Ch_next
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 40 03 00 00
 # 
-name: CH_DN
+name: Ch_prev
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
