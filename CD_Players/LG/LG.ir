@@ -1,11 +1,11 @@
 Filetype: IR signals file
 Version: 1
 #
-# LG CD Player
+# LG CD Player Some Change
 #
 name: Power
 type: parsed
-protocol: Samsung322
+protocol: Samsung32
 address: 10 00 00 00
 command: 1E 00 00 00
 #
@@ -32,7 +32,7 @@ type: parsed
 protocol: Samsung32
 address: 10 00 00 00
 command: 03 00 00 00
-
+#
 name: MUTE
 type: parsed
 protocol: Samsung32
@@ -106,7 +106,7 @@ address: 10 00 00 00
 command: 77 00 00 00
 #
 name: Dimmer
-type: pasred
+type: parsed
 protocol: Samsung32
 address: 10 00 00 00
 command: 5E 00 00 00
