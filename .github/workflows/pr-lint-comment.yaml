@@ -1,0 +1,39 @@
+name: Lint Comment Pull Request
+
+on:
+  workflow_run:
+    workflows: [Lint Check Pull Request]
+    types:
+      - completed
+
+jobs:
+  comment:
+    name: "🐛 Comment Linter Warnings"
+    runs-on: ubuntu-latest
+    if: >
+      github.event.workflow_run.event == 'pull_request'
+    steps:
+      - name: "Download artifact"
+        uses: dawidd6/action-download-artifact@v6
+        with:
+          run_id: ${{ github.event.workflow_run.id }}
+      
+      - name: Set PR Number as Environment Variable
+        id: set-pr-number-output
+        run: echo "PR_NUMBER=$(cat ./pr/NR)" >> $GITHUB_ENV
+      
+      - name: Find Comment from Linter
+        uses: peter-evans/find-comment@v3
+        id: fc
+        with:
+          issue-number: ${{ env.PR_NUMBER }}
+          comment-author: 'github-actions[bot]'
+          body-includes: '<!-- [lint] -->'
+            
+      - name: Create or Update Comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          issue-number: ${{ env.PR_NUMBER }}
+          body-path: ./pr/comment_body.txt
+          edit-mode: replace

@@ -1,4 +1,4 @@
-name: "🧐 Checking IR Files"
+name: Lint Check Pull Request
 
 on:
   pull_request:
@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
 
       - name: Clean Script Directory
         run: rm -rf fff-ir-lint
@@ -30,10 +27,12 @@ jobs:
           files: "**/*.ir"
           json: true
           write_output_files: true
-          sha: ${{ github.event.pull_request.head.sha }}
           
       - name: Verify the contents of the .github/outputs/all_changed_files.json file
         run: cat .github/outputs/all_changed_files.json
+
+      - name: list files
+        run: ls -larth .github/outputs
 
       - uses: actions/setup-python@v5
         with:
@@ -47,32 +46,26 @@ jobs:
       - name: Verify the contents of the .github/outputs/linter_output.txt file
         run: cat .github/outputs/linter_output.txt
 
-      - name: Find Comment from Linter
-        uses: peter-evans/find-comment@v3
-        if: ${{ github.event.pull_request.base.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
-        id: fc
-        with:
-          issue-number: ${{ github.event.pull_request.number }}
-          comment-author: 'github-actions[bot]'
-          body-includes: '<!-- [lint] -->'
-        
-      - name: Create or update comment if linter found no errors
-        uses: peter-evans/create-or-update-comment@v4
-        if: ${{ steps.run-linter.outcome == 'success' && github.event.pull_request.base.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
-        with:
-          comment-id: ${{ steps.fc.outputs.comment-id }}
-          issue-number: ${{ github.event.pull_request.number }}
-          body: |
-            <!-- [lint] -->
-            Thank you for your contribution! ❤️
+      - name: Save PR number
+        run: |
+          rm -rf pr/ || true
+          mkdir -p pr/
+          echo ${{ github.event.number }} > ./pr/NR
 
-            **The linter found no issues. 🎉**
-          edit-mode: replace
-      
+      - name: Create comment body if linter found no errors
+        if: ${{ steps.run-linter.outcome == 'success' }}
+        run: |
+          cat <<EOF > ./pr/comment_body.txt
+          <!-- [lint] -->
+          Thank you for your contribution! ❤️
+
+          **The linter found no issues. 🎉**
+          EOF
+
       - name: Create comment body if linter found errors
         if: ${{ steps.run-linter.outcome != 'success' }}
         run: |
-          cat <<EOF > .github/outputs/comment_body.txt
+          cat <<EOF > ./pr/comment_body.txt
           <!-- [lint] -->
           Thank you for your contribution! ❤️
           
@@ -87,15 +80,12 @@ jobs:
           
           Please address these issues and update your pull request. Once the problems are resolved, the linter will re-check your changes.
           EOF
-      
-      - name: Create or update comment if linter found errors
-        uses: peter-evans/create-or-update-comment@v4
-        if: ${{ steps.run-linter.outcome != 'success' && github.event.pull_request.base.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
+
+      - name: Save comment body
+        uses: actions/upload-artifact@v4
         with:
-          comment-id: ${{ steps.fc.outputs.comment-id }}
-          issue-number: ${{ github.event.pull_request.number }}
-          body-path: .github/outputs/comment_body.txt
-          edit-mode: replace
+          name: pr
+          path: pr/
 
       - name: Fail Pipeline if Linter Found Issues
         if: ${{ steps.run-linter.outcome == 'failure' }}
