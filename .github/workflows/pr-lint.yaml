@@ -2,63 +2,101 @@ name: "🧐 Checking IR Files"
 
 on:
   pull_request:
-    paths: '**.ir'
+    paths:
+      - '**/*.ir'
 
 jobs:
   lint:
     name: "🐛 Looking for issues"
     runs-on: ubuntu-latest
     steps:
-      # checkout IRDB
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
 
-      # checkout Linter
       - name: Clean Script Directory
         run: rm -rf fff-ir-lint
-      - uses: actions/checkout@v3
+      
+      - uses: actions/checkout@v4
         with:
           repository: 'darmiel/fff-ir-lint'
           path: fff-ir-lint
       
-      # only check files changed in the PR
-      - name: Get Changed Files
+      - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v37.1.1
+        uses: tj-actions/changed-files@v45
         with:
           files: "**/*.ir"
-          separator: "\n"
+          json: true
+          write_output_files: true
           sha: ${{ github.event.pull_request.head.sha }}
           
-      - name: Save changed file names to file
-        run: echo '${{ steps.changed-files.outputs.all_changed_files }}' > changed_file_list.txt
-      
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10' 
+      - name: Verify the contents of the .github/outputs/added_files.json file
+        run: cat .github/outputs/added_files.json
 
-      - name: Run Linter if at least 1 IR File Changed
-        uses: mathiasvr/command-output@v2.0.0
-        id: run
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Linter
+        id: run-linter
         continue-on-error: true
+        run: LINTER_CONFIG=.fff-ir-lint.json python fff-ir-lint/main.py github2 json:.github/outputs/added_files.json > .github/outputs/linter_output.txt
+
+      - name: Verify the contents of the .github/outputs/linter_output.txt file
+        run: cat .github/outputs/linter_output.txt
+
+      - name: Find Comment from Linter
+        uses: peter-evans/find-comment@v3
+        if: ${{ github.event.pull_request.head.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
+        id: fc
         with:
-          run: 'LINTER_CONFIG=.fff-ir-lint.json python fff-ir-lint/main.py github2 file:changed_file_list.txt'
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: '<!-- [lint] -->'
+        
+      - name: Create or update comment if linter found no errors
+        uses: peter-evans/create-or-update-comment@v4
+        if: ${{ steps.run-linter.outcome == 'success' && github.event.pull_request.head.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            <!-- [lint] -->
+            Thank you for your contribution! ❤️
 
-      #- uses: ntsd/auto-request-changes-action@v2
-      #  name: "Request Changes"
-      #  if: ${{ steps.run.outputs.stderr }}
-      #  with:
-      #    github-token: "${{ secrets.GITHUB_TOKEN }}"
-      #    comment-body: |
-      #      <details>
-      #        <summary>🐛 Linter Result</summary>
-      #        
-      #        ${{ steps.run.outputs.stdout }}
-      #        
-      #      </details>
+            **The linter found no issues. 🎉**
+          edit-mode: replace
+      
+      - name: Create comment body if linter found errors
+        if: ${{ steps.run-linter.outcome != 'success' }}
+        run: |
+          cat <<EOF > .github/outputs/comment_body.txt
+          <!-- [lint] -->
+          Thank you for your contribution! ❤️
+          
+          We use an automated linter to ensure consistency. During the review of the \`.ir\` files in your pull request, it found the following issue(s):
+          
+          <details>
+            <summary><strong>🐛 Linter Result</strong> <i>(Click to open)</i></summary>
+            
+            $(cat .github/outputs/linter_output.txt)
+          
+          </details>
+          
+          Please address these issues and update your pull request. Once the problems are resolved, the linter will re-check your changes.
+          EOF
+      
+      - name: Create or update comment if linter found errors
+        uses: peter-evans/create-or-update-comment@v4
+        if: ${{ steps.run-linter.outcome != 'success' && github.event.pull_request.head.repo.full_name == 'Lucaslhm/Flipper-IRDB' }} # does not work in forks
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body-path: .github/outputs/comment_body.txt
+          edit-mode: replace
 
-      - name: Fail Pipeline
-        if: ${{ steps.run.outputs.stderr }}
+      - name: Fail Pipeline if Linter Found Issues
+        if: ${{ steps.run-linter.outcome == 'failure' }}
         run: exit 1
