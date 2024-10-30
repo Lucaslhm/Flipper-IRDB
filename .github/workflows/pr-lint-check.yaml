@@ -26,6 +26,7 @@ jobs:
         with:
           files: "**/*.ir"
           json: true
+          safe_output: false
           write_output_files: true
           
       - name: Verify the contents of the .github/outputs/all_changed_files.json file
