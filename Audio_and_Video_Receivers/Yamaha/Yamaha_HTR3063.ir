@@ -1,0 +1,146 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Yamaha
+# Device Model: HTR3063
+# Device Type: Audio and Video Receiver
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 7E 00 00 00
+command: 2A 00 00 00
+#
+name: Setup
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 84 00 00 00
+#
+name: Info
+type: parsed
+protocol: NECext
+address: 7A 85 00 00
+command: 27 58 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: AA 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: DE 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9D 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9C 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9F 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 9E 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1C 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1A 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: 1B 00 00 00
+#
+name: 1
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: E5 00 00 00
+#
+name: 2
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: E6 00 00 00
+#
+name: 3
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: E7 00 00 00
+#
+name: 4
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: E8 00 00 00
+#
+name: 5
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: E9 00 00 00
+#
+name: 6
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: EA 00 00 00
+#
+name: 7
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: EB 00 00 00
+#
+name: 8
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: EC 00 00 00
+#
+name: 9
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: B1 00 00 00
+#
+name: 0
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: B2 00 00 00
+#
+name: NumEnter
+type: parsed
+protocol: NEC
+address: 7A 00 00 00
+command: B3 00 00 00
+#
