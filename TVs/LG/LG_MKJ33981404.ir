@@ -33,25 +33,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 # 
-name: Pr_next_up
+name: Ch_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: Pr_prev_down
+name: Ch_down
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: Vol_up_right
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_down_left
+name: Vol_down
 type: parsed
 protocol: NEC
 address: 04 00 00 00
