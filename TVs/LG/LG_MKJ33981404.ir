@@ -1,0 +1,58 @@
+Filetype: IR signals file
+Version: 1
+# LG MKJ33981404, also fits for following models:
+# LG 21FG5RL, LG 21FJ8RL, LG 21FK2RG, LG 21FU4R-L3, LG 21FU4RL, LG 21FU4RLX, LG 21FU6-L4, LG 21FU6PL, LG 21FU6R-L4, LG 21FU6RG, 
+# LG 21FU6RL, LG 21FU6RL-Z4, LG 21FU6RLX, LG 21FU6T, LG 21FU6TL, LG 21SA1RL, LG 21SB1RL, LG 21SB1RG-Z4
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
