@@ -1,0 +1,59 @@
+Filetype: IR signals file
+Version: 1
+#
+# LightMyBricks Remote Control and Sound Kit
+# https://www.lightmybricks.com/products/remote-control-and-sound-kit
+#
+name: On
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Off
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 19 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 00 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+# 
+name: Brightness_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: Brightness_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
