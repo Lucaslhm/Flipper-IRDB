@@ -110,7 +110,7 @@ name: Netflix
 type: parsed
 protocol: NEC
 address: 88 00 00 00
-command:  00 00 00
+command: 00 00 00
 # 
 name: Disney+
 type: parsed

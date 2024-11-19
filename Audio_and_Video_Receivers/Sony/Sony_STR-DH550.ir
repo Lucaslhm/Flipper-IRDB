@@ -15,7 +15,7 @@ type: parsed
 protocol: SIRC15
 address: 30 00 00 00
 command: 60 00 00 00
-
+#
 name: Options
 type: parsed
 protocol: SIRC20
