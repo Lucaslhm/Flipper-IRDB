@@ -7,6 +7,42 @@ protocol: Kaseikyo
 address: A2 02 20 02
 command: FC 03 00 00
 # 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 1C 03 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 0C 03 00 00
+# 
+name: Prev
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 4C 00 00 00
+# 
+name: Next
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 5C 00 00 00#
+# 
+name: Play/Pause
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 7C 00 00 00
+#  
+name: Stop/Clear
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 0C 00 00 00
+# 
 name: Tape
 type: parsed
 protocol: Kaseikyo
@@ -79,35 +115,11 @@ protocol: Kaseikyo
 address: A2 02 20 02
 command: 2C 00 00 00
 # 
-name: Prev
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: 4C 00 00 00
-# 
-name: Next
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: 5C 00 00 00
-# 
 name: Repeat
 type: parsed
 protocol: Kaseikyo
 address: A2 02 20 02
 command: 1C 00 00 00
-# 
-name: Stop/Clear
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: 0C 00 00 00
-# 
-name: Play/Pause
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: 7C 00 00 00
 # 
 name: Disc 1
 type: parsed
@@ -133,14 +145,3 @@ protocol: Kaseikyo
 address: A2 02 20 03
 command: 6C 03 00 00
 # 
-name: Vol_up
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: 1C 03 00 00
-# 
-name: Vol_dn
-type: parsed
-protocol: Kaseikyo
-address: A2 02 20 02
-command: 0C 03 00 00
