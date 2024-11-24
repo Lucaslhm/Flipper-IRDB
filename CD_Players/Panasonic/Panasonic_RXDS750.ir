@@ -7,13 +7,13 @@ protocol: Kaseikyo
 address: A2 02 20 02
 command: FC 03 00 00
 # 
-name: Vol_up
+name: Vol_dn
 type: parsed
 protocol: Kaseikyo
 address: A2 02 20 02
 command: 1C 03 00 00
 # 
-name: Vol_dn
+name: Vol_up
 type: parsed
 protocol: Kaseikyo
 address: A2 02 20 02
