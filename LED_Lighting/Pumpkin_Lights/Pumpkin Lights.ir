@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On_off
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 95 00 00 00
+# 
+name: Plus
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: A4 00 00 00
+# 
+name: Min
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 96 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 25 00 00 00
+# 
+name: 2h
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 36 00 00 00
+# 
+name: 4h
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 55 00 00 00
+# 
+name: 6h
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 46 00 00 00
+# 
+name: Flicker
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 93 00 00 00
+# 
+name: Steady
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 94 00 00 00
