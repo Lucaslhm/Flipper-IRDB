@@ -1,0 +1,209 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony STR-DH550 audio receiver
+# RM-AAU190 Remote
+# 
+name: Power
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 15 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 60 00 00 00
+#
+name: Options
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 73 00 00 00
+# 
+name: Amp_Menu
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 77 00 00 00
+# 
+name: Return
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 7D 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 0C 00 00 00
+# 
+name: Up
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 78 00 00 00
+# 
+name: Down
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 79 00 00 00
+# 
+name: Left
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: SIRC15
+address: B0 00 00 00
+command: 7B 00 00 00
+# 
+name: Next
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 31 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 30 00 00 00
+# 
+name: Play_pa
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 3A 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 38 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 14 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 12 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 13 00 00 00
+# 
+name: Home
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 53 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 4B 00 00 00
+# 
+name: BD_DVD
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 16 00 00 00
+# 
+name: SAT_CATV
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 03 00 00 00
+# 
+name: GAME
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 7C 00 00 00
+# 
+name: SA-CD_CD
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 25 00 00 00
+# 
+name: Video
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 22 00 00 00
+# 
+name: TV
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 6A 00 00 00
+# 
+name: FM
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 18 00 00 00
+# 
+name: AM
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 1A 00 00 00
+# 
+name: USB
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 17 00 00 00
+# 
+name: iPhone_CTRL
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 72 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 2C 00 00 00
+# 
+name: Shuffle
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 2A 00 00 00
+# 
+name: AFD_2CH
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 47 00 00 00
+# 
+name: MOVIE
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 43 00 00 00
+# 
+name: MUSIC
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 49 00 00 00
