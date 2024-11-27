@@ -29,7 +29,7 @@ name: Next
 type: parsed
 protocol: Kaseikyo
 address: A2 02 20 02
-command: 5C 00 00 00#
+command: 5C 00 00 00
 # 
 name: Play/Pause
 type: parsed
