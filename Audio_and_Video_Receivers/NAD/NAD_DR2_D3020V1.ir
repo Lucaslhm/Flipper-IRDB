@@ -1,0 +1,89 @@
+Filetype: IR signals file
+Version: 1
+#
+# This IR file emulate the official NAD DR2 remote for NAD D7050 and D3020
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 25 DA 00 00
+#
+name: Power_off
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: C8 37 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 88 77 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 8C 73 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 94 6B 00 00
+#
+name: OPT1
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 89 76 00 00
+#
+name: OPT2
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 8D 72 00 00
+#
+name: COAX
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 85 7A 00 00
+#
+name: USB
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 91 6E 00 00
+#
+name: AUX1
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 9B 64 00 00
+#
+name: AUX2
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: C0 3F 00 00
+# 
+name: BT
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: C2 3D 00 00
+#
+name: Next
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 1A E5 00 00
+#
+name: Prev
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 1D E2 00 00
+#
