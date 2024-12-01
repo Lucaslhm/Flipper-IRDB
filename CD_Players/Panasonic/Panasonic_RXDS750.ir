@@ -1,0 +1,146 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: FC 03 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 1C 03 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 0C 03 00 00
+# 
+name: Prev
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 4C 00 00 00
+# 
+name: Next
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 5C 00 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 7C 00 00 00
+#  
+name: Stop/Clear
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 0C 00 00 00
+# 
+name: Tape
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: CC 02 00 00
+# 
+name: Tuner
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 8C 03 00 00
+# 
+name: Preset Tune +
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: 8C 02 00 00
+# 
+name: Preset Tune -
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: 7C 02 00 00
+# 
+name: FM Mode/BP
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: 4C 02 00 00
+# 
+name: Tuning -
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: AC 02 00 00
+# 
+name: Tuning +
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: 9C 02 00 00
+# 
+name: CD
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 6C 03 00 00
+# 
+name: Program
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: BC 00 00 00
+#
+name: Continue
+type: parsed
+protocol: Kaseikyo
+address: A6 02 20 03
+command: EC 02 00 00
+# 
+name: Cancel
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: DC 00 00 00
+# 
+name: Random
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 2C 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 02
+command: 1C 00 00 00
+# 
+name: Disc 1
+type: parsed
+protocol: Kaseikyo
+address: A6 02 20 03
+command: 0C 02 00 00
+# 
+name: Disc 2
+type: parsed
+protocol: Kaseikyo
+address: A6 02 20 03
+command: 1C 02 00 00
+# 
+name: Disc 3
+type: parsed
+protocol: Kaseikyo
+address: A6 02 20 03
+command: 2C 02 00 00
+# 
+name: Sleep/Demo
+type: parsed
+protocol: Kaseikyo
+address: A2 02 20 03
+command: 6C 03 00 00
