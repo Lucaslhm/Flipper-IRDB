@@ -33,31 +33,31 @@ protocol: NEC
 address: 00 00 00 00
 command: 19 00 00 00
 # 
-name: Brightness_down
+name: Brightness_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: Timer_4hr
+name: Timer_4_hours
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 16 00 00 00
 # 
-name: Timer_6hr
+name: Timer_6_hours
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 05 00 00 00
 # 
-name: Timer_8hr
+name: Timer_8_hours
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: Timer_10hr
+name: Timer_10_hours
 type: parsed
 protocol: NEC
 address: 00 00 00 00
