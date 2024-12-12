@@ -14,3 +14,51 @@ type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 15 00 00 00
+# 
+name: Flicker_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+# 
+name: Flicker_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Brightness_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: Brightness_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 38 00 00 00
+# 
+name: Timer_4_hours
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Timer_6_hours
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Timer_8_hours
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: Timer_10_hours
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
