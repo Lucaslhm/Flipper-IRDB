@@ -1,0 +1,22 @@
+Filetype: IR signals file
+Version: 1
+#
+# For MCM Custom Audio 50-8394 IR Volume Control
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00

@@ -1,0 +1,65 @@
+Filetype: IR signals file
+Version: 1
+#
+# Modern Ember Aerus electric fireplace
+#
+# Power On/Off
+name: Power_on_off
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# Temperature Up
+name: Temp_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+# Temperature Down
+name: Temp_down
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
+# Timer setting
+name: Timer
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# Heater Off/Low/High
+name: Heat_off_low_high
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+# Adjust flame brightness
+name: Flame_brightness
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+# Adjust flame speed
+name: Flame_seed
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# Adjust flame color
+name: Flame_color
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# Adjust ember bed brightness
+name: Ember_brightness
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 19 00 00 00
+# Adjust ember bed color
+name: Ember_color
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 00 00 00 00

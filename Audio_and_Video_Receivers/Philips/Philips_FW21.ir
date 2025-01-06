@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Philips
+# Device Model: FW21
+# Device Type: Audio and Video Receiver
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 0C 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 34 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 32 00 00 00
+#
+name: Pause
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 30 00 00 00
+#
+name: Play
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 35 00 00 00
+#
+name: Stop
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 36 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
+#
+name: Aux
+type: parsed
+protocol: RC5
+address: 15 00 00 00
+command: 3F 00 00 00
+#
+name: CD
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 3F 00 00 00
+#
+name: Tape
+type: parsed
+protocol: RC5
+address: 12 00 00 00
+command: 3F 00 00 00
+#
+name: Tuner
+type: parsed
+protocol: RC5
+address: 11 00 00 00
+command: 3F 00 00 00
+#

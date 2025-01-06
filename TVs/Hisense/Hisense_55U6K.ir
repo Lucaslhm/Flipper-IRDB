@@ -1,170 +1,19 @@
 Filetype: IR signals file
 Version: 1
-#
-# LG OLED65C8PUA TV
-# should also work with: LG OLED55B9PTA
-#
+# 
+# Hisense 55U6K (2023)
+# 
 name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 # 
-name: 1
+name: Setup
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 11 00 00 00
-# 
-name: 2
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 12 00 00 00
-# 
-name: 3
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 13 00 00 00
-# 
-name: 4
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 14 00 00 00
-# 
-name: 5
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 15 00 00 00
-# 
-name: 6
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 16 00 00 00
-# 
-name: 7
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 17 00 00 00
-# 
-name: 8
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 18 00 00 00
-# 
-name: 9
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 19 00 00 00
-# 
-name: List
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 4C 00 00 00
-# 
-name: 0
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 10 00 00 00
-# 
-name: Vol_up
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 02 00 00 00
-# 
-name: Mute
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 09 00 00 00
-# 
-name: Ch_next
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 00 00 00 00
-# 
-name: Vol_dn
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 03 00 00 00
-# 
-name: Ch_prev
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 01 00 00 00
-# 
-name: Apps
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 7C 00 00 00
-# 
-name: Up
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 40 00 00 00
-# 
-name: Settings
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 43 00 00 00
-# 
-name: Left
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 07 00 00 00
-# 
-name: Ok
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 44 00 00 00
-# 
-name: Right
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 06 00 00 00
-# 
-name: Back
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 28 00 00 00
-# 
-name: Down
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 41 00 00 00
-# 
-name: Guide
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: AB 00 00 00
-# 
-name: Netflix
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 56 00 00 00
+command: E4 00 00 00
 # 
 name: Input
 type: parsed
@@ -172,50 +21,146 @@ protocol: NEC
 address: 04 00 00 00
 command: 0B 00 00 00
 # 
-name: Amazon
+name: Back
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 5C 00 00 00
-#
-name: Movies
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 81 00 00 00
-#
-name: Red
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 72 00 00 00
-#
-name: Green
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 71 00 00 00
+command: 04 00 00 00
 # 
-name: Yellow
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 63 00 00 00
+command: 5A 00 00 00
 # 
-name: Blue
+name: Up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 61 00 00 00
+command: 56 00 00 00
 # 
-name: Play
+name: Down
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: B0 00 00 00
+command: 57 00 00 00
 # 
-name: Pause
+name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: BA 00 00 00
+command: 58 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 59 00 00 00
+# 
+name: Play_pa
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 6B 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
+name: Accounts
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: E5 00 00 00
+# 
+name: Assistant
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1E 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4A 00 00 00
+# 
+name: Live_TV
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+# 
+name: Numbers
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 6A 00 00 00
+# 
+name: Netflix
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4C 00 00 00
+# 
+name: Prime_Video
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 47 00 00 00
+# 
+name: YouTube
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 49 00 00 00
+# 
+name: Disney+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: CE 00 00 00
+# 
+name: Tubi
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: CD 00 00 00
+# 
+name: Peacock
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: CF 00 00 00
