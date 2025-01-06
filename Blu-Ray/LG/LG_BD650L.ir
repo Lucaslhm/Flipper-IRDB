@@ -108,13 +108,7 @@ type: parsed
 protocol: NECext
 address: 00 DF 00 00
 command: 4F B0 00 00
-# 
-name: Eject
-type: parsed
-protocol: Samsung32
-address: 2D 00 00 00
-command: 36 00 00 00
-# 
+#
 name: Home
 type: parsed
 protocol: Samsung32
