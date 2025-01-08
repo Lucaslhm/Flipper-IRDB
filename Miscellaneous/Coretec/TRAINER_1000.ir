@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Coretec Trainer 1000
+#
 name: F1
 type: raw
 frequency: 38000
