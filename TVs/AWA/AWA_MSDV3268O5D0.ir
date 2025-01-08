@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# AWA MSDV3268O5D0 TV
+#
 name: Power
 type: parsed
 protocol: NECext
