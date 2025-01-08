@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# DeLonghi Pinguino PACEL92SILENT AC
+# https://www.delonghi.com/en/pacel92silent-pinguino-portable-air-conditioner/p/PACEL92SILENT
+#
 name: POWER
 type: parsed
 protocol: NECext
