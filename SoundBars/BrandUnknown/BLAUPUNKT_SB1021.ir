@@ -1,0 +1,48 @@
+Filetype: IR signals file
+Version: 1
+# 
+# BLAUPUNKT_SB1021 
+# SOUND BAR/AUDIO
+# By DoomedButton327 :)
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0C 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 17 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 08 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 14 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 16 00 00 00
+# 
+name: Line in
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0F 00 00 00
