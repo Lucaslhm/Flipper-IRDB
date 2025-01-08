@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Eichhorn Remote Controlled Train
+# https://www.eichhorn-toys.de/eichhorn_en/categories/wooden-tracks-toy-trains/tracks/eichhorn-train-remote-controlled-train-100006606-en.html
+#
 name: Light
 type: raw
 frequency: 38000
