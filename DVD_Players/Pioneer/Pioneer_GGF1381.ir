@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Fast_fo
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 10 00 00 00
+# 
+name: Fast_ba
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 11 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 18 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 17 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 16 00 00 00
