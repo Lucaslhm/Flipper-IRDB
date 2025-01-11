@@ -1,0 +1,85 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Panasonic
+# Device Model: SAPM03
+# Device Type: CD Player
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: D1 03 00 00
+#
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: 95 02 20 00
+command: 80 02 00 00
+#
+name: Ok
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 02
+command: 20 00 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: A1 00 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 91 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: 60 00 00 00
+#
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: A0 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 00
+command: 00 00 00 00
+#
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00
+#
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+#
+name: Ch_next
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 20 00 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 30 00 00 00
+#
