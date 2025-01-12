@@ -7,13 +7,13 @@ protocol: NECext
 address: 84 74 00 00
 command: FF 00 00 00
 # 
-name: Vol+
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 80 70 00 00
 command: C7 38 00 00
 # 
-name: Vol-
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 80 70 00 00
