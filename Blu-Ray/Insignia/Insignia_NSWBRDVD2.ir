@@ -1,0 +1,85 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Insignia
+# Device Model: NSWBRDVD2
+# Device Type: Blu-ray Player
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 06 F9 00 00
+#
+name: Eject
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 26 D9 00 00
+#
+name: Prev
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 46 B9 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 17 E8 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 15 EA 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 11 EE 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 13 EC 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 0F F0 00 00
+#
+name: Play
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 1A E5 00 00
+#
+name: Pause
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 1A E5 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 19 E6 00 00
+#
+name: Fast_ba
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 1E E1 00 00
+#
+name: Fast_fo
+type: parsed
+protocol: NECext
+address: 85 ED 00 00
+command: 1F E0 00 00
+#
