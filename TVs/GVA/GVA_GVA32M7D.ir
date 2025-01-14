@@ -23,7 +23,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 44 BB 00 00
 #
-name: Ch_up
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
@@ -47,7 +47,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 5C A3 00 00
 #
-name: Exit
+name: Back
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
