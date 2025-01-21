@@ -1,0 +1,71 @@
+Filetype: IR signals file
+Version: 1
+#
+# Grundig DSB 950 Soundbar
+# https://www.grundig.com/de-de/produkte/lautsprecher/lautsprecher-dsb-950-black
+#
+name: Power
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 6D 92 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 4F B0 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 50 AF 00 00
+#
+name: Next
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 15 EA 00 00
+#
+name: Prev
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 16 E9 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 6E 91 00 00
+#
+name: Play/Pause
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 70 8F 00 00
+#
+name: Repeat
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 4A B5 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 69 96 00 00
+#
+name: Source
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 5E A1 00 00
+#
+name: ARC
+type: parsed
+protocol: NECext
+address: D9 14 00 00
+command: 5D A2 00 00
