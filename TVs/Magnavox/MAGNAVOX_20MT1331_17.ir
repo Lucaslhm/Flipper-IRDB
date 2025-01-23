@@ -9,13 +9,13 @@ protocol: RC5
 address: 00 00 00 00
 command: 0C 00 00 00
 # 
-name: Chan_next
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: Chan_prev
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 00 00 00 00
