@@ -1,0 +1,116 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Bose
+# Device Model: LifestyleV35
+# Device Type: Audio and Video Receiver
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 4C B3 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 03 FC 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 02 FD 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 01 FE 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: E0 1F 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: C0 3F 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 20 DF 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: A0 5F 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 60 9F 00 00
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 90 6F 00 00
+#
+name: Back
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 14 EB 00 00
+#
+name: Play
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 55 AA 00 00
+#
+name: Pause
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 56 A9 00 00
+#
+name: Stop
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 1A E5 00 00
+#
+name: Next
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 58 A7 00 00
+#
+name: Rew
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 57 A8 00 00
+#
+name: Source
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: D3 2C 00 00
+#
+name: Exit
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 30 CF 00 00
+#

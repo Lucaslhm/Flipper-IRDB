@@ -1,0 +1,68 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Sony
+# Model: ICF-CDK50
+# Device Type: CD Player - Clock - Radio
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 6F 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 12 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 13 00 00 00
+#
+name: Mute
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 14 00 00 00
+#
+name: Play
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 19 00 00 00
+#
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 19 00 00 00
+#
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 18 00 00 00
+#
+name: Next
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 1B 00 00 00
+#
+name: Prev
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 1A 00 00 00
+#
+name: AM_FM
+type: parsed
+protocol: SIRC20
+address: 7A 02 00 00
+command: 6F 00 00 00
+#
