@@ -1,0 +1,77 @@
+Filetype: IR signals file
+Version: 1
+#
+# Panasonic PBUM11070 RGB Bulb 7w
+# https://www.amazon.in/Panasonic-Bulb-Multicolour-Pbum11070-B22D/dp/B07KKNNW1R
+#
+name: Power_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Power_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1F 00 00 00
+# 
+name: Brightness_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Brightness_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1D 00 00 00
+# 
+name: Red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+# 
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+# 
+name: White
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: Flash
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+# 
+name: Strobe
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: Fade
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Smooth
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
