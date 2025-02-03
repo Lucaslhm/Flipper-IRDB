@@ -22,10 +22,10 @@
           "/^vol(ume)?[_\\s]*(d(o?w)?n|[v\\-])$/"
         ],
         "ch_next": [
-          "/^ch(an(nel)?)?[_\\s]*(up|[\\^+])$/"
+          "/^ch(an(nel)?)?[_\\s]*(up|[\\^+]|next)$/"
         ],
         "ch_prev": [
-          "/^ch(an(nel)?)?[_\\s]*(d(o?w)?n|[\\v-])$/"
+          "/^ch(an(nel)?)?[_\\s]*(d(o?w)?n|[\\v-]|prev(ious)?)$/"
         ],
         "mute": [
           "mute",
