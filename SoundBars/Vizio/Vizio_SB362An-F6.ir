@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Vizio 36in Soundbar -- Model#: SB362An-F6 -- FCC ID:XN6-SB3621F6 -- IC:8819A-SB3621F6
+# Vizio SB362An-F6 36in Soundbar 
 #
 name: Vol_up
 type: parsed
@@ -14,6 +14,8 @@ type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 9062 4432 680 451 625 506 625 505 625 505 625 506 624 507 623 531 599 531 599 1633 623 1657 599 1657 624 1632 624 1633 623 1634 597 1659 622 1635 620 1636 620 510 596 1659 597 534 621 509 597 534 597 1659 597 534 596 534 596 1659 597 534 596 1659 597 1660 621 1635 621 509 597 1658 596
+#
+# Raw data was the only method Vol_dn was able to work correctly.
 # 
 name: Power
 type: parsed
