@@ -1,0 +1,84 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Vizio SB362An-F6 36in Soundbar 
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 41 00 00 00
+# 
+name: Vol_dn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9062 4432 680 451 625 506 625 505 625 505 625 506 624 507 623 531 599 531 599 1633 623 1657 599 1657 624 1632 624 1633 623 1634 597 1659 622 1635 620 1636 620 510 596 1659 597 534 621 509 597 534 597 1659 597 534 596 534 596 1659 597 534 596 1659 597 1660 621 1635 621 509 597 1658 596
+#
+# Raw data was the only method Vol_dn was able to work correctly.
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8A 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8E 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8B 00 00 00
+# 
+name: TV_Vol
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4C 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+# 
+name: VRTiX
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 50 00 00 00
+# 
+name: Bass
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: Eq
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 66 00 00 00
+# 
+name: Treb
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
