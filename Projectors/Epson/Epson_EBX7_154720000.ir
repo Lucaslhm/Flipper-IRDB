@@ -1,0 +1,247 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Epson
+# Device Model: EBX7
+# Remote Model : Epson Controller 154720000
+# Device Type: Projector
+#
+name: Pwr
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: SrcSearch
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8C 73 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 94 6B 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 70 8F 00 00
+# 
+name: Usb
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 76 89 00 00
+# 
+name: Lan
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 74 8B 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 3F C0 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 43 BC 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 41 BE 00 00
+# 
+name: 7_Auto
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9E 61 00 00
+# 
+name: 8_Aspect
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8A 75 00 00
+# 
+name: 9_ColorMode
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8F 70 00 00
+# 
+name: Num1
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A1 5E 00 00
+# 
+name: Num2
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A2 5D 00 00
+# 
+name: Num3
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A3 5C 00 00
+# 
+name: Num4
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A4 5B 00 00
+# 
+name: Num5
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A5 5A 00 00
+# 
+name: Num6
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A6 59 00 00
+# 
+name: Num7
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A7 58 00 00
+# 
+name: Num8
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A8 57 00 00
+# 
+name: Num9
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A9 56 00 00
+# 
+name: Num0
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: A0 5F 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9A 65 00 00
+# 
+name: Esc_RightClk
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 84 7B 00 00
+# 
+name: User
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9F 60 00 00
+# 
+name: Pointer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9B 64 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B0 4F 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B2 4D 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B3 4C 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B1 4E 00 00
+# 
+name: Back_LeftClk
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 85 7A 00 00
+# 
+name: PgUp
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 86 79 00 00
+# 
+name: PgDown
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 87 78 00 00
+# 
+name: ZoomPlus
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 88 77 00 00
+# 
+name: ZoomMinus
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 89 76 00 00
+# 
+name: VolUp
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 98 67 00 00
+# 
+name: VolDown
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+# 
+name: AVMute
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 93 6C 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: Help
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 95 6A 00 00
