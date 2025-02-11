@@ -1,0 +1,68 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0C 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 11 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: RC5
+address: 1B 00 00 00
+command: 21 00 00 00
+# 
+name: Next
+type: parsed
+protocol: RC5
+address: 1B 00 00 00
+command: 20 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: RC5
+address: 10 00 00 00
+command: 0D 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: RC5
+address: 1B 00 00 00
+command: 35 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 03 00 00 00
+# 
+name: Optical
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 04 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 05 00 00 00
+# 
+name: USB
+type: parsed
+protocol: RC5X
+address: 1B 00 00 00
+command: 06 00 00 00
