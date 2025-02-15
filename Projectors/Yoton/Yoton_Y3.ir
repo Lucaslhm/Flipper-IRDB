@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Generic Projector
+# Yoton Y3 Mini Projector
 #
 name: Power
 type: parsed
@@ -9,17 +9,23 @@ protocol: NEC
 address: 00 00 00 00
 command: A8 00 00 00
 # 
-name: Projection
+name: Mute
 type: parsed
 protocol: NEC
 address: 00 00 00 00
-command: D6 00 00 00
+command: 88 00 00 00
 # 
 name: Input
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 97 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 91 00 00 00
 # 
 name: Up
 type: parsed
@@ -51,17 +57,23 @@ protocol: NEC
 address: 00 00 00 00
 command: 99 00 00 00
 # 
-name: Menu
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 91 00 00 00
-# 
 name: Back
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: A4 00 00 00
+# 
+name: Volume+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+# 
+name: Volume-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9C 00 00 00
 # 
 name: Play/Pause
 type: parsed
@@ -69,32 +81,21 @@ protocol: NEC
 address: 00 00 00 00
 command: 93 00 00 00
 # 
-name: Mute
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 88 00 00 00
-# 
-name: VOL+
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 8C 00 00 00
-# 
-name: VOL-
-type: parsed
-protocol: NEC
-address: 00 00 00 00
-command: 9C 00 00 00
-# 
-name: Next
+name: Keystone+
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 82 00 00 00
 # 
-name: Prev
+name: Keystone-
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 98 00 00 00
+#
+# Non-functional on the Y3
+name: Projection
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D6 00 00 00
