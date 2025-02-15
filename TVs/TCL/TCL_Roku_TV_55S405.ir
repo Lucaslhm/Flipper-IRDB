@@ -1,0 +1,130 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TCL Roku 55S405 TV  - Hardware ID 7105X
+#
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 66 99 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 03 FC 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 1E E1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: AD 52 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 19 E6 00 00
+# 
+name: Dn
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 33 CC 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 2A D5 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 4C B3 00 00
+# 
+# The remote control button that looks like  ">>"  is mapped to the button named "Next"
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: D5 2A 00 00
+# 
+# The remote control button that looks like  "<<"  is mapped to the button named "Prev"
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 34 CB 00 00
+# 
+# The remote control button that looks like "*" is mapped to the button named "Options"
+# 
+name: Options
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 61 9E 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 0F F0 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 10 EF 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 20 DF 00 00
+# 
+name: Replay
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 78 87 00 00
+# 
+name: Netflix
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 52 AD 00 00
+# 
+name: Sling
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 86 79 00 00
+# 
+name: Hulu
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 4D B2 00 00
+# 
+name: Direct_TV
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: EC 13 00 00
