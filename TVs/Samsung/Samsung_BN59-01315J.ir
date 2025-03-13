@@ -94,7 +94,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -250,7 +250,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 45 00 00 00
 # 
-name: Fast_fw
+name: Fast_fwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
