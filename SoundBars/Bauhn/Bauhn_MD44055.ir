@@ -1,6 +1,9 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Bauhn MD44055 Soundbar from Aldi
+# https://bauhn.com.au/2-0-channel-soundbar-0122/
+#
 name: Power
 type: parsed
 protocol: NECext
@@ -55,7 +58,7 @@ protocol: NECext
 address: 86 FF 00 00
 command: 13 EC 00 00
 # 
-name: Play/Pause/Pair
+name: Play_Pause_Pair
 type: parsed
 protocol: NECext
 address: 86 FF 00 00

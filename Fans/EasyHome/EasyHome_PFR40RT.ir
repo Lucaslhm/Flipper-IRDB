@@ -1,6 +1,10 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Easy Home Pedestal Fan from Aldi
+# https://www.choice.com.au/products/home-and-living/cooling/fans/aldi-easy-home-remote-control-pedestal-fan-pf4088r
+#
+name: Power
 name: Power_Speed
 type: raw
 frequency: 38000
