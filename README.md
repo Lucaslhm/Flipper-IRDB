@@ -76,16 +76,24 @@ name: Power
 Please use this naming scheme for buttons. 
 This helps us create universal assets more easily and maintain consistency.
 
-| TVs       | Audio    | ACs       | LEDs            |
-| --------- | -------- | --------- | --------------- |
-| `Power`   | `Power`  | `Off`     | `Power_off`     |
-| `Vol_up`  | `Vol_up` | `Cool_hi` | `Power_on`      |
-| `Vol_dn`  | `Vol_dn` | `Cool_lo` | `Brightness_up` |
-| `Ch_next` | `Next`   | `Heat_hi` | `Brightness_dn` |
-| `Ch_prev` | `Prev`   | `Heat_lo` | `Red`           |
-| `Mute`    | `Mute`   | `Dh`      | `Green`         |
-|           | `Play`   |           | `Blue`          |
-|           | `Pause`  |           | `White`         |
+| TVs       | Audio     | ACs       | LEDs            |
+| --------- | --------- | --------- | --------------- |
+| `Power`   | `Power`   | `Off`     | `Power_off`     |
+| `Vol_up`  | `Vol_up`  | `Cool_hi` | `Power_on`      |
+| `Vol_dn`  | `Vol_dn`  | `Cool_lo` | `Brightness_up` |
+| `Ch_next` | `Next`    | `Heat_hi` | `Brightness_dn` |
+| `Ch_prev` | `Prev`    | `Heat_lo` | `Red`           |
+| `Mute`    | `Mute`    | `Dh`      | `Green`         |
+|           | `Play`    |           | `Blue`          |
+|           | `Pause`   |           | `White`         |
+|           | `Play_pa` |           | `Yellow`        |
+|           | `Ok`      |           |                 |
+|           | `Up`      |           |                 |
+|           | `Down`    |           |                 |
+|           | `Left`    |           |                 |
+|           | `Right`   |           |                 |
+|           | `Back`    |           |                 |
+|           | `Sleep`   |           |                 |
 
 
 ## Universal Remotes
