@@ -1,0 +1,11 @@
+Filetype: IR signals file
+Version: 1
+#
+# EPSON EB-760Wi Remote/Projector
+#
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 2278 610 546 612 1124 610 572 612 544 1192 544 1190 546 612 544 612 544 612 544 612 544 586 572 612 544 612 546 614 544
+#
