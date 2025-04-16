@@ -1,0 +1,53 @@
+Filetype: IR signals file
+Version: 1
+#
+# Deluxe Homeart FB-00001
+# https://www.deluxehomeart.com/catalog/item/FB-00001
+# 
+name: Power_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
+# 
+name: Power_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Brightness_up
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 12 ED 00 00
+# 
+name: Brightness_dn
+type: parsed
+protocol: NECext
+address: 08 B7 00 00
+command: 10 EF 00 00
+# 
+name: 2h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: 4h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: 6h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+# 
+name: 8h
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
