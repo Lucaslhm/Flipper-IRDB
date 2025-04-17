@@ -1,0 +1,110 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Philips
+# Device Model: HTS8010S
+# Device Type: Home Theater
+# Contributor: jay candel
+#
+name: Power
+type: parsed
+protocol: RC6
+address: 15 00 00 00
+command: 0C 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 10 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 11 00 00 00
+#
+name: Mute
+type: parsed
+protocol: RC6
+address: 10 00 00 00
+command: 0D 00 00 00
+#
+name: Ok
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5C 00 00 00
+#
+name: Up
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 58 00 00 00
+#
+name: Down
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 59 00 00 00
+#
+name: Left
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5A 00 00 00
+#
+name: Right
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 5B 00 00 00
+#
+name: Menu
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: D1 00 00 00
+#
+name: Back
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 83 00 00 00
+#
+name: Play
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 2C 00 00 00
+#
+name: Pause
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 30 00 00 00
+#
+name: Stop
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 31 00 00 00
+#
+name: Next
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 20 00 00 00
+#
+name: Rew
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 21 00 00 00
+#
+name: Subtitle
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: 4B 00 00 00
+#

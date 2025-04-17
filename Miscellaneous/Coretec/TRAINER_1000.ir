@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Coretec Trainer 1000
+#
+name: F1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3486 10251 1706
+# 
+name: F2
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1760 1701 1733 8573 1677
+# 
+name: F3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1701 3470 1677 6892 1702
+# 
+name: F4
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1733 5120 1736 5123 1707
+# 
+name: F5
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1732 6860 1707 3411 1708
+# 
+name: C1
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1733 8543 1735 1701 1707
+# 
+name: PAUSE
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1733 10256 3432

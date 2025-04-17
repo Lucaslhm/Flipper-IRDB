@@ -1,0 +1,45 @@
+Filetype: IR signals file
+Version: 1
+# 
+# TRIDONIC REMOTECONTROL IR6
+# Art.-Nr 28000647
+# 
+# manual:
+# www.tridonic.com/qrIR6
+# https://resources.tridonic.com/PDB/Ressource/Web_TR/brochures/en/REMOTECONTROL_IR6.pdf
+#
+name: Power_on
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 962 776 1829 1696 938 827 743
+# 
+name: Power_off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 933 864 1850 1673 933 831 910 856 937
+# 
+name: Brightness_up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 966 800 1856 1666 965 798 963 800 1213
+# 
+name: Brightness_dn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 992 776 1826 1697 935 827 962 800 1410
+# 
+name: Auto
+type: parsed
+protocol: RC5
+address: 1D 00 00 00
+command: 38 00 00 00
+# 
+name: Set
+type: parsed
+protocol: RC5
+address: 1D 00 00 00
+command: 37 00 00 00

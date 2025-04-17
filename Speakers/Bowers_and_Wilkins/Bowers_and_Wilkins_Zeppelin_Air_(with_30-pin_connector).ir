@@ -1,0 +1,47 @@
+Filetype: IR signals file
+Version: 1
+#
+# Bowers & Wilkins Zeppelin Air (with 30-pin connector)
+# https://support.bowerswilkins.com/app/products/detail/p/6373
+#
+name: Power
+type: parsed
+protocol: RC6
+address: D2 00 00 00
+command: 0C 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: RC6
+address: D2 00 00 00
+command: 21 00 00 00
+# 
+name: Play_Pause
+type: parsed
+protocol: RC6
+address: D2 00 00 00
+command: 2C 00 00 00
+# 
+name: Next
+type: parsed
+protocol: RC6
+address: D2 00 00 00
+command: 20 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: RC6
+address: D2 00 00 00
+command: 10 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: RC6
+address: D2 00 00 00
+command: 11 00 00 00
+# 
+name: Source
+type: parsed
+protocol: RC6
+address: D2 00 00 00
+command: 86 00 00 00

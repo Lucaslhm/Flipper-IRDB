@@ -22,10 +22,10 @@
           "/^vol(ume)?[_\\s]*(d(o?w)?n|[v\\-])$/"
         ],
         "ch_next": [
-          "/^ch(an(nel)?)?[_\\s]*(up|[\\^+])$/"
+          "/^ch(an(nel)?)?[_\\s]*(up|[\\^+]|next)$/"
         ],
         "ch_prev": [
-          "/^ch(an(nel)?)?[_\\s]*(d(o?w)?n|[\\v-])$/"
+          "/^ch(an(nel)?)?[_\\s]*(d(o?w)?n|[\\v-]|prev(ious)?)$/"
         ],
         "mute": [
           "mute",
@@ -64,7 +64,7 @@
           "$group:power-off"
         ]
       },
-      "Audio_Receivers/*,SoundBars/*,Speakers/*": {
+      "Audio_and_Video_Receivers/*,SoundBars/*,Speakers/*,Blu-Ray/*,Cable_Boxes/*,CD_Players/*,DVB-T/*,DVD_Players/*,Laserdisc/*,MiniDisc/*,Multimedia/*,TV_Tuner/*,VCR/*": {
         "Power": [
           "$group:power-toggle"
         ],

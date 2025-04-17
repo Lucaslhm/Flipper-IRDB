@@ -1,0 +1,194 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 05 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 44 03 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 70 01 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 71 01 00 00
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 72 01 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: B1 03 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: B2 03 00 00
+# 
+name: Ok
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 1F 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 1B 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 1C 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 1D 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 1E 00 00 00
+# 
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: B5 03 00 00
+# 
+name: Back
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: 22 00 00 00
+# 
+name: FF
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: E4 03 00 00
+# 
+name: Play_pa
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: E0 03 00 00
+# 
+name: Rew
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: E3 03 00 00
+# 
+name: Favorite 1
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: F2 00 00 00
+# 
+name: Favorite 2
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: F3 00 00 00
+# 
+name: Favorite 3
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: F4 00 00 00
+# 
+name: Input - CBL/SAT
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: D3 02 00 00
+# 
+name: Input - DVD
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: D0 02 00 00
+# 
+name: Input - Blu-ray
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: D1 02 00 00
+# 
+name: Input - Game
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: D5 02 00 00
+# 
+name: Input - Aux
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: D9 02 00 00
+# 
+name: Input - Media Player
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: D6 02 00 00
+# 
+name: Input - iPod/USB
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: CE 02 00 00
+# 
+name: Input - CD
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: C2 02 00 00
+# 
+name: Input - FM
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: CF 02 00 00
+# 
+name: Input - Network
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: C7 02 00 00
+# 
+name: Input - TV Audio
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: D2 02 00 00
+# 
+name: Input - Internet Radio
+type: parsed
+protocol: Kaseikyo
+address: 43 54 32 00
+command: E5 02 00 00
