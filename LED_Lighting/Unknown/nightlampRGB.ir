@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Generic Nightlamp RGB
+#
 name: On off
 type: parsed
 protocol: NEC
