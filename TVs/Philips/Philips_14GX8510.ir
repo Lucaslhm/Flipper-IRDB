@@ -43,31 +43,31 @@ protocol: RC5
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: Vol+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 # 
-name: Vol-
+name: Vol_down
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: Channel+
+name: Channel_up
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 20 00 00 00
 # 
-name: Channel-
+name: Channel_down
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 21 00 00 00
 # 
-name: Prev.Ch
+name: Prev_Channel
 type: parsed
 protocol: RC5
 address: 00 00 00 00
