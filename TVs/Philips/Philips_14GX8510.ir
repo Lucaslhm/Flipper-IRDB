@@ -1,6 +1,10 @@
 Filetype: IR signals file
 Version: 1
 # 
+# 14" CRT Philips TV model 14GX8510
+#
+# Also for models: 14GX8310, 14GX8510, 14GX8512, 20GX8350, 20GX8550, 20GX8552
+#
 name: Power
 type: parsed
 protocol: RC5
