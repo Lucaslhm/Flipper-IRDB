@@ -1,0 +1,107 @@
+Filetype: IR signals file
+Version: 1
+#
+# Bauhn MD44055 Soundbar from Aldi
+# https://bauhn.com.au/2-0-channel-soundbar-0122/
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1C E3 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1D E2 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 10 EF 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 29 D6 00 00
+# 
+name: HDMI ARC
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 12 ED 00 00
+# 
+name: Bass_up
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 25 DA 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 21 DE 00 00
+# 
+name: Treble_up
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 24 DB 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 13 EC 00 00
+# 
+name: Play_Pause_Pair
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 14 EB 00 00
+# 
+name: Bass_dn
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 22 DD 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2B D4 00 00
+# 
+name: Treble_dn
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 28 D7 00 00
+# 
+name: News
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2D D2 00 00
+# 
+name: Movie
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2C D3 00 00
+# 
+name: Music
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 27 D8 00 00
