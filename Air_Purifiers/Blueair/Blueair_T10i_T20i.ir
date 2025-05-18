@@ -1,0 +1,54 @@
+Filetype: IR signals file
+Version: 1
+
+#################################################################
+# Blueair ComfortPure™ 3-in-1 Air Purifiers (Models T10i, T20i) #
+#################################################################
+
+name: ON_OFF
+type: parsed
+protocol: NECext
+address: 8C C8 00 00
+command: 81 7E 00 00
+#
+name: FAN_SPEED
+type: parsed
+protocol: NECext
+address: 8C C8 00 00
+command: 11 EE 00 00
+#
+name: COOL
+type: parsed
+protocol: NECext
+address: 8C C8 00 00
+command: 05 FA 00 00
+#
+name: PURIFY
+type: parsed
+protocol: NECext
+address: 8C C8 00 00
+command: 21 DE 00 00
+#
+name: HEAT
+type: parsed
+protocol: NECext
+address: 8C C8 00 00
+command: 09 F6 00 00
+#
+name: OSCILLATE
+type: parsed
+protocol: NECext
+address: 8C C8 00 00
+command: 63 9C 00 00
+#
+name: AUTO_MODE
+type: parsed
+protocol: NECext
+address: 8C C8 00 00
+command: 41 BE 00 00
+#
+name: NIGHT
+type: parsed
+protocol: NECext
+address: 8C C8 00 00
+command: C3 3C 00 00
