@@ -5,7 +5,7 @@ Version: 1
 # 
 # HOBOT-2S 
 # 
-name: SPRAY
+name: SPRAY_TOGGLE
 type: parsed
 protocol: NECext
 address: C5 1F 00 00
@@ -58,6 +58,12 @@ type: parsed
 protocol: NECext
 address: C5 1F 00 00
 command: 1E E1 00 00
+#
+name: SPRAY_ONCE
+type: parsed
+protocol: NECext
+address: C5 1F 00 00
+command: 0E F1 00 00
 # 
 name: STOP
 type: parsed
