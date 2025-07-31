@@ -1,5 +1,8 @@
 Filetype: IR signals file
 Version: 1
+#
+# JVC RM-RK258 remote
+# Compatible with 2-DIN Multimedia Receivers
 # 
 name: Src
 type: parsed
