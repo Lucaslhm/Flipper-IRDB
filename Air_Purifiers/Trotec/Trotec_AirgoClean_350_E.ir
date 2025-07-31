@@ -1,0 +1,64 @@
+Filetype: IR signals file
+Version: 1
+#
+# Trotec AirgoClean 350 E
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 46 B9 00 00
+# 
+name: Filter change
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 56 A9 00 00
+# 
+name: Nightmode
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 55 AA 00 00
+# 
+name: Locked
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 16 E9 00 00
+# 
+name: Ionizer
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 47 B8 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 66 99 00 00
+# 
+name: Speed Up
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 37 C8 00 00
+# 
+name: Speed Down
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 43 BC 00 00
+# 
+name: Hours Up
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 01 FE 00 00
+# 
+name: Hours Down
+type: parsed
+protocol: NECext
+address: E4 C6 00 00
+command: 17 E8 00 00
