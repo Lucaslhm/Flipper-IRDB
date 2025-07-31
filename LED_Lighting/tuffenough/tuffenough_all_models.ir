@@ -1,5 +1,7 @@
 Filetype: IR signals file
 Version: 1
+#
+# For tuffenough LEDs
 # 
 name: 1
 type: parsed
