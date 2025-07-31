@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Sony SLV-D281P
+#
 name: Power
 type: parsed
 protocol: SIRC20
