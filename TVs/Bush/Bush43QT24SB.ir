@@ -1,5 +1,7 @@
 Filetype: IR signals file
 Version: 1
+#
+# Bush 43QT24SB
 # 
 name: Power
 type: parsed
