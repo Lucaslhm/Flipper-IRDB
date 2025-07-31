@@ -6,7 +6,7 @@
 
 > [!IMPORTANT]
 > By submitting you agree to license your work under the [CC0-1.0 license](https://choosealicense.com/licenses/cc0-1.0/). 
-> **Commits prior to (commit-hash-placeholder) are not covered.**
+> **Commits prior to (`HEAD^^`) are not covered.**
 
 ## Installation
 
