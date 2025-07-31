@@ -1,6 +1,10 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Epson EB-E20 / PowerLite E20 and Bqeel R1 Plus
+# note: Epson EB-E20 and PowerLite E20 projectors use an infrared protocol that sends two consecutive codes when a remote control button is pressed and held: one for verification and one with the actual command. 
+#       This behavior can make it difficult to accurately emulate commands with devices like the Flipper Zero, especially when using predefined protocols, which is why it is a raw remote.
+#
 name: Power
 type: raw
 frequency: 38000
