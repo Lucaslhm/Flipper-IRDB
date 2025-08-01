@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+#
+# Combuh Com-T070 LED Motion Sensor Charging Ceiling Lamp
+#
+name: Power_off
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 00 FF 00 00
+# 
+name: Power_on
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+# 
+name: Night_mode
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+# 
+name: Warm_light
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 05 FA 00 00
+# 
+name: Cool_light
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 07 F8 00 00
+# 
+name: Natural_light
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: FF 00 00 00
