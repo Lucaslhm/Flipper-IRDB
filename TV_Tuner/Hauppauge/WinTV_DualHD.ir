@@ -1,5 +1,7 @@
 Filetype: IR signals file
 Version: 1
+#
+# Hauppauge WinTV-DualHD
 # 
 name: Power
 type: raw
