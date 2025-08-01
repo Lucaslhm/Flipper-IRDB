@@ -4,6 +4,10 @@
     A maintained collective of different IR files for the <a href="https://flipperzero.one/">Flipper Zero</a>!
 </p>
 
+> [!IMPORTANT]
+> By submitting you agree to license your work under the [CC0-1.0 license](https://choosealicense.com/licenses/cc0-1.0/). 
+> **Commits prior to (`HEAD^^`) are not covered.**
+
 ## Installation
 
 ### Method 1: Copy Files to SD Card
@@ -86,7 +90,6 @@ This helps us create universal assets more easily and maintain consistency.
 | `Mute`    | `Mute`   | `Dh`      | `Green`         |
 |           | `Play`   |           | `Blue`          |
 |           | `Pause`  |           | `White`         |
-
 
 ## Universal Remotes
 
