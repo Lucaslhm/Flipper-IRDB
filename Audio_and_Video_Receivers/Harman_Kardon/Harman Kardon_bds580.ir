@@ -1,0 +1,226 @@
+Filetype: IR signals file
+Version: 1
+#
+# Kardon BDS 580
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: BF 40 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: BD 42 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: BC 43 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: C1 3E 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: BE 41 00 00
+# 
+name: Top_menu
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: C3 3C 00 00
+# 
+name: inp_Hdmi1
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: AB 54 00 00
+# 
+name: inp_Hdmi2
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: AC 53 00 00
+# 
+name: inp_Hdmi3
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: AD 52 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: D1 2E 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: D2 2D 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: D3 2C 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: B9 46 00 00
+# 
+name: Surround
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: AF 50 00 00
+# 
+name: Options
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: BB 44 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: B0 4F 00 00
+# 
+name: Return
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: C0 3F 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: CA 35 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: CB 34 00 00
+# 
+name: Loop
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: B4 4B 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: CD 32 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: CE 31 00 00
+# 
+name: Prev_chap
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: C8 37 00 00
+# 
+name: Next_chap
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: C9 36 00 00
+# 
+name: Eject
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: DF 20 00 00
+# 
+name: Ch_dn
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: D0 2F 00 00
+# 
+name: Ch_up
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: CF 30 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: CC 33 00 00
+# 
+name: Bookmark
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: C5 3A 00 00
+# 
+name: Display
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: B8 47 00 00
+# 
+name: Inp_aux
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: B6 49 00 00
+# 
+name: Inp_bt
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: D4 2B 00 00
+# 
+name: Inp_disc
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: B2 4D 00 00
+# 
+name: Inp_radio
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: B3 4C 00 00
+# 
+name: Inp_tv
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: D5 2A 00 00
+# 
+name: Popup
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: C2 3D 00 00
+# 
+name: Thumbnail
+type: parsed
+protocol: NECext
+address: 86 76 00 00
+command: C6 39 00 00
