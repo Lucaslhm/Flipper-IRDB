@@ -163,13 +163,3 @@ protocol: NECext
 address: 0A F1 00 00
 command: 06 F9 00 00
 # XRemote extension
-custom_ok: Power
-custom_up: Up
-custom_down: Down
-custom_left: Left
-custom_right: Right
-custom_ok_hold: Power
-custom_up_hold: Input
-custom_down_hold: Setup
-custom_left_hold: Menu
-custom_right_hold: List
