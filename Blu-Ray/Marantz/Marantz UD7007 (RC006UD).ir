@@ -1,7 +1,8 @@
-Filetype: Bruce IR File
+Filetype: IR signals file
 Version: 1
 #
 # Marantz UD7007
+
 name: Power
 type: raw
 frequency: 38000
@@ -302,37 +303,37 @@ frequency: 38000
 duty_cycle: 0.33
 data: 1782 902 864 908 870 902 866 1766 900 898 870 902 864 4398 894 904 1752 906 870 1760 1786 900 868 904 872 900 868 904 874 898 868 902 864
 #
-name: Power Amp
+name: Power_Amp
 type: raw
 frequency: 38000
 duty_cycle: 0.33
 data: 894 878 900 872 896 876 1780 878 898 874 894 878 900 872 894 876 902 1758 898 872 1784 876 892
 #
-name: Vol+ Amp
+name: Vol_up
 type: raw
 frequency: 38000
 duty_cycle: 0.33
 data: 894 904 1752 1764 1782 904 874 898 868 904 864 908 870 1762 1784 902 866 906 870 902 866
 #
-name: Vol- Amp
+name: Vol_dn
 type: raw
 frequency: 38000
 duty_cycle: 0.33
 data: 900 870 898 874 904 868 1788 870 896 876 902 870 896 874 904 1754 1780 878 898 874 894 1764 902
 #
-name: Mute Amp
+name: Mute
 type: raw
 frequency: 38000
 duty_cycle: 0.33
 data: 900 898 1758 1760 1786 900 868 904 872 900 868 904 874 898 870 1762 894 904 1752 1766 900
 #
-name: Input+ Amp
+name: Input_up
 type: raw
 frequency: 38000
 duty_cycle: 0.33
 data: 890 908 870 902 864 908 1758 900 868 904 874 898 870 4394 898 900 866 906 872 900 868 904 872 900 868 904 874 898 868 1762 894 906 1750 1766 900
 #
-name: Input- Amp
+name: Input_dn
 type: raw
 frequency: 38000
 duty_cycle: 0.33
