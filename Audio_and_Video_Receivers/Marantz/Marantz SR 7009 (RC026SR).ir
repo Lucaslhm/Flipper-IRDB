@@ -1,4 +1,4 @@
-Filetype: Bruce IR File
+Filetype: IR signals file
 Version: 1
 #
 # Marantz SR 7009
@@ -8,13 +8,13 @@ frequency: 38000
 duty_cycle: 0.33
 data: 904 870 900 902 868 906 1764 902 868 908 874 902 868 906 874 902 868 1764 896 906 1766 902 868
 #
-name: Volume UP
+name: Vol_up
 type: raw
 frequency: 38000
 duty_cycle: 0.33
 data: 900 902 1758 1768 1794 900 868 908 872 902 868 908 872 1760 1790 904 876 900 870 906 874
 #
-name: Volume DOWN
+name: Vol_dn
 type: raw
 frequency: 38000
 duty_cycle: 0.33
@@ -26,13 +26,13 @@ frequency: 38000
 duty_cycle: 0.33
 data: 902 874 1786 1768 1792 876 904 870 898 876 902 872 896 878 902 1758 900 876 1794 1758 902
 #
-name: Channel UP
+name: Channel_up
 type: raw
 frequency: 38000
 duty_cycle: 0.33
 data: 898 906 874 902 868 906 872 902 1766 1760 900 902 876 4432 1788 906 874 900 868 908 872 902 876 900 868 1764 1784 1768 1792 902 876
 #
-name: Channel DOWN
+name: Channel_dn
 type: raw
 frequency: 38000
 duty_cycle: 0.33
