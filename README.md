@@ -6,7 +6,7 @@
 
 > [!IMPORTANT]
 > By submitting you agree to license your work under the [CC0-1.0 license](https://choosealicense.com/licenses/cc0-1.0/). 
-> **Commits prior to (`HEAD^^`) are not covered.**
+> **Commits prior to [2319685](https://github.com/Lucaslhm/Flipper-IRDB/commit/2319685f2cbf0cd3f809609622cade14d24fb819) are not covered.**
 
 ## Installation
 
