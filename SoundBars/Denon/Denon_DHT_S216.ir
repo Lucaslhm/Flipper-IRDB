@@ -1,0 +1,112 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Denon DHT-S216
+#
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: 83 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: 86 00 00 00
+# 
+name: TV
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: 99 00 00 00
+# 
+name: HDMI
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: 9B 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: C0 00 00 00
+# 
+name: AUX
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: 88 00 00 00
+# 
+name: DTS VirtualX
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: C9 00 00 00
+# 
+name: Pure
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: A4 00 00 00
+# 
+name: Bass_up
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: C1 00 00 00
+# 
+name: Bass_dn
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: C2 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: 84 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: 85 00 00 00
+# 
+name: Movie
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: A3 00 00 00
+# 
+name: Night
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: AD 00 00 00
+# 
+name: Music
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: A5 00 00 00
+# 
+name: Dialog_low
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: C3 00 00 00
+# 
+name: Dialog_med
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: C4 00 00 00
+# 
+name: Dialog_high
+type: parsed
+protocol: Kaseikyo
+address: 52 54 32 00
+command: C5 00 00 00

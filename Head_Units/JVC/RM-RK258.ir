@@ -1,0 +1,149 @@
+Filetype: IR signals file
+Version: 1
+#
+# JVC RM-RK258 remote
+# Compatible with 2-DIN Multimedia Receivers
+# 
+name: Src
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 13 EC 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 14 EB 00 00
+# 
+name: Vol_down
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 15 EA 00 00
+# 
+name: Att
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 16 E9 00 00
+# 
+name: Disp
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 1F E0 00 00
+# 
+name: Angle
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 1B E4 00 00
+# 
+name: Phone
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 17 E8 00 00
+# 
+name: Direct
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 0F F0 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 1E E1 00 00
+# 
+name: Left_bk
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 0A F5 00 00
+# 
+name: Right_fwd
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 0B F4 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 0D F2 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 0C F3 00 00
+# 
+name: Play_ok
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 0E F1 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 01 FE 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 02 FD 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 03 FC 00 00
+# 
+name: 4
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 04 FB 00 00
+# 
+name: 5
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 05 FA 00 00
+# 
+name: 6
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 06 F9 00 00
+# 
+name: 7
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 07 F8 00 00
+# 
+name: 8
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 08 F7 00 00
+# 
+name: 9
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 09 F6 00 00
+# 
+name: 0
+type: parsed
+protocol: NECext
+address: B9 43 00 00
+command: 00 FF 00 00

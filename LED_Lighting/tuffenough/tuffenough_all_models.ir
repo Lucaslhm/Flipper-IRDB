@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+#
+# For tuffenough LEDs
+# 
+name: 1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+# 
+name: Power_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: Power_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
