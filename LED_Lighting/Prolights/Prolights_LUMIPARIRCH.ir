@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Prolights LUMIPARIRCH
+#
 name: Manual
 type: parsed
 protocol: NECext
