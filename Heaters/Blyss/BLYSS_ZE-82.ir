@@ -1,0 +1,32 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 98 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 94 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 90 00 00 00
+# 
+name: Temp_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+# 
+name: Temp_down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 88 00 00 00
