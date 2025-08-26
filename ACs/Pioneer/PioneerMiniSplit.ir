@@ -1,5 +1,6 @@
 Filetype: IR signals file
 Version: 1
+"I confirm that my contributions in this PR are released under CC0-1.0."
 # 
 name: Power_Off
 type: raw
