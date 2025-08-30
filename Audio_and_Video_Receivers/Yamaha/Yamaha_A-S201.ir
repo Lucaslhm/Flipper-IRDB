@@ -1,0 +1,106 @@
+Filetype: IR signals file
+Version: 1
+#
+# Yamaha A-S201 Remote — Flipper Zero IR profile (NECext)
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 7E 00 00 00
+command: 2A D4 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: 1A E4 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: 1C E2 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: 1B E5 00 00
+#
+name: Line1
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: C1 3F 00 00
+#
+name: Line2
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: 18 E6 00 00
+#
+name: Phono
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: 14 EA 00 00
+#
+name: CD
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: 15 EB 00 00
+#
+name: Treble_up
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: B9 C7 00 00
+#
+name: Treble_dn
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: BA C4 00 00
+#
+name: Bass_up
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: B7 C9 00 00
+#
+name: Bass_dn
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: B8 C6 00 00
+#
+name: Balance_left
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: BB C5 00 00
+#
+name: Balance_right
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: BC C2 00 00
+#
+name: PureDirect
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: DD 23 00 00
+#
+name: Sleep
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: 30 CE 00 00
+#
+name: Dimmer
+type: parsed
+protocol: NECext
+address: 7A 00 00 00
+command: 82 FC 00 00
