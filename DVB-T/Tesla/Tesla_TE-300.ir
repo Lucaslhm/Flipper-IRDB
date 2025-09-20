@@ -1,0 +1,132 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Tesla TE-300 DVB-T2 receiver
+#
+# Captured by: bababooex
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: DC 23 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: C1 3E 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 99 66 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 9C 63 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: D8 27 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: D4 2B 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: CE 31 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: C5 3A 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 95 6A 00 00
+# 
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: CA 35 00 00
+# 
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: D2 2D 00 00
+# 
+name: Forward
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: D5 2A 00 00
+# 
+name: Backward
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: C6 39 00 00
+# 
+name: Skip_forward
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 90 6F 00 00
+# 
+name: Skip_backward
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 86 79 00 00
+# 
+name: Audio
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 84 7B 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: D0 2F 00 00
+# 
+name: Epg
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: D6 29 00 00
+# 
+name: Record
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 80 7F 00 00
+# 
+name: Favorite
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 88 77 00 00
+# 
+name: Subtitles
+type: parsed
+protocol: NECext
+address: 01 FD 00 00
+command: 9A 65 00 00
