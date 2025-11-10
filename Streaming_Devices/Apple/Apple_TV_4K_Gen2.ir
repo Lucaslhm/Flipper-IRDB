@@ -1,0 +1,71 @@
+Filetype: IR signals file
+Version: 1
+#
+# Tested on:
+# Apple TV 4K (2nd Gen, 2021)
+# Model: A2169
+# Remote Control Model: A2540 (Siri Remote)
+#
+# Note: I was not able to find codes for these buttons:
+#       Vol_up, Vol_dn, Mute, Siri_mic
+#
+#
+name: Power_off
+type: parsed
+protocol: NECext
+address: E5 87 00 00
+command: 2A FE 00 00
+#
+name: Power_on
+type: parsed
+protocol: NECext
+address: E5 87 00 00
+command: 2C FE 00 00
+#
+name: TV
+type: parsed
+protocol: NECext
+address: E5 87 00 00
+command: 40 FE 00 00
+#
+name: Ok
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5C 8C 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0A 8C 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0C 8C 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 09 8C 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 06 8C 00 00
+#
+name: Back
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 03 8C 00 00
+#
+name: Play_pause
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 5F 8C 00 00
