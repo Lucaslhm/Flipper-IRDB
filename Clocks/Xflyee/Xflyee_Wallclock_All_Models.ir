@@ -1,9 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Xflyee Wallclock (All Models)
-#
-name: Timerstart
+name: Timer start_stop
 type: parsed
 protocol: NECext
 address: 06 AB 00 00
@@ -21,8 +19,74 @@ protocol: NECext
 address: 06 AB 00 00
 command: 02 FD 00 00
 # 
-name: Timer_onoff
+name: Power
 type: parsed
 protocol: NECext
 address: 06 AB 00 00
 command: 00 FF 00 00
+# 
+name: Set
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 01 FE 00 00
+# 
+name: Alarm_set
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9135 4396 683 449 682 1605 657 1606 655 476 628 504 627 505 626 505 627 505 627 1638 625 1637 626 505 626 1637 626 505 627 1637 627 505 627 1637 626 1637 626 506 625 506 626 1637 626 505 627 505 627 505 627 505 627 505 627 1637 626 1637 626 505 627 1638 625 1637 626 1637 626 1638 625 40823 9087 2208 629 96246 9084 2207 630
+# 
+name: Plus
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 06 F9 00 00
+# 
+name: Minus
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 07 F8 00 00
+# 
+name: Hour
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 5A A5 00 00
+# 
+name: Minute
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 03 FC 00 00
+# 
+name: Second
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 0B F4 00 00
+# 
+name: Volume_up
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 40 BF 00 00
+# 
+name: Volume_dn
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 47 B8 00 00
+# 
+name: Light_up
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 41 BE 00 00
+# 
+name: Light_dn
+type: parsed
+protocol: NECext
+address: 06 AB 00 00
+command: 48 B7 00 00
