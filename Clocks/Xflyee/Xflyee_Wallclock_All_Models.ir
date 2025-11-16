@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Xflyee Wallclock (All Models)
+#
 name: Timer start_stop
 type: parsed
 protocol: NECext
