@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+#
+# JBL Cinema SB150 2.1 Soundbar
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 1B E4 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 14 EB 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 13 EC 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2A D5 00 00
+# 
+name: Bass_up
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 28 D7 00 00
+# 
+name: Bass_dn
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 22 DD 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 10 EF 00 00
+# 
+name: Feedback
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 12 ED 00 00
+# 
+name: Aux2
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 25 DA 00 00
+# 
+name: Optical
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 24 DB 00 00
+# 
+name: Movie
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2D D2 00 00
+# 
+name: Music
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 2C D3 00 00
+# 
+name: News
+type: parsed
+protocol: NECext
+address: 86 FF 00 00
+command: 27 D8 00 00
