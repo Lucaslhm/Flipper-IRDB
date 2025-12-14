@@ -1,0 +1,70 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Tween Light LED Oria
+#
+name: Power
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: DC 00 00 00
+#
+name: Toogle_light-ambiente
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: CE 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: 82 00 00 00
+# 
+name: Brightness+
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: CA 00 00 00
+#
+name: Brightness-
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: D2 00 00 00
+# 
+name: 3000k
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: C1 00 00 00
+#
+name: 6500k
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: 99 00 00 00
+#
+name: RGB
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: C5 00 00 00
+#
+name: Fade
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: 80 00 00 00
+# 
+name: Flash
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: 81 00 00 00
+# 
+name: Smooth
+type: parsed
+protocol: NEC
+address: B2 00 00 00
+command: 88 00 00 00
