@@ -11,7 +11,7 @@ protocol: RC5
 address: 14 00 00 00
 command: 0C 00 00 00
 #
-name: Tray
+name: Open/Close
 type: parsed
 protocol: RC5
 address: 14 00 00 00
@@ -131,6 +131,18 @@ protocol: RC5X
 address: 14 00 00 00
 command: 12 00 00 00
 #
+name: Pause
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 30 00 00 00
+#
+name: Stop
+type: parsed
+protocol: RC5
+address: 14 00 00 00
+command: 36 00 00 00
+#
 name: Prev
 type: parsed
 protocol: RC5
@@ -160,3 +172,46 @@ type: parsed
 protocol: RC5
 address: 14 00 00 00
 command: 34 00 00 00
+#
+name: Enter
+type: parsed
+protocol: RC5X
+address: 14 00 00 00
+command: 17 00 00 00
+#
+name: Text
+type: parsed
+protocol: RC5X
+address: 14 00 00 00
+command: 18 00 00 00
+#
+name: Test_1
+type: parsed
+protocol: RC5X
+address: 14 00 00 00
+command: 16 00 00 00
+#
+name: Test_2
+type: parsed
+protocol: RC5X
+address: 14 00 00 00
+command: 15 00 00 00
+#
+name: Test_3
+type: parsed
+protocol: RC5X
+address: 14 00 00 00
+command: 13 00 00 00
+#
+name: Test_4
+type: parsed
+protocol: RC5X
+address: 14 00 00 00
+command: 12 00 00 00
+#
+name: Test_5
+type: parsed
+protocol: RC5X
+address: 14 00 00 00
+command: 42 00 00 00
+#
