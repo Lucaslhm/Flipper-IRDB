@@ -3,7 +3,7 @@ Version: 1
 #
 # Marantz remote CD 5003 (based of RC2100DR)
 #
-# Captured by: emptythevoid
+# Compliled by: Tom van Veen
 #
 name: Power
 type: parsed
@@ -185,33 +185,8 @@ protocol: RC5X
 address: 14 00 00 00
 command: 18 00 00 00
 #
-name: Test_1
-type: parsed
-protocol: RC5X
-address: 14 00 00 00
-command: 16 00 00 00
-#
-name: Test_2
-type: parsed
-protocol: RC5X
-address: 14 00 00 00
-command: 15 00 00 00
-#
-name: Test_3
-type: parsed
-protocol: RC5X
-address: 14 00 00 00
-command: 13 00 00 00
-#
-name: Test_4
-type: parsed
-protocol: RC5X
-address: 14 00 00 00
-command: 12 00 00 00
-#
-name: Test_5
+name: SOUND_MODE
 type: parsed
 protocol: RC5X
 address: 14 00 00 00
 command: 42 00 00 00
-#
