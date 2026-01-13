@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# Levoit LV6S Humidifier
+#
 name: Power
 type: parsed
 protocol: NEC
