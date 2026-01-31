@@ -1,0 +1,41 @@
+Filetype: IR signals file
+Version: 1
+#
+# Whalen Furniture Fireplace
+# Works for HDFP68-47 but may work on most others by this brand
+# 
+name: Power_on_off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 14 00 00 00
+# 
+name: Flame_control
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1D 00 00 00
+# 
+name: Heater_on_off
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 19 00 00 00
+# 
+name: Temp_up
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1A 00 00 00
+# 
+name: Temp_down
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 05 00 00 00
