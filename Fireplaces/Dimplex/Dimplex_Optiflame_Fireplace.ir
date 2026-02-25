@@ -1,0 +1,23 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brayford BFD20E
+# Brayford Pebble BFD20PB
+# Brayford Burgundy BFD20BRG
+# Brayford Slate BFD20SL
+# Springborne SBN20E
+# Bari BAR20
+# Optiflame Stove Fire
+# Optiflame Fire
+#
+name: Fire_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+# 
+name: Fire_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
