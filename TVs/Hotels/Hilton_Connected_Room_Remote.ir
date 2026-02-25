@@ -1,0 +1,117 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Hilton Connected Room Remote Control
+# 
+# Note - this remote controls an edge computer attached to the back
+# of the tv, not the tv itself. If you identify the model of your
+# tv you can use your flipper to control the TV, sidestepping the
+# Hilton connected room system. This is very useful as the Hilton
+# connected room system does not allow access to certain tv
+# features, the settings menu for example.
+# 
+# In my Hilton this is connected to a Samsung 55" HCU7000.
+# I assume the remotes are roughly the same between Hiltons, 
+# but they may differ slightly based on the TV they are connected to.
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 01 FE 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 0A F5 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 0B F4 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 0E F1 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 07 F8 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 03 FC 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 04 FB 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 05 FA 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 06 F9 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 08 F7 00 00
+# 
+name: Source
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 16 E9 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 02 FD 00 00
+# 
+name: Room_controls
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 15 EA 00 00
+# 
+name: Captions
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 14 EB 00 00
+# 
+name: Accessibility
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 20 DF 00 00
+# 
+name: Guide
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 09 F6 00 00
+# 
+name: Netflix
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: A1 5E 00 00
