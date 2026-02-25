@@ -1,0 +1,35 @@
+Filetype: IR signals file
+Version: 1
+# Roomba Combo Remote - by fr4me
+# brand: iRobot 
+# model: Roomba Combo R1118
+#
+name: Start/Pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0F 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+#
+name: Back_to_dock_charging
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
