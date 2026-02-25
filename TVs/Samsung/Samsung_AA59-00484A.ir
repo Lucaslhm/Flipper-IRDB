@@ -1,0 +1,347 @@
+Filetype: IR signals file
+Version: 1
+#
+# Samsung AA59-00484A
+#
+# Captured by: HyperSpeeed
+#
+# Compatible TV Models:
+# - 5WXXH
+# - LE19D450G
+# - LE19D450G1W
+# - LE19D451G3W
+# - LE22D450G1W
+# - LE22D451G3W
+# - LE26D450G
+# - LE26D450G1W
+# - LE32D450G
+# - LE32D450G1W
+# - LE32D550K
+# - LE32D550K1W
+# - LE32D551K2W
+# - LE32D570K2S
+# - LE32D579K
+# - LE32D580K
+# - LE37B550A
+# - LE37D550
+# - LE37D550K
+# - LE37D550K1W
+# - LE37D551K2W
+# - LE37D570K2
+# - LE37D570K2S
+# - LE37D579K
+# - LE37D580K
+# - LE40D550K
+# - LE40D550K1W
+# - LE40D550K2W
+# - LE40D551K2W
+# - LE40D570K2S
+# - LE40D579K
+# - LE40D580K
+# - LE46D550K
+# - LE46D550K1W
+# - LE46D551K2W
+# - LE46D570K2S
+# - LE46D580K
+# - PS43D450A
+# - PS43D450A2W
+# - PS43D451A3W
+# - PS43D452A5W
+# - PS51D450A
+# - PS51D450A2W
+# - PS51D451A3W
+# - PS51D452A5W
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+#
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+#
+name: Ch_next
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+#
+name: Ch_prev
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+#
+name: Source
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
+#
+name: Sleep
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 03 00 00 00
+#
+name: Tools
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4B 00 00 00
+#
+name: Info
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1F 00 00 00
+#
+name: Content
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 79 00 00 00
+#
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1A 00 00 00
+#
+name: Guide
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4F 00 00 00
+#
+name: Enter
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+#
+name: Left
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 65 00 00 00
+#
+name: Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 60 00 00 00
+#
+name: Right
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 62 00 00 00
+#
+name: Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 61 00 00 00
+#
+name: Play
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 47 00 00 00
+#
+name: Pause
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4A 00 00 00
+#
+name: Rewind
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 45 00 00 00
+#
+name: Fast_fwd
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 48 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+#
+name: Rec
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 49 00 00 00
+#
+name: A
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 6C 00 00 00
+#
+name: B
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 14 00 00 00
+#
+name: C
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 15 00 00 00
+#
+name: D
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 16 00 00 00
+#
+name: Ch_list
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 6B 00 00 00
+#
+name: 0
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 11 00 00 00
+#
+name: 1
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 04 00 00 00
+#
+name: 2
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 05 00 00 00
+#
+name: 3
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 06 00 00 00
+#
+name: 4
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 08 00 00 00
+#
+name: 5
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 09 00 00 00
+#
+name: 6
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0A 00 00 00
+#
+name: 7
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0C 00 00 00
+#
+name: 8
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0D 00 00 00
+#
+name: 9
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0E 00 00 00
+#
+name: TTX_Mix
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2C 00 00 00
+#
+name: Pre_ch
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 13 00 00 00
+#
+name: P_Mode
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 28 00 00 00
+#
+name: DUAL_I-II
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 00 00 00 00
+#
+name: SRS
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 6E 00 00 00
+#
+name: E-Manual
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3F 00 00 00
+#
+name: P.Size
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3E 00 00 00
+#
+name: Ad_Subt
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 25 00 00 00
+#
+name: Return
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 58 00 00 00
+#
+name: Exit
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2D 00 00 00
