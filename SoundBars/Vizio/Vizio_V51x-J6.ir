@@ -15,13 +15,13 @@ protocol: NEC
 address: 00 00 00 00
 command: 8E 00 00 00
 #
-name: Vol +
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 00 00 00 00
 command: 41 00 00 00
 #
-name: Vol -
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -45,7 +45,7 @@ protocol: NEC
 address: 00 00 00 00
 command: 8A 00 00 00
 #
-name: Bluetooth
+name: Bluetooth_mode
 type: parsed
 protocol: NEC
 address: 00 00 00 00
@@ -279,7 +279,7 @@ protocol: NEC
 address: 00 00 00 00
 command: E1 00 00 00
 #
-name: Bluetooth
+name: Bluetooth_input
 type: parsed
 protocol: NEC
 address: 00 00 00 00
