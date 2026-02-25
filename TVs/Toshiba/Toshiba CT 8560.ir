@@ -1,0 +1,122 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1A 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1E 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 10 00 00 00
+# 
+name: Ch_up
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1B 00 00 00
+# 
+name: Ch_dn
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1F 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 21 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 19 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1D 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 42 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 40 00 00 00
+# 
+name: TXT
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 17 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 64 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 67 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 6A 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 68 00 00 00
+# 
+name: FF
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 6B 00 00 00
+# 
+name: RW
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 6C 00 00 00
+# 
+name: Input
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 14 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 43 00 00 00
