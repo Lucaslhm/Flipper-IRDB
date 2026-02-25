@@ -1,0 +1,347 @@
+Filetype: IR signals file
+Version: 1
+#
+# Vizio SoundBar D21-H D51-H D512-H D510-H Remote, For models: SB3620n-H6, SB2020n-H6, SB3221n-J6, SB2021n-J6, SB2021n-H6, V20-J8, V20x-J8, V21-H8, V21-H8R, V21d-J8, V21x-J8, V214X-K, V21t-J8, V51-H6, V51x-J6, V514X-K6, M213AD-K8, M21d-H8R, M21d-H8, M215a-J, M215AW-K6, M51a-H6, M51ax-J6
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8E 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 41 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+#
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8B 00 00 00
+#
+name: Previous
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8A 00 00 00
+#
+name: Bluetooth_mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+#
+name: Bt_pair
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6F 00 00 00
+#
+name: Source
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+#
+name: Setup_Info
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+#
+name: Height On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: F9 00 00 00
+#
+name: Height Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: FA 00 00 00
+#
+name: Night On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 61 00 00 00
+#
+name: Night Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 62 00 00 00
+#
+name: TruVol On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 28 00 00 00
+#
+name: TruVol Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+#
+name: VirtX On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 85 00 00 00
+#
+name: VirtX Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: A3 00 00 00
+#
+name: Bass +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6B 00 00 00
+#
+name: Bass -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6A 00 00 00
+#
+name: Treble +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 69 00 00 00
+#
+name: Treble -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 68 00 00 00
+#
+name: Dialogue +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: DF 00 00 00
+#
+name: Dialogue -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: E0 00 00 00
+#
+name: Center +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 70 00 00 00
+#
+name: Center -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 70 00 00 00
+#
+name: Subwoofer +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+#
+name: Subwoofer -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 51 00 00 00
+#
+name: Surr lvl +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6D 00 00 00
+#
+name: Surr lvl -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6C 00 00 00
+#
+name: Surr bal +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B3 00 00 00
+#
+name: Surr bal -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B4 00 00 00
+#
+name: Height lvl +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B0 00 00 00
+#
+name: Height lvl -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: A0 00 00 00
+#
+name: EcoPower On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8E 00 00 00
+#
+name: EcoPower Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 27 00 00 00
+#
+name: PowerLED On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 20 00 00 00
+#
+name: PowerLED Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 21 00 00 00
+#
+name: AV Delay +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: D6 00 00 00
+#
+name: AV Delay -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 71 00 00 00
+#
+name: Speaker Test
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AC 00 00 00
+#
+name: EQ Music
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 66 00 00 00
+#
+name: EQ Movie
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 67 00 00 00
+#
+name: EQ Direct
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+#
+name: EQ Game
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: E1 00 00 00
+#
+name: Bluetooth_input
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+#
+name: Last Input
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AA 00 00 00
+#
+name: USB
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: A1 00 00 00
+#
+name: AUX
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B1 00 00 00
+#
+name: AUX_VA
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B2 00 00 00
+#
+name: Optical
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C8 00 00 00
+#
+name: HDMI in
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AB 00 00 00
+#
+name: HDMI-eARC
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9A 00 00 00
+#
+name: Surr Dual
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9B 00 00 00
+#
+name: Surr On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 23 00 00 00
+#
+name: Surr Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 24 00 00 00
+#
