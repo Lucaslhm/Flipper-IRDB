@@ -1,0 +1,212 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Standby
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 2F 00 00 00
+# 
+name: On
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 2E 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 29 00 00 00
+# 
+name: Picture Mode
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 5B 00 00 00
+# 
+name: Return
+type: parsed
+protocol: SIRC20
+address: FA 06 00 00
+command: 6F 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 7B 00 00 00
+# 
+name: Up
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 35 00 00 00
+# 
+name: Down
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 36 00 00 00
+# 
+name: Left
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 34 00 00 00
+# 
+name: Right
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 33 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 5A 00 00 00
+# 
+name: Focus
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 64 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 62 00 00 00
+# 
+name: Lens Shift
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 63 00 00 00
+# 
+name: Position
+type: parsed
+protocol: SIRC20
+address: FA 06 00 00
+command: 18 00 00 00
+# 
+name: Keystone
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 3A 00 00 00
+# 
+name: Pattern
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 7E 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 67 00 00 00
+# 
+name: Blank
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 24 00 00 00
+# 
+name: Muting
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 14 00 00 00
+# 
+name: + D Zoom
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 6A 00 00 00
+# 
+name: - D Zoom
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 6B 00 00 00
+# 
+name: Aspect
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 6E 00 00 00
+# 
+name: APA
+type: parsed
+protocol: SIRC20
+address: 9A 10 00 00
+command: 60 00 00 00
+# 
+name: + Volume
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 12 00 00 00
+# 
+name: - Volume
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 13 00 00 00
+# 
+name: Input
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 57 00 00 00
+# 
+name: Twin
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 79 00 00 00
+# 
+name: A
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 2B 00 00 00
+# 
+name: B
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 2C 00 00 00
+# 
+name: C
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 6F 00 00 00
+# 
+name: D
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 70 00 00 00
+# 
+name: E
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 71 00 00 00
+# 
+name: F
+type: parsed
+protocol: SIRC15
+address: 9A 0E 00 00
+command: 06 00 00 00
+# 
+name: G
+type: parsed
+protocol: SIRC20
+address: FA 06 00 00
+command: 60 00 00 00
