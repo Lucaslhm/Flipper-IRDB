@@ -1,0 +1,46 @@
+Filetype: IR signals file
+Version: 1
+#
+# Levoit LV6S Humidifier
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+# 
+name: Display
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Mist
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: Warm
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Humidity
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1E 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
