@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 72 8D 00 00
+# 
+name: Lcd_Change
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 73 8C 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 75 8A 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 76 89 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 79 86 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 77 88 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 78 87 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 86 79 00 00
+# 
+name: Change_Input
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 80 7F 00 00
+# 
+name: Change_Output
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 81 7E 00 00
+# 
+name: Change_Filter
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 82 7D 00 00
+# 
+name: Change_Auto
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 83 7C 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: EA 82 00 00
+command: 85 7A 00 00
