@@ -1,0 +1,88 @@
+﻿Filetype: IR signals file
+Version: 1
+# 
+# Wanbo T6 Max projector
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 00 00 00 00
+# 
+name: Focus_up
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 51 00 00 00
+# 
+name: Focus_dn
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 50 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 0A 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 08 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 0E 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 0D 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 15 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 10 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 12 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 11 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 14 00 00 00
+# 
+name: Options
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 0C 00 00 00
+# 
+name: Mic
+type: parsed
+protocol: NEC
+address: 3B 00 00 00
+command: 66 00 00 00
