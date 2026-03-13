@@ -1,0 +1,218 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
+# 
+name: Display
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 4B 00 00 00
+# 
+name: Timer Menu
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 65 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 60 00 00 00
+# 
+name: CD
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 25 00 00 00
+# 
+name: USB
+type: parsed
+protocol: SIRC20
+address: 10 04 00 00
+command: 17 00 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: SIRC20
+address: 10 04 00 00
+command: 71 00 00 00
+# 
+name: FM/DAB
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 21 00 00 00
+# 
+name: Audio in
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 6E 00 00 00
+# 
+name: Bluetooth Menu
+type: parsed
+protocol: SIRC20
+address: 10 04 00 00
+command: 77 00 00 00
+# 
+name: Memory 1
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 00 00 00 00
+# 
+name: Memory 2
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 01 00 00 00
+# 
+name: Memory 3
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 02 00 00 00
+# 
+name: Memory 4
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 03 00 00 00
+# 
+name: EQ
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 4B 00 00 00
+# 
+name: Mega Bass
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 4D 00 00 00
+# 
+name: Tuner Memory
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0E 00 00 00
+# 
+name: Play Mode/Tuning Mode
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 28 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 14 00 00 00
+# 
+name: Up
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 78 00 00 00
+# 
+name: Down
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 79 00 00 00
+# 
+name: Left
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 7A 00 00 00
+# 
+name: Right
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 7B 00 00 00
+# 
+name: Middle
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 7C 00 00 00
+# 
+name: Volume +
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 12 00 00 00
+# 
+name: Volume -
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 13 00 00 00
+# 
+name: Return
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 7D 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2D 00 00 00
+# 
+name: Clear
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 0F 00 00 00
+# 
+name: Preset -
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 30 00 00 00
+# 
+name: Preset +
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 31 00 00 00
+# 
+name: Tuning -
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 33 00 00 00
+# 
+name: Tuning +
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 34 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 39 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 32 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 38 00 00 00
