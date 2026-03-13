@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 18 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 46 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 16 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 06 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 55 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 47 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 15 00 00 00
+#
+name: Headphone
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 04 00 00 00
+#
+name: Line-out
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 40 00 00 00
+#
+name: FIR
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 54 00 00 00
+#
+name: GAIN
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 50 00 00 00
+#
+name: AUTO
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 10 00 00 00
+#
+name: Brightness
+type: parsed
+protocol: NEC
+address: 88 00 00 00
+command: 14 00 00 00
