@@ -3,7 +3,7 @@ Version: 1
 # 
 # DynaScan DS2 remote control for city sidewalk digital signs.
 # 
-name: Gear
+name: Settings
 type: parsed
 protocol: NECext
 address: 11 21 00 00
@@ -57,7 +57,7 @@ protocol: NECext
 address: 11 21 00 00
 command: 29 D6 00 00
 # 
-name: I
+name: UNKNOWN
 type: parsed
 protocol: NECext
 address: 11 21 00 00
