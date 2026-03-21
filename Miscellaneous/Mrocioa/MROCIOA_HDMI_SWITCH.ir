@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+#
+# Mrocioa HDMI Switch 3 in 1 out 4K Hdmi Switcher Box (https://www.amazon.co.uk/dp/B0815V9HVP)
+# 
+name: Input 1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 06 00 00 00
+# 
+name: Input 2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Input 3
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+# 
+name: Input Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: Input Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 04 00 00 00
