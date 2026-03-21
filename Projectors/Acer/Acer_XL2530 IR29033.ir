@@ -1,0 +1,112 @@
+Filetype: IR signals file
+Version: 1
+#
+# Acer XL2530. Remote Id: IR29033
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 81 00 00 00
+# 
+name: Source
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C3 00 00 00
+# 
+name: ReSync
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C4 00 00 00
+# 
+name: Video
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: CE 00 00 00
+# 
+name: HDMI
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 86 00 00 00
+# 
+name: VGA
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8E 00 00 00
+# 
+name: Freeze
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8B 00 00 00
+# 
+name: RatioN
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 98 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 85 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 84 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8F 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8C 00 00 00
+# 
+name: Enter
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C5 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 88 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 89 00 00 00
+# 
+name: No Display
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 8A 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 92 00 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: C0 00 00 00

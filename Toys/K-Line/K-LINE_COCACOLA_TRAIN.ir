@@ -1,0 +1,34 @@
+Filetype: IR signals file
+Version: 1
+# 
+# K-Line (Goldlok) K-1309 Coca-Cola Santa Steam Engine Set (https://www.trainz.com/products/k-line-k1309-coca-cola-santa-o-gauge-steam-train-set)
+#
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 05 00 00 00
+# 
+name: Fwd Slow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+# 
+name: Fwd Fast
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: Rev Slow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Rev Fast
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
