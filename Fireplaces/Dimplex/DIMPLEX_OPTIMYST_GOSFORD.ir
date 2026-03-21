@@ -1,0 +1,23 @@
+Filetype: IR signals file
+Version: 1
+#
+# Dimplex Optimyst Gosford Electric Fireplace - https://www.dimplexfires.com/en-uk/optimyst-fires/gosford
+# Assuming this remote works for most Oltimyst models that support IR remote controls.
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: Fire
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0A 00 00 00
+# 
+name: Heat
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00

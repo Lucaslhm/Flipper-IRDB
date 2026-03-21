@@ -1,0 +1,78 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Astronaut nebula projector light/HLKZine/HR-F2
+# LIGHTING
+# By DoomedButton327 :)
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: FF 00 00 00
+# 
+name: La-
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 0C F3 00 00
+# 
+name: La+
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 0D F2 00 00
+# 
+name: La-mode
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 0E F1 00 00
+# 
+name: La power
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 0F F0 00 00
+# 
+name: Reset
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 1A E5 00 00
+# 
+name: B+
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 01 FE 00 00
+# 
+name: B-
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 05 FA 00 00
+# 
+name: S-
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 02 FD 00 00
+# 
+name: S+
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 04 FB 00 00
+# 
+name: Nebula
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 03 FC 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 07 FD 00 00
+command: 0B F4 00 00
