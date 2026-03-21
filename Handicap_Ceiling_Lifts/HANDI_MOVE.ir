@@ -1,6 +1,14 @@
 Filetype: IR signals file
 Version: 1
 # 
+# The remotes used to control them are made ONLY for them, there are no 3rd party parts.
+# Because of that, they charge upwards of $400 USD for the new remote. This .ir file contains all the commands (fwd, back; up, down).
+# The remote control that comes with the Handi-Move is made by a company called Abilia out of Sweden. The model is "Control Medi Easy".
+# They make them in small batches IN Sweden. To buy blanks, you either have to have a contract or pay close to $250 USD.
+#
+# For more information on that remote (in its blank form, without Handi-Move branding) you can visit their site:
+# https://www.abilia.com/en/our-products/environmental-control/controllers/control-medi-easy
+#
 name: FORWARD
 type: raw
 frequency: 38000
