@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Light
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 16696 5637 5659 5641 11560 5666 5632 5667 11561
+# 
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 16648 5689 5634 5663 5637 5664 11538 5690 11536
+# 
+name: Rotation
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 16675 5687 11562 5640 11560 5665 5633 5667 5659
