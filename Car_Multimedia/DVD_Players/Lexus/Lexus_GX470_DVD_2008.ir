@@ -1,6 +1,10 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Lexus GX470 DVD 2008 (possibly 2007-2009)
+#
+# NOTE: Rewind + Fast Forward can't be "held" and have to be pressed repeatedly
+#
 name: DVD
 type: parsed
 protocol: NECext
