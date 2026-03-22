@@ -1,7 +1,11 @@
 Filetype: IR signals file
 Version: 1
 #
-# Vizio SoundBar D21-H D51-H D512-H D510-H Remote, For models: SB3620n-H6, SB2020n-H6, SB3221n-J6, SB2021n-J6, SB2021n-H6, V20-J8, V20x-J8, V21-H8, V21-H8R, V21d-J8, V21x-J8, V214X-K, V21t-J8, V51-H6, V51x-J6, V514X-K6, M213AD-K8, M21d-H8R, M21d-H8, M215a-J, M215AW-K6, M51a-H6, M51ax-J6
+# Vizio SoundBar D21-H D51-H D512-H D510-H Remote
+#
+# For models: SB3620n-H6, SB2020n-H6, SB3221n-J6, SB2021n-J6, SB2021n-H6, V20-J8, V20x-J8,
+#             V21-H8, V21-H8R, V21d-J8, V21x-J8, V214X-K, V21t-J8, V51-H6, V51x-J6, V514X-K6,
+#             M213AD-K8, M21d-H8R, M21d-H8, M215a-J, M215AW-K6, M51a-H6, M51ax-J6
 #
 name: Power
 type: parsed
