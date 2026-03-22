@@ -2,7 +2,7 @@ Filetype: IR signals file
 Version: 1
 #
 # Make : DOMO 
-# Model : DO8149
+# Model : DO8149 Fan
 # 
 name: Power
 type: raw
