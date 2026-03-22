@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# Panasonic N2QAYB001009 A/V Receiver
+#
 name: Power
 type: parsed
 protocol: Kaseikyo
