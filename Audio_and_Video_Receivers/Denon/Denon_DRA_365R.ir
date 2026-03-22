@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Denon DRA 365R Receiver
+#
 name: V_UP
 type: raw
 frequency: 38000
