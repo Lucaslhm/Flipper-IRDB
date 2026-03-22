@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Canon LV-X320 projector
+#
 name: Power
 type: parsed
 protocol: NECext
