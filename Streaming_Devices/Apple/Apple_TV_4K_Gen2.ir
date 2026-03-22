@@ -6,9 +6,7 @@ Version: 1
 # Model: A2169
 # Remote Control Model: A2540 (Siri Remote)
 #
-# Note: I was not able to find codes for these buttons:
-#       Vol_up, Vol_dn, Mute, Siri_mic
-#
+# Note: I was not able to find codes for these buttons: Vol_up, Vol_dn, Mute, Siri_mic
 #
 name: Power_off
 type: parsed
