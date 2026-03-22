@@ -1,7 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
-# LG VCR Remote model: 6711R1P073B
+# LG DVX7900 VCR / DVD Player
+# Remote model: 6711R1P073B
 #
 name: POWER
 type: parsed
