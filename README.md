@@ -67,11 +67,10 @@ Make, model, link, or even a short description can be helpful if the name is cha
 (or just in general).
 
 ```bash
-#
-# Dynex EN-21669D TV <--
-#
 Filetype: IR signals file
 Version: 1
+#
+# Dynex EN-21669D TV <--
 #
 name: Power
 ```
