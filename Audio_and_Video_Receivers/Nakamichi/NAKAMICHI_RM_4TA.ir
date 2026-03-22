@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-#This is a collection of the buttons on a Nakamichi RM-4TA remote.
+# Nakamichi RM-4TA A/V Receiver
 # 
 name: Power
 type: parsed
