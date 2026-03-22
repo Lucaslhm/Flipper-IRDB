@@ -1,0 +1,77 @@
+Filetype: IR signals file
+Version: 1
+#
+# Arlec LVX964 Fibre Optic Christmas Tree
+# Protocol: NECext, Address: 00 EF
+#
+name: On
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 02 FD 00 00
+#
+name: Off
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 03 FC 00 00
+#
+name: Dim
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 06 F9 00 00
+#
+name: Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 08 F7 00 00
+#
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0A F5 00 00
+#
+name: Orange
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0B F4 00 00
+#
+name: Flash_RB
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0C F3 00 00
+#
+name: Flash_RBO
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0D F2 00 00
+#
+name: Fade_Red
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0E F1 00 00
+#
+name: Fade_Orange
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 0F F0 00 00
+#
+name: Fade_All
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 10 EF 00 00
+#
+name: Blink_Fade
+type: parsed
+protocol: NECext
+address: 00 EF 00 00
+command: 11 EE 00 00
