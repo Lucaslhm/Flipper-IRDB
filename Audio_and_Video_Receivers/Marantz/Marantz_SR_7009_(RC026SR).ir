@@ -1,7 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
-# Marantz SR 7009
+# Marantz SR 7009 A/V Receiver
+#
 name: Power
 type: raw
 frequency: 38000
