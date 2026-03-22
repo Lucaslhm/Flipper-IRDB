@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-# Bush 43QT24SB
+# Bush 43QT24SB TV
 # 
 name: Power
 type: parsed
@@ -9,13 +9,13 @@ protocol: RC5
 address: 01 00 00 00
 command: 0C 00 00 00
 # 
-name: Volume_up
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 10 00 00 00
 # 
-name: Volume_down
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 01 00 00 00
