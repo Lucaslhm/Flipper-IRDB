@@ -3,7 +3,6 @@ Version: 1
 # 
 # Yoton Y3 Mini LED Projector
 #
-#
 name: Power
 type: parsed
 protocol: NEC
