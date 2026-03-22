@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Panasonic_CS-UE12RKE AC
+#
 name: On_off
 type: raw
 frequency: 38000
