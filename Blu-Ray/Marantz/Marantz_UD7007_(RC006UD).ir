@@ -1,8 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
-# Marantz UD7007
-
+# Marantz UD7007 A/V Receiver
+#
 name: Power
 type: raw
 frequency: 38000
