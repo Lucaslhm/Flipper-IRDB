@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# Topping DX3 Pro+ Amp
+#
 name: Power
 type: parsed
 protocol: NEC
