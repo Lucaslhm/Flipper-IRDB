@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# DuraBrand DU-1301 TV
+#
 name: Power
 type: parsed
 protocol: NECext
