@@ -1,0 +1,271 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Sony mini HiFi audio systems Sony
+# CMT-CP555
+# CMT-CPX22
+# CMT-EH15
+# HCD-CBX1
+# HCD-GS10
+# CMT-BX1
+# CMT-GPZ7
+# CMT-NEZ3
+# CMT-BX5BT
+# CMT-CPX11
+# CMT-CPX22
+# CMT-CPZ1
+# CMT-CPZ2
+# CMT-CPZ3
+# CMT-EH10
+# CMT-EH12
+# CMT-EH15
+# CMT-GPX5
+# CMT-GPX6
+# CMT-GPX7
+# CMT-HPX10W
+# CMT-HPX9
+# CMT-HPZ7
+# CMT-HX30
+# CMT-NE3
+# CMT-NEZ3
+# CMT-NEZ30
+# CMT-NEZ5
+# CMT-SPZ50
+# CMT-SPZ70
+# CMTBX5BT
+# CMTCPX22
+# CMTCPZ2
+# CMTEH15
+# CMTHPX10W
+# CMTHPX9
+# HCD RG444
+# HCD-CPZ1
+# HCD-CPZ2
+# HCD-CPZ3
+# HCD-EH10
+# HCD-GPX7
+# HCD-GS10
+# HCD-GS30
+# HCD-GX355
+# HCD-GX450
+# HCD-GX750
+# HCD-GX9000
+# HCD-HPX9
+# HCD-LX10000
+# HCD-NE5
+# HCD-NEZ3
+# HCD-RG444
+# HCDCPZ2
+# HCDGX355
+# HCDGX450
+# HCDGX750
+# HCDGX9000
+# HCDHPX9
+# HCDLX10000
+# HCDRG444
+# LBT-ZX6
+# LBT-ZX8
+# LBT-ZX9
+# LBTZX6
+# LBTZX8
+# LBTZX9
+# MHC-EC50
+# MHC-EC55
+# MHC-EC68
+# MHC-EC77
+# MHC-GNX880
+# MHC-GX20
+# MHC-GX250
+# MHC-GX30
+# MHC-GX355
+# MHC-GX40
+# MHC-GX450
+# MHC-GX555
+# MHC-GX750
+# MHC-GX9000
+# MHC-GX99
+# MHC-GX9900
+# MHC-LX10000
+# MHC-RG100
+# MHC-RG110
+# MHC-RG121
+# MHC-RG170
+# MHC-RG190
+# MHC-RG22
+# MHC-RG221
+# MHC-RG222
+# MHC-RG33
+# MHC-RG444S
+# MHC-RG551
+# MHC-RG555
+# MHC-RL3
+# MHC-SRG444S
+# MHCEC50
+# MHCGNX880
+# MHCGX355
+# MHCGX450
+# MHCGX555
+# MHCGX9000
+# MHCGX9900
+# MHCLX10000
+# MHCRG170
+# MHCRG190
+# RM-SC55
+# Remote: Sony RM-SC30
+# complete capture by Vladimir Malis from Slovakia
+#  
+name: Power
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
+#  
+name: Play
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 32 00 00 00
+#  
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 39 00 00 00
+#  
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 38 00 00 00
+#  
+name: Vol_up
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 12 00 00 00
+#  
+name: Vol_dn
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 13 00 00 00
+#  
+name: Chan_prev
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 30 00 00 00
+#  
+name: Chan_next
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 31 00 00 00
+#  
+name: REW
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 33 00 00 00
+#  
+name: FF
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 34 00 00 00
+#  
+name: Tape
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 23 00 00 00
+#  
+name: CD
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 25 00 00 00
+#  
+name: Tuner/Band
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0F 00 00 00
+#  
+name: Sleep
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 60 00 00 00
+#  
+name: Display
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 4B 00 00 00
+#  
+name: Clock_select
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 62 00 00 00
+#  
+name: Clock_set
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 65 00 00 00
+#  
+name: Tuner_mem
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 0E 00 00 00
+#  
+name: Play/Tun_mode
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 28 00 00 00
+#  
+name: Repeat/FM_mode
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2D 00 00 00
+#  
+name: Function
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 69 00 00 00
+#  
+name: Clear
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 0F 00 00 00
+#  
+name: Enter
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 7C 00 00 00
+#  
+name: EQ
+type: parsed
+protocol: SIRC15
+address: 90 00 00 00
+command: 63 00 00 00
+#  
+name: Dir+
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2F 00 00 00
+#  
+name: Dir-
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2E 00 00 00
