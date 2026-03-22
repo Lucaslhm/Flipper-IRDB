@@ -1,8 +1,9 @@
-Filetype: IR signals file
-Version: 1
 # 
 # ProBreeze PB-F04 40" Tower Fan
 # Vendor Product Page: https://probreeze.com/products/40-oscillating-tower-fan-black
+#
+Filetype: IR signals file
+Version: 1
 #
 name: Power
 type: raw
