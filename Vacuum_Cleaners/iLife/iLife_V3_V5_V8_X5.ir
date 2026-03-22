@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 #
+# iLife V3/V5/V8/X5 vacuum cleaners
+#
 name: Clean
 type: raw
 frequency: 38000
