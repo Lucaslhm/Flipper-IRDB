@@ -1,6 +1,12 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Brand: Fossi Audio
+# Device Model: ZH3
+# Device Type: Audio & Video Receivers
+# Link: https://fosiaudio.com/pages/zh3-dac-amp
+# Remote For The ZH3
+#
 name: Power
 type: parsed
 protocol: NECext
