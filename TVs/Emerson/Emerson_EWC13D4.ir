@@ -1,3 +1,5 @@
+Filetype: IR signals file
+Version: 1
 # 
 # Emerson EWC13D4 TV
 # https://crtdatabase.com/crts/emerson/emerson-ewc13d4
@@ -6,9 +8,6 @@
 #
 # Some buttons have been renamed to match the naming scheme
 #
-Filetype: IR signals file
-Version: 1
-# 
 name: Power
 type: parsed
 protocol: NECext
