@@ -1,9 +1,8 @@
+Filetype: IR signals file
+Version: 1
 #
 # Ferroli air conditioner
 #
-Filetype: IR signals file
-Version: 1
-# 
 name: On
 type: raw
 frequency: 38000
