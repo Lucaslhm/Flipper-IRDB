@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# elWron TV tuner
+#
 name: Power
 type: parsed
 protocol: NEC
@@ -169,13 +171,7 @@ protocol: NEC
 address: 01 00 00 00
 command: 4E 00 00 00
 # 
-name: Power TV
-type: parsed
-protocol: NECext
-address: 00 7F 00 00
-command: 15 EA 00 00
-# 
-name: Power TV
+name: Power_TV
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
