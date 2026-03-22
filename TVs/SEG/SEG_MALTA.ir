@@ -2,8 +2,10 @@ Filetype: IR signals file
 Version: 1
 #
 # SEG Malta TV
-# Note: Power key only turns the TV off, use Ch_prev/Ch_next or number
-# keys to turn on the TV.
+#
+# Note: Power key only turns the TV off
+#       Use Ch_prev/Ch_next or number
+#       keys to turn on the TV.
 #
 name: Ch_prev
 type: parsed
@@ -35,7 +37,7 @@ protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 #
-name: Power
+name: Power_Off
 type: parsed
 protocol: RC5
 address: 00 00 00 00
