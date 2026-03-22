@@ -1,0 +1,49 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Roksan
+# Device Model: Kandy K3 Integrated Amplifier
+# Device Type: Audio and Video Receiver
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 20 9F 00 00
+command: 44 BB 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 20 9F 00 00
+command: 1D E2 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 20 9F 00 00
+command: 40 BF 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 20 9F 00 00
+command: 65 9A 00 00
+# 
+name: Prev_input
+type: parsed
+protocol: NECext
+address: 20 9F 00 00
+command: 1C E3 00 00
+# 
+name: Next_input
+type: parsed
+protocol: NECext
+address: 20 9F 00 00
+command: 48 B7 00 00
+# 
+name: BT
+type: parsed
+protocol: NECext
+address: 20 9F 00 00
+command: 0E F1 00 00
+# 
