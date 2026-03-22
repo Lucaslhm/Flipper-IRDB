@@ -81,13 +81,13 @@ protocol: RC5
 address: 14 00 00 00
 command: 36 00 00 00
 # 
-name: Vol+
+name: Vol_up
 type: parsed
 protocol: RC5
 address: 10 00 00 00
 command: 10 00 00 00
 # 
-name: Vol-
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 10 00 00 00
