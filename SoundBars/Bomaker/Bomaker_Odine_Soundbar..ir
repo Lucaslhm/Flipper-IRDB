@@ -1,0 +1,47 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Bomaker Odine Soundbar
+# Unknown exact version
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 17 00 00 00
+# 
+name: Bt
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 4A 00 00 00
+# 
+name: Optical
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 49 00 00 00
+# 
+name: Line
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 47 00 00 00
+# 
+name: Usb
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0A 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 13 00 00 00
