@@ -1,9 +1,8 @@
+Filetype: IR signals file
+Version: 1
 #
 # JVC TV LT-49HW97U
 # JVC Remote RM-C3311
-#
-Filetype: IR signals file
-Version: 1
 #
 name: Power
 type: parsed
