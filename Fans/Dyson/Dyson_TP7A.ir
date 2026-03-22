@@ -1,7 +1,8 @@
-Filetype: IR signals file
-Version: 1
 # 
 # Dyson TP7A Purifier Cool Autoreact
+#
+Filetype: IR signals file
+Version: 1
 #
 name: Power
 type: raw
