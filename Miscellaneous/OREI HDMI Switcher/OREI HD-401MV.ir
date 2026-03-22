@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# OREI HD-401MV HDMI Switcher
+#
 name: Power
 type: raw
 frequency: 38000
