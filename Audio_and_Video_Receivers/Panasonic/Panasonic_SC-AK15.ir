@@ -1,0 +1,192 @@
+Filetype: IR signals file
+Version: 1
+#
+# Panasonic mini HiFi audio system Panasonic SC-AK15 from 1998
+# Remote: RAK-CH940WK
+# complete capture by Vladimir Malis from Slovakia
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: D1 03 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 00 02 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 10 02 00 00
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 00
+command: 20 03 00 00
+# 
+name: PlayFW/Pause
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: A1 00 00 00
+#
+name: Play_Reverse
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 61 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 01 00 00 00
+# 
+name: Next/FF
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: A1 00 00 00
+# 
+name: Prew/REW
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 01
+command: 91 00 00 00
+# 
+name: Aux
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: A0 01 00 00
+# 
+name: Tape
+type: parsed
+protocol: Kaseikyo
+address: A8 02 20 02
+command: 60 01 00 00
+# 
+name: CD
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 40 01 00 00
+# 
+name: Tuner
+type: parsed
+protocol: Kaseikyo
+address: A4 02 20 02
+command: 40 02 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 01 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 11 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 21 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 31 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 41 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 51 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 61 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 71 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 81 01 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 00
+command: 91 01 00 00
+# 
+name: >=10
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 41 00 00 00
+# 
+name: Disc
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 02
+command: 40 02 00 00
+# 
+name: EQ
+type: parsed
+protocol: Kaseikyo
+address: A0 02 20 02
+command: 31 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: Kaseikyo
+address: AC 02 20 02
+command: 61 01 00 00
+# 
+name: Program
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 02
+command: A0 00 00 00
+# 
+name: Cancel
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 02
+command: 30 02 00 00
+# 
+name: Repeat
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 01
+command: 70 00 00 00
+# 
+name: Random
+type: parsed
+protocol: Kaseikyo
+address: AA 02 20 01
+command: D0 00 00 00
