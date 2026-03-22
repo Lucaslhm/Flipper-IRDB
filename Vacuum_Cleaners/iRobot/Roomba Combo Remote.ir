@@ -1,8 +1,8 @@
 Filetype: IR signals file
 Version: 1
+#
 # Roomba Combo Remote - by fr4me
-# brand: iRobot 
-# model: Roomba Combo R1118
+# brand: iRobot Roomba Combo R1118
 #
 name: Start/Pause
 type: parsed
