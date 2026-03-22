@@ -1,0 +1,502 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sony RM-PJ1000 remote commander for VPH-D50 Projector
+#
+name: Power_ON
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2E 00 00 00
+# 
+name: Power_OFF
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2F 00 00 00
+# 
+name: Status_ON
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 25 00 00 00
+# 
+name: Status_OFF
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 26 00 00 00
+# 
+name: Muting_PIC
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 24 00 00 00
+# 
+name: Muting_AUDIO
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 14 00 00 00
+# 
+name: MEMORY
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 5E 00 00 00
+# 
+name: Up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 35 00 00 00
+# 
+name: Down
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 36 00 00 00
+# 
+name: Left
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 34 00 00 00
+# 
+name: Right
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 33 00 00 00
+# 
+name: MENU
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 29 00 00 00
+# 
+name: ENTER
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 5A 00 00 00
+# 
+name: RESET
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 7B 00 00 00
+# 
+name: BLKG
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 58 00 00 00
+# 
+name: CENTR
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 49 00 00 00
+# 
+name: RGB_SIZE
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 47 00 00 00
+# 
+name: SHIFT
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 48 00 00 00
+# 
+name: Sharp_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 22 00 00 00
+# 
+name: Sharp_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 23 00 00 00
+# 
+name: Hue_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 20 00 00 00
+# 
+name: Hue_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 21 00 00 00
+# 
+name: Color_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 1A 00 00 00
+# 
+name: Color_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 1B 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 12 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 13 00 00 00
+# 
+name: Light
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 1D 00 00 00
+# 
+name: Normal
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 7D 00 00 00
+# 
+name: Pattern
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 7E 00 00 00
+# 
+name: Lcd_zoom_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 77 00 00 00
+# 
+name: Lcd_zoom_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 78 00 00 00
+# 
+name: Lcd_shift_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 72 00 00 00
+# 
+name: Lcd_shift_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 73 00 00 00
+# 
+name: Lcd_focus_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 74 00 00 00
+# 
+name: Lcd_focus_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 75 00 00 00
+# 
+name: Input_select_video
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2A 00 00 00
+# 
+name: Input_select_select
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 5F 00 00 00
+# 
+name: A_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2B 00 00 00
+# 
+name: B_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2C 00 00 00
+# 
+name: C_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 6F 00 00 00
+# 
+name: D_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 70 00 00 00
+# 
+name: 1_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 61 00 00 00
+# 
+name: 2_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 62 00 00 00
+# 
+name: 3_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 63 00 00 00
+# 
+name: 4_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 64 00 00 00
+# 
+name: 5_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 65 00 00 00
+# 
+name: 6_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 66 00 00 00
+# 
+name: 7_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 67 00 00 00
+# 
+name: 8_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 68 00 00 00
+# 
+name: 9_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 69 00 00 00
+# 
+name: 0_Index
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 60 00 00 00
+# 
+name: A_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2B 00 00 00
+# 
+name: B_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2C 00 00 00
+# 
+name: C_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 6F 00 00 00
+# 
+name: D_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 70 00 00 00
+# 
+name: 1_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 0A 00 00 00
+# 
+name: 2_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 0B 00 00 00
+# 
+name: 3_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 0C 00 00 00
+# 
+name: 4_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 0D 00 00 00
+# 
+name: 5_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 0E 00 00 00
+# 
+name: 6_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 0F 00 00 00
+# 
+name: 7_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 10 00 00 00
+# 
+name: 8_Switcher
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 11 00 00 00
+# 
+name: Cut_off_r
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 44 00 00 00
+# 
+name: Cut_off_g
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 45 00 00 00
+# 
+name: Cut_off_b
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 46 00 00 00
+# 
+name: Cut_off_cent
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 2D 00 00 00
+# 
+name: Cut_off_size
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 4C 00 00 00
+# 
+name: Cut_off_lin
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 1D 00 00 00
+# 
+name: Adj_r
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 41 00 00 00
+# 
+name: Adj_g
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 42 00 00 00
+# 
+name: Adj_b
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 43 00 00 00
+# 
+name: Adj_skew
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 4E 00 00 00
+# 
+name: Adj_bow
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 4F 00 00 00
+# 
+name: Adj_key
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 50 00 00 00
+# 
+name: Wb_bias
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 53 00 00 00
+# 
+name: Wb_gain
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 52 00 00 00
+# 
+name: Wb_pin
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 51 00 00 00
+# 
+name: Wb_zone
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 56 00 00 00
+# 
+name: Focus_mg_focus
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 54 00 00 00
+# 
+name: Focus_lens
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 55 00 00 00
+# 
+name: Position_dn
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 32 00 00 00
+# 
+name: Position_up
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 31 00 00 00
