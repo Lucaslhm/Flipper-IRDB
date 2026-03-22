@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-# Tween Light LED Oria
+# Tween Light LED Oria (ceiling light)
 #
 name: Power
 type: parsed
