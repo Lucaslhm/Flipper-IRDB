@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
 # 
+# Sony_CMT-SBT20B CD Player
+#
 name: Power
 type: parsed
 protocol: SIRC
