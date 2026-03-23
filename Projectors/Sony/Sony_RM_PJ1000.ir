@@ -159,7 +159,13 @@ protocol: SIRC15
 address: 54 00 00 00
 command: 13 00 00 00
 # 
-name: Light
+name: Light_ON
+type: parsed
+protocol: SIRC15
+address: 54 00 00 00
+command: 1C 00 00 00
+# 
+name: Light_OFF
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
@@ -415,7 +421,7 @@ name: Cut_off_lin
 type: parsed
 protocol: SIRC15
 address: 54 00 00 00
-command: 1D 00 00 00
+command: 4D 00 00 00
 # 
 name: Adj_r
 type: parsed
