@@ -1,21 +1,9 @@
 Filetype: IR signals file
 Version: 1
-
 #
-# Device: Continental Edison Smart TV
-# Model: CELD55SQLDV24B6
-# Protocol: NEC Extended (NECext)
-# IR Address: 00 7F 00 00
-#
-
-# Author: Kakuzu (original discovery and validation)
-# Contact: Telegram/Discord - @kakuzu_f0
-# Source: Personal reverse engineering with Flipper Zero
-
-#
-# ==================================================
-# SYSTEM POWER
-# ==================================================
+# Continental Edison CELD55SQLDV24B6 TV
+# Protocol: NECext
+# Address: 00 7F 00 00
 #
 name: Power
 type: parsed
@@ -23,11 +11,6 @@ protocol: NECext
 address: 00 7F 00 00
 command: 15 EA 00 00
 
-#
-# ==================================================
-# AUDIO CONTROL
-# ==================================================
-#
 name: Vol_up
 type: parsed
 protocol: NECext
@@ -46,22 +29,12 @@ protocol: NECext
 address: 00 7F 00 00
 command: 16 E9 00 00
 
-#
-# ==================================================
-# CHANNEL CONTROL
-# ==================================================
-#
 name: Ch_up
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 19 E6 00 00
 
-#
-# ==================================================
-# NAVIGATION (ALL VALIDATED)
-# ==================================================
-#
 name: Up
 type: parsed
 protocol: NECext
@@ -92,11 +65,6 @@ protocol: NECext
 address: 00 7F 00 00
 command: 11 EE 00 00
 
-#
-# ==================================================
-# INPUT / SOURCES
-# ==================================================
-#
 name: Input
 type: parsed
 protocol: NECext
@@ -115,11 +83,6 @@ protocol: NECext
 address: 00 7F 00 00
 command: 4C B3 00 00
 
-#
-# ==================================================
-# MENUS & NAVIGATION
-# ==================================================
-#
 name: Settings
 type: parsed
 protocol: NECext
@@ -150,22 +113,12 @@ protocol: NECext
 address: 00 7F 00 00
 command: 32 CD 00 00
 
-#
-# ==================================================
-# RECORDING
-# ==================================================
-#
 name: Record
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 24 DB 00 00
 
-#
-# ==================================================
-# STREAMING APPS (DIRECT LAUNCH)
-# ==================================================
-#
 name: Netflix
 type: parsed
 protocol: NECext
@@ -190,11 +143,6 @@ protocol: NECext
 address: 00 7F 00 00
 command: 1E E1 00 00
 
-#
-# ==================================================
-# REMOTE / ADVANCED
-# ==================================================
-#
 name: Pair_Remote
 type: parsed
 protocol: NECext
