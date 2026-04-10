@@ -1,6 +1,8 @@
 Filetype: IR signals file
 Version: 1
-# 
+#
+# ULTIMEA Poseidon M20 U2203 2.1ch Sound Bar Remote
+#
 name: Power
 type: parsed
 protocol: NECext
