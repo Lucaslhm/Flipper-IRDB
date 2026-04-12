@@ -2,8 +2,6 @@ Filetype: IR signals file
 Version: 1
 #
 # Continental Edison CELD55SQLDV24B6 TV
-# Protocol: NECext
-# Address: 00 7F 00 00
 #
 name: Power
 type: parsed
