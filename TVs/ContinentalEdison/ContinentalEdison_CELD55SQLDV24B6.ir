@@ -1,0 +1,148 @@
+Filetype: IR signals file
+Version: 1
+#
+# Continental Edison CELD55SQLDV24B6 TV
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1B E4 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1A E5 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 16 E9 00 00
+#
+name: Ch_next
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 19 E6 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0C F3 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0D F2 00 00
+#
+name: Right
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0E F1 00 00
+#
+name: Left
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0F F0 00 00
+#
+name: OK
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 11 EE 00 00
+#
+name: Input
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 12 ED 00 00
+#
+name: Satellite
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 18 E7 00 00
+#
+name: USB
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4C B3 00 00
+#
+name: Settings
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 17 E8 00 00
+#
+name: App_Menu
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 25 DA 00 00
+#
+name: Account
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 21 DE 00 00
+#
+name: Home
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 42 BD 00 00
+#
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 32 CD 00 00
+#
+name: Record
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 24 DB 00 00
+#
+name: Netflix
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 50 AF 00 00
+#
+name: YouTube
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4F B0 00 00
+#
+name: Prime_Video
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1C E3 00 00
+#
+name: Disney_Plus
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+#
+name: Pair_Remote
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 4E B1 00 00
