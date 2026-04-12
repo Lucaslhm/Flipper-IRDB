@@ -1,0 +1,118 @@
+Filetype: IR signals file
+Version: 1
+#
+# ULTIMEA Poseidon M20 U2203 2.1ch Sound Bar Remote
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 3D 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 3E 00 00
+# 
+name: Bluetooth
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 3D 00 00
+# 
+name: Optical_Audio
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 5C 00 00
+# 
+name: Aux
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 3C 00 00
+# 
+name: LED_Dimmer
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 4B 00 00
+# 
+name: USB
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 4E 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 2C 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 3B 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 2D 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 2E 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 3A 00 00
+# 
+name: Movie
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 4C 00 00
+# 
+name: Game
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 5D 00 00
+# 
+name: Music
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 5A 00 00
+# 
+name: Bass Down
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 4D 00 00
+# 
+name: BassMX
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 5B 00 00
+# 
+name: Bass Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9137 4386 682 471 657 473 655 475 654 475 654 476 654 475 654 475 655 476 654 1598 654 1598 654 476 654 1598 654 476 654 475 654 476 654 476 654 1598 654 1598 654 476 654 1598 654 1598 654 1598 654 476 654 1598 654 476 654 1598 654 476 653 1598 654 476 653 476 654 1598 654 476 654 44565 9105 2161 654
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 0B 00 00
+command: BB 2B 00 00
