@@ -1,0 +1,100 @@
+Filetype: IR signals file
+Version: 1
+#
+# Starwind TV
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: F3 0C 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: E8 17 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: EE 11 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: E3 1C 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: E7 18 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: EC 13 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: EB 14 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: EA 15 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: E9 16 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: ED 12 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: F0 0F 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: EF 10 00 00
+# 
+name: Voice
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 92 6D 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: BC 43 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: E0 1F 00 00
+# 
+name: Tv
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 94 6B 00 00
