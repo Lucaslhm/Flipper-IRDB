@@ -1,7 +1,9 @@
 Filetype: IR signals file
 Version: 1
 #
-# Eakins 48MP FullHD Microscope Camera
+# Compatible with the following devices:
+# - Eakins 48MP FullHD Microscope Camera
+# - Eakins 4K Sony IMX415 Microscope Camera
 #
 name: MENU
 type: parsed
