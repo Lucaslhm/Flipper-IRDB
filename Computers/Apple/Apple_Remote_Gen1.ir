@@ -1,0 +1,40 @@
+Filetype: IR signals file
+Version: 1
+# 
+# A1156 
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 03 B5 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 05 B5 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 06 B5 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 09 B5 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0A B5 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 0C B5 00 00
