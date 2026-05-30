@@ -1,0 +1,10 @@
+Untested possibly compatible devices
+====================================
+- MTF / Mountfield MTF AC 12000 / JHS-A018-12KR2/A
+- Lifetime Air JHS-A018-12KR2/A
+- ProKlima A018-12KR2/C
+- Voltomat JHS A018 12KR2CW
+- Iiglo JHS-A018-12KR2/C
+- Ideal JHS-A018-12KR2-D
+- CASAYA JHS-A018-12KR2/D
+- JHS A018-12KR/C
