@@ -1,0 +1,68 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 01 FE 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0C F3 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 09 F6 00 00
+# 
+name: Aux
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0A F5 00 00
+# 
+name: Usb
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 15 EA 00 00
+# 
+name: Sd
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0D F2 00 00
+# 
+name: Fm
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 16 E9 00 00
+# 
+name: Scan
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 0E F1 00 00
+# 
+name: Play_pause
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 14 EB 00 00
+# 
+name: Prev
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 06 F9 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 10 E7 00 00
+command: 08 F7 00 00
