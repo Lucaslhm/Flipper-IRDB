@@ -1,0 +1,165 @@
+Filetype: IR signals file
+Version: 1
+#
+# NexiGo Iris 4K Webcam (N1000) remote control
+# Protocol: NEC
+# Address: 0x48
+# Channel: default / Channel 1
+# Source mapping: https://dev.to/raleighlittles/nexigo-iris-webcam-remote-communication-guide-on8
+# Note: Generated from published ir-keytable scancodes. Ran on real hardware.
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 1B 00 00 00
+#
+name: HDMI_Format
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 20 00 00 00
+#
+name: Auto_Framing
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 22 00 00 00
+#
+name: PiP_Facial_Enhance
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 21 00 00 00
+#
+name: Zoom_dn
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 04 00 00 00
+#
+name: Zoom_up
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 00 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 05 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 08 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 0A 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 0D 00 00 00
+#
+name: OSD_Home
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 09 00 00 00
+#
+name: Preset_AI_Sensitivity
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 0F 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 23 00 00 00
+#
+name: Backlight_Compensation
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 24 00 00 00
+#
+name: Num_1
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 0C 00 00 00
+#
+name: Num_2
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 11 00 00 00
+#
+name: Num_3
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 0E 00 00 00
+#
+name: Num_4
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 10 00 00 00
+#
+name: Num_5
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 15 00 00 00
+#
+name: Num_6
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 12 00 00 00
+#
+name: Num_7
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 14 00 00 00
+#
+name: Num_8
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 19 00 00 00
+#
+name: Num_9
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 16 00 00 00
+#
+name: Num_0
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 1D 00 00 00
+#
+name: Star
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 18 00 00 00
+#
+name: Hash
+type: parsed
+protocol: NEC
+address: 48 00 00 00
+command: 1A 00 00 00
