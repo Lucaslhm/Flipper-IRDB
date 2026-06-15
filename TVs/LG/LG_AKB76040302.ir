@@ -1,0 +1,232 @@
+Filetype: IR signals file
+Version: 1
+#
+# LG-AKB76040302 remote
+# Canadian (English) Market
+# Included with LG webOS TV UQ7590PUB
+# Captured with LILYGO CC1101 
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+bits: 32
+value: 20 DF 10 EF
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+bits: 32
+value: 20 DF 02 FD
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 41 00 00 00
+bits: 32
+value: 20 DF 82 7D
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 07 00 00 00
+bits: 32
+value: 20 DF E0 1F
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+bits: 32
+value: 20 DF 60 9F
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+bits: 32
+value: 20 DF 22 DD
+#
+name: Source
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00
+bits: 32
+value: 20 DF D0 2F
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+bits: 32
+value: 20 DF 40 BF
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+bits: 32
+value: 20 DF C0 3F
+#
+name: Ch_next
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 00 00 00 00
+bits: 32
+value: 20 DF 00 FF
+#
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+bits: 32
+value: 20 DF 80 7F
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+bits: 32
+value: 20 DF 90 6F
+#
+name: Settings
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+bits: 32
+value: 20 DF C2 3D
+#
+name: Netflix
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 56 00 00 00
+bits: 32
+value: 20 DF 6A 95
+#
+name: Home
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7C 00 00 00
+bits: 32
+value: 20 DF 3E C1
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 28 00 00 00
+bits: 32
+value: 20 DF 14 EB
+#
+name: Exit
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5B 00 00 00
+bits: 32
+value: 20 DF DA 25
+#
+name: webOS
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7C 00 00 00
+bits: 32
+value: 20 DF 3E C1
+#
+name: 1
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 11 00 00 00
+bits: 32
+value: 20 DF 88 77
+#
+name: 2
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 12 00 00 00
+bits: 32
+value: 20 DF 48 B7
+#
+name: 3
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 13 00 00 00
+bits: 32
+value: 20 DF C8 37
+#
+name: 4
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 14 00 00 00
+bits: 32
+value: 20 DF 28 D7
+#
+name: 5
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 15 00 00 00
+bits: 32
+value: 20 DF A8 57
+#
+name: 6
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 16 00 00 00
+bits: 32
+value: 20 DF 68 97
+#
+name: 7
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 17 00 00 00
+bits: 32
+value: 20 DF E8 17
+#
+name: 8
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 18 00 00 00
+bits: 32
+value: 20 DF 18 E7
+#
+name: 9
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 19 00 00 00
+bits: 32
+value: 20 DF 98 67
+#
+name: 0
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 10 00 00 00
+bits: 32
+value: 20 DF 08 F7
+#
