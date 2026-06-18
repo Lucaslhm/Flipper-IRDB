@@ -1,0 +1,180 @@
+Filetype: IR signals file
+Version: 1
+#
+# Vizio SB4051-C0 5.1 Sound Bar (remote XRS551-C)
+#
+# Inputs and Power/Vol/Mute verified by NEC capture on an actual SB4051-C0.
+# This unit exposes all 8 discrete source inputs (the remote's INPUT button
+# does NOT cycle a single code -- each input has its own NEC command), which
+# no single existing Vizio soundbar entry covered: V51-H6 lacked Coax/HDMI-In,
+# SB3651_E6 lacked Aux 2 (AUX_VA, 0xB2). Audio/effect codes below are the
+# shared Vizio soundbar NEC set, identical across the SB3651_E6 and V51-H6
+# entries already in this database.
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 41 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+#
+name: Src_Dig_Audio
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C9 00 00 00
+#
+name: Src_Optical
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C8 00 00 00
+#
+name: Src_HDMI_In
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: AB 00 00 00
+#
+name: Src_ARC
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9A 00 00 00
+#
+name: Src_USB
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: A1 00 00 00
+#
+name: Src_BT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 22 00 00 00
+#
+name: Src_Aux
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B1 00 00 00
+#
+name: Src_Aux2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: B2 00 00 00
+#
+name: Bass_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6B 00 00 00
+#
+name: Bass_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6A 00 00 00
+#
+name: Treble_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 69 00 00 00
+#
+name: Treble_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 68 00 00 00
+#
+name: Center_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 70 00 00 00
+#
+name: Center_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6E 00 00 00
+#
+name: Subwf_Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4D 00 00 00
+#
+name: Subwf_Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 51 00 00 00
+#
+name: Surr_On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 23 00 00 00
+#
+name: Surr_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 24 00 00 00
+#
+name: EQ_Music
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 66 00 00 00
+#
+name: EQ_Movie
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 67 00 00 00
+#
+name: EQ_Direct
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+#
+name: Night_On
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 61 00 00 00
+#
+name: Night_Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 62 00 00 00
+#
+name: BT_Pair
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6F 00 00 00
