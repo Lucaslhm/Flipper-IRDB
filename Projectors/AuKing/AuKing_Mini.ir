@@ -1,0 +1,85 @@
+Filetype: IR signals file
+Version: 1
+#
+# AuKing Mini Projector
+# Captured 2026-05-04 by Christopher Johnson (anigeek) via ESPHome remote_receiver
+# on ESP32_IR_TR_WIFI_V1.1 board with VS838 receiver.
+# All 13 buttons captured; protocol NEC, single device address 0xFE.
+#
+name: Power
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: FF 00 00 00
+#
+name: Menu
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: FE 00 00 00
+#
+name: Source
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: F6 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: FA 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: FD 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: F9 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: F5 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: FB 00 00 00
+#
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: FC 00 00 00
+#
+name: Exit
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: F4 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: BF 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: B7 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: FE 00 00 00
+command: BB 00 00 00
