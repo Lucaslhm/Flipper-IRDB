@@ -1,0 +1,110 @@
+Filetype: IR signals file
+Version: 1
+#
+# Polk Audio Signa S4 Soundbar. Remote: POLK-RE6214-1.
+# Codes captured from the RE6214-1 remote and verified on the Signa S4 itself.
+# Other Signa-family units shipping the RE6214-1 remote likely share most codes,
+# but source-select commands vary across remote generations — treat cross-model
+# use as unverified.
+# Captured 2026-05-04 by Christopher Johnson (anigeek) via ESPHome remote_receiver
+# on ESP32_IR_TR_WIFI_V1.1 board with VS838 receiver.
+# All 15 buttons captured; protocol NECext, address 0xC8 0x91 (matches the wider
+# Polk family — same address used by the existing POLK_RE9641_1 MagniFi Mini entry).
+# Mode and Voice Preset are coupled internally on the Signa S4 (selecting a mode
+# tends to auto-shift the active voice preset).
+#
+# Receiver quirk: the Signa S4 only responds to NEC frames that are followed by
+# proper NEC repeat-dittos (9ms mark / 2.25ms space / 560us mark at ~108ms period).
+# Flipper Zero emits these natively, so it works; IR bridges that send full frames
+# only (e.g. ESPHome transmit_nec) get silently ignored — use transmit_raw with
+# ditto bursts.
+#
+name: Power
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 00 FF 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 20 DF 00 00
+#
+name: Source_TV
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 0F F0 00 00
+#
+name: Source_Aux
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 0C F3 00 00
+#
+name: Source_Bluetooth
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 12 ED 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 1E E1 00 00
+#
+name: Bass_up
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 5C A3 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 1F E0 00 00
+#
+name: Bass_dn
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 5D A2 00 00
+#
+name: Mode_Movie
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 77 88 00 00
+#
+name: Mode_Night
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 79 86 00 00
+#
+name: Mode_Music
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 78 87 00 00
+#
+name: Voice_Preset_1
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 7E 81 00 00
+#
+name: Voice_Preset_2
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 7F 80 00 00
+#
+name: Voice_Preset_3
+type: parsed
+protocol: NECext
+address: C8 91 00 00
+command: 80 7F 00 00
