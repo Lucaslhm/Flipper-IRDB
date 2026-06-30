@@ -1,0 +1,42 @@
+Filetype: IR signals file
+Version: 1
+#
+# UGREEN HDMI Switcher 3-In-1-Out (Model: CM332, P/N: 80125)
+# Captured 2026-05-07 by Christopher Johnson (anigeek) via ESPHome remote_receiver
+# on ESP32_IR_TR_WIFI_V1.1 board (ir-blaster-1) with VS838 receiver.
+#
+# Protocol: NEC, single 8-bit address (0x02) with NEC-standard inverse.
+# The remote transmits 16-bit values in ESPHome (address=0xFD02, command=0xFA05/etc)
+# but the lower byte is data + upper byte is its bit-inverse — i.e. canonical NEC.
+#
+# Coverage: 4 buttons (Input1, Input2, Input3, Next).
+#
+# NOTE: an existing UGREEN HDMI switch entry exists in this repo at
+# Multimedia/Ugreen/Ugreen_8k_hdmi_switch.ir with a different address (0x80)
+# and different command bytes (0x02/0x04/0x06/0x08). That entry does NOT match
+# this CM332 unit. UGREEN appears to rev both address and command across
+# production batches / chipsets, so this is a distinct device entry.
+#
+name: Input1
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 05 00 00 00
+#
+name: Input2
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 08 00 00 00
+#
+name: Input3
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0A 00 00 00
+#
+name: Next
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0D 00 00 00
