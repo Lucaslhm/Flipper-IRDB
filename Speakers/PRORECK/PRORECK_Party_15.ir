@@ -1,0 +1,134 @@
+Filetype: IR signals file
+Version: 1
+#
+# PRORECK Party 15 PA System
+# 15-inch 2000W active PA / Bluetooth speaker (Bluetooth/USB/SD/FM input).
+# Captured 2026-05-04 by Christopher Johnson (anigeek) via ESPHome remote_receiver
+# on ESP32_IR_TR_WIFI_V1.1 board with VS838 receiver.
+# All 21 buttons captured; protocol NEC, single device address 0xFF.
+#
+name: Mode
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: BA 00 00 00
+#
+name: EQ
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: F6 00 00 00
+#
+name: Folder_minus
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: B9 00 00 00
+#
+name: Folder_plus
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: B8 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: EA 00 00 00
+#
+name: Prev
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: BB 00 00 00
+#
+name: Play_Pause
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: BC 00 00 00
+#
+name: Next
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: BF 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: F8 00 00 00
+#
+name: Dot_1
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: E6 00 00 00
+#
+name: Dot_2
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: F2 00 00 00
+#
+name: Num_1
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: F3 00 00 00
+#
+name: Num_2
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: E7 00 00 00
+#
+name: Num_3
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: A1 00 00 00
+#
+name: Num_4
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: F7 00 00 00
+#
+name: Num_5
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: E3 00 00 00
+#
+name: Num_6
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: A5 00 00 00
+#
+name: Num_7
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: BD 00 00 00
+#
+name: Num_8
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: AD 00 00 00
+#
+name: Num_9
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: B5 00 00 00
+#
+name: Num_0
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: E9 00 00 00
