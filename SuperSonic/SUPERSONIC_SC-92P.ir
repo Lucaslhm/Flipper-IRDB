@@ -1,0 +1,103 @@
+Filetype: IR signals file
+Version: 1
+# 
+# SuperSonic SC-92P Multimedia Projector
+# FCC ID: 2ATFT-T800
+# Equivalent Device User Manual:
+# https://m.media-amazon.com/images/I/A1r4S8KSh5L.pdf
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 14 00 00 00
+# 
+name: Star
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 47 00 00 00
+# 
+name: Prev
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0C 00 00 00
+# 
+name: Sun
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0F 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0D 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 12 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 11 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 15 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 10 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 13 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 16 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1B 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1A 00 00 00
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 40 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 18 00 00 00
+# 
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 48 00 00 00
