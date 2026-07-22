@@ -1,0 +1,237 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Sony
+# Device Model: CMT_EX100_SCEX100
+# Device Type: CD Player
+# Description: This remote works with the Sony CMT EX100 micro hifi system and includes all remote buttons
+# Contributor: KC
+#
+name: Power
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 15 00 00 00
+#
+name: Open_Close
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 16 00 00 00
+#
+name: Sleep
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 60 00 00 00
+#
+name: Source
+type: parsed
+protocol: SIRC
+address: 0C 00 00 00
+command: 69 00 00 00
+#
+name: Repeat
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 2D 00 00 00
+#
+name: Display
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 4B 00 00 00
+#
+name: Play
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 32 00 00 00
+#
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 39 00 00 00
+#
+name: Next
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 31 00 00 00
+#
+name: Back
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 30 00 00 00
+#
+name: FastFwd
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 34 00 00 00
+#
+name: Rev
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 33 00 00 00
+#
+name: Stop
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 38 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 12 00 00 00
+#
+name: Vol-
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 13 00 00 00
+#
+name: Bass+
+type: parsed
+protocol: SIRC
+address: 0C 00 00 00
+command: 36 00 00 00
+#
+name: Bass-
+type: parsed
+protocol: SIRC
+address: 0C 00 00 00
+command: 35 00 00 00
+#
+name: Treble+
+type: parsed
+protocol: SIRC
+address: 0C 00 00 00
+command: 34 00 00 00
+#
+name: Treble-
+type: parsed
+protocol: SIRC
+address: 0C 00 00 00
+command: 35 00 00 00
+#
+name: Surround
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 2554 435 1357 439 1355 440 1306 487 1308 488 1307 488 1307 489 706 489 707 490 706 490 1306 488 1307 488 706 23296 2552 439 1305 490 1305 490 1305 490 1305 489 1306 489 1306 489 757 441 758 437 706 491 1305 489 1306 489 706 23306 2478 488 1306 489 1306 515 1280 491 1304 515 1280 515 1334 461 680 517 705 491 707 489 1306 489 1305 491 678
+#
+name: DSG
+type: parsed
+protocol: SIRC
+address: 0C 00 00 00
+command: 31 00 00 00
+#
+name: Band
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 0F 00 00 00
+#
+name: Select
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 62 00 00 00
+#
+name: Set
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 65 00 00 00
+#
+name: Enter
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 0C 00 00 00
+#
+name: Memory
+type: parsed
+protocol: SIRC
+address: 0D 00 00 00
+command: 0E 00 00 00
+#
+name: PC_Tape
+type: parsed
+protocol: SIRC
+address: 10 00 00 00
+command: 23 00 00 00
+#
+name: 1
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 00 00 00 00
+#
+name: 2
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 01 00 00 00
+#
+name: 3
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 02 00 00 00
+#
+name: 4
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 03 00 00 00
+#
+name: 5
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 04 00 00 00
+#
+name: 6
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 05 00 00 00
+#
+name: 7
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 06 00 00 00
+#
+name: 8
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 07 00 00 00
+#
+name: 9
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 08 00 00 00
+#
+name: >10
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 0D 00 00 00
+#
+name: 10/0
+type: parsed
+protocol: SIRC20
+address: 3A 07 00 00
+command: 09 00 00 00
+#
