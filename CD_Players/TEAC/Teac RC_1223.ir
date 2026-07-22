@@ -1,0 +1,146 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Teac
+# Device Model: RC_1223
+# Device Type: CD Player
+# Contributor: KC
+#
+name: Power
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 03 00 00 00
+#
+name: Brightness
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0F 00 00 00
+#
+name: Source
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4560 4409 633 1602 686 444 657 473 633 472 658 472 631 500 631 475 655 1630 604 1631 602 529 602 502 628 503 600 530 601 504 626 504 600 1635 627 504 599 1636 626 504 599 531 600 1635 600 531 600 504 627 504 599 1635 627 503 600 1636 627 1635 600 504 627 1635 600 1635 600 1636 626 48743 4552 4441 600 530 601
+#
+name: AM/FM
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 06 00 00 00
+#
+name: Timer
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 1E 00 00 00
+#
+name: Sleep
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 1F 00 00 00
+#
+name: Shuffle/FM Mode
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0A 00 00 00
+#
+name: Repeat
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 02 00 00 00
+#
+name: MP3
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4560 4409 632 1603 686 444 632 498 634 471 659 472 630 501 630 475 655 1630 604 1632 601 530 601 503 627 503 600 531 600 504 627 504 599 1635 627 1635 600 1635 600 1636 627 504 600 531 600 504 627 504 600 531 600 504 627 504 599 531 600 1635 600 1636 626 1635 600 1635 600 1636 626
+#
+name: Scroll+
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 05 00 00 00
+#
+name: Scroll-
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0D 00 00 00
+#
+name: Select
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 1D 00 00 00
+#
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 15 00 00 00
+#
+name: Play/Pause
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 01 00 00 00
+#
+name: Next
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 11 00 00 00
+#
+name: Back
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 19 00 00 00
+#
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 09 00 00 00
+#
+name: Bass
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 14 00 00 00
+#
+name: Treble
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4560 4408 634 1601 686 445 632 498 633 472 658 473 630 500 631 475 655 1630 604 1631 603 529 602 503 627 503 600 530 601 503 627 504 600 1635 627 504 600 1635 627 1634 601 1635 600 530 601 504 627 503 601 531 600 1635 599 531 601 504 627 504 599 1636 626 1635 600 1635 599 1637 626 48766 4502 4468 598 531 600
+#
+name: Vol_up
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 0B 00 00 00
+#
+name: Vol-
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 13 00 00 00
+#
+name: Mem/TimeSet
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 1A 00 00 00
+#
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 81 00 00 00
+command: 1B 00 00 00
+#
