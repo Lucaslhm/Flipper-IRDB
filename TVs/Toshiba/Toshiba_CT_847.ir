@@ -1,0 +1,266 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Pwr
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+# 
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 618 4978 620 4979 619 379 620 3980 617 380 619 3979 519 5082 515 480 519 4080 518 5080 517 481 518 4079 519 5080 518 5080 518 481 518 123731 518 5081 517 5079 519 480 519 4080 518 480 519 4080 518 5080 517 481 518 4079 519 5080 517 481 518 4080 518 5080 518 5079 519 481 518 123731 542 5054 543 5055 543 456 543 4055 543 456 543 4057 541 5055 543 456 543 4056 542 5055 542 456 543 4056 542 5055 542 5055 543 456 543
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1B 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1F 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1E 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1A 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 80 00 00 00
+# 
+name: Tv_video
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0F 00 00 00
+# 
+name: Recall
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1C 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 58 00 00 00
+# 
+name: Fav_up
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 19 00 00 00
+# 
+name: Fav_down
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1D 00 00 00
+# 
+name: Ch_rtn
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 17 00 00 00
+# 
+name: 1
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 01 00 00 00
+# 
+name: 2
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 02 00 00 00
+# 
+name: 3
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 03 00 00 00
+# 
+name: 4
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 04 00 00 00
+# 
+name: 5
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 05 00 00 00
+# 
+name: 6
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 06 00 00 00
+# 
+name: 7
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 07 00 00 00
+# 
+name: 8
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 08 00 00 00
+# 
+name: 9
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 09 00 00 00
+# 
+name: 100
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0A 00 00 00
+# 
+name: 0
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 00 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0C 00 00 00
+# 
+name: Caption
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 57 00 00 00
+# 
+name: 1_2
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 63 00 00 00
+# 
+name: 16_9
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 54 00 00 00
+# 
+name: Display
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 16 00 00 00
+# 
+name: Dvd_clr
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: EF 00 00 00
+# 
+name: Top_menu
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: DE 00 00 00
+# 
+name: Dvd_menu
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 84 00 00 00
+# 
+name: Mts
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 13 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 15 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 10 00 00 00
+# 
+name: Rew
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 19 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 15 00 00 00
+# 
+name: Ff
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 13 00 00 00
+# 
+name: Tv_vcr
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 11 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 14 00 00 00
+# 
+name: Pause_still
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 10 00 00 00
+# 
+name: Rec
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 18 00 00 00
+# 
+name: Vcr_ch_dn
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 1F 00 00 00
+# 
+name: Vcr_ch_up
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 1B 00 00 00
