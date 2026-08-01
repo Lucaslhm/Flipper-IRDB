@@ -1,0 +1,59 @@
+Filetype: IR signals file
+Version: 1
+#
+# Remko SKM 260 Eco - mobile room air conditioner (2.6 kW, R290)
+# REMKO GmbH & Co. KG, Im Seelenkamp 12-18, 32791 Lage, Germany
+# https://www.remko.de/
+# Original IR remote: REMKO art. 1123214 (fits SKM 250 / 260 / 330 Eco)
+#
+# Protocol: NEC, address 0x20. One discrete command per button.
+# This unit does NOT use state frames - every button is a toggle or a
+# step, so Cool_hi / Cool_lo / Heat_hi / Heat_lo cannot be expressed as
+# single codes. The unit is cool/dry/fan only and has no heating mode.
+# "Off" is the power toggle (also switches the unit on).
+#
+# Found by matching the Flipper universal AC list (the hit is filed there
+# under "Maytag M6X06F2A"), then sweeping NEC address 0x20, commands
+# 0x00-0xFF, against a real SKM 260 Eco. Verified working.
+#
+name: Off
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 02 00 00 00
+#
+# cycles cool / dry / fan
+name: Mode
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 09 00 00 00
+#
+# temperature up, or timer up when timer is active
+name: Temp_up
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0A 00 00 00
+#
+# temperature down, or timer down when timer is active
+name: Temp_dn
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 11 00 00 00
+#
+# timer on/off
+name: Timer
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 19 00 00 00
+#
+# cycles fan speed high / medium / low
+name: Fan
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 1A 00 00 00
+#
