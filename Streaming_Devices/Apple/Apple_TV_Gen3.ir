@@ -48,3 +48,9 @@ type: parsed
 protocol: NECext
 address: EE 87 00 00
 command: 18 37 00 00
+# 
+name: DFU
+type: parsed
+protocol: NECext
+address: EE 87 00 00
+command: 61 72 00 00
