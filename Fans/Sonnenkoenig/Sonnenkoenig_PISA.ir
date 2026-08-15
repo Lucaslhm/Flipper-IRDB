@@ -1,0 +1,35 @@
+Filetype: IR Signals file
+Version: 1
+#
+# Sonnenkönig PISA Tower fan
+# https://www.sonnenkoenig.ch/de/produkte/klima/ventilatoren/s%C3%A4ulenventilator/alias/pisa.html
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00
+command: 62
+#
+name: Speed
+type: parsed
+protocol: NEC
+address: 00
+command: 22
+#
+name: Osc
+type: parsed
+protocol: NEC
+address: 00
+command: C2
+#
+name: Timer
+type: parsed
+protocol: NEC
+address: 00
+command: 68
+#
+name: Mode
+type: parsed
+protocol: NEC
+address: 00
+command: B0
