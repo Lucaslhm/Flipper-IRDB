@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: JVC, Remote Model: RM-STHD227, Device Model: TH-D227B, Device Type: Soundbar
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 53 AC 00 00
+#
+name: Source
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: AD 52 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 26 D9 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 28 D7 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 1B E4 00 00
+#
+name: Prev
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 25 DA 00 00
+#
+name: Play_pause
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 0D F2 00 00
+#
+name: Next
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 27 D8 00 00
+#
+name: Movie
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 08 F7 00 00
+#
+name: Music
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 20 DF 00 00
+#
+name: Custom
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 4D B2 00 00
+#
+name: Bass
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 6D 92 00 00
+#
+name: Treble
+type: parsed
+protocol: NECext
+address: 02 BD 00 00
+command: 6B 94 00 00
