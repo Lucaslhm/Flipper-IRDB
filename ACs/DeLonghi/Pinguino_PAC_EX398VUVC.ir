@@ -1,0 +1,65 @@
+Filetype: IR signals file
+Version: 1
+#
+# DeLonghi Pinguino Arctic Whisper Extreme PAC EX398VUVC Portable AC
+# https://www.delonghi.com/en-us/p/portable-air-conditioners-arctic-whisper-extreme-pac-ex398vuvc-700-sq-ft-portable-air-conditioner-with-uv-c-technology-and-eco-real-feel/PACEX398VUVC-6ALWH.html
+#
+name: POWER
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: 83 7C 00 00
+#
+name: SILENT
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: 86 79 00 00
+#
+name: MODE
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: C1 3E 00 00
+#
+name: ECO
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: 82 7D 00 00
+#
+name: UVC
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: 8A 75 00 00
+#
+name: TEMP-
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: 80 7F 00 00
+#
+name: TEMP+
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: 84 7B 00 00
+#
+name: FAN
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: C0 3F 00 00
+#
+name: TIMER
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: 81 7E 00 00
+#
+name: Swing
+type: parsed
+protocol: NECext
+address: 1F FF 00 00
+command: 85 7A 00 00
