@@ -143,7 +143,7 @@ protocol: NEC
 address: 49 00 00 00
 command: 11 00 00 00
 #
-name: Input Settings
+name: Input Setting
 type: parsed
 protocol: NEC
 address: 49 00 00 00

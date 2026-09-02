@@ -5,6 +5,7 @@ Version: 1
 #
 # https://consolemods.org/wiki/AV:RetroTINK-4K#Remote
 #
+name: Power
 type: parsed
 protocol: NEC
 address: 42 00 00 00
@@ -22,7 +23,7 @@ protocol: NEC
 address: 42 00 00 00
 command: 42 00 00 00
 #
-name: Ok
+name: Enter
 type: parsed
 protocol: NEC
 address: 42 00 00 00
@@ -142,7 +143,7 @@ protocol: NEC
 address: 42 00 00 00
 command: 11 00 00 00
 #
-name: Input Settings
+name: Input Setting
 type: parsed
 protocol: NEC
 address: 42 00 00 00
