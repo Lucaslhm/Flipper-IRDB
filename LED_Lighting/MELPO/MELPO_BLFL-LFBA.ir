@@ -1,0 +1,108 @@
+Filetype: IR signals file
+Version: 1
+#
+# MELPO BLFL-LFBA RGBW floodlight, 50 W, ASIN B08T5XR951, F2-family remote.
+# Reconstructed NEC commands physically tested using a Cardputer ADV.
+# Original remote unavailable; not direct captures. Flipper hardware untested.
+# Power and brightness verified. Scene names matched to F2 manual and behavior.
+# Red/Yellow/Green/Blue are fine wheel adjustments; repeat taps as needed.
+# Store_1 and Store_2 recall editable colors, not fixed color buttons.
+# DIY_FLASH short-press effect tested; long-press programming untested.
+# Source and confidence: https://github.com/wmichelin/melpo-f2-ir
+# License: CC0-1.0
+#
+name: Power_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+#
+name: Power_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+#
+name: White
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
+#
+name: Brightness_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+#
+name: Brightness_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+#
+name: Store_1
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+#
+name: Store_2
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: Red
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+#
+name: Yellow
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
+#
+name: Blue
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+#
+name: Green
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+#
+name: DIY_FLASH
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+#
+name: Smooth
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Cozy
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+#
+name: Fresh
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: Romantic
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
