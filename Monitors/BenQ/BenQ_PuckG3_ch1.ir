@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Dial_press
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: D2 2D 00 00
+# 
+name: Dial_up
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: 91 6E 00 00
+# 
+name: Dial_down
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: 51 AE 00 00
+# 
+name: Return
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: D7 28 00 00
+# 
+name: Loop
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: D3 2C 00 00
+# 
+name: 1
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: D4 2B 00 00
+# 
+name: 2
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: D5 2A 00 00
+# 
+name: 3
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: D6 29 00 00
+# 
+name: Info
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: D8 27 00 00
