@@ -1,0 +1,496 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sharp | category=TVs dtype=2 rid=10582
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Sleep
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Timer
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Ok
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Ch_next
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Ch_prev
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Menu
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Up
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Down
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Left
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Right
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Vol_up
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Vol_dn
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 0
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 1
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 2
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 3
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 4
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 5
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 6
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 7
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 8
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 9
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Mute
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Input
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Back
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Exit
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Last
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Display
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Home
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Play
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Stop
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Pause
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Prev
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Next
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Info
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Red
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Green
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Blue
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Yellow
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 3d
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Video
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 3d_effect
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 3d_brightness
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Guide
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: 3d_surround
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Still
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: CC
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Energy_save
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Radio
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Freeze
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Program_list
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Current_program
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Sound_switch
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Computer
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Teletexttime
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Surround
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Text_reveal
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Teletext
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Intelligence
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: System
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Audio
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Epg
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Action
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Simulation
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: List
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Epg_guide
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Tv_video
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Wide
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Light_control
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Look_back
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Photo
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Aspect
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Color_management
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Return
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Dtv
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Av_mode
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Options_table
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Settings
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Last_ch
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Ext2
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Ext3
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Ext1
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Off
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: On
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Teletexthold
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Teletextzoom
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Mpx
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Textindex
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Inputext4
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Inputext5
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Inputext6
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Inputext7
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Teletextsubpage
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Dual
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Dtvmenu
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Digital_2
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436
+name: Textsize
+type: raw
+frequency: 38180
+duty_cycle: 0.330000
+data: 264 67436

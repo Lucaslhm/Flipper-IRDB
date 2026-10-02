@@ -1,0 +1,386 @@
+Filetype: IR signals file
+Version: 1
+#
+# Proview | category=TVs dtype=2 rid=11992
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Sleep
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Ok
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Ch_next
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Ch_prev
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Menu
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Up
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Down
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Left
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Right
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Vol_up
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Vol_dn
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 0
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 1
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 3
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 4
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 5
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 6
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 7
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 8
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 9
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Mute
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Input
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Back
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Last
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Display
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Home
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Page_up
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Page_down
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Info
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Red
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Green
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Blue
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Yellow
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Picture_mode
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Input_10
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Favorite
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Input_3
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Pip_input
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Computer
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Surround
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Pip_swap
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Text_off
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Text_hold
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Text_mix
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Text_index_bookmark
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Text_reveal
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Text_update
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: 100
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Pc
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Input_4
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Language
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Ok_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Pip_move
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Time
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Channel_list
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Normal
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Into
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Pip_on
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Setup_menu
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Sap
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Tv_dtv
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Text_expand
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Pip_off
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Input_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Input_7
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Input_1
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Text_on
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Setup_menu_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Key
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: External
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Favoritea
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Favoriteb
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Favoritec
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000
+name: Favorited
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 48000

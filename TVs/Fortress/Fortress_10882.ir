@@ -1,0 +1,226 @@
+Filetype: IR signals file
+Version: 1
+#
+# Fortress | category=TVs dtype=2 rid=10882
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Sleep
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Timer
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Ok
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_next
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_prev
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Menu
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Up
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Down
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Left
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Right
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Vol_up
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Vol_dn
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 0
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 1
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 2
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 3
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 4
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 5
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 6
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 7
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 8
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 9
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Mute
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Input
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Back
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Display
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Home
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Page_up
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Page_down
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Pip
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Picture
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Tv
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Swap
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Surround
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Pip_swap
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: 100
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Pip_position
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Ok_2
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Delete
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Look_back
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Channel_input
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Sap
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736
+name: Key
+type: raw
+frequency: 38150
+duty_cycle: 0.330000
+data: 264 66736

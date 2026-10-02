@@ -1,0 +1,201 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sharp | category=TVs dtype=2 rid=2537
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Ch_next
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Ch_prev
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Menu
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Up
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Down
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Left
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Right
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Vol_up
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Vol_dn
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 0
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 1
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 2
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 3
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 4
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 5
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 6
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 7
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 8
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: 9
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Mute
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Input
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Last
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Display
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Pip
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Freeze
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Pip_input
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Swap
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Move
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Surround
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Pip_ch
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Pip_ch_2
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Language
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Entertainment
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Normal
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Ant
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Av_mode
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Key
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
+name: Mpx
+type: raw
+frequency: 37900
+duty_cycle: 0.330000
+data: 264 48130
