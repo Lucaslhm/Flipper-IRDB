@@ -1,0 +1,41 @@
+Filetype: IR signals file
+Version: 1
+#
+# Changhong | category=ACs dtype=5 rid=8606
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 37600
+duty_cycle: 0.330000
+data: 8560 4200
+name: Mode
+type: raw
+frequency: 37600
+duty_cycle: 0.330000
+data: 8560 4200
+name: Temperature_up
+type: raw
+frequency: 37600
+duty_cycle: 0.330000
+data: 8560 4200
+name: Temperature_down
+type: raw
+frequency: 37600
+duty_cycle: 0.330000
+data: 8560 4200
+name: Aux_heat
+type: raw
+frequency: 37600
+duty_cycle: 0.330000
+data: 8560 4200
+name: Fan_speed
+type: raw
+frequency: 37600
+duty_cycle: 0.330000
+data: 8560 4200
+name: Wind_direction
+type: raw
+frequency: 37600
+duty_cycle: 0.330000
+data: 8560 4200
