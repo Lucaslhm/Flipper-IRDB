@@ -1,0 +1,66 @@
+Filetype: IR signals file
+Version: 1
+#
+# Midea | category=Vacuum_Cleaners dtype=14 rid=8326
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100
+name: Up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Left
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Strength
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Automatic_return_charging
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Fixed_point_cleaning
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Automatic_cleaning
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Arch_cleaning
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Along_the_edge_cleaning
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
+name: Random_cleaning_mode
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3010 1100 3010 1100 3010 1100
