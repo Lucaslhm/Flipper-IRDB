@@ -1,0 +1,241 @@
+Filetype: IR signals file
+Version: 1
+#
+# Denon | category=DVD_Players dtype=4 rid=9942
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Mode
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Ok
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Ch_next
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Ch_prev
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Menu
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Up
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Down
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Left
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Right
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Vol_up
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Vol_dn
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 0
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 1
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 2
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 3
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 4
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 5
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 6
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 7
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 8
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: 9
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Mute
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Input
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Display
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Play
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Stop
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Pause
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Stereo
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Tone
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Title
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Blank
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Tune
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Tune_2
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Band
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Srch
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Srch_2
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Skip
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Trk
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Trk_2
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Thx
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Shift
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Direct
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Mem
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Multi
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Analog
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236
+name: Speaker
+type: raw
+frequency: 38050
+duty_cycle: 0.330000
+data: 264 66236

@@ -1,0 +1,196 @@
+Filetype: IR signals file
+Version: 1
+#
+# Denon | category=DVD_Players dtype=4 rid=9962
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Mode
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Ok
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Up
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Down
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Left
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Right
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 0
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 1
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 2
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 3
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 4
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 5
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 6
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 7
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 8
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: 9
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Play
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Stop
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Pause
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Clear
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Sort
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Standby
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Repeat
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Groups
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Srch
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Srch_2
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Trk
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Pgm
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Trk_2
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Trk_3
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Disc
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Disc_2
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Power_on
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Power_off
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Rand
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Rpt_all
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
+name: Discselect
+type: raw
+frequency: 38070
+duty_cycle: 0.330000
+data: 264 66736
