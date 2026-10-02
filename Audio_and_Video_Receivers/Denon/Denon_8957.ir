@@ -1,0 +1,156 @@
+Filetype: IR signals file
+Version: 1
+#
+# Denon | category=Audio_and_Video_Receivers dtype=7 rid=8957
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Mode
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ok
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Up
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Down
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Left
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Right
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vol_up
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vol_dn
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Mute
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Rewind
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Play
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Fast_forward
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Stop
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Pause
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tone
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tuning
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tuning_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: A_d
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Memory
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Search_for
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Search_for_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Band
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dim
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_sel
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Panel
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: On_screen
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vid_sel
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_vol
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_vol_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736

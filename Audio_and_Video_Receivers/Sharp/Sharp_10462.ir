@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+#
+# Sharp | category=Audio_and_Video_Receivers dtype=7 rid=10462
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Sleep
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Vol_up
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Vol_dn
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Rewind
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Play
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Fast_forward
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Stop
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Pause
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Stereo
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Clock
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Fm
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Aux
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Magnetic_tape
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Program_up
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236
+name: Program_down
+type: raw
+frequency: 38020
+duty_cycle: 0.330000
+data: 264 67236

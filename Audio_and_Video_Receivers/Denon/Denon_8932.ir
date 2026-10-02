@@ -1,0 +1,651 @@
+Filetype: IR signals file
+Version: 1
+#
+# Denon | category=Audio_and_Video_Receivers dtype=7 rid=8932
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Mode
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ok
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_next
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_prev
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Up
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Down
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Left
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Right
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vol_up
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vol_dn
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Mute
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Back
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Rewind
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Play
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Fast_forward
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Stop
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Pause
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Prev
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Next
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Media
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tv
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Net
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Radio
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Usb
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: 16_9
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Auto
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Hdmi
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Game
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Network
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Options
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vdp
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dolbydigitalex
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Mode_game
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tuning
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tuning_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dvd
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Sat_cable
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: 4_3
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Fm
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Stereo_direct
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dts_dolby
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Cinema
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Hdmi1
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Hdmi2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Rhapsody
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Spotify
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Sirius_xm
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Media_player
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Internet_radio
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Music
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Net_usb
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Favor1
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Favor2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Favor3
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Favor4
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Music_mode
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Bd
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: A_d
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Cd
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Aux1
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Decoder
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Multi_ch_in
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ipod_play_pause
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Memory
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ipod
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Pandora
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dvd_blu_ray
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Hd_tuner
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Napster
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Net_audio
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Online_music
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tv_audio
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vcr1_ipod
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Xm
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Xm_10_series
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dts_neo_x
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dts_neo6_cinema
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dts_neo6_music
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dts_surround
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Mono_movie
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Multi_chan_stereo
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Party
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Pcm
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Power_off_all_zones
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Power_on_all_zones
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ipod_usb_online_music
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Band
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Aux
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Pro_logic
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Sat
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Power_on
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Power_off
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vcr1
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vcr2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dat
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ld
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Output
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dim
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_sel
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Mode_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: T_tone
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tuner
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Panel
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: On_screen
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Vid_sel
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Rf_auto
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Rec_sel
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_vol
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ch_vol_2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Phono
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Blu_ray
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Night
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Ipod_usb
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Return
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Direct
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Tuner_input
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Cable
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Dolby
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Rock
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Aux2
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: T_v_input
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Play_pause
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Setup_menu
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Inputvaux
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Stereomode
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Puredirect
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Hdmiselect
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
+name: Bluetooth
+type: raw
+frequency: 37910
+duty_cycle: 0.330000
+data: 264 66736
