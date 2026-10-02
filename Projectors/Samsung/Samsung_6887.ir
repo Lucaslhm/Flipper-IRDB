@@ -1,0 +1,101 @@
+Filetype: IR signals file
+Version: 1
+#
+# Samsung | category=Projectors dtype=6 rid=6887
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Ok
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Menu
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Up
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Down
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Left
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Right
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Vol_up
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Vol_dn
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Mute
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Back
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Page_up
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Page_down
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Picture_mode
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Video
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Computer
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Auto_sync
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Resize
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030
+name: Av
+type: raw
+frequency: 36980
+duty_cycle: 0.330000
+data: 264 48030

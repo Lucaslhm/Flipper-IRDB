@@ -1,0 +1,61 @@
+Filetype: IR signals file
+Version: 1
+#
+# Morita | category=Fans dtype=8 rid=8448
+# NOTE: converted locally from a raw IR timing database for review only.
+#
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Ud_wind_mode_swing
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Supper_power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Timer_on
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Timer_off
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Natural_wind
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Human_body_induction
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Less_light
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Fan_speed_up
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Fan_speed_down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
+name: Lr_wind_mode_swing
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3834 1924
