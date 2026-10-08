@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+#
+# Kodak EasyShare EX811 digital picture frame
+# Original remote, P/N 3F9766
+# Captured from the original remote and checked on the frame.
+# Home and Music were confirmed on the frame with generated NEC frames:
+# the Home capture was truncated, Music (opens the music source list) was found by sweeping commands.
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+#
+name: Home
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+#
+name: Music
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+#
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: Play_pause
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 18 00 00 00
+#
+name: Stop
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1C 00 00 00
