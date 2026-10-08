@@ -1,0 +1,85 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: Kmouk
+# Device Model: KM-HSB001
+# Device Type: Soundbar
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+#
+name: BT
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+#
+name: OPT
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+#
+name: AUX
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+#
+name: Prev
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+#
+name: Next
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+#
+name: Play/pause
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1B 00 00 00
+#
+name: MusicMode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+#
+name: GamingMode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1D 00 00 00
+#
+name: MovieMode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1C 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+#
