@@ -1,0 +1,72 @@
+Filetype: IR signals file
+Version: 1
+# Yaber L2S projector - owner-tested with Flipper Zero Momentum and XRemote
+# All 11 commands confirmed working on an L2s; other models unverified
+# NEC protocol, address 02 00 00 00
+# Ok=0x15; Ok_alt=0x16 (both tested as Enter/Submit).
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 14 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 12 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 13 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 11 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 10 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 15 00 00 00
+#
+name: Ok_alt
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 16 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1A 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 48 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 40 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 18 00 00 00
