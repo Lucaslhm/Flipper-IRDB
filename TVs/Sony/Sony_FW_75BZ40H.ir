@@ -22,6 +22,18 @@ protocol: SIRC
 address: 01 00 00 00
 command: 15 00 00 00
 # 
+name: PowerOn
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 2E 00 00 00
+#
+name: PowerOff
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 2F 00 00 00
+#
 name: Hdmi_1
 type: parsed
 protocol: SIRC15
