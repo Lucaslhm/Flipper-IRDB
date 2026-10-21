@@ -1,0 +1,233 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: CHKOSDA
+# Device Model: CH3386_CH3387_CH3389
+# Remote Model: Unknown
+# Device Type: Clock
+# Link: https://www.amazon.com/stores/CHKOSDA/page/56470522-5C71-4E4A-87C5-7E304B0577E7
+# Contributor: Nazhosh
+#
+name: Power
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 00 FF 00 00
+#
+name: Play/Pause
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 21 DE 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 22 DD 00 00
+#
+name: Return
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 01 FE 00 00
+#
+name: 1
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 11 EE 00 00
+#
+name: 2
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 12 ED 00 00
+#
+name: 3
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 13 EC 00 00
+#
+name: 4
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 14 EB 00 00
+#
+name: 5
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 15 EA 00 00
+#
+name: 6
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 16 E9 00 00
+#
+name: 7
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 17 E8 00 00
+#
+name: 8
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 18 E7 00 00
+#
+name: 9
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 19 E6 00 00
+#
+name: 0 12/24
+#Combo button for zero and changing between 12 and 24 hour format displayed
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 10 EF 00 00
+#
+name: Temperature Mode
+#Changes between Centigrade or Fahrenheit 
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 1B E4 00 00
+#
+name: Dim
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 1A E5 00 00
+#
+name: Display
+#Cycles between displaying date, temperature, time, or loop thru each.
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 09 F6 00 00
+#
+name: Countdown Set
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 08 F7 00 00
+#
+name: Sequential
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 06 F9 00 00
+#
+name: Up
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 03 FC 00 00
+#
+name: Time Settting
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 07 F8 00 00
+#
+name: Calender Settting
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 02 FD 00 00
+#
+name: Alarm set
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 05 FA 00 00
+#
+name: Mode
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 04 FB 00 00
+#
+name: Alarm on/off
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 20 DF 00 00
+#
+name: Brightness Up
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 29 D6 00 00
+#
+name: Brightness Down
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 2A D5 00 00
+#
+name: Down
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 0A F5 00 00
+#
+name: Alarm 1
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 24 DB 00 00
+#
+name: Alarm 2
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 25 DA 00 00
+#
+name: Alarm 3
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 26 D9 00 00
+#
+name: Browser Alarms
+#cycles between alarms 01 to 16
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 2B D4 00 00
+#
+name: Flash
+#Flash colon every second on/off
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 23 DC 00 00
+#
+name: Full
+#Tests light and sound of the clock
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 27 D8 00 00
+#
+name: Display 0
+#Turns on and off display of leading zero on the time.
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 28 D7 00 00
+#
+name: Web
+type: parsed
+protocol: NECext
+address: CC 1D 00 00
+command: 40 BF 00 00
+#
