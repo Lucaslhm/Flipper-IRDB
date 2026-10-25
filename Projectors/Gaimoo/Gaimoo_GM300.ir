@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+#
+# Gaimoo GM300 projector (Android TV based mini projector)
+# Original IR remote. Captured with a Broadlink RM4 pro and decoded to NEC (all checksums valid).
+# Power toggles on/standby; a short press while on shows a confirmation dialog.
+# Screen_mirror opens the Transcreen app. Mouse toggles the remote's mouse mode.
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+#
+name: Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+#
+name: Down
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+#
+name: Left
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+#
+name: Right
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+#
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+#
+name: Back
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5C 00 00 00
+#
+name: Home
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 48 00 00 00
+#
+name: Menu
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 13 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0B 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 58 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 01 00 00 00
+#
+name: Source
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 98 00 00 00
+#
+name: Mouse
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 82 00 00 00
+#
+name: Screen_mirror
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 93 00 00 00
+#
+# Power held for ~1.5 s: turns the projector off without the confirmation dialog (NEC 0x00/0x14 + repeat frames)
+name: Power_hold
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9457 4761 558 624 558 624 591 624 525 657 558 624 591 624 558 657 525 624 558 1839 525 1839 591 1806 558 1839 525 1839 558 1839 525 1839 591 1839 460 657 591 624 525 1839 558 657 525 1839 558 624 591 624 558 624 558 1839 558 1806 558 624 558 1839 525 657 591 1806 525 1872 525 1839 525 41736 9424 2463 525 101138 9457 2430 591 101138 9490 2397 525 101171 9424 2463 558 101203 9457 2430 558 101171 9457 2430 558 101171 9424 2463 558 101138 9490 2430 558 101105 9424 2430 558 101171 9424 2430 591 101138 9424 2430 525 101171 9457 2430 525 101203 9490 2397 558
