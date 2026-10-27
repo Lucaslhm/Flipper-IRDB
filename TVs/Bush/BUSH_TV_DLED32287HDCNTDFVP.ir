@@ -131,13 +131,13 @@ protocol: RC5
 address: 01 00 00 00
 command: 31 00 00 00
 # 
-name: Fast_fo
+name: Fwd
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 1C 00 00 00
 # 
-name: Fast_ba
+name: Rwd
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -281,7 +281,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 3C 00 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: RC5
 address: 01 00 00 00

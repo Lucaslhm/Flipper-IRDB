@@ -7,7 +7,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: E6 00 00 00
 # 
-name: Source
+name: Input
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -31,43 +31,43 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: Menu_left
+name: Left
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: Menu_up
+name: Up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 60 00 00 00
 # 
-name: Menu_right
+name: Right
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 # 
-name: Menu_down
+name: Down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 # 
-name: Menu_back
+name: Back
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 58 00 00 00
 # 
-name: Menu_home
+name: Home
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 79 00 00 00
 # 
-name: Menu_enter
+name: Ok
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

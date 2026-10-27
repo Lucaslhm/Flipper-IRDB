@@ -153,7 +153,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: Ok_enter
+name: Ok
 type: parsed
 protocol: RC5
 address: 01 00 00 00

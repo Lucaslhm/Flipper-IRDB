@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: Powa
+name: Power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -139,13 +139,13 @@ protocol: NECext
 address: 00 BF 00 00
 command: 43 BC 00 00
 # 
-name: Chanel_up
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: Chanel_down
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -175,12 +175,6 @@ protocol: NECext
 address: 00 BF 00 00
 command: 48 B7 00 00
 # 
-name: Ok
-type: parsed
-protocol: NECext
-address: 00 BF 00 00
-command: 15 EA 00 00
-# 
 name: Up
 type: parsed
 protocol: NECext
@@ -205,11 +199,11 @@ protocol: NECext
 address: 00 BF 00 00
 command: 18 E7 00 00
 # 
-name: Blue
+name: Ok
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
-command: 55 AA 00 00
+command: 15 EA 00 00
 # 
 name: Red
 type: parsed
@@ -229,6 +223,12 @@ protocol: NECext
 address: 00 BF 00 00
 command: 54 AB 00 00
 # 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 55 AA 00 00
+# 
 name: Rec
 type: parsed
 protocol: NECext
@@ -247,7 +247,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 5D A2 00 00
 # 
-name: Backward
+name: Rwd
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -259,13 +259,13 @@ protocol: NECext
 address: 00 BF 00 00
 command: 1E E1 00 00
 # 
-name: Forward
+name: Fwd
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 56 A9 00 00
 # 
-name: Previous
+name: Prev
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

@@ -113,7 +113,13 @@ protocol: NECext
 address: 86 05 00 00
 command: 14 EB 00 00
 # 
-name: Guide_home
+name: Guide
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 45 BA 00 00
+# 
+name: Home
 type: parsed
 protocol: NECext
 address: 86 05 00 00
@@ -161,7 +167,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 1D E2 00 00
 # 
-name: Rev
+name: Rwd
 type: parsed
 protocol: NECext
 address: 86 05 00 00

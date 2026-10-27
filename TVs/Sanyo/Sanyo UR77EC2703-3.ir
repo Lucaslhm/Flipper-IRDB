@@ -27,25 +27,25 @@ protocol: NEC
 address: 38 00 00 00
 command: 18 00 00 00
 # 
-name: Vol Up
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 0E 00 00 00
 # 
-name: Vol Down
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 0F 00 00 00
 # 
-name: Ch Up
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 0A 00 00 00
 # 
-name: Ch Down
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 38 00 00 00
@@ -177,7 +177,7 @@ protocol: NEC
 address: 38 00 00 00
 command: 1E 00 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: NEC
 address: 38 00 00 00

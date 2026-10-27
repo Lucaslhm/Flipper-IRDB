@@ -99,13 +99,13 @@ protocol: NEC
 address: 40 00 00 00
 command: 68 00 00 00
 # 
-name: FF
+name: Fwd
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 6B 00 00 00
 # 
-name: RW
+name: Rwd
 type: parsed
 protocol: NEC
 address: 40 00 00 00

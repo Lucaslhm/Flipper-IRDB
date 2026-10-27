@@ -37,7 +37,8 @@ protocol: RC5
 address: 00 00 00 00
 command: 10 00 00 00
 #
-name: Power_Off
+# Only turns the TV off.
+name: Power
 type: parsed
 protocol: RC5
 address: 00 00 00 00

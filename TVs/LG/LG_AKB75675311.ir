@@ -195,7 +195,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
-name: Dn
+name: Dowwn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -255,31 +255,31 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: Ffd
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8E 00 00 00
 # 
-name: Red_1
+name: Red
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 72 00 00 00
 # 
-name: Green_2
+name: Green
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 71 00 00 00
 # 
-name: Yellow_3
+name: Yellow
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 63 00 00 00
 # 
-name: Blue_4
+name: Blue
 type: parsed
 protocol: NEC
 address: 04 00 00 00

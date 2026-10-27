@@ -184,13 +184,13 @@ protocol: Samsung32
 address: 3E 00 00 00
 command: 0F 00 00 00
 #
-name: Rewind
+name: Rwd
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: 40 00 00 00
 #
-name: Forward
+name: Fwd
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
@@ -214,25 +214,25 @@ protocol: Samsung32
 address: 3E 00 00 00
 command: 4A 00 00 00
 #
-name: R
+name: Red
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: A0 00 00 00
 #
-name: G
+name: Green
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: A1 00 00 00
 #
-name: Y
+name: Yellow
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00
 command: A2 00 00 00
 #
-name: B
+name: Blue
 type: parsed
 protocol: Samsung32
 address: 3E 00 00 00

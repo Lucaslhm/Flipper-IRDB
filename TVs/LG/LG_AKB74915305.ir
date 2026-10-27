@@ -3,7 +3,7 @@ Version: 1
 # 
 # LG AKB74915305 TV
 #
-name: POWER
+name: Power
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -33,7 +33,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 78 00 00 00
 # 
-name: TV
+name: Tv
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -111,31 +111,31 @@ protocol: NEC
 address: 04 00 00 00
 command: 1A 00 00 00
 # 
-name: VOL Up
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: VOL DWN
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: Chan Up
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: Chan Down
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: FAV
+name: Fav
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -183,31 +183,31 @@ protocol: NEC
 address: 04 00 00 00
 command: AF 00 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 41 00 00 00
 # 
-name: LEFT
+name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 # 
-name: RIGHT
+name: Right
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -237,13 +237,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 0E 00 00 00
 # 
-name: STOP
+name: Stop
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: B1 00 00 00
 # 
-name: REWIND
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -261,7 +261,7 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: FAST FORWARD
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00

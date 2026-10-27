@@ -129,7 +129,7 @@ protocol: NEC
 address: 50 00 00 00
 command: 72 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: NEC
 address: 50 00 00 00
@@ -201,13 +201,13 @@ protocol: NEC
 address: 50 00 00 00
 command: 52 00 00 00
 # 
-name: Rr
+name: Rew
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 45 00 00 00
 # 
-name: Ff
+name: Fwd
 type: parsed
 protocol: NEC
 address: 50 00 00 00

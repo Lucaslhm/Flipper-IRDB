@@ -82,7 +82,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 2E 00 00 00
 # 
-name: Source
+name: Input
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -250,7 +250,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 0B 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -268,7 +268,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 19 00 00 00
 # 
-name: F_forward
+name: Fwd
 type: parsed
 protocol: RC5
 address: 01 00 00 00

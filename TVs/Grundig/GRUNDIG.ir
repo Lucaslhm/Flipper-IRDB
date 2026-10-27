@@ -69,7 +69,7 @@ protocol: RC5
 address: 00 00 00 00
 command: 13 00 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: RC5
 address: 00 00 00 00

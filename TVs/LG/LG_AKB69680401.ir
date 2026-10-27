@@ -115,19 +115,19 @@ protocol: NEC
 address: 04 00 00 00
 command: 41 00 00 00
 # 
-name: Right
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 06 00 00 00
-# 
 name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 # 
-name: Enter
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+# 
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -151,13 +151,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 # 
-name: Chann_up
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: Chann_down
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -181,19 +181,37 @@ protocol: NEC
 address: 04 00 00 00
 command: 72 00 00 00
 # 
-name: Green_stop
+name: Green
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 71 00 00 00
 # 
-name: Yell_play
+name: Yellow
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 63 00 00 00
 # 
-name: Blue_pause
+name: Blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 71 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+# 
+name: Pause
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -205,13 +223,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 45 00 00 00
 # 
-name: Reverse
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8F 00 00 00
 # 
-name: Forward
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00

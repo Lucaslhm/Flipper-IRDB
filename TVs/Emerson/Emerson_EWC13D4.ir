@@ -170,13 +170,13 @@ protocol: NECext
 address: 87 22 00 00
 command: 60 9F 00 00
 # 
-name: Fast_ba
+name: Rwd
 type: parsed
 protocol: NECext
 address: 87 22 00 00
 command: 52 AD 00 00
 # 
-name: Fast_fo
+name: Fwd
 type: parsed
 protocol: NECext
 address: 87 22 00 00

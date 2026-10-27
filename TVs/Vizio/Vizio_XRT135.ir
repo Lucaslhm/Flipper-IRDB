@@ -21,7 +21,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 46 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -69,25 +69,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 03 00 00 00
 # 
-name: Chan_up
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
-name: Chan_down
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 01 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: NEC
 address: 04 00 00 00

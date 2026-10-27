@@ -3,49 +3,49 @@ Version: 1
 #
 # TCL Roku TV Remote US by socks
 #
-name: Power_tcl
+name: Power
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 17 E8 00 00
 # 
-name: Back_tcl
+name: Back
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 66 99 00 00
 # 
-name: Home_tcl
+name: Home
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 03 FC 00 00
 # 
-name: Left_tcl
+name: Left
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 1E E1 00 00
 # 
-name: Up_tcl
+name: Up
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 19 E6 00 00
 # 
-name: Right_tcl
+name: Right
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 2D D2 00 00
 # 
-name: Down_tcl
+name: Down
 type: parsed
 protocol: NECext
 address: EA C7 00 00
 command: 33 CC 00 00
 # 
-name: Select_tcl
+name: Ok
 type: parsed
 protocol: NECext
 address: EA C7 00 00

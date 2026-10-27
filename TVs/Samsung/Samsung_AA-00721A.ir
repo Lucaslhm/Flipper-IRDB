@@ -76,7 +76,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 11 00 00 00
 # 
-name: Pre_ch
+name: Prev_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -166,7 +166,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
 # 
-name: Entry
+name: Ok
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -244,7 +244,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 46 00 00 00
 # 
-name: Rew
+name: Rwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -262,7 +262,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4A 00 00 00
 # 
-name: Forw
+name: Fwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

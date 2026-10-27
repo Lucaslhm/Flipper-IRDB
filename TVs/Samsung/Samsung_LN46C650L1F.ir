@@ -69,7 +69,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 62 00 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

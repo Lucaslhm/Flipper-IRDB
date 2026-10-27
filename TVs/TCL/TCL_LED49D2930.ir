@@ -99,7 +99,7 @@ protocol: RCA
 address: 0F 00 00 00
 command: 0C 00 00 00
 # 
-name: Source
+name: Input
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
@@ -123,25 +123,25 @@ protocol: RCA
 address: 0F 00 00 00
 command: 60 00 00 00
 # 
-name: Arrow_up
+name: Up
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 9A 00 00 00
 # 
-name: Arrow_down
+name: Down
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 1A 00 00 00
 # 
-name: Arrow_left
+name: Left
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 6A 00 00 00
 # 
-name: Arrow_right
+name: Right
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
@@ -153,7 +153,7 @@ protocol: RCA
 address: 0F 00 00 00
 command: 2F 00 00 00
 # 
-name: Option
+name: Settings
 type: parsed
 protocol: RCA
 address: 0F 00 00 00

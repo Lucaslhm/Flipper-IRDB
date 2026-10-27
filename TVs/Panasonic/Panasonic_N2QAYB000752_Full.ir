@@ -94,7 +94,7 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: F0 00 00 00
 #
-name: Option
+name: Settings
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
@@ -197,10 +197,10 @@ address: 80 02 20 00
 command: 30 01 00 00
 #
 name: 5
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 3476 1736 453 421 444 1302 449 424 451 421 444 429 446 427 448 425 450 422 453 420 445 428 447 426 449 423 452 421 444 1302 449 424 451 422 453 419 446 427 448 425 450 423 452 420 445 428 447 426 449 1297 443 429 446 427 448 424 451 422 453 419 446 428 447 425 450 423 452 420 445 428 447 1299 452 421 444 1302 449 424 451 422 453 420 445 428 447 425 450 1296 444 428 447 1299 452 421 444 429 446 1300 451
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 01 00 00
 #
 name: 6
 type: parsed
@@ -267,12 +267,6 @@ type: parsed
 protocol: Kaseikyo
 address: 80 02 20 00
 command: 50 03 00 00
-#
-name: Power2
-type: parsed
-protocol: Kaseikyo
-address: B0 02 20 00
-command: D0 03 00 00
 #
 name: P_down
 type: parsed

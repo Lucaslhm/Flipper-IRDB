@@ -75,62 +75,61 @@ protocol: NECext
 address: 83 7A 00 00
 command: 1C 00 00 00
 #
-#
-name: Num0
+name: 0
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 10 00 00 00
 #
-name: Num1
+name: 1
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 11 00 00 00
 #
-name: Num2
+name: 2
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 12 00 00 00
 #
-name: Num3
+name: 3
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 13 00 00 00
 #
-name: Num4
+name: 4
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 14 00 00 00
 #
-name: Num5
+name: 5
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 15 00 00 00
 #
-name: Num6
+name: 6
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 16 00 00 00
 #
-name: Num7
+name: 7
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 17 00 00 00
 #
-name: Num8
+name: 8
 type: parsed
 protocol: NECext
 address: 83 7A 00 00
 command: 18 00 00 00
 #
-name: Num9
+name: 9
 type: parsed
 protocol: NECext
 address: 83 7A 00 00

@@ -67,7 +67,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 45 BA 00 00
 #
-name: Enter
+name: Ok
 type: parsed
 protocol: NECext
 address: 86 05 00 00
@@ -79,7 +79,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 42 BD 00 00
 #
-name: Dn
+name: Down
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

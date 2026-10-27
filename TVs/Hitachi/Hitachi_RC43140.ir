@@ -169,7 +169,7 @@ protocol: RC5
 address: 03 00 00 00
 command: 34 00 00 00
 # 
-name: Rew
+name: Rwd
 type: parsed
 protocol: RC5
 address: 03 00 00 00

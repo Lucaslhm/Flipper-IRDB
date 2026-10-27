@@ -201,7 +201,7 @@ protocol: NEC
 address: 08 00 00 00
 command: 8A 00 00 00
 # 
-name: Ch-list
+name: Ch_list
 type: parsed
 protocol: NEC
 address: 08 00 00 00
@@ -249,7 +249,7 @@ protocol: NEC
 address: 08 00 00 00
 command: 93 00 00 00
 # 
-name: Play/pause
+name: Play_pause
 type: parsed
 protocol: NEC
 address: 08 00 00 00

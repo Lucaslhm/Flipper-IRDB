@@ -57,7 +57,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00

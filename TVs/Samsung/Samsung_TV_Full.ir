@@ -61,7 +61,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 65 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -79,7 +79,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4a 00 00 00
 # 
-name: Play/pause
+name: Play_pause
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

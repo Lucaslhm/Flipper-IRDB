@@ -219,7 +219,7 @@ protocol: Kaseikyo
 address: 81 02 20 00
 command: 30 00 00 00
 #
-name: Rr
+name: Rwd
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
@@ -231,7 +231,7 @@ protocol: Kaseikyo
 address: 89 02 20 03
 command: 00 00 00 00
 #
-name: Ff
+name: Fwd
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03

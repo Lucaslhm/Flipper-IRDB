@@ -19,7 +19,7 @@ protocol: NECext
 address: EA C7 00 00
 command: 10 EF 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: NECext
 address: EA C7 00 00

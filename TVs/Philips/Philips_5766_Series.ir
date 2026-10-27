@@ -13,13 +13,13 @@ protocol: RC6
 address: 00 00 00 00
 command: CC 00 00 00
 # 
-name: Prevch
+name: Prev_ch
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 9F 00 00 00
 # 
-name: Options
+name: Settings
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -79,7 +79,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 11 00 00 00
 # 
-name: Imput
+name: Input
 type: parsed
 protocol: RC6
 address: 00 00 00 00

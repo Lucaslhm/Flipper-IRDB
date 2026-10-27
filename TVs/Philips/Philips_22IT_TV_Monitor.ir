@@ -15,13 +15,13 @@ protocol: NECext
 address: 00 BD 00 00
 command: 08 F7 00 00
 # 
-name: UP
+name: Up
 type: parsed
 protocol: NECext
 address: 00 BD 00 00
 command: 0B F4 00 00
 # 
-name: DOWN
+name: Down
 type: parsed
 protocol: NECext
 address: 00 BD 00 00
@@ -39,37 +39,37 @@ protocol: NECext
 address: 00 BD 00 00
 command: 4A B5 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: NECext
 address: 00 BD 00 00
 command: 0D F2 00 00
 # 
-name: Vol_UP
+name: Vol_up
 type: parsed
 protocol: NECext
 address: 00 BD 00 00
 command: 0C F3 00 00
 # 
-name: Vol_Down
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 BD 00 00
 command: 10 EF 00 00
 # 
-name: MENU
+name: Menu
 type: parsed
 protocol: NECext
 address: 00 BD 00 00
 command: 0A F5 00 00
 # 
-name: Ch_Next
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 BD 00 00
 command: 18 E7 00 00
 # 
-name: Ch_Prev
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 BD 00 00

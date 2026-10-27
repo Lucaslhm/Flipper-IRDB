@@ -37,7 +37,19 @@ protocol: NEC
 address: 01 00 00 00
 command: 1A 00 00 00
 # 
-name: Sel
+name: Left
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1B 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1C 00 00 00
+# 
+name: OK
 type: parsed
 protocol: NEC
 address: 01 00 00 00
@@ -54,18 +66,6 @@ type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 0D 00 00 00
-# 
-name: Right
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 1C 00 00 00
-# 
-name: Left
-type: parsed
-protocol: NEC
-address: 01 00 00 00
-command: 1B 00 00 00
 # 
 name: Menu
 type: parsed

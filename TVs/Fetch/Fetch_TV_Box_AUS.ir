@@ -8,8 +8,9 @@ type: parsed
 protocol: NECext
 address: 64 46 00 00
 command: 5D A2 00 00
-# 
-name: TV Power
+#
+# TV Power
+name: Tv
 type: parsed
 protocol: NECext
 address: 64 46 00 00
@@ -39,7 +40,7 @@ protocol: NECext
 address: 64 46 00 00
 command: DE 21 00 00
 # 
-name: TV Guide
+name: Guide
 type: parsed
 protocol: NECext
 address: 64 46 00 00
@@ -213,19 +214,19 @@ protocol: NECext
 address: 64 46 00 00
 command: 38 C7 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NECext
 address: 64 46 00 00
 command: DD 22 00 00
 # 
-name: Play Pause
+name: Play_pause
 type: parsed
 protocol: NECext
 address: 64 46 00 00
 command: DA 25 00 00
 # 
-name: FastForward
+name: Fwd
 type: parsed
 protocol: NECext
 address: 64 46 00 00
@@ -237,7 +238,7 @@ protocol: NECext
 address: 64 46 00 00
 command: CD 32 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: NECext
 address: 64 46 00 00

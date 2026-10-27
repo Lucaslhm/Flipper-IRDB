@@ -93,17 +93,17 @@ protocol: NEC
 address: 04 00 00 00
 command: 19 00 00 00
 # 
-name: List
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 4C 00 00 00
-# 
 name: 0
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 10 00 00 00
+# 
+name: List
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4C 00 00 00
 # 
 name: Flashback
 type: parsed
@@ -117,6 +117,12 @@ protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 # 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
 name: Fav
 type: parsed
 protocol: NEC
@@ -129,29 +135,23 @@ protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 # 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+# 
 name: Guide
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: AB 00 00 00
 # 
-name: Vol_dn
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 03 00 00 00
-# 
 name: Mute
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
-# 
-name: Ch_prev
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 01 00 00 00
 # 
 name: Picture
 type: parsed
@@ -183,11 +183,11 @@ protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
-name: Q Menu
+name: Down
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 45 00 00 00
+command: 41 00 00 00
 # 
 name: Left
 type: parsed
@@ -195,17 +195,17 @@ protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 # 
-name: Ok
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 44 00 00 00
-# 
 name: Right
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
 # 
 name: Back
 type: parsed
@@ -213,17 +213,17 @@ protocol: NEC
 address: 04 00 00 00
 command: 28 00 00 00
 # 
-name: Down
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 41 00 00 00
-# 
 name: Exit
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 5B 00 00 00
+# 
+name: Q Menu
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 45 00 00 00
 # 
 name: SAP
 type: parsed
@@ -243,7 +243,7 @@ protocol: NEC
 address: 04 00 00 00
 command: B1 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -261,7 +261,7 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: Fast Forward
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00

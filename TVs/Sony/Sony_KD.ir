@@ -61,7 +61,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 23 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

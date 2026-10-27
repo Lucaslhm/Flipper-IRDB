@@ -166,7 +166,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 33 00 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -244,7 +244,7 @@ protocol: SIRC15
 address: C4 00 00 00
 command: 4D 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
@@ -256,13 +256,13 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 1A 00 00 00
 # 
-name: Fastforward
+name: Fwd
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 1C 00 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00

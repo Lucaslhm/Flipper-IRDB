@@ -45,12 +45,6 @@ protocol: NECext
 address: 86 05 00 00
 command: 1D E2 00 00
 # 
-name: Ok
-type: parsed
-protocol: NECext
-address: 86 05 00 00
-command: 18 E7 00 00
-# 
 name: Up
 type: parsed
 protocol: NECext
@@ -74,6 +68,12 @@ type: parsed
 protocol: NECext
 address: 86 05 00 00
 command: 15 EA 00 00
+# 
+name: Ok
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 18 E7 00 00
 # 
 name: Exit
 type: parsed

@@ -19,7 +19,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 14 00 00 00
 #
-name: Center
+name: Ok
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -61,13 +61,13 @@ protocol: SIRC
 address: 01 00 00 00
 command: 13 00 00 00
 #
-name: Chn_up
+name: Ch_next
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
 command: 10 00 00 00
 #
-name: Chn_down
+name: Ch_prev
 type: parsed
 protocol: SIRC
 address: 01 00 00 00

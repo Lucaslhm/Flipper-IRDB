@@ -27,29 +27,29 @@ protocol: NECext
 address: 02 7D 00 00
 command: 4B B4 00 00
 # 
-name: Arrow_up
+name: Up
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 48 B7 00 00
 # 
-name: Arrow_down
+name: Down
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4D B2 00 00
 # 
-name: Arrow_right
-type: parsed
-protocol: NECext
-address: 02 7D 00 00
-command: 49 B6 00 00
-# 
-name: Arrow_left
+name: Left
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4E B1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 49 B6 00 00
 # 
 name: Ok
 type: parsed

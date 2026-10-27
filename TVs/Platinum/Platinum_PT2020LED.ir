@@ -64,7 +64,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 0E F1 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

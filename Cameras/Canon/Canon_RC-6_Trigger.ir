@@ -40,7 +40,7 @@ Version: 1
 # EOS M6
 # EOS M5
 #
-name: Trigger
+name: Shutter
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

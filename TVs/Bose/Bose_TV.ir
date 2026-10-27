@@ -3,7 +3,7 @@ Version: 1
 # 
 # For Bose TV
 # 
-name: On_off
+name: Power
 type: parsed
 protocol: NECext
 address: BA A0 00 00

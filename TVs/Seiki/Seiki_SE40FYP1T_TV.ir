@@ -3,7 +3,7 @@ Version: 1
 #
 # Seiki SE40FYP1T TV
 #
-name: Power_seiki
+name: Power
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -136,10 +136,10 @@ address: 02 7D 00 00
 command: 04 FB 00 00
 #
 name: 5
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 9092 4355 685 435 685 1554 684 437 631 490 631 490 631 490 631 490 631 496 630 1609 630 492 629 1613 650 1612 626 1613 626 1614 625 1615 624 502 625 1615 625 497 624 1615 624 497 624 497 624 497 624 497 624 503 624 497 624 1615 624 497 624 1615 624 1615 624 1615 624 1615 624 1615 624 41036 9034 2177 625
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 05 FA 00 00
 #
 name: 6
 type: parsed
@@ -201,7 +201,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 5F A0 00 00
 #
-name: Channel_list
+name: Ch_list
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

@@ -99,7 +99,7 @@ protocol: NEC
 address: 38 00 00 00
 command: 4B 00 00 00
 #
-name: Pre_ch
+name: Prev_ch
 type: parsed
 protocol: NEC
 address: 38 00 00 00
@@ -129,7 +129,7 @@ protocol: NEC
 address: 38 00 00 00
 command: 1C 00 00 00
 #
-name: Source
+name: Input
 type: parsed
 protocol: NEC
 address: 38 00 00 00
@@ -195,7 +195,7 @@ protocol: NEC
 address: 38 00 00 00
 command: 0A 00 00 00
 #
-name: Last_track
+name: Rwd
 type: parsed
 protocol: NEC
 address: 38 00 00 00
@@ -207,13 +207,13 @@ protocol: NEC
 address: 38 00 00 00
 command: 4D 00 00 00
 #
-name: Play/pause
+name: Play_pause
 type: parsed
 protocol: NEC
 address: 38 00 00 00
 command: 4E 00 00 00
 #
-name: Next_track
+name: Fwd
 type: parsed
 protocol: NEC
 address: 38 00 00 00

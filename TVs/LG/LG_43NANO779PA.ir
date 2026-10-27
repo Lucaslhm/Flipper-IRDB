@@ -109,7 +109,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 7C 00 00 00
 # 
-name: Eingangsquelle
+name: Input
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -151,25 +151,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 43 00 00 00
 # 
-name: Red_button
+name: Red
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 72 00 00 00
 # 
-name: Green_button
+name: Green
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 71 00 00 00
 # 
-name: Yellow_button
+name: Yellow
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 63 00 00 00
 # 
-name: Blue_button
+name: Blue
 type: parsed
 protocol: NEC
 address: 04 00 00 00

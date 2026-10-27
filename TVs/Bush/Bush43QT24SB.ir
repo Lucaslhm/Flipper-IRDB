@@ -27,7 +27,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 0D 00 00 00
 # 
-name: Home_menu
+name: Home
 type: parsed
 protocol: RC5
 address: 01 00 00 00

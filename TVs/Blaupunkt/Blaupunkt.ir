@@ -61,7 +61,7 @@ protocol: NECext
 address: 00 7F 00 00
 command: 05 FA 00 00
 # 
-name: Tv_guide
+name: Guide
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

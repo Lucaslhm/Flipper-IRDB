@@ -91,7 +91,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 4B 00 00 00
 # 
-name: Options
+name: Settings
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -109,7 +109,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 38 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -127,13 +127,13 @@ protocol: RC6
 address: 00 00 00 00
 command: 30 00 00 00
 # 
-name: Fastforward
+name: Fwd
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 28 00 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: RC6
 address: 00 00 00 00

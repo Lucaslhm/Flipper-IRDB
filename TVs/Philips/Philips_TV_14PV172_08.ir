@@ -70,19 +70,19 @@ protocol: RC5X
 address: 00 00 00 00
 command: 17 00 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: RC5
 address: 05 00 00 00
 command: 37 00 00 00
 # 
-name: Forward
+name: Fwd
 type: parsed
 protocol: RC5
 address: 05 00 00 00
 command: 26 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: RC5
 address: 05 00 00 00
@@ -142,61 +142,61 @@ protocol: RC5
 address: 05 00 00 00
 command: 31 00 00 00
 # 
-name: Rc5_01
+name: 1
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 01 00 00 00
 # 
-name: Rc5_02
+name: 2
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 02 00 00 00
 # 
-name: Rc5_03
+name: 3
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 03 00 00 00
 # 
-name: Rc5_04
+name: 4
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 04 00 00 00
 # 
-name: Rc5_05
+name: 5
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 05 00 00 00
 # 
-name: Rc5_06
+name: 6
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 06 00 00 00
 # 
-name: Rc5_07
+name: 7
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 07 00 00 00
 # 
-name: Rc5_08
+name: 8
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 08 00 00 00
 # 
-name: Rc5_09
+name: 9
 type: parsed
 protocol: RC5
 address: 00 00 00 00
 command: 09 00 00 00
 # 
-name: Rc5_00
+name: 0
 type: parsed
 protocol: RC5
 address: 00 00 00 00

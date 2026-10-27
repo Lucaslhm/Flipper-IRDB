@@ -27,12 +27,6 @@ protocol: NECext
 address: 00 BF 00 00
 command: 48 B7 00 00
 #
-name: Ok
-type: parsed
-protocol: NECext
-address: 00 BF 00 00
-command: 15 EA 00 00
-#
 name: Up
 type: parsed
 protocol: NECext
@@ -57,19 +51,25 @@ protocol: NECext
 address: 00 BF 00 00
 command: 18 E7 00 00
 #
-name: Fast_fo
+name: Ok
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+#
+name: Fwd
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 59 A6 00 00
 #
-name: Fast_ba
+name: Rwd
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 58 A7 00 00
 #
-name: Play_pa
+name: Play_pause
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

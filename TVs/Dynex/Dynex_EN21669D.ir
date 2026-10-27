@@ -159,7 +159,7 @@ protocol: NECext
 address: 86 05 00 00
 command: 16 E9 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: NECext
 address: 86 05 00 00

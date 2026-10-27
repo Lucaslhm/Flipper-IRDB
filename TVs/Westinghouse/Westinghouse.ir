@@ -25,25 +25,25 @@ protocol: NECext
 address: 02 7D 00 00
 command: 48 B7 00 00
 # 
-name: Dwn
+name: Down
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4D B2 00 00
 # 
-name: Rt
+name: Right
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 49 B6 00 00
 # 
-name: Lft
+name: Left
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4E B1 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

@@ -106,13 +106,13 @@ protocol: RC6
 address: 00 00 00 00
 command: 54 00 00 00
 # 
-name: Tv_guide
+name: Guide
 type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: CC 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -124,7 +124,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 2C 00 00 00
 # 
-name: Fast_forward
+name: Fwd
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -142,7 +142,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 30 00 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: RC6
 address: 00 00 00 00

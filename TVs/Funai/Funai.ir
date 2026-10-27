@@ -124,6 +124,12 @@ protocol: NECext
 address: 84 E0 00 00
 command: 73 8C 00 00
 #
+name: Down
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 74 8B 00 00
+#
 name: Left
 type: parsed
 protocol: NECext
@@ -141,12 +147,6 @@ type: parsed
 protocol: NECext
 address: 84 E0 00 00
 command: 77 88 00 00
-#
-name: Down
-type: parsed
-protocol: NECext
-address: 84 E0 00 00
-command: 74 8B 00 00
 #
 name: Menu
 type: parsed
@@ -220,7 +220,7 @@ protocol: NECext
 address: 84 E0 00 00
 command: 7C 83 00 00
 #
-name: Previous
+name: Prev
 type: parsed
 protocol: NECext
 address: 84 E0 00 00
@@ -250,7 +250,7 @@ protocol: NECext
 address: 84 E0 00 00
 command: E6 19 00 00
 #
-name: Forward
+name: Fwd
 type: parsed
 protocol: NECext
 address: 84 E0 00 00

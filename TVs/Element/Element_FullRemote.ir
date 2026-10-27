@@ -121,29 +121,29 @@ protocol: NECext
 address: 02 7D 00 00
 command: 4B B4 00 00
 # 
-name: Arrow_up
+name: Up
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 48 B7 00 00
 # 
-name: Arrow_left
+name: Down
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4D B2 00 00
+# 
+name: Left
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4E B1 00 00
 # 
-name: Arrow_right
+name: Right
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 49 B6 00 00
-# 
-name: Arrow_down
-type: parsed
-protocol: NECext
-address: 02 7D 00 00
-command: 4D B2 00 00
 # 
 name: Ok
 type: parsed
@@ -199,7 +199,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 5A A5 00 00
 # 
-name: Previous
+name: Prev
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -217,7 +217,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 1A E5 00 00
 # 
-name: Rewind
+name: Fwd
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 17 E8 00 00
+# 
+name: Rwd
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -228,12 +234,6 @@ type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 5B A4 00 00
-# 
-name: Fast_forward
-type: parsed
-protocol: NECext
-address: 02 7D 00 00
-command: 17 E8 00 00
 # 
 name: Info
 type: parsed
@@ -247,7 +247,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 40 BF 00 00
 # 
-name: Add/erase
+name: Add_erase
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

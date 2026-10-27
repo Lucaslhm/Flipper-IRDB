@@ -9,7 +9,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: Source
+name: Input
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -81,7 +81,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 11 00 00 00
 # 
-name: Pre-Ch
+name: Prev_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -111,7 +111,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: Ch List
+name: Ch_list
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -135,7 +135,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 1A 00 00 00
 # 
-name: Fav Ch
+name: Fav_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -249,13 +249,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 3E 00 00 00
 # 
-name: CC
+name: Cc
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 25 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -267,13 +267,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4A 00 00 00
 # 
-name: Fast Forward
+name: Fwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 48 00 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

@@ -261,13 +261,13 @@ protocol: NEC
 address: 01 00 00 00
 command: 4B 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NEC
 address: 01 00 00 00
 command: 42 00 00 00
 # 
-name: F-forward
+name: Fwd
 type: parsed
 protocol: NEC
 address: 01 00 00 00

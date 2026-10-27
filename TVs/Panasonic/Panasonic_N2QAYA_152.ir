@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 #
-#Panasonix - N2QAYA000152
+# Panasonix - N2QAYA000152
 #
 name: Power
 type: parsed
@@ -70,10 +70,10 @@ address: 80 02 20 01
 command: 00 03 00 00
 #
 name: Green
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 3518 1770 421 453 427 1326 424 449 421 453 417 457 423 456 424 449 421 453 417 457 423 457 423 450 420 453 427 447 423 1330 420 454 426 453 427 446 424 450 420 455 425 455 425 448 422 452 418 456 424 1329 421 453 427 453 427 446 424 450 420 455 425 455 425 448 422 452 418 1336 425 449 421 453 427 453 427 1332 418 1336 425 1301 449 453 427 1326 424 450 420 455 425 454 426 1333 428 1299 451 1330 420 1333 428
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 10 03 00 00
 #
 name: Yellow
 type: parsed
@@ -99,7 +99,7 @@ protocol: Kaseikyo
 address: 80 02 20 03
 command: 30 01 00 00
 #
-name: Option
+name: Settings
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02

@@ -81,19 +81,19 @@ protocol: RC5
 address: 01 00 00 00
 command: 11 00 00 00
 #
-name: Page_Up
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 20 00 00 00
 #
-name: Pag_Down
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 01 00 00 00
 command: 21 00 00 00
 #
-name: Source
+name: Input
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -105,7 +105,7 @@ protocol: RC5
 address: 01 00 00 00
 command: 30 00 00 00
 #
-name: Pause_Play
+name: Pause_play
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -117,13 +117,13 @@ protocol: RC5
 address: 01 00 00 00
 command: 18 00 00 00
 #
-name: Rewind
+name: Rwd
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 875 822 872 820 1683 856 875 851 843 819 876 1701 1652 1707 874 851 1652 1709 872 820 824 85284 792 871 824 870 1708 833 873 851 793 901 794 1720 1708 1681 825 868 1710 1683 823 871 824
 #
-name: Fast_Forward
+name: Fwd
 type: parsed
 protocol: RC5
 address: 01 00 00 00
@@ -178,10 +178,10 @@ address: 01 00 00 00
 command: 05 00 00 00
 #
 name: 6
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 819 871 823 872 1657 882 823 873 822 901 793 1724 1655 883 822 872 822 1722 822 872 1657 86130 822 872 822 872 1681 859 823 872 822 872 822 1722 1680 859 823 870 824 1722 822 872 1681
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 06 00 00 00
 #
 name: 7
 type: parsed
@@ -196,10 +196,10 @@ address: 01 00 00 00
 command: 08 00 00 00
 #
 name: 9
-type: raw
-frequency: 38000
-duty_cycle: 0.330000
-data: 824 869 825 870 1709 830 825 869 825 868 827 1752 1651 855 826 1718 1685 854 827 1722 822 85251 825 869 825 867 1711 834 822 872 822 872 822 1719 1709 833 823 1720 1683 856 824 1752 792
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 09 00 00 00
 #
 name: 0
 type: parsed

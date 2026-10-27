@@ -133,13 +133,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 08 00 00 00
 #
-name: TV/Rad
+name: Tv
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: F0 00 00 00
 #
-name: Source
+name: Input
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -235,13 +235,13 @@ protocol: NEC
 address: 04 00 00 00
 command: AB 00 00 00
 #
-name: Vol+
+name: Vol_up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 02 00 00 00
 #
-name: Vol-
+name: Vol_dn
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -265,13 +265,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 09 00 00 00
 #
-name: CH+
+name: Ch_next
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 00 00 00 00
 #
-name: CH-
+name: Ch_prev
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -313,17 +313,17 @@ protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 #
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 41 00 00 00
+#
 name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
-#
-name: OK
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 44 00 00 00
 #
 name: Right
 type: parsed
@@ -331,11 +331,11 @@ protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 #
-name: Down
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 41 00 00 00
+command: 44 00 00 00
 #
 name: Text
 type: parsed
@@ -355,7 +355,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 91 00 00 00
 #
-name: Rec/*
+name: Rec
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -391,25 +391,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 8E 00 00 00
 #
-name: Red (1 dot)
+name: Red
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 72 00 00 00
 #
-name: Green (2 dots)
+name: Green
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 71 00 00 00
 #
-name: Yellow (3 dots)
+name: Yellow
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 63 00 00 00
 #
-name: Blue (4 dots)
+name: Blue
 type: parsed
 protocol: NEC
 address: 04 00 00 00

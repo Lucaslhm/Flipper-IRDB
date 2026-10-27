@@ -75,13 +75,13 @@ protocol: NEC
 address: A0 00 00 00
 command: 4A 00 00 00
 # 
-name: Fast_fo
+name: Fwd
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 08 00 00 00
 # 
-name: Fast_ba
+name: Rwd
 type: parsed
 protocol: NEC
 address: A0 00 00 00

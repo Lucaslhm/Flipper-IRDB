@@ -256,7 +256,7 @@ protocol: NECext
 address: 01 72 00 00
 command: 59 A6 00 00
 # 
-name: Play/pause
+name: Play_pause
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -268,19 +268,19 @@ protocol: NECext
 address: 01 72 00 00
 command: 11 EE 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 43 BC 00 00
 # 
-name: Fastforward
+name: Fwd
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 4F B0 00 00
 # 
-name: Previous
+name: Prev
 type: parsed
 protocol: NECext
 address: 01 72 00 00
@@ -292,25 +292,25 @@ protocol: NECext
 address: 01 72 00 00
 command: 4A B5 00 00
 # 
-name: Red/goto
+name: Red
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 55 AA 00 00
 # 
-name: Green/angle
+name: Green
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 56 A9 00 00
 # 
-name: Yellow/repeat
+name: Yellow
 type: parsed
 protocol: NECext
 address: 01 72 00 00
 command: 57 A8 00 00
 # 
-name: Blue/a->b
+name: Blue
 type: parsed
 protocol: NECext
 address: 01 72 00 00

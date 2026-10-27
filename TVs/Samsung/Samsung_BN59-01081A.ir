@@ -9,13 +9,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: VOL +
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: VOL -
+name: Vol_down
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -27,13 +27,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: P +
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: P -
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -63,7 +63,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 61 00 00 00
 # 
-name: OK
+name: Ok
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -81,7 +81,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
 # 
-name: Source
+name: Input
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -177,7 +177,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 8C 00 00 00
 # 
-name: Ch.List
+name: Ch_list
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -189,25 +189,25 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 2C 00 00 00
 # 
-name: A - RED
+name: Red
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 6C 00 00 00
 # 
-name: B - GREEN
+name: Green
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 14 00 00 00
 # 
-name: C - YELLOW
+name: Yellow
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 15 00 00 00
 # 
-name: D - BLUE
+name: Blue
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -237,19 +237,19 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4A 00 00 00
 # 
-name: FFW
+name: Fwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 48 00 00 00
 # 
-name: RWD
+name: Rwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 45 00 00 00
 # 
-name: REC
+name: Rec
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -291,7 +291,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 25 00 00 00
 # 
-name: PRE.CH
+name: Prev_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

@@ -267,13 +267,13 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: Backward
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8F 00 00 00
 # 
-name: Forward
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00

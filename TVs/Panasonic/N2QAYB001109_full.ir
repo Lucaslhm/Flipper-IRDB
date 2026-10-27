@@ -111,7 +111,7 @@ protocol: Kaseikyo
 address: 80 02 20 01
 command: 90 00 00 00
 #
-name: Option
+name: Settings
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 02
@@ -231,7 +231,7 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 80 01 00 00
 #
-name: ?_eHELP
+name: Help
 type: parsed
 protocol: Kaseikyo
 address: 80 02 20 02
@@ -249,7 +249,7 @@ protocol: Kaseikyo
 address: 80 02 20 00
 command: 70 03 00 00
 #
-name: Reverse
+name: Rwd
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
@@ -261,13 +261,13 @@ protocol: Kaseikyo
 address: 89 02 20 03
 command: 00 00 00 00
 #
-name: Fast_fwd
+name: Fwd
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
 command: 30 00 00 00
 #
-name: Previous
+name: Prev
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03
@@ -291,7 +291,7 @@ protocol: Kaseikyo
 address: 89 02 20 03
 command: 20 00 00 00
 #
-name: Record
+name: Rec
 type: parsed
 protocol: Kaseikyo
 address: 89 02 20 03

@@ -65,6 +65,7 @@ It is also helpful to ensure your model numbers are capitalized, as per the foll
 It's helpful to add further information as a comment directly into the IR file if possible. 
 Make, model, link, or even a short description can be helpful if the name is changed 
 (or just in general).
+If possible, please also add a photo of the remote's layout.
 
 ```bash
 Filetype: IR signals file
@@ -79,33 +80,52 @@ name: Power
 
 Please use this naming scheme for buttons. 
 This helps us create universal assets more easily and maintain consistency.
+A button must not be confusable with an other!
 
 | Audio / Video Devices  | ACs       | LEDs            |
 | ---------------------- | --------- | --------------- |
 | `Power`                | `Off`     | `Power_off`     |
-| `Vol_up`               | `Cool_hi` | `Power_on`      |
-| `Vol_dn`               | `Cool_lo` | `Brightness_up` |
-| `Next`                 | `Heat_hi` | `Brightness_dn` |
-| `Prev`                 | `Heat_lo` | `Red`           |
-| `Mute`                 | `Dh`      | `Green`         |
-| `Play`                 |           | `Blue`          |
-| `Pause`                |           | `White`         |
-| `Play_pause`           |           | `Yellow`        |
-| `Ok`                   |           |                 |
-| `Up`                   |           |                 |
-| `Down`                 |           |                 |
-| `Left`                 |           |                 |
-| `Right`                |           |                 |
-| `Back`                 |           |                 |
-| `Sleep`                |           |                 |
+| `Input`                | `Cool_hi` | `Power_on`      |
+| `Ok`                   | `Cool_lo` | `Brightness_up` |
+| `Up`                   | `Heat_hi` | `Brightness_dn` |
+| `Down`                 | `Heat_lo` | `Red`           |
+| `Left`                 | `Dh`      | `Green`         |
+| `Right`                |           | `Blue`          |
+| `Back`                 |           | `White`         |
+| `Vol_up`               |           | `Yellow`        |
+| `Vol_dn`               |           |                 |
 | `Ch_next`              |           |                 |
 | `Ch_prev`              |           |                 |
+| `Guide`                |           |                 |
+| `0`, `1`, `2`, ...     |           |                 |
+| `Play`                 |           |                 |
+| `Pause`                |           |                 |
+| `Play_pause`           |           |                 |
+| `Rwd`                  |           |                 |
+| `Fwd`                  |           |                 |
+| `Stop`                 |           |                 |
+| `Next`                 |           |                 |
+| `Prev`                 |           |                 |
+| `Mute`                 |           |                 |
+| `Sleep`                |           |                 |
 
 ## Universal Remotes
 
 The maintainers (mostly [amec0e](https://github.com/amec0e)) add individual additions to the various Universal Remotes in [unleashed-firmware](https://github.com/DarkFlippers/unleashed-firmware), which are adapted by many other firmware options.
 If you would like to contribute to the Universal Remotes, please make sure to follow the [naming scheme](#naming-scheme) above. 
 For ACs, [this is an important read](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/UniversalRemotes.md).
+
+
+## IRUI files
+
+If you have used the Remotes Library tool in the mobile app, you have seen a different UI than the default signal list. The mobile app generates IRUI files which describe the layout of the UI.
+
+However, when editing the signal in the IR file, the button stops working in the app. This is caused by the sha_256_string data field in the IRUI. After editing an IR file, the hash must be updated.
+The hash is updated based on the following rule: concatenate the data in the IR file.
+| Signal type | Fields concatenated before hashing (without separator) |
+| ----------- | ------------------------------------------------------ |
+| raw         | type + frequency + duty_cycle + data                   |
+| parsed      | type + protocol + address + command                    |
 
 
 ## Make your own manually!

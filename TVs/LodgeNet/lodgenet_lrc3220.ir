@@ -16,7 +16,7 @@ protocol: NECext
 address: 85 7C 00 00
 command: A2 5D 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: NECext
 address: 85 7C 00 00

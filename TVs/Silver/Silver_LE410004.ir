@@ -15,7 +15,7 @@ protocol: NECext
 address: 00 F7 00 00
 command: 10 EF 00 00
 # 
-name: Vol_donw
+name: Vol_down
 type: parsed
 protocol: NECext
 address: 00 F7 00 00
@@ -27,7 +27,7 @@ protocol: NECext
 address: 00 F7 00 00
 command: 0E F1 00 00
 # 
-name: Ch_donw
+name: Ch_down
 type: parsed
 protocol: NECext
 address: 00 F7 00 00

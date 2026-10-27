@@ -181,17 +181,17 @@ protocol: NECext
 address: 02 7D 00 00
 command: 48 B7 00 00
 # 
+name: Down
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4D B2 00 00
+# 
 name: Left
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4E B1 00 00
-# 
-name: Ok
-type: parsed
-protocol: NECext
-address: 02 7D 00 00
-command: 4A B5 00 00
 # 
 name: Right
 type: parsed
@@ -199,11 +199,11 @@ protocol: NECext
 address: 02 7D 00 00
 command: 49 B6 00 00
 # 
-name: Down
+name: Ok
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
-command: 4D B2 00 00
+command: 4A B5 00 00
 # 
 name: Ch_list
 type: parsed
@@ -229,13 +229,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 1A E5 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 57 A8 00 00
 # 
-name: Foreward
+name: Fwd
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

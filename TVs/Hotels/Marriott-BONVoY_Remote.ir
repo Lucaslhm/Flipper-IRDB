@@ -29,19 +29,19 @@ protocol: NEC
 address: 04 00 00 00
 command: 0E 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8F 00 00 00
 # 
-name: Playpause
+name: Play_pause
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: B0 00 00 00
 # 
-name: Fastforward
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -59,29 +59,29 @@ protocol: NEC
 address: 03 00 00 00
 command: 64 00 00 00
 # 
-name: Arrowup
+name: Up
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
-name: Arrowleft
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 41 00 00 00
+# 
+name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
 # 
-name: Arrowright
+name: Right
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
-# 
-name: Arrowup
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 41 00 00 00
 # 
 name: Back
 type: parsed
@@ -137,7 +137,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 1A 00 00 00
 # 
-name: Closed_cap
+name: Cc
 type: parsed
 protocol: NEC
 address: 04 00 00 00

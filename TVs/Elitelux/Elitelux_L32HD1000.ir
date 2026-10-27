@@ -196,25 +196,25 @@ protocol: NECext
 address: 00 7F 00 00
 command: 50 AF 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 47 B8 00 00
 # 
-name: Playpause
+name: Play_pause
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 4A B5 00 00
 # 
-name: Fastforward
+name: Fwd
 type: parsed
 protocol: NECext
 address: 00 7F 00 00
 command: 46 B9 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: NECext
 address: 00 7F 00 00

@@ -37,7 +37,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 14 00 00 00
 # 
-name: Source
+name: Input
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -145,25 +145,25 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 28 00 00 00
 # 
-name: R
+name: Red
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 25 00 00 00
 # 
-name: G
+name: Green
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 26 00 00 00
 # 
-name: Y
+name: Yellow
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
 command: 27 00 00 00
 # 
-name: B
+name: Blue
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00

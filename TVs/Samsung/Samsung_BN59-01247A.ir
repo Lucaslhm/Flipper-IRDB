@@ -7,7 +7,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 #
-name: Source
+name: Input
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -79,7 +79,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 11 00 00 00
 #
-name: Pre_ch
+name: Prev_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -193,25 +193,25 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 2D 00 00 00
 #
-name: A
+name: Red
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 6C 00 00 00
 #
-name: B
+name: Green
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 14 00 00 00
 #
-name: C
+name: Yellow
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 4643 4362 687 1554 685 1553 685 1553 684 433 685 435 632 488 631 487 632 487 632 1606 632 1606 632 1607 631 488 631 488 631 489 656 487 632 487 631 1607 630 489 629 1610 628 491 628 1611 627 492 627 492 627 492 627 492 627 1611 627 492 627 1612 626 492 627 1611 627 1612 626 1611 627
 #
-name: D
+name: Blue
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -241,7 +241,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 4593 4416 632 1605 687 1552 686 1551 686 433 685 433 684 435 632 487 631 487 632 1606 632 1606 632 1606 631 489 630 489 630 513 606 513 632 487 631 487 631 1608 629 1609 628 491 628 491 628 492 627 1611 627 492 627 1611 627 492 627 492 627 1611 627 1611 627 1611 627 492 627 1611 627
 #
-name: Back
+name: Rwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -259,7 +259,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4A 00 00 00
 #
-name: Fast_forward
+name: Fwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

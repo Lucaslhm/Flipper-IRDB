@@ -220,13 +220,13 @@ protocol: NECext
 address: 00 BF 00 00
 command: 5A A5 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 58 A7 00 00
 # 
-name: Fastforward
+name: Fwd
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

@@ -63,13 +63,13 @@ protocol: NECext
 address: 72 DD 00 00
 command: 48 B7 00 00
 #
-name: Fast_fo
+name: Fwd
 type: parsed
 protocol: NECext
 address: 72 DD 00 00
 command: 41 BE 00 00
 #
-name: Fast_ba
+name: Rwd
 type: parsed
 protocol: NECext
 address: 72 DD 00 00
@@ -123,9 +123,8 @@ protocol: NECext
 address: 72 DD 00 00
 command: 1F E0 00 00
 #
-name: Record
+name: Rec
 type: parsed
 protocol: NECext
 address: 72 DD 00 00
 command: 04 FB 00 00
-#

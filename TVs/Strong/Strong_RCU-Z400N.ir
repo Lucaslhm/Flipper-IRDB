@@ -105,7 +105,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 06 00 00 00
 #
-name: Ch_previous
+name: Prev_ch
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -273,7 +273,7 @@ protocol: NEC
 address: A0 00 00 00
 command: 1B 00 00 00
 #
-name: Play/pause
+name: Play_pause
 type: parsed
 protocol: NEC
 address: A0 00 00 00
@@ -285,13 +285,13 @@ protocol: NEC
 address: A0 00 00 00
 command: 08 00 00 00
 #
-name: Fast_fwd
+name: Fwd
 type: parsed
 protocol: NEC
 address: A0 00 00 00
 command: 04 00 00 00
 #
-name: Fast_rev
+name: Rwd
 type: parsed
 protocol: NEC
 address: A0 00 00 00

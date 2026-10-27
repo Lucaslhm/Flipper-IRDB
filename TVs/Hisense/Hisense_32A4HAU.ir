@@ -94,7 +94,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 5C A3 00 00
 # 
-name: Pause/play
+name: Pause_play
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -190,7 +190,7 @@ protocol: NECext
 address: 00 BF 00 00
 command: 3A C5 00 00
 # 
-name: Chlist
+name: Ch_list
 type: parsed
 protocol: NECext
 address: 00 BF 00 00

@@ -57,7 +57,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 75 00 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -123,7 +123,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 1C 00 00 00
 # 
-name: Rew
+name: Rwd
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00

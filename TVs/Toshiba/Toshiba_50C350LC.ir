@@ -69,13 +69,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 49 B6 00 00
 #
-name: Select
+name: Ok
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4a b5 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -87,7 +87,7 @@ protocol: NECext
 address: 02 7D 00 00
 command: 5B A4 00 00
 # 
-name: Fast_forward
+name: Fwd
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

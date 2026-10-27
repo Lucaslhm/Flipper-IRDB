@@ -33,12 +33,6 @@ protocol: NEC
 address: 40 00 00 00
 command: 40 00 00 00
 #
-name: Ok
-type: parsed
-protocol: NEC
-address: 40 00 00 00
-command: 89 00 00 00
-#
 name: Up
 type: parsed
 protocol: NEC
@@ -63,13 +57,19 @@ protocol: NEC
 address: 40 00 00 00
 command: 47 00 00 00
 #
-name: Fast_fo
+name: Ok
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 89 00 00 00
+#
+name: Fwd
 type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 4E 00 00 00
 #
-name: Fast_ba
+name: Rwd
 type: parsed
 protocol: NEC
 address: 40 00 00 00
@@ -200,4 +200,3 @@ type: parsed
 protocol: NEC
 address: 40 00 00 00
 command: 44 00 00 00
-#

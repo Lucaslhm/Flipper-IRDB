@@ -1,7 +1,7 @@
 Filetype: IR signals file
 Version: 1
 # 
-name: On_off
+name: Power
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -25,13 +25,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0B 00 00 00
 # 
-name: Pr_up
+name: Ch_next
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 12 00 00 00
 # 
-name: Pr_down
+name: Ch_prev
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -43,7 +43,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 0F 00 00 00
 # 
-name: Source
+name: Input
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

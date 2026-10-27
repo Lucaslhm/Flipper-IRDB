@@ -9,13 +9,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 02 00 00 00
 # 
-name: Volup
+name: Vol_up
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 07 00 00 00
 # 
-name: Voldown
+name: Vol_dn
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

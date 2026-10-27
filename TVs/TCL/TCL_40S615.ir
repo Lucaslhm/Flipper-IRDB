@@ -69,19 +69,19 @@ protocol: RCA
 address: 0F 00 00 00
 command: EA 00 00 00
 # 
-name: Fast_fo
+name: Fwd
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: 38 00 00 00
 # 
-name: Fast_ba
+name: Rwd
 type: parsed
 protocol: RCA
 address: 0F 00 00 00
 command: B8 00 00 00
 # 
-name: Play_pa
+name: Play_pause
 type: parsed
 protocol: RCA
 address: 0F 00 00 00

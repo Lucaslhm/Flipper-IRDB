@@ -160,7 +160,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 7C 00 00 00
 # 
-name: My_apps
+name: Apps
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -274,19 +274,19 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8F 00 00 00
 # 
-name: Forward
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8E 00 00 00
 # 
-name: Rec/*
+name: Rec
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -304,7 +304,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 91 00 00 00
 # 
-name: Tv/rad
+name: Tv
 type: parsed
 protocol: NEC
 address: 04 00 00 00

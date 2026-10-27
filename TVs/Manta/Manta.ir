@@ -3,7 +3,7 @@ Version: 1
 # 
 # Manta TV
 #
-name: On
+name: Power
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -15,19 +15,19 @@ protocol: NECext
 address: 00 BF 00 00
 command: 48 B7 00 00
 # 
-name: Vol_dwn
+name: Vol_dn
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 49 B6 00 00
 # 
-name: Prog_up
+name: Ch_next
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 4A B5 00 00
 # 
-name: Prog_dwn
+name: Ch_prev
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
@@ -39,17 +39,11 @@ protocol: NECext
 address: 00 BF 00 00
 command: 01 FE 00 00
 # 
-name: Source
+name: Input
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 16 E9 00 00
-# 
-name: Ok
-type: parsed
-protocol: NECext
-address: 00 BF 00 00
-command: 10 EF 00 00
 # 
 name: Up
 type: parsed
@@ -57,11 +51,17 @@ protocol: NECext
 address: 00 BF 00 00
 command: 13 EC 00 00
 # 
-name: Dwn
+name: Down
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
 command: 14 EB 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 11 EE 00 00
 # 
 name: Right
 type: parsed
@@ -69,11 +69,11 @@ protocol: NECext
 address: 00 BF 00 00
 command: 12 ED 00 00
 # 
-name: Left
+name: Ok
 type: parsed
 protocol: NECext
 address: 00 BF 00 00
-command: 11 EE 00 00
+command: 10 EF 00 00
 # 
 name: Exit
 type: parsed

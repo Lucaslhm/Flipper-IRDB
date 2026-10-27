@@ -18,19 +18,19 @@ protocol: RC5
 address: 03 00 00 00
 command: 10 00 00 00
 # 
-name: Vol_down
+name: Vol_dn
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 11 00 00 00
 # 
-name: Ch_up
+name: Ch_next
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 20 00 00 00
 # 
-name: Ch_down
+name: Ch_prev
 type: parsed
 protocol: RC5
 address: 03 00 00 00
@@ -48,7 +48,7 @@ protocol: RC5
 address: 03 00 00 00
 command: 38 00 00 00
 # 
-name: Last_ch
+name: Prev_ch
 type: parsed
 protocol: RC5
 address: 03 00 00 00
@@ -90,17 +90,17 @@ protocol: RC5
 address: 03 00 00 00
 command: 13 00 00 00
 # 
-name: Right
-type: parsed
-protocol: RC5
-address: 03 00 00 00
-command: 16 00 00 00
-# 
 name: Left
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 15 00 00 00
+# 
+name: Right
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 16 00 00 00
 # 
 name: Info
 type: parsed
@@ -216,13 +216,13 @@ protocol: RC5
 address: 03 00 00 00
 command: 33 00 00 00
 # 
-name: Fast_fw
+name: Fwd
 type: parsed
 protocol: RC5
 address: 03 00 00 00
 command: 1C 00 00 00
 # 
-name: Fast_back
+name: Rwd
 type: parsed
 protocol: RC5
 address: 03 00 00 00

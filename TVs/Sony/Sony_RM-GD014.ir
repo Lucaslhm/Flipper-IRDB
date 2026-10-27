@@ -45,7 +45,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 25 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -207,7 +207,7 @@ protocol: SIRC15
 address: 77 00 00 00
 command: 60 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00
@@ -219,7 +219,7 @@ protocol: SIRC15
 address: 97 00 00 00
 command: 1A 00 00 00
 # 
-name: Fastforward
+name: Fwd
 type: parsed
 protocol: SIRC15
 address: 97 00 00 00

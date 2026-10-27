@@ -73,7 +73,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 6D 00 00 00
 #
-name: Light_blue
+name: Green
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

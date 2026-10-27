@@ -40,12 +40,6 @@ protocol: NEC
 address: 50 00 00 00
 command: 1F 00 00 00
 # 
-name: Ok
-type: parsed
-protocol: NEC
-address: 50 00 00 00
-command: 0A 00 00 00
-# 
 name: Up
 type: parsed
 protocol: NEC
@@ -69,6 +63,12 @@ type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 47 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 0A 00 00 00
 # 
 name: Menu
 type: parsed
@@ -112,13 +112,13 @@ protocol: NEC
 address: 50 00 00 00
 command: 59 00 00 00
 # 
-name: FF
+name: Fwd
 type: parsed
 protocol: NEC
 address: 50 00 00 00
 command: 4E 00 00 00
 # 
-name: Rew
+name: Rwd
 type: parsed
 protocol: NEC
 address: 50 00 00 00
@@ -136,7 +136,7 @@ protocol: NEC
 address: 50 00 00 00
 command: 44 00 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: NEC
 address: 50 00 00 00

@@ -5,6 +5,18 @@ Version: 1
 # Used for LG Monitor 27GR95QE
 # By nitepone
 #
+name: Power
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 08 F7 00 00
+# 
+name: Input
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 0B F4 00 00
+# 
 name: Up
 type: parsed
 protocol: NECext
@@ -29,35 +41,23 @@ protocol: NECext
 address: 04 F4 00 00
 command: 06 F9 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: NECext
 address: 04 F4 00 00
 command: 44 BB 00 00
-# 
-name: Power
-type: parsed
-protocol: NECext
-address: 04 F4 00 00
-command: 08 F7 00 00
-# 
-name: Source
-type: parsed
-protocol: NECext
-address: 04 F4 00 00
-command: 0B F4 00 00
-# 
-name: Settings
-type: parsed
-protocol: NECext
-address: 04 F4 00 00
-command: 43 BC 00 00
 # 
 name: Back
 type: parsed
 protocol: NECext
 address: 04 F4 00 00
 command: 28 D7 00 00
+# 
+name: Settings
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 43 BC 00 00
 # 
 name: Vol_up
 type: parsed

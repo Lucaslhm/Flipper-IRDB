@@ -255,7 +255,7 @@ protocol: RCA
 address: 0F 00 00 00
 command: 09 00 00 00
 # 
-name: Record
+name: Rec
 type: parsed
 protocol: RCA
 address: 0F 00 00 00

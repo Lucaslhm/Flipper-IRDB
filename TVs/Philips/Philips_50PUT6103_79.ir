@@ -49,12 +49,6 @@ protocol: RC6
 address: 00 00 00 00
 command: BF 00 00 00
 # 
-name: OK
-type: parsed
-protocol: RC6
-address: 00 00 00 00
-command: 5C 00 00 00
-# 
 name: Up
 type: parsed
 protocol: RC6
@@ -78,6 +72,12 @@ type: parsed
 protocol: RC6
 address: 00 00 00 00
 command: 5B 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 5C 00 00 00
 # 
 name: Info
 type: parsed
@@ -157,7 +157,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 37 00 00 00
 # 
-name: RW
+name: Rwd
 type: parsed
 protocol: RC6
 address: 00 00 00 00
@@ -169,7 +169,7 @@ protocol: RC6
 address: 00 00 00 00
 command: 2C 00 00 00
 # 
-name: FF
+name: Fwd
 type: parsed
 protocol: RC6
 address: 00 00 00 00

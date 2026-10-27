@@ -35,7 +35,7 @@ protocol: NECext
 address: EA C2 00 00
 command: 2D D2 00 00
 #
-name: Enter
+name: Ok
 type: parsed
 protocol: NECext
 address: EA C2 00 00
@@ -53,19 +53,19 @@ protocol: NECext
 address: EA C2 00 00
 command: 61 9E 00 00
 #
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 34 CB 00 00
 #
-name: Play/pause
+name: Play_pause
 type: parsed
 protocol: NECext
 address: EA C2 00 00
 command: 4C B3 00 00
 #
-name: Fast_forward
+name: Fwd
 type: parsed
 protocol: NECext
 address: EA C2 00 00

@@ -63,7 +63,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 44 00 00 00
 # 
-name: Tv_guide
+name: Guide
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -81,13 +81,13 @@ protocol: NEC
 address: 04 00 00 00
 command: B0 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 8F 00 00 00
 # 
-name: Forward
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -243,25 +243,25 @@ protocol: NEC
 address: 04 00 00 00
 command: 0A 00 00 00
 # 
-name: A_red
+name: Red
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: C1 00 00 00
 # 
-name: B_green
+name: Green
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: C0 00 00 00
 # 
-name: C_yellow
+name: Yellow
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: C2 00 00 00
 # 
-name: D_blue
+name: Blue
 type: parsed
 protocol: NEC
 address: 04 00 00 00

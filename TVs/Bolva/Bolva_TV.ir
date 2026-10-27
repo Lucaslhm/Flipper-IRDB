@@ -121,13 +121,13 @@ protocol: NECext
 address: 02 7D 00 00
 command: 13 EC 00 00
 # 
-name: Ff
+name: Fwd
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 56 A9 00 00
 # 
-name: Rw
+name: Rwd
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
@@ -235,25 +235,25 @@ protocol: NECext
 address: 02 7D 00 00
 command: 5F A0 00 00
 # 
-name: Red_info
+name: Red
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 4F B0 00 00
 # 
-name: Green_freeze
+name: Green
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 40 BF 00 00
 # 
-name: Yellow_add_erase
+name: Yellow
 type: parsed
 protocol: NECext
 address: 02 7D 00 00
 command: 59 A6 00 00
 # 
-name: Blue_fav
+name: Blue
 type: parsed
 protocol: NECext
 address: 02 7D 00 00

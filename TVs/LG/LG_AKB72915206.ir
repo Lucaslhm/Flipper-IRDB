@@ -191,7 +191,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 41 00 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -257,7 +257,7 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: Rew
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00

@@ -75,13 +75,13 @@ protocol: NECext
 address: 00 DF 00 00
 command: 07 F8 00 00
 # 
-name: Fast_fo
+name: Fwd
 type: parsed
 protocol: NECext
 address: 00 DF 00 00
 command: 5E A1 00 00
 # 
-name: Fast_ba
+name: Rwd
 type: parsed
 protocol: NECext
 address: 00 DF 00 00

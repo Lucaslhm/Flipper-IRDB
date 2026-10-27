@@ -65,7 +65,7 @@ protocol: RCA
 address: 0F 00 00 00
 command: EA 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: RCA
 address: 0F 00 00 00

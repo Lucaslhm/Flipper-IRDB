@@ -8,7 +8,7 @@ Version: 1
 # About Remote: This is the Sony SFRTV5, a debug and technician remote used to set up and troubleshoot sony device store displays. This remote should work on any Sony TV and sound bar as well as most other Sony Devices.
 # Clarifications:
 # "Up" "Down" "Left" and "Right" refer to the center directional keys.
-# "Select" refers to the center directional key.
+# "Ok" refers to the center directional key.
 # "Reverse" and "Forward" refer to the keys to the left and right of the "Play" key, respectively.
 # "Previous" and "Next" refer to the keys to the left and right of the "Pause" key, respectively.
 # All commands preceeded with "0" (eg. "0Optioons" "0Up" "0Blue", etc) are commands run while holding the "SHIFT" key on the remote.
@@ -110,7 +110,7 @@ protocol: SIRC
 address: 01 00 00 00
 command: 60 00 00 00
 # 
-name: Select
+name: Ok
 type: parsed
 protocol: SIRC
 address: 01 00 00 00
@@ -290,7 +290,7 @@ protocol: SIRC15
 address: 30 00 00 00
 command: 53 00 00 00
 # 
-name: 0Select
+name: 0Ok
 type: parsed
 protocol: SIRC15
 address: 30 00 00 00

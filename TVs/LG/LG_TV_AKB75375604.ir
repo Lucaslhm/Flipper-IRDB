@@ -189,17 +189,17 @@ protocol: NEC
 address: 04 00 00 00
 command: 40 00 00 00
 # 
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 41 00 00 00
+# 
 name: Left
 type: parsed
 protocol: NEC
 address: 04 00 00 00
 command: 07 00 00 00
-# 
-name: Ok
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 44 00 00 00
 # 
 name: Right
 type: parsed
@@ -207,11 +207,11 @@ protocol: NEC
 address: 04 00 00 00
 command: 06 00 00 00
 # 
-name: Down
+name: Ok
 type: parsed
 protocol: NEC
 address: 04 00 00 00
-command: 41 00 00 00
+command: 44 00 00 00
 # 
 name: Back
 type: parsed
@@ -231,7 +231,7 @@ protocol: NEC
 address: 04 00 00 00
 command: 91 00 00 00
 # 
-name: Rec/*
+name: Rec
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -243,7 +243,7 @@ protocol: NEC
 address: 04 00 00 00
 command: B1 00 00 00
 # 
-name: <<_rwd
+name: Rwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00
@@ -261,7 +261,7 @@ protocol: NEC
 address: 04 00 00 00
 command: BA 00 00 00
 # 
-name: >>_ff
+name: Fwd
 type: parsed
 protocol: NEC
 address: 04 00 00 00

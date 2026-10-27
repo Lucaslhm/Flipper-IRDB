@@ -7,6 +7,12 @@ protocol: NEC
 address: 80 00 00 00
 command: 12 00 00 00
 # 
+name: 0
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 00 00 00 00
+# 
 name: 1
 type: parsed
 protocol: NEC
@@ -61,23 +67,11 @@ protocol: NEC
 address: 80 00 00 00
 command: 09 00 00 00
 # 
-name: Ok
-type: parsed
-protocol: NEC
-address: 80 00 00 00
-command: 0A 00 00 00
-# 
 name: Source
 type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 14 00 00 00
-# 
-name: O
-type: parsed
-protocol: NEC
-address: 80 00 00 00
-command: 00 00 00 00
 # 
 name: Up
 type: parsed
@@ -102,6 +96,12 @@ type: parsed
 protocol: NEC
 address: 80 00 00 00
 command: 47 00 00 00
+# 
+name: Ok
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
 # 
 name: Back
 type: parsed

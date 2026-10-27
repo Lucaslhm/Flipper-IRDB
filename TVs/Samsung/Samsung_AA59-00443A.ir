@@ -61,7 +61,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 10 00 00 00
 #
-name: Source
+name: Input
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -103,7 +103,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 73 00 00 00
 #
-name: Enter
+name: Ok
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -145,13 +145,13 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 4A 00 00 00
 #
-name: Rewind
+name: Rwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 45 00 00 00
 #
-name: Fast_fwd
+name: Fwd
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -169,25 +169,25 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 49 00 00 00
 #
-name: A
+name: Red
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 6C 00 00 00
 #
-name: B
+name: Green
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 14 00 00 00
 #
-name: C
+name: Yellow
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
 command: 15 00 00 00
 #
-name: D
+name: Blue
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00
@@ -265,7 +265,7 @@ protocol: Samsung32
 address: 07 00 00 00
 command: 23 00 00 00
 #
-name: Pre_ch
+name: Prev_ch
 type: parsed
 protocol: Samsung32
 address: 07 00 00 00

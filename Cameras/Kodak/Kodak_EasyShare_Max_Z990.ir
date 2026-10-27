@@ -3,7 +3,7 @@ Version: 1
 # 
 # Camera Kodak EasyShare Max Z990
 # 
-name: SHUTTER
+name: Shutter
 type: parsed
 protocol: NEC
 address: 01 00 00 00

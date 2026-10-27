@@ -113,13 +113,13 @@ protocol: SIRC
 address: 10 00 00 00
 command: 7D 00 00 00
 # 
-name: Enter
+name: Ok
 type: parsed
 protocol: SIRC
 address: 0D 00 00 00
 command: 0C 00 00 00
 # 
-name: Rewind
+name: Rwd
 type: parsed
 protocol: SIRC
 address: 11 00 00 00
@@ -131,7 +131,7 @@ protocol: SIRC
 address: 11 00 00 00
 command: 32 00 00 00
 # 
-name: Fastfwd
+name: Fwd
 type: parsed
 protocol: SIRC
 address: 11 00 00 00

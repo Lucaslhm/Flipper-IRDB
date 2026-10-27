@@ -27,12 +27,6 @@ protocol: NEC
 address: 04 00 00 00
 command: 04 00 00 00
 # 
-name: Ok
-type: parsed
-protocol: NEC
-address: 04 00 00 00
-command: 5A 00 00 00
-# 
 name: Up
 type: parsed
 protocol: NEC
@@ -57,7 +51,13 @@ protocol: NEC
 address: 04 00 00 00
 command: 59 00 00 00
 # 
-name: Play_pa
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5A 00 00 00
+# 
+name: Play_pause
 type: parsed
 protocol: NEC
 address: 04 00 00 00
