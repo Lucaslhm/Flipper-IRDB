@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+#
+# Pioneer DC-Z72 midi system amplifier (amplifier / cassette / EQ unit, ~1990)
+# Remote: Pioneer CU-DC014 (AXD1088)
+# Captured from the original remote with a TSOP4838 + ESPHome remote_receiver,
+# verified by sending from ESPHome (Pioneer protocol, 40 kHz carrier).
+# Power is a toggle (on/standby).
+#
+name: Power
+type: parsed
+protocol: NEC
+address: A6 00 00 00
+command: 1C 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: A6 00 00 00
+command: 0A 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: A6 00 00 00
+command: 0B 00 00 00
