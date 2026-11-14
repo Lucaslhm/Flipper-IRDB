@@ -1,0 +1,30 @@
+Filetype: IR signals file
+Version: 1
+#
+# Tansun Bahama Ultra 2.0 kW infrared heater, white (retail code TANBAHU2WG)
+# Verified with a Broadlink RM4 Mini against the real heater.
+# NEC address 0x22, carrier 38 kHz.
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: F1 00 00 00
+#
+name: P1_70pct
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: F2 00 00 00
+#
+name: P2_100pct
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: F8 00 00 00
+#
+name: Max_HI
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: F6 00 00 00
