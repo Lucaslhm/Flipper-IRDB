@@ -1,0 +1,82 @@
+Filetype: IR signals file
+Version: 1
+# 
+# SIBRILLE Double Head LED Desk Lamp (NEC 0x22DD)
+# 
+name: Power_on
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 11 00 00 00
+# 
+name: Power_off
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 11 00 00 00
+# 
+name: Timer_15m
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 1D 00 00 00
+# 
+name: Max_100pct
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 03 00 00 00
+# 
+name: Brightness_up
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 18 00 00 00
+# 
+name: Brightness_dn
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 1F 00 00 00
+# 
+name: White
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 07 00 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 0F 00 00 00
+# 
+name: Daylight_Mode
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 19 00 00 00
+# 
+name: Work_Mode
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 16 00 00 00
+# 
+name: Relax_Mode
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 12 00 00 00
+# 
+name: Warm_Mid
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 0A 00 00 00
+# 
+name: Night_Light
+type: parsed
+protocol: NEC
+address: 22 DD 00 00
+command: 0C 00 00 00
