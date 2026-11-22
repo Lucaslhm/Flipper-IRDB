@@ -1,0 +1,105 @@
+Filetype: IR signals file
+Version: 1
+#
+# Clatronic (CTC) SLS 570 - 5.1 CH Home Theater active subwoofer/amplifier (2003)
+# Inputs: AUX, CD, 5.1CH. Front panel: POWER, INPUT, MUTE, VOL -/+
+# Remote: labelled "SLS 570" (STANDBY, MUTE, CEN/SUR/SUB +/-, INPUT SEL, DSP, LEFT/RIGHT +/-, master volume arrows)
+# Protocol: NEC, address 0x80 (0x80 0x7F). Captured from the original remote with a Tuya IR blaster and decoded.
+# NOT compatible with AEG SLS-Series codes (those use NEC address 0x00 0xBF).
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+#
+name: Input
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 13 00 00 00
+#
+name: Dsp
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 10 00 00 00
+#
+name: Center_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 07 00 00 00
+#
+name: Center_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0B 00 00 00
+#
+name: Surround_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+#
+name: Surround_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 09 00 00 00
+#
+name: Sub_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+#
+name: Sub_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+#
+name: Front_left_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 17 00 00 00
+#
+name: Front_left_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 18 00 00 00
+#
+name: Front_right_up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 16 00 00 00
+#
+name: Front_right_dn
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+#
