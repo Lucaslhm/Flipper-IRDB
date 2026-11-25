@@ -1,0 +1,42 @@
+Filetype: IR signals file
+Version: 1
+#
+# Matchless Candle Co. flameless candle (4x AA, model code MCC-4AA)
+# Sold at Crate & Barrel. Uses the same NEC codes as Luminara candles.
+# Tested: power, flicker and brightness. Timer buttons untested, so not included.
+#
+name: Power_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+#
+name: Power_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 15 00 00 00
+#
+name: Flicker_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+#
+name: Flicker_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+#
+name: Brightness_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 19 00 00 00
+#
+name: Brightness_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 38 00 00 00
