@@ -1,0 +1,218 @@
+Filetype: IR signals file
+Version: 1
+#
+# Brand: 1Xoro
+# Device Model: hrt_7620_full_remote
+# Device Type: ТВ
+# Contributor: Cherniavskyi Pavlo
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 59 A6 00 00
+#
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 45 BA 00 00
+#
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 05 FA 00 00
+#
+name: Channel_List_or_OK
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 1A E5 00 00
+#
+name: Return_Recall
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 13 EC 00 00
+#
+name: CH_Up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 06 F9 00 00
+#
+name: CH_Down
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 16 E9 00 00
+#
+name: Dpad_Right_VolUp
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 1B E4 00 00
+#
+name: Dpad_Left_VolDown
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 5A A5 00 00
+#
+name: Vol_up
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 01 FE 00 00
+#
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 02 FD 00 00
+#
+name: Info
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 17 E8 00 00
+#
+name: EPG
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4D B2 00 00
+#
+name: Teletext_TXT
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 18 E7 00 00
+#
+name: Audio_Tonspur
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 51 AE 00 00
+#
+name: Subtitles
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 58 A7 00 00
+#
+name: V_Format_Res
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 40 BF 00 00
+#
+name: Aspect_Ratio
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 00 FF 00 00
+#
+name: Timer
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 03 FC 00 00
+#
+name: TV_Radio
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+#
+name: USB_Geraet
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 04 FB 00 00
+#
+name: USB_Flash
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 07 F8 00 00
+#
+name: Movie_PVR
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 55 AA 00 00
+#
+name: Hilfe
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: FC 03 00 00
+#
+name: Num_1
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 52 AD 00 00
+#
+name: Num_2
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 50 AF 00 00
+#
+name: Num_3
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 10 EF 00 00
+#
+name: Num_4
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 56 A9 00 00
+#
+name: Num_5
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 54 AB 00 00
+#
+name: Num_6
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 14 EB 00 00
+#
+name: Num_7
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4E B1 00 00
+#
+name: Num_8_Left
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 4C B3 00 00
+#
+name: Num_9
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0C F3 00 00
+#
+name: Num_0
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0F F0 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 19 E6 00 00
+#
