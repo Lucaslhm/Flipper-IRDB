@@ -19,6 +19,21 @@ protocol: RC5
 address: 10 00 00 00
 command: 0D 00 00 00
 # 
+# Input switching lives at RC5 system address 0x13 ("Preamp 2"), NOT 0x10.
+# The amp ignores a frame whose toggle bit matches the last frame it decoded,
+# so each keypress must flip the toggle (Flipper does this natively per press).
+name: Input_Next
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 01 00 00 00
+# 
+name: Input_Prev
+type: parsed
+protocol: RC5
+address: 13 00 00 00
+command: 02 00 00 00
+# 
 name: Source
 type: parsed
 protocol: NEC
