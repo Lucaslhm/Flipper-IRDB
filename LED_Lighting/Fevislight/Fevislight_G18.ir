@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+#
+# Fevislight G18 clip-on / reading light
+# Three white-light color modes, dimmable, 15/30/60/120-minute timer
+#
+# Product: https://amazon.co.jp/dp/B0H1WQLYV8
+#
+name: Power_on
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+#
+name: Power_off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+#
+name: Cool_light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+#
+name: Warm_light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 40 00 00 00
+#
+name: Natural_light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+#
+name: Brightness_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+#
+name: Brightness_up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+#
+name: Timer_15_min
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00
+#
+name: Timer_30_min
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 42 00 00 00
+#
+name: Timer_60_min
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+#
+name: Timer_120_min
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+#
