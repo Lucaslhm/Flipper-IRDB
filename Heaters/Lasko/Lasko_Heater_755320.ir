@@ -1,0 +1,118 @@
+Filetype: IR signals file
+Version: 1
+#
+# Lasko Remote Control Ceramic Heater with Digital Display
+# Model 755320
+# https://laskoproducts.zendesk.com/hc/en-us/articles/19417783563533-Model-755320-Remote-Control-Ceramic-Heater-with-Digital-Display
+#
+# I was unable to find any good information on the CIR protocol Lasko uses for
+# their heaters and fans. My rough guess as to what is going on is as follows:
+#
+# Features
+# * 12-bit frames, 3 address bits, 7 command bits.
+# * Symbol based modulation.
+# * Carrier frequency of 38kHz.
+# * Constant bit time of 1.6ms.
+#
+# Modulation
+#
+#       |<------[logical 1]------>| |<------[logical 0]------>|
+#       |███████████████          | |          ███████████████|
+#       |███████████████          | |          ███████████████|
+# ▄▄▄▄▄ |███████████████▄▄▄▄▄▄▄▄▄▄| |▄▄▄▄▄▄▄▄▄▄███████████████| ▄▄▄▄▄
+#       |<----1.25ms--->|<-0.4ms->| |<-0.4ms->|<----1.25ms--->|
+#
+# The protocol uses pulse width encoding, though both symbols come to the same
+# overall length of 1.6ms. The symbol for a logical 1 is a 1.2ms burst followed
+# by a 0.4ms gap. The symbol for a logical 0 is the reverse of this, so a 0.4ms
+# gap followed by a 1.2ms burst.
+#
+# Protocol
+#
+#   |[ 1 ][ 1 ]|[ 0 ][ 1 ][ 1 ]|[ 0 ][ 0 ][ 0 ][ 0 ][ 0 ][ 0 ][ 1 ]|
+#   |███  ███  |  ██████  ███  |  ███  ███  ███  ███  ███  ██████  |
+# ▄▄|███▄▄███▄▄|▄▄██████▄▄███▄▄|▄▄███▄▄███▄▄███▄▄███▄▄███▄▄██████▄▄|▄▄
+#   |          |MSB         LSB|MSB                             LSB|
+#   |<-Header->|<-- Address -->|<------------ Command ------------>|
+#
+# The diagram shows a typical pulse train. The MSB is transmitted first. Frames
+# begin with a 2-bit header, this probably acts something like the start burst
+# in Sony's SIRC protocol. Then the 3-bit address is transmitted, followed by
+# the 7-bit command. In this case address is 3 and command is 1.
+#
+# Hopefully this info is useful to the next poor soul that tries to mess with
+# this.
+#
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1200 400 1200 400 400 1200 1200 400 1200 400 400 1200 400 1200 400 1200 400 1200 400 1200 400 1200 1200 400
+# Address: 3 [011]
+# Command: 1 [0000001]
+# raw captures
+# data_1: 1256 398 1227 368 437 1221 1257 373 1254 378 436 1228 437 1229 435 1229 436 1230 434 1229 435 1228 1202 6838
+# data_2: 1254 370 1255 371 434 1221 1257 373 1254 380 434 1232 433 1231 433 1232 432 1231 434 1231 434 1231 1252 6765
+# data_3: 1254 372 1253 372 433 1227 1251 375 1252 382 432 1233 432 1233 432 1234 431 1233 432 1233 432 1232 1250
+# 
+name: Timer
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1200 400 1200 400 400 1200 1200 400 1200 400 400 1200 400 1200 400 1200 400 1200 400 1200 1200 400 400 1200
+# Address: 3 [011]
+# Command: 2 [0000010]
+# raw captures
+# data_1: 1206 420 1206 420 409 1280 1175 423 1204 429 409 1257 408 1257 408 1257 408 1258 407 1256 1203 460 378 7665
+# data_2: 1204 421 1204 420 409 1250 1204 422 1205 430 407 1258 407 1256 408 1257 408 1257 407 1256 1203 430 407 7671
+# data_3: 1175 420 1205 421 408 1250 1204 424 1203 431 434 1230 435 1230 435 1229 510 1155 435 1228 1203 430 435 7637
+# data_4: 1203 450 1175 421 436 1222 1204 424 1203 430 435 1230 435 1230 434 1229 435 1231 406 1255 1204 431 407
+# 
+name: High_Low
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1200 400 1200 400 400 1200 1200 400 1200 400 400 1200 400 1200 400 1200 400 1200 1200 400 400 1200 400 1200
+# Address: 3 [011]
+# Command: 4 [0000100]
+# raw captures
+# data_1: 1256 397 1228 397 480 1148 1258 371 1257 377 436 1231 507 1157 508 1157 508 1154 1257 378 435 1229 436 7637
+# data_2: 1255 368 1257 371 433 1223 1256 371 1256 378 435 1230 435 1230 435 1229 436 1227 1256 378 436 1230 435
+# 
+name: Oscillate
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1200 400 1200 400 400 1200 1200 400 1200 400 400 1200 400 1200 400 1200 1200 400 400 1200 400 1200 400 1200
+# Address: 3 [011]
+# Command: 8 [0001000]
+# raw captures
+# data_1: 1255 370 1255 370 435 1223 1255 372 1255 380 434 1229 435 1233 431 1227 1255 379 435 1231 434 1231 433 7636
+# data_2: 1254 370 1255 370 435 1223 1255 373 1254 380 434 1231 434 1230 435 1229 1254 379 435 1230 435 1230 434 7615
+# data_3: 1255 371 1254 372 433 1223 1255 373 1254 381 433 1231 434 1231 433 1231 1251 380 434 1232 433 1233 431
+#
+name: Temp-
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1200 400 1200 400 400 1200 1200 400 1200 400 400 1200 1200 400 400 1200 400 1200 400 1200 400 1200 400 1200
+# Address: 3 [011]
+# Command: 16 [0010000]
+# raw captures
+# data_1: 1200 422 1202 423 434 1222 1202 424 1202 430 436 1231 1198 431 435 1228 436 1228 436 1229 435 1229 435 7634
+# data_2: 1201 422 1202 422 435 1221 1203 424 1202 431 435 1227 1202 430 436 1229 435 1229 435 1229 435 1229 435 7613
+# data_3: 1200 422 1202 421 436 1222 1202 424 1202 431 435 1227 1202 431 435 1227 437 1229 435 1229 435 1228 436 7634
+# data_4: 1201 423 1201 422 435 1221 1203 424 1202 430 436 1255 1174 430 436 1230 434 1229 435 1228 436 1229 435 7612
+# data_5: 1201 421 1203 422 435 1221 1203 424 1202 430 436 1228 1201 430 436 1230 434 1230 434 1229 435 1229 435
+# 
+name: Temp+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1200 400 1200 400 400 1200 1200 400 1200 400 400 1200 400 1200 1200 400 400 1200 400 1200 400 1200 400 1200
+# Address: 3 [011]
+# Command: 64 [0100000]
+# raw captures
+# data_1: 1199 422 1202 422 435 1222 1202 424 1202 431 435 1231 433 1228 1200 431 435 1230 434 1230 434 1230 434 7633
+# data_2: 1201 450 1174 422 435 1221 1203 424 1202 431 435 1229 435 1228 1200 431 435 1230 434 1230 434 1230 434 7612
+# data_3: 1201 423 1201 422 435 1222 1202 423 1203 431 435 1229 435 1228 1200 431 435 1228 436 1231 433 1257 406
