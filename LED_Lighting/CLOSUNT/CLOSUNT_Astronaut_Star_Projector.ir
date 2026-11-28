@@ -1,0 +1,92 @@
+Filetype: IR signals file
+Version: 1
+# 
+# CLOSUNT Astronaut Star Projector (Star + nebula projector)
+# AKA IC ICLOVER Astronaut Star Projector
+# AKA Sameto Astronaut Nebula Projector
+# Different codes from "Astronaut nebula projector light/HLKZine/HR-F2"
+# By Pie
+#
+# Power toggle
+name: Power
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 45 00 00 00
+#
+# Sleep timer - Device indicator : blue = 45 min, red = 90 min. Short press while on cycles 45/90. Short press while off starts the timer at 45 or the last selected length. Hold cancels timer.
+name: Timer
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 47 00 00 00
+#
+# Short: Cycle nebula colour (Or turn nebula back on). Hold : Nebula off.
+name: Nebula_color
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 44 00 00 00
+#
+# Nebula brightness up. Does nothing when at max.
+name: Nebula_brightness_up
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 09 00 00 00
+#
+# Nebula brightness down. Does nothing when at min.
+name: Nebula_brightness_dn
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 15 00 00 00
+#
+# Nebula movement speed up. Does nothing when at max.
+name: Nebula_speed_up
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 43 00 00 00
+#
+# Nebula movement speed down. Does nothing when at min.
+name: Nebula_speed_dn
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 40 00 00 00
+#
+# Stars toggle
+name: Star_toggle
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: FF 00 00 00
+#
+# Star brightness up. Does nothing when at max. Only works when star blinking frequency is 0 (Not blinking).
+name: Star_brightness_up
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 0D 00 00 00
+#
+# Star brightness down. Does nothing when at min. Only works when star blinking frequency is 0 (Not blinking).
+name: Star_brightness_dn
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 07 00 00 00
+#
+# Star blinkinig level up. Always-on > Fast > Medium > Slow. Stops at slow. Like an old fan, 0 is steady, 1 is fast, 2 is medium, 3 is slow.
+name: Star_breathing_up
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 19 00 00 00
+#
+# Star blinkinig level down. Slow > Medium > Fast > Always-on. Stops at Always-on.  Like an old fan, 0 is steady, 1 is fast, 2 is medium, 3 is slow.
+name: Star_breathing_dn
+type: parsed
+protocol: NEC
+address: FF 00 00 00
+command: 46 00 00 00
